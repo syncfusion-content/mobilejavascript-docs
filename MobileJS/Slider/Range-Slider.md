@@ -1,0 +1,29 @@
+---
+layout: post
+title: Range-Slider
+description: range slider
+platform: Mobilejs
+control: Slider (Mobile)
+documentation: ug
+---
+
+## Range Slider
+
+The attribute data-ej-enablerange is used to select the range of values that is from and to values. The data-ej-values attribute specifies the “from” and “to” values for the Range Slider on initialization. Default value of the data-ej-enablerange is set to “false”.
+
+{% highlight html %}
+
+        <div id="slider_sample" data-role="ejmslider" data-ej-enablerange=true ></div>    
+
+
+
+{% endhighlight %}
+
+
+
+The following screenshot displays the Range of the Slider:
+
+{ ![C:/Users/dineshr/Desktop/values.png](Range-Slider_images/Range-Slider_img1.png) | markdownify }
+{:.image }
+
+
