@@ -11,13 +11,13 @@ documentation: ug
 
 The Essential JavaScript mobile toolbar provides a single interface to select a command from a collection of commands. It also provides template support. In this example, you can learn how to create a Mail App and through that you can learn the features of Mobile Toolbar Widget.
 
-{ ![1](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
 ## Create the necessary layout
 
-The Essential JavaScript Mobile Toolbar Widget is created by using number of &lt;ul&gt; and &lt;li&gt;. Each &lt;li&gt; item performs individual actions. You can customize the Toolbar control by changing its properties according to your requirement. In this scenario, a _back_ toolbar item is used to navigate to previous page, _next_ toolbar item to show the next email in the inbox, _compose_ toolbar item to compose new mail, delete toolbar item to delete current mail, and close toolbar item to close the inbox app. The following steps guide you in creating a basic Toolbar for your application.
+The Essential JavaScript Mobile Toolbar Widget is created by using number of <ul> and <li>. Each <li> item performs individual actions. You can customize the Toolbar control by changing its properties according to your requirement. In this scenario, a _back_ toolbar item is used to navigate to previous page, _next_ toolbar item to show the next email in the inbox, _compose_ toolbar item to compose new mail, delete toolbar item to delete current mail, and close toolbar item to close the inbox app. The following steps guide you in creating a basic Toolbar for your application.
 
 Create an HTML file and add the following template to the html file for Toolbar creation.
 
@@ -117,13 +117,13 @@ Create an HTML file and add the following template to the html file for Toolbar 
 
 Execute this code to render the following output.
 
-{ ![2](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![2](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
 ## Create Toolbar Control
 
-To render the Toolbar control, set data-role attribute to ejmtoolbar in a &lt;div&gt; element and include a list of Toolbar items to be added. There are 20 built-in icons for Toolbar items. This can be achieved by using the data-ej-iconname attribute.  
+To render the Toolbar control, set data-role attribute to ejmtoolbar in a <div> element and include a list of Toolbar items to be added. There are 20 built-in icons for Toolbar items. This can be achieved by using the data-ej-iconname attribute.  
 
 {% highlight html %}
 
@@ -169,7 +169,7 @@ Use the following styles for content style.
 
 Run this code to render the following output.
 
-{ ![1](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -245,7 +245,7 @@ window.dialogObject.close(); //closes dialog
 
 Execute this code to render the following output. 
 
-{ ![3](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![3](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 

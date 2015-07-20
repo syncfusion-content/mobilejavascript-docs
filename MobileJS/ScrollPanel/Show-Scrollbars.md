@@ -37,7 +37,7 @@ The following screenshot displays “show scrollbars”:
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Show-Scrollbars_images/Show-Scrollbars_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Show-Scrollbars_images/Show-Scrollbars_img1.png)' | markdownify }}
 {:.image }
 
 

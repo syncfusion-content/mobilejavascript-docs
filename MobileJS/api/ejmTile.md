@@ -35,16 +35,16 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png"&gt;&lt;/div&gt;
+<div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png"></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imagePath: "themes/sample/tile", imageUrl: "people.png" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -151,18 +151,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the textPosition property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-rendermode="android" data-ej-android-textposition="outer" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" &gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-rendermode="android" data-ej-android-textposition="outer" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" >
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set textPosition on initialization. 
 // To set textPosition API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ renderMode:"android", android:{ textPosition:"outer" }, imagePath: "themes/sample/tile", imageUrl:"people.png" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -215,18 +215,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the backgroundColor property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-tilesize="medium" data-ej-backgroundcolor="black" &gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-tilesize="medium" data-ej-backgroundcolor="black" >
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set backgroundColor on initialization. 
 // To set backgroundColor API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imagePath: "themes/sample/tile", imageUrl: "people.png", tileSize: "medium", backgroundColor:"black" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -300,18 +300,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enabled property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-badge-enabled="true" &gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-badge-enabled="true" >
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set enabled on initialization. 
 // To set enabled API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", badge: { enabled: true },imagePath:"themes/sample/tile" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -364,18 +364,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the maxValue property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-badge-enabled="true" data-ej-badge-value="5" data-ej-badge-maxvalue="3" &gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-badge-enabled="true" data-ej-badge-value="5" data-ej-badge-maxvalue="3" >
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set maxValue on initialization. 
 // To set maxValue API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", badge: { enabled: true, value:5, maxValue:3 },imagePath:"themes/sample/tile"}); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -428,18 +428,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the minValue property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-badge-enabled="true" data-ej-badge-value="3" data-ej-badge-minvalue="5"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-badge-enabled="true" data-ej-badge-value="3" data-ej-badge-minvalue="5">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set minValue on initialization. 
 // To set minValue API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", badge: { enabled: true, value:3, minValue:5 } ,imagePath="themes/sample/tile"}); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -492,18 +492,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the text property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-badge-enabled="true" data-ej-badge-text="ten"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-badge-enabled="true" data-ej-badge-text="ten">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set text on initialization. 
 // To set text API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", badge: { enabled: true, text:"ten" } ,imagePath:"themes/sample/tile"}); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -556,18 +556,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the value property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-badge-enabled="true" data-ej-badge-value="5"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-badge-enabled="true" data-ej-badge-value="5">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set value on initialization. 
 // To set value API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", badge: { enabled: true, value:5 },imagePath:"themes/sample/tile" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -620,22 +620,22 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the captionTemplateId property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-captiontemplateid="sample" &gt;
-&lt;/div&gt; 
-&lt;div id="sample" &gt; Settings
-&lt;/div&gt;</code>
+<div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-captiontemplateid="sample" >
+</div> 
+<div id="sample" > Settings
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set captionTemplateId on initialization. 
 // To set captionTemplateId API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;div id="sample" &gt; Settings
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<div id="sample" > Settings
+</div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", captionTemplateId: "sample",imagePath:"themes/sample/tile"}); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -688,18 +688,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the text property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-cssclass="customclass"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-cssclass="customclass">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set cssClass on initialization. 
 // To set cssClass API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", cssClass:"customclass",imagePath:"themes/sample/tile" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -752,18 +752,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enablePersistence property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile"  data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-enablepersistence="true"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile"  data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-enablepersistence="true">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set enablePersistence on initialization. 
 // To set enablePersistence API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", enablePersistence:true,imagePath:"themes/sample/tile" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -816,18 +816,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the height property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-height=300 data-ej-width=300 data-ej-backgroundcolor="blue"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-height=300 data-ej-width=300 data-ej-backgroundcolor="blue">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set height on initialization. 
 // To set height API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", width:300,height:300 imagePath:"themes/sample/tile",backgroundColor:"blue" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -880,30 +880,30 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the imageClass property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imageclass="sample"&gt;
-&lt;/div&gt;  
-&lt;style&gt;
+<div id="tile" data-role="ejmtile" data-ej-imageclass="sample">
+</div>  
+<style>
 .sample
 {
 background-image:url("themes/sample/tile/ios7/people.png");
 }
-&lt;/style&gt;</code>
+</style></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set imageClass on initialization. 
 // To set imageClass API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageClass: "sample" }); 
-&lt;/script&gt;
-&lt;style&gt;
+</script>
+<style>
 .sample
 {
 background-image:url("themes/sample/tile/ios7/people.png");
 }
-&lt;/style&gt;</code>
+</style></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -956,18 +956,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the imagePath property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set imagePath on initialization. 
 // To set imagePath API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imagePath: "themes/sample/tile", imageUrl: "people.png" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1020,18 +1020,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the imagePosition property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-imageposition="right"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-imageposition="right">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set imagePosition on initialization. 
 // To set imagePosition API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", imagePosition: "right" ,imagePath:"themes/sample/tile"}); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1084,22 +1084,22 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the imageTemplateId property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imagetemplateid="sample" &gt;
-&lt;/div&gt; 
-&lt;div id="sample" style="background-image: url('themes/sample/tile/ios7/people.png');height:100%;width:100%;"&gt;
-&lt;/div&gt;</code>
+<div id="tile" data-role="ejmtile" data-ej-imagetemplateid="sample" >
+</div> 
+<div id="sample" style="background-image: url('themes/sample/tile/ios7/people.png');height:100%;width:100%;">
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set imageTemplateId on initialization. 
 // To set imageTemplateId API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;div id="sample" style="background-image: url('themes/sample/tile/ios7/people.png');height:100%;width:100%;"&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<div id="sample" style="background-image: url('themes/sample/tile/ios7/people.png');height:100%;width:100%;">
+</div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageTemplateId: "sample" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1152,18 +1152,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the imageUrl property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set imageUrl on initialization. 
 // To set imageUrl API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png",imagePath:"themes/sample/tile" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1237,18 +1237,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the textPosition property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-rendermode="ios7" data-ej-ios7-textposition="outer" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" &gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-rendermode="ios7" data-ej-ios7-textposition="outer" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" >
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set textPosition on initialization. 
 // To set textPosition API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ renderMode:"ios7", ios7:{ textPosition:"outer" }, imagePath: "themes/sample/tile", imageUrl:"people.png" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1322,18 +1322,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the liveTile enabled property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-imagepath="themes/sample/tile" data-ej-livetile-imageurl="['people.png','sports.png']" data-ej-livetile-enabled="true" data-ej-backgroundcolor="blue" &gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-imagepath="themes/sample/tile" data-ej-livetile-imageurl="['people.png','sports.png']" data-ej-livetile-enabled="true" data-ej-backgroundcolor="blue" >
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set liveTile enabled on initialization. 
 // To set liveTile enabled API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ renderMode:"windows", liveTile: { enabled: true, imageUrl:['people.png','sports.png'] },imagePath:"themes/sample/tile",backgroundColor:"blue" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1386,9 +1386,9 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the liveTile imageClass property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-livetile-imageclass="['img1','img2','img3']" data-ej-livetile-enabled="true" data-ej-backgroundcolor="blue" &gt;
-&lt;/div&gt;  
-&lt;style&gt;
+<div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-livetile-imageclass="['img1','img2','img3']" data-ej-livetile-enabled="true" data-ej-backgroundcolor="blue" >
+</div>  
+<style>
 .img1
 {
 background-image:url("themes/sample/tile/windows/people.png");
@@ -1401,18 +1401,18 @@ background-image:url("themes/sample/tile/windows/sports.png");
 {
 background-image:url("themes/sample/tile/windows/people_1.png");
 }
-&lt;/style&gt;</code>
+</style></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set liveTile imageClass on initialization. 
 // To set liveTile imageClass API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ renderMode:"windows", liveTile: { enabled: true, imageClass: ['img1','img2','img3'] },backgroundColor:"blue" }); 
-&lt;/script&gt;
-&lt;style&gt;
+</script>
+<style>
 .img1
 {
 background-image:url("themes/sample/tile/windows/people.png");
@@ -1425,7 +1425,7 @@ background-image:url("themes/sample/tile/windows/sports.png");
 {
 background-image:url("themes/sample/tile/windows/people_1.png");
 }
-&lt;/style&gt;</code>
+</style></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1478,30 +1478,30 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the liveTile imageTemplateId property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-livetile-imagetemplateid="['img1','img2','img3']" data-ej-livetile-enabled="true" data-ej-backgroundcolor="blue" &gt;
-&lt;/div&gt;
-&lt;div id="img1" style="background-image: url('themes/sample/tile/windows/people.png');height:100%;width:100%;"&gt;
-&lt;/div&gt;
-&lt;div id="img2" style="background-image: url('themes/sample/tile/windows/sports.png');height:100%;width:100%;"&gt;
-&lt;/div&gt;
-&lt;div id="img3" style="background-image: url('themes/sample/tile/windows/settings.png');height:100%;width:100%;"&gt;
-&lt;/div&gt;                </code>
+<div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-livetile-imagetemplateid="['img1','img2','img3']" data-ej-livetile-enabled="true" data-ej-backgroundcolor="blue" >
+</div>
+<div id="img1" style="background-image: url('themes/sample/tile/windows/people.png');height:100%;width:100%;">
+</div>
+<div id="img2" style="background-image: url('themes/sample/tile/windows/sports.png');height:100%;width:100%;">
+</div>
+<div id="img3" style="background-image: url('themes/sample/tile/windows/settings.png');height:100%;width:100%;">
+</div>                </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set liveTile imageTemplateId on initialization. 
 // To set liveTile imageTemplateId API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;div id="img1" style="background-image: url('themes/sample/tile/windows/people.png');height:100%;width:100%;"&gt;
-&lt;/div&gt;
-&lt;div id="img2" style="background-image: url('themes/sample/tile/windows/sports.png');height:100%;width:100%;"&gt;
-&lt;/div&gt;
-&lt;div id="img3" style="background-image: url('themes/sample/tile/windows/settings.png');height:100%;width:100%;"&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<div id="img1" style="background-image: url('themes/sample/tile/windows/people.png');height:100%;width:100%;">
+</div>
+<div id="img2" style="background-image: url('themes/sample/tile/windows/sports.png');height:100%;width:100%;">
+</div>
+<div id="img3" style="background-image: url('themes/sample/tile/windows/settings.png');height:100%;width:100%;">
+</div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ renderMode:"windows", liveTile: { enabled: true, imageTemplateId: ['img1','img2','img3'] },backgroundColor:"blue" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1554,18 +1554,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the liveTile imageUrl property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-backgroundcolor="blue" data-ej-rendermode="windows" data-ej-livetile-enabled="true" data-ej-imagepath="themes/sample/tile" data-ej-livetile-imageurl="['people.png','sports.png','settings.png']"  &gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-backgroundcolor="blue" data-ej-rendermode="windows" data-ej-livetile-enabled="true" data-ej-imagepath="themes/sample/tile" data-ej-livetile-imageurl="['people.png','sports.png','settings.png']"  >
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set liveTile imageUrl on initialization. 
 // To set liveTile imageUrl API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ backgroundColor:"blue",renderMode: "windows", liveTile: { enabled: true, imageUrl: ['people.png','sports.png','settings.png'] },imagePath:"themes/sample/tile" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1618,18 +1618,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the liveTile type property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-backgroundcolor="blue" data-ej-imagepath="themes/sample/tile" data-ej-livetile-enabled="true" data-ej-livetile-imageurl="['people.png','sports.png','settings.png']"  data-ej-livetile-type="carousel"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-backgroundcolor="blue" data-ej-imagepath="themes/sample/tile" data-ej-livetile-enabled="true" data-ej-livetile-imageurl="['people.png','sports.png','settings.png']"  data-ej-livetile-type="carousel">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set liveTile type on initialization. 
 // To set liveTile type API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({backgroundColor:"blue", renderMode: "windows", liveTile: { enabled: true, imageUrl: ['people.png','sports.png','settings.png'], type:"carousel" },imagePath:"themes/sample/tile" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1682,18 +1682,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the liveTile updateInterval property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-backgroundcolor="blue" data-ej-imagepath="themes/sample/tile" data-ej-livetile-enabled="true" data-ej-livetile-imageurl="['people.png','sports.png','settings.png']"  data-ej-livetile-updateinterval=1000&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-backgroundcolor="blue" data-ej-imagepath="themes/sample/tile" data-ej-livetile-enabled="true" data-ej-livetile-imageurl="['people.png','sports.png','settings.png']"  data-ej-livetile-updateinterval=1000>
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set liveTile updateInterval on initialization. 
 // To set liveTile updateInterval API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ backgroundColor:"blue",renderMode: "windows", liveTile: { enabled: true, imageUrl: ['people.png','sports.png','settings.png'], updateInterval:1000 },imagePath:"themes/sample/tile" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1746,18 +1746,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the renderMode property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-rendermode="android" &gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-rendermode="android" >
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set renderMode on initialization. 
 // To set renderMode API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imagePath: "themes/sample/tile", imageUrl: "people.png", renderMode:"android" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1810,18 +1810,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the showText property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile"  data-ej-imageurl="people.png" data-ej-showtext=false&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile"  data-ej-imageurl="people.png" data-ej-showtext=false>
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set showText on initialization. 
 // To set showText API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", showText:false,imagePath:"themes/sample/tile" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1874,18 +1874,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the text property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-text="Settings"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-text="Settings">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set text on initialization. 
 // To set text API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", text:"Settings",imagePath:"themes/sample/tile" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1938,18 +1938,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the textAlignment property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-textalignment="left"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-textalignment="left">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set textAlignment on initialization. 
 // To set textAlignment API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", textAlignment:"left",imagePath:"themes/sample/tile" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2002,18 +2002,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the theme property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-theme="dark" &gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-theme="dark" >
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set theme on initialization. 
 // To set theme API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imagePath: "themes/sample/tile", imageUrl: "people.png", theme:"dark" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2066,18 +2066,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the tileSize property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-tilesize="medium" data-ej-backgroundcolor="blue"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-tilesize="medium" data-ej-backgroundcolor="blue">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set tileSize on initialization. 
 // To set tileSize API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", tileSize:"medium",imagePath:"themes/sample/tile",backgroundColor:"blue" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2130,18 +2130,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the width property in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-height=300 data-ej-width=300 data-ej-backgroundcolor="blue"&gt;
-&lt;/div&gt;  </code>
+<div id="tile" data-role="ejmtile" data-ej-imageurl="people.png" data-ej-imagepath="themes/sample/tile" data-ej-height=300 data-ej-width=300 data-ej-backgroundcolor="blue">
+</div>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set width on initialization. 
 // To set width API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imageUrl: "people.png", width:300, height:300, imagePath:"themes/sample/tile",backgroundColor:"blue" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2184,18 +2184,18 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tile" data-role="ejmtile" data-ej-imagetemplateid="sample1" &gt;
-&lt;/div&gt; 
-&lt;div id="sample1" style="background-image: url('themes/sample/tile/ios7/people.png');height:100%;width:100%;"&gt;
-&lt;/div&gt;
-&lt;div id="sample2" style="background-image: url('themes/sample/tile/ios7/sports.png');height:100%;width:100%;"&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" data-role="ejmtile" data-ej-imagetemplateid="sample1" >
+</div> 
+<div id="sample1" style="background-image: url('themes/sample/tile/ios7/people.png');height:100%;width:100%;">
+</div>
+<div id="sample2" style="background-image: url('themes/sample/tile/ios7/sports.png');height:100%;width:100%;">
+</div>
+<script> 
 $(function () {
 var value = $("#tile").data("ejmTile");
 value.updateTemplate("sample2");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2279,28 +2279,28 @@ Example
 <pre class="prettyprint">
 <code> 
 //Define touchEnd event in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-touchend="touchend" &gt;
-&lt;/div&gt;  
-&lt;script&gt;
+<div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-touchend="touchend" >
+</div>  
+<script>
 // touchEnd event for tile
 function touchend(args){ 
 //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Define touchEnd event on initialization. 
 // To set touchEnd event API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imagePath: "themes/sample/tile", imageUrl: "people.png", 
 touchEnd: function (args) { 
 //handle the event 
 }
 }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2377,28 +2377,28 @@ Example
 <pre class="prettyprint">
 <code> 
 //Define touchStart event in unobtrusive way.
-&lt;div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-touchstart="touchstart" &gt;
-&lt;/div&gt;  
-&lt;script&gt;
+<div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png" data-ej-touchstart="touchstart" >
+</div>  
+<script>
 // touchStart event for tile
 function touchstart(args){ 
 //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Define touchStart event on initialization. 
 // To set touchStart event API value 
-&lt;div id="tile" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="tile" ></div>
+<script> 
 // Create Tile control 
 $("#tile").ejmTile({ imagePath: "themes/sample/tile", imageUrl: "people.png", 
 touchStart: function (args) { 
 //handle the event 
 }
 }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 

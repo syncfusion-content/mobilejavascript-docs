@@ -36,16 +36,16 @@ Example
 <pre class="prettyprint">
 <code> 
 // Create checkbox control in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Render checkbox on initialization
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt;  
+<input type="checkbox" id="chkbox" />
+<script>  
 $("#chkbox").ejmCheckBox(); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -128,16 +128,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the checked property in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-checked=false /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-checked=false />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // To set checked API value during initialization  
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt;  
+<input type="checkbox" id="chkbox" />
+<script>  
  $("#chkbox").ejmCheckBox({ checked:  true });                                  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -191,17 +191,17 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the Checkstate property in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enabletristate=true data-ej-checkstate="indeterminate" /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enabletristate=true data-ej-checkstate="indeterminate" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the Checkstate property on initialization.
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt;  
+<input type="checkbox" id="chkbox" />
+<script>  
 // To set Checkstate API value 
   $("#chkbox").ejmCheckBox({ enableTriState : true,checkState: ej.mobile.CheckBox.CheckState.Indeterminate });          
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -254,16 +254,16 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the cssClass property in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-cssclass="customclass" /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-cssclass="customclass" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code>// Set checkbox cssClass on initialization. 
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt;  
+<input type="checkbox" id="chkbox" />
+<script>  
 // To set cssClass API value 
 $("#chkbox").ejmCheckBox ({ cssClass: "customclass"});                  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -316,17 +316,17 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enabled property in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enabled=true /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enabled=true />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set enabled property checkbox on initialization. 
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt;  
+<input type="checkbox" id="chkbox" />
+<script>  
 // To set enabled API value 
         $("#chkbox").ejmCheckBox ({ enabled: true });                   
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -379,16 +379,16 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the enablePersistence property in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enablepersistence=true /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enablepersistence=true />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // To set enablePersistence API value 
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt;  
+<input type="checkbox" id="chkbox" />
+<script>  
   $("#chkbox").ejmCheckBox({ enablePersistence: true});          
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -441,17 +441,17 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableTriState property in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enabletristate="true" data-ej-checkstate="indeterminate" /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enabletristate="true" data-ej-checkstate="indeterminate" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the enableTriState property on initialization.
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt;  
+<input type="checkbox" id="chkbox" />
+<script>  
 // To set enableTriState  API value 
   $("#chkbox").ejmCheckBox({ enableTriState : true, checkState:"indeterminate" });              
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -504,17 +504,17 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the preventDefault property in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-preventdefault="false" /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-preventdefault="false" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set checkbox prevent default on initialization. 
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt;  
+<input type="checkbox" id="chkbox" />
+<script>  
 // To set preventDefault API value 
 $("#chkbox").ejmCheckBox ({ preventDefault: false });                   
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -567,16 +567,16 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the renderMode property in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-rendermode="auto" /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-rendermode="auto" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code>// Set checkbox rendermode on initialization. 
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt;  
+<input type="checkbox" id="chkbox" />
+<script>  
 // To set renderMode API value 
 $("#chkbox").ejmCheckBox ({ renderMode: ej.mobile.RenderMode.Auto});                    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -629,16 +629,16 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the text property in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-text="Checkbox" /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-text="Checkbox" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // To set text API value 
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt;  
+<input type="checkbox" id="chkbox" />
+<script>  
   $("#chkbox").ejmCheckBox({ text: "Hello World"});              
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -691,17 +691,17 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the theme property in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-theme="auto" /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-theme="auto" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set checkbox theme on initialization. 
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt; 
+<input type="checkbox" id="chkbox" />
+<script> 
 // To set Theme API value 
   $("#chkbox").ejmCheckBox ({ theme: ej.mobile.Theme.Auto });                   
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -775,16 +775,16 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the windows mode renderDefault property in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-windows-renderDefault=false /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-windows-renderDefault=false />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // To set windows mode renderDefault property API value 
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt;  
+<input type="checkbox" id="chkbox" />
+<script>  
 $("#chkbox").ejmCheckBox({ windows:{renderDefault: false}});             
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -827,22 +827,22 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input type="checkbox" id="chkbox"/&gt;
-&lt;script&gt;
+<input type="checkbox" id="chkbox"/>
+<script>
 // Create checkbox
 $("#chkbox").ejmCheckBox();
 var chkObj = $("#chkbox").data("ejmCheckBox");
 chkObj.isChecked(); // returns the checkbox current state
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input type="checkbox" id="chkbox" /&gt;
-&lt;script&gt;
+<input type="checkbox" id="chkbox" />
+<script>
 // get the checkbox current state
 $("#chkbox").ejmCheckBox();
 $("#chkbox").ejmCheckBox("isChecked");  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -931,25 +931,25 @@ Example
 <pre class="prettyprint">
 <code> 
 // Define the touchend event in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-touchend="touchend" /&gt;
-&lt;script&gt; 
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-touchend="touchend" />
+<script> 
 // touchEnd event for checkbox 
 function touchend(args){ 
 //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code>  
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
 // touchEnd event for checkbox
-* &lt;script&gt;
+* <script>
 $("#chkbox").ejmCheckBox({
   touchEnd: function (args) { 
 //handle the event 
 }
 });           
-* &lt;/script&gt;</code>
+* </script></code>
 </pre>
 
 
@@ -1031,25 +1031,25 @@ Example
 <pre class="prettyprint">
 <code> 
 // Define the touchstart event in unobtrusive way.
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-touchstart="touchstart" /&gt;
-&lt;script&gt; 
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-touchstart="touchstart" />
+<script> 
 // touchStart event for checkbox 
 function touchstart(args){ 
 //handle the event 
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code>  
-&lt;input type="checkbox" id="chkbox" data-role="ejmcheckbox" /&gt;
+<input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
 // touchStart event for checkbox
-* &lt;script&gt;
+* <script>
 $("#chkbox").ejmCheckBox({
   touchStart: function (args) { 
 //handle the event 
 }
 });           
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 

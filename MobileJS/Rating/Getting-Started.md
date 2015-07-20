@@ -14,7 +14,7 @@ documentation: ug
 Essential JavaScript Rating control for Mobile provides an intuitive Rating experience that allows you to select a number of stars that represent a Rating.
 
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -116,7 +116,7 @@ Create an HTML file and paste the following template to the HTML file to add Rat
 
 ## Add Rating control
 
-To add Rating control, you need to specify ejmrating to data-role attribute for a &lt;div&gt; element. Initially Mobile Rating control is rendered with default values of all properties, and it can be easily customized by changing their properties according to your requirements. Refer the following code example.
+To add Rating control, you need to specify ejmrating to data-role attribute for a <div> element. Initially Mobile Rating control is rendered with default values of all properties, and it can be easily customized by changing their properties according to your requirements. Refer the following code example.
 
 {% highlight html %}
 
@@ -172,7 +172,7 @@ Run the above code example and rate the application by selecting stars. You will
 
 
 
-{ ![IMG_0180](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![IMG_0180](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -193,7 +193,7 @@ You can customize the Rating Precision based on your requirement. You can custom
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 

@@ -49,7 +49,7 @@ Add the Following script.
 
 The following screenshot displays the DataSource:
 
-{ ![C:/Users/apoorvah.ramanathan/Desktop/1.png](Databinding_images/Databinding_img1.png) | markdownify }
+{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Databinding_images/Databinding_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -69,7 +69,7 @@ The data-ej-mapper attribute is used to specify the remote URL of the DataSource
 
 The following screenshot displays remote data binding:
 
-{ ![](Databinding_images/Databinding_img2.png) | markdownify }
+{{ '![](Databinding_images/Databinding_img2.png)' | markdownify }}
 {:.image }
 
 

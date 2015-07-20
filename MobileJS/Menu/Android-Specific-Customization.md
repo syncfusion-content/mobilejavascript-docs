@@ -50,7 +50,7 @@ The possible values are,
 
 The following screenshot displays the Android-specific Type:
 
-{ ![Type-Android](Android-Specific-Customization_images/Android-Specific-Customization_img1.png) | markdownify }
+{{ '![Type-Android](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

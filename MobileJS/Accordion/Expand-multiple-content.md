@@ -61,7 +61,7 @@ The data-ej-enablemultipleopen attribute is used to display or expand more than 
 
 The following screenshot displays expand multiple contents:
 
-{ ![](Expand-multiple-content_images/Expand-multiple-content_img1.png) | markdownify }
+{{ '![](Expand-multiple-content_images/Expand-multiple-content_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -165,7 +165,7 @@ Refer to the following code example.
 
 
 
-{ ![F:/thangavel/dev/source/Trunk/JSDoc/rotator-4.png](Orientation_images/Orientation_img1.png) | markdownify }
+{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-4.png](Orientation_images/Orientation_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -13,7 +13,7 @@ In this section, you can learn how to create Rotator for your mobile app.
 
 The Essential JavaScript Mobile Rotator widget is a container (that holds many items) with that you can navigate next and previous items through swipe gestures. Each item in rotator can hold any HTML content. In the following guideline, you can learn the features in mobile rotator widget by creating a Photo Gallery App.
 
-{ ![C:/Users/labuser/AppData/Local/Temp/SNAGHTML1f8cc07.PNG](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Local/Temp/SNAGHTML1f8cc07.PNG](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -215,7 +215,7 @@ Use the following styles to style the Rotator items.
 
 Run this code to render the following output. For more details, refer "Common Getting started” section.
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -245,7 +245,7 @@ Run this to render the following output. For more details, refer "Common Getting
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -253,7 +253,7 @@ By swiping left and right, you can view next images from the Photo Gallery.
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 

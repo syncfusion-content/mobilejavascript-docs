@@ -113,7 +113,7 @@ Add the following style
 
 Refer to the script section to update the page content while clicking the item in the drawer.
 
-{ ![](Configure-target-element_images/Configure-target-element_img1.png) | markdownify }
+{{ '![](Configure-target-element_images/Configure-target-element_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -121,7 +121,7 @@ You can display the drawer either by clicking on the target icon or else by swip
 
 
 
-{ ![](Configure-target-element_images/Configure-target-element_img2.png) | markdownify }
+{{ '![](Configure-target-element_images/Configure-target-element_img2.png)' | markdownify }}
 {:.image }
 
 

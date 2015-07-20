@@ -53,7 +53,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![24](Selection_images/Selection_img1.png) | markdownify }
+{{ '![24](Selection_images/Selection_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -146,7 +146,7 @@ Refer to the following script section.
 
 
 
-{ ![25](Selection_images/Selection_img2.png) | markdownify }
+{{ '![25](Selection_images/Selection_img2.png)' | markdownify }}
 {:.image }
 
 

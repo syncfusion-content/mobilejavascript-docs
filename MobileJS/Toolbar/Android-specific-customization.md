@@ -39,7 +39,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image124_11.png](Android-specific-customization_images/Android-specific-customization_img1.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image124_11.png](Android-specific-customization_images/Android-specific-customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -79,7 +79,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image124_12.png](Android-specific-customization_images/Android-specific-customization_img2.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image124_12.png](Android-specific-customization_images/Android-specific-customization_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -115,7 +115,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image124_13.png](Android-specific-customization_images/Android-specific-customization_img3.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image124_13.png](Android-specific-customization_images/Android-specific-customization_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -153,7 +153,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image124_14.png](Android-specific-customization_images/Android-specific-customization_img4.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image124_14.png](Android-specific-customization_images/Android-specific-customization_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -191,7 +191,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image124_15.png](Android-specific-customization_images/Android-specific-customization_img5.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image124_15.png](Android-specific-customization_images/Android-specific-customization_img5.png)' | markdownify }}
 {:.image }
 
 

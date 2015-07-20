@@ -43,7 +43,7 @@ By using the template support, you can customize the appearance of an individual
 
 The following screenshot displays the RenderTemplate of Menu.
 
-{ ![1](Templating_images/Templating_img1.png) | markdownify }
+{{ '![1](Templating_images/Templating_img1.png)' | markdownify }}
 {:.image }
 
 

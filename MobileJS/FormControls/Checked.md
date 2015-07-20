@@ -89,7 +89,7 @@ The data-ej-checked is a boolean attribute that lets you choose whether RadioBut
 
 The following screenshot displays checked status.
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2022239a.PNG](Checked_images/Checked_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2022239a.PNG](Checked_images/Checked_img1.png)' | markdownify }}
 {:.image }
 
 

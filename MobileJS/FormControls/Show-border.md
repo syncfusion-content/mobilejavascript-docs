@@ -33,7 +33,7 @@ Refer to the following code example.
 
 
 
-{ ![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8017b82d.PNG](Show-Border_images/Show-Border_img1.png) | markdownify }
+{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8017b82d.PNG](Show-Border_images/Show-Border_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -23,7 +23,7 @@ Refer to the following code example.
 
 
 
-{ ![D:/Final Doc/mockup/IMG_0524_iphone5s_spacegrey_portrait.png](Read-only-Support_images/Read-only-Support_img1.png) | markdownify }
+{{ '![D:/Final Doc/mockup/IMG_0524_iphone5s_spacegrey_portrait.png](Read-only-Support_images/Read-only-Support_img1.png)' | markdownify }}
 {:.image }
 
 

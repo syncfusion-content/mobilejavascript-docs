@@ -40,7 +40,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-{ ![](Customize-size_images/Customize-size_img1.png) | markdownify }
+{{ '![](Customize-size_images/Customize-size_img1.png)' | markdownify }}
 {:.image }
 
 

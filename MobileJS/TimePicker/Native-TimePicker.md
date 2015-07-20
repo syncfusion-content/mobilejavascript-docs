@@ -21,7 +21,7 @@ The data-ej-renderdefault attribute is used to enable iOS7 native TimePicker ins
 
 The following screenshot displays the output.
 
-{ ![](Native-TimePicker_images/Native-TimePicker_img1.png) | markdownify }
+{{ '![](Native-TimePicker_images/Native-TimePicker_img1.png)' | markdownify }}
 {:.image }
 
 

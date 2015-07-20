@@ -49,7 +49,7 @@ You can refer to the following code example.
 
 
 
-{ ![](Android-Specific-Customization_images/Android-Specific-Customization_img1.png) | markdownify }
+{{ '![](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

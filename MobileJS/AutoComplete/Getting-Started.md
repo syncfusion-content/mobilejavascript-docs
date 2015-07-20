@@ -13,7 +13,7 @@ The Essential JavaScript Mobile AutoComplete control is a text box control that 
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -106,7 +106,7 @@ To render the AutoComplete control, set “data-role” attribute to “ejmautoc
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -126,7 +126,7 @@ You can customize its watermark text using data-ej-watermarktext attribute.
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -155,7 +155,7 @@ Execute the code and type the necessary query (here “A”) in the AutoComplete
 
 For more details, to run the samples refer "Common Getting Started" section.
 
-{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -177,7 +177,7 @@ Autocomplete textbox enables you to select multiple items from the suggestion li
 
 Run the above code and type the necessary query in the textbox. The contact is displayed as shown in the following screenshot.
 
-{ ![](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 
@@ -272,7 +272,7 @@ Add the following style
 
 Run the code to render the following output.
 
-{ ![](Getting-Started_images/Getting-Started_img6.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
 {:.image }
 
 

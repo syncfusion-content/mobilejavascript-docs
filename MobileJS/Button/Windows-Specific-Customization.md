@@ -36,7 +36,7 @@ You can refer to the following code example.
 
 
 
-{ ![F:/Work/Testing/release_testing/13.2/Phase-3/btn.PNG](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png) | markdownify }
+{{ '![F:/Work/Testing/release_testing/13.2/Phase-3/btn.PNG](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

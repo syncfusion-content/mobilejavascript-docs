@@ -71,7 +71,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![12](Columns_images/Columns_img1.png) | markdownify }
+{{ '![12](Columns_images/Columns_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -134,7 +134,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![14](Columns_images/Columns_img2.png) | markdownify }
+{{ '![14](Columns_images/Columns_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -190,7 +190,7 @@ Refer to the following script section.
 
 Run the above code to render Auto-generate columns.
 
-{ ![15](Columns_images/Columns_img3.png) | markdownify }
+{{ '![15](Columns_images/Columns_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -256,15 +256,15 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/27.png](Columns_images/Columns_img4.png) | markdownify }
+{{ '![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/27.png](Columns_images/Columns_img4.png)' | markdownify }}
 {:.image }
 
 
-{ ![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/28.png](Columns_images/Columns_img5.png) | markdownify }
+{{ '![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/28.png](Columns_images/Columns_img5.png)' | markdownify }}
 {:.image }
 
 
-{ ![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/29.png](Columns_images/Columns_img6.png) | markdownify }
+{{ '![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/29.png](Columns_images/Columns_img6.png)' | markdownify }}
 {:.image }
 
 

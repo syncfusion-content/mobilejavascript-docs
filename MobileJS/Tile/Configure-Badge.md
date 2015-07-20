@@ -29,7 +29,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-{ ![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/badgechanges.png](Configure-Badge_images/Configure-Badge_img1.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/badgechanges.png](Configure-Badge_images/Configure-Badge_img1.png)' | markdownify }}
 {:.image }
 
 

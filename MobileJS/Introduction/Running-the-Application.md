@@ -19,7 +19,7 @@ To run an application on a device and emulator, you need to configure IIS on you
 
 
 
-{ ![C:/Users/Vignesh Kumar/Desktop/getting/2s.JPG](Running-the-Application_images/Running-the-Application_img1.jpeg) | markdownify }
+{{ '![C:/Users/Vignesh Kumar/Desktop/getting/2s.JPG](Running-the-Application_images/Running-the-Application_img1.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -27,7 +27,7 @@ To run an application on a device and emulator, you need to configure IIS on you
 
 
 
-{ ![C:/Users/Vignesh Kumar/Desktop/getting/3s.JPG](Running-the-Application_images/Running-the-Application_img2.jpeg) | markdownify }
+{{ '![C:/Users/Vignesh Kumar/Desktop/getting/3s.JPG](Running-the-Application_images/Running-the-Application_img2.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -35,7 +35,7 @@ To run an application on a device and emulator, you need to configure IIS on you
 
 
 
-{ ![](Running-the-Application_images/Running-the-Application_img3.png) | markdownify }
+{{ '![](Running-the-Application_images/Running-the-Application_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -43,7 +43,7 @@ To run an application on a device and emulator, you need to configure IIS on you
 
 
 
-{ ![E:/build/IMG_14052014_095604.png](Running-the-Application_images/Running-the-Application_img4.png) | markdownify }
+{{ '![E:/build/IMG_14052014_095604.png](Running-the-Application_images/Running-the-Application_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -51,7 +51,7 @@ To run an application on a device and emulator, you need to configure IIS on you
 
 
 
-{ ![E:/build/IMG_14052014_095819.png](Running-the-Application_images/Running-the-Application_img5.png) | markdownify }
+{{ '![E:/build/IMG_14052014_095819.png](Running-the-Application_images/Running-the-Application_img5.png)' | markdownify }}
 {:.image }
 
 
@@ -59,7 +59,7 @@ To run an application on a device and emulator, you need to configure IIS on you
 
 
 
-{ ![E:/build/IMG_14052014_101000.png](Running-the-Application_images/Running-the-Application_img6.png) | markdownify }
+{{ '![E:/build/IMG_14052014_101000.png](Running-the-Application_images/Running-the-Application_img6.png)' | markdownify }}
 {:.image }
 
 
@@ -67,7 +67,7 @@ To run an application on a device and emulator, you need to configure IIS on you
 
 
 
-{ ![E:/build/IMG_14052014_101013.png](Running-the-Application_images/Running-the-Application_img7.png) | markdownify }
+{{ '![E:/build/IMG_14052014_101013.png](Running-the-Application_images/Running-the-Application_img7.png)' | markdownify }}
 {:.image }
 
 
@@ -77,7 +77,7 @@ To run an application on a device and emulator, you need to configure IIS on you
 
 
 
-{ ![E:/build/IMG_14052014_101120.png](Running-the-Application_images/Running-the-Application_img8.png) | markdownify }
+{{ '![E:/build/IMG_14052014_101120.png](Running-the-Application_images/Running-the-Application_img8.png)' | markdownify }}
 {:.image }
 
 
@@ -85,11 +85,11 @@ To run an application on a device and emulator, you need to configure IIS on you
 
 
 
-{ ![E:/build/IMG_14052014_102833.png](Running-the-Application_images/Running-the-Application_img9.png) | markdownify }
+{{ '![E:/build/IMG_14052014_102833.png](Running-the-Application_images/Running-the-Application_img9.png)' | markdownify }}
 {:.image }
 
 
-3. The application gets added to the Default Web Site. You can open the sample in the browser by using the following URL: [http://localhost/MobileApp/&lt;samplename&gt;.html](http://localhost/MobileApp/%3csamplename%3e.html)
+3. The application gets added to the Default Web Site. You can open the sample in the browser by using the following URL: [http://localhost/MobileApp/<samplename>.html](http://localhost/MobileApp/%3csamplename%3e.html)
 #### Enabling IIS port in Firewall
 
 
@@ -99,7 +99,7 @@ To enable the IIS port to access the hosted webpage from outside the hosted mach
 
 
 
-{ ![C:/Users/Vignesh Kumar/Desktop/getting/4s.JPG](Running-the-Application_images/Running-the-Application_img10.jpeg) | markdownify }
+{{ '![C:/Users/Vignesh Kumar/Desktop/getting/4s.JPG](Running-the-Application_images/Running-the-Application_img10.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -107,14 +107,14 @@ To enable the IIS port to access the hosted webpage from outside the hosted mach
 #### Running in Browser
 
 
-To open the Web page on a browser, open the desired browser and type in the following URL to view the page: [http://localhost/MobileApp/&lt;samplename&gt;.html](http://localhost/MobileApp/%3csamplename%3e.html)
+To open the Web page on a browser, open the desired browser and type in the following URL to view the page: [http://localhost/MobileApp/<samplename>.html](http://localhost/MobileApp/%3csamplename%3e.html)
 
 #### Running Device
 
 1. To access this Webpage from your mobile/tablet device, make sure that the following prerequisites are met:
   * The IIS port is open to firewall. Type the following URL on the mobile/tablet device. (Refer to: Enabling IIS port in Firewall section for more details).
   * The Mobile device and the IIS hosted Machine must be connected to the same network for IIS to work.
-2. Type the following URL on the mobile/tablet: [http://ipaddress/MobileApp/&lt;samplename&gt;.html](http://ipaddress/MobileApp/%3csamplename%3e.html)
+2. Type the following URL on the mobile/tablet: [http://ipaddress/MobileApp/<samplename>.html](http://ipaddress/MobileApp/%3csamplename%3e.html)
 #### Device emulation in the browser
 
 
@@ -123,18 +123,18 @@ You can emulate Mobile application in Chrome browser to know how its look varies
 1. Host your Mobile application in the IIIS as mentioned above.
 2. Load your hosted URL in the Chrome browser. Now, you can see Mobile Application opened with browser configurations as follows.
 
-{ ![](Running-the-Application_images/Running-the-Application_img11.png) | markdownify }
+{{ '![](Running-the-Application_images/Running-the-Application_img11.png)' | markdownify }}
 {:.image }
 
 _Mobile Application_
 
-3. To emulate any device mode, click the Toggle device mode icon ({ ![](Running-the-Application_images/Running-the-Application_img12.png) | markdownify }
+3. To emulate any device mode, click the Toggle device mode icon ({{ '![](Running-the-Application_images/Running-the-Application_img12.png)' | markdownify }}
 {:.image }
 ) in the developer options window. Now, you can see the following window.
 4. You can change the emulation mode to different devices by selecting different devices from the device dropdown. Refer to the following screenshot. Various devices are provided as options in the Chrome browser.
 
 
-{ ![](Running-the-Application_images/Running-the-Application_img13.png) | markdownify }
+{{ '![](Running-the-Application_images/Running-the-Application_img13.png)' | markdownify }}
 {:.image }
 
 _Chrome_
@@ -142,20 +142,20 @@ _Chrome_
 5. You can select different devices from the dropdown list to emulate mobile applications. Refer to the following screenshots where mobile applications are emulated in different modes (Nexus 5, iPhone 5, and Lumia 520).
 
 
-{ ![](Running-the-Application_images/Running-the-Application_img14.png) | markdownify }
+{{ '![](Running-the-Application_images/Running-the-Application_img14.png)' | markdownify }}
 {:.image }
 
 
-{ ![](Running-the-Application_images/Running-the-Application_img15.png) | markdownify }
+{{ '![](Running-the-Application_images/Running-the-Application_img15.png)' | markdownify }}
 {:.image }
 
 
-{ ![](Running-the-Application_images/Running-the-Application_img16.png) | markdownify }
+{{ '![](Running-the-Application_images/Running-the-Application_img16.png)' | markdownify }}
 {:.image }
 
 _Lumia 520_
 
-By clicking the Toggle device mode icon ({ ![](Running-the-Application_images/Running-the-Application_img17.png) | markdownify }
+By clicking the Toggle device mode icon ({{ '![](Running-the-Application_images/Running-the-Application_img17.png)' | markdownify }}
 {:.image }
 ) again, you can get back from device emulation.
 
@@ -175,7 +175,7 @@ Version of the OS X prior to mountain lion and mavericks can turn on “web shar
 2. Type the following command and replace the USERNAME with user account short name: Nano /etc/apache2/users/USERNAME.conf
 3. Enter the admin password when requested, and then paste the following into the nano text editor.
 
-&lt;Directory “/Users/USERNAME/Sites/”&gt;
+<Directory “/Users/USERNAME/Sites/”>
 
 Options  Indexes Multiviews
 
@@ -185,7 +185,7 @@ Order allow, deny
 
 Allow from all
 
-&lt;/Directory&gt;
+</Directory>
 
 
 
@@ -204,14 +204,14 @@ You can also use [http://localhost](http://localhost), and can edit the host fil
 
 1. Run iOS simulator by using open Xcode select Xcode Open Developer Tool  iOS Simulator.
 
-{ ![http://i.stack.imgur.com/IjsG3.png](Running-the-Application_images/Running-the-Application_img18.png) | markdownify }
+{{ '![http://i.stack.imgur.com/IjsG3.png](Running-the-Application_images/Running-the-Application_img18.png)' | markdownify }}
 {:.image }
 
 _iOS Simulator_    
 
 2. Open Safari application in the home page, and then enter the hosted application link.
 
-{ ![iOS Simulator](Running-the-Application_images/Running-the-Application_img19.png) | markdownify }
+{{ '![iOS Simulator](Running-the-Application_images/Running-the-Application_img19.png)' | markdownify }}
 {:.image }
 
 
@@ -222,7 +222,7 @@ _iOS Simulator_
 
 
 
-{ ![device](Running-the-Application_images/Running-the-Application_img20.png) | markdownify }
+{{ '![device](Running-the-Application_images/Running-the-Application_img20.png)' | markdownify }}
 {:.image }
 
 

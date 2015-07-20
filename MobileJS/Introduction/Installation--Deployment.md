@@ -44,7 +44,7 @@ The following location is the root JavaScript folder that contains two important
 * assets
 * Src
 
-&lt;installed location&gt;\Syncfusion\Essential Studio\13.1.0.21\ JavaScript\
+<installed location>\Syncfusion\Essential Studio\13.1.0.21\ JavaScript\
 
 
 
@@ -89,7 +89,7 @@ The same folders available within the assets folder such as, css, external, scri
 
 The location where these non-minified files are available is as follows,
 
-&lt;installed location&gt;\Syncfusion\Essential Studio\13.1.0.21\ JavaScript\Src\assets-src
+<installed location>\Syncfusion\Essential Studio\13.1.0.21\ JavaScript\Src\assets-src
 
 
 
@@ -123,17 +123,17 @@ The steps to download and configure the Syncfusion Nuget Packages in Visual Stud
 
 
 
-{ ![](Installation--Deployment_images/Installation--Deployment_img1.png) | markdownify }
+{{ '![](Installation--Deployment_images/Installation--Deployment_img1.png)' | markdownify }}
 {:.image }
 
 
-* Select Package Manager -> Package Sources in the above pop-up and click on the { ![](Installation--Deployment_images/Installation--Deployment_img2.png) | markdownify }
+* Select Package Manager -> Package Sources in the above pop-up and click on the {{ '![](Installation--Deployment_images/Installation--Deployment_img2.png)' | markdownify }}
 {:.image }
  button to navigate to the location where the above collection of nuget packages are located within the Nuget Packages folder in your system.
 
 
 
-{ ![](Installation--Deployment_images/Installation--Deployment_img3.png) | markdownify }
+{{ '![](Installation--Deployment_images/Installation--Deployment_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -145,7 +145,7 @@ The steps to download and configure the Syncfusion Nuget Packages in Visual Stud
 
 
 
-{ ![](Installation--Deployment_images/Installation--Deployment_img4.png) | markdownify }
+{{ '![](Installation--Deployment_images/Installation--Deployment_img4.png)' | markdownify }}
 {:.image }
 
 

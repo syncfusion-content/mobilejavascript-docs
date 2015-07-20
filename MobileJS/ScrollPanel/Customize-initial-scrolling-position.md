@@ -39,7 +39,7 @@ The “data-ej-startx” and “data-ej-starty” attributes allow you to specif
 
 The following screenshot displays the ScrollPanel:
 
-{ ![](Customize-initial-scrolling-position_images/Customize-initial-scrolling-position_img1.png) | markdownify }
+{{ '![](Customize-initial-scrolling-position_images/Customize-initial-scrolling-position_img1.png)' | markdownify }}
 {:.image }
 
 

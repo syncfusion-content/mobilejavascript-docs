@@ -27,7 +27,7 @@ The data-ej-maxdate and data-ej-mindate attributes are used to denote the maximu
 
 The following screenshot displays the output.
 
-{ ![](Configure-date_images/Configure-date_img1.png) | markdownify }
+{{ '![](Configure-date_images/Configure-date_img1.png)' | markdownify }}
 {:.image }
 
 

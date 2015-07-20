@@ -29,7 +29,7 @@ You can refer to the following code examples.
 
 The following screenshot displays the DelimiterChar:
 
-{ ![](Multi-Selection_images/Multi-Selection_img1.png) | markdownify }
+{{ '![](Multi-Selection_images/Multi-Selection_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -49,7 +49,7 @@ The data-ej-enablecheckbox attribute is used to display the checkbox for the sug
 
 The following screenshot displays EnableCheckBox:
 
-{ ![C:/Users/apoorvah.ramanathan/Desktop/1.png](Multi-Selection_images/Multi-Selection_img2.png) | markdownify }
+{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Multi-Selection_images/Multi-Selection_img2.png)' | markdownify }}
 {:.image }
 
 

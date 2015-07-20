@@ -35,29 +35,29 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;
-&lt;script&gt; 
+</div>
+<script> 
 // Create tab  
 $("#tab").ejmTab(); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -170,16 +170,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ajaxSettings property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-enableAjax="true"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt; 
+<div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div> 
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -190,11 +190,11 @@ Example
  Favourites contents here
 // Set ajaxSettings on initialization. 
 // To set ajaxSettings API value 
-&lt;script&gt; 
+<script> 
 $("#tab").ejmTab({ ajaxSettings: {                 
   async: true,                                                                
   } });                 
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -247,16 +247,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ajaxSettings property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-enableAjax="true"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt; 
+<div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div> 
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -267,11 +267,11 @@ Example
  Favourites contents here
 // Set ajaxSettings on initialization. 
 // To set ajaxSettings API value 
-&lt;script&gt; 
+<script> 
 $("#tab").ejmTab({ ajaxSettings: { 
   cache: false,                
   } });                 
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -324,16 +324,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ajaxSettings property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-enableAjax="true"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt; 
+<div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div> 
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -344,11 +344,11 @@ Example
  Favourites contents here
 // Set ajaxSettings on initialization. 
 // To set ajaxSettings API value 
-&lt;script&gt; 
+<script> 
 $("#tab").ejmTab({ ajaxSettings: { 
   contentType: "html",                                
   } });                 
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -401,16 +401,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ajaxSettings property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-enableAjax="true"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt; 
+<div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div> 
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -421,11 +421,11 @@ Example
  Favourites contents here
 // Set ajaxSettings on initialization. 
 // To set ajaxSettings API value 
-&lt;script&gt; 
+<script> 
 $("#tab").ejmTab({ ajaxSettings: { 
   data: {}
   } });                 
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -478,16 +478,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ajaxSettings property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-enableAjax="true"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt; 
+<div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div> 
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -498,11 +498,11 @@ Example
  Favourites contents here
 // Set ajaxSettings on initialization. 
 // To set ajaxSettings API value 
-&lt;script&gt; 
+<script> 
 $("#tab").ejmTab({ ajaxSettings: {                                 
   dataType: "html",                                                
   } });                 
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -555,16 +555,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ajaxSettings property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-enableAjax="true"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt; 
+<div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div> 
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -575,10 +575,10 @@ Example
  Favourites contents here
 // Set ajaxSettings on initialization. 
 // To set ajaxSettings API value 
-&lt;script&gt; 
+<script> 
 $("#tab").ejmTab({ ajaxSettings: { type: 'GET',                
   } });                 
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -631,16 +631,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ajaxSettings property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-enableAjax="true"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt; 
+<div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div> 
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -651,11 +651,11 @@ Example
  Favourites contents here
 // Set ajaxSettings on initialization. 
 // To set ajaxSettings API value 
-&lt;script&gt; 
+<script> 
 $("#tab").ejmTab({ ajaxSettings: { 
   url: "",                
   } });                 
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -708,54 +708,54 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the allowScrolling property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-allowscrolling="true" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-allowscrolling="true" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;</code>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set allowScrolling on initialization. 
 //To set allowScrolling API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 $("#tab").ejmTab({allowScrolling:true});        
 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -829,54 +829,54 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the android mode contentType property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="android" data-ej-android-contenttype="text" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' data-ej-android-imageClass="icn-Movies" &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' data-ej-android-imageClass="icn-Music" &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' data-ej-android-imageClass="icn-Favourites" &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="android" data-ej-android-contenttype="text" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' data-ej-android-imageClass="icn-Movies" >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' data-ej-android-imageClass="icn-Music" >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' data-ej-android-imageClass="icn-Favourites" >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;            </code>
+</div>            </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set android mode contentType on initialization. 
 //To android mode contentType API value 
-&lt;div id="tab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' data-ej-android-imageClass="icn-Movies" &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' data-ej-android-imageClass="icn-Music" &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' data-ej-android-imageClass="icn-Favourites" &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' data-ej-android-imageClass="icn-Movies" >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' data-ej-android-imageClass="icn-Music" >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' data-ej-android-imageClass="icn-Favourites" >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({renderMode:"android", android:{contentType:"ej.mobile.Tab.Android.ContentType.Text"}});       
 });
-&lt;/script&gt;  </code>
+</script>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -929,25 +929,25 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the android mode imageClass property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="android"&gt;
-&lt;ul &gt;
-&lt;li data-ej-android-imageClass="icn-Movies" data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-android-imageClass="icn-Music" data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-android-imageClass="icn-Favourites" data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="android">
+<ul >
+<li data-ej-android-imageClass="icn-Movies" data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-android-imageClass="icn-Music" data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-android-imageClass="icn-Favourites" data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;                            </code>
+</div>                            </code>
 </pre>
 
 
@@ -992,54 +992,54 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the android mode position property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="android" data-ej-android-position="fixed" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="android" data-ej-android-position="fixed" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;        </code>
+</div>        </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set position on initialization. 
 //To set position API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({renderMode:"android", android:{position: ej.mobile.Tab.Android.Position.Fixed}});     
 });
-&lt;/script&gt;    </code>
+</script>    </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1113,54 +1113,54 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enabled property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-badge-enabled="false" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-badge-enabled="false" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;</code>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set enabled on initialization. 
 // To enabled API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;
-&lt;script&gt;
+</div>
+<script>
 $(function(){
 $("#tab").ejmTab({badge:{enabled:true}});       
 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1213,54 +1213,54 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the maximum Badge Value property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-badge-enabled="true" data-ej-badge-maxvalue="100" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' data-ej-badge-value="120" &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music'data-ej-badge-value="80" &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' data-ej-badge-value="64" &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-badge-enabled="true" data-ej-badge-maxvalue="100" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' data-ej-badge-value="120" >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music'data-ej-badge-value="80" >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' data-ej-badge-value="64" >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;</code>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set maxValue on initialization. 
 // To maxValue API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' data-ej-badge-value="120"&gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' data-ej-badge-value="80"&gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' data-ej-badge-value="64"&gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' data-ej-badge-value="120">
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' data-ej-badge-value="80">
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' data-ej-badge-value="64">
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;
-&lt;script&gt;
+</div>
+<script>
 $(function(){
 $("#tab").ejmTab({badge:{maxValue:100}});       
 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1313,54 +1313,54 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the minimum Badge Value property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-badge-enabled="true" data-ej-badge-minvalue="10" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' data-ej-badge-value="120" &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music'data-ej-badge-value="80" &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' data-ej-badge-value="64" &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-badge-enabled="true" data-ej-badge-minvalue="10" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' data-ej-badge-value="120" >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music'data-ej-badge-value="80" >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' data-ej-badge-value="64" >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;</code>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set minValue on initialization. 
 // To minValue API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' data-ej-badge-value="120"&gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' data-ej-badge-value="80"&gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' data-ej-badge-value="64"&gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' data-ej-badge-value="120">
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' data-ej-badge-value="80">
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' data-ej-badge-value="64">
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;
-&lt;script&gt;
+</div>
+<script>
 $(function(){
 $("#tab").ejmTab({badge:{minValue:10}});        
 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1413,53 +1413,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the Badge Value property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-badge-enabled="true" data-ej-badge-value="2" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-badge-enabled="true" data-ej-badge-value="2" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;           </code>
+</div>           </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set badge value on initialization. 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;
-&lt;script&gt;
+</div>
+<script>
 $(function(){
 $("#tab").ejmTab({badge:{value:2}});    
 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1512,16 +1512,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the cssClass property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-cssclass="customclass" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" data-ej-cssclass="customclass" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 //Create the music.html file with following content.
@@ -1533,21 +1533,21 @@ Example
 <code> 
 // Set prefetchAjaxContent on initialization. 
 //To set prefetchAjaxContent API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt; 
-&lt;script&gt;
+<div id="tab">
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({cssClass:"customclass"});     
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1600,16 +1600,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableAjax property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-enableajax="true" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" data-ej-enableajax="true" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 //Create the music.html file with following content.
@@ -1618,21 +1618,21 @@ Example
  Favourites contents here            
 // Set enableAjax on initialization. 
 //To set enableAjax API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt; 
-&lt;script&gt;            
+<div id="tab">
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div> 
+<script>            
 $(function(){
 $("#tab").ejmTab({enableAjax: true});   
 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1685,16 +1685,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableCache property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-enableajax="true" data-ej-enablecache="true" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" data-ej-enableajax="true" data-ej-enablecache="true" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 //Create the music.html file with following content.
@@ -1706,21 +1706,21 @@ Example
 <code> 
 // Set enableCache on initialization. 
 //To set enableCache API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt; 
-&lt;script&gt;
+<div id="tab">
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({enableAjax: true, enableCache: true });       
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1773,54 +1773,54 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableNativeScrolling property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-allowscrolling="true" data-ej-enablenativescrolling="true" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-allowscrolling="true" data-ej-enablenativescrolling="true" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;</code>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set enableNativeScrolling on initialization. 
 //To set enableNativeScrolling API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 $("#tab").ejmTab({allowScrolling:true, enableNativeScrolling:true});    
 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1873,53 +1873,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enablePersistence property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-enablepersistence=true &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-enablepersistence=true >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;</code>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code>// Set enablePersistence on initialization. 
 //To set enablePersistence API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({enablePersistence:true});     
 });
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1993,54 +1993,54 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the flat mode position property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="flat" data-ej-flat-position="fixed" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="flat" data-ej-flat-position="fixed" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;           </code>
+</div>           </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set flat mode position on initialization. 
 //To set flat mode position API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;  
-&lt;div id="default3" &gt;
+</div>  
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;
-&lt;script&gt;
+</div>
+<script>
 $(function(){
 $("#tab").ejmTab({renderMode:"flat", flat:{position: ej.mobile.Tab.Flat.Fixed}});       
 });
-&lt;/script&gt;  </code>
+</script>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2114,25 +2114,25 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the ios7 mode imageClass property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="ios7"&gt;
-&lt;ul &gt;
-&lt;li data-ej-ios7-imageclass="icn-Movies" data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-ios7-imageclass="icn-Music" data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-ios7-imageclass="icn-Favourites" data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="ios7">
+<ul >
+<li data-ej-ios7-imageclass="icn-Movies" data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-ios7-imageclass="icn-Music" data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-ios7-imageclass="icn-Favourites" data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;                    </code>
+</div>                    </code>
 </pre>
 
 
@@ -2198,54 +2198,54 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the ios7 overflowBadge mode enabled property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;           </code>
+</div>           </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set ios7 mode overflowbadge enabled badge on initialization. 
 //To set ios7 mode overflowbadge enabled badge customText API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({renderMode:"ios7", ios7:{overflowBadge:{enabled:true}}});     
 });
-&lt;/script&gt;  </code>
+</script>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2298,54 +2298,54 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the ios7 mode overflowBadge maxValue property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" data-ej-ios7-overflowbadge-maxvalue="100" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" data-ej-ios7-overflowbadge-maxvalue="100" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;            </code>
+</div>            </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set ios7 mode overflowbadge maxvalue on initialization. 
 //To set ios7 mode overflowbadge maxvalue  API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({renderMode:"ios7",ios7:{overflowBadge:{enabled:true,maxValue:100}}}); 
 });
-&lt;/script&gt;    </code>
+</script>    </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2398,54 +2398,54 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the ios7 mode overflowBadge minValue property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" data-ej-ios7-overflowbadge-minvalue="10" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" data-ej-ios7-overflowbadge-minvalue="10" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;            </code>
+</div>            </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set ios7 mode overflowbadge minvalue on initialization. 
 //To set ios7 mode overflowbadge minvalue  API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({renderMode:"ios7",ios7:{overflowBadge:{enabled:true,minValue:10}}});  
 });
-&lt;/script&gt;    </code>
+</script>    </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2498,54 +2498,54 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the ios7 overflowBadge mode value property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" data-ej-ios7-overflowbadge-value="2" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" data-ej-ios7-overflowbadge-value="2" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;          </code>
+</div>          </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set ios7 mode overflowbadge value on initialization. 
 //To set ios7 mode overflowbadge value API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({renderMode:"ios7",ios7:{overflowBadge:{enabled:true,value:2}}});      
 });
-&lt;/script&gt;  </code>
+</script>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2598,16 +2598,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the prefetchAjaxContent property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-prefetchajaxcontent="true" data-ej-enableajax="true" data-ej-enablecache="true" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" data-ej-prefetchajaxcontent="true" data-ej-enableajax="true" data-ej-enablecache="true" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 //Create the music.html file with following content.
@@ -2619,21 +2619,21 @@ Example
 <code> 
 // Set prefetchAjaxContent on initialization. 
 //To set prefetchAjaxContent API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt; 
-&lt;script&gt;
+<div id="tab">
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({enableAjax: true, enableCache: true, prefetchAjaxContent:true});      
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2686,53 +2686,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the renderMode property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="auto" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="auto" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;</code>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // To hideBadge Tab Control
 $("#tab").ejmTab({renderMode:ej.mobile.RenderMode.Android});    
 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2785,53 +2785,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the selectedItemIndex property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-selecteditemindex="1" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-selecteditemindex="1" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;</code>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code>// Set selectedItemIndex on initialization. 
 //To set selectedItemIndex API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({selectedItemIndex:1});        
 });
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2884,16 +2884,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the showAjaxPopup property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-enableajax="true" data-ej-showajaxpopup="true" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" data-ej-enableajax="true" data-ej-showajaxpopup="true" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 //Create the music.html file with following content.
@@ -2905,21 +2905,21 @@ Example
 <code> 
 // Set showAjaxPopup on initialization. 
 //To set showAjaxPopup API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt; 
-&lt;script&gt;
+<div id="tab">
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({enableAjax: true, showAjaxPopup: false });    
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2972,54 +2972,54 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the showScrollbars property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-allowscrolling="true" data-ej-showscrollbars="false" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-allowscrolling="true" data-ej-showscrollbars="false" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;</code>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set showScrollbars property on initialization. 
 //To set showScrollbars API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 $("#tab").ejmTab({allowScrolling:true,showScrollbars:false});   
 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -3072,55 +3072,55 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the theme property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-theme="auto" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-theme="auto" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;</code>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;
+</div>
 // Set theme on initialization. 
 //To set theme API value 
-&lt;script&gt;
+<script>
 $(function(){
 // To enable tab Control
 $("#tab").ejmTab({theme:ej.mobile.Theme.Dark}); 
 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -3194,54 +3194,54 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the windows mode enableCustomText property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-enablecustomtext="true" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-enablecustomtext="true" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;            </code>
+</div>            </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set windows mode enableCustomText on initialization. 
 //To set windows mode enableCustomText API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({renderMode:"windows", windows:{enableCustomText:true}});      
 });
-&lt;/script&gt;  </code>
+</script>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -3294,54 +3294,54 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the windows mode enableTouchMove property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-enabletouchmove="true" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-enabletouchmove="true" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;            </code>
+</div>            </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set windows mode enableTouchMove on initialization. 
 //To set windows mode enableTouchMove API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({renderMode:"windows", windows:{enableTouchMove:true}});       
 });
-&lt;/script&gt;  </code>
+</script>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -3394,54 +3394,54 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the windows mode position property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-position="fixed" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-position="fixed" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;           </code>
+</div>           </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set windows mode position on initialization. 
 //To set windows mode position API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({renderMode:"windows", windows:{position: ej.mobile.Tab.Windows.Position.Fixed}});     
 });
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -3494,54 +3494,54 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the windows mode preventContentSwipe property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-preventcontentswipe="true" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-preventcontentswipe="true" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;            </code>
+</div>            </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set windows mode preventContentSwipe on initialization. 
 //To set windows mode preventContentSwipe API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({renderMode:"windows", windows:{preventContentSwipe:true}});   
 });
-&lt;/script&gt;  </code>
+</script>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -3594,54 +3594,54 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the windows mode renderDefault property in unobtrusive way.
-&lt;div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-renderdefault="false" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-renderdefault="false" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;         </code>
+</div>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set windows mode renderDefault on initialization. 
 //To set windows mode renderDefault API value 
-&lt;div id="tab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt; 
-&lt;script&gt;
+</div> 
+<script>
 $(function(){
 $("#tab").ejmTab({renderMode:"windows", windows:{renderDefault:true}}); 
 });
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -3684,31 +3684,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call addItem method
 $("#tab").ejmTab("addItem","addTab",3); 
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3736,31 +3736,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // To addOverflowItem Tab Control
 $("#tab").ejmTab("addOverflowItem","addMoreTab",3);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3788,31 +3788,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call disableContent method
 $("#tab").ejmTab("disableContent",1);   
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3840,31 +3840,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call disableItem method
 $("#tab").ejmTab("disableItem",1);      
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3892,31 +3892,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call enableContent method
 $("#tab").ejmTab("enableContent",1);    
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3944,31 +3944,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call enableItem method
 $("#tab").ejmTab("enableItem",1);       
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3996,31 +3996,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call getActiveItem method
 $("#tab").ejmTab("getActiveItem");      
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4048,31 +4048,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call getActiveItem method
 $("#tab").ejmTab("getActiveItemText");  
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4100,31 +4100,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call getItemsCount method
 $("#tab").ejmTab("getItemsCount");      
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4152,31 +4152,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call getOverflowItemCount method
 $("#tab").ejmTab("getOverflowItemCount");       
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4204,31 +4204,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" data-ej-badge-enabled="true"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-badge-enabled="true">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call hideBadge method
 $("#tab").ejmTab("hideBadge",1);        
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4256,31 +4256,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call removeItem method
 $("#tab").ejmTab("removeItem",1);       
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4308,31 +4308,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call removeOverflowItem method
 $("#tab").ejmTab("removeOverflowItem",1);       
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4360,31 +4360,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 // Call selectTabItem method
 $("#tab").ejmTab("selectItem",1);       
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4412,31 +4412,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 // To showBadge Tab Control
 $(function(){
 $("#tab").ejmTab("showBadge",1);        
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4464,31 +4464,31 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="tab" data-role="ejmtab" data-ej-badge-enabled="true" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-badge-enabled="true" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;  
-&lt;script&gt;
+</div>  
+<script>
 $(function(){
 //Call updateBadgeValue method
 $("#tab").ejmTab("updateBadgeValue",1,"Music Collection");      
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4559,16 +4559,16 @@ Example
 
 <pre class="prettyprint">
 <code>             
-&lt;div id="tab" data-role="ejmtab" data-ej-ajaxbeforeload="beforeLoad" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" data-ej-ajaxbeforeload="beforeLoad" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -4577,25 +4577,25 @@ Example
 
 //Create the favourites.html file with following content.
  Favourites contents here
-&lt;script&gt; 
+<script> 
 // ajaxbeforeload event 
 function beforeLoad(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //open event for Tab
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -4605,12 +4605,12 @@ function beforeLoad(args){ //handle the event
 //Create the favourites.html file with following content.
  Favourites contents here            
 //ajaxBeforeLoad event
-&lt;script&gt; 
+<script> 
 $("#tab").ejmTab({
   ajaxBeforeLoad: function (args) { //handle the event 
 }
 });           
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -4664,16 +4664,16 @@ Example
 
 <pre class="prettyprint">
 <code>             
-&lt;div id="tab" data-role="ejmtab" data-ej-ajaxcomplete="complete" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" data-ej-ajaxcomplete="complete" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -4682,25 +4682,25 @@ Example
 
 //Create the favourites.html file with following content.
  Favourites contents here
-&lt;script&gt; 
+<script> 
 // ajaxComplete event 
 function complete(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //open event for Tab
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -4709,13 +4709,13 @@ function complete(args){ //handle the event
 
 //Create the favourites.html file with following content.
  Favourites contents here            
-&lt;script&gt; 
+<script> 
 //ajaxComplete event 
 $("#tab").ejmTab({
   ajaxComplete: function (args) { //handle the event 
 }
 });           
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -4794,16 +4794,16 @@ Example
 
 <pre class="prettyprint">
 <code>             
-&lt;div id="tab" data-role="ejmtab" data-ej-ajaxerror="error" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" data-ej-ajaxerror="error" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -4812,25 +4812,25 @@ Example
 
 //Create the favourites.html file with following content.
  Favourites contents here
-&lt;script&gt; 
+<script> 
 // ajaxError event 
 function error(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //open event for Tab
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -4839,13 +4839,13 @@ function error(args){ //handle the event
 
 //Create the favourites.html file with following content.
  Favourites contents here 
-&lt;script&gt; 
+<script> 
 //ajaxError event 
 $("#tab").ejmTab({
   ajaxError: function (args) { //handle the event 
 }
 });   
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -4919,16 +4919,16 @@ Example
 
 <pre class="prettyprint">
 <code>             
-&lt;div id="tab" data-role="ejmtab" data-ej-ajaxsuccess="success" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" data-ej-ajaxsuccess="success" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -4937,25 +4937,25 @@ Example
 
 //Create the favourites.html file with following content.
  Favourites contents here
-&lt;script&gt; 
+<script> 
 // ajaxSuccess event 
 function success(args){ //handle the event
 }
-&lt;/script&gt;                        </code>
+</script>                        </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //open event for Tab
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -4964,13 +4964,13 @@ function success(args){ //handle the event
 
 //Create the favourites.html file with following content.
  Favourites contents here            
-&lt;script&gt; 
+<script> 
 //ajaxSuccess event 
 $("#tab").ejmTab({
   ajaxSuccess: function (args) { //handle the event 
 }
 });           
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -5024,59 +5024,59 @@ Example
 
 <pre class="prettyprint">
 <code>             
-&lt;div id="tab" data-role="ejmtab" data-ej-load="onLoad" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-load="onLoad" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;script&gt; 
+<script> 
 // complete event 
 function onLoad(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //open event for Tab
-&lt;div id="tab" data-role="ejmtab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;   
-&lt;script&gt; 
+</div>   
+<script> 
 //load event 
 $("#tab").ejmTab({
   load: function (args) { //handle the event 
 }
 });           
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -5140,59 +5140,59 @@ Example
 
 <pre class="prettyprint">
 <code>             
-&lt;div id="tab" data-role="ejmtab" data-ej-loadcomplete="onComplete" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-loadcomplete="onComplete" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;script&gt; 
+<script> 
 // loadcomplete event 
 function onComplete(args){ //handle the event
 }
-&lt;/script&gt;  </code>
+</script>  </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //open event for Tab
-&lt;div id="tab" data-role="ejmtab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;
-&lt;script&gt; 
+</div>
+<script> 
 //loadComplete event 
 $("#tab").ejmTab({
   loadComplete: function (args) { //handle the event 
 }
 });           
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -5271,16 +5271,16 @@ Example
 
 <pre class="prettyprint">
 <code>             
-&lt;div id="tab" data-role="ejmtab" data-ej-prefetchContentLoaded="onPrefetch" data-ej-prefetchajaxcontent="true" data-ej-enableajax="true" data-ej-enablecache="true" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" data-ej-prefetchContentLoaded="onPrefetch" data-ej-prefetchajaxcontent="true" data-ej-enableajax="true" data-ej-enablecache="true" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -5289,25 +5289,25 @@ Example
 
 //Create the favourites.html file with following content.
  Favourites contents here
-&lt;script&gt; 
+<script> 
 // prefetchContentLoaded event 
 function onPrefetch(args){ //handle the event
 }
-&lt;/script&gt;                        </code>
+</script>                        </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //prefetchContentLoaded event for Tab
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="movies.html" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="music.html" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="favourites.html" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;             
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="movies.html" data-ej-text='Movies' >
+</li >
+<li data-ej-href="music.html" data-ej-text='Music' >
+</li >
+<li data-ej-href="favourites.html" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>             
 //Create the movies.html file with following content.
  Movies contents here 
 
@@ -5316,12 +5316,12 @@ function onPrefetch(args){ //handle the event
 
 //Create the favourites.html file with following content.
  Favourites contents here            
-&lt;script&gt; 
+<script> 
 //prefetchContentLoaded event 
 $("#tab").ejmTab({enableAjax: true, enableCache: true, prefetchAjaxContent:true},ajaxSuccess: function (args) { //handle the event 
 }
 });           
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -5380,59 +5380,59 @@ Example
 
 <pre class="prettyprint">
 <code>             
-&lt;div id="tab" data-role="ejmtab" data-ej-touchend="end" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-touchend="end" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;            
-&lt;script&gt; 
+</div>            
+<script> 
 // touchEnd event 
 function end(args){ //handle the event
 }
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code>             
-&lt;div id="tab" data-role="ejmtab" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;    
-&lt;script&gt; 
+</div>    
+<script> 
 //touchEnd event
 $("#tab").ejmTab({
   touchEnd: function (args) { //handle the event 
 }
 });           
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -5491,60 +5491,60 @@ Example
 
 <pre class="prettyprint">
 <code>             
-&lt;div id="tab" data-role="ejmtab" data-ej-touchstart="start" &gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab" data-ej-touchstart="start" >
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;            
-&lt;script&gt; 
+</div>            
+<script> 
 // touchStart event 
 function start(args){ //handle the event
 }
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //open event for Tab
-&lt;div id="tab" data-role="ejmtab"&gt;
-&lt;ul &gt;
-&lt;li data-ej-href="#default1" data-ej-text='Movies' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default2" data-ej-text='Music' &gt;
-&lt;/li &gt;
-&lt;li data-ej-href="#default3" data-ej-text='Favourites' &gt;
-&lt;/li &gt;
-&lt;/ul &gt;
-&lt;/div&gt;  
-&lt;div id="default1" &gt;
+<div id="tab" data-role="ejmtab">
+<ul >
+<li data-ej-href="#default1" data-ej-text='Movies' >
+</li >
+<li data-ej-href="#default2" data-ej-text='Music' >
+</li >
+<li data-ej-href="#default3" data-ej-text='Favourites' >
+</li >
+</ul >
+</div>  
+<div id="default1" >
 Movies content here
-&lt;/div&gt;    
-&lt;div id="default2" &gt;
+</div>    
+<div id="default2" >
 Music content here
-&lt;/div&gt;
-&lt;div id="default3" &gt;
+</div>
+<div id="default3" >
 Favourites content here
-&lt;/div&gt;    
-&lt;script&gt; 
+</div>    
+<script> 
 //touchStart event 
 $("#tab").ejmTab({
   touchStart: function (args) { //handle the event 
 }
 });           
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 

@@ -51,7 +51,7 @@ To customize the ListView dimensions, data-ej-width and data-ej-height propertie
 
 The following screenshot displays the Dimensions:
 
-{ ![Height z](Dimensions_images/Dimensions_img1.png) | markdownify }
+{{ '![Height z](Dimensions_images/Dimensions_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -11,7 +11,7 @@ documentation: ug
 
 Essential JavaScript Navigation Drawer is a sliding panel that displays the list of navigation options on demand. That is, by default, it is not visible but you can display it onto the left/right side of the screen by swiping or by clicking with desired target icon. 
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -81,7 +81,7 @@ To render the Header control, set “data-role” attribute to “ejmheader” t
 
 ## Add Navigation Drawer control
 
-To add Navigation Drawer control, specify ejmnavigationdrawer as data-role attribute for a &lt;div&gt; element. You can display a navigable option as a list by using listview. To achieve this, set the attribute data-ej-enablelistview as true in navigation drawer wrapper element. You can set thetext for list itemsby using data-ej-text attribute.
+To add Navigation Drawer control, specify ejmnavigationdrawer as data-role attribute for a <div> element. You can display a navigable option as a list by using listview. To achieve this, set the attribute data-ej-enablelistview as true in navigation drawer wrapper element. You can set thetext for list itemsby using data-ej-text attribute.
 
 {% highlight html %}
 
@@ -175,13 +175,13 @@ To set the target icon image from sprite and to position the target icon properl
 
 Run the above code to render the following output. 
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
 You can display the drawer by either clicking on the target icon or else by swiping from left. Refer to the following screenshot.
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -269,7 +269,7 @@ You can define the image classes specified for the list items as follows.
 
 Run the above code to render the following output. 
 
-{ ![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -373,7 +373,7 @@ Add the following code example to display the first listitem content while rende
 
 Run the above code to render the following output.
 
-{ ![](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 

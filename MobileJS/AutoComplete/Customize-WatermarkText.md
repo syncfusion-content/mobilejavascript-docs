@@ -23,7 +23,7 @@ The data-ej-watermarktext attribute displays text in the AutoComplete textbox wh
 
 The following screenshot displays Watermark text:
 
-{ ![](Customize-WatermarkText_images/Customize-WatermarkText_img1.png) | markdownify }
+{{ '![](Customize-WatermarkText_images/Customize-WatermarkText_img1.png)' | markdownify }}
 {:.image }
 
 

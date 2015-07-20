@@ -87,7 +87,7 @@ Refer to the following code example.
 
 Execute the above code example to render the following output.
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2f71445a.PNG](CheckState_images/CheckState_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2f71445a.PNG](CheckState_images/CheckState_img1.png)' | markdownify }}
 {:.image }
 
 

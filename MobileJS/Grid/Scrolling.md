@@ -66,7 +66,7 @@ Refer to the following script section.
 Result of above code example.
 
 
-{ ![22](Scrolling_images/Scrolling_img1.png) | markdownify }
+{{ '![22](Scrolling_images/Scrolling_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -132,7 +132,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![23](Scrolling_images/Scrolling_img2.png) | markdownify }
+{{ '![23](Scrolling_images/Scrolling_img2.png)' | markdownify }}
 {:.image }
 
 

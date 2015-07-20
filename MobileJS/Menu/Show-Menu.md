@@ -39,7 +39,7 @@ The Menu is shown by tap or taphold action on the target element and by setting 
 
 The following screenshot displays the Show Menu:
 
-{ ![ShowOn](Show-Menu_images/Show-Menu_img1.png) | markdownify }
+{{ '![ShowOn](Show-Menu_images/Show-Menu_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -11,7 +11,7 @@ documentation: ug
 
 The Essential JavaScript Dialog window is an overlay positioned within the AppView and displays a message along with supplementary content such as images or text and interactive content such as forms, etc.  It contains a title and a content area. The following example explains how to create a Mail Sign in form through which you can learn the features of Mobile Dialog widget.
 
-{ ![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -229,7 +229,7 @@ Add content element using the following styles.
 
 Run the code to render the following output. 
 
-{ ![F:/Work/UGchanges/Images/ios7_2.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![F:/Work/UGchanges/Images/ios7_2.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -237,7 +237,7 @@ Create the Dialog control
 
 There are four types of Dialog modes namely alert, confirm, normal and full view Dialogs. The default Dialog mode is alert. In this scenario, an error message or alert message is displayed when invalid details are entered. Alert Dialog contains title, content and one button.
 
-To render a Dialog, you can set data-role attribute of a &lt;div&gt; element to ejmdialog and inner &lt;div&gt; element is considered as the content of the Dialog. You can use data-ej-title attribute with the desired title to set Dialog title. In this case you can set it as Invalid email address. To set caption for Dialog button you can use data-ej-leftbuttoncaption attribute with the desired caption. In this application, set the caption as OK.  
+To render a Dialog, you can set data-role attribute of a <div> element to ejmdialog and inner <div> element is considered as the content of the Dialog. You can use data-ej-title attribute with the desired title to set Dialog title. In this case you can set it as Invalid email address. To set caption for Dialog button you can use data-ej-leftbuttoncaption attribute with the desired caption. In this application, set the caption as OK.  
 
 {% highlight html %}
 
@@ -261,7 +261,7 @@ Display the Dialog
 
 You can click the next button present in the header to display the Dialog. The click event is handled by formsubmit function as follows. You can create an object for Dialog control and display the Dialog using open function. 
 
-Add the following code example to the &lt;body&gt; tag.
+Add the following code example to the <body> tag.
 
 {% highlight js %}
 
@@ -317,7 +317,7 @@ Add the following code example to the &lt;body&gt; tag.
 
 Run the code to render the following output.
 
-{ ![F:/Work/UGchanges/Images/ios7_5.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![F:/Work/UGchanges/Images/ios7_5.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -347,7 +347,7 @@ Run this code to render the following output.
 
 
 
-{ ![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 

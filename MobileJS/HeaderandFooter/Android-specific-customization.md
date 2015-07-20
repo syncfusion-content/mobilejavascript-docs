@@ -49,7 +49,7 @@ Add the following styles to the content.
 
 The following screenshot displays the Android Specific customization:
 
-{ ![F:/android_phone.png](Android-specific-customization_images/Android-specific-customization_img1.png) | markdownify }
+{{ '![F:/android_phone.png](Android-specific-customization_images/Android-specific-customization_img1.png)' | markdownify }}
 {:.image }
 
 

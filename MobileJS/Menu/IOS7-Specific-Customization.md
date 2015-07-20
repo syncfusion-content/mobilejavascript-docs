@@ -45,7 +45,7 @@ The iOS7 Animate Type Menu comes with the Cancel Button at the bottom. The Cance
 
 The following screenshot displays the Button Customization:
 
-{ ![CancelButtonColor](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png) | markdownify }
+{{ '![CancelButtonColor](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -83,7 +83,7 @@ You can hide or show the Cancel Button by setting false or true to the data-ej-s
 
 The following screenshot displays the Show Cancel Button:
 
-{ ![ShowCancelButton](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img2.png) | markdownify }
+{{ '![ShowCancelButton](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -121,7 +121,7 @@ When iOS7 Menu is used, it comes up with a Title on the top of the Menu containe
 
 The following screenshot displays the Title.
 
-{ ![ShowTitle](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img3.png) | markdownify }
+{{ '![ShowTitle](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -165,7 +165,7 @@ When you click a button or a target element, the Menu is displayed. The appearan
 
  The following screenshot displays the Type:
 
-{ ![def](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img4.png) | markdownify }
+{{ '![def](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img4.png)' | markdownify }}
 {:.image }
 
 

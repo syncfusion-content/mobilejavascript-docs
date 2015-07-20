@@ -35,11 +35,11 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="none"/&gt;
-&lt;script&gt; 
+<input id="datepicker" data-role="none"/>
+<script> 
 // Create DatePicker  
 $("#datepicker").ejmDatePicker(); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -143,20 +143,20 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the cssClass property in Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-cssclass="customclass" /&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-cssclass="customclass" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the cssClass on initialization. 
 //To set cssClass API value 
-&lt;input id="datepicker" data-role="none"/&gt;
+<input id="datepicker" data-role="none"/>
              
-&lt;script&gt;
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker({ cssClass: "customclass" });            
 });
-&lt;/script&gt;                                 </code>
+</script>                                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -209,20 +209,20 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the culture property in Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-culture="en-US" /&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-culture="en-US" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the culture on initialization. 
 //To set culture API value 
-&lt;input id="datepicker" data-role="none"/&gt;
+<input id="datepicker" data-role="none"/>
              
-&lt;script&gt;
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker({ culture: "en-US" });           
 });
-&lt;/script&gt;                         </code>
+</script>                         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -275,20 +275,20 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the dateFormat property in Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-dateformat="MMMM dd, yyyy" /&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-dateformat="MMMM dd, yyyy" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the dateFormat on initialization. 
 //To set dateFormat API value 
-&lt;input id="datepicker" data-role="none"/&gt;
+<input id="datepicker" data-role="none"/>
              
-&lt;script&gt;
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker({ dateFormat: "MMMM dd, yyyy" });                
 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -341,20 +341,20 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enabled property in Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-enabled=false /&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-enabled=false />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the enabled on initialization. 
 //To set enabled API value 
-&lt;input id="datepicker" data-role="none"/&gt;
+<input id="datepicker" data-role="none"/>
              
-&lt;script&gt;
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker({ enabled: false });             
 });
-&lt;/script&gt;                                 </code>
+</script>                                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -407,20 +407,20 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enablePersistence property in Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-enablepersistence=true /&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-enablepersistence=true />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the enablePersistence on initialization. 
 //To set enablePersistence API value 
-&lt;input id="datepicker" data-role="none"/&gt;
+<input id="datepicker" data-role="none"/>
              
-&lt;script&gt;
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker({ enablePersistence: true });            
 });
-&lt;/script&gt;                                 </code>
+</script>                                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -494,19 +494,19 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the ios7 mode renderDefault property in Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-rendermode="ios7" data-ej-ios7-renderdefault=true /&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-rendermode="ios7" data-ej-ios7-renderdefault=true />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // To set ios7 mode renderDefault property API value
-&lt;input id="datepicker" data-role="none"/&gt;
+<input id="datepicker" data-role="none"/>
              
-&lt;script&gt;
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker({ renderMode:"ios7", ios: {renderDefault: true }});              
 });
-&lt;/script&gt;                  </code>
+</script>                  </code>
 </pre>
 <pre class="prettyprint">
 <code>// Get or set the ios7 mode renderDefault API, after initialization:
@@ -558,20 +558,20 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the maxDate property in Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-maxdate="12/31/2030" /&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-maxdate="12/31/2030" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the maxDtae on initialization. 
 //To set maxDate API value 
-&lt;input id="datepicker" data-role="none"/&gt;
+<input id="datepicker" data-role="none"/>
              
-&lt;script&gt;
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker({ maxDate: "12/31/2030" });              
 });
-&lt;/script&gt;                                 </code>
+</script>                                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -624,20 +624,20 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the minDate property in Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-mindate="01/01/2000" /&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-mindate="01/01/2000" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the minDate on initialization. 
 //To set minDate API value 
-&lt;input id="datepicker" data-role="none"/&gt;
+<input id="datepicker" data-role="none"/>
              
-&lt;script&gt;
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker({ minDate: "01/01/2000" });              
 });
-&lt;/script&gt;                                 </code>
+</script>                                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -690,20 +690,20 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the renderMode property in Unobtrusive way.
-&lt;input  id="datepicker" type="date" data-role="ejmdatepicker" data-ej-rendermode="android" /&gt;
+<input  id="datepicker" type="date" data-role="ejmdatepicker" data-ej-rendermode="android" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the renderMode on initialization. 
 //To set renderMode API value 
-&lt;input  id="datepicker" type="date"/&gt;
+<input  id="datepicker" type="date"/>
                  
-&lt;script&gt;
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker({ renderMode: "android" });              
 });
-&lt;/script&gt;                                 </code>
+</script>                                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -756,20 +756,20 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the theme property in Unobtrusive way.
-&lt;input  id="datepicker" type="date" data-role="ejmdatepicker" data-ej-theme="auto" /&gt;
+<input  id="datepicker" type="date" data-role="ejmdatepicker" data-ej-theme="auto" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the theme on initialization. 
 //To set theme API value 
-&lt;input  id="datepicker" type="date"/&gt;
+<input  id="datepicker" type="date"/>
                  
-&lt;script&gt;
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker({ theme: "auto" });              
 });
-&lt;/script&gt;                                 </code>
+</script>                                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -822,20 +822,20 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the value property in Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-value="04/23/2010" /&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-value="04/23/2010" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the value on initialization. 
 //To set value API value 
-&lt;input id="datepicker" data-role="none"/&gt;
+<input id="datepicker" data-role="none"/>
              
-&lt;script&gt;
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker({ value: "04/23/2010" });                
 });
-&lt;/script&gt;                         </code>
+</script>                         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -909,19 +909,19 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the windows mode renderDefault property in Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-rendermode="windows" data-ej-windows-renderdefault=true /&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-rendermode="windows" data-ej-windows-renderdefault=true />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // To set windows mode renderDefault property API value
-&lt;input id="datepicker" data-role="none"/&gt;
+<input id="datepicker" data-role="none"/>
              
-&lt;script&gt;
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker({ renderMode:"windows", windows: { renderDefault: true }});              
 });
-&lt;/script&gt;                          </code>
+</script>                          </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -964,24 +964,24 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="ejmdatepicker"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker"/>
+<script>
 $(function(){
 // Create DatePicker
 var dpObj = $("#datepicker").data("ejmDatePicker");
 dpObj.disable();
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="ejmdatepicker"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker"/>
+<script>
 // changes the DatePicker current state to disabled     
 $(function(){
 $("#datepicker").ejmDatePicker("disable");      
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1009,24 +1009,24 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="ejmdatepicker"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker"/>
+<script>
 $(function(){
 // Create DatePicker
 var dpObj = $("#datepicker").data("ejmDatePicker");
 dpObj.enable();
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="ejmdatepicker"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker"/>
+<script>
 $(function(){
 // change the DatePicker current state to enabled       
 $("#datepicker").ejmDatePicker("enable");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1054,24 +1054,24 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="ejmdatepicker"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker"/>
+<script>
 $(function(){
 // Create DatePicker
 var dpObj = $("#datepicker").data("ejmDatePicker");
 dpObj.getValue();
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="ejmdatepicker"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker"/>
+<script>
 // get the DatePicker current value             
 $(function(){
 $("#datepicker").ejmDatePicker("getValue");     
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1099,23 +1099,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="ejmdatepicker"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker"/>
+<script>
 $(function(){
 // Create DatePicker
 var dpObj = $("#datepicker").data("ejmDatePicker");
 dpObj.hide();
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="ejmdatepicker"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker"/>
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker("hide");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1143,24 +1143,24 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="ejmdatepicker"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker"/>
+<script>
 $(function(){
 // Create DatePicker
 var dpObj = $("#datepicker").data("ejmDatePicker");
 dpObj.setCurrentDate("12/31/2000");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="ejmdatepicker"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker"/>
+<script>
 // get the DatePicker current value             
 $(function(){
 $("#datepicker").ejmDatePicker("setCurrentDate", "12/31/2000");
 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 
 
@@ -1188,23 +1188,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="ejmdatepicker"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker"/>
+<script>
 $(function(){
 // Create DatePicker
 var dpObj = $("#datepicker").data("ejmDatePicker");
 dpObj.show();
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="ejmdatepicker"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker"/>
+<script>
 $(function(){
 $("#datepicker").ejmDatePicker("show"); 
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1288,21 +1288,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the change event using Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-change="change" /&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-change="change" />
+<script>
 function change(){}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="none"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="none"/>
+<script>
 //change event for DatePicker
 $("#datepicker").ejmDatePicker({
    change: function (args) {* //handle the event 
 }
 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -1379,21 +1379,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the close event using Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-close="close" /&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-close="close" />
+<script>
 function close(){}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="none"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="none"/>
+<script>
 //close event for DatePicker
 $("#datepicker").ejmDatePicker({
    close: function (args) {* //handle the event 
 }
 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -1470,21 +1470,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the focusin event using Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-focusin="focusin" /&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-focusin="focusin" />
+<script>
 function focusin(){}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="none"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="none"/>
+<script>
 //focusIn event for DatePicker
 $("#datepicker").ejmDatePicker({
    focusIn: function (args) { * //handle the event 
 }
 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -1561,21 +1561,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the focusout event using Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-focusout="focusout" /&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-focusout="focusout" />
+<script>
 function focusout(){}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="none"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="none"/>
+<script>
 //focusOut event for DatePicker
 $("#datepicker").ejmDatePicker({
    focusOut: function (args) {* //handle the event 
 }
 }); 
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -1652,21 +1652,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the load event using Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-load="load" /&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-load="load" />
+<script>
 function load(){}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="none"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="none"/>
+<script>
 //load event for DatePicker
 $("#datepicker").ejmDatePicker({
    load: function (args) {* //handle the event 
 }
 }); 
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -1743,21 +1743,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the open event using Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-open="open" /&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-open="open" />
+<script>
 function open(){}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="none"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="none"/>
+<script>
 //open event for DatePicker
 $("#datepicker").ejmDatePicker({
    open: function (args) {* //handle the event 
 }
 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -1834,21 +1834,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the select event using Unobtrusive way.
-&lt;input id="datepicker" data-role="ejmdatepicker" data-ej-select="select" /&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="ejmdatepicker" data-ej-select="select" />
+<script>
 function select(){}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="datepicker" data-role="none"/&gt;
-&lt;script&gt;
+<input id="datepicker" data-role="none"/>
+<script>
 //select event for DatePicker
 $("#datepicker").ejmDatePicker({
    select: function (args) { * //handle the event 
 }
 }); 
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 

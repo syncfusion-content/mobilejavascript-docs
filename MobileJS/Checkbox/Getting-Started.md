@@ -11,7 +11,7 @@ documentation: ug
 
 From the following guidelines, you can select Multiple or Single Selection List by using Checkbox. The following screenshot demonstrates the functionality with Checkbox button action.
 
-{ ![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -209,7 +209,7 @@ To render the Checkbox control, you can set data-role attribute as “ejmcheckbo
 
 Run this code example and you can see the following output.
 
-{ ![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 

@@ -49,7 +49,7 @@ _Note: Both data-ej-imagepath and data-ej-imageurl attribute can be set when you
 
 The following screenshot displays the output of the above code.
 
-{ ![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/imagepositionchange.png](Image-Configuration_images/Image-Configuration_img1.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/imagepositionchange.png](Image-Configuration_images/Image-Configuration_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -95,7 +95,7 @@ Refer to the following code example for CSS classes.
 
 The following screenshot illustrates the output of the above code.
 
-{ ![C:/Users/labuser/Desktop/ImagClass.png](Image-Configuration_images/Image-Configuration_img2.png) | markdownify }
+{{ '![C:/Users/labuser/Desktop/ImagClass.png](Image-Configuration_images/Image-Configuration_img2.png)' | markdownify }}
 {:.image }
 
 

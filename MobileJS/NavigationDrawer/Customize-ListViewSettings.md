@@ -85,7 +85,7 @@ Refer to the script section to update the page content while clicking the item i
 
 The following screenshot illustrates the output.
 
-{ ![](Customize-ListViewSettings_images/Customize-ListViewSettings_img1.png) | markdownify }
+{{ '![](Customize-ListViewSettings_images/Customize-ListViewSettings_img1.png)' | markdownify }}
 {:.image }
 
 

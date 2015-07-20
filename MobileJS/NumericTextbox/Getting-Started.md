@@ -109,7 +109,7 @@ Create an HTML file and add the following template to the HTML file for Roo
 
 
 
-To render Numeric Textbox control, specify ejmnumeric as the date-role attribute for an &lt;input&gt; element and type the attribute as number. Add the following code example to render numeric textbox to input the number of persons per room.
+To render Numeric Textbox control, specify ejmnumeric as the date-role attribute for an <input> element and type the attribute as number. Add the following code example to render numeric textbox to input the number of persons per room.
 
 {% highlight html %}
 
@@ -227,7 +227,7 @@ To improve the look and feel of Rooms Availability Check you need to add the fol
 
 
 
-{ ![C:/Users/sridhar.SYNCLAPN3965/Downloads/mockup/IMG_0539_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/sridhar.SYNCLAPN3965/Downloads/mockup/IMG_0539_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 

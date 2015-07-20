@@ -105,7 +105,7 @@ Refer the following code examples for script section.
 
 
 
-{ ![F:/thangavel/dev/source/Trunk/JSDoc/rotator-1.png](Data-Binding_images/Data-Binding_img1.png) | markdownify }
+{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-1.png](Data-Binding_images/Data-Binding_img1.png)' | markdownify }}
 {:.image }
 
 

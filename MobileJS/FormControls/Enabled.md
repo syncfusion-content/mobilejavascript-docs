@@ -87,7 +87,7 @@ The data-ej-enabled is a boolean attribute that lets you enable or disable the o
 
 The following screenshot displays enabled option.
 
-{ ![](Enabled_images/Enabled_img1.png) | markdownify }
+{{ '![](Enabled_images/Enabled_img1.png)' | markdownify }}
 {:.image }
 
 

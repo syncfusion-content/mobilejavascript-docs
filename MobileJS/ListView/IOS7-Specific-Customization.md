@@ -51,7 +51,7 @@ You can set the IOS7 specific properties to the control by accessing IOS7 proper
 
 The following screenshot displays the iOS7 Specific Customization:
 
-{ ![C:/Users/Thivya/AppData/Local/Temp/SNAGHTML23741ad9.PNG](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png) | markdownify }
+{{ '![C:/Users/Thivya/AppData/Local/Temp/SNAGHTML23741ad9.PNG](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -37,7 +37,7 @@ The data-ej-leftbuttoncaption attribute is used to specify the text of the Left 
 
 The following screenshot displays the output.
 
-{ ![](Button-Customization_images/Button-Customization_img1.png) | markdownify }
+{{ '![](Button-Customization_images/Button-Customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -69,7 +69,7 @@ The data-ej-rightbuttoncaption attribute specifies the text of the Right Button.
 
 The following screenshot displays the output.
 
-{ ![](Button-Customization_images/Button-Customization_img2.png) | markdownify }
+{{ '![](Button-Customization_images/Button-Customization_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -105,7 +105,7 @@ The data-ej-showbuttons attribute is used to show the buttons in the Dialog box.
 
 The following screenshot displays the output.
 
-{ ![](Button-Customization_images/Button-Customization_img3.png) | markdownify }
+{{ '![](Button-Customization_images/Button-Customization_img3.png)' | markdownify }}
 {:.image }
 
 

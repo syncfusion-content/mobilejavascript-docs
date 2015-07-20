@@ -49,7 +49,7 @@ You can refer to the following code example.
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2ab540a8.PNG](Flat-Specific-Customization_images/Flat-Specific-Customization_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2ab540a8.PNG](Flat-Specific-Customization_images/Flat-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -17,7 +17,7 @@ You can customize Radial Menu items by using imagepath, imageurl and text proper
 
 Alternatively you can use data-ej-imageurl attribute to directly specify the url of the image for the items. The data-ej-text property is used to specify the item text in windows mode.
 
-{ ![C:/Users/ApoorvahR/Desktop/Note.png](Customize-menu-item-and-its-images_images/Customize-menu-item-and-its-images_img1.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/Note.png](Customize-menu-item-and-its-images_images/Customize-menu-item-and-its-images_img1.png)' | markdownify }}
 {:.image }
 _Note: data-ej-imagepath and data-ej-imagename attributes can be used when you want to specify separate images for each render mode. The data-ej-imageurl attribute is used when you want to provide common images for all render modes._
 

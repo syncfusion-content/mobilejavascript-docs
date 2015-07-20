@@ -14,7 +14,7 @@ In this section, you can learn how to create Scroll Panel for your mobile app.
 Essential Scroll panel for mobile JavaScript is an interactive panel for scrolling. The Scroll panel control wraps its contents in a scrollable area as an object in a GUI with which continuous text, pictures can be scrolled and viewed even if it does not fit into the space of a mobile or computer display.
 
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -140,13 +140,13 @@ Run this code for the following output. For more details, refer to "Common Getti
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
 ## Add Scroll Panel
 
-To set Scroll Panel for a particular content, you need to specify the “data-role” attribute as “ejmScrollPanel” for a &lt;div&gt; element and set the “data-ej-target” attribute with value which should match the “id” (“content” here) of the target element for which you need to add the Scroll Panel.
+To set Scroll Panel for a particular content, you need to specify the “data-role” attribute as “ejmScrollPanel” for a <div> element and set the “data-ej-target” attribute with value which should match the “id” (“content” here) of the target element for which you need to add the Scroll Panel.
 
 {% highlight html %}
 
@@ -180,7 +180,7 @@ The “data-ej-targetheight” and “data-ej-targetwidth” describes the heigh
 
 Run the above code to render the following output. For more details, refer to "Common Getting Started" section.
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 

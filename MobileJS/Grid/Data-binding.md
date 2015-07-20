@@ -73,7 +73,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![2](Data-binding_images/Data-binding_img1.png) | markdownify }
+{{ '![2](Data-binding_images/Data-binding_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -136,7 +136,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![3](Data-binding_images/Data-binding_img2.png) | markdownify }
+{{ '![3](Data-binding_images/Data-binding_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -206,7 +206,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![4](Data-binding_images/Data-binding_img3.png) | markdownify }
+{{ '![4](Data-binding_images/Data-binding_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -266,7 +266,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![6](Data-binding_images/Data-binding_img4.png) | markdownify }
+{{ '![6](Data-binding_images/Data-binding_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -330,7 +330,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![6](Data-binding_images/Data-binding_img5.png) | markdownify }
+{{ '![6](Data-binding_images/Data-binding_img5.png)' | markdownify }}
 {:.image }
 
 
@@ -414,7 +414,7 @@ Refer to the following script section.
 
 
 
-{ ![7](Data-binding_images/Data-binding_img6.png) | markdownify }
+{{ '![7](Data-binding_images/Data-binding_img6.png)' | markdownify }}
 {:.image }
 
 
@@ -619,7 +619,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![8](Data-binding_images/Data-binding_img7.png) | markdownify }
+{{ '![8](Data-binding_images/Data-binding_img7.png)' | markdownify }}
 {:.image }
 
 
@@ -699,7 +699,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![9](Data-binding_images/Data-binding_img8.png) | markdownify }
+{{ '![9](Data-binding_images/Data-binding_img8.png)' | markdownify }}
 {:.image }
 
 
@@ -748,7 +748,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![11](Data-binding_images/Data-binding_img9.png) | markdownify }
+{{ '![11](Data-binding_images/Data-binding_img9.png)' | markdownify }}
 {:.image }
 
 

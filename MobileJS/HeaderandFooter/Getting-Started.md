@@ -11,7 +11,7 @@ documentation: ug
 
 The Essential JavaScript Mobile Header widget is placed at the top of the page. It usually contains page title and optional buttons positioned to the left and right for navigation or actions. Header position can be fixed according to the user. The Essential JavaScript mobile Footer widget is same structure as header at the bottom of the page. In the following guidelines, you will learn about features in mobile Header and Footer widget by creating a web page.
 
-{ ![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -129,7 +129,7 @@ Use the following styles to add web page content element.
 
 Run this code and you can see the following output. 
 
-{ ![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -147,7 +147,7 @@ To render the Header control, you have to set “data-role” attribute to “ej
 
 Run this code and you can see the following output. 
 
-{ ![C:/Users/ApoorvahR/Desktop/3.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/3.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -167,7 +167,7 @@ To enable the Header buttons, you need to set “data-ej-showleftbutton” and �
 
 Run this code and you can see the following output. 
 
-{ ![C:/Users/ApoorvahR/Desktop/4.png](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/4.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -230,10 +230,10 @@ Run this code and you can see the following output.
 <td>
 ![](Getting-Started_images/Getting-Started_img5.png)
 {:.image }
-{{ '_Header left button event_' | markdownify }}</td><td>
+{{{ ''_Header left button event_'' | markdownify }}}</td><td>
 ![](Getting-Started_images/Getting-Started_img6.png)
 {:.image }
-{{ '_Header right button event_' | markdownify }}</td></tr>
+{{{ ''_Header right button event_'' | markdownify }}}</td></tr>
 </table>
 
 
@@ -253,7 +253,7 @@ To render the Footer control, you need to set data-role attribute to ejmfooter t
 
 Run this code and you can see the following output. 
 
-{ ![C:/Users/ApoorvahR/Desktop/7.png](Getting-Started_images/Getting-Started_img7.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/7.png](Getting-Started_images/Getting-Started_img7.png)' | markdownify }}
 {:.image }
 
 

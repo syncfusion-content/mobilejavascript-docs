@@ -22,7 +22,7 @@ $(element).ejmToolbar<span class="signature">()</span>
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar" &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt; // Create toolbar  $("#toolbar").ejmToolbar(); &lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="toolbar" data-role="ejmtoolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar" ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script> // Create toolbar  $("#toolbar").ejmToolbar(); </script></code></pre><pre class="prettyprint"><code> <div id="toolbar" data-role="ejmtoolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre>
 
 
 
@@ -88,7 +88,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the enableSplitView property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-enablesplitview=false &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // To set android mode enableSplitView property API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar({ android:{enableSplitView: false},renderMode:ej.mobile.RenderMode.Android}); });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> // Get or set the android mode enableSplitView API, after initialization:&lt;script&gt;// Gets the android mode enableSplitView value  $("#toolbar").ejmToolbar("option", "android.enableSplitView");   // Sets the android mode enableSplitView value $("#toolbar").ejmToolbar("option", "android.enableSplitView", false); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the enableSplitView property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-enablesplitview=false ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // To set android mode enableSplitView property API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar({ android:{enableSplitView: false},renderMode:ej.mobile.RenderMode.Android}); });</script></code></pre><pre class="prettyprint"><code> // Get or set the android mode enableSplitView API, after initialization:<script>// Gets the android mode enableSplitView value  $("#toolbar").ejmToolbar("option", "android.enableSplitView");   // Sets the android mode enableSplitView value $("#toolbar").ejmToolbar("option", "android.enableSplitView", false); </script></code></pre>
 
 
 
@@ -112,7 +112,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the position property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-position="normal" &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // To set android mode position property API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar({ android:{position: "normal"},renderMode:ej.mobile.RenderMode.Android}); });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> // Get or set the android mode position API, after initialization:&lt;script&gt;// Gets the android mode position value  $("#toolbar").ejmToolbar("option", "android.position");   // Sets the android mode poisition value $("#toolbar").ejmToolbar("option", "android.position", false); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the position property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-position="normal" ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // To set android mode position property API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar({ android:{position: "normal"},renderMode:ej.mobile.RenderMode.Android}); });</script></code></pre><pre class="prettyprint"><code> // Get or set the android mode position API, after initialization:<script>// Gets the android mode position value  $("#toolbar").ejmToolbar("option", "android.position");   // Sets the android mode poisition value $("#toolbar").ejmToolbar("option", "android.position", false); </script></code></pre>
 
 
 
@@ -136,7 +136,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the showBackNavigator property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-showbacknavigator=false &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // To set android mode showBackNavigator property API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar({ android:{showBackNavigator: false},renderMode:ej.mobile.RenderMode.Android}); });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> // Get or set the android mode showBackNavigator API, after initialization:&lt;script&gt;// Gets the android mode showBackNavigator value  $("#toolbar").ejmToolbar("option", "android.showBackNavigator");   // Sets the android mode showBackNavigator value $("#toolbar").ejmToolbar("option", "android.showBackNavigator", false); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the showBackNavigator property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-showbacknavigator=false ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // To set android mode showBackNavigator property API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar({ android:{showBackNavigator: false},renderMode:ej.mobile.RenderMode.Android}); });</script></code></pre><pre class="prettyprint"><code> // Get or set the android mode showBackNavigator API, after initialization:<script>// Gets the android mode showBackNavigator value  $("#toolbar").ejmToolbar("option", "android.showBackNavigator");   // Sets the android mode showBackNavigator value $("#toolbar").ejmToolbar("option", "android.showBackNavigator", false); </script></code></pre>
 
 
 
@@ -160,7 +160,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the showEllipsis property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-showEllipsis=false &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // To set android mode showEllipsis property API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar({ android:{showEllipsis: false},renderMode:ej.mobile.RenderMode.Android });});&lt;/script&gt;</code></pre><pre class="prettyprint"><code> // Get or set the android mode showEllipsis API, after initialization:&lt;script&gt;// Gets the android mode showEllipsis value  $("#toolbar").ejmToolbar("option", "android.showEllipsis");   // Sets the android mode showEllipsis value $("#toolbar").ejmToolbar("option", "android.showEllipsis", false); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the showEllipsis property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-showEllipsis=false ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // To set android mode showEllipsis property API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar({ android:{showEllipsis: false},renderMode:ej.mobile.RenderMode.Android });});</script></code></pre><pre class="prettyprint"><code> // Get or set the android mode showEllipsis API, after initialization:<script>// Gets the android mode showEllipsis value  $("#toolbar").ejmToolbar("option", "android.showEllipsis");   // Sets the android mode showEllipsis value $("#toolbar").ejmToolbar("option", "android.showEllipsis", false); </script></code></pre>
 
 
 
@@ -184,7 +184,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the showTitleIcon property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar"  data-ej-rendermode="android" data-ej-android-showTitleIcon=false &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // To set android mode showTitleIcon property API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar({ android:{showTitleIcon: false},renderMode: ej.mobile.RenderMode.Android});   });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> // Get or set the android mode showTitleIcon API, after initialization:&lt;script&gt;// Gets the android mode showTitleIcon value  $("#toolbar").ejmToolbar("option", "android.showTitleIcon");   // Sets the android mode showTitleIcon value $("#toolbar").ejmToolbar("option", "android.showTitleIcon", false); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the showTitleIcon property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar"  data-ej-rendermode="android" data-ej-android-showTitleIcon=false ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // To set android mode showTitleIcon property API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar({ android:{showTitleIcon: false},renderMode: ej.mobile.RenderMode.Android});   });</script></code></pre><pre class="prettyprint"><code> // Get or set the android mode showTitleIcon API, after initialization:<script>// Gets the android mode showTitleIcon value  $("#toolbar").ejmToolbar("option", "android.showTitleIcon");   // Sets the android mode showTitleIcon value $("#toolbar").ejmToolbar("option", "android.showTitleIcon", false); </script></code></pre>
 
 
 
@@ -208,7 +208,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the title property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-title="Title" &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // To set android mode title property API value &lt;div id="toolbar" &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar({ android:{title: "Title"},renderMode:ej.mobile.RenderMode.Android}); });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> // Get or set the android mode title API, after initialization:&lt;script&gt;// Gets the android mode title value  $("#toolbar").ejmToolbar("option", "android.title");   // Sets the android mode title value $("#toolbar").ejmToolbar("option", "android.title", "Title"); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the title property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-title="Title" ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // To set android mode title property API value <div id="toolbar" ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar({ android:{title: "Title"},renderMode:ej.mobile.RenderMode.Android}); });</script></code></pre><pre class="prettyprint"><code> // Get or set the android mode title API, after initialization:<script>// Gets the android mode title value  $("#toolbar").ejmToolbar("option", "android.title");   // Sets the android mode title value $("#toolbar").ejmToolbar("option", "android.title", "Title"); </script></code></pre>
 
 
 
@@ -232,7 +232,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the titleIconUrl property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-titleIconUrl="enter title Icon url here" &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // To set android mode titleIconUrl property API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar({ android:{titleIconUrl: "enter title Icon url here"},renderMode:ej.mobile.RenderMode.Android });   });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> // Get or set the android mode titleIconUrl API, after initialization:&lt;script&gt;// Gets the android mode titleIconUrl value  $("#toolbar").ejmToolbar("option", "android.titleIconUrl");   // Sets the android mode titleIconUrl value $("#toolbar").ejmToolbar("option", "android.titleIconUrl", "enter title Icon url here"); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the titleIconUrl property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-titleIconUrl="enter title Icon url here" ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // To set android mode titleIconUrl property API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar({ android:{titleIconUrl: "enter title Icon url here"},renderMode:ej.mobile.RenderMode.Android });   });</script></code></pre><pre class="prettyprint"><code> // Get or set the android mode titleIconUrl API, after initialization:<script>// Gets the android mode titleIconUrl value  $("#toolbar").ejmToolbar("option", "android.titleIconUrl");   // Sets the android mode titleIconUrl value $("#toolbar").ejmToolbar("option", "android.titleIconUrl", "enter title Icon url here"); </script></code></pre>
 
 
 
@@ -256,7 +256,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the cssClass property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-cssclass="customclass"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // Set Toolbar cssClass on initialization. //To set cssClass API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar ({ cssClass:"customclass"});   });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> //Get or set the Toolbar cssClass, after initialization:&lt;script&gt;// Gets the cssClass API value.          $("#toolbar").ejmToolbar ("option", "cssClass");                       // Sets the cssClass API$("#toolbar").ejmToolbar ("option", "cssClass", "customclass");            &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the cssClass property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-cssclass="customclass"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // Set Toolbar cssClass on initialization. //To set cssClass API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar ({ cssClass:"customclass"});   });</script></code></pre><pre class="prettyprint"><code> //Get or set the Toolbar cssClass, after initialization:<script>// Gets the cssClass API value.          $("#toolbar").ejmToolbar ("option", "cssClass");                       // Sets the cssClass API$("#toolbar").ejmToolbar ("option", "cssClass", "customclass");            </script></code></pre>
 
 
 
@@ -280,7 +280,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the enabled property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-enabled=true&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // Set Toolbar enabled on initialization. //To set enabled API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$("#toolbar").ejmToolbar ({ enabled: true });   &lt;/script&gt;</code></pre><pre class="prettyprint"><code> //Get or set the Toolbar enabled, after initialization:&lt;script&gt;// Gets the enabled API value.           $("#toolbar").ejmToolbar ("option", "enabled");                        // Sets the enabled API$("#toolbar").ejmToolbar ("option", "enabled", true);            &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the enabled property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-enabled=true><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // Set Toolbar enabled on initialization. //To set enabled API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$("#toolbar").ejmToolbar ({ enabled: true });   </script></code></pre><pre class="prettyprint"><code> //Get or set the Toolbar enabled, after initialization:<script>// Gets the enabled API value.           $("#toolbar").ejmToolbar ("option", "enabled");                        // Sets the enabled API$("#toolbar").ejmToolbar ("option", "enabled", true);            </script></code></pre>
 
 
 
@@ -304,7 +304,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the enablePersistence property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-enablepersistence=true &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // Set Toolbar enablePersistence on initialization. //To set enablePersistence API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$("#toolbar").ejmToolbar ({ enablePersistence: true });         &lt;/script&gt;</code></pre><pre class="prettyprint"><code> //Get or set the Toolbar enablePersistence, after initialization:&lt;script&gt;// Gets the enablePersistence API value.                 $("#toolbar").ejmToolbar ("option", "enablePersistence");                      // Sets the enablePersistence API$("#toolbar").ejmToolbar ("option", "enablePersistence", true);            &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the enablePersistence property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-enablepersistence=true ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // Set Toolbar enablePersistence on initialization. //To set enablePersistence API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$("#toolbar").ejmToolbar ({ enablePersistence: true });         </script></code></pre><pre class="prettyprint"><code> //Get or set the Toolbar enablePersistence, after initialization:<script>// Gets the enablePersistence API value.                 $("#toolbar").ejmToolbar ("option", "enablePersistence");                      // Sets the enablePersistence API$("#toolbar").ejmToolbar ("option", "enablePersistence", true);            </script></code></pre>
 
 
 
@@ -340,7 +340,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the position property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="flat" data-ej-flat-position="normal" &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // To set flat mode position property API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar({ flat:{position: "normal"},renderMode:ej.mobile.RenderMode.Flat}); });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> // Get or set the flat mode position API, after initialization:&lt;script&gt;// Gets the flat mode position value  $("#toolbar").ejmToolbar("option", "flat.position");   // Sets the android mode position value $("#toolbar").ejmToolbar("option", "flat.position", false); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the position property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="flat" data-ej-flat-position="normal" ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // To set flat mode position property API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar({ flat:{position: "normal"},renderMode:ej.mobile.RenderMode.Flat}); });</script></code></pre><pre class="prettyprint"><code> // Get or set the flat mode position API, after initialization:<script>// Gets the flat mode position value  $("#toolbar").ejmToolbar("option", "flat.position");   // Sets the android mode position value $("#toolbar").ejmToolbar("option", "flat.position", false); </script></code></pre>
 
 
 
@@ -364,7 +364,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the hide property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-hide=false&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // Set Toolbar hide on initialization. //To set hide API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$("#toolbar").ejmToolbar ({ hide: false });             &lt;/script&gt;</code></pre><pre class="prettyprint"><code> //Get or set the Toolbar hide, after initialization:&lt;script&gt;// Gets the hide API value.              $("#toolbar").ejmToolbar ("option", "hide");                   // Sets the hide API$("#toolbar").ejmToolbar ("option", "hide", false);            &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the hide property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-hide=false><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // Set Toolbar hide on initialization. //To set hide API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$("#toolbar").ejmToolbar ({ hide: false });             </script></code></pre><pre class="prettyprint"><code> //Get or set the Toolbar hide, after initialization:<script>// Gets the hide API value.              $("#toolbar").ejmToolbar ("option", "hide");                   // Sets the hide API$("#toolbar").ejmToolbar ("option", "hide", false);            </script></code></pre>
 
 
 
@@ -400,7 +400,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the position property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="ios7" data-ej-ios7-position="normal" &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // To set ios7 mode position property API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar({ ios7:{position: "normal"},renderMode:ej.mobile.RenderMode.IOS7}); });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> // Get or set the ios7 mode position API, after initialization:&lt;script&gt;// Gets the ios7 mode position value  $("#toolbar").ejmToolbar("option", "ios7.position");   // Sets the ios7 mode position value $("#toolbar").ejmToolbar("option", "ios7.position", false); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the position property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="ios7" data-ej-ios7-position="normal" ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // To set ios7 mode position property API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar({ ios7:{position: "normal"},renderMode:ej.mobile.RenderMode.IOS7}); });</script></code></pre><pre class="prettyprint"><code> // Get or set the ios7 mode position API, after initialization:<script>// Gets the ios7 mode position value  $("#toolbar").ejmToolbar("option", "ios7.position");   // Sets the ios7 mode position value $("#toolbar").ejmToolbar("option", "ios7.position", false); </script></code></pre>
 
 
 
@@ -424,7 +424,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the toolbarPosition property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-position="fixed"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // Set Toolbar toolbarPosition on initialization. //To set toolbarPosition API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar ({ position: ej.mobile.Position.Fixed });              });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> //Get or set the Toolbar toolbarPosition, after initialization:&lt;script&gt;// Gets the toolbarPosition API value.           $("#toolbar").ejmToolbar ("option", "position");                       // Sets the toolbarPosition API$("#toolbar").ejmToolbar ("option", "position", ej.mobile.Position.Fixed);            &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the toolbarPosition property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-position="fixed"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // Set Toolbar toolbarPosition on initialization. //To set toolbarPosition API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar ({ position: ej.mobile.Position.Fixed });              });</script></code></pre><pre class="prettyprint"><code> //Get or set the Toolbar toolbarPosition, after initialization:<script>// Gets the toolbarPosition API value.           $("#toolbar").ejmToolbar ("option", "position");                       // Sets the toolbarPosition API$("#toolbar").ejmToolbar ("option", "position", ej.mobile.Position.Fixed);            </script></code></pre>
 
 
 
@@ -448,7 +448,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the renderMode property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="auto"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // Set Toolbar renderMode on initialization. //To set renderMode API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar ({ renderMode:ej.mobile.RenderMode.Windows});  });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> //Get or set the Toolbar renderMode, after initialization:&lt;script&gt;// Gets the renderMode API value.                $("#toolbar").ejmToolbar ("option", "renderMode");                     // Sets the renderMode API$("#toolbar").ejmToolbar ("option", "renderMode", ej.mobile.RenderMode.Auto);            &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the renderMode property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="auto"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // Set Toolbar renderMode on initialization. //To set renderMode API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar ({ renderMode:ej.mobile.RenderMode.Windows});  });</script></code></pre><pre class="prettyprint"><code> //Get or set the Toolbar renderMode, after initialization:<script>// Gets the renderMode API value.                $("#toolbar").ejmToolbar ("option", "renderMode");                     // Sets the renderMode API$("#toolbar").ejmToolbar ("option", "renderMode", ej.mobile.RenderMode.Auto);            </script></code></pre>
 
 
 
@@ -472,7 +472,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the templateId property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-templateid="sample"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;span id="sample" &gt;Hi, SampleSpan &lt;/span&gt;</code></pre><pre class="prettyprint"><code> // Set Toolbar templateId on initialization. //To set templateId API value &lt;div id="toolbar" data-role="ejmtoolbar" data-ej-templateid="sample"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;span id="sample" &gt;Hi, SampleSpan &lt;/span&gt;&lt;script&gt;$("#toolbar").ejmToolbar ({ templateId: "sample" });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> //Get or set the Toolbar templateId, after initialization:&lt;script&gt;// Gets the templateId API value.                $("#toolbar").ejmToolbar ("option", "templateId");                     // Sets the templateId API$("#toolbar").ejmToolbar ("option", "templateId", "sample");            &lt;script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the templateId property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-templateid="sample"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><span id="sample" >Hi, SampleSpan </span></code></pre><pre class="prettyprint"><code> // Set Toolbar templateId on initialization. //To set templateId API value <div id="toolbar" data-role="ejmtoolbar" data-ej-templateid="sample"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><span id="sample" >Hi, SampleSpan </span><script>$("#toolbar").ejmToolbar ({ templateId: "sample" });</script></code></pre><pre class="prettyprint"><code> //Get or set the Toolbar templateId, after initialization:<script>// Gets the templateId API value.                $("#toolbar").ejmToolbar ("option", "templateId");                     // Sets the templateId API$("#toolbar").ejmToolbar ("option", "templateId", "sample");            <script></code></pre>
 
 
 
@@ -496,7 +496,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the theme property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-theme="auto"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // Set Toolbar theme on initialization. //To set theme API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar ({ theme: ej.mobile.Theme.Auto });});&lt;/script&gt;</code></pre><pre class="prettyprint"><code> //Get or set the Toolbar theme, after initialization:&lt;script&gt;// Gets the theme API value.             $("#toolbar").ejmToolbar ("option", "theme");                  // Sets the theme API$("#toolbar").ejmToolbar ("option", "theme", ej.mobile.Theme.Auto);            &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the theme property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-theme="auto"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // Set Toolbar theme on initialization. //To set theme API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar ({ theme: ej.mobile.Theme.Auto });});</script></code></pre><pre class="prettyprint"><code> //Get or set the Toolbar theme, after initialization:<script>// Gets the theme API value.             $("#toolbar").ejmToolbar ("option", "theme");                  // Sets the theme API$("#toolbar").ejmToolbar ("option", "theme", ej.mobile.Theme.Auto);            </script></code></pre>
 
 
 
@@ -532,7 +532,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the position property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="windows" data-ej-windows-position="normal" &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // To set windows mode position property API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar({ windows:{position: "normal"},renderMode:ej.mobile.RenderMode.Windows}); });&lt;/script&gt;</code></pre><pre class="prettyprint"><code> // Get or set the windows mode position API, after initialization:&lt;script&gt;// Gets the windows mode position value  $("#toolbar").ejmToolbar("option", "windows.position");   // Sets the windows mode poisition value $("#toolbar").ejmToolbar("option", "windows.position", false); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the position property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar" data-ej-rendermode="windows" data-ej-windows-position="normal" ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // To set windows mode position property API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar({ windows:{position: "normal"},renderMode:ej.mobile.RenderMode.Windows}); });</script></code></pre><pre class="prettyprint"><code> // Get or set the windows mode position API, after initialization:<script>// Gets the windows mode position value  $("#toolbar").ejmToolbar("option", "windows.position");   // Sets the windows mode poisition value $("#toolbar").ejmToolbar("option", "windows.position", false); </script></code></pre>
 
 
 
@@ -556,7 +556,7 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the renderDefault property in unobtrusive way.&lt;div id="toolbar" data-role="ejmtoolbar"  data-ej-rendermode="windows" data-ej-windows-renderDefault=false &gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;</code></pre><pre class="prettyprint"><code> // To set windows mode renderDefault property API value &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$(function () {$("#toolbar").ejmToolbar({ windows:{renderDefault: false},renderMode:ej.mobile.RenderMode.Windows});});&lt;/script&gt;</code></pre><pre class="prettyprint"><code> // Get or set the windows mode renderDefault API, after initialization:&lt;script&gt;// Gets the windows mode renderDefault value  $("#toolbar").ejmToolbar("option", "windows.renderDefault");   // Sets the windows mode renderDefault value $("#toolbar").ejmToolbar("option", "windows.renderDefault", false); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the renderDefault property in unobtrusive way.<div id="toolbar" data-role="ejmtoolbar"  data-ej-rendermode="windows" data-ej-windows-renderDefault=false ><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div></code></pre><pre class="prettyprint"><code> // To set windows mode renderDefault property API value <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$(function () {$("#toolbar").ejmToolbar({ windows:{renderDefault: false},renderMode:ej.mobile.RenderMode.Windows});});</script></code></pre><pre class="prettyprint"><code> // Get or set the windows mode renderDefault API, after initialization:<script>// Gets the windows mode renderDefault value  $("#toolbar").ejmToolbar("option", "windows.renderDefault");   // Sets the windows mode renderDefault value $("#toolbar").ejmToolbar("option", "windows.renderDefault", false); </script></code></pre>
 
 
 ## Methods
@@ -575,7 +575,7 @@ To add new item to the toolbar
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;// add new icon to the toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.addItem("paste"); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>// add new icon to the toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.addItem("paste"); </script></code></pre>
 
 
 
@@ -590,7 +590,7 @@ To disable particular toolbar item by name
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;// disable particular icon in toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.disableItem("add"); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>// disable particular icon in toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.disableItem("add"); </script></code></pre>
 
 
 
@@ -605,7 +605,7 @@ To enable particular toolbar item by name
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;// enable particular icon in toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.enableItem("add"); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>// enable particular icon in toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.enableItem("add"); </script></code></pre>
 
 
 
@@ -620,7 +620,7 @@ To hide ellipsis for android mode toolbar
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;// hide ellipsis for android mode toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.hideEllipsis(); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>// hide ellipsis for android mode toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.hideEllipsis(); </script></code></pre>
 
 
 
@@ -635,7 +635,7 @@ To hide particular toolbar item by name
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;// hide particular icon in toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.hideItem("add"); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>// hide particular icon in toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.hideItem("add"); </script></code></pre>
 
 
 
@@ -650,7 +650,7 @@ To hide the overflow menu in android
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;// add new icon to the toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.hideMenu(); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>// add new icon to the toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.hideMenu(); </script></code></pre>
 
 
 
@@ -665,7 +665,7 @@ To remove the toolbar icons by it's index
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;// remove the icon by index for toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.removeItem(1); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>// remove the icon by index for toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.removeItem(1); </script></code></pre>
 
 
 
@@ -680,7 +680,7 @@ To show ellipsis for android mode toolbar
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;// show ellipsis for android mode toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.showEllipsis(); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>// show ellipsis for android mode toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.showEllipsis(); </script></code></pre>
 
 
 
@@ -695,7 +695,7 @@ To show particular toolbar item by name
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;// show particular icon in toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.showItem("add"); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>// show particular icon in toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.showItem("add"); </script></code></pre>
 
 
 
@@ -710,7 +710,7 @@ To show the overflow menu in android
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;// add new icon to the toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.showMenu(); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>// add new icon to the toolbar$("#toolbar").ejmToolbar();var toolbar = $("#toolbar").data("ejmToolbar");toolbar.showMenu(); </script></code></pre>
 
 
 ## Events
@@ -729,7 +729,7 @@ Event triggers when the touch end happens.
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar" data-role="ejmtoolbar" data-ej-touchend="touchend"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt; // TouchEnd event for toolbar  function touchend(args){ //handle the event}&lt;/script&gt;</code></pre><pre class="prettyprint"><code> //TouchEnd event for toolbar&lt;div id="toolbar" data-role="ejmtoolbar" data-ej-touchend="touchend"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt;$("#toolbar").ejmToolbar({  touchend: function (args) { //handle the event}});         &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar" data-role="ejmtoolbar" data-ej-touchend="touchend"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script> // TouchEnd event for toolbar  function touchend(args){ //handle the event}</script></code></pre><pre class="prettyprint"><code> //TouchEnd event for toolbar<div id="toolbar" data-role="ejmtoolbar" data-ej-touchend="touchend"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script>$("#toolbar").ejmToolbar({  touchend: function (args) { //handle the event}});         </script></code></pre>
 
 
 
@@ -744,6 +744,6 @@ Event triggers when the touch start happens.
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="toolbar" data-role="ejmtoolbar" data-ej-touchstart="touchstart"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;&lt;script&gt; // TouchStart event for toolbar  function touchstart(args){ //handle the event}&lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="toolbar" data-role="ejmtoolbar" data-ej-touchstart="touchstart"&gt;&lt;ul&gt;&lt;li data-ej-iconname="add" &gt;&lt;/li&gt;&lt;li data-ej-iconname="cut" &gt;&lt;/li&gt;&lt;li data-ej-iconname="copy" &gt;&lt;/li&gt;&lt;/ul &gt;&lt;/div&gt;//touchStart event for toolbar&lt;script&gt;$("#toolbar").ejmToolbar({  touchstart: function (args) { //handle the event}});       &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="toolbar" data-role="ejmtoolbar" data-ej-touchstart="touchstart"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div><script> // TouchStart event for toolbar  function touchstart(args){ //handle the event}</script></code></pre><pre class="prettyprint"><code> <div id="toolbar" data-role="ejmtoolbar" data-ej-touchstart="touchstart"><ul><li data-ej-iconname="add" ></li><li data-ej-iconname="cut" ></li><li data-ej-iconname="copy" ></li></ul ></div>//touchStart event for toolbar<script>$("#toolbar").ejmToolbar({  touchstart: function (args) { //handle the event}});       </script></code></pre>
 
 

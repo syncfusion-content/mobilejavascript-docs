@@ -81,7 +81,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{ ![](Scrolling-Settings_images/Scrolling-Settings_img1.png) | markdownify }
+{{ '![](Scrolling-Settings_images/Scrolling-Settings_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -145,7 +145,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{ ![](Scrolling-Settings_images/Scrolling-Settings_img2.png) | markdownify }
+{{ '![](Scrolling-Settings_images/Scrolling-Settings_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -207,7 +207,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{ ![](Scrolling-Settings_images/Scrolling-Settings_img3.png) | markdownify }
+{{ '![](Scrolling-Settings_images/Scrolling-Settings_img3.png)' | markdownify }}
 {:.image }
 
 

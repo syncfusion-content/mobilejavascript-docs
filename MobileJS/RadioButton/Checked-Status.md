@@ -89,7 +89,7 @@ You have options to set the state of the RadioButton either as checked or unchec
 
 The following screenshot displays the checkedstatus:
 
-{ ![](Checked-Status_images/Checked-Status_img1.png) | markdownify }
+{{ '![](Checked-Status_images/Checked-Status_img1.png)' | markdownify }}
 {:.image }
 
 

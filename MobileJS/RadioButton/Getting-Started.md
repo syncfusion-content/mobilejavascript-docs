@@ -11,7 +11,7 @@ documentation: ug
 
 The following guidelines show you how to use the RadioButton to select the answers in the application and get the selected items. The following screenshot displays a sample Quiz application.
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -217,7 +217,7 @@ Now, add the following style to align the RadioButton and contents properly in t
 
 The following screenshot is the output for the above code examples.
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 

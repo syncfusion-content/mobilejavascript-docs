@@ -37,7 +37,7 @@ The data-ej-shapeheight attribute specifies the height for the Rating shape. The
 
 The following screenshot displays the output.                        
 
-{ ![C:/Users/Vignesh Kumar/Desktop/1.png](Customize-shape_images/Customize-shape_img1.png) | markdownify }
+{{ '![C:/Users/Vignesh Kumar/Desktop/1.png](Customize-shape_images/Customize-shape_img1.png)' | markdownify }}
 {:.image }
 
 

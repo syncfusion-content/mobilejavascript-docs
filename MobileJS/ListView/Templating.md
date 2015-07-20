@@ -253,7 +253,7 @@ You can add the following styles for better appearance.
 
 The following screenshot displays the Template:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_18.png](Templating_images/Templating_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_18.png](Templating_images/Templating_img1.png)' | markdownify }}
 {:.image }
 
 

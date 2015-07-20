@@ -37,7 +37,7 @@ The data-ej-enableautoopen attribute is used to set whether to open the Dialog b
 
 The following screenshot displays the output.
 
-{ ![](Auto-Open_images/Auto-Open_img1.png) | markdownify }
+{{ '![](Auto-Open_images/Auto-Open_img1.png)' | markdownify }}
 {:.image }
 
 

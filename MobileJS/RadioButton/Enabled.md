@@ -133,7 +133,7 @@ This is a Boolean property that lets you enable or disable the options. When set
 
 The following screenshot displays the disabled RadioButton.
 
-{ ![](Enabled_images/Enabled_img1.png) | markdownify }
+{{ '![](Enabled_images/Enabled_img1.png)' | markdownify }}
 {:.image }
 
 

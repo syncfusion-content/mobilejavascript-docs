@@ -11,7 +11,7 @@ documentation: ug
 
 You can set the android specific properties to the control by using the following settings.
 
-{ ![C:/Users/ApoorvahR/Desktop/Note.png](Android-Specific-Customization_images/Android-Specific-Customization_img1.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/Note.png](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
  _Note: In iOS and windows, header control is used to set the title for both left pane and right panel. But in android, toolbar control is used as per the native user interface guideline._
 
@@ -61,7 +61,7 @@ The “data-ej-showtoolbar” attribute is used to show/hide the toolbar when th
 
 Refer to the script section and page content section to load the right pane content of appropriate page created. The following screenshot illustrates the output.
 
-{ ![](Android-Specific-Customization_images/Android-Specific-Customization_img2.png) | markdownify }
+{{ '![](Android-Specific-Customization_images/Android-Specific-Customization_img2.png)' | markdownify }}
 {:.image }
 
 

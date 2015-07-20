@@ -105,7 +105,7 @@ Create an HTML file with the name text3.html.
 
 The following screenshot displays the load on demand:
 
-{ ![](Load-on-demand_images/Load-on-demand_img1.png) | markdownify }
+{{ '![](Load-on-demand_images/Load-on-demand_img1.png)' | markdownify }}
 {:.image }
 
 

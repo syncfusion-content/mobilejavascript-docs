@@ -36,42 +36,42 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set listbox in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set listbox in obtrusive way.
-&lt;div id="lb"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="lb">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script> 
 // Create ListView
 $("#lb").ejmListView(); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -175,53 +175,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the adjustFixedPosition property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-adjustFixedPosition="true"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-adjustFixedPosition="true">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the adjustFixedPosition property in obtrusive way.
-&lt;div id="lb"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;            
+<div id="lb">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>            
 // Set adjustFixedPosition on initialization. 
 //To set adjustFixedPosition API value 
-&lt;script&gt;
+<script>
 $("#lb").ejmListView ({ adjustFixedPosition: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set adjustFixedPosition, after initialization:
 // Get the adjustFixedPosition API value.               
  $("#lb").ejmListView ("option", "adjustFixedPosition");                        
 // Set the adjustFixedPosition API
 $("#lb").ejmListView ("option", "adjustFixedPosition", true);     
-&lt;/script&gt;       </code>
+</script>       </code>
 </pre>
 
 
@@ -250,45 +250,45 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set ajaxSettings in unobtrusive way
-&lt;div id="lb" data-role="ejmlistview" data-ej-ajaxsettings-type="GET" data-ej-ajaxsettings-cache=false data-ej-ajaxsettings-async=true
-data-ej-ajaxsettings-datatype="html" data-ej-ajaxsettings-contenttype="html" &gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;          </code>
+<div id="lb" data-role="ejmlistview" data-ej-ajaxsettings-type="GET" data-ej-ajaxsettings-cache=false data-ej-ajaxsettings-async=true
+data-ej-ajaxsettings-datatype="html" data-ej-ajaxsettings-contenttype="html" >
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
+        </ul>
+</div>          </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set ajaxSettings in obtrusive way
-&lt;div id="lb" &gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
+<div id="lb" >
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
+        </ul>
+</div>
 // Set Tab ajaxSettings on initialization. 
 //To set ajaxSettings API value 
-&lt;script&gt;
+<script>
 $("#lb").ejmListView({ ajaxSettings: { type: 'GET',
   cache: false,
   async: true,
   dataType: "html",
   contentType: "html"
   } });         
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the ListView ajaxSettings, after initialization:
 // Get the ajaxSettings API value.
 $("#lb").ejmListView ("option", "ajaxSettings");                        
 // Set the ajaxSettings API
 $("#lb").ejmListView ("option", "ajaxSettings", { type: 'GET',cache: false,async: true,dataType: "html",contentType: "html",url: "",data: {}});        
-&lt;/script&gt;    </code>
+</script>    </code>
 </pre>
 
 
@@ -333,53 +333,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the allowScrolling property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-allowScrolling="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;            </code>
+<div id="lb" data-role="ejmlistview" data-ej-allowScrolling="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>            </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the allowScrolling property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;            
+<div id="lb">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>            
 // Set allowScrolling on initialization. 
 //To set allowScrolling API value 
-&lt;script&gt;
+<script>
 $("#lb").ejmListView ({ allowScrolling: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  allowScrolling, after initialization:
 // Get the allowScrolling API value.            
 $("#lb").ejmListView ("option", "allowScrolling");                      
 // Set the allowScrolling API
 $("#lb").ejmListView ("option", "allowScrolling", true);  
-&lt;/script&gt;          </code>
+</script>          </code>
 </pre>
 
 
@@ -424,53 +424,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the autoAdjustScrollHeight property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-autoAdjustHeight="true"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-autoAdjustHeight="true">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the autoAdjustHeight property in obtrusive way.
-&lt;div id="lb"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set autoAdjustHeight on initialization. 
 //To set autoAdjustHeight API value 
 $("#lb").ejmListView ({ autoAdjustHeight: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  autoAdjustHeight, after initialization:
 // Get the autoAdjustHeight API value.          
  $("#lb").ejmListView ("option", "autoAdjustHeight");                   
 // Set the autoAdjustHeight API
 $("#lb").ejmListView ("option", "autoAdjustHeight", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -515,53 +515,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the autoAdjustScrollHeight property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-autoAdjustScrollHeight="true"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-autoAdjustScrollHeight="true">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the autoAdjustScrollHeight property in obtrusive way.
-&lt;div id="lb"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set autoAdjustScrollHeight on initialization. 
 //To set autoAdjustScrollHeight API value 
 $("#lb").ejmListView ({ autoAdjustScrollHeight: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  autoAdjustScrollHeight, after initialization:
 // Get the autoAdjustScrollHeight API value.            
  $("#lb").ejmListView ("option", "autoAdjustScrollHeight");                     
 // Set the autoAdjustScrollHeight API
 $("#lb").ejmListView ("option", "autoAdjustScrollHeight", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -606,53 +606,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the checkDOMChanges property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-checkdomchanges=true&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-checkdomchanges=true>
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the checkDOMChanges property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 //Set the checkDOMChanges property on initialization. 
 //To set checkDOMChanges API value
 $("#lb").ejmListView ({ checkDOMChanges: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  checkDOMChanges, after initialization:
 // Get the checkDOMChanges API value.           
 $("#lb").ejmListView ("option", "checkDOMChanges");                     
 // Set the checkDOMChanges API
 $("#lb").ejmListView ("option", "checkDOMChanges", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -697,53 +697,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the cssClass property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-cssclass="customclass"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-cssclass="customclass">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the cssClass property in obtrusive way.
-&lt;div id="lb" &gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" >
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set cssClass on initialization. 
 //To set cssClass API value 
 $("#lb").ejmListView ({ cssClass: "customclass" });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  cssClass, after initialization:
 // Get the cssClass API value.          
  $("#lb").ejmListView ("option", "cssClass");                   
 // Set the cssClass API
 $("#lb").ejmListView ("option", "cssClass", "customclass");
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -788,9 +788,9 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the dataSource property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-datasource="window.dbitem"&gt;
-&lt;/div&gt;           
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview" data-ej-datasource="window.dbitem">
+</div>           
+<script>
 window.dbitem =
 [   { "text": "Hot Singles"},
     { "text": "Rising Artists"},
@@ -799,14 +799,14 @@ window.dbitem =
     { "text": "100 Albums - $5 Each"},
     { "text": "Hip-Hop and R&amp;B Sale"},
     { "text": "CD Deals"}];
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the dataSource property in obtrusive way.
-&lt;div id="lb" &gt;
-&lt;/div&gt;           
-&lt;script&gt;
+<div id="lb" >
+</div>           
+<script>
 $(function(){
 $("#lb").ejmListView({dataSource:window.dbitem});
 });
@@ -818,17 +818,17 @@ window.dbitem =
     { "text": "100 Albums - $5 Each"},
     { "text": "Hip-Hop and R&amp;B Sale"},
     { "text": "CD Deals"}];
-&lt;/script&gt;  </code>
+</script>  </code>
 </pre>
 <pre class="prettyprint">
 <code>       
-&lt;script&gt;
+<script>
 //Get or set  dataSource, after initialization:
 // Get the dataSource API value.                
 $("#lb").ejmListView ("option", "dataSource");                  
 // Set the dataSource API
 $("#lb").ejmListView ("option", "dataSource", true);   
-&lt;/script&gt;                     </code>
+</script>                     </code>
 </pre>
 
 
@@ -873,39 +873,39 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableAjax property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code>  
 //Set the enableAjax property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" &gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" &gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" &gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" ></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" ></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" ></li>
+        </ul>
+</div>
+<script>
 // Set enableAjax on initialization. 
 //To set enableAjax API value
 $("#lb").ejmListView ({ enableAjax: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  enableAjax, after initialization:
 // Get the enableAjax API value.                
 $("#lb").ejmListView ("option", "enableAjax");                  
 // Set the enableAjax API
 $("#lb").ejmListView ("option", "enableAjax", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -950,39 +950,39 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableCache property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-enableCache="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true" data-ej-enableCache="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true" data-ej-enableCache="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true" data-ej-enableCache="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-enableCache="true">
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true" data-ej-enableCache="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true" data-ej-enableCache="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true" data-ej-enableCache="true"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the enableCache property in obtrusive way.
-&lt;div id="lb" &gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true" &gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true" &gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true" &gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" >
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true" ></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true" ></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true" ></li>
+        </ul>
+</div>
+<script>
 // Set enableCache on initialization. 
 //To set enableCache API value 
 $("#lb").ejmListView ({ enableCache: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  enableCache, after initialization:
 // Get the enableCache API value.               
 $("#lb").ejmListView ("option", "enableCache");                 
 // Set the enableCache API
 $("#lb").ejmListView ("option", "enableCache", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1027,53 +1027,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableCheckMark property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the enableCheckMark property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set enableCheckMark on initialization. 
 //To set enableCheckMark API value 
 $("#lb").ejmListView ({ enableCheckMark: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the ListView enableCheckMark, after initialization:
 // Get the enableCheckMark API value.           
 $("#lb").ejmListView ("option", "enableCheckMark");                     
 // Set the enableCheckMark API
 $("#lb").ejmListView ("option", "enableCheckMark", true);    
-&lt;/script&gt;        </code>
+</script>        </code>
 </pre>
 
 
@@ -1118,53 +1118,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableFiltering property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-enableFiltering="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-enableFiltering="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the enableFiltering property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set enableFiltering on initialization. 
 //To set enableFiltering API value 
 $("#lb").ejmListView ({ enableFiltering: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the ListView enableFiltering, after initialization:
 // Get the enableFiltering API value.           
 $("#lb").ejmListView ("option", "enableFiltering");                     
 // Set the enableFiltering API
 $("#lb").ejmListView ("option", "enableFiltering", true);    
-&lt;/script&gt;        </code>
+</script>        </code>
 </pre>
 
 
@@ -1209,61 +1209,61 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableGroupList property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-enableGroupList="true"&gt;
-        &lt;ul data-ej-grouplisttitle="Network"&gt;
-                &lt;li data-ej-text="Airplane Mode"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Wi-Fi"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Notifications"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Location Services"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;ul data-ej-grouplisttitle="Apps"&gt;
-                &lt;li data-ej-text="Sound"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Brightness"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Wallpaper"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;ul data-ej-grouplisttitle="Settings"&gt;
-                &lt;li data-ej-text="General"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Brightness"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Wallpaper"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-enableGroupList="true">
+        <ul data-ej-grouplisttitle="Network">
+                <li data-ej-text="Airplane Mode"></li>
+                <li data-ej-text="Wi-Fi"></li>
+                <li data-ej-text="Notifications"></li>
+                <li data-ej-text="Location Services"></li>
+        </ul>
+        <ul data-ej-grouplisttitle="Apps">
+                <li data-ej-text="Sound"></li>
+                <li data-ej-text="Brightness"></li>
+                <li data-ej-text="Wallpaper"></li>
+        </ul>
+        <ul data-ej-grouplisttitle="Settings">
+                <li data-ej-text="General"></li>
+                <li data-ej-text="Brightness"></li>
+                <li data-ej-text="Wallpaper"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the enableGroupList property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul data-ej-grouplisttitle="Network"&gt;
-                &lt;li data-ej-text="Airplane Mode"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Wi-Fi"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Notifications"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Location Services"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;ul data-ej-grouplisttitle="Apps"&gt;
-                &lt;li data-ej-text="Sound"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Brightness"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Wallpaper"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;ul data-ej-grouplisttitle="Settings"&gt;
-                &lt;li data-ej-text="General"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Brightness"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Wallpaper"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+        <ul data-ej-grouplisttitle="Network">
+                <li data-ej-text="Airplane Mode"></li>
+                <li data-ej-text="Wi-Fi"></li>
+                <li data-ej-text="Notifications"></li>
+                <li data-ej-text="Location Services"></li>
+        </ul>
+        <ul data-ej-grouplisttitle="Apps">
+                <li data-ej-text="Sound"></li>
+                <li data-ej-text="Brightness"></li>
+                <li data-ej-text="Wallpaper"></li>
+        </ul>
+        <ul data-ej-grouplisttitle="Settings">
+                <li data-ej-text="General"></li>
+                <li data-ej-text="Brightness"></li>
+                <li data-ej-text="Wallpaper"></li>
+        </ul>
+</div>
+<script>
 // Set enableGroupList on initialization. 
 //To set enableGroupList API value 
 $("#lb").ejmListView ({ enableGroupList: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  enableGroupList, after initialization:
 // Get the enableGroupList API value.           
  $("#lb").ejmListView ("option", "enableGroupList");                    
 // Set the enableGroupList API
 $("#lb").ejmListView ("option", "enableGroupList", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1308,53 +1308,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableNativeScrolling property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-enableNativeScrolling="true"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-enableNativeScrolling="true">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the enableNativeScrolling property in obtrusive way.
-&lt;div id="lb"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set enableNativeScrolling on initialization. 
 //To set enableNativeScrolling API value 
 $("#lb").ejmListView ({ enableNativeScrolling: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  enableNativeScrolling, after initialization:
 // Get the enableNativeScrolling API value.             
  $("#lb").ejmListView ("option", "enableNativeScrolling");                      
 // Set the enableNativeScrolling API
 $("#lb").ejmListView ("option", "enableNativeScrolling", true); 
-&lt;/script&gt;           </code>
+</script>           </code>
 </pre>
 
 
@@ -1399,53 +1399,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enablePersistence property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-enablepersistence=true &gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-enablepersistence=true >
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the enablePersistence property in obtrusive way.
-&lt;div id="lb"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set enablePersistence on initialization. 
 //To set enablePersistence API value 
 $("#lb").ejmListView ({ enablePersistence: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  enablePersistence, after initialization:
 // Get the enablePersistence API value.         
  $("#lb").ejmListView ("option", "enablePersistence");                  
 // Set the enablePersistence API
 $("#lb").ejmListView ("option", "enablePersistence", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1474,9 +1474,9 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the fieldSettings property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-fieldSettings="window.musicFields" data-ej-datasource="window.dbitem" &gt;
-&lt;/div&gt;           
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview" data-ej-fieldSettings="window.musicFields" data-ej-datasource="window.dbitem" >
+</div>           
+<script>
 window.dbitem =
 [{ "Texts": "Discover Music", "PrimaryKeys": "1" },
     { "Texts": "Hot Singles", "ParentPrimaryKeyss": "1" },
@@ -1493,14 +1493,14 @@ window.musicFields = {
 "primaryKey": "PrimaryKeys",
 "parentPrimaryKey": "ParentPrimaryKeyss"
 };
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the fieldSettings property in obtrusive way.
-&lt;div id="lb" &gt;
-&lt;/div&gt;           
-&lt;script&gt;
+<div id="lb" >
+</div>           
+<script>
 window.dbitem =
 [{ "Texts": "Discover Music", "PrimaryKeys": "1" },
     { "Texts": "Hot Singles", "ParentPrimaryKeyss": "1" },
@@ -1520,17 +1520,17 @@ window.musicFields = {
 $(function(){
 $("#lb").ejmListView({fieldSettings:"window.musicFields",dataSource:"window.dbitem"});
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code>         
-&lt;script&gt;
+<script>
 //Get or set  fieldSettings, after initialization:
 // Get the fieldSettings API value.             
 $("#lb").ejmListView ("option", "fieldSettings");                       
 // Set the fieldSettings API
 $("#lb").ejmListView ("option", "fieldSettings", true); 
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -1575,53 +1575,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the headerBackButtonText property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true" data-ej-headerBackButtonText="Back"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true" data-ej-headerBackButtonText="Back">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the headerBackButtonText property in obtrusive way.
-&lt;div id="lb" &gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" >
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set headerBackButtonText on initialization. 
 //To set headerBackButtonText API value 
 $("#lb").ejmListView ({ showHeader: true,showHeaderBackButton:true,headerBackButtonText: "Back" });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  headerBackButtonText, after initialization:
 // Get the headerBackButtonText API value.              
  $("#lb").ejmListView ("option", "headerBackButtonText");                       
 // Set the headerBackButtonText API
 $("#lb").ejmListView ("option", "headerBackButtonText", "Back");
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1666,53 +1666,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the headerTitle property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-headerTitle="Title"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-headerTitle="Title">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the headerTitle property in obtrusive way.
-&lt;div id="lb" &gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" >
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set headerTitle on initialization. 
 //To set headerTitle API value 
 $("#lb").ejmListView ({ headerTitle: "Title" });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  headerTitle, after initialization:
 // Get the headerTitle API value.               
  $("#lb").ejmListView ("option", "headerTitle");                        
 // Set the headerTitle API
 $("#lb").ejmListView ("option", "headerTitle", "Title");
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1757,38 +1757,38 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the height property in Unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-height="300"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-height="300">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the height property in Obtrusive way.
-&lt;div id="lb" &gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
+<div id="lb" >
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
 // Set ListView height on initialization. 
 //To set height API value 
 $("#lb").ejmListView ({ height: 300 });
@@ -1841,53 +1841,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the hideHeaderForUnsupportedDevice property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-hideHeaderForUnsupportedDevice="true"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-hideHeaderForUnsupportedDevice="true">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the hideHeaderForUnsupportedDevice property in obtrusive way.
-&lt;div id="lb"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set hideHeaderForUnsupportedDevice on initialization. 
 //To set hideHeaderForUnsupportedDevice API value 
 $("#lb").ejmListView ({ hideHeaderForUnsupportedDevice: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  hideHeaderForUnsupportedDevice, after initialization:
 // Get the hideHeaderForUnsupportedDevice API value.            
  $("#lb").ejmListView ("option", "hideHeaderForUnsupportedDevice");                     
 // Set the hideHeaderForUnsupportedDevice API
 $("#lb").ejmListView ("option", "hideHeaderForUnsupportedDevice", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1932,53 +1932,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the inline property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-rendermode="ios7" data-ej-ios7-inline="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-rendermode="ios7" data-ej-ios7-inline="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the inline property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Setinline on initialization. 
 //To set inline API value 
 $("#lb").ejmListView ({ renderMode:"ios7", ios7:{inline: true} });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  inline, after initialization:
 // Get the inline API value.            
 $("#lb").ejmListView ("option", "ios7.inline");                 
 // Set the inline API
 $("#lb").ejmListView ("option", "ios7.inline", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2023,9 +2023,9 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the items property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-items="window.dbitem"e&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview" data-ej-items="window.dbitem"e>
+</div>
+<script>
 window.dbitem =
 [{ "text": "Discover Music", "primaryKey": "1" },
     { "text": "Hot Singles", "parentPrimaryKey": "1" },
@@ -2036,14 +2036,14 @@ window.dbitem =
     { "text": "100 Albums - $5 Each", "parentPrimaryKey": "2" },
     { "text": "Hip-Hop and R&amp;B Sale", "parentPrimaryKey": "2" },
     { "text": "CD Deals", "parentPrimaryKey": "2" }];
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the items property in obtrusive way.
-&lt;div id="lb"&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+</div>
+<script>
 window.dbitem = [{ "text": "Discover Music", "primaryKey": "1" },
     { "text": "Hot Singles", "parentPrimaryKey": "1" },
     { "text": "Rising Artists", "parentPrimaryKey": "1" },
@@ -2056,17 +2056,17 @@ window.dbitem = [{ "text": "Discover Music", "primaryKey": "1" },
 //Set the items property on initialization. 
 //To set items API value
 $("#lb").ejmListView ({ items: "window.dbitem" });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set items, after initialization:
 // Get the items API value.             
 $("#lb").ejmListView ("option", "items");                       
 // Set the items API
 $("#lb").ejmListView ("option", "items", "window.dbitem");
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2111,53 +2111,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the persistSelection property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-persistSelection="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-persistSelection="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the persistSelection property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set persistSelection on initialization. 
 //To set persistSelection API value 
 $("#lb").ejmListView ({ persistSelection: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the ListView persistSelection, after initialization:
 // Get the persistSelection API value.          
 $("#lb").ejmListView ("option", "persistSelection");                    
 // Set the persistSelection API
 $("#lb").ejmListView ("option", "persistSelection", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2202,53 +2202,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the preventSelection property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-preventSelection="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-preventSelection="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the preventSelection property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set preventSelection on initialization. 
 //To set preventSelection API value 
 $("#lb").ejmListView ({ preventSelection: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the ListView preventSelection, after initialization:
 // Get the preventSelection API value.          
 $("#lb").ejmListView ("option", "preventSelection");                    
 // Set the preventSelection API
 $("#lb").ejmListView ("option", "preventSelection", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2293,23 +2293,23 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the query property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-fieldSettings="window.dbitem" data-ej-datasource="window.datasource" 
-data-ej-query="ej.Query().from('Orders').select('ShipCity').take(5)"&gt;
-&lt;/div&gt;            
-&lt;script&gt;            
+<div id="lb" data-role="ejmlistview" data-ej-fieldSettings="window.dbitem" data-ej-datasource="window.datasource" 
+data-ej-query="ej.Query().from('Orders').select('ShipCity').take(5)">
+</div>            
+<script>            
                 // DataManager creation
                 window.datasource = ej.DataManager({
         url: "http://mvc.syncfusion.com/Services/Northwnd.svc/"
                 });
                 window.dbitem = { "text": "ShipCity" };            
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the query property in obtrusive way.
-&lt;div id="lb" &gt;
-&lt;/div&gt;            
-&lt;script&gt;            
+<div id="lb" >
+</div>            
+<script>            
                 // DataManager creation
                 window.datasource = ej.DataManager({
         url: "http://mvc.syncfusion.com/Services/Northwnd.svc/"
@@ -2318,17 +2318,17 @@ data-ej-query="ej.Query().from('Orders').select('ShipCity').take(5)"&gt;
 $(function(){
 $("#lb").ejmListView({fieldSettings:"window.dbitem",dataSource:"window.datasource",query:"ej.Query().from('Orders').select('ShipCity').take(5)"});
 });         
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code>        
-&lt;script&gt;  
+<script>  
 //Get or set  query, after initialization:
 // Get the query API value.             
 $("#lb").ejmListView ("option", "query");                       
 // Set the query API
 $("#lb").ejmListView ("option", "query", true);  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2373,53 +2373,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the renderMode property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-renderMode="auto"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-renderMode="auto">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the renderMode property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set renderMode on initialization. 
 //To set renderMode API value 
 $("#lb").ejmListView ({ renderMode: "auto" });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  renderMode, after initialization:
 // Get the renderMode API value.                
 $("#lb").ejmListView ("option", "renderMode");                  
 // Set the renderMode API
 $("#lb").ejmListView ("option", "renderMode", "auto");
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2464,22 +2464,22 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the renderTemplate property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-rendertemplate=true data-ej-templateid="target1"&gt;&lt;/li&gt;
-                &lt;li data-ej-rendertemplate=true data-ej-templateid="target2"&gt;&lt;/li&gt;
-                &lt;li data-ej-rendertemplate=true data-ej-templateid="target3"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id="target1"&gt;
-        &lt;div&gt; Template1 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="target2"&gt;
-        &lt;div&gt; Template2 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="target3"&gt;
-        &lt;div&gt; Template3 &lt;/div&gt;
-&lt;/div&gt;            </code>
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-rendertemplate=true data-ej-templateid="target1"></li>
+                <li data-ej-rendertemplate=true data-ej-templateid="target2"></li>
+                <li data-ej-rendertemplate=true data-ej-templateid="target3"></li>
+        </ul>
+</div>
+<div id="target1">
+        <div> Template1 </div>
+</div>
+<div id="target2">
+        <div> Template2 </div>
+</div>
+<div id="target3">
+        <div> Template3 </div>
+</div>            </code>
 </pre>
 
 
@@ -2524,38 +2524,38 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the selectedItemIndex property in Unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-selectedItemIndex="2"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-selectedItemIndex="2">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the selectedItemIndex property in Obtrusive way.
-&lt;div id="lb" &gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
+<div id="lb" >
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
 // Set ListView selectedItemIndex on initialization. 
 //To set selectedItemIndex API value 
 $("#lb").ejmListView ({ selectedItemIndex: 2 });
@@ -2608,53 +2608,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the showHeader property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-showHeader="true"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-showHeader="true">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the showHeader property in obtrusive way.
-&lt;div id="lb"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set showHeader on initialization. 
 //To set showHeader API value 
 $("#lb").ejmListView ({ showHeader: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  showHeader, after initialization:
 // Get the showHeader API value.                
  $("#lb").ejmListView ("option", "showHeader");                 
 // Set the showHeader API
 $("#lb").ejmListView ("option", "showHeader", true);  
-&lt;/script&gt;          </code>
+</script>          </code>
 </pre>
 
 
@@ -2699,53 +2699,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the showHeaderBackButton property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the showHeaderBackButton property in obtrusive way.
-&lt;div id="lb"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set showHeaderBackButton on initialization. 
 //To set showHeaderBackButton API value 
 $("#lb").ejmListView ({ showHeaderBackButton: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  showHeaderBackButton, after initialization:
 // Get the showHeaderBackButton API value.              
  $("#lb").ejmListView ("option", "showHeaderBackButton");                       
 // Set the showHeaderBackButton API
 $("#lb").ejmListView ("option", "showHeaderBackButton", true);   
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 
 
@@ -2790,53 +2790,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the showScrollbars property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-showScrollbars="true"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-showScrollbars="true">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the showScrollbars property in obtrusive way.
-&lt;div id="lb"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set showScrollbars on initialization. 
 //To set showScrollbars API value 
 $("#lb").ejmListView ({ showScrollbars: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  showScrollbars, after initialization:
 // Get the showScrollbars API value.            
  $("#lb").ejmListView ("option", "showScrollbars");                     
 // Set the showScrollbars API
 $("#lb").ejmListView ("option", "showScrollbars", true); 
-&lt;/script&gt;           </code>
+</script>           </code>
 </pre>
 
 
@@ -2881,22 +2881,22 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the templateId property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-rendertemplate=true data-ej-templateid="target1"&gt;&lt;/li&gt;
-                &lt;li data-ej-rendertemplate=true data-ej-templateid="target2"&gt;&lt;/li&gt;
-                &lt;li data-ej-rendertemplate=true data-ej-templateid="target3"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id="target1"&gt;
-        &lt;div&gt; Template1 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="target2"&gt;
-        &lt;div&gt; Template2 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="target3"&gt;
-        &lt;div&gt; Template3 &lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-rendertemplate=true data-ej-templateid="target1"></li>
+                <li data-ej-rendertemplate=true data-ej-templateid="target2"></li>
+                <li data-ej-rendertemplate=true data-ej-templateid="target3"></li>
+        </ul>
+</div>
+<div id="target1">
+        <div> Template1 </div>
+</div>
+<div id="target2">
+        <div> Template2 </div>
+</div>
+<div id="target3">
+        <div> Template3 </div>
+</div></code>
 </pre>
 
 
@@ -2941,53 +2941,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the theme property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-theme="auto"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-theme="auto">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the theme property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set theme on initialization. 
 //To set theme API value 
 $("#lb").ejmListView ({ theme: "auto" });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  theme, after initialization:
 // Get the theme API value.             
 $("#lb").ejmListView ("option", "theme");                       
 // Set the theme API
 $("#lb").ejmListView ("option", "theme", "auto");
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3032,53 +3032,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the transition property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-transition="slide"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-transition="slide">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the transition property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set transition on initialization. 
 //To set transition API value 
 $("#lb").ejmListView ({ transition: "slide" });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the ListView transition, after initialization:
 // Get the transition API value.                
 $("#lb").ejmListView ("option", "transition");                  
 // Set the transition API
 $("#lb").ejmListView ("option", "transition", "slide");
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3123,38 +3123,38 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the width property in Unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-width="200"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-width="200">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the width property in Obtrusive way.
-&lt;div id="lb" &gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
+<div id="lb" >
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
 // Set ListView width on initialization. 
 //To set width API value 
 $("#lb").ejmListView ({ width: 200 });
@@ -3228,53 +3228,53 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the windows mode enableCustomText property for header in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-windows-enableheadercustomtext="true"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-windows-enableheadercustomtext="true">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the windows mode enableCustomText property for header in obtrusive way.
-&lt;div id="lb"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set enableCustomText on initialization. 
 //To set enableHeaderCustomText API value 
 $("#lb").ejmListView ({ windows:{ enableHeaderCustomText: true });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  enableHeaderCustomText, after initialization:
 // Get the enableHeaderCustomText API value.            
  $("#lb").ejmListView ("option", "windows.enableHeaderCustomText");                     
 // Set the enableHeaderCustomText API
 $("#lb").ejmListView ("option", "windows.enableHeaderCustomText", true);  
-&lt;/script&gt;          </code>
+</script>          </code>
 </pre>
 
 
@@ -3319,53 +3319,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the preventSkew property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-rendermode="windows" data-ej-windows-preventSkew="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-rendermode="windows" data-ej-windows-preventSkew="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the preventSkew property in obtrusive way.
-&lt;div id="lb" &gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" >
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set preventSkew on initialization. 
 //To set preventSkew API value
 $("#lb").ejmListView ({ windows:{preventSkew: true} });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  preventSkew, after initialization:
 // Get the preventSkew API value.               
 $("#lb").ejmListView ("option", "windows.preventSkew");                 
 // Set the preventSkew API
 $("#lb").ejmListView ("option", "windows.preventSkew", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3410,53 +3410,53 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the renderDefault property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-rendermode="windows" data-ej-windows-renderDefault="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-rendermode="windows" data-ej-windows-renderDefault="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Set the renderDefault property in obtrusive way.
-&lt;div id="lb"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Set renderDefault on initialization. 
 //To set renderDefault API value 
 $("#lb").ejmListView ({ renderMode:"windows", windows:{renderDefault: true} });                
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set  renderDefault, after initialization:
 // Get the renderDefault API value.             
 $("#lb").ejmListView ("option", "windows.renderDefault");                       
 // Set the renderDefault API
 $("#lb").ejmListView ("option", "windows.renderDefault", true);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3491,26 +3491,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call addItem method.
 $(document).ready(function(){
-$("#lb").ejmListView("addItem",$("&amp;ltli data-ej-text='Comic / Cartoon'&gt;&lt;/li&gt;"),2);
+$("#lb").ejmListView("addItem",$("&amp;ltli data-ej-text='Comic / Cartoon'></li>"),2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3538,26 +3538,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call checkAllItem method.
 $(document).ready(function(){
 $("#lb").ejmListView("checkAllItem");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3585,26 +3585,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call checkItem method.
 $(document).ready(function(){
 $("#lb").ejmListView("checkItem",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3632,11 +3632,11 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview" data-ej-datasource="window.dbitem1" &gt;
-&lt;/div&gt;  
-&lt;input id="button" type="button" data-role="ejmbutton" data-ej-text="Clear" data-ej-touchend="touchend" /&gt;
+<div id="lb" data-role="ejmlistview" data-ej-datasource="window.dbitem1" >
+</div>  
+<input id="button" type="button" data-role="ejmbutton" data-ej-text="Clear" data-ej-touchend="touchend" />
          
-&lt;script&gt;
+<script>
 window.dbitem1 =
 [   { "text": "Hot Singles"},
     { "text": "Rising Artists"},
@@ -3655,7 +3655,7 @@ function touchend(){
     $('#lb').ejmListView("clear");
     $("#lb").ejmListView({dataSource:"window.dbitem2"});
 }
-&lt;/script&gt;  </code>
+</script>  </code>
 </pre>
 
 
@@ -3683,27 +3683,27 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call deActive method.
 $(document).ready(function(){
 $("#lb").ejListView({persistSelection:true});
 $("#lb").ejmListView("deActive",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3731,26 +3731,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call disableItem method.
 $(document).ready(function(){
 $("#lb").ejmListView("disableItem",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3778,26 +3778,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call enableItem method.
 $(document).ready(function(){
 $("#lb").ejmListView("enableItem",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3825,26 +3825,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call getActiveItem method.
 $(document).ready(function(){
 $("#lb").ejmListView("getActiveItem");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3872,26 +3872,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call getActiveItemText method.
 $(document).ready(function(){
 $("#lb").ejmListView("getActiveItemText");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3919,26 +3919,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call getCheckedItems method.
 $(document).ready(function(){
 $("#lb").ejmListView("getCheckedItems");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -3966,26 +3966,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call getCheckedItemsText method.
 $(document).ready(function(){
 $("#lb").ejmListView("getCheckedItemsText");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4013,26 +4013,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call getItemsCount method.
 $(document).ready(function(){
 $("#lb").ejmListView("getItemsCount");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4060,26 +4060,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call getItemText method.
 $(document).ready(function(){
 $("#lb").ejmListView("getItemText",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4107,26 +4107,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call hasChild method.
 $(document).ready(function(){
 $("#lb").ejmListView("hasChild",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4154,26 +4154,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call hide method.
 $(document).ready(function(){
 $("#lb").ejmListView("hide");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4201,26 +4201,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call hideItem method.
 $(document).ready(function(){
 $("#lb").ejmListView("hideItem",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4248,26 +4248,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call isChecked method.
 $(document).ready(function(){
 $("#lb").ejmListView("isChecked",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4295,19 +4295,19 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableAjax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableAjax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableAjax="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableAjax="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableAjax="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableAjax="true"></li>
+        </ul>
+</div>
+<script>
 // Call enableAjax method.
 $(document).ready(function(){
 $("#lb").ejmListView("loadAjaxContent","load1.html");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4335,27 +4335,27 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call removeCheckMark method.
 $(document).ready(function(){
 $("#lb").ejListView({enableCheckMark:true});
 $("#lb").ejmListView("removeCheckMark",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4383,26 +4383,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call removeItem method.
 $(document).ready(function(){
 $("#lb").ejmListView("removeItem",3);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4430,27 +4430,27 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call selectItem method.
 $(document).ready(function(){
 $("#lb").ejListView({enableCheckMark:true});
 $("#lb").ejmListView("selectItem",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4478,27 +4478,27 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call setActive method.
 $(document).ready(function(){
 $("#lb").ejmListView({persistSelection:true});
 $("#lb").ejmListView("setActive",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4526,26 +4526,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call show method.
 $(document).ready(function(){
 $("#lb").ejmListView("show");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4573,26 +4573,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call showItem method.
 $(document).ready(function(){
 $("#lb").ejmListView("showItem",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4620,26 +4620,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call unCheckAllItem method.
 $(document).ready(function(){
 $("#lb").ejmListView("unCheckAllItem");
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4667,26 +4667,26 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 // Call unCheckItem method.
 $(document).ready(function(){
 $("#lb").ejmListView("unCheckItem",2);
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4770,32 +4770,32 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ajaxBeforeLoad property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-ajaxBeforeLoad="ajaxBeforeLoad"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-ajaxBeforeLoad="ajaxBeforeLoad">
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //ajaxBeforeLoad event for ListView
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
+        </ul>
+</div>
+<script>
 $(document).ready(function(){
 $("#lb").ejmListView({
         ajaxBeforeLoad: function (args) { //handle the event 
 }
         });           
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4867,32 +4867,32 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ajaxComplete property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-ajaxComplete="ajaxComplete"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-ajaxComplete="ajaxComplete">
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //ajaxComplete event for ListView
-&lt;div id="lb" data-role="ejmlistview" &gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview" >
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
+        </ul>
+</div>
+<script>
 $(document).ready(function(){
 $("#lb").ejmListView({
         ajaxComplete: function (args) { //handle the event 
 }
         });         
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -4989,32 +4989,32 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ajaxError property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-ajaxError="ajaxError"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-ajaxError="ajaxError">
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //ajaxError event for ListView
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
+        </ul>
+</div>
+<script>
 $(document).ready(function(){
 $("#lb").ejmListView({
         ajaxError: function (args) { //handle the event 
 }
         });         
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -5111,32 +5111,32 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ajaxSuccess property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-ajaxSuccess="ajaxSuccess"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-ajaxSuccess="ajaxSuccess">
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //ajaxSuccess event for ListView
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
+                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
+        </ul>
+</div>
+<script>
 $(document).ready(function(){
 $("#lb").ejmListView({
         ajaxSuccess: function (args) { //handle the event 
 }
         });         
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -5213,44 +5213,44 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the headerBackButtonTap property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true" data-ej-headerBackButtonTap="headerBackButtonTap"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true" data-ej-headerBackButtonTap="headerBackButtonTap">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //headerBackButtonTap event for ListView
-&lt;div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true"&gt;
-         &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true">
+         <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 $("#lb").ejmListView({
         headerBackButtonTap: function (args) { //handle the event 
 }
         });         
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -5322,46 +5322,46 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the load property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-load="load"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-load="load">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //load event for ListView
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 $(document).ready(function(){
 $("#lb").ejmListView({
         load: function (args) { //handle the event 
 }
         });         
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -5433,46 +5433,46 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the loadComplete property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-loadComplete="loadComplete"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-loadComplete="loadComplete">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //loadComplete event for ListView
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 $(document).ready(function(){
 $("#lb").ejmListView({
         loadComplete: function (args) { //handle the event 
 }
         });         
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -5579,46 +5579,46 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the touchEnd property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-touchEnd="touchEnd"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-touchEnd="touchEnd">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //touchEnd event for ListView
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 $(document).ready(function(){
 $("#lb").ejmListView({
         touchEnd: function (args) { //handle the event 
 }
         });    
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -5725,46 +5725,46 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the touchStart property in unobtrusive way.
-&lt;div id="lb" data-role="ejmlistview" data-ej-touchStart="touchStart"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;</code>
+<div id="lb" data-role="ejmlistview" data-ej-touchStart="touchStart">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //touchStart event for ListView
-&lt;div id="lb" data-role="ejmlistview"&gt;
-        &lt;ul&gt;
-                &lt;li data-ej-text="Artwork"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Abstract"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="2 Acrylic Mediums"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Creative Acrylic"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Modern Painting"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Canvas Art"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Black white"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Children"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="Preschool Crafts"&gt;&lt;/li&gt;
-                &lt;li data-ej-text="School-age Crafts"&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="lb" data-role="ejmlistview">
+        <ul>
+                <li data-ej-text="Artwork"></li>
+                <li data-ej-text="Abstract"></li>
+                <li data-ej-text="2 Acrylic Mediums"></li>
+                <li data-ej-text="Creative Acrylic"></li>
+                <li data-ej-text="Modern Painting"></li>
+                <li data-ej-text="Canvas Art"></li>
+                <li data-ej-text="Black white"></li>
+                <li data-ej-text="Children"></li>
+                <li data-ej-text="Preschool Crafts"></li>
+                <li data-ej-text="School-age Crafts"></li>
+        </ul>
+</div>
+<script>
 $(document).ready(function(){
 $("#lb").ejmListView({
         touchStart: function (args) { //handle the event 
 }
         });         
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 

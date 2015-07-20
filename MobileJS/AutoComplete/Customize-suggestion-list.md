@@ -25,7 +25,7 @@ The data-ej-itemscount attribute specifies the number of items to be displayed i
 
 The following screenshot displays items count:
 
-{ ![](Customize-suggestion-list_images/Customize-suggestion-list_img1.png) | markdownify }
+{{ '![](Customize-suggestion-list_images/Customize-suggestion-list_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -80,7 +80,7 @@ The data-ej-allowscrolling attribute defines whether to allow the scrolling func
 
 The following screenshot displays the output:
 
-{ ![](Customize-suggestion-list_images/Customize-suggestion-list_img2.png) | markdownify }
+{{ '![](Customize-suggestion-list_images/Customize-suggestion-list_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -107,7 +107,7 @@ The possible values are,
 
 The following screenshot displays sorting:
 
-{ ![](Customize-suggestion-list_images/Customize-suggestion-list_img3.png) | markdownify }
+{{ '![](Customize-suggestion-list_images/Customize-suggestion-list_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -131,7 +131,7 @@ The data-ej-emptyresulttext attribute is used to customize the text that is disp
 
 The following screenshot displays empty result
 
-{ ![](Customize-suggestion-list_images/Customize-suggestion-list_img4.png) | markdownify }
+{{ '![](Customize-suggestion-list_images/Customize-suggestion-list_img4.png)' | markdownify }}
 {:.image }
 
 

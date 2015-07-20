@@ -67,7 +67,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{ ![](Target-Height_images/Target-Height_img1.png) | markdownify }
+{{ '![](Target-Height_images/Target-Height_img1.png)' | markdownify }}
 {:.image }
 
 

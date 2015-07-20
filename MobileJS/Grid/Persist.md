@@ -63,7 +63,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/26.png](Persist_images/Persist_img1.png) | markdownify }
+{{ '![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/26.png](Persist_images/Persist_img1.png)' | markdownify }}
 {:.image }
 
 

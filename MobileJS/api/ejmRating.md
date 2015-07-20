@@ -22,8 +22,8 @@ $(element).ejmRating<span class="signature">()</span>
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="rating" &gt;&lt;/div&gt;
-&lt;script&gt; // Create rating control $("#rating").ejmRating(); &lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="rating" data-role="ejmrating" &gt;&lt;/div&gt;
+<pre class="prettyprint"><code> <div id="rating" ></div>
+<script> // Create rating control $("#rating").ejmRating(); </script></code></pre><pre class="prettyprint"><code> <div id="rating" data-role="ejmrating" ></div>
 </code></pre>
 
 
@@ -72,9 +72,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the enabled property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-enabled=true &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set enabled on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set enabled API value $("#rating").ejmRating ({ enabled: true });                     &lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating enabled, after initialization:
-// Get the enabled API value.            $("#rating").ejmRating ("option", "enabled");                  // Set the enabled API$("#rating").ejmRating ("option", "enabled", true); &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the enabled property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-enabled=true ></div>
+</code></pre><pre class="prettyprint"><code> // Set enabled on initialization. <div id="rating"></div><script>//To set enabled API value $("#rating").ejmRating ({ enabled: true });                     </script></code></pre><pre class="prettyprint"><code> <script>//Get or set the rating enabled, after initialization:
+// Get the enabled API value.            $("#rating").ejmRating ("option", "enabled");                  // Set the enabled API$("#rating").ejmRating ("option", "enabled", true); </script></code></pre>
 
 
 
@@ -98,9 +98,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the enablePersistence property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-enablePersistence=false &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set enablePersistence on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set enablePersistence API value $(function(){$("#rating").ejmRating({enablePersistence:false});});&lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating enablePersistence, after initialization:
-// Get the enablePersistence API value.          $("#rating").ejmRating ("option", "enablePersistence");                        // Set the enablePersistence API$("#rating").ejmRating ("option", "enablePersistence", false);   &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the enablePersistence property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-enablePersistence=false ></div>
+</code></pre><pre class="prettyprint"><code> // Set enablePersistence on initialization. <div id="rating"></div><script>//To set enablePersistence API value $(function(){$("#rating").ejmRating({enablePersistence:false});});</script></code></pre><pre class="prettyprint"><code> <script>//Get or set the rating enablePersistence, after initialization:
+// Get the enablePersistence API value.          $("#rating").ejmRating ("option", "enablePersistence");                        // Set the enablePersistence API$("#rating").ejmRating ("option", "enablePersistence", false);   </script></code></pre>
 
 
 
@@ -124,9 +124,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the incrementStep property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-incrementstep=1 &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set incrementStep on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set incrementStep API value$("#rating").ejmRating ({ incrementStep: 1 });  &lt;/script&gt;                         </code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating incrementStep, after initialization:
-// Get the incrementStep API value.              $("#rating").ejmRating ("option", "incrementStep");                    // Set the incrementStep API$("#rating").ejmRating ("option", "incrementStep", 1);      &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the incrementStep property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-incrementstep=1 ></div>
+</code></pre><pre class="prettyprint"><code> // Set incrementStep on initialization. <div id="rating"></div><script>//To set incrementStep API value$("#rating").ejmRating ({ incrementStep: 1 });  </script>                         </code></pre><pre class="prettyprint"><code> <script>//Get or set the rating incrementStep, after initialization:
+// Get the incrementStep API value.              $("#rating").ejmRating ("option", "incrementStep");                    // Set the incrementStep API$("#rating").ejmRating ("option", "incrementStep", 1);      </script></code></pre>
 
 
 
@@ -150,9 +150,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the maxValue property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-maxvalue=5 &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set rating maxValue on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set maximum API value$("#rating").ejmRating ({ maxValue: 5 });       &lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating maxValue, after initialization:
-// Get the maximum API value.            $("#rating").ejmRating ("option", "maxValue");                 // Set the maximum value API$("#rating").ejmRating ("option", "maxValue", 5);    &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the maxValue property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-maxvalue=5 ></div>
+</code></pre><pre class="prettyprint"><code> // Set rating maxValue on initialization. <div id="rating"></div><script>//To set maximum API value$("#rating").ejmRating ({ maxValue: 5 });       </script></code></pre><pre class="prettyprint"><code> <script>//Get or set the rating maxValue, after initialization:
+// Get the maximum API value.            $("#rating").ejmRating ("option", "maxValue");                 // Set the maximum value API$("#rating").ejmRating ("option", "maxValue", 5);    </script></code></pre>
 
 
 
@@ -176,9 +176,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the minValue property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-minvalue=0 &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set rating minValue on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set minimum API value $("#rating").ejmRating ({ minValue: 0 });               &lt;/script&gt;                 </code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating minValue, after initialization:
-// Get the minimum API value.            $("#rating").ejmRating ("option", "minValue");                 // Set the minValue API$("#rating").ejmRating ("option", "minValue", 0);   &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the minValue property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-minvalue=0 ></div>
+</code></pre><pre class="prettyprint"><code> // Set rating minValue on initialization. <div id="rating"></div><script>//To set minimum API value $("#rating").ejmRating ({ minValue: 0 });               </script>                 </code></pre><pre class="prettyprint"><code> <script>//Get or set the rating minValue, after initialization:
+// Get the minimum API value.            $("#rating").ejmRating ("option", "minValue");                 // Set the minValue API$("#rating").ejmRating ("option", "minValue", 0);   </script></code></pre>
 
 
 
@@ -202,9 +202,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the orientation property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-orientation="horizontal" &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set orientation on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set orientation API value $(function(){$("#rating").ejmRating ({ orientation: ej.mobile.Rating.Orientation.Horizontal });});&lt;/script&gt;                 </code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating orientation, after initialization:
-// Get the orientation API value.                $("#rating").ejmRating ("option", "orientation");                      // Set the orientation API$("#rating").ejmRating ("option", "orientation", ej.mobile.Rating.Orientation.Horizontal);     &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the orientation property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-orientation="horizontal" ></div>
+</code></pre><pre class="prettyprint"><code> // Set orientation on initialization. <div id="rating"></div><script>//To set orientation API value $(function(){$("#rating").ejmRating ({ orientation: ej.mobile.Rating.Orientation.Horizontal });});</script>                 </code></pre><pre class="prettyprint"><code> <script>//Get or set the rating orientation, after initialization:
+// Get the orientation API value.                $("#rating").ejmRating ("option", "orientation");                      // Set the orientation API$("#rating").ejmRating ("option", "orientation", ej.mobile.Rating.Orientation.Horizontal);     </script></code></pre>
 
 
 
@@ -228,9 +228,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the precision property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-precision="full" &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set precision on initialization. //To set precision API value &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;$(function(){$("#rating").ejmRating ({ precision: ej.mobile.Rating.Precision.Full });                });&lt;/script&gt;                 </code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating precision, after initialization:
-// Get the precision API value.          $("#rating").ejmRating ("option", "precision");                        // Set the precision API$("#rating").ejmRating ("option", "precision", ej.mobile.Rating.Precision.Full);  &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the precision property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-precision="full" ></div>
+</code></pre><pre class="prettyprint"><code> // Set precision on initialization. //To set precision API value <div id="rating"></div><script>$(function(){$("#rating").ejmRating ({ precision: ej.mobile.Rating.Precision.Full });                });</script>                 </code></pre><pre class="prettyprint"><code> <script>//Get or set the rating precision, after initialization:
+// Get the precision API value.          $("#rating").ejmRating ("option", "precision");                        // Set the precision API$("#rating").ejmRating ("option", "precision", ej.mobile.Rating.Precision.Full);  </script></code></pre>
 
 
 
@@ -254,9 +254,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the read only property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-readonly=false &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set read only on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set read only API value $("#rating").ejmRating ({ readOnly: false });                   &lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating read only, after initialization:
-// Get the read only API value.          $("#rating").ejmRating ("option", "readOnly");                 // Set the read only API$("#rating").ejmRating ("option", "readOnly", false);      &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the read only property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-readonly=false ></div>
+</code></pre><pre class="prettyprint"><code> // Set read only on initialization. <div id="rating"></div><script>//To set read only API value $("#rating").ejmRating ({ readOnly: false });                   </script></code></pre><pre class="prettyprint"><code> <script>//Get or set the rating read only, after initialization:
+// Get the read only API value.          $("#rating").ejmRating ("option", "readOnly");                 // Set the read only API$("#rating").ejmRating ("option", "readOnly", false);      </script></code></pre>
 
 
 
@@ -280,9 +280,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the renderMode property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-rendermode="auto" &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set rendermode on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set renderMode API value $(function(){$("#rating").ejmRating ({ renderMode: ej.mobile.RenderMode.Auto });     });&lt;/script&gt;                 </code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating rendermode, after initialization:
-// Get the renderMode API value.                 $("#rating").ejmRating ("option", "renderMode");                       // Set the renderMode API$("#rating").ejmRating ("option", "renderMode", ej.mobile.RenderMode.Auto);   &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the renderMode property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-rendermode="auto" ></div>
+</code></pre><pre class="prettyprint"><code> // Set rendermode on initialization. <div id="rating"></div><script>//To set renderMode API value $(function(){$("#rating").ejmRating ({ renderMode: ej.mobile.RenderMode.Auto });     });</script>                 </code></pre><pre class="prettyprint"><code> <script>//Get or set the rating rendermode, after initialization:
+// Get the renderMode API value.                 $("#rating").ejmRating ("option", "renderMode");                       // Set the renderMode API$("#rating").ejmRating ("option", "renderMode", ej.mobile.RenderMode.Auto);   </script></code></pre>
 
 
 
@@ -306,9 +306,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the shape property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-shape="star" &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set shape on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set shape API value $(function(){$("#rating").ejmRating ({ shape: ej.mobile.Rating.Shape.Star });});&lt;/script&gt;                 </code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating shape, after initialization:
-// Get the shape API value.              $("#rating").ejmRating ("option", "shape");                    // Set the shape API$("#rating").ejmRating ("option", "shape", ej.mobile.Rating.Shape.Star);          &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the shape property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-shape="star" ></div>
+</code></pre><pre class="prettyprint"><code> // Set shape on initialization. <div id="rating"></div><script>//To set shape API value $(function(){$("#rating").ejmRating ({ shape: ej.mobile.Rating.Shape.Star });});</script>                 </code></pre><pre class="prettyprint"><code> <script>//Get or set the rating shape, after initialization:
+// Get the shape API value.              $("#rating").ejmRating ("option", "shape");                    // Set the shape API$("#rating").ejmRating ("option", "shape", ej.mobile.Rating.Shape.Star);          </script></code></pre>
 
 
 
@@ -332,9 +332,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the shape height property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-shapeheight=25 &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set shape height on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set shape height API value $("#rating").ejmRating ({ shapeHeight: 25 });   &lt;/script&gt;                 </code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating shape height, after initialization:
-// Get the shape height API value.               $("#rating").ejmRating ("option", "shapeHeight");                      // Set the shape height API$("#rating").ejmRating ("option", "shapeHeight", 25);  &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the shape height property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-shapeheight=25 ></div>
+</code></pre><pre class="prettyprint"><code> // Set shape height on initialization. <div id="rating"></div><script>//To set shape height API value $("#rating").ejmRating ({ shapeHeight: 25 });   </script>                 </code></pre><pre class="prettyprint"><code> <script>//Get or set the rating shape height, after initialization:
+// Get the shape height API value.               $("#rating").ejmRating ("option", "shapeHeight");                      // Set the shape height API$("#rating").ejmRating ("option", "shapeHeight", 25);  </script></code></pre>
 
 
 
@@ -358,9 +358,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the shape width property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-shapewidth=25 &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set shape width on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set shape width API value $("#rating").ejmRating ({ shapeWidth: 25 });    &lt;/script&gt;                 </code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating shape width, after initialization:
-// Get the shape width API value.                $("#rating").ejmRating ("option", "shapeWidth");                       // Set the shape width API$("#rating").ejmRating ("option", "shapeWidth", 25);       &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the shape width property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-shapewidth=25 ></div>
+</code></pre><pre class="prettyprint"><code> // Set shape width on initialization. <div id="rating"></div><script>//To set shape width API value $("#rating").ejmRating ({ shapeWidth: 25 });    </script>                 </code></pre><pre class="prettyprint"><code> <script>//Get or set the rating shape width, after initialization:
+// Get the shape width API value.                $("#rating").ejmRating ("option", "shapeWidth");                       // Set the shape width API$("#rating").ejmRating ("option", "shapeWidth", 25);       </script></code></pre>
 
 
 
@@ -384,9 +384,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the space between shapes property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-spacebetweenshapes=15 &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set space between shapes on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set space between shapes API value $("#rating").ejmRating ({ spaceBetweenShapes: 15 });            &lt;/script&gt;                 </code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating space between shapes, after initialization:
-// Get the space between shapes API value.               $("#rating").ejmRating ("option", "spaceBetweenShapes");                       // Set the space between shapes API$("#rating").ejmRating ("option", "spaceBetweenShapes", 15);            &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the space between shapes property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-spacebetweenshapes=15 ></div>
+</code></pre><pre class="prettyprint"><code> // Set space between shapes on initialization. <div id="rating"></div><script>//To set space between shapes API value $("#rating").ejmRating ({ spaceBetweenShapes: 15 });            </script>                 </code></pre><pre class="prettyprint"><code> <script>//Get or set the rating space between shapes, after initialization:
+// Get the space between shapes API value.               $("#rating").ejmRating ("option", "spaceBetweenShapes");                       // Set the space between shapes API$("#rating").ejmRating ("option", "spaceBetweenShapes", 15);            </script></code></pre>
 
 
 
@@ -410,9 +410,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the theme property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-theme="auto" &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set theme on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set theme API value $(function(){$("#rating").ejmRating ({ theme: ej.mobile.Theme.Auto });               });&lt;/script&gt;                 </code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating theme, after initialization:
-// Get the theme API value.              $("#rating").ejmRating ("option", "theme");                    // Set the theme API$("#rating").ejmRating ("option", "theme", ej.mobile.Theme.Auto);            &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the theme property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-theme="auto" ></div>
+</code></pre><pre class="prettyprint"><code> // Set theme on initialization. <div id="rating"></div><script>//To set theme API value $(function(){$("#rating").ejmRating ({ theme: ej.mobile.Theme.Auto });               });</script>                 </code></pre><pre class="prettyprint"><code> <script>//Get or set the rating theme, after initialization:
+// Get the theme API value.              $("#rating").ejmRating ("option", "theme");                    // Set the theme API$("#rating").ejmRating ("option", "theme", ej.mobile.Theme.Auto);            </script></code></pre>
 
 
 
@@ -436,9 +436,9 @@ Default Value:
 
 Example
 {:.example}
-<pre class="prettyprint"><code> //Set the current value property in unobtrusive way.&lt;div id="rating" data-role="ejmrating" data-ej-value=1 &gt;&lt;/div&gt;
-</code></pre><pre class="prettyprint"><code> // Set rating current value on initialization. &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//To set current value API value $("#rating").ejmRating ({ value: 1 });          &lt;/script&gt;                         </code></pre><pre class="prettyprint"><code> &lt;script&gt;//Get or set the rating current value, after initialization:
-// Get the current value API value.              $("#rating").ejmRating ("option", "value");                    // Set the current value API$("#rating").ejmRating ("option", "value", 1);   &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> //Set the current value property in unobtrusive way.<div id="rating" data-role="ejmrating" data-ej-value=1 ></div>
+</code></pre><pre class="prettyprint"><code> // Set rating current value on initialization. <div id="rating"></div><script>//To set current value API value $("#rating").ejmRating ({ value: 1 });          </script>                         </code></pre><pre class="prettyprint"><code> <script>//Get or set the rating current value, after initialization:
+// Get the current value API value.              $("#rating").ejmRating ("option", "value");                    // Set the current value API$("#rating").ejmRating ("option", "value", 1);   </script></code></pre>
 
 
 ## Methods
@@ -457,9 +457,9 @@ To disable the rating.
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="rating" data-role="ejmrating" &gt;&lt;/div&gt;
-&lt;script&gt;$(function(){// To get the instance of the rating controlvar rating = $("#rating").data("ejmRating");rating.disable(); // it will disable the rating control});&lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="rating" &gt;&lt;/div&gt;
-&lt;script&gt;$("#rating").ejmRating();       $(function(){// To disable the Rating control$("#rating").ejmRating("disable");});   &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="rating" data-role="ejmrating" ></div>
+<script>$(function(){// To get the instance of the rating controlvar rating = $("#rating").data("ejmRating");rating.disable(); // it will disable the rating control});</script></code></pre><pre class="prettyprint"><code> <div id="rating" ></div>
+<script>$("#rating").ejmRating();       $(function(){// To disable the Rating control$("#rating").ejmRating("disable");});   </script></code></pre>
 
 
 
@@ -474,9 +474,9 @@ To enable the rating.
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="rating" data-role="ejmrating" &gt;&lt;/div&gt;
-&lt;script&gt;$(function(){// To get the instance of the rating controlvar rating = $("#rating").data("ejmRating");rating.enable(); // it will enable the rating control});&lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="rating" &gt;&lt;/div&gt;
-&lt;script&gt;$("#rating").ejmRating();       $(function(){// To enable the Rating control$("#rating").ejmRating("enable");});   &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="rating" data-role="ejmrating" ></div>
+<script>$(function(){// To get the instance of the rating controlvar rating = $("#rating").data("ejmRating");rating.enable(); // it will enable the rating control});</script></code></pre><pre class="prettyprint"><code> <div id="rating" ></div>
+<script>$("#rating").ejmRating();       $(function(){// To enable the Rating control$("#rating").ejmRating("enable");});   </script></code></pre>
 
 
 
@@ -491,9 +491,9 @@ To get the current value.
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="rating" data-role="ejmrating"&gt;&lt;/div&gt;
-&lt;script&gt;$(function(){// To get the instance of rating controlvar rating = $("#rating").data("ejmRating");rating.getValue(); // it will return the current value of rating});&lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="rating"&gt;&lt;/div&gt;
-&lt;script&gt;// To get the current value of Rating control$("#rating").ejmRating("getValue");     &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="rating" data-role="ejmrating"></div>
+<script>$(function(){// To get the instance of rating controlvar rating = $("#rating").data("ejmRating");rating.getValue(); // it will return the current value of rating});</script></code></pre><pre class="prettyprint"><code> <div id="rating"></div>
+<script>// To get the current value of Rating control$("#rating").ejmRating("getValue");     </script></code></pre>
 
 
 
@@ -508,9 +508,9 @@ To hide the rating.
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="rating" data-role="ejmrating" &gt;&lt;/div&gt;
-&lt;script&gt;$(function(){// To get the instance of the rating controlvar rating = $("#rating").data("ejmRating");rating.hide(); // it will hide the rating control});&lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="rating" &gt;&lt;/div&gt;
-&lt;script&gt;$("#rating").ejmRating();       $(function(){// To hide the Rating control$("#rating").ejmRating("hide"); });&lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="rating" data-role="ejmrating" ></div>
+<script>$(function(){// To get the instance of the rating controlvar rating = $("#rating").data("ejmRating");rating.hide(); // it will hide the rating control});</script></code></pre><pre class="prettyprint"><code> <div id="rating" ></div>
+<script>$("#rating").ejmRating();       $(function(){// To hide the Rating control$("#rating").ejmRating("hide"); });</script></code></pre>
 
 
 
@@ -525,9 +525,9 @@ To reset the value.
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="rating" data-role="ejmrating"&gt;&lt;/div&gt;
-&lt;script&gt;$(function(){// To get the instance of rating controlvar rating = $("#rating").data("ejmRating");rating.reset(); // it will reset the value of rating});&lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="rating"&gt;&lt;/div&gt;
-&lt;script&gt;// To reset value of Rating control$("#rating").ejmRating("reset");        &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="rating" data-role="ejmrating"></div>
+<script>$(function(){// To get the instance of rating controlvar rating = $("#rating").data("ejmRating");rating.reset(); // it will reset the value of rating});</script></code></pre><pre class="prettyprint"><code> <div id="rating"></div>
+<script>// To reset value of Rating control$("#rating").ejmRating("reset");        </script></code></pre>
 
 
 
@@ -542,9 +542,9 @@ To set the value.
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="rating" data-role="ejmrating"&gt;&lt;/div&gt;
-&lt;script&gt;$(function(){// To get the instance of rating controlvar rating = $("#rating").data("ejmRating");rating.setValue(3); // it will set the value of rating});&lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="rating"&gt;&lt;/div&gt;
-&lt;script&gt;// To set the value of Rating control$("#rating").ejmRating("setValue",3);   &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="rating" data-role="ejmrating"></div>
+<script>$(function(){// To get the instance of rating controlvar rating = $("#rating").data("ejmRating");rating.setValue(3); // it will set the value of rating});</script></code></pre><pre class="prettyprint"><code> <div id="rating"></div>
+<script>// To set the value of Rating control$("#rating").ejmRating("setValue",3);   </script></code></pre>
 
 
 
@@ -559,9 +559,9 @@ To show the rating.
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="rating" data-role="ejmrating" &gt;&lt;/div&gt;
-&lt;script&gt;$(function(){// To get the instance of the rating controlvar rating = $("#rating").data("ejmRating");rating.show(); // it will show the rating control});&lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="rating" &gt;&lt;/div&gt;
-&lt;script&gt;$("#rating").ejmRating();       $(function(){// To show the Rating control$("#rating").ejmRating("show");});   &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="rating" data-role="ejmrating" ></div>
+<script>$(function(){// To get the instance of the rating controlvar rating = $("#rating").data("ejmRating");rating.show(); // it will show the rating control});</script></code></pre><pre class="prettyprint"><code> <div id="rating" ></div>
+<script>$("#rating").ejmRating();       $(function(){// To show the Rating control$("#rating").ejmRating("show");});   </script></code></pre>
 
 
 ## Events
@@ -580,8 +580,8 @@ Event triggers when the value changed.
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="rating" data-role="ejmrating" data-ej-change="onChange"&gt;&lt;/div&gt;
-&lt;script&gt; // change event for Rating  function onChange(args){ //handle the event}&lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//change event for Rating$("#rating").ejmRating({  change: function (args) { //handle the event }});           &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="rating" data-role="ejmrating" data-ej-change="onChange"></div>
+<script> // change event for Rating  function onChange(args){ //handle the event}</script></code></pre><pre class="prettyprint"><code> <div id="rating"></div><script>//change event for Rating$("#rating").ejmRating({  change: function (args) { //handle the event }});           </script></code></pre>
 
 
 
@@ -596,8 +596,8 @@ Event triggers when touch happens on the control.
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="rating" data-role="ejmrating" data-ej-tap="onTap"&gt;&lt;/div&gt;
-&lt;script&gt; // Change event for Rating  function onTap(args){ //handle the event}&lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt; //Change event for Rating$("#rating").ejmRating({ tap: function (args) { //handle the event }});     &lt;/script&gt;                 </code></pre>
+<pre class="prettyprint"><code> <div id="rating" data-role="ejmrating" data-ej-tap="onTap"></div>
+<script> // Change event for Rating  function onTap(args){ //handle the event}</script></code></pre><pre class="prettyprint"><code> <div id="rating"></div><script> //Change event for Rating$("#rating").ejmRating({ tap: function (args) { //handle the event }});     </script>                 </code></pre>
 
 
 
@@ -612,7 +612,7 @@ Event triggers when touch move happens on the control.
 
 Example
 {:.example}
-<pre class="prettyprint"><code> &lt;div id="rating" data-role="ejmrating" data-ej-touchmove="ontouchMove"&gt;&lt;/div&gt;
-&lt;script&gt; // Change event for Rating  function ontouchMove(args){ //handle the event}&lt;/script&gt;</code></pre><pre class="prettyprint"><code> &lt;div id="rating"&gt;&lt;/div&gt;&lt;script&gt;//change event for Rating$("#rating").ejmRating({  touchMove: function (args) { //handle the event }});           &lt;/script&gt;</code></pre>
+<pre class="prettyprint"><code> <div id="rating" data-role="ejmrating" data-ej-touchmove="ontouchMove"></div>
+<script> // Change event for Rating  function ontouchMove(args){ //handle the event}</script></code></pre><pre class="prettyprint"><code> <div id="rating"></div><script>//change event for Rating$("#rating").ejmRating({  touchMove: function (args) { //handle the event }});           </script></code></pre>
 
 

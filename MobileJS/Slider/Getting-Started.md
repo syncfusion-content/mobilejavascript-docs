@@ -13,13 +13,13 @@ Essential JavaScript Mobile Slider provides the selection of a single value or a
 
 
 
-{ ![1](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
 ## Create the layout for Shopping Cart App
 
-Essential JS Mobile Slider widget is rendered by a &lt;div&gt; element with its required properties. You can customize Slider control by changing its properties according to your requirements. In the Shopping Cart App, the Range Slider is used to set the price range.
+Essential JS Mobile Slider widget is rendered by a <div> element with its required properties. You can customize Slider control by changing its properties according to your requirements. In the Shopping Cart App, the Range Slider is used to set the price range.
 
 Create an HTML file and add the following template to the HTML file.
 
@@ -161,13 +161,13 @@ Create an HTML file and add the following template to the HTML file.
 
 Execute the above code example to render the following output.
 
-{ ![2](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![2](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
 ## Create Slider control
 
-To render Slider control, set ejmslider to data-role attribute to &lt;div&gt; element. Set 100 as the minimum value for the Slider using data-ej-minvalue, and set 5000 as the maximum value using data-ej-maxvalue. Set data-ej-incrementstep to 100 so that the slider is moved for every 100 values. 
+To render Slider control, set ejmslider to data-role attribute to <div> element. Set 100 as the minimum value for the Slider using data-ej-minvalue, and set 5000 as the maximum value using data-ej-maxvalue. Set data-ej-incrementstep to 100 so that the slider is moved for every 100 values. 
 
 Refer to the following code example.
 
@@ -185,7 +185,7 @@ Refer to the following code example.
 
 Run the above code example to render the following output.
 
-{ ![3](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![3](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -193,7 +193,7 @@ Run the above code example to render the following output.
 
 You can set the price range using Range Slider. Set data-ej-enablerange attribute to “True”. You can set the initial range values by using data-ej-values attribute. Here, you can set the values as [300, 1500]. The Slider’s left thumb is set to 300 and the right thumb is set to 1500.
 
-Add the following code to the Slider &lt;div&gt;.
+Add the following code to the Slider <div>.
 
 {% highlight html %}
 
@@ -207,13 +207,13 @@ Add the following code to the Slider &lt;div&gt;.
 
 Execute the above code example to render the following output.
 
-{ ![4](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![4](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
 ## Handle events
 
-In this scenario, when you change the Slider value, the corresponding values are updated to the &lt;span&gt; element that acts as a label for Slider. You can use data-ej-slide event that is handled by appropriate function. Add the following code to the Slider &lt;div&gt;.
+In this scenario, when you change the Slider value, the corresponding values are updated to the <span> element that acts as a label for Slider. You can use data-ej-slide event that is handled by appropriate function. Add the following code to the Slider <div>.
 
 {% highlight html %}
 
@@ -225,7 +225,7 @@ In this scenario, when you change the Slider value, the corresponding values are
 
 
 
-From the Slider’s getValue API, you can get the present value of both the Slider handles, anytime. Add the following code example to the &lt;script&gt; tag. 
+From the Slider’s getValue API, you can get the present value of both the Slider handles, anytime. Add the following code example to the <script> tag. 
 
 
 
@@ -279,11 +279,11 @@ Execute the above code to render the following output.
 
 
 
-{ ![5](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![5](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 
-In this scenario, a dialog is displayed to provide information about the search when Submit is clicked. Add the following code to the &lt;script&gt; tag.
+In this scenario, a dialog is displayed to provide information about the search when Submit is clicked. Add the following code to the <script> tag.
 
 
 
@@ -315,7 +315,7 @@ Execute the above code example to render the following output, when you click Su
 
 
 
-{ ![6](Getting-Started_images/Getting-Started_img6.png) | markdownify }
+{{ '![6](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
 {:.image }
 
 

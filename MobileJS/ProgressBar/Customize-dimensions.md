@@ -21,7 +21,7 @@ By setting an integer value to data-ej-height attribute, you can change the heig
 
 Output of Customize value:
 
-{ ![F:/Progrimg/ios7_phone - Copy (2).png](Customize-dimensions_images/Customize-dimensions_img1.png) | markdownify }
+{{ '![F:/Progrimg/ios7_phone - Copy (2).png](Customize-dimensions_images/Customize-dimensions_img1.png)' | markdownify }}
 {:.image }
 
 

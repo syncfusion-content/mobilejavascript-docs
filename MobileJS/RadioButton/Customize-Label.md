@@ -129,7 +129,7 @@ Specifies the text content for the RadioButton. In previous programs, separate l
 
 The following screenshot displays the customized labels in the RadioButton.
 
-{ ![](Customize-Label_images/Customize-Label_img1.png) | markdownify }
+{{ '![](Customize-Label_images/Customize-Label_img1.png)' | markdownify }}
 {:.image }
 
 

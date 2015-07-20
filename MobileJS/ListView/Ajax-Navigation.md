@@ -141,7 +141,7 @@ Load3.html
 
 The following screenshot displays the Enable Ajax:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -149,7 +149,7 @@ The following screenshot displays the Enable Ajax:
 
 
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img2.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -199,11 +199,11 @@ In Ajax method, the ListView widget loads the content with default jQuery settin
 
 The following screenshots display the Ajax Settings:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img3.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img3.png)' | markdownify }}
 {:.image }
 
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img4.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img4.png)' | markdownify }}
 {:.image }
 
 

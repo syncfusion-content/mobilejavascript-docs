@@ -39,7 +39,7 @@ The following screenshot displays the scroll height:
 
 
 
-{ ![](Customize-dimensions_images/Customize-dimensions_img1.png) | markdownify }
+{{ '![](Customize-dimensions_images/Customize-dimensions_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -77,7 +77,7 @@ The “data-ej-adjustfixedposition” is a boolean attribute that lets you adjus
 
 The following screenshot displays the auto adjust scroll height:
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Customize-dimensions_images/Customize-dimensions_img2.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Customize-dimensions_images/Customize-dimensions_img2.png)' | markdownify }}
 {:.image }
 
 

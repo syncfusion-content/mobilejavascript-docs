@@ -34,7 +34,7 @@ To start the Weinre server, use the following command in the command prompt,
 
 
 
-weinre --boundHost &lt;IPAddress&gt; -- httpPort &lt;port number&gt;
+weinre --boundHost <IPAddress> -- httpPort <port number>
 
 
 
@@ -42,7 +42,7 @@ The output of the following command will be displayed as below,
 
 
 
-{ ![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_95.jpg](Debugging_images/Debugging_img1.jpeg) | markdownify }
+{{ '![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_95.jpg](Debugging_images/Debugging_img1.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -52,7 +52,7 @@ To enable Weinre, enter the displayed link from command prompt (system IP and p
 
 Example: [http://127.0.0.1:8080](http://127.0.0.1:8080/).
 
-{ ![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_96.jpg](Debugging_images/Debugging_img2.jpeg) | markdownify }
+{{ '![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_96.jpg](Debugging_images/Debugging_img2.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -60,7 +60,7 @@ Add the script reference shown under Target Script in html file which you want t
 
 
 
-&lt;script src="http://ipaddress:8080/target/target-script-min.js#anonymous"&gt;&lt;/script&gt;
+<script src="http://ipaddress:8080/target/target-script-min.js#anonymous"></script>
 
 
 
@@ -72,13 +72,13 @@ To debug any client application, connect all the remote systems in the same netw
 
 In the browser, open debug client user interface link to get the list of available mobile devices for debugging. When an application is launched in mobile, it appears under Targets tab. Click on this link to inspect the elements.
 
-{ ![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_97.jpg](Debugging_images/Debugging_img3.jpeg) | markdownify }
+{{ '![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_97.jpg](Debugging_images/Debugging_img3.jpeg)' | markdownify }}
 {:.image }
 
 
 Click the Element tab in the browser and start debugging the elements. You can change the style, edit elements, etc.
 
-{ ![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_98.jpg](Debugging_images/Debugging_img4.jpeg) | markdownify }
+{{ '![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_98.jpg](Debugging_images/Debugging_img4.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -94,7 +94,7 @@ Web Inspector is used to debug web content on your iOS device directly from y
 
 On your iOS device, open Settings->Safari->Advanced and turn on Web Inspector.
 
-{ ![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_99.jpg](Debugging_images/Debugging_img5.jpeg) | markdownify }
+{{ '![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_99.jpg](Debugging_images/Debugging_img5.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -102,7 +102,7 @@ On your iOS device, open Settings->Safari->Advanced and turn on Web Inspect
 
 On your Mac, Launch Safari. Open Safari Preferences and navigate to Advanced and then enable the checkbox Show Develop menu in menu bar.
 
-{ ![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_100.jpg](Debugging_images/Debugging_img6.jpeg) | markdownify }
+{{ '![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_100.jpg](Debugging_images/Debugging_img6.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -114,7 +114,7 @@ On your Mac, Launch Safari. Open Safari Preferences and navigate to Advanced 
 
 Open the mobile application to debug in iOS device. In your mac, open safari and click Develop menu. Navigate to iOS device name->Open the web page (Ex: index.html)
 
-{ ![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_101.jpg](Debugging_images/Debugging_img7.jpeg) | markdownify }
+{{ '![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_101.jpg](Debugging_images/Debugging_img7.jpeg)' | markdownify }}
 {:.image }
 
 

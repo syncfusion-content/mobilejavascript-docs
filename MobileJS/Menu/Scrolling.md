@@ -51,7 +51,7 @@ The data-ej-allowscrolling attribute defines whether to allow the scrolling beha
 
 The following screenshot displays Scrolling:
 
-{ ![ShowScrollBars](Scrolling_images/Scrolling_img1.png) | markdownify }
+{{ '![ShowScrollBars](Scrolling_images/Scrolling_img1.png)' | markdownify }}
 {:.image }
 
 

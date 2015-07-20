@@ -15,7 +15,7 @@ The following screenshot illustrates the functionality of a Button control in 
 
 
 
-{ ![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0534_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0534_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -147,7 +147,7 @@ _Note:__Make sure you have an audio file in specified location._
 
 Run the above code example to render the following output.
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -203,7 +203,7 @@ Add the following code example below the audio control.
 
 Run the above code example to render the following output.
 
-{ ![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0533_iphone5s_spacegrey_landscape.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0533_iphone5s_spacegrey_landscape.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -249,7 +249,7 @@ Now, set text for all the buttons. You can achieve this by using “data-ej-text
 
 
 
-{ ![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0534_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0534_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -379,7 +379,7 @@ Add the following Script to your code.
 
  Run the above code example to render the following output. 
 
-{ ![C:/Users/Dhinesh R/AppData/Roaming/Skype/My Skype Received Files/Screenshots/Screenshots/IMG_0535_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![C:/Users/Dhinesh R/AppData/Roaming/Skype/My Skype Received Files/Screenshots/Screenshots/IMG_0535_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 

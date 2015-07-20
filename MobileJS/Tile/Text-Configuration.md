@@ -40,7 +40,7 @@ _Note: TextPosition support is given only to iOS7 and android mode. TextPosition
 
 The following screenshot illustrates the output of the above code.
 
-{ ![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/tiletextchanges.png](Text-Configuration_images/Text-Configuration_img1.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/tiletextchanges.png](Text-Configuration_images/Text-Configuration_img1.png)' | markdownify }}
 {:.image }
 
 

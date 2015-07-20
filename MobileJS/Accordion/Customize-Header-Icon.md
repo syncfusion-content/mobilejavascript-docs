@@ -63,7 +63,7 @@ The “data-ej-showheadericon” attribute is used to display the default icon f
 
 The following screenshot displays header icon.
 
-{ ![](Customize-Header-Icon_images/Customize-Header-Icon_img1.png) | markdownify }
+{{ '![](Customize-Header-Icon_images/Customize-Header-Icon_img1.png)' | markdownify }}
 {:.image }
 
 

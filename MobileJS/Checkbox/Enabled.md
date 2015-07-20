@@ -79,7 +79,7 @@ Refer to the following code example.
 
 Execute the above code example to render the following output.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image20_37.png](Enabled_images/Enabled_img1.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_37.png](Enabled_images/Enabled_img1.png)' | markdownify }}
 {:.image }
 
 

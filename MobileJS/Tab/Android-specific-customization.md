@@ -83,7 +83,7 @@ The “data-ej-android-showimage” attribute is used to enable or disable the i
 
 The following screenshot displays the Android showImage:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -159,7 +159,7 @@ The “data-ej-android-imageclass” attribute is used to add images to the Tab 
 
 The following screenshot displays the Android imageClass:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img2.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -235,7 +235,7 @@ The “data-ej-android-position” attribute holds fixed and normal values. Norm
 
 The following screenshot displays the AndroidPosition:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img3.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img3.png)' | markdownify }}
 {:.image }
 
 

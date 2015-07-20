@@ -36,16 +36,16 @@ Example
 <pre class="prettyprint">
 <code> 
 // Create radiobutton control in Unobtrusive way.
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" /&gt;
+<input type="radio" id="radbtn" data-role="ejmradiobutton" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input type="radio" id="radbtn" /&gt;
-&lt;script&gt; 
+<input type="radio" id="radbtn" />
+<script> 
   // Create RadioButton  
   $("#radbtn").ejmRadioButton(); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -128,16 +128,16 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the checked property in Unobtrusive way.
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-checked=false /&gt;
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-checked=false />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // To set checked API value during initialization  
-&lt;input type="radio" id="radbtn"/&gt;
-&lt;script&gt;
+<input type="radio" id="radbtn"/>
+<script>
  $("#radbtn").ejmRadioButton({ checked:  true });                                       
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -191,19 +191,19 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the cssClass property in Unobtrusive way.
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-cssclass="customclass" /&gt;
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-cssclass="customclass" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set RadioButton cssClass on initialization. 
 // To set renderMode API value 
-&lt;input type="radio" id="radbtn"/&gt;
-&lt;script&gt;
+<input type="radio" id="radbtn"/>
+<script>
 $(function() {
 $("#radbtn").ejmRadioButton ({ cssClass: "customclass" });              
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -256,17 +256,17 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enabled property in Unobtrusive way.
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-enabled=true /&gt;
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-enabled=true />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Enabled RadioButton on initialization. 
   // To set width API value 
-&lt;input type="radio" id="radbtn"/&gt;
-&lt;script&gt;
+<input type="radio" id="radbtn"/>
+<script>
         $("#radbtn").ejmRadioButton ({ enabled: true });                        
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -319,16 +319,16 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the enablePersistence property in Unobtrusive way.
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-enablepersistence=true /&gt;
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-enablepersistence=true />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // To set enablePersistence API value 
-&lt;input type="radio" id="radbtn"/&gt;
-&lt;script&gt;
+<input type="radio" id="radbtn"/>
+<script>
   $("#radbtn").ejmRadioButton({ enablePersistence: true});               
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -381,19 +381,19 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the renderMode property in Unobtrusive way.
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-rendermode="auto" /&gt;
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-rendermode="auto" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set RadioButton rendermode on initialization. 
 // To set renderMode API value 
-&lt;input type="radio" id="radbtn"/&gt;
-&lt;script&gt;
+<input type="radio" id="radbtn"/>
+<script>
 $(function() {
 $("#radbtn").ejmRadioButton ({ renderMode: ej.mobile.RenderMode.Auto });                
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -446,16 +446,16 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the text property in Unobtrusive way.
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-text="RadioButton" /&gt;
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-text="RadioButton" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // To set text API value 
-&lt;input type="radio" id="radbtn"/&gt;
-&lt;script&gt;
+<input type="radio" id="radbtn"/>
+<script>
   $("#radbtn").ejmRadioButton({ text: "Hello World"});           
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -508,19 +508,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the theme property in Unobtrusive way.
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-theme="auto" /&gt;
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-theme="auto" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set theme property on initialization. 
   // To set theme API value 
-&lt;input type="radio" id="radbtn"/&gt;
-&lt;script&gt;
+<input type="radio" id="radbtn"/>
+<script>
 $(function(){
   $("#radbtn").ejmRadioButton ({ theme: ej.mobile.Theme.Auto });                        
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -563,10 +563,10 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" /&gt;
-&lt;script&gt;
+<input type="radio" id="radbtn" data-role="ejmradiobutton" />
+<script>
         $("#radbtn").ejmRadioButton ("disable");                        
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -594,10 +594,10 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" /&gt;
-&lt;script&gt;
+<input type="radio" id="radbtn" data-role="ejmradiobutton" />
+<script>
         $("#radbtn").ejmRadioButton ("enable");                 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -686,25 +686,25 @@ Example
 <pre class="prettyprint">
 <code> 
 // Define the change event in Unobtrusive way.
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-change="change" /&gt;
-&lt;script&gt; 
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-change="change" />
+<script> 
 // change event for RadioButton            
 function change(args){ 
 //handle the event here
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // change event for RadioButton
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton"/&gt;
-&lt;script&gt; 
+<input type="radio" id="radbtn" data-role="ejmradiobutton"/>
+<script> 
 $("#radbtn").ejmRadioButton({
  change: function (args) { 
       //handle the event 
   }
 });     
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -786,25 +786,25 @@ Example
 <pre class="prettyprint">
 <code> 
 // Define the touchend event in Unobtrusive way.
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-touchend="touchend" /&gt;
-&lt;script&gt; 
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-touchend="touchend" />
+<script> 
 // touchEnd event for RadioButton            
 function touchend(args){ 
 //handle the event here
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // touchEnd event for RadioButton
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton"/&gt;
-&lt;script&gt; 
+<input type="radio" id="radbtn" data-role="ejmradiobutton"/>
+<script> 
 $("#radbtn").ejmRadioButton({
   touchEnd: function (args) { 
       //handle the event 
   }
 });     
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -886,25 +886,25 @@ Example
 <pre class="prettyprint">
 <code> 
 // Define the touchstart event in Unobtrusive way.
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-touchstart="touchstart" /&gt;
-&lt;script&gt; 
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-touchstart="touchstart" />
+<script> 
   // touchStart event for RadioButton 
   function touchstart(args){ 
       //handle the event 
   }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // touchStart event for RadioButton
-&lt;input type="radio" id="radbtn" data-role="ejmradiobutton"/&gt;
-&lt;script&gt; 
+<input type="radio" id="radbtn" data-role="ejmradiobutton"/>
+<script> 
 $("#radbtn").ejmRadioButton({
   touchStart: function (args) { 
         //handle the event 
   }
 });           
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 

@@ -23,7 +23,7 @@ The data-ej-enablestrictmode attribute makes Textbox accept only a value between
 
 The following screenshot displays the output.
 
-{ ![](Strict-Mode_images/Strict-Mode_img1.png) | markdownify }
+{{ '![](Strict-Mode_images/Strict-Mode_img1.png)' | markdownify }}
 {:.image }
 
 

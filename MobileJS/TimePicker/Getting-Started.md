@@ -13,7 +13,7 @@ The Essential Mobile JavaScript TimePicker provides support to display the TimeP
 
 The following screenshot illustrates the functionality of TimePicker.
 
-{ ![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -171,7 +171,7 @@ Add the following styles to display the TimePicker’s input element.
 
 Execute the above code to render the following output.
 
-{ ![C:/Users/Bharathi/Desktop/timepickerscreensecond.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/Bharathi/Desktop/timepickerscreensecond.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -203,7 +203,7 @@ Execute the above code example and focus on InTime or OutTime TimePicker element
 
 
 
-{ ![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -235,7 +235,7 @@ Execute the above code example and focus on InTime or OutTime TimePicker element
 
 
 
-{ ![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -285,7 +285,7 @@ Execute the above code and click the Book Now button to render the conformation 
 
 
 
-{ ![C:/Users/Bharathi/Desktop/timepickerscreen2.png](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![C:/Users/Bharathi/Desktop/timepickerscreen2.png](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 

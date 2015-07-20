@@ -23,7 +23,7 @@ Refer to the following code example.
 
 
 
-{ ![](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png) | markdownify }
+{{ '![](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

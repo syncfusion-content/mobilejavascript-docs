@@ -80,7 +80,7 @@ Rotator control takes a numeric value given in data-ej-currentitemindex attribut
 {% endhighlight %}
 
 
-{ ![F:/thangavel/dev/source/Trunk/JSDoc/rotator-2.png](Select-Item_images/Select-Item_img1.png) | markdownify }
+{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-2.png](Select-Item_images/Select-Item_img1.png)' | markdownify }}
 {:.image }
 
 

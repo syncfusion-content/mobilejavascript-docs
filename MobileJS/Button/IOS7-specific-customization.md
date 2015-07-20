@@ -51,7 +51,7 @@ You can refer to the following code example.
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f717c65.PNG](IOS7-specific-customization_images/IOS7-specific-customization_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f717c65.PNG](IOS7-specific-customization_images/IOS7-specific-customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -98,7 +98,7 @@ You can refer to the following code example.
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f700342.PNG](IOS7-specific-customization_images/IOS7-specific-customization_img2.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f700342.PNG](IOS7-specific-customization_images/IOS7-specific-customization_img2.png)' | markdownify }}
 {:.image }
 
 

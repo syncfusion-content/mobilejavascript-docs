@@ -87,7 +87,7 @@ The “data-ej-value” attribute is used to set the badge value to a Tab item. 
 
 The following screenshot displays the Customization of badge:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab4.png](Customize-Badge_images/Customize-Badge_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab4.png](Customize-Badge_images/Customize-Badge_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -167,7 +167,7 @@ The “data-ej-maxvalue” attribute is used to set the maximum badge value to a
 
 The following screenshot displays the maxValue
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab3.png](Customize-Badge_images/Customize-Badge_img2.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab3.png](Customize-Badge_images/Customize-Badge_img2.png)' | markdownify }}
 {:.image }
 
 

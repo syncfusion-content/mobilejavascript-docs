@@ -81,7 +81,7 @@ Tab control takes a numeric value given in “data-ej-selecteditemindex” attri
 
 The following screenshot displays the Selected Items:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab5.png](Select-Item_images/Select-Item_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab5.png](Select-Item_images/Select-Item_img1.png)' | markdownify }}
 {:.image }
 
 

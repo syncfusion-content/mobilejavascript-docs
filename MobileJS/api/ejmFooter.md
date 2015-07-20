@@ -35,15 +35,15 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="footer" ></div>
+<script> 
 // Create footer  
 $("#footer").ejmFooter(); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer" data-role="ejmfooter" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" ></div>
 </code>
 </pre>
 
@@ -151,13 +151,13 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the android leftButtonStyle property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="android" data-ej-showleftbutton="true" data-ej-android-leftbuttonstyle="back" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="android" data-ej-showleftbutton="true" data-ej-android-leftbuttonstyle="back" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set android leftButtonStyle on initialization. 
 //To set android leftButtonStyle API value 
 $(function(){
@@ -165,7 +165,7 @@ $("#footer").ejmFooter({ renderMode: ej.mobile.RenderMode.Android });
 $("#footer").ejmFooter({ showLeftButton:true});
 $("#footer").ejmFooter({"android":{"leftButtonStyle": "back"}})
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -218,13 +218,13 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the android rightButtonStyle property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="android" data-ej-showrightbutton="true" data-ej-android-rightbuttonstyle="normal" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="android" data-ej-showrightbutton="true" data-ej-android-rightbuttonstyle="normal" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set android rightButtonStyle on initialization. 
 //To set android rightButtonStyle API value 
 $(function(){
@@ -232,7 +232,7 @@ $("#footer").ejmFooter({ renderMode: ej.mobile.RenderMode.Android });
 $("#footer").ejmFooter({ showRightButton:true});
 $("#footer").ejmFooter({"android":{"rightButtonStyle": "normal"}})
 }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -285,18 +285,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the android showLeftButton property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="android" data-ej-android-showleftbutton=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="android" data-ej-android-showleftbutton=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set android showLeftButton on initialization. 
 //To set android showLeftButton API value 
 $("#footer").ejmFooter({ renderMode: ej.mobile.RenderMode.Android });   
 $("#footer").ejmFooter({"android":{ "showRightButton": true }});        
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -349,18 +349,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the android showRightButton property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="android" data-ej-android-showrightbutton=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="android" data-ej-android-showrightbutton=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set android showRightButton on initialization. 
 //To set android showRightButton API value 
 $("#footer").ejmFooter({ renderMode: ej.mobile.RenderMode.Android });   
 $("#footer").ejmFooter({"android":{ "showRightButton": true }});        
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -413,17 +413,17 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the cssClass property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-cssclass="customclass" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-cssclass="customclass" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //Set cssClass on initialization. 
 //To set cssClass API value 
 $("#footer").ejmFooter({ cssClass: "customclass" });    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -476,17 +476,17 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enablePersistence property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-enablepersistence=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-enablepersistence=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //Set enablePersistence on initialization. 
 //To set enablePersistence API value 
 $("#footer").ejmFooter({ enablePersistence: true });    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -560,13 +560,13 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the flat leftButtonStyle property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="flat" data-ej-showleftbutton="true" data-ej-flat-leftbuttonstyle="back" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="flat" data-ej-showleftbutton="true" data-ej-flat-leftbuttonstyle="back" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set flat leftButtonStyle on initialization. 
 //To set flat leftButtonStyle API value 
 $(function(){
@@ -574,7 +574,7 @@ $("#footer").ejmFooter({ renderMode: "flat" });
 $("#footer").ejmFooter({ showLeftButton:true});
 $("#footer").ejmFooter({"flat":{"leftButtonStyle": "back"}})
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -627,13 +627,13 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the flat rightButtonStyle property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="flat" data-ej-showrightbutton="true" data-ej-flat-rightbuttonstyle="normal" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="flat" data-ej-showrightbutton="true" data-ej-flat-rightbuttonstyle="normal" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set flat rightButtonStyle on initialization. 
 //To set flat rightButtonStyle API value 
 $(function(){
@@ -641,7 +641,7 @@ $("#footer").ejmFooter({ renderMode: "flat" });
 $("#footer").ejmFooter({ showRightButton:true});
 $("#footer").ejmFooter({"flat":{"rightButtonStyle": "normal"}})
 }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -694,18 +694,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the flat showLeftButton property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="flat" data-ej-flat-showleftbutton=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="flat" data-ej-flat-showleftbutton=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set flat showLeftButton on initialization. 
 //To set flat showLeftButton API value 
 $("#footer").ejmFooter({ renderMode: "flat" });
 $("#footer").ejmFooter({"flat":{ "showLeftButton": true }});
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -758,18 +758,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the flat showRightButton property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="flat" data-ej-flat-showrightbutton=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="flat" data-ej-flat-showrightbutton=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set flat showRightButton on initialization. 
 //To set flat showRightButton API value 
 $("#footer").ejmFooter({ renderMode: "flat" });
 $("#footer").ejmFooter({"flat":{ "showRightButton": true }});   
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -822,18 +822,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the hideForUnSupportedDevice property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-hideforunsupporteddevice=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-hideforunsupporteddevice=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code>//Set hideForUnSupportedDevice on initialization.             
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //To set hideForUnSupportedDevice API value 
 $(function(){
 $("#footer").ejmFooter({ hideForUnSupportedDevice: true });     
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -907,13 +907,13 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ios7 leftButtonStyle property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="ios7" data-ej-showleftbutton="true" data-ej-ios7-leftbuttonstyle="back" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="ios7" data-ej-showleftbutton="true" data-ej-ios7-leftbuttonstyle="back" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set ios7 leftButtonStyle on initialization. 
 //To set ios7 leftButtonStyle API value 
 $(function(){
@@ -921,7 +921,7 @@ $("#footer").ejmFooter({ renderMode: "ios7" });
 $("#footer").ejmFooter({ showLeftButton:true});
 $("#footer").ejmFooter({"ios7":{"leftButtonStyle": "back"}})
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -974,13 +974,13 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ios7 rightButtonStyle property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="ios7" data-ej-showrightbutton="true" data-ej-ios7-rightbuttonstyle="normal" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="ios7" data-ej-showrightbutton="true" data-ej-ios7-rightbuttonstyle="normal" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set ios7 rightButtonStyle on initialization. 
 //To set ios7 rightButtonStyle API value 
 $(function(){
@@ -988,7 +988,7 @@ $("#footer").ejmFooter({ renderMode: "ios7" });
 $("#footer").ejmFooter({ showRightButton:true});
 $("#footer").ejmFooter({"ios7":{"rightButtonStyle": "normal"}})
 }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1041,18 +1041,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ios7 showLeftButton property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="ios7" data-ej-ios7-showleftbutton=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="ios7" data-ej-ios7-showleftbutton=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set ios7 showLeftButton on initialization. 
 //To set ios7 showLeftButton API value 
 $("#footer").ejmFooter({ renderMode: "ios7" });
 $("#footer").ejmFooter({"ios7":{ "showLeftButton": true }});    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1105,18 +1105,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the ios7 showRightButton property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="ios7" data-ej-ios7-showrightbutton=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="ios7" data-ej-ios7-showrightbutton=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set ios7 showRightButton on initialization. 
 //To set ios7 showRightButton API value 
 $("#footer").ejmFooter({ renderMode: "ios7" });
 $("#footer").ejmFooter({"flat":{ "showRightButton": true }});   
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1169,18 +1169,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the leftButtonCaption property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-showleftbutton="true" data-ej-leftbuttoncaption="Home" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-showleftbutton="true" data-ej-leftbuttoncaption="Home" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //Set leftButtonCaption on initialization. 
 //To set leftButtonCaption API value 
 $("#footer").ejmFooter({ showLeftButton: true });
 $("#footer").ejmFooter({ leftButtonCaption: "Home" });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1233,18 +1233,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the leftButtonNavigationUrl property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-showleftbutton="true" data-ej-leftbuttonnavigationurl="" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-showleftbutton="true" data-ej-leftbuttonnavigationurl="" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code>//Set leftButtonNavigationUrl on initialization.             
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //To set leftButtonNavigationUrl API value 
 $(function(){
 $("#footer").ejmFooter({ leftButtonNavigationUrl: "" });        
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1297,20 +1297,20 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the leftButtonStyle property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-showleftbutton="true" data-ej-leftbuttonstyle="back" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-showleftbutton="true" data-ej-leftbuttonstyle="back" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set leftButtonStyle on initialization. 
 //To set leftButtonStyle API value 
 $(function(){
 $("#footer").ejmFooter({ showLeftButton:true});
 $("#footer").ejmFooter({ leftButtonStyle: ej.mobile.Button.IOS7Style.Back });
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1363,19 +1363,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the position property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-position="normal" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-position="normal" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //Set position on initialization. 
 //To set position API value 
 $(function(){
 $("#footer").ejmFooter({ position: ej.mobile.Footer.Position.Fixed });  
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1428,19 +1428,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the renderMode property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="auto" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="auto" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //Set rendermode on initialization. 
 //To set renderMode API value 
 $(function(){
 $("#footer").ejmFooter({ renderMode: ej.mobile.RenderMode.Auto });      
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1493,18 +1493,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the rightButtonCaption property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-showrightbutton="true" data-ej-rightbuttoncaption="Next" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-showrightbutton="true" data-ej-rightbuttoncaption="Next" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //Set rightButtonCaption on initialization. 
 //To set rightButtonCaption API value 
 $("#footer").ejmFooter({ showRightButton: true });      
 $("#footer").ejmFooter({ rightButtonCaption: "Next" });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1557,18 +1557,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the rightButtonNavigationUrl property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-showrightbutton="true" data-ej-rightbuttonnavigationurl="" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-showrightbutton="true" data-ej-rightbuttonnavigationurl="" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code>//Set rightButtonNavigationUrl on initialization.             
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //To set rightButtonNavigationUrl API value 
 $(function(){
 $("#footer").ejmFooter({ rightButtonNavigationUrl: "" });       
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1605,20 +1605,20 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the rightButtonStyle property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-showrightbutton="true" data-ej-rightbuttonstyle="normal" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-showrightbutton="true" data-ej-rightbuttonstyle="normal" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set rightButtonStyle on initialization. 
 //To set rightButtonStyle API value 
 $(function(){
 $("#footer").ejmFooter({showRightButton:true});
 $("#footer").ejmFooter({ rightButtonStyle: ej.mobile.Button.IOS7.Style.Footer });
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code>      
@@ -1671,17 +1671,17 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the showLeftButton property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-showleftbutton=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-showleftbutton=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //Set showLeftButton on initialization. 
 //To set showLeftButton API value 
 $("#footer").ejmFooter({ showLeftButton: true });       
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1734,17 +1734,17 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the showRightButton property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-showrightbutton=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-showrightbutton=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //Set showRightButton on initialization. 
 //To set showRightButton API value 
 $("#footer").ejmFooter({ showRightButton: true });      
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1797,17 +1797,17 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the showTitle property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-showtitle=false &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-showtitle=false ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //Set showTitle on initialization. 
 //To set showTitle API value 
 $("#footer").ejmFooter({ showTitle: false });   
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1860,7 +1860,7 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the templateId property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-templateid="footertemplate" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-templateid="footertemplate" ></div>
                         </code>
 </pre>
 
@@ -1906,19 +1906,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the theme property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-theme="auto" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-theme="auto" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set theme on initialization. 
 //To set theme API value 
 $(function(){
 $("#footer").ejmFooter({ theme: ej.mobile.Theme.Auto  });       
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1971,17 +1971,17 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the title property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-title="Footer" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-title="Footer" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 //Set title on initialization. 
 //To set title API value 
 $("#footer").ejmFooter({ title: "Title" });     
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2055,13 +2055,13 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the windows leftButtonStyle property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="windows" data-ej-showleftbutton="true" data-ej-windows-leftbuttonstyle="back" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="windows" data-ej-showleftbutton="true" data-ej-windows-leftbuttonstyle="back" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set windows leftButtonStyle on initialization. 
 //To set windows leftButtonStyle API value 
 $(function(){
@@ -2069,7 +2069,7 @@ $("#footer").ejmFooter({ renderMode: ej.mobile.RenderMode.Windows });
 $("#footer").ejmFooter({ showLeftButton:true});
 $("#footer").ejmFooter({"windows":{"leftButtonStyle": "back"}})
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2122,7 +2122,7 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the windows mode renderDefault property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="windows" data-ej-windows-renderdefault=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="windows" data-ej-windows-renderdefault=true ></div>
  </code>
 </pre>
 
@@ -2168,13 +2168,13 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the windows rightButtonStyle property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="windows" data-ej-showrightbutton="true" data-ej-windows-rightbuttonstyle="normal" &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="windows" data-ej-showrightbutton="true" data-ej-windows-rightbuttonstyle="normal" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set windows rightButtonStyle on initialization. 
 //To set windows rightButtonStyle API value 
 $(function(){
@@ -2182,7 +2182,7 @@ $("#footer").ejmFooter({ renderMode: ej.mobile.RenderMode.Windows });
 $("#footer").ejmFooter({ showRightButton:true});
 $("#footer").ejmFooter({"windows":{"rightButtonStyle": "normal"}})
 }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2235,18 +2235,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the windows showLeftButton property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="windows" data-ej-windows-showleftbutton=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="windows" data-ej-windows-showleftbutton=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set windows showLeftButton on initialization. 
 //To set windows showLeftButton API value 
 $("#footer").ejmFooter({ renderMode: ej.mobile.RenderMode.Windows });
 $("#footer").ejmFooter({"windows":{ "showLeftButton": true }}); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2299,18 +2299,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the windows showRightButton property in unobtrusive way.
-&lt;div id="footer" data-role="ejmfooter" data-ej-rendermode="windows" data-ej-windows-showrightbutton=true &gt;&lt;/div&gt;
+<div id="footer" data-role="ejmfooter" data-ej-rendermode="windows" data-ej-windows-showrightbutton=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 // Set windows showRightButton on initialization. 
 //To set windows showRightButton API value 
 $("#footer").ejmFooter({ renderMode: ej.mobile.RenderMode.Windows });
 $("#footer").ejmFooter({"windows":{ "showRightButton": true }});        
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -2353,25 +2353,25 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer" data-role="ejmfooter" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer" data-role="ejmfooter" ></div>
+<script>
 $(function(){
 //To get the instance of the footer
 var footer = $("#footer").data("ejmFooter");
 footer.getTitle(); //returns the footer's text
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 $(function(){
 $("#footer").ejmFooter();       
 //get the footer's current value
 $("#footer").ejmFooter("getTitle");     
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2437,22 +2437,22 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer" data-role="ejmfooter" data-ej-showleftbutton="true" data-ej-leftbuttontap="onLeftButtonTap"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="footer" data-role="ejmfooter" data-ej-showleftbutton="true" data-ej-leftbuttontap="onLeftButtonTap"></div>
+<script> 
 //leftButtonTap event for footer  
 function onLeftButtonTap(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 $("#footer").ejmFooter({showLeftButton:true, leftButtonTap:"test"});
 //LeftButtonTap event for footer
   function test() { //handle the event 
 }
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -2511,22 +2511,22 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer" data-role="ejmfooter" data-ej-showrightbutton="true" data-ej-rightbuttontap="onRightButtonTap"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="footer" data-role="ejmfooter" data-ej-showrightbutton="true" data-ej-rightbuttontap="onRightButtonTap"></div>
+<script> 
 //rightButtonTap event for footer  
 function onRightButtonTap(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="footer"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="footer"></div>
+<script>
 $("#footer").ejmFooter({showRightButton:true, rightButtonTap:"test"});
 //rightButtonTap event for footer
   function test() { //handle the event 
 }
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 

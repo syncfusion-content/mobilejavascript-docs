@@ -25,7 +25,7 @@ The data-ej-culture attributes is used to enable the localization support. The d
 
 The following screenshot displays the output.
 
-{ ![](Localization_images/Localization_img1.png) | markdownify }
+{{ '![](Localization_images/Localization_img1.png)' | markdownify }}
 {:.image }
 
 

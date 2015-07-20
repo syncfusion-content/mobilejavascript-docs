@@ -57,7 +57,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-{ ![](Template-Support_images/Template-Support_img1.png) | markdownify }
+{{ '![](Template-Support_images/Template-Support_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -11,7 +11,7 @@ documentation: ug
 
 Essential JavaScript Mobile MaskEdit control allows you to enter input with standard format. From the following guidelines, you can learn how to create a MaskEdit control for adding a contact.
 
-{ ![C:/Users/Vignesh Kumar/Desktop/screen.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/Vignesh Kumar/Desktop/screen.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -151,7 +151,7 @@ Add MaskEdit Control
 
 Run the code and get the following output.
 
-{ ![C:/Users/Vignesh Kumar/Desktop/screen.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/Vignesh Kumar/Desktop/screen.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 

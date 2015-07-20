@@ -31,7 +31,7 @@ You can refer to the following code example.
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](ContentType_images/ContentType_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](ContentType_images/ContentType_img1.png)' | markdownify }}
 {:.image }
 
 

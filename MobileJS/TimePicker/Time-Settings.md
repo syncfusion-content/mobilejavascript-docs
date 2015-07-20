@@ -21,7 +21,7 @@ The data-ej-value attribute is used to set the initial time for the TimePicker. 
 
 The following screenshot displays the output.
 
-{ ![](Time-Settings_images/Time-Settings_img1.png) | markdownify }
+{{ '![](Time-Settings_images/Time-Settings_img1.png)' | markdownify }}
 {:.image }
 
 

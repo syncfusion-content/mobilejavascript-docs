@@ -23,7 +23,7 @@ The data-ej-enableautofill attribute is used to automatically fill the AutoCompl
 
 The following screenshot displays AutoFill
 
-{ ![](AutoFill_images/AutoFill_img1.png) | markdownify }
+{{ '![](AutoFill_images/AutoFill_img1.png)' | markdownify }}
 {:.image }
 
 

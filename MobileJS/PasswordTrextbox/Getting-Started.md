@@ -11,7 +11,7 @@ documentation: ug
 
 Using the given guidelines, you can create a basic login form using the Password Textbox control.
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -171,7 +171,7 @@ To render the Password control, you can set “ejmpassword” to the data-role a
 
 Run the above code example and you can see the following output.
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -191,7 +191,7 @@ The watermark text is usually a short hint that describes the expected value of 
 
 Run the above code example and you can see the following output.
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 

@@ -25,7 +25,7 @@ To specify the caption (text) for the Header left button, set the “data-ej-lef
 
 The following screenshot displays the Left Button Caption.
 
-{ ![](Customize-Header-Left-Button_images/Customize-Header-Left-Button_img1.png) | markdownify }
+{{ '![](Customize-Header-Left-Button_images/Customize-Header-Left-Button_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -55,7 +55,7 @@ The possible values are,
 
 The following screenshot displays the Left Button Style:
 
-{ ![](Customize-Header-Left-Button_images/Customize-Header-Left-Button_img2.png) | markdownify }
+{{ '![](Customize-Header-Left-Button_images/Customize-Header-Left-Button_img2.png)' | markdownify }}
 {:.image }
 
 

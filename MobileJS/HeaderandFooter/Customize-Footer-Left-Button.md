@@ -23,7 +23,7 @@ In Footer control, you can view the previous page by using the data-ej-showleftb
 
 The following screenshot displays the output.
 
-{ ![](Customize-Footer-Left-Button_images/Customize-Footer-Left-Button_img1.png) | markdownify }
+{{ '![](Customize-Footer-Left-Button_images/Customize-Footer-Left-Button_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -47,7 +47,7 @@ To specify the caption (text) for Footer left button, set data-ej-leftbuttoncapt
 
 The following screenshot displays the output.
 
-{ ![](Customize-Footer-Left-Button_images/Customize-Footer-Left-Button_img2.png) | markdownify }
+{{ '![](Customize-Footer-Left-Button_images/Customize-Footer-Left-Button_img2.png)' | markdownify }}
 {:.image }
 
 

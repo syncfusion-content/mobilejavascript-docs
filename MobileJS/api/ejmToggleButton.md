@@ -35,15 +35,15 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="togglebutton" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="togglebutton" ></div>
+<script> 
 // Create ToggleButton  
 $("#togglebutton").ejmToggleButton(); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="togglebutton" data-role="ejmtogglebutton"&gt;&lt;/div&gt;
+<div id="togglebutton" data-role="ejmtogglebutton"></div>
 </code>
 </pre>
 
@@ -127,27 +127,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the animate property in unobtrusive way.
-&lt;div id="togglebutton" data-role="ejmtogglebutton" data-ej-animate=true&gt;&lt;/div&gt;
+<div id="togglebutton" data-role="ejmtogglebutton" data-ej-animate=true></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set animate on initialization. 
 //To set animate API value 
-&lt;div id="togglebutton" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="togglebutton" ></div>
+<script>
 $("#togglebutton").ejmToggleButton ({ animate:true });  
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the togglebutton animate, after initialization:
 // Get the animate API value.           
 $("#togglebutton").ejmToggleButton ("option", "animate");                       
 // Set the animate API
 $("#togglebutton").ejmToggleButton ("option", "animate", true);            
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -192,27 +192,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the cssClass property in unobtrusive way.
-&lt;div id="togglebutton" data-role="ejmtogglebutton" data-ej-cssclass="customclass"&gt;&lt;/div&gt;
+<div id="togglebutton" data-role="ejmtogglebutton" data-ej-cssclass="customclass"></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set cssClass on initialization. 
 //To set cssClass API value 
-&lt;div id="togglebutton" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="togglebutton" ></div>
+<script>
 $("#togglebutton").ejmToggleButton ({ cssClass:"customclass" });  
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the togglebutton cssClass, after initialization:
 // Get the cssClass API value.          
 $("#togglebutton").ejmToggleButton ("option", "cssClass");                      
 // Set the cssClass API
 $("#togglebutton").ejmToggleButton ("option", "cssClass", "customclass");            
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -257,27 +257,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enabled property in unobtrusive way.
-&lt;div id="togglebutton" data-role="ejmtogglebutton" data-ej-enabled=true&gt;&lt;/div&gt;
+<div id="togglebutton" data-role="ejmtogglebutton" data-ej-enabled=true></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set togglebutton enabled on initialization. 
 //To set enabled API value 
-&lt;div id="togglebutton" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="togglebutton" ></div>
+<script> 
 $("#togglebutton").ejmToggleButton ({ enabled:true  }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the togglebutton enabled, after initialization:
 // Get the enabled API value.           
  $("#togglebutton").ejmToggleButton ("option", "enabled");                      
 // Set the enabled API
 $("#togglebutton").ejmToggleButton ("option", "enabled", true);      
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -322,27 +322,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enablePersistence property in unobtrusive way.
-&lt;div id="togglebutton" data-role="ejmtogglebutton" data-ej-enablePersistence=false&gt;&lt;/div&gt;
+<div id="togglebutton" data-role="ejmtogglebutton" data-ej-enablePersistence=false></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set togglebutton persistence on initialization. 
 //To set enablePersistence API value 
-&lt;div id="togglebutton" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="togglebutton" ></div>
+<script> 
 $("#togglebutton").ejmToggleButton ({ enablePersistence:false  });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the togglebutton persistence, after initialization:
 // Get the enablePersistence API value.         
  $("#togglebutton").ejmToggleButton ("option", "enablePersistence");                    
 // Set the enablePersistence API
 $("#togglebutton").ejmToggleButton ("option", "enablePersistence", false);  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -387,29 +387,29 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the renderMode property in unobtrusive way.
-&lt;div id="togglebutton" data-role="ejmtogglebutton" data-ej-rendermode="auto"&gt;&lt;/div&gt;
+<div id="togglebutton" data-role="ejmtogglebutton" data-ej-rendermode="auto"></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set togglebutton rendermode on initialization. 
 //To set renderMode API value 
-&lt;div id="togglebutton" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="togglebutton" ></div>
+<script>
 $(function () {
 $("#togglebutton").ejmToggleButton ({ renderMode:ej.mobile.RenderMode.Auto });  
 });
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the togglebutton rendermode, after initialization:
 // Get the renderMode API value.                
  $("#togglebutton").ejmToggleButton ("option", "renderMode");                   
 // Set the renderMode API
 $("#togglebutton").ejmToggleButton ("option", "renderMode", ej.mobile.RenderMode.Auto);    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -454,29 +454,29 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the theme property in unobtrusive way.
-&lt;div id="togglebutton" data-role="ejmtogglebutton" data-ej-theme="auto"&gt;&lt;/div&gt;
+<div id="togglebutton" data-role="ejmtogglebutton" data-ej-theme="auto"></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set togglebutton theme on initialization. 
 //To set theme API value 
-&lt;div id="togglebutton" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="togglebutton" ></div>
+<script>
 $(function () {
 $("#togglebutton").ejmToggleButton ({ theme:ej.mobile.Theme.Auto });    
 });
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the togglebutton theme, after initialization:
 // Get the theme API value.             
 $("#togglebutton").ejmToggleButton ("option", "theme");                 
 // Set the theme API
 $("#togglebutton").ejmToggleButton ("option", "theme", ej.mobile.Theme.Auto);       
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -521,27 +521,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the togglestate property in unobtrusive way.
-&lt;div id="togglebutton" data-role="ejmtogglebutton" data-ej-togglestate=true&gt;&lt;/div&gt;
+<div id="togglebutton" data-role="ejmtogglebutton" data-ej-togglestate=true></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set togglebutton togglestate on initialization. 
 //To set togglestate API value 
-&lt;div id="togglebutton" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="togglebutton" ></div>
+<script>
 $("#togglebutton").ejmToggleButton ({ toggleState:true  });     
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the togglebutton togglestate, after initialization:
 // Get the togglestate API value.               
 $("#togglebutton").ejmToggleButton ("option", "toggleState");                   
 // Set the togglestate API
 $("#togglebutton").ejmToggleButton ("option", "toggleState", true);  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -607,27 +607,27 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the windows mode renderDefault property in unobtrusive way.
-&lt;div id="togglebutton" data-role="ejmtogglebutton" data-ej-rendermode="windows" data-ej-windows-renderDefault=false&gt;&lt;/div&gt;
+<div id="togglebutton" data-role="ejmtogglebutton" data-ej-rendermode="windows" data-ej-windows-renderDefault=false></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="togglebutton" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="togglebutton" ></div>
+<script>
 // To set windows mode renderDefault property API value 
 $(function () {
 $("#togglebutton").ejmToggleButton({ renderMode:ej.mobile.RenderMode.Windows, windows.renderDefault: false});   
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
-<code>&lt;script&gt;
+<code><script>
 // Get or set the windows mode renderDefault API, after initialization:
 // Get the windows mode renderDefault value  
 $("#togglebutton").ejmToggleButton("option", "windows.renderDefault");   
 // Set the windows mode renderDefault value 
 $("#togglebutton").ejmToggleButton("option", "windows.renderDefault", false); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -662,24 +662,24 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="togglebutton" data-role="ejmtogglebutton"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="togglebutton" data-role="ejmtogglebutton"></div>
+<script>
 $(document).ready(function(){
 // Get the instance of toggle button
 var toggle = $("#togglebutton").data("ejmToggleButton");
 toggle.disable(); // Disables the toggle button
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="togglebutton" data-role="ejmtogglebutton"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="togglebutton" data-role="ejmtogglebutton"></div>
+<script>
 $(document).ready(function(){
 // Disable togglebutton
 $("#togglebutton").ejmToggleButton("disable");  
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -707,24 +707,24 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="togglebutton" data-role="ejmtogglebutton" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="togglebutton" data-role="ejmtogglebutton" ></div>
+<script>
 $(document).ready(function(){
 // Get the instance of toggle button
 var toggle = $("#togglebutton").data("ejmToggleButton");
 toggle.enable(); // Enables the toggle button
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="togglebutton" data-role="ejmtogglebutton"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="togglebutton" data-role="ejmtogglebutton"></div>
+<script>
 $(document).ready(function(){
 // Enable togglebutton
 $("#togglebutton").ejmToggleButton("enable");   
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -807,23 +807,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="togglebutton" data-role="ejmtogglebutton" data-ej-change="onChange"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="togglebutton" data-role="ejmtogglebutton" data-ej-change="onChange"></div>
+<script> 
 // Change event for toggleButton 
 function onChange(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //change event for toggleButton
-&lt;div id="togglebutton"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="togglebutton"></div>
+<script>
 $("#togglebutton").ejmToggleButton({
 change: function (args) { //handle the event
 }
 });  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -899,23 +899,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="togglebutton" data-role="ejmtogglebutton" data-ej-touchEnd="onTouchEnd"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="togglebutton" data-role="ejmtogglebutton" data-ej-touchEnd="onTouchEnd"></div>
+<script> 
 // touchEnd event for ToggleButton  
 function onTouchEnd(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //touchEnd event for ToggleButton
-&lt;div id="togglebutton"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="togglebutton"></div>
+<script>
 $("#togglebutton").ejmToggleButton({
 touchEnd: function (args) { //handle the event
 }
 }); 
-&lt;/script&gt;                  </code>
+</script>                  </code>
 </pre>
 
 
@@ -991,23 +991,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="togglebutton" data-role="ejmtogglebutton" data-ej-touchstart="onTouchStart"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="togglebutton" data-role="ejmtogglebutton" data-ej-touchstart="onTouchStart"></div>
+<script> 
 // touchStart event to be triggered
 function onTouchStart(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="togglebutton"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="togglebutton"></div>
+<script> 
 //touchStart event to be triggered
 $("#togglebutton").ejmToggleButton({
 touchStart: function (args) { //handle the event 
 }
 });  
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 

@@ -11,7 +11,7 @@ documentation: ug
 
 Essential Grid for Mobile JavaScript is a feature-rich Grid component that can handle large amount of data. It is very easy to use and includes features like data binding, filtering, paging, and sorting. You can make use of the Mobile Grid control to generate complex grid-based reports. In the following guidelines, you will learn about the features in Mobile Grid widget by creating a Sales data grid.
 
-{ ![5](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![5](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -145,7 +145,7 @@ Refer to the following script section.
 
 Run this code and you can see the following output.
 
-{ ![1](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -193,7 +193,7 @@ Now, you have to enable scroll support in Grid. Scroll is used to view all the c
 
 Run this code and you can see the following output.
 
-{ ![6](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![6](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -252,7 +252,7 @@ Now, enable Paging feature in Grid. This offers complete navigation support to e
 
 Run this code and you can see the following output.
 
-{ ![2](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![2](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -303,17 +303,17 @@ Click the filter icon in column header to make the filtering text box visible. T
 
 
 
-> _Note: The filter query is a combination of value and symbols (“&lt;, &gt;, =, etc). For example, you can provide “&lt;10255” in Order ID column. The numeric columns can be filtered by using the symbols ‘&lt;’, ‘&gt;’, ‘=’, ‘&lt;=’, ‘&gt;=’, ‘!’ and the string columns can be filtered by using the symbols “%” (for startswith and endswith) and “*” (contains). Also , you can use “&&” and “||” operator to provide multiple conditions in single column._
+> _Note: The filter query is a combination of value and symbols (“<, >, =, etc). For example, you can provide “<10255” in Order ID column. The numeric columns can be filtered by using the symbols ‘<’, ‘>’, ‘=’, ‘<=’, ‘>=’, ‘!’ and the string columns can be filtered by using the symbols “%” (for startswith and endswith) and “*” (contains). Also , you can use “&&” and “||” operator to provide multiple conditions in single column._
 
 Run this code and you can see the following output.
 
-{ ![3](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![3](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 
 In the above output, it is clear that order id filter is selected and the order id filter column is filled with the value 10260. 
 
-{ ![4](Getting-Started_images/Getting-Started_img6.png) | markdownify }
+{{ '![4](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
 {:.image }
 
 
@@ -362,7 +362,7 @@ Now, enable Sorting feature in Mobile Grid. Mobile Grid columns are sortable. Yo
 
 Run this code and you can see the following output.
 
-{ ![5](Getting-Started_images/Getting-Started_img7.png) | markdownify }
+{{ '![5](Getting-Started_images/Getting-Started_img7.png)' | markdownify }}
 {:.image }
 
 

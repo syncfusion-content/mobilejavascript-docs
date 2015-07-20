@@ -26,7 +26,7 @@ The data-ej-position attribute is used to customize the Footer Position. You can
 
 The following screenshot displays the output.
 
-{ ![](Footer-Position_images/Footer-Position_img1.png) | markdownify }
+{{ '![](Footer-Position_images/Footer-Position_img1.png)' | markdownify }}
 {:.image }
 
 

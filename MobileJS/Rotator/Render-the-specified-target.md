@@ -83,7 +83,7 @@ The data-ej-targetid attribute is used to define the Id of the target element wh
 
 
 
-{ ![F:/thangavel/dev/source/Trunk/JSDoc/rotator-1.png](Render-the-specified-target_images/Render-the-specified-target_img1.png) | markdownify }
+{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-1.png](Render-the-specified-target_images/Render-the-specified-target_img1.png)' | markdownify }}
 {:.image }
 
 

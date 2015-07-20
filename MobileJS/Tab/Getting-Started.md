@@ -13,7 +13,7 @@ The Essential JavaScript Mobile Tab provides a way to switch views within a web 
 
 
 
-{ ![F:/Trunk/work_area/WDT/gettingstartedformobile/JS/Ios_F1.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![F:/Trunk/work_area/WDT/gettingstartedformobile/JS/Ios_F1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -111,7 +111,7 @@ To add the scroll panel to a particular content, set the “data-role” attribu
 
 
 
-To render the Tab control, set the “data-role” attribute to “ejmtab” to a &lt;div&gt; element and include the list of tab items that is added. Add the “data-ej-text” attribute to set text for each item
+To render the Tab control, set the “data-role” attribute to “ejmtab” to a <div> element and include the list of tab items that is added. Add the “data-ej-text” attribute to set text for each item
 
 {% highlight html %}
 
@@ -237,7 +237,7 @@ Run the code example to render the output as follows.
 
 
 
-{ ![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -369,7 +369,7 @@ To add the images use the following styles.
 
 Run the code to render the following output.
 
-{ ![C:/Users/ApoorvahR/Desktop/3.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/3.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -436,7 +436,7 @@ Create an HTML file with the title updates.html and add the following code sampl
 Run the code example to render the following output. 
 
 
-{ ![C:/Users/ApoorvahR/Desktop/4.png](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/4.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -484,7 +484,7 @@ Run the above code example to render the following output.
 
 
 
-{ ![C:/Users/ApoorvahR/Desktop/5.png](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/5.png](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 
@@ -510,7 +510,7 @@ After running the above script an updated badge renders as shown in the followin
 
 
 
-{ ![C:/Users/ApoorvahR/Desktop/6.png](Getting-Started_images/Getting-Started_img6.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/6.png](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
 {:.image }
 
 

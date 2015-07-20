@@ -157,11 +157,11 @@ Refer the following code examples for script section
 
 The following screenshot illustrates the output of the above code.
 
-{ ![C:/Users/isuriyar/Desktop/ra.png](Customize-buttons_images/Customize-buttons_img1.png) | markdownify }
+{{ '![C:/Users/isuriyar/Desktop/ra.png](Customize-buttons_images/Customize-buttons_img1.png)' | markdownify }}
 {:.image }
 
 
-{ ![raadialmenu](Customize-buttons_images/Customize-buttons_img2.png) | markdownify }
+{{ '![raadialmenu](Customize-buttons_images/Customize-buttons_img2.png)' | markdownify }}
 {:.image }
 
 

@@ -43,7 +43,7 @@ Add the following styles to the content
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abcd1f9.PNG](ImageClass_images/ImageClass_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abcd1f9.PNG](ImageClass_images/ImageClass_img1.png)' | markdownify }}
 {:.image }
 
 

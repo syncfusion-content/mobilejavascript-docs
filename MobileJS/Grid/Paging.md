@@ -58,7 +58,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{ ![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/19.png](Paging_images/Paging_img1.png) | markdownify }
+{{ '![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/19.png](Paging_images/Paging_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -127,7 +127,7 @@ Refer to the lfollowing script section.
 
 Run the above code to render the following output.
 
-{ ![20](Paging_images/Paging_img2.png) | markdownify }
+{{ '![20](Paging_images/Paging_img2.png)' | markdownify }}
 {:.image }
 
 

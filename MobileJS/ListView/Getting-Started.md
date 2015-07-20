@@ -13,7 +13,7 @@ Essential JavaScript Mobile ListView widget builds an interactive list view int
 
 
 
-{ ![C:/Users/isuriyar/Desktop/image122_4.jpg](Getting-Started_images/Getting-Started_img1.jpeg) | markdownify }
+{{ '![C:/Users/isuriyar/Desktop/image122_4.jpg](Getting-Started_images/Getting-Started_img1.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -73,7 +73,7 @@ Create an HTML file and add the following template to the HTML file.
 
 ## Create Grouped List
 
-Here, you can learn how ListView with items are grouped together using the grouplist feature in ListView. To enable this, you can set the “data-ej-enablegrouplist” attribute to “True” and you can also provide individual header titles for each group by setting the “data-ej-grouplisttitle” attribute. The list &lt;li&gt; element with “data-ej-text” attribute is added to render list items. By default the content scrolling is enabled for ListView content.
+Here, you can learn how ListView with items are grouped together using the grouplist feature in ListView. To enable this, you can set the “data-ej-enablegrouplist” attribute to “True” and you can also provide individual header titles for each group by setting the “data-ej-grouplisttitle” attribute. The list <li> element with “data-ej-text” attribute is added to render list items. By default the content scrolling is enabled for ListView content.
 
 
 
@@ -121,7 +121,7 @@ Run the above code and you can see the following output.
 
 
 
-{ ![C:/Users/isuriyar/Desktop/image122_1.jpg](Getting-Started_images/Getting-Started_img2.jpeg) | markdownify }
+{{ '![C:/Users/isuriyar/Desktop/image122_1.jpg](Getting-Started_images/Getting-Started_img2.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -267,7 +267,7 @@ You can define the image classes specified for the list items as follows.
 
 Run the above code and you can see the following output.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -463,7 +463,7 @@ In this example, you can move to the inbox page by tapping the inbox list item t
 
 Run the above code and you can see the following output.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image122_3.jpg](Getting-Started_images/Getting-Started_img4.jpeg) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image122_3.jpg](Getting-Started_images/Getting-Started_img4.jpeg)' | markdownify }}
 {:.image }
 
 

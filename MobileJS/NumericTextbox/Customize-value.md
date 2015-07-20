@@ -27,7 +27,7 @@ The following screenshot displays the output.
 
 
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image20_41.png](Customize-value_images/Customize-value_img1.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_41.png](Customize-value_images/Customize-value_img1.png)' | markdownify }}
 {:.image }
 
 

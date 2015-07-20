@@ -35,47 +35,47 @@ Example
 
 <pre class="prettyprint">
 <code>// Render rotator in unobtrusive way
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent"&gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent"&gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div&gt; 
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div&gt; 
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div&gt; 
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent">       
+</div>
+<div id="rotatorcontent">
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div> 
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div> 
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div> 
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code>//Render rotator on initialization
-&lt;div id="rotator"&gt;        
-&lt;/div&gt;
-&lt;div id="rotatorcontent"&gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div&gt; 
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div&gt; 
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div&gt; 
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator">        
+</div>
+<div id="rotatorcontent">
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div> 
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div> 
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div> 
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 // Create rotator  
 $("#rotator").ejmRotator({ targetId: "rotatorcontent" }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -161,48 +161,48 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the adjustFixedPosition property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-adjustFixedPosition=true &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-adjustFixedPosition=true >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the adjustFixedPosition on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 //To set the adjustFixedPosition API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", adjustFixedPosition: true });                    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -255,48 +255,48 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the cssClass property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-cssclass="customclass" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-cssclass="customclass" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the cssClass on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 //To set the cssClass API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", cssClass: "customclass" });                      
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -349,48 +349,48 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the currentItemIndex property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-currentitemindex=0 &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-currentitemindex=0 >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the currentItemIndex on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 //To set the currentItemIndex API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", currentItemIndex: 0 });                  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -443,48 +443,48 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the dataBinding property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-databinding="false" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-databinding="false" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the dataBinding on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 //To set the dataBinding API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", dataBinding: false });                   
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -537,30 +537,30 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the dataSource property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-datasource="window.imgdata" data-ej-databinding=true &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent"&gt;
-&lt;div &gt;
-&lt;div style="background-image:url({{:imageurl}});height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt; </code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-datasource="window.imgdata" data-ej-databinding=true >
+</div>
+<div id="rotatorcontent">
+<div >
+<div style="background-image:url({{:imageurl}});height:350px;width:630px">
+</div>
+</div>
+</div> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the dataSource on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url{{:imageurl}};height:350px;width:630px" &gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt; 
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url{{:imageurl}};height:350px;width:630px" >
+</div>
+</div>
+</div> 
+<script> 
 //To set the dataSource API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", dataSource: "window.imgdata", dataBinding: true });                      
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -613,48 +613,48 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enablePersistence property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-enablepersistence=true &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-enablepersistence=true >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the enablePersistence on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 //To set the enablePersistence API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", enablePersistence: true });                      
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -707,48 +707,48 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the headerTitle property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-headertitle="Title" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-headertitle="Title" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the headerTitle on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 //To set the headerTitle API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", headerTitle: "Title" });                 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -801,50 +801,50 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the orientation property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-orientation="horizontal" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-orientation="horizontal" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the orientation on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 $(function(){
 //To set the orientation API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", orientation: ej.mobile.Rotator.Orientation.Horizontal  });                       
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -918,50 +918,50 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the pagerPosition horizontal property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-pagerposition-horizontal="bottom" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-pagerposition-horizontal="bottom" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the pagerPosition horizontal on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 $(function(){
 //To set the pagerPosition horizontal API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", pagerPosition: { horizontal: ej.mobile.Rotator.PagerPositionHorizontal.Bottom }});                       
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1014,50 +1014,50 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the pagerPosition vertical property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-orientation="vertical" data-ej-pagerposition-vertical="right" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-orientation="vertical" data-ej-pagerposition-vertical="right" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the pagerPosition vertical on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 $(function(){
 //To set the pagerPosition vertical API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", orientation: "vertical", pagerPosition: { vertical: ej.mobile.Rotator.PagerPositionVertical.Right }});           
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1110,50 +1110,50 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the rendermode property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-rendermode="auto" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-rendermode="auto" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the rendermode on initialization.
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 $(function(){
 //To set the rendermode API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", renderMode: ej.mobile.RenderMode.Auto});                 
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1206,48 +1206,48 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the showHeader property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-showheader=false &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-showheader=false >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the showHeader on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 //To set the showHeader API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", showHeader: false });                    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1300,48 +1300,48 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the showPager property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-showpager=true &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-showpager=true >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the showPager on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 //To set the showPager API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", showPager: true });                      
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1394,48 +1394,48 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the targetHeight property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-targetheight="100px" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-targetheight="100px" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the targetHeight on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 //To set the targetHeight API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", targetHeight: "100px" });                        
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1488,47 +1488,47 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the targetId property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent"&gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent"&gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div&gt;         
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div&gt;         
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div&gt;         
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent">
+</div>
+<div id="rotatorcontent">
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div>         
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div>         
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div>         
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code>// Set the targetId on initialization. 
-&lt;div id="rotator"&gt;        
-&lt;/div&gt;
-&lt;div id="rotatorcontent"&gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div&gt; 
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div&gt; 
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div&gt; 
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator">        
+</div>
+<div id="rotatorcontent">
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div> 
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div> 
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div> 
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 //To set the targetId API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent" });
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1581,48 +1581,48 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the targetWidth property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-targetwidth="auto" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-targetwidth="auto" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the targetWidth on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 //To set the targetWidth API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", targetWidth: "auto" });                  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1675,50 +1675,50 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the theme property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-theme="auto" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-theme="auto" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the theme on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 $(function(){
 //To set the theme API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", theme: ej.mobile.Theme.Light });                 
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1792,49 +1792,49 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the windows mode renderDefault property in unobtrusive way.
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-windows-renderdefault="true" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</code>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-windows-renderdefault="true" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the windows renderDefault on initialization. 
-&lt;div id="rotator" &gt;       
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div id="rotator" >       
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
                 
-&lt;script&gt; 
+<script> 
 //To set the windows renderDefault API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", windows:{ renderDefault: true} });                       
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1877,36 +1877,36 @@ Example
 
 <pre class="prettyprint">
 <code>             
-&lt;div id="rotator" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url{{:imageurl}};height:350px;width:630px" &gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;            
+<div id="rotator" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url{{:imageurl}};height:350px;width:630px" >
+</div>
+</div>
+</div>            
 //To set the dataSource API value
-&lt;script &gt;
+<script >
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", dataBinding: true });
 var rotObj = $("#rotator").data("ejmRotator");
 rotObj.renderDatasource(imgdata); 
-&lt;/script &gt;</code>
+</script ></code>
 </pre>
 <pre class="prettyprint">
 <code>             
-&lt;div id="rotator" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url{{:imageurl}};height:350px;width:630px" &gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;            
+<div id="rotator" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url{{:imageurl}};height:350px;width:630px" >
+</div>
+</div>
+</div>            
 //To set the dataSource API value
-&lt;script &gt;
+<script >
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", dataBinding: true });
 $("#rotator").ejmRotator("renderDatasource", imgdata);
-&lt;/script &gt;</code>
+</script ></code>
 </pre>
 
 
@@ -1978,56 +1978,56 @@ Example
 <pre class="prettyprint">
 <code> 
 //change event for rotator
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-change="onChange" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-change="onChange" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script>
 function onChange(args) { 
 //handle the event 
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //change event for rotator
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" &gt;      
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" >      
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 $("#rotator").ejmRotator({
   change: function (args) { 
 //handle the event 
 }
 });           
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2092,56 +2092,56 @@ Example
 <pre class="prettyprint">
 <code> 
 //pagerSelect event for rotator
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-pagerselect="onUpdate" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-pagerselect="onUpdate" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script>
 function onUpdate(args) { 
 //handle the event 
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //pagerSelect event for rotator
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" &gt;      
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" >      
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 $("#rotator").ejmRotator({
   pagerSelect: function (args) { 
 //handle the event 
 }
 });           
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2206,56 +2206,56 @@ Example
 <pre class="prettyprint">
 <code> 
 //SwipeDown event for rotator
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipedown="swipeDown" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipedown="swipeDown" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script>
 function swipeDown(args) { 
 //handle the event 
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //SwipeDown event for rotator
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" &gt;      
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" >      
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 $("#rotator").ejmRotator({
   swipeDown: function (args) { 
 //handle the event 
 }
 });           
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2320,56 +2320,56 @@ Example
 <pre class="prettyprint">
 <code> 
 //SwipeLeft event for rotator
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipeleft="swipeLeft" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipeleft="swipeLeft" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script>
 function swipeLeft(args) { 
 //handle the event 
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //SwipeLeft event for rotator
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" &gt;      
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" >      
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 $("#rotator").ejmRotator({
   swipeLeft: function (args) { 
 //handle the event 
 }
 });           
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2434,56 +2434,56 @@ Example
 <pre class="prettyprint">
 <code> 
 //SwipeRight event for rotator
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swiperight="swipeRight" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swiperight="swipeRight" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script>
 function swipeRight(args) { 
 //handle the event 
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //SwipeRight event for rotator
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" &gt;      
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" >      
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 $("#rotator").ejmRotator({
   swipeRight: function (args) { 
 //handle the event 
 }
 });           
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2548,56 +2548,56 @@ Example
 <pre class="prettyprint">
 <code> 
 //SwipeUp event for rotator
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipeup="swipeUp" &gt;
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;                
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipeup="swipeUp" >
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >                
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script>
 function swipeUp(args) { 
 //handle the event 
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //SwipeUp event for rotator
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" &gt;      
-&lt;/div&gt;
-&lt;div id="rotatorcontent" &gt;
-&lt;div &gt;
-&lt;div style="background-image:url(nature.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(bird.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(snowfall.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div &gt;        
-&lt;div style="background-image:url(sculpture.jpg);height:350px;width:630px"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt; 
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" >      
+</div>
+<div id="rotatorcontent" >
+<div >
+<div style="background-image:url(nature.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(bird.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(snowfall.jpg);height:350px;width:630px">
+</div>
+</div><div >        
+<div style="background-image:url(sculpture.jpg);height:350px;width:630px">
+</div>
+</div>
+</div>
+<script> 
 $("#rotator").ejmRotator({
   swipeUp: function (args) { 
 //handle the event 
 }
 });           
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 

@@ -53,7 +53,7 @@ ListView has a check list feature that is used to select multiple list items at 
 
 The following screenshot displays Multiselection:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_5.png](Selection_images/Selection_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_5.png](Selection_images/Selection_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -145,7 +145,7 @@ data-ej-persistselection attribute is used to highlight the selected item in the
 
 The following screenshot displays Persist Selection:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_6.png](Selection_images/Selection_img2.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_6.png](Selection_images/Selection_img2.png)' | markdownify }}
 {:.image }
 
 

@@ -25,7 +25,7 @@ To specify the caption (text) for HeaderRight Button, set “data-ej-rightbutton
 
 The following screenshot displays the Right Button Caption:
 
-{ ![](Customize-Header-Right-Button_images/Customize-Header-Right-Button_img1.png) | markdownify }
+{{ '![](Customize-Header-Right-Button_images/Customize-Header-Right-Button_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -54,7 +54,7 @@ The possible values are,
 
 The following screenshot displays the Right Button Style:
 
-{ ![F:/hdr.png](Customize-Header-Right-Button_images/Customize-Header-Right-Button_img2.png) | markdownify }
+{{ '![F:/hdr.png](Customize-Header-Right-Button_images/Customize-Header-Right-Button_img2.png)' | markdownify }}
 {:.image }
 
 

@@ -31,7 +31,7 @@ The data-ej-precision attribute is used to specify how the Rating control can ac
 
 The following screenshot displays the output.                        
 
-{ ![](Customize-Precision_images/Customize-Precision_img1.png) | markdownify }
+{{ '![](Customize-Precision_images/Customize-Precision_img1.png)' | markdownify }}
 {:.image }
 
 

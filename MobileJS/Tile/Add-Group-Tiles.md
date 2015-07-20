@@ -217,15 +217,15 @@ Refer to the following code example for the script section.
 
 The following screenshots illustrates the output of the above code.
 
-{ ![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/ios7changes.png](Add-Group-Tiles_images/Add-Group-Tiles_img1.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/ios7changes.png](Add-Group-Tiles_images/Add-Group-Tiles_img1.png)' | markdownify }}
 {:.image }
 
 
-{ ![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/androidchanges.png](Add-Group-Tiles_images/Add-Group-Tiles_img2.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/androidchanges.png](Add-Group-Tiles_images/Add-Group-Tiles_img2.png)' | markdownify }}
 {:.image }
 
 
-{ ![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/windowschange.png](Add-Group-Tiles_images/Add-Group-Tiles_img3.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/windowschange.png](Add-Group-Tiles_images/Add-Group-Tiles_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -281,7 +281,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-{ ![](Add-Group-Tiles_images/Add-Group-Tiles_img4.png) | markdownify }
+{{ '![](Add-Group-Tiles_images/Add-Group-Tiles_img4.png)' | markdownify }}
 {:.image }
 
 

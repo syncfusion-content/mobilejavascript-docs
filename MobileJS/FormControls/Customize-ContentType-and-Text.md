@@ -37,7 +37,7 @@ You can refer to the following code example.
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](Customize-ContentType-and-Text_images/Customize-ContentType-and-Text_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](Customize-ContentType-and-Text_images/Customize-ContentType-and-Text_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -65,7 +65,7 @@ You can refer to the following code example.
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](Customize-ContentType-and-Text_images/Customize-ContentType-and-Text_img2.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](Customize-ContentType-and-Text_images/Customize-ContentType-and-Text_img2.png)' | markdownify }}
 {:.image }
 
 

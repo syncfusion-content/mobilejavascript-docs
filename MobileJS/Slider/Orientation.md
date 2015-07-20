@@ -30,7 +30,7 @@ The possible values are,
 
 The following screenshot displays the Slider Orientation:
 
-{ ![C:/Users/dineshr/Desktop/orient.png](Orientation_images/Orientation_img1.png) | markdownify }
+{{ '![C:/Users/dineshr/Desktop/orient.png](Orientation_images/Orientation_img1.png)' | markdownify }}
 {:.image }
 
 

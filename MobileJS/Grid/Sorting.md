@@ -67,7 +67,7 @@ Sorting is a basic technique in ejmGrid. It helps you in viewing grid records th
 
 Result of the above code example:
 
-{ ![16](Sorting_images/Sorting_img1.png) | markdownify }
+{{ '![16](Sorting_images/Sorting_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -133,7 +133,7 @@ Refer to the following code example.
 
 Run the above code to render the following output.
 
-{ ![C:/Users/apoorvah.ramanathan/Desktop/1.png](Sorting_images/Sorting_img2.png) | markdownify }
+{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Sorting_images/Sorting_img2.png)' | markdownify }}
 {:.image }
 
 

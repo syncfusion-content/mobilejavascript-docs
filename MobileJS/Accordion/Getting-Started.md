@@ -11,7 +11,7 @@ documentation: ug
 
 Essential JavaScript Accordion provides a way to display collapsible content panels to present information in a limited amount of space. In the following guidelines, you can learn to create a Live Soccer App and through that you can learn about the features in Accordion widget.
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -125,7 +125,7 @@ Create an HTML file and add the following template to the HTML file to create Ac
 
 
 
-To render Accordion control, set ejmaccordion as data-role attribute to &lt;div&gt; element, and include a list of Accordion items, through &lt;li&gt; element, to be added. Add the data-ej-text attribute to set text for each item.
+To render Accordion control, set ejmaccordion as data-role attribute to <div> element, and include a list of Accordion items, through <li> element, to be added. Add the data-ej-text attribute to set text for each item.
 
 {% highlight html %}
 
@@ -175,7 +175,7 @@ To render Accordion control, set ejmaccordion as data-role attribute to &lt;div&
 
 Run this code example and you can see the following output.
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -229,7 +229,7 @@ The data-ej-selecteditems attribute is used to expand the specific content secti
 
 Run this code example and you can see the following output.
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -287,7 +287,7 @@ By default, header icons are not visible. To make the icons visible, set data-ej
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -529,7 +529,7 @@ Use the following styles for content style.
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 
@@ -737,7 +737,7 @@ Create an HTML file with the name load.html and assign its URL to data-ej-ajaxur
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img6.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
 {:.image }
 
 

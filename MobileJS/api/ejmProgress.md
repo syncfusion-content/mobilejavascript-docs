@@ -35,15 +35,15 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" ></div>
+<script> 
 // Create progressbar  
 $("#progress").ejmProgress(); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress" data-role="ejmprogress" &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" ></div>
 </code>
 </pre>
 
@@ -127,19 +127,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableCustomText property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-enablecustomtext=false &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-enablecustomtext=false ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set enable custom text on initialization. 
 //To set enable custom text API value 
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" ></div>
+<script> 
 // Create progressbar  
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ enableCustomText: false });                       
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -192,19 +192,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enabled property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-enabled=true &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-enabled=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set enabled on initialization. 
 //To set enabled API value 
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" ></div>
+<script> 
 // Create progressbar  
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ enabled: false});
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -257,19 +257,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enablePersistence property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-enablepersistence=false &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-enablepersistence=false ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set progressbar enablePersistence on initialization. 
 //To set enablePersistence API value 
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" ></div>
+<script> 
 // Create progressbar  
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ enablePersistence: false });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -322,18 +322,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the height property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-height=10 &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-height=10 ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set height on initialization. 
 //To set height API value
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt;   
+<div id="progress" ></div>
+<script>   
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ height: 10 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -386,17 +386,17 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the incrementStep property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-incrementstep=2 &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-incrementstep=2 ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set incrementStep on initialization. 
 //To set incrementStep API value 
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt;             
+<div id="progress" ></div>
+<script>             
 $("#progress").ejmProgress ({ incrementStep: 2 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -449,18 +449,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the maxValue property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-maxvalue=90 &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-maxvalue=90 ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set maxValue on initialization. 
 //To set maximum API value 
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt;  
+<div id="progress" ></div>
+<script>  
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ maxValue: 90 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -513,18 +513,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the minValue property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-minvalue=10 &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-minvalue=10 ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set minValue on initialization. 
 //To set minimum API value
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt;  
+<div id="progress" ></div>
+<script>  
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ minValue: 10 });
-&lt;/script&gt;                         </code>
+</script>                         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -576,20 +576,20 @@ Example
 
 <pre class="prettyprint">
 <code>//Set the orientation property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-orientation="horizontal" &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-orientation="horizontal" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set orientation on initialization. 
 //To set orientation API value 
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" ></div>
+<script> 
 $(function(){
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ orientation: ej.mobile.Progress.Orientation.Horizontal });
 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -642,18 +642,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the percentage property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-percentage=35 &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-percentage=35 ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set percentage on initialization. 
 //To set percentage API value
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt;   
+<div id="progress" ></div>
+<script>   
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ percentage: 35 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -706,27 +706,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the renderMode property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-rendermode="auto" &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-rendermode="auto" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set renderMode on initialization. 
 //To set renderMode API value 
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" ></div>
+<script> 
 $(function(){
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ renderMode: ej.mobile.RenderMode.Auto });
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //Get or set the renderMode, after initialization:
 // Get the renderMode API value.        
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" ></div>
+<script> 
  $("#progress").ejmProgress ("option", "renderMode");                   
 // Set the renderMode API
 $("#progress").ejmProgress ("option", "renderMode", ej.mobile.RenderMode.Auto);            </code>
@@ -774,19 +774,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the text property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-enablecustomtext=true data-ej-text="in-progress" &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-enablecustomtext=true data-ej-text="in-progress" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set text on initialization. 
 //To set text API value 
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" ></div>
+<script> 
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ enableCustomText: true });
 $("#progress").ejmProgress ({ text: "in-progress" });                   
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -839,21 +839,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the theme property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-theme="auto" &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-theme="auto" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set progressbar theme on initialization. 
 //To set theme API value 
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" ></div>
+<script> 
 // Create progressbar 
 $(function(){
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ theme: ej.mobile.Theme.Auto });
 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -906,18 +906,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the value property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-value=35 &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-value=35 ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set value on initialization. 
 //To set value API value 
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt;   
+<div id="progress" ></div>
+<script>   
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ value: 35 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -970,18 +970,18 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the width property in unobtrusive way.
-&lt;div id="progress" data-role="ejmprogress" data-ej-width=350 &gt;&lt;/div&gt;
+<div id="progress" data-role="ejmprogress" data-ej-width=350 ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set width on initialization. 
 //To set width API value 
-&lt;div id="progress" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" ></div>
+<script> 
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ width: 350 });    
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -1024,20 +1024,20 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="progress"></div>
+<script>
 // Create progressbar
 var progress = $("#progress").data("ejmProgress");
 progress.getPercentage(); // returns the progressbar current percent value
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="progress"></div>
+<script>
 // Get the current percent value
 $("#progress").ejmProgress("getPercentage");    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1065,20 +1065,20 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="progress"></div>
+<script>
 // Create progressbar
 var progress = $("#progress").data("ejmProgress");
 progress.getValue(); // returns the progressbar current value
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="progress"></div>
+<script>
 // Get the current value
 $("#progress").ejmProgress("getValue"); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1106,20 +1106,20 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="progress"></div>
+<script>
 // Create progressbar
 var progress = $("#progress").data("ejmProgress");
 progress.setCustomText("Downloading.."); // Set the progressbar custom text
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="progress"></div>
+<script>
 // Set the custom text
 $("#progress").ejmProgress("setCustomText", "Downloading..");   
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1207,23 +1207,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress" data-role="ejmprogress" data-ej-change="onChange"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" data-role="ejmprogress" data-ej-change="onChange"></div>
+<script> 
 // change event   
 function onChange(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //change event 
-&lt;div id="progress"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress"></div>
+<script> 
 $("#progress").ejmProgress({
   change: function (args) { //handle the event 
 }
 });  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1304,23 +1304,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress" data-role="ejmprogress" data-ej-complete="onComplete"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" data-role="ejmprogress" data-ej-complete="onComplete"></div>
+<script> 
 // complete event 
 function onComplete(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress"></div>
+<script> 
 //complete event 
 $("#progress").ejmProgress({
   complete: function (args) { //handle the event
 }
 }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1401,23 +1401,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress" data-role="ejmprogress" data-ej-create="onCreate"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" data-role="ejmprogress" data-ej-create="onCreate"></div>
+<script> 
 // Create event   
 function onCreate(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //create event 
-&lt;div id="progress"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress"></div>
+<script> 
 $("#progress").ejmProgress({
   create: function (args) { //handle the event 
 }
 }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1498,23 +1498,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="progress" data-role="ejmprogress" data-ej-start="onStart"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress" data-role="ejmprogress" data-ej-start="onStart"></div>
+<script> 
 // start event 
 function onStart(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //start event 
-&lt;div id="progress"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="progress"></div>
+<script> 
 $("#progress").ejmProgress({
   start: function (args) { //handle the event 
 }
 });  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 

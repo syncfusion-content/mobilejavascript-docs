@@ -12,7 +12,7 @@ documentation: ug
 Essential Toggle button is used in JS Mobile Widget functions, to switch On/Off functions such as Bluetooth, Airplane Mode, and WiFi. 
 
 
-{ ![C:/Users/durga/Pictures/image1.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/durga/Pictures/image1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -97,9 +97,9 @@ Create an HTML file and add the following template to the HTML file.
 
 ## Add Toggle Button
 
-To add a Toggle button, set data-role attribute to ejmtogglebutton for a &lt;div&gt; element. Initially, Mobile Toggle button control is rendered with the default values of all properties and you can customize Mobile Toggle button control by changing its properties according to your requirement.  
+To add a Toggle button, set data-role attribute to ejmtogglebutton for a <div> element. Initially, Mobile Toggle button control is rendered with the default values of all properties and you can customize Mobile Toggle button control by changing its properties according to your requirement.  
 
-Add the following code example to the &lt;div&gt; element.
+Add the following code example to the <div> element.
 
 {% highlight html %}
 
@@ -116,7 +116,7 @@ Run the code and get the following output.
 
 
 
-{ ![C:/Users/durga/Pictures/image1.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/durga/Pictures/image1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -124,7 +124,7 @@ Run the code and get the following output.
 
 You can customize the initial Toggle button rendering state by data-ej-togglestate attribute that accepts a Boolean value as input. In this scenario, set the value to “False”.
 
-Add the following code to the toggle &lt;div&gt;.
+Add the following code to the toggle <div>.
 
 
 
@@ -142,7 +142,7 @@ Run this code to get the following output.
 
 
 
-{ ![C:/Users/durga/Pictures/image2.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![C:/Users/durga/Pictures/image2.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -150,7 +150,7 @@ Run this code to get the following output.
 
 In this scenario, when the Toggle button state is changed, a Dialog appears saying “Wi-Fi state is enabled,” or, “disabled”. This is achieved by data-ej-change event. Whenever the Toggle button’s state is changed, the change event is raised. This event can be handled by appropriate functions.
 
-Add the code example to the Toggle &lt;div&gt;.
+Add the code example to the Toggle <div>.
 
 {% highlight html %}
 
@@ -162,7 +162,7 @@ Add the code example to the Toggle &lt;div&gt;.
 
 {% endhighlight %}
 
-Add the following script code to the &lt;body&gt; tag to show the Dialog when you change the Toggle state.
+Add the following script code to the <body> tag to show the Dialog when you change the Toggle state.
 
 
 
@@ -204,11 +204,11 @@ Add the following script code to the &lt;body&gt; tag to show the Dialog when yo
 
 Run this code to get the following output. 
 
-{ ![C:/Users/durga/Pictures/image3.png](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![C:/Users/durga/Pictures/image3.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
-{ ![](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 

@@ -63,7 +63,7 @@ Add the following script.
 
 The following screenshot displays the ImageField:
 
-{ ![](Image-customization_images/Image-customization_img1.png) | markdownify }
+{{ '![](Image-customization_images/Image-customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -161,7 +161,7 @@ Add the following style.
 
 The following screenshot displays ImageClass:
 
-{ ![C:/Users/apoorvah.ramanathan/Desktop/1.png](Image-customization_images/Image-customization_img2.png) | markdownify }
+{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Image-customization_images/Image-customization_img2.png)' | markdownify }}
 {:.image }
 
 

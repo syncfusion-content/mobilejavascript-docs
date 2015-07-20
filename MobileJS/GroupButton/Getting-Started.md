@@ -11,7 +11,7 @@ documentation: ug
 
 The Essential JavaScript Group Button helps to display multiple buttons that is stacked together in a single line and looks like a navigation component. The following sections help you to create Group Button widget using a Mail App.
 
-{ ![C:/Users/labuser/Desktop/a.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/labuser/Desktop/a.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -73,7 +73,7 @@ Create an HTML file and add the following template to the HTML file for Group Bu
 
 Create Group Button
 
-To create Group Button control you can set data-role attribute to ejmgroupbutton to a &lt;div&gt; element and you can include multiple buttons through input element. Also, specify the type and name attribute in the &lt;input&gt; element. Refer to the following code.
+To create Group Button control you can set data-role attribute to ejmgroupbutton to a <div> element and you can include multiple buttons through input element. Also, specify the type and name attribute in the <input> element. Refer to the following code.
 
 {% highlight html %}
 
@@ -231,7 +231,7 @@ Use the following styles for content.
 
 Execute this code to render the following output. 
 
-{ ![C:/Users/labuser/Desktop/a.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/labuser/Desktop/a.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -431,15 +431,15 @@ Execute this code to render the following output.
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
-{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
-{ ![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 

@@ -51,8 +51,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div  id="mobilegrid" ></div>
+<script> 
 // Create Grid
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));   
@@ -62,7 +62,7 @@ $("#mobilegrid").ejmGrid({ dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -171,8 +171,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ allowFiltering: false,dataSource:data,columns: [
@@ -181,7 +181,7 @@ $("#mobilegrid").ejmGrid ({ allowFiltering: false,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-&lt;/script&gt;                                </code>
+</script>                                </code>
 </pre>
 
 
@@ -225,8 +225,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;  
+<div  id="mobilegrid" ></div>
+<script>  
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));                   
 $("#mobilegrid").ejmGrid ({ allowPaging: true,dataSource:data,columns: [
@@ -235,7 +235,7 @@ $("#mobilegrid").ejmGrid ({ allowPaging: true,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });                
-&lt;/script&gt;                                         </code>
+</script>                                         </code>
 </pre>
 
 
@@ -279,8 +279,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ allowScrolling: false,dataSource:data,columns: [
@@ -289,7 +289,7 @@ $("#mobilegrid").ejmGrid ({ allowScrolling: false,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-&lt;/script&gt;            </code>
+</script>            </code>
 </pre>
 
 
@@ -333,8 +333,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ allowSelection: false,dataSource:data,columns: [
@@ -343,7 +343,7 @@ $("#mobilegrid").ejmGrid ({ allowSelection: false,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-&lt;/script&gt;                                 </code>
+</script>                                 </code>
 </pre>
 
 
@@ -371,8 +371,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ allowSorting: false,dataSource:data,columns: [
@@ -381,7 +381,7 @@ $("#mobilegrid").ejmGrid ({ allowSorting: false,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });
-&lt;/script&gt;                                </code>
+</script>                                </code>
 </pre>
 
 
@@ -425,8 +425,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ caption: "caption", showCaption: true,dataSource:data,columns: [
@@ -435,7 +435,7 @@ $("#mobilegrid").ejmGrid ({ caption: "caption", showCaption: true,dataSource:dat
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-&lt;/script&gt;                             </code>
+</script>                             </code>
 </pre>
 
 
@@ -478,8 +478,8 @@ Example
 {:.example}
 
 <pre class="prettyprint">
-<code>&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<code><div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejGrid({ dataSource:data,columns: [
@@ -488,7 +488,7 @@ $("#mobilegrid").ejGrid({ dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });                   
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -532,8 +532,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div  id="mobilegrid" ></div>
+<script> 
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ cssClass: "Customclass",dataSource:data,columns: [
@@ -542,7 +542,7 @@ $("#mobilegrid").ejmGrid ({ cssClass: "Customclass",dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-&lt;/script&gt;                                       </code>
+</script>                                       </code>
 </pre>
 
 
@@ -586,8 +586,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ dataSource:data,columns: [
@@ -596,7 +596,7 @@ $("#mobilegrid").ejmGrid ({ dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-&lt;/script&gt;                                 </code>
+</script>                                 </code>
 </pre>
 
 
@@ -640,8 +640,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ enablePersistence: false,dataSource:data,columns: [
@@ -650,7 +650,7 @@ $("#mobilegrid").ejmGrid ({ enablePersistence: false,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-&lt;/script&gt;                     </code>
+</script>                     </code>
 </pre>
 
 
@@ -715,8 +715,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -727,7 +727,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });           
-&lt;/script&gt;                                        </code>
+</script>                                        </code>
 </pre>
 
 
@@ -771,8 +771,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -783,7 +783,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });  
                  });            
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -827,8 +827,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -839,7 +839,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });  
                  });            
-&lt;/script&gt;                                        </code>
+</script>                                        </code>
 </pre>
 
 
@@ -904,8 +904,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -916,7 +916,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });               
-&lt;/script&gt;                                 </code>
+</script>                                 </code>
 </pre>
 
 
@@ -960,8 +960,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -972,7 +972,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });              
-&lt;/script&gt;                                        </code>
+</script>                                        </code>
 </pre>
 
 
@@ -1016,8 +1016,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -1028,7 +1028,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });               
-&lt;/script&gt;                                 </code>
+</script>                                 </code>
 </pre>
 
 
@@ -1072,8 +1072,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 $("#mobilegrid").ejmGrid({
     dataSource:  window.gridData,
@@ -1082,7 +1082,7 @@ $("#mobilegrid").ejmGrid({
 });
 var value = $("#mobilegrid").ejmGrid("option", "pageSettings.totalRecordsCount");
 $("#print").text("TotalRecordsCount: " + value);             
-&lt;/script&gt;                                        </code>
+</script>                                        </code>
 </pre>
 
 
@@ -1126,8 +1126,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -1138,7 +1138,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });              
-&lt;/script&gt;                                         </code>
+</script>                                         </code>
 </pre>
 
 
@@ -1182,8 +1182,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ renderMode: ej.mobile.RenderMode.Auto,dataSource:data,columns: [
@@ -1192,7 +1192,7 @@ $("#mobilegrid").ejmGrid ({ renderMode: ej.mobile.RenderMode.Auto,dataSource:dat
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -1257,8 +1257,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -1269,7 +1269,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });             
-&lt;/script&gt;                                  </code>
+</script>                                  </code>
 </pre>
 
 
@@ -1313,8 +1313,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div  id="mobilegrid" ></div>
+<script> 
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -1325,7 +1325,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });               
-&lt;/script&gt;                                </code>
+</script>                                </code>
 </pre>
 
 
@@ -1369,8 +1369,8 @@ Example
 
 <pre class="prettyprint">
 <code>  
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -1381,7 +1381,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });  
                  });               
-&lt;/script&gt;                                          </code>
+</script>                                          </code>
 </pre>
 
 
@@ -1425,8 +1425,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -1437,7 +1437,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });  
                  });             
-&lt;/script&gt;                                 </code>
+</script>                                 </code>
 </pre>
 
 
@@ -1481,8 +1481,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -1493,7 +1493,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });  
                  });               
-&lt;/script&gt;                                         </code>
+</script>                                         </code>
 </pre>
 
 
@@ -1537,8 +1537,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 // Set grid selectedRowIndex on initialization. 
 //To set selectedRowIndex API value 
 $(document).ready(function(){
@@ -1549,7 +1549,7 @@ $("#mobilegrid").ejmGrid ({ selectedRowIndex: 1,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-&lt;/script&gt;                                       </code>
+</script>                                       </code>
 </pre>
 
 
@@ -1614,8 +1614,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -1626,7 +1626,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });   
                  });              
-&lt;/script&gt;                                          </code>
+</script>                                          </code>
 </pre>
 
 
@@ -1670,8 +1670,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ 
@@ -1682,7 +1682,7 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });  
                  });             
-&lt;/script&gt;                                          </code>
+</script>                                          </code>
 </pre>
 
 
@@ -1726,8 +1726,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ theme: ej.mobile.Theme.Auto,dataSource:data,columns: [
@@ -1736,7 +1736,7 @@ $("#mobilegrid").ejmGrid ({ theme: ej.mobile.Theme.Auto,dataSource:data,columns:
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-&lt;/script&gt;                               </code>
+</script>                               </code>
 </pre>
 
 
@@ -1780,8 +1780,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 // Set grid transition on initialization. 
 //To set transition API value 
 $(document).ready(function(){
@@ -1792,7 +1792,7 @@ $("#mobilegrid").ejmGrid ({ transition: "slide",dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });
-&lt;/script&gt;                              </code>
+</script>                              </code>
 </pre>
 
 
@@ -1827,20 +1827,20 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt; 
-&lt;script&gt;
+<div id="mobilegrid"></div> 
+<script>
 // Create grid object.
 var gridObj = $("#mobilegrid").data("ejGrid");
 gridObj.getColumnByField("OrderID"); // Get the column details based on the given field name
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt; 
-&lt;script&gt;
+<div id="mobilegrid"></div> 
+<script>
 // Get the column details based on the given field name
 $("#mobilegrid").ejGrid("getColumnByField", "OrderID");        
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1868,20 +1868,20 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;  
-&lt;script&gt;
+<div  id="mobilegrid" ></div>  
+<script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.getColumnByHeaderText("Order ID"); // Get column by header text
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;  
-&lt;script&gt;
+<div  id="mobilegrid" ></div>  
+<script>
 // Get column by header text
 $("#mobilegrid").ejmGrid("getColumnByHeaderText", "Order ID");  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1909,20 +1909,20 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;        
-&lt;script&gt;
+<div  id="mobilegrid" ></div>        
+<script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.getColumnByIndex(1); // Get column by index
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;  
-&lt;script&gt;
+<div  id="mobilegrid" ></div>  
+<script>
 // Get column by index
 $("#mobilegrid").ejmGrid("getColumnByIndex",1); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1950,20 +1950,20 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt; 
-&lt;script&gt;
+<div id="mobilegrid"></div> 
+<script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.getColumnFieldNames(); // Get column field names
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt; 
-&lt;script&gt;
+<div id="mobilegrid"></div> 
+<script>
 // Get column field names
 $("#mobilegrid").ejmGrid("getColumnFieldNames");        
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1991,20 +1991,20 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="mobilegrid"></div>
+<script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.getColumnIndexByField("OrderID"); // Get column index by field
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="mobilegrid"></div>
+<script>
 // Get column index by field
 $("#mobilegrid").ejmGrid("getColumnIndexByField","OrderID");    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2032,20 +2032,20 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="mobilegrid"></div>
+<script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.getColumnMemberByIndex(1); // Get column member by index
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="mobilegrid"></div>
+<script>
 // Get column member by index
 $("#mobilegrid").ejmGrid("getColumnMemberByIndex",1);   
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2073,20 +2073,20 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt; 
-&lt;script&gt;
+<div id="mobilegrid"></div> 
+<script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.hideColumns("Order ID"); // Hides column based on the given header text of the column
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt; 
-&lt;script&gt;
+<div id="mobilegrid"></div> 
+<script>
 // Hides column based on the given header text of the column
 $("#mobilegrid").ejmGrid("hideColumns","Order ID"); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2130,19 +2130,19 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="mobilegrid"></div>
+<script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.refreshContent(); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="mobilegrid"></div>
+<script>
 $("#mobilegrid").ejmGrid("refreshContent");     
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2170,20 +2170,20 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt; 
-&lt;script&gt;
+<div id="mobilegrid"></div> 
+<script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.scrollRefresh(); // To Refresh grid scrollpanel
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt; 
-&lt;script&gt;
+<div id="mobilegrid"></div> 
+<script>
 // To Refresh grid scrollpanel
 $("#mobilegrid").ejmGrid("scrollRefresh"); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2211,20 +2211,20 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="mobilegrid"></div>
+<script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.showColumns("Order ID"); // Shows column based on the given header text of the column
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="mobilegrid"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="mobilegrid"></div>
+<script>
 // Shows column based on the given header text of the column
 $("#mobilegrid").ejmGrid("showColumns","Order ID");     
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -2312,8 +2312,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 //actionBegin event for grid
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
@@ -2324,7 +2324,7 @@ $("#mobilegrid").ejmGrid({ actionBegin:"actionBegin",dataSource:data,columns: [
                  ] });
                  });            
 function actionBegin(args) { //handle the event }                       
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -2405,8 +2405,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 //actionComplete event for grid
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
@@ -2417,7 +2417,7 @@ $("#mobilegrid").ejmGrid({ actionComplete:"actionComplete",dataSource:data,colum
                  ] });
                  });
 function actionComplete(args) { //handle the event }            
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -2498,8 +2498,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid({ actionFailure:"actionFailure",dataSource:data,columns: [
@@ -2509,7 +2509,7 @@ $("#mobilegrid").ejmGrid({ actionFailure:"actionFailure",dataSource:data,columns
                  ] }); 
                  });
 function actionFailure(args) { //handle the event }            
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -2590,8 +2590,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 //actionSuccess event for grid
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
@@ -2602,7 +2602,7 @@ $("#mobilegrid").ejmGrid({ actionSuccess:"actionSuccess",dataSource:data,columns
                  ] });
                  });
 function actionSuccess(args) { //handle the event }          
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -2683,8 +2683,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid({ load:"load",dataSource:data,columns: [
@@ -2694,7 +2694,7 @@ $("#mobilegrid").ejmGrid({ load:"load",dataSource:data,columns: [
                  ] }); 
                  });
 function load(args) { //handle the event }            
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -2775,8 +2775,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 //modelChange event for grid
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
@@ -2787,7 +2787,7 @@ $("#mobilegrid").ejmGrid({ modelChange:"modelChange",dataSource:data,columns: [
                  ] }); 
                  }); 
 function modelChange(args) { //handle the event }            
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -2873,8 +2873,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 //queryCellInfo event for grid
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
@@ -2885,7 +2885,7 @@ $("#mobilegrid").ejmGrid({ queryCellInfo:"queryCellInfo",dataSource:data,columns
                  ] }); 
                  });
 function queryCellInfo(args) { //handle the event }   
-&lt;/script&gt;                         </code>
+</script>                         </code>
 </pre>
 
 
@@ -2966,8 +2966,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 //rowDataBound event for grid
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
@@ -2978,7 +2978,7 @@ $("#mobilegrid").ejmGrid({ rowDataBound:"rowDataBound",dataSource:data,columns: 
                  ] });
                  }); 
 function rowDataBound(args) { //handle the event }              
-&lt;/script&gt;                         </code>
+</script>                         </code>
 </pre>
 
 
@@ -3074,8 +3074,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div  id="mobilegrid" ></div>
+<script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid({ rowSelected:"rowSelected",dataSource:data,columns: [
@@ -3085,7 +3085,7 @@ $("#mobilegrid").ejmGrid({ rowSelected:"rowSelected",dataSource:data,columns: [
                  ] });
                  });                     
 function rowSelected(args) { //handle the event }
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 
 
@@ -3181,8 +3181,8 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div  id="mobilegrid" &gt;&lt;/div&gt;
-&lt;script&gt;       
+<div  id="mobilegrid" ></div>
+<script>       
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));                   
 $("#mobilegrid").ejmGrid ({ dataSource:data,columns: [
@@ -3192,7 +3192,7 @@ $("#mobilegrid").ejmGrid ({ dataSource:data,columns: [
                  ],rowSelecting:"rowSelecting" });
                  });    
 function rowSelecting(args) { //handle the event }      
-&lt;/script&gt;                         </code>
+</script>                         </code>
 </pre>
 
 

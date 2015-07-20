@@ -102,7 +102,7 @@ Refer the following code examples for script section
 
 The following screenshot illustrates the output of the above code.
 
-{ ![](Dimensions_images/Dimensions_img1.png) | markdownify }
+{{ '![](Dimensions_images/Dimensions_img1.png)' | markdownify }}
 {:.image }
 
 

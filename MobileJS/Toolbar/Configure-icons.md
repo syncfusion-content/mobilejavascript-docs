@@ -62,7 +62,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image124_8.png](Configure-icons_images/Configure-icons_img1.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image124_8.png](Configure-icons_images/Configure-icons_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -96,7 +96,7 @@ You can set the user defined icons using data-ej-iconurl attribute. This propert
 
 The following screenshot illustrates the output of the above code.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image124_9.png](Configure-icons_images/Configure-icons_img2.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image124_9.png](Configure-icons_images/Configure-icons_img2.png)' | markdownify }}
 {:.image }
 
 

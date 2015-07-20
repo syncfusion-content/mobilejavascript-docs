@@ -96,13 +96,13 @@ The following screenshot illustrates the output for iOS7 and Windows.
 
 iOS7
 
-{ ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img1.png) | markdownify }
+{{ '![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 
 Windows
 
-{ ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img2.png) | markdownify }
+{{ '![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -160,13 +160,13 @@ Refer to the script section and page content section to load the right pane cont
 
 iOS7
 
-{ ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img3.png) | markdownify }
+{{ '![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img3.png)' | markdownify }}
 {:.image }
 
 
 Windows
 
-{ ![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML636b64a.PNG](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img4.png) | markdownify }
+{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML636b64a.PNG](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img4.png)' | markdownify }}
 {:.image }
 
 

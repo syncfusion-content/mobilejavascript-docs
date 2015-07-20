@@ -11,7 +11,7 @@ documentation: ug
 
 
 
-{ ![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -108,7 +108,7 @@ Refer to the following code example.
 
 Run the above code to render the following output. To know more details, refer to this [section](http://help.syncfusion.com/ug/js/default.htm)
 
-{ ![C:/Users/durga/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/durga/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -224,7 +224,7 @@ Add the following style to set the background image for the page.
 
 Run the above code to render the following output. To know more details, refer to this [section](http://help.syncfusion.com/ug/js/default.htm)
 
-{ ![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 

@@ -50,7 +50,7 @@ The possible values are,
 
 The following screenshot displays the Windows-specific Type:
 
-{ ![Type-Windows](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png) | markdownify }
+{{ '![Type-Windows](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

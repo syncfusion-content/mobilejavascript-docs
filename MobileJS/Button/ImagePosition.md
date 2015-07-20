@@ -29,7 +29,7 @@ You can refer to the following code example.
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abf8235.PNG](ImagePosition_images/ImagePosition_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abf8235.PNG](ImagePosition_images/ImagePosition_img1.png)' | markdownify }}
 {:.image }
 
 

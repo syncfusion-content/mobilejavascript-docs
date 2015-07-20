@@ -72,7 +72,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{ ![](Mode_images/Mode_img1.png) | markdownify }
+{{ '![](Mode_images/Mode_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -134,7 +134,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{ ![](Mode_images/Mode_img2.png) | markdownify }
+{{ '![](Mode_images/Mode_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -198,7 +198,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{ ![](Mode_images/Mode_img3.png) | markdownify }
+{{ '![](Mode_images/Mode_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -262,7 +262,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{ ![](Mode_images/Mode_img4.png) | markdownify }
+{{ '![](Mode_images/Mode_img4.png)' | markdownify }}
 {:.image }
 
 

@@ -69,7 +69,7 @@ The following screenshot displays the customized content height.
 
 
 
-{ ![C:/Users/isuriyar/Desktop/acc scr/heht.png](Customize-content-height_images/Customize-content-height_img1.png) | markdownify }
+{{ '![C:/Users/isuriyar/Desktop/acc scr/heht.png](Customize-content-height_images/Customize-content-height_img1.png)' | markdownify }}
 {:.image }
 
 

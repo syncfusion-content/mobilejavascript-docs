@@ -17,7 +17,7 @@ The API values can be accessed/retrieved by using either of the following ways.
 
 
 
-1. $(“jquery-selector”).&lt;ejm-plugin-name&gt;(“model.propertyName”);
+1. $(“jquery-selector”).<ejm-plugin-name>(“model.propertyName”);
 
 Example:  $("#myDate").ejmDatePicker("model.dateFormat");
 
@@ -25,7 +25,7 @@ Example:  $("#myDate").ejmDatePicker("model.dateFormat");
 
 
 
-2. $(“jquery-selector”).&lt;ejm-plugin-name&gt;(“option”, “propertyName”);
+2. $(“jquery-selector”).<ejm-plugin-name>(“option”, “propertyName”);
 
 Example:  $("#myDate").ejmDatePicker("option", "dateFormat");
 

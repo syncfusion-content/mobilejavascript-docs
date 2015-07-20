@@ -13,7 +13,7 @@ The Essential JavaScript Mobile Progress Bar is a simple interface to indicate t
 
 
 
-{ ![1](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -107,7 +107,7 @@ Run the above code to render the following output.
 
 
 
-{ ![2](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![2](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -169,7 +169,7 @@ Run this code and you will see the below output while clicking install button.
 
 
 
-{ ![3](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![3](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -199,7 +199,7 @@ Run this code and you will see the below output.
 
 
 
-{ ![1](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -287,7 +287,7 @@ Run this code and you will see the following output after clicking the install b
 
 
 
-{ ![4](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![4](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 

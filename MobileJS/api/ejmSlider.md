@@ -35,15 +35,15 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="slider" ></div>
+<script> 
 // Create slider  
 $("#slider").ejmSlider(); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" data-role="ejmslider" &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" ></div>
 </code>
 </pre>
 
@@ -127,27 +127,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the animationSpeed property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-animationSpeed=100 &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-animationSpeed=100 ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set slider animationSpeed on initialization. 
 //To set animationSpeed API value 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $("#slider").ejmSlider ({ animationSpeed: 400 });               
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider animationSpeed, after initialization:
 // Get the animationSpeed API value.            
  $("#slider").ejmSlider ("option", "animationSpeed");                   
 // Set the animationSpeed API
 $("#slider").ejmSlider ("option", "animationSpeed", 400);  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -192,27 +192,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableanimation property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-enableanimation=true &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-enableanimation=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set slider enableanimation on initialization. 
 //To set enableAnimation API value 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $("#slider").ejmSlider ({ enableAnimation: false });    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider enableAnimation, after initialization:
 // Get the enableAnimation API value.           
  $("#slider").ejmSlider ("option", "enableAnimation");                  
 // Set the enableAnimation API
 $("#slider").ejmSlider ("option", "enableAnimation", false);  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -257,27 +257,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enabled property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-enabled=true &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-enabled=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set slider enabled on initialization. 
 //To set enabled API value 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $("#slider").ejmSlider ({ enabled: false });    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider enabled, after initialization:
 // Get the enabled API value.           
  $("#slider").ejmSlider ("option", "enabled");                  
 // Set the enabled API
 $("#slider").ejmSlider ("option", "enabled", true); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -322,27 +322,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enablePersistence property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-enablePersistence=false &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-enablePersistence=false ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set slider enablePersistence on initialization. 
 //To set persist API value 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $("#slider").ejmSlider ({ enablePersistence: false });  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider enablePersistence, after initialization:
 // Get the enablePersistence API value.         
  $("#slider").ejmSlider ("option", "enablePersistence");                        
 // Set the enablePersistence API
 $("#slider").ejmSlider ("option", "enablePersistence", false);  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -387,27 +387,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enableRange property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-enablerange=false &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-enablerange=false ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 // Set slider enableRange on initialization. 
 //To set enableRange API value 
 $("#slider").ejmSlider ({ enableRange: false });        
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider enableRange, after initialization:
 // Get the enableRange API value.               
  $("#slider").ejmSlider ("option", "enableRange");                      
 // Set the enableRange API
 $("#slider").ejmSlider ("option", "enableRange", false);
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -452,27 +452,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the incrementStep property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-incrementstep=1 &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-incrementstep=1 ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 // Set slider incrementStep on initialization. 
 //To set incrementStep API value 
 $("#slider").ejmSlider ({ incrementStep: 1 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider incrementStep, after initialization:
 // Get the incrementStep API value.             
  $("#slider").ejmSlider ("option", "incrementStep");                    
 // Set the incrementStep API
 $("#slider").ejmSlider ("option", "incrementStep", 1);      
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -538,26 +538,26 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the ios7 mode thumbStyle property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-rendermode="ios7" data-ej-ios7-thumbstyle="normal" &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-rendermode="ios7" data-ej-ios7-thumbstyle="normal" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // To set ios7 mode thumbStyle property API value 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $("#slider").ejmSlider({renderMode:"ios7", ios7:{thumbStyle: ej.mobile.Slider.ThumbStyle.Small}});   
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt; 
+<script> 
 // Get or set the ios7 mode thumbStyle API, after initialization:
 // Get the ios7 mode thumb style value  
 $("#slider").ejmSlider("option", "ios7.thumbStyle");   
 // Set the ios7 mode thumbStyle value 
 $("#slider").ejmSlider("option", "ios7.thumbStyle", ej.mobile.Slider.ThumbStyle.Normal); 
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -602,27 +602,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the maxValue property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-maxValue=100 &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-maxValue=100 ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set slider maxValue on initialization. 
 //To set maxValue API value 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $("#slider").ejmSlider ({ maxValue: 100 });     
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider maxValue, after initialization:
 // Get the maxValue API value.          
  $("#slider").ejmSlider ("option", "maxValue");                 
 // Set the maxValue API
 $("#slider").ejmSlider ("option", "maxValue", 100);    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -667,27 +667,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the minValue property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-minValue=0 &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-minValue=0 ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set slider minValue on initialization. 
 //To set minValue API value 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $("#slider").ejmSlider ({ minValue: 0 });       
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider minValue, after initialization:
 // Get the minValue API value.          
  $("#slider").ejmSlider ("option", "minValue");                 
 // Set the minValue API
 $("#slider").ejmSlider ("option", "minValue", 0);     
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -732,27 +732,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the orientation property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-orientation="horizontal" &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-orientation="horizontal" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set slider orientation on initialization. 
 //To set orientation API value 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $("#slider").ejmSlider ({ orientation: ej.mobile.Slider.Orientation.Vertical });                        
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider orientation, after initialization:
 // Get the orientation API value.               
  $("#slider").ejmSlider ("option", "orientation");                      
 // Set the orientation API
 $("#slider").ejmSlider ("option", "orientation", ej.mobile.Slider.Orientation.Horizontal);  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -797,27 +797,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the readOnly property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-readOnly=true &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-readOnly=true ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set slider readOnly on initialization. 
 //To set readOnly API value 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $("#slider").ejmSlider ({ readOnly: false });           
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider readOnly, after initialization:
 // Get the readOnly API value.          
  $("#slider").ejmSlider ("option", "readOnly");                 
 // Set the readOnly API
 $("#slider").ejmSlider ("option", "readOnly", false);    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -862,28 +862,28 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the renderMode property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-rendermode="auto" &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-rendermode="auto" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set slider rendermode on initialization. 
 //To set renderMode API value 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $(function(){
 $("#slider").ejmSlider ({ renderMode: ej.mobile.RenderMode.Android });  
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
-<code>&lt;script&gt; 
+<code><script> 
 //Get or set the slider rendermode, after initialization:
 // Get the renderMode API value.                
  $("#slider").ejmSlider ("option", "renderMode");                       
 // Set the renderMode API
 $("#slider").ejmSlider ("option", "renderMode", ej.mobile.RenderMode.Android);      
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -928,29 +928,29 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the theme property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-theme="auto" &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-theme="auto" ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set slider theme on initialization. 
 //To set theme API value 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $(function(){
 $("#slider").ejmSlider ({ theme: ej.mobile.Theme.Dark });               
 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider theme, after initialization:
 // Get the theme API value.             
  $("#slider").ejmSlider ("option", "theme");                    
 // Set the theme API
 $("#slider").ejmSlider ("option", "theme", ej.mobile.Theme.Dark);        
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -995,27 +995,27 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the value property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-value=0 &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-value=0 ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set slider value on initialization. 
 //To set value API value 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $("#slider").ejmSlider ({ value: 50 }); 
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider value, after initialization:
 // Get the value API value.             
  $("#slider").ejmSlider ("option", "value");                    
 // Set the value API
 $("#slider").ejmSlider ("option", "value", 0);         
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1060,29 +1060,29 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the values property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-enablerange=true data-ej-values=[20,80] &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-enablerange=true data-ej-values=[20,80] ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set slider values on initialization. 
 //To set values API value
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 $(function(){
 $("#slider").ejmSlider ({ enableRange: true,  values: [20,80] });
 });
-&lt;/script&gt;                 </code>
+</script>                 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt;
+<script>
 //Get or set the slider values, after initialization:
 // Get the values API value.            
  $("#slider").ejmSlider ("option", "values");                   
 // Set the values API
 $("#slider").ejmSlider ("option", "values", [20,80]);  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1148,26 +1148,26 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the windows mode renderDefault property in unobtrusive way.
-&lt;div id="slider" data-role="ejmslider" data-ej-rendermode="windows" data-ej-windows-renderDefault=false &gt;&lt;/div&gt;
+<div id="slider" data-role="ejmslider" data-ej-rendermode="windows" data-ej-windows-renderDefault=false ></div>
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 // To set windows mode renderDefault property API value 
 $("#slider").ejmSlider({ renderMode:"windows", windows:{renderDefault: false}});   
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;script&gt; 
+<script> 
 // Get or set the windows mode renderDefault API, after initialization:
 // Get the windows mode renderDefault value  
 $("#slider").ejmSlider("option", "windows.renderDefault");   
 // Set the windows mode renderDefault value 
 $("#slider").ejmSlider("option", "windows.renderDefault", false); 
-&lt;/script&gt; </code>
+</script> </code>
 </pre>
 
 
@@ -1202,25 +1202,25 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" data-role="ejmslider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" data-role="ejmslider" ></div>
+<script>
 // Create slider
 $(function(){
 var slider = $("#slider").data("ejmSlider");
 slider.getValue(); // returns the slider's current value
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider"&gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider"></div>
+<script>
 // get the slider's current value
 $("#slider").ejmSlider();       
 $(function(){
 $("#slider").ejmSlider("getValue");     
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1303,23 +1303,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" data-role="ejmslider" data-ej-change="onChange"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="slider" data-role="ejmslider" data-ej-change="onChange"></div>
+<script> 
 // Change event for slider  
 function onChange(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 //change event for slider
 $("#slider").ejmSlider({
   change: function (args) { //handle the event 
 }
 });        
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1400,23 +1400,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" data-role="ejmslider" data-ej-load="onLoad" &gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="slider" data-role="ejmslider" data-ej-load="onLoad" ></div>
+<script> 
 // Load event for slider  
 function onLoad(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 //Load event for slider
 $("#slider").ejmSlider({
   load: function (args) { //handle the event 
 }
 });    
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1497,23 +1497,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" data-role="ejmslider" data-ej-slide="onslide"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="slider" data-role="ejmslider" data-ej-slide="onslide"></div>
+<script> 
 // slide event for slider  
 function onslide(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 //Slide event for slider
 $("#slider").ejmSlider({
   slide: function (args) { //handle the event 
 }
 });   
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1589,23 +1589,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" data-role="ejmslider" data-ej-touchEnd="onStop"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="slider" data-role="ejmslider" data-ej-touchEnd="onStop"></div>
+<script> 
 // touchEnd event for slider  
 function onStop(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 //touchEnd event for slider
 $("#slider").ejmSlider({
   touchEnd: function (args) { //handle the event 
 }
 });           
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -1681,23 +1681,23 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" data-role="ejmslider" data-ej-touchStart="onStart"&gt;&lt;/div&gt;
-&lt;script&gt; 
+<div id="slider" data-role="ejmslider" data-ej-touchStart="onStart"></div>
+<script> 
 // touchStart event for slider  
 function onStart(args){ //handle the event
 }
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;div id="slider" &gt;&lt;/div&gt;
-&lt;script&gt;
+<div id="slider" ></div>
+<script>
 //touchStart event for slider
 $("#slider").ejmSlider({
   touchStart: function (args) { //handle the event 
 }
 });  
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 

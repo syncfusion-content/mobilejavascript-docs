@@ -23,7 +23,7 @@ In certain cases, you can disable the Button in your application depending on so
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](Enabled_images/Enabled_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](Enabled_images/Enabled_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -65,7 +65,7 @@ The following screenshot displays the collapse content:
 
 
 
-{ ![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8593e48f.PNG](Collapse-content_images/Collapse-content_img1.png) | markdownify }
+{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8593e48f.PNG](Collapse-content_images/Collapse-content_img1.png)' | markdownify }}
 {:.image }
 
 

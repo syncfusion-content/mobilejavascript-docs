@@ -23,7 +23,7 @@ data-ej-animate attribute specifies the transition effect for state change. When
 
 The following screenshot displays the Animate Toggle Button:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ToggleButton/images/ios7_4.png](Animate_images/Animate_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ToggleButton/images/ios7_4.png](Animate_images/Animate_img1.png)' | markdownify }}
 {:.image }
 
 

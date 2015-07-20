@@ -21,7 +21,7 @@ To specify the Header Title, set the data-ej-title attribute. By default, the at
 
 The following screenshot displays the Title.
 
-{ ![](Header-Title_images/Header-Title_img1.png) | markdownify }
+{{ '![](Header-Title_images/Header-Title_img1.png)' | markdownify }}
 {:.image }
 
 

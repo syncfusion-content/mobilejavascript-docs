@@ -37,7 +37,7 @@ The “data-ej-enablezoom” is a boolean attribute that lets you specify whethe
 
 The following screenshot displays zooming:
 
-{ ![](Zooming_images/Zooming_img1.png) | markdownify }
+{{ '![](Zooming_images/Zooming_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -129,7 +129,7 @@ The following screenshot displays the startZoom:
 
 
 
-{ ![](Zooming_images/Zooming_img2.png) | markdownify }
+{{ '![](Zooming_images/Zooming_img2.png)' | markdownify }}
 {:.image }
 
 

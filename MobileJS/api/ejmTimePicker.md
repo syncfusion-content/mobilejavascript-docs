@@ -35,12 +35,12 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="timepicker" data-role="none" /&gt;
-&lt;script&gt;  
+<input id="timepicker" data-role="none" />
+<script>  
 $(function(){
 $("#timepicker").ejmTimePicker(); 
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 
 
@@ -141,19 +141,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the cssClass property in Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-cssclass="customclass" /&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-cssclass="customclass" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the cssClass on initialization. 
 //To set cssClass API value 
-&lt;input id="timepicker" data-role="none" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="none" />
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ cssClass: "customclass" });    
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -206,19 +206,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enabled property in Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-enabled=true /&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-enabled=true />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the enabled on initialization. 
 //To set enabled API value 
-&lt;input id="timepicker" data-role="none" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="none" />
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ enabled: true });      
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -271,19 +271,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the enablePersistence property in Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-enablepersistence=true /&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-enablepersistence=true />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the enablePersistence on initialization. 
 //To set enablePersistence API value 
-&lt;input id="timepicker" data-role="none" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="none" />
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ enablePersistence: true });    
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -336,19 +336,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the hourFormat property in Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-hourformat="twentyfour" /&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-hourformat="twentyfour" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the hourFormat on initialization. 
 //To set hourFormat API value 
-&lt;input id="timepicker" data-role="none" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="none" />
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ hourFormat: "twentyfour" });                   
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -422,18 +422,18 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the ios7 mode renderDefault property in Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-rendermode="ios7" data-ej-ios7-renderdefault="false" /&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-rendermode="ios7" data-ej-ios7-renderdefault="false" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // To set ios7 mode renderDefault property API value 
-&lt;input id="timepicker" /&gt;
-&lt;script&gt;
+<input id="timepicker" />
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ renderMode: "ios7", ios7: { renderDefault: false } });          
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -486,19 +486,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the renderMode property in Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-rendermode="auto" /&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-rendermode="auto" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the renderMode on initialization. 
 //To set renderMode API value 
-&lt;input id="timepicker" data-role="none" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="none" />
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ renderMode: "auto" });                 
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -551,19 +551,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the theme property in Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-theme="auto" /&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-theme="auto" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the theme on initialization. 
 //To set theme API value 
-&lt;input id="timepicker" data-role="none" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="none" />
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ theme: "auto" });                      
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -616,19 +616,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the timeFormat property in Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-hourformat="twelve" data-ej-timeformat="hh:mm tt" /&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-hourformat="twelve" data-ej-timeformat="hh:mm tt" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the timeFormat on initialization. 
 //To set timeFormat API value 
-&lt;input id="timepicker" data-role="none" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="none" />
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ hourFormat: "twelve", timeFormat: "hh:mm tt" });                       
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -681,19 +681,19 @@ Example
 <pre class="prettyprint">
 <code> 
 //Set the value property in Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-value="02:20 PM" /&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-value="02:20 PM" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // Set the value on initialization. 
 //To set value API value 
-&lt;input id="timepicker" data-role="none" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="none" />
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ value: "02:20 PM" });
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -767,18 +767,18 @@ Example
 <pre class="prettyprint">
 <code> 
 // Set the windows mode renderDefault property in Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-rendermode="windows" data-ej-windows-renderdefault="false" /&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-rendermode="windows" data-ej-windows-renderdefault="false" />
 </code>
 </pre>
 <pre class="prettyprint">
 <code> 
 // To set windows mode renderDefault property API value 
-&lt;input id="timepicker" /&gt;
-&lt;script&gt;
+<input id="timepicker" />
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ renderMode: "windows", windows: { renderDefault: false } });            
 });
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
@@ -821,14 +821,14 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="timepicker" data-role="ejmtimepicker"/&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker"/>
+<script>
 // Create TimePicker instance
 $(function(){
 var tpObj = $("#timepicker").data("ejmTimePicker");
 tpObj.disable(); 
 });
-&lt;/script&gt;                </code>
+</script>                </code>
 </pre>
 
 
@@ -856,14 +856,14 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="timepicker" data-role="ejmtimepicker"/&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker"/>
+<script>
 $(function(){
 // Create TimePicker instance
 var tpObj = $("#timepicker").data("ejmTimePicker");
 tpObj.enable(); 
 });
-&lt;/script&gt;        </code>
+</script>        </code>
 </pre>
 
 
@@ -891,14 +891,14 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="timepicker" data-role="ejmtimepicker"/&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker"/>
+<script>
 $(function(){
 // Create TimePicker instance
 var dpObj = $("#timepicker").data("ejmTimePicker");
 dpObj.getValue();
 });
-&lt;/script&gt;         </code>
+</script>         </code>
 </pre>
 
 
@@ -926,14 +926,14 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="timepicker" data-role="ejmtimepicker"/&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker"/>
+<script>
 // Create TimePicker instance
 $(function(){
 var tpObj = $("#timepicker").data("ejmTimePicker");
 tpObj.hide(); 
 });
-&lt;/script&gt;        </code>
+</script>        </code>
 </pre>
 
 
@@ -961,14 +961,14 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="timepicker" data-role="ejmtimepicker"/&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker"/>
+<script>
 $(function(){
 // Create TimePicker instance
 var dpObj = $("#timepicker").data("ejmTimePicker");
 dpObj.setCurrentTime("05:20");
 });
-&lt;/script&gt;        </code>
+</script>        </code>
 </pre>
 
 
@@ -996,14 +996,14 @@ Example
 
 <pre class="prettyprint">
 <code> 
-&lt;input id="timepicker" data-role="ejmtimepicker"/&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker"/>
+<script>
 // Create TimePicker instance
 $(function(){
 var tpObj = $("#timepicker").data("ejmTimePicker");
 tpObj.show(); 
 });
-&lt;/script&gt;        </code>
+</script>        </code>
 </pre>
 
 
@@ -1087,21 +1087,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the change event using Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-change="Change" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-change="Change" />
+<script>
 function Change(args) {}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="timepicker" data-role="none" /&gt;
+<input id="timepicker" data-role="none" />
 //select change for TimePicker
-&lt;script&gt;
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ change:"Change" });
 });
 function Change(args) {}                       
-&lt;/script&gt;                  </code>
+</script>                  </code>
 </pre>
 
 
@@ -1178,21 +1178,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the close event using Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-close="Close" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-close="Close" />
+<script>
 function Close(args) {}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="timepicker" data-role="none" /&gt;
+<input id="timepicker" data-role="none" />
 //select close for TimePicker
-&lt;script&gt;
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ close:"Close" });
 });
 function Close(args) {}                       
-&lt;/script&gt;                  </code>
+</script>                  </code>
 </pre>
 
 
@@ -1269,21 +1269,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the focusin event using Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-focusin="Focusin" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-focusin="Focusin" />
+<script>
 function Focusin(args) {}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="timepicker" data-role="none" /&gt;
+<input id="timepicker" data-role="none" />
 //select focusIn for TimePicker
-&lt;script&gt;
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ focusin:"Focusin" });
 });
 function Focusin(args) {}                       
-&lt;/script&gt;                  </code>
+</script>                  </code>
 </pre>
 
 
@@ -1360,21 +1360,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the focusout event using Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-focusout="Focusout" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-focusout="Focusout" />
+<script>
 function Focusout(args) {}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="timepicker" data-role="none" /&gt;
+<input id="timepicker" data-role="none" />
 //select focusOut for TimePicker
-&lt;script&gt;
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ focusout:"Focusout" });
 });
 function focusout(args) {}                       
-&lt;/script&gt;                  </code>
+</script>                  </code>
 </pre>
 
 
@@ -1451,22 +1451,22 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the select event using Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-load="Load" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-load="Load" />
+<script>
 function Load(args) {}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //load event for TimePicker            
-&lt;input id="timepicker" data-role="none" /&gt;
+<input id="timepicker" data-role="none" />
             
-&lt;script&gt;
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ load:"Load" });
 });
 function Load(args) {}                       
-&lt;/script&gt;           </code>
+</script>           </code>
 </pre>
 
 
@@ -1543,21 +1543,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the open event using Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-open="Open" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-open="Open" />
+<script>
 function Open(args) {}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
-&lt;input id="timepicker" data-role="none" /&gt;
+<input id="timepicker" data-role="none" />
 //select open for TimePicker
-&lt;script&gt;
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ open:"Open" });
 });
 function Open(args) {}                       
-&lt;/script&gt;                  </code>
+</script>                  </code>
 </pre>
 
 
@@ -1634,21 +1634,21 @@ Example
 <pre class="prettyprint">
 <code> 
 //Bind the select event using Unobtrusive way.
-&lt;input id="timepicker" data-role="ejmtimepicker" data-ej-select="Select" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="ejmtimepicker" data-ej-select="Select" />
+<script>
 function Select(args) {}
-&lt;/script&gt;</code>
+</script></code>
 </pre>
 <pre class="prettyprint">
 <code> 
 //select event for TimePicker
-&lt;input id="timepicker" data-role="none" /&gt;
-&lt;script&gt;
+<input id="timepicker" data-role="none" />
+<script>
 $(function(){
 $("#timepicker").ejmTimePicker({ select:"Select" });
 });
 function Select(args) {}                       
-&lt;/script&gt;            </code>
+</script>            </code>
 </pre>
 
 

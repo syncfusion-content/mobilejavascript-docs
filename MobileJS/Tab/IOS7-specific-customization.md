@@ -175,7 +175,7 @@ To add the images, use the following styles.
 
 The following screenshot displays imageClass:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/sources/Screen shots/tab2.png](IOS7-specific-customization_images/IOS7-specific-customization_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/sources/Screen shots/tab2.png](IOS7-specific-customization_images/IOS7-specific-customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -305,7 +305,7 @@ The “data-ej-ios7-overflowbadge-value” attribute is used to set the badge va
 
 The following screenshot displays the Overflow Badge:
 
-{ ![F:/thangavel/dev/source/Trunk/JSDoc/rotator-5.png](IOS7-specific-customization_images/IOS7-specific-customization_img2.png) | markdownify }
+{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-5.png](IOS7-specific-customization_images/IOS7-specific-customization_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -427,7 +427,7 @@ The “data-ej-ios7-overflowbadge-maxvalue” attribute is used to set the maxim
 
 The following screenshot displays the maxValue:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/images/ios7_10.png](IOS7-specific-customization_images/IOS7-specific-customization_img3.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/images/ios7_10.png](IOS7-specific-customization_images/IOS7-specific-customization_img3.png)' | markdownify }}
 {:.image }
 
 

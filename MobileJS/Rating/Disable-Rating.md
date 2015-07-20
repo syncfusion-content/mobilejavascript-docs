@@ -27,7 +27,7 @@ The data-ej-readonly attribute is used to disable the interaction in the Rating 
 
 The following screenshot displays the output:                        
 
-{ ![](Disable-Rating_images/Disable-Rating_img1.png) | markdownify }
+{{ '![](Disable-Rating_images/Disable-Rating_img1.png)' | markdownify }}
 {:.image }
 
 

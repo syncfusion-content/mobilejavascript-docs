@@ -97,7 +97,7 @@ The Group Button is rendered via button and input tag elements. Group Button ren
 
 The following screenshot displays the Group Button.
 
-{ ![](Type_images/Type_img1.png) | markdownify }
+{{ '![](Type_images/Type_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -25,7 +25,7 @@ The data-ej-showspinbutton attribute is used to specify whether the Spin Button 
 
 The following screenshot displays the output.
 
-{ ![C:/Users/apoorvah.ramanathan/Desktop/1.png](Spin-buttons_images/Spin-buttons_img1.png) | markdownify }
+{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Spin-buttons_images/Spin-buttons_img1.png)' | markdownify }}
 {:.image }
 
 

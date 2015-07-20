@@ -61,7 +61,7 @@ The data-ej-disableditems attribute is used to disable one or more specified ite
 
 The following screenshot displays disabling items:
 
-{ ![](Disabling-the-items_images/Disabling-the-items_img1.png) | markdownify }
+{{ '![](Disabling-the-items_images/Disabling-the-items_img1.png)' | markdownify }}
 {:.image }
 
 

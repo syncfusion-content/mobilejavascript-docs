@@ -34,7 +34,7 @@ The possible values are,
 
 The following screenshot displays the Slider iOS7:
 
-{ ![C:/Users/dineshr/Desktop/thumb.png](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png) | markdownify }
+{{ '![C:/Users/dineshr/Desktop/thumb.png](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

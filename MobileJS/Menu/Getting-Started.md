@@ -11,7 +11,7 @@ documentation: ug
 
 The Essential JavaScript Mobile Menu provides an interface to easily navigate hierarchical data.  In the following example, you can learn to create a Gallery app and learn about the features in the Menu widget.
 
-{ ![1](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -19,7 +19,7 @@ The Essential JavaScript Mobile Menu provides an interface to easily navigate hi
 
 ## Create the required layout for Gallery app
 
-Essential JS Mobile Menu widget can be rendered from a hierarchy of &lt;ul&gt; and &lt;li&gt; and can perform unique actions based on the properties given for each &lt;li&gt; item. You can easily customize the Menu control by changing its properties. In the following code example, the gallery app menu is used to show multiple sharing options to share images.
+Essential JS Mobile Menu widget can be rendered from a hierarchy of <ul> and <li> and can perform unique actions based on the properties given for each <li> item. You can easily customize the Menu control by changing its properties. In the following code example, the gallery app menu is used to show multiple sharing options to share images.
 
 Create an HTML file and paste the following template to the HTML file for Menu creation.
 
@@ -105,7 +105,7 @@ Use the following styles for content.
 
 
 
-Add the following code example to the &lt;body&gt; tag to display the gallery image and dialog control.
+Add the following code example to the <body> tag to display the gallery image and dialog control.
 
 {% highlight html %}
 
@@ -133,7 +133,7 @@ Run the code and following screenshot is displayed.
 
 
 
-{ ![2](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![2](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -141,7 +141,7 @@ Run the code and following screenshot is displayed.
 
 ## Create the Menu control
 
-To render the menu control, set data-role attribute as ejmmenu to a &lt;div&gt; element. Menu can be displayed with or without a title. In this example, a title is not required, so set data-ej-ios7-showtitle attribute to false. By using the data-ej-text attribute, you can set text for menu items. Refer to the following code example.
+To render the menu control, set data-role attribute as ejmmenu to a <div> element. Menu can be displayed with or without a title. In this example, a title is not required, so set data-ej-ios7-showtitle attribute to false. By using the data-ej-text attribute, you can set text for menu items. Refer to the following code example.
 
 {% highlight html %}
 
@@ -199,7 +199,7 @@ Refer to the following code example. 
 
 Run this code and the following output is displayed. 
 
-{ ![1](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -292,7 +292,7 @@ Add the following code example.
 
 Run the code and the following output is displayed. 
 
-{ ![3](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![3](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 

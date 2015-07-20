@@ -15,20 +15,20 @@ The users with Essential Studio Enterprise license or Essential Studio for JavaS
 
 * Login into the online CSG [link](http://csg.syncfusion.com/) with your DirectTrac credentials. Switch to the Mobile tab and the Custom Script Generator Utility options will be displayed as follows,
 
-{ ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img1.png) | markdownify }
+{{ '![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img1.png)' | markdownify }}
 {:.image }
 
 
 * Select the required version from the Version list and also select the output file type either to be generated as a minified or non-minified version.
 * Once the selections are done, now click on the Generate button and provide a name to the file to be generated as follows,
 
-{ ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img2.png) | markdownify }
+{{ '![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img2.png)' | markdownify }}
 {:.image }
 
 
 * Once the Generate button is clicked, the combining process of selected scripts is executed and once the process is done, the Download button is available that allows you to download the requested files combined.
 
-{ ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img3.png) | markdownify }
+{{ '![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -44,7 +44,7 @@ You can save the frequently used controls to generate custom Script and CSS file
 
 * Select the required list of controls, version, output file-type either minified or non-minified versions and click on the Save Settings button. Now, provide a name to the file and click on Save button.
 
-{ ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img4.png) | markdownify }
+{{ '![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -54,13 +54,13 @@ Use the following steps to perform custom Script and CSS file generation by usin
 
 * Navigate to the Settings Page through the Settings option as follows.
 
-{ ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img5.png) | markdownify }
+{{ '![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img5.png)' | markdownify }}
 {:.image }
 
 
 * Click on the Proceed icon to request for the Custom script and css file generation for the required controls.
 
-{ ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img6.png) | markdownify }
+{{ '![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img6.png)' | markdownify }}
 {:.image }
 
 
@@ -70,7 +70,7 @@ You can also modify or delete the existing controls by using the edit or delete 
 
 * To edit the settings, click on the edit icon. Now, perform the required changes in the control selection page that appears, and again click on the Save Settings button to update the modified one.
 
-{ ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img7.png) | markdownify }
+{{ '![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img7.png)' | markdownify }}
 {:.image }
 
 
