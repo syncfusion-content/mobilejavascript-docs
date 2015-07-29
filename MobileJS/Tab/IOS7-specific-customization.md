@@ -7,11 +7,11 @@ control: Tab (Mobile)
 documentation: ug
 ---
 
-## IOS7 specific customization
+# IOS7 specific customization
 
 You can set IOS7 specific properties to the control by accessing IOS7 property.
 
-### ImageClass
+## ImageClass
 
 The “data-ej-ios7-imageclass” attribute is used to add images to the Tab by specifying the data-ej-ios7-imageclass for individual items in the Tab.
 
@@ -175,19 +175,19 @@ To add the images, use the following styles.
 
 The following screenshot displays imageClass:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/sources/Screen shots/tab2.png](IOS7-specific-customization_images/IOS7-specific-customization_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/sources/Screen shots/tab2.png](IOS7-specific-customization_images/IOS7-specific-customization_img1.png)
 
 
-### OverflowBadge
+
+## OverflowBadge
 
 In the iOS, when the number of Tab items do not fit the available screen width, it adds a “more” Tab that contains the list of overflowed Tab items as its content. overflowBadge specifies badge representation for overflowed Tab items (number of updates available in all overflowed Tab items). Set the badge specific properties by means of accessing this property for overflowing Tab items.
 
-#### Enabled
+### Enabled
 
 The “data-ej-ios7-overflowbadge-enabled” attribute is used to enable or disable the badge to your overflow Tab item. Default value is set to false.
 
-#### Value
+### Value
 
 The “data-ej-ios7-overflowbadge-value” attribute is used to set the badge value for the overflow Tab item. Default value is set to 0.
 
@@ -305,11 +305,10 @@ The “data-ej-ios7-overflowbadge-value” attribute is used to set the badge va
 
 The following screenshot displays the Overflow Badge:
 
-{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-5.png](IOS7-specific-customization_images/IOS7-specific-customization_img2.png)' | markdownify }}
-{:.image }
+ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-5.png](IOS7-specific-customization_images/IOS7-specific-customization_img2.png)
 
 
-#### MaxValue
+### MaxValue
 
 The “data-ej-ios7-overflowbadge-maxvalue” attribute is used to set the maximum badge value to the overflow Tab item. Default value is set to 100.
 
@@ -427,7 +426,6 @@ The “data-ej-ios7-overflowbadge-maxvalue” attribute is used to set the maxim
 
 The following screenshot displays the maxValue:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/images/ios7_10.png](IOS7-specific-customization_images/IOS7-specific-customization_img3.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/images/ios7_10.png](IOS7-specific-customization_images/IOS7-specific-customization_img3.png)
 
 

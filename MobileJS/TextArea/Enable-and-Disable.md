@@ -7,7 +7,7 @@ control: TextArea (Mobile)
 documentation: ug
 ---
 
-## Enable and Disable
+# Enable and Disable
 
 Enabled property enables or disables TextArea control. The default value is true.
 
@@ -21,7 +21,6 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-{{ '![](Enable-and-Disable_images/Enable-and-Disable_img1.png)' | markdownify }}
-{:.image }
+![](Enable-and-Disable_images/Enable-and-Disable_img1.png)
 
 

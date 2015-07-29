@@ -7,11 +7,11 @@ control: Tab (Mobile)
 documentation: ug
 ---
 
-## Windows specific customization
+# Windows specific customization
 
 Set the Windows specific properties to the control by accessing this property.
 
-### EnableCustomText
+## EnableCustomText
 
 In the Windows phone, by default the Tab title's text is in the lower case irrespective of whatever case is used for the title. To disable this behavior, set the “data-ej-windows-enablecustomtext” attribute to true. Default value is set to false.
 
@@ -83,11 +83,10 @@ In the Windows phone, by default the Tab title's text is in the lower case irres
 
 The following screenshot displays window specific customization: 
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab6.png](Windows-specific-customization_images/Windows-specific-customization_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab6.png](Windows-specific-customization_images/Windows-specific-customization_img1.png)
 
 
-### Position
+## Position
 
 The “data-ej-windows-position” attribute holds fixed and normal values. Normal position allows relative position of the element to the appview and fixed position allows fixed position of the element. Default position is set to fixed.
 
@@ -159,7 +158,7 @@ The “data-ej-windows-position” attribute holds fixed and normal values. Norm
 
 The following screenshot displays the Window Specific Customization Position.
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab7.png](Windows-specific-customization_images/Windows-specific-customization_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab7.png](Windows-specific-customization_images/Windows-specific-customization_img2.png)
+
 
 
