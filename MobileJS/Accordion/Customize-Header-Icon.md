@@ -7,13 +7,11 @@ control: Accordion (Mobile)
 documentation: ug
 ---
 
-## Customize Header Icon
+# Customize Header Icon
 
 The “data-ej-showheadericon” attribute is used to display the default icon for the Accordion header. 
 
 {% highlight html %}
-
-
 
 <div id="accordion_sample" data-role="ejmaccordion" data-ej-showheadericon="true">
 
@@ -53,19 +51,8 @@ The “data-ej-showheadericon” attribute is used to display the default icon f
 
 </div> 
 
-
-
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays header icon.
 
-{{ '![](Customize-Header-Icon_images/Customize-Header-Icon_img1.png)' | markdownify }}
-{:.image }
-
-
-
-
+![](Customize-Header-Icon_images/Customize-Header-Icon_img1.png)

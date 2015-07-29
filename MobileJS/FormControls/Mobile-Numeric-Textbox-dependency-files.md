@@ -15,9 +15,9 @@ _Script Files_
 
 <table>
 <tr>
-<td>
-Files</td><td>
-Description/Usage</td></tr>
+<th>
+Files</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>
@@ -47,5 +47,3 @@ It is referred for touch events support.</td></tr>
 ej.mobile.editor.min.js</td><td>
 It is used to handle the textbox control and while rendering the textbox control.</td></tr>
 </table>
-
-

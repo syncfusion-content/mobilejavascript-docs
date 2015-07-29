@@ -79,17 +79,8 @@ The data-ej-text attribute lets you set labels for the RadioButton. To set the t
 
     </div>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays customized labels.
 
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML201e992b.PNG](Customize-Label_images/Customize-Label_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML201e992b.PNG](Customize-Label_images/Customize-Label_img1.png)

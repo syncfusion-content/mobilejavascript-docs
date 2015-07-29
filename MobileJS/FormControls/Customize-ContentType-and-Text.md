@@ -23,23 +23,13 @@ You can refer to the following code example.
 
 {% highlight html %}
 
-
-
   <!--specify the button content-type-->               
 
  <input id="sample_button" type="button" data-role="ejmbutton" data-ej-text="button" data-ej-contenttype="text" />
 
-
-
-
-
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](Customize-ContentType-and-Text_images/Customize-ContentType-and-Text_img1.png)' | markdownify }}
-{:.image }
-
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](Customize-ContentType-and-Text_images/Customize-ContentType-and-Text_img1.png)
 
 ## Text
 
@@ -49,23 +39,10 @@ You can refer to the following code example.
 
 {% highlight html %}
 
-
-
 <!-- Set the button text-->
-
-
 
 <input id="sample_button" data-role="ejmbutton" data-ej-text="button" />
 
-
-
-
-
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](Customize-ContentType-and-Text_images/Customize-ContentType-and-Text_img2.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](Customize-ContentType-and-Text_images/Customize-ContentType-and-Text_img2.png)

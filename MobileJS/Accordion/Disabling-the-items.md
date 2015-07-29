@@ -7,13 +7,11 @@ control: Accordion (Mobile)
 documentation: ug
 ---
 
-## Disabling the items
+# Disabling the items
 
 The data-ej-disableditems attribute is used to disable one or more specified items by using its index that can be given as an array.
 
 {% highlight html %}
-
-
 
 <div id="accordion_sample" data-role="ejmaccordion" data-ej-disableditems="[1]">
 
@@ -53,15 +51,8 @@ The data-ej-disableditems attribute is used to disable one or more specified ite
 
 </div>
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays disabling items:
 
-{{ '![](Disabling-the-items_images/Disabling-the-items_img1.png)' | markdownify }}
-{:.image }
-
-
+![](Disabling-the-items_images/Disabling-the-items_img1.png)

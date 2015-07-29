@@ -11,7 +11,7 @@ documentation: ug
 
 The Essential JavaScript Mobile MaskEdit control provides an easy and reliable way of collecting your input and displaying standard data in a specific format. Some common uses of the MaskEdit control are IP address editors, phone number editors, and Social Security number editors. 
 
-Key Features
+### Key Features
 
 Mask - The format where the value should be entered in the Textbox is set by using this property.
 

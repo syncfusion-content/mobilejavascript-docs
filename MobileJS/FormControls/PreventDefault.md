@@ -73,11 +73,4 @@ Refer to the following code example.
 
     </div>
 
-
-
-
-
 {% endhighlight %}
-
-
-

@@ -21,8 +21,6 @@ Please refer to the following code example.
 
 {% highlight html %}
 
-
-
 <div align="center" style="margin:10px">
 
         <a id="sample_button" data-role="ejmbutton" data-ej-text="button" data-ej-rendermode="ios7" data-ej-ios7-color="gray" /> <br /><br />
@@ -47,15 +45,11 @@ Please refer to the following code example.
 
     </div>
 
-
-
 {% endhighlight %}
 
 
 
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f717c65.PNG](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
-
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f717c65.PNG](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)
 
 ## Style
 
@@ -92,15 +86,6 @@ You can refer to the following code example.
 
     </div>
 
-
-
-
-
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f700342.PNG](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img2.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f700342.PNG](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img2.png)

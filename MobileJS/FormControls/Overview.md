@@ -19,7 +19,7 @@ The Essential JavaScript Mobile widget for Form element includes Button, RadioBu
 * Text Area Textbox: Text area holds an unlimited number of characters.
 * Password Textbox: Text box that visually masks its input to prevent from viewing.
 
-Key Features
+### Key Features
 
 * Text and Image : Supports both text and image as Button content
 * Button style: There are normal, header and back style in Button control. Default is a Normal style.

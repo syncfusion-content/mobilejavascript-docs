@@ -23,319 +23,280 @@ The Essential JavaScript provides a way to create a Form with the following EJ m
 
 In the following guidelines, you are creating a Bill Payment App through that you can learn about the features in the above mentioned widgets.
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
 
+![](Getting-Started_images/Getting-Started_img2.png)
 
-### Create the necessary layout 
+## Create the necessary layout 
 
 In the Bill Payment App, you can use the Textbox control to get the Name of the Person, Email, and Remarks, Numeric Textbox control for Amount field, Radio button for Payment options, Checkbox for the terms and conditions, and Button control to submit the Form.
 
 1. Create an HTML file and paste the following template to it to create a Form.
+
 {% highlight html %}
 
+	    <!DOCTYPE html>
 
-<!DOCTYPE html>
+			<html>
 
-<html>
+				<head>
 
-<head>
+					<title>Form Elements</title>
 
-<title>Form Elements</title>
+					<link href="http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css" rel="stylesheet" />
 
-<link href="http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css" rel="stylesheet" />
+					<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                 
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                 
+					<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+					<script src="http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js"></script>
 
-<script src="http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js"></script>
+					</head>
 
-</head>
+					<body>				
+						<div id="page" data-role="appview">
 
-<body>
+        					<div id="header" data-ej-title="Bill Payment" data-role="ejmheader"></div>
 
-<div id="page" data-role="appview">
+        					<div id="form_sample" class="sample">
 
-        <div id="header" data-ej-title="Bill Payment" data-role="ejmheader"></div>
+            					<div>
 
-        <div id="form_sample" class="sample">
+                					<!--Add Form Element Here-->
 
-            <div>
+                		<form id="form1">
 
-                <!--Add Form Element Here-->
+                    		<br />
 
-                <form id="form1">
+                    		<label>
 
-                    <br />
+                        		Name of the Person:
 
-                    <label>
+                    		</label>
 
-                        Name of the Person:
+                    		<div>
 
-                    </label>
+                        		<!--Add user name Text box Here-->
 
-                    <div>
 
-                        <!--Add user name Text box Here-->
 
+                    		</div>
 
+                    		<br />
 
-                    </div>
+                    		<label>
 
-                    <br />
+                        		Amount:
 
-                    <label>
+                    		</label>
 
-                        Amount:
+                    		<div>
 
-                    </label>
+                        		<!--Add numeric text box for amount here-->
 
-                    <div>
 
-                        <!--Add numeric text box for amount here-->
 
+                    		</div>
 
+                    		<br />
 
-                    </div>
+                    		<div>
 
-                    <br />
+                        		<label>
 
-                    <div>
+                          	  	Payment Option:
 
-                        <label>
+                       	 		</label>
+	
+                    		</div>
 
-                            Payment Option:
+                    		<div>
 
-                        </label>
+                        		<table class="radio">
 
-                    </div>
+                            	  	<tr>
+	
+                              	  	<td>
 
-                    <div>
+                                 	   <!--radio button for credit -->
 
-                        <table class="radio">
+                              	  	</td>
+	
+                             	     <td>
 
-                            <tr>
+                                    	<!--radio button for debit-->
 
-                                <td>
 
-                                    <!--radio button for credit -->
 
-                                </td>
+                                	 </td>
 
-                                <td>
+                            		 </tr>
 
-                                    <!--radio button for debit-->
+                       		 	</table>
 
+                    		</div>
 
+                    		<br />
 
-                                </td>
+                    		<div>
 
-                            </tr>
+                        		<label>
 
-                        </table>
+                            		Email:
 
-                    </div>
+                        		</label>
 
-                    <br />
+                        		<div>
 
-                    <div>
+                            		<!--Add email text box here-->
 
-                        <label>
+                        		</div>
 
-                            Email:
+                        		<br />
 
-                        </label>
+                    		</div>
 
-                        <div>
+                    		<div>
 
-                            <!--Add email text box here-->
+                        		<label>
 
-                        </div>
+                            		Remarks (Optional):
 
-                        <br />
+                        		</label>
 
-                    </div>
+                        		<div>
 
-                    <div>
+                            		<!--Add remark text box here-->
 
-                        <label>
+                        		</div>
 
-                            Remarks (Optional):
+                        		<br />
 
-                        </label>
+                    		</div>
 
-                        <div>
+                    		<div>
 
-                            <!--Add remark text box here-->
+                        		<table class="check">
 
-                        </div>
+                            		<tr>
 
-                        <br />
+                                		<td>
 
-                    </div>
+                                    		<!--Add check box here-->
 
-                    <div>
 
-                        <table class="check">
 
-                            <tr>
+                                		</td>
 
-                                <td>
+                            		</tr>
 
-                                    <!--Add check box here-->
+                        		</table>
 
+                    		</div>
 
+                    		<br />
 
-                                </td>
+                    		<div align="center" class="submitbutton">
 
-                            </tr>
+                        		<!--Add submit button here-->
 
-                        </table>
 
-                    </div>
 
-                    <br />
+                    		</div>
 
-                    <div align="center" class="submitbutton">
+                		</form>
 
-                        <!--Add submit button here-->
+            		</div>
 
+        			</div>
 
+                		<!--Add dialog control here-->
 
-                    </div>
+        				<div id="info_msg" data-role="ejmdialog" data-ej-title="Alert"
 
-                </form>
+             				data-ej-leftbuttoncaption="Ok" data-ej-buttontap="exit"
 
-            </div>
+             				data-ej-enablemodal="true">
 
-        </div>
+            			<div id="dlgcontent"></div>
 
-                <!--Add dialog control here-->
+        				</div>
 
-        <div id="info_msg" data-role="ejmdialog" data-ej-title="Alert"
+						<div id="ScrollPanel" data-role="ejmscrollpanel" data-ej-target="form_sample"></div>
+                
+ 				</body>
 
-             data-ej-leftbuttoncaption="Ok" data-ej-buttontap="exit"
-
-             data-ej-enablemodal="true">
-
-            <div id="dlgcontent"></div>
-
-        </div>
-
-<div id="ScrollPanel" data-role="ejmscrollpanel" data-ej-target="form_sample"></div>
-
- </body>
-
-</html>
-
-
-
+			</html>
+		
 {% endhighlight %}
-
-
 
 2. Add the following styles.
-{% highlight css %}
 
+{% highlight html %}
 
-   <style>
+			<style>
+			
+        	.appview .submitbutton 
+				{
+            		text-align: center;
+        	}
 
-        .appview .submitbutton {
+        	.appview .chksample 
+				{
+            		display: inline-block;
+        	}
 
-            text-align: center;
+        	.appview #form_sample label.error 
+				{
+            		color: #FF0000;
 
-        }
+       	 	}
 
+        	.check td, .radio td 
+				{
+            		min-width: 150px;
+        	}
 
+        	.e-m-ios7 label, .e-m-ios7 .check, .e-m-ios7 .radio 
+				{
+            		padding-left: 10px;
+        	}
 
-        .appview .chksample {
+        	.e-m-windows label, .e-m-windows .check 
+				{
+            		padding-left: 20px;
+        	}
 
-            display: inline-block;
+        	.e-m-windows .radio 
+				{
+            		padding-left: 20px;	
+        	}
 
-        }
+        	.radio 
+				{
+            		padding-top: 5px;
+        	}
 
+        	.e-m-android #form_sample, .e-m-ios7 #form_sample 
+				{
+            		padding: 10px;
+        	}
 
+        	.e-m-android #form1 
+				{
+            		padding: 0px 10px;
+        	}
 
-        .appview #form_sample label.error {
+        	.e-m-windows #form_sample 
+				{
+            		padding: 3px;
+        	}
 
-            color: #FF0000;
-
-        }
-
-
-
-        .check td, .radio td {
-
-            min-width: 150px;
-
-        }
-
-
-
-        .e-m-ios7 label, .e-m-ios7 .check, .e-m-ios7 .radio {
-
-            padding-left: 10px;
-
-        }
-
-
-
-        .e-m-windows label, .e-m-windows .check {
-
-            padding-left: 20px;
-
-        }
-
-
-
-        .e-m-windows .radio {
-
-            padding-left: 20px;
-
-        }
-
-
-
-        .radio {
-
-            padding-top: 5px;
-
-        }
-
-
-
-        .e-m-android #form_sample, .e-m-ios7 #form_sample {
-
-            padding: 10px;
-
-        }
-
-
-
-        .e-m-android #form1 {
-
-            padding: 0px 10px;
-
-        }
-
-
-
-        .e-m-windows #form_sample {
-
-            padding: 3px;
-
-        }
-
-    </style>
-
-
+    	</style>
 
 {% endhighlight %}
-
-### Add Textbox Control
+   
+## Add Textbox Control
 
 To render the Textbox control, you need to set “data-role” attribute to “ejmtextbox” to an “input” element.
 
@@ -347,19 +308,13 @@ To render the Textbox control, you need to set “data-role” attribute to “e
 
 <label for="user_name" class="error" generated="true" />
 
-
-
 {% endhighlight %}
-
-
 
 Run this code and you can see the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
 
-
-### Set Watermark text
+## Set Watermark text
 
 The watermark text specifies a short hint that describes the expected value of the input field. This can be achieved by using the “data-ej-watermarktext” attribute.
 
@@ -369,17 +324,11 @@ The watermark text specifies a short hint that describes the expected value of t
 
 <input id="user_name" data-role="ejmtextbox" data-ej-watermarktext="Name" required />
 
-
-
 {% endhighlight %}
 
+![](Getting-Started_images/Getting-Started_img4.png)
 
-
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
-
-
-### Add Numeric Textbox Control
+## Add Numeric Textbox Control
 
 To render the NumericTextbox control, you need to set “data-role” attribute to “ejmnumeric” to an “input” element and set its type attribute to number. Also watermark text can be specified by using the “data-ej-watermarktext” attribute.
 
@@ -391,17 +340,11 @@ To render the NumericTextbox control, you need to set “data-role” attribute 
 
 <label for="amount" class="error" generated="true" />
 
-
-
 {% endhighlight %}
 
+![](Getting-Started_images/Getting-Started_img5.png)
 
-
-{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
-
-
-### Disable Spin Button
+## Disable Spin Button
 
 By default, the spin button is visible. By using this, you can increment or decrement the values. In the Bill Payment app, you don’t require a spin button. To hide this, set data-ej-showpinbutton attribute to false.
 
@@ -411,17 +354,12 @@ By default, the spin button is visible. By using this, you can increment or decr
 
 <input id="amt" data-role="ejmnumeric" type="number" data-ej-watermarktext="Amount" data-ej-showspinbutton="false" required />
 
-
-
 {% endhighlight %}
 
+![](Getting-Started_images/Getting-Started_img6.png)
 
 
-{{ '![](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
-{:.image }
-
-
-### Set Decimal Point
+## Set Decimal Point
 
 By default, decimal numbers (floating point) are not allowed. In this use case, you need to allow the decimal values since it is an amount field. To achieve this, you need to set data-ej-decimalplaces attribute with a numeric value which specifies the number of decimals allowed.
 
@@ -431,11 +369,9 @@ By default, decimal numbers (floating point) are not allowed. In this use case, 
 
 <input id="amt" data-role="ejmnumeric" type="number"data-ej-enablespinbutton="false" data-ej-watermarktext="Amount" data-ej-decimalplaces="2" required />
 
-
-
 {% endhighlight %}
 
-### Add Radio Button Control
+## Add Radio Button Control
 
 A RadioButton control is required for the payment option (credit or debit). To render this control, set data-role attribute to ejmradiobutton to an input element and set its type attribute to radio. By using data-ej-text attribute you can set the test for RadioButton.
 
@@ -449,11 +385,9 @@ A RadioButton control is required for the payment option (credit or debit). To r
 
        <input id="debit" name="payoption" data-role="ejmradiobutton" type="radio" data-ej-text="Debit Card" />
 
-
-
 {% endhighlight %}
 
-### Add Textbox for E-mail
+## Add Textbox for E-mail
 
 You can add Textbox for E-mail.
 
@@ -465,17 +399,11 @@ You can add Textbox for E-mail.
 
 <label for="mail" class="error" generated="true" />
 
-
-
 {% endhighlight %}
 
+![](Getting-Started_images/Getting-Started_img7.png)
 
-
-{{ '![](Getting-Started_images/Getting-Started_img7.png)' | markdownify }}
-{:.image }
-
-
-### Add Textbox for Remarks.
+## Add Textbox for Remarks.
 
 You can add Textbox for Remarks.
 
@@ -485,17 +413,11 @@ You can add Textbox for Remarks.
 
 <input name="remarks" data-role="ejmtextbox" data-ej-watermarktext="Remarks" />
 
-
-
 {% endhighlight %}
 
+![](Getting-Started_images/Getting-Started_img8.png)
 
-
-{{ '![](Getting-Started_images/Getting-Started_img8.png)' | markdownify }}
-{:.image }
-
-
-### Add Checkbox Control
+## Add Checkbox Control
 
 You can use CheckboxControl for “agree the terms and conditions” option. To render this, set data-role attribute to ejmcheckbox to an input element and set its type attribute to checkbox. By using data-ej-text you can set the text for the text box.
 
@@ -505,17 +427,11 @@ You can use CheckboxControl for “agree the terms and conditions” option. To 
 
     <input id="chkbox" data-role="ejmcheckbox" type="checkbox" data-ej-text="I accept the terms and conditions" />
 
-
-
 {% endhighlight %}
 
+![](Getting-Started_images/Getting-Started_img9.png)
 
-
-{{ '![](Getting-Started_images/Getting-Started_img9.png)' | markdownify }}
-{:.image }
-
-
-### Add Button Control
+## Add Button Control
 
 You require a ButtonControl to submit the Form. To render this control, set data-role attribute to ejmbutton to an “input” element. Add the data-ej-text attribute to specify the Button text. By using data-ej-touchend attribute, you can handle the form validation on button click.
 
@@ -525,17 +441,11 @@ You require a ButtonControl to submit the Form. To render this control, set data
 
 <input id="btn" name="submit" data-role="ejmbutton" data-ej-text="Pay Bill" type="button" data-ej-touchend="formsubmit" />
 
-
-
 {% endhighlight %}
 
+![](Getting-Started_images/Getting-Started_img10.png)
 
-
-{{ '![](Getting-Started_images/Getting-Started_img10.png)' | markdownify }}
-{:.image }
-
-
-### Form Validation
+## Form Validation
 
 The Bill payment is created with required controls and for validation, Essential JavaScript Mobile Dialog control is used to show the status of your payment.
 
@@ -613,21 +523,10 @@ The Bill payment is created with required controls and for validation, Essential
 
     </script>
 
-
-
-
-
-
-
 {% endhighlight %}
 
+![](Getting-Started_images/Getting-Started_img11.png)
 
-
-{{ '![](Getting-Started_images/Getting-Started_img11.png)' | markdownify }}
-{:.image }
-{{ '![](Getting-Started_images/Getting-Started_img12.png)' | markdownify }}
-{:.image }
-
+![](Getting-Started_images/Getting-Started_img12.png)
 
 From the above steps, you have learnt how to create and customize Essential JS mobile Textbox, Numeric Textbox, Maskedit, Radiobutton, checkbox and Button widgets with use case samples. We have more customization properties other than the one used here. To know more about the properties in mentioned mobile widgets please refer the complete documentation page.
-

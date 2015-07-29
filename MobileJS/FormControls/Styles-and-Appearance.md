@@ -23,7 +23,4 @@ In certain scenarios, it is necessary to change the color or design of Textbox c
 * e-m-light - This class is applied to the Textbox in light  theme .           
 * e-m-dark - This class is applied to the Textbox in dark theme.                
 * e-m-noborder - This class is applied to the element of Textbox borders.
-* e-m-state-disabled - This class is applied to numeric Textbox in disabled state. 
-
-
-
+* e-m-state-disabled - This class is applied to numeric Textbox in disabled state.

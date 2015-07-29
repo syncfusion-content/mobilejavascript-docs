@@ -29,9 +29,4 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8021dede.PNG](ReadOnly_images/ReadOnly_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8021dede.PNG](ReadOnly_images/ReadOnly_img1.png)

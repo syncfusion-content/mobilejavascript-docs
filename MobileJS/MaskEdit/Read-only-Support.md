@@ -17,13 +17,6 @@ Refer to the following code example.
 
 <input id="textbox_sample" data-role="ejmmaskedit" data-ej-watermarktext="Maskedit" data-ej-mask=" +1 (999) 999-9999" data-ej-readonly="true" />
 
-
-
 {% endhighlight %}
 
-
-
-{{ '![D:/Final Doc/mockup/IMG_0524_iphone5s_spacegrey_portrait.png](Read-only-Support_images/Read-only-Support_img1.png)' | markdownify }}
-{:.image }
-
-
+![D:/Final Doc/mockup/IMG_0524_iphone5s_spacegrey_portrait.png](Read-only-Support_images/Read-only-Support_img1.png)

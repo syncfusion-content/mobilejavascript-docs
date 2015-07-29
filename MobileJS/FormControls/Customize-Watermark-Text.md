@@ -15,8 +15,6 @@ Refer to the following code example.
 
 {% highlight html %}
 
-
-
      <input id="textbox_sample" data-role="ejmtextbox" data-ej-watermarkText="Textbox">
 
      <input id="textbox_sample" data-role="ejmpassword" data-ej-watermarktext="Password">
@@ -25,15 +23,6 @@ Refer to the following code example.
 
           <input id="textbox_sample" data-role="ejmmaskedit" data-ej-watermarktext="Maskedit" data-ej-mask="+1 (999) 999-9999" />
 
-
-
-
-
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8021dede.PNG](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8021dede.PNG](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)

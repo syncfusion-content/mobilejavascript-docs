@@ -7,7 +7,7 @@ control: Button (Mobile)
 documentation: ug
 ---
 
-## ContentType
+# ContentType
 
 You can make the Button appear as an image or text or combination of both. This can be achieved by using the ContentType of ejmButton in your application. By default, the ContentType of Button is set to ‘text’.
 
@@ -23,15 +23,8 @@ You can refer to the following code example.
 
   <!--specify the button content-type-->               
 
- <input id="sample_button" type="button" data-role="ejmbutton" data-ej-text="button" data-ej-contenttype="text" />
-
-
-
+  <input id="sample_button" type="button" data-role="ejmbutton" data-ej-text="button" data-ej-contenttype="text" />
+ 
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](ContentType_images/ContentType_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](ContentType_images/ContentType_img1.png)

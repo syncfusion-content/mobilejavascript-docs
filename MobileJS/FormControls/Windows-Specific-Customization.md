@@ -15,19 +15,8 @@ Refer to the following code example.
 
 {% highlight html %}
 
-
-
 <input id="textbox_sample" data-role="ejmpassword" data-ej-watermarktext="Password" data-ej-rendermode="windows" data-ej-windows-allowreset="true">
-
-
-
-
 
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/labuser/AppData/Local/Temp/SNAGHTMLa514ae.PNG](Windows-specific-customization_images/Windows-specific-customization_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/labuser/AppData/Local/Temp/SNAGHTMLa514ae.PNG](Windows-specific-customization_images/Windows-specific-customization_img1.png)

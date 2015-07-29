@@ -7,7 +7,7 @@ control: Button (Mobile)
 documentation: ug
 ---
 
-## Android Specific Customization
+# Android Specific Customization
 
 By using data-ej-android-style attribute, you can customize the style of the button.
 
@@ -35,11 +35,4 @@ You can refer to the following code examples
 
     </div>
 
-
-
-
-
 {% endhighlight %}
-
-
-

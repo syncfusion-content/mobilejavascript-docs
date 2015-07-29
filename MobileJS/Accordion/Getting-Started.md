@@ -9,19 +9,17 @@ documentation: ug
 
 # Getting Started
 
+## Create your first Accordion in JavaScript
+
 Essential JavaScript Accordion provides a way to display collapsible content panels to present information in a limited amount of space. In the following guidelines, you can learn to create a Live Soccer App and through that you can learn about the features in Accordion widget.
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
-
-
-
+![](Getting-Started_images/Getting-Started_img1.png)
 
 In the above screenshot, you can click headers to expand/collapse content. You can also load content on demand, by specifing the URL to be loaded.
 
 
 
-Create the required layout
+## Create the required layout
 
 Essential JavaScript Accordion widget is rendered, either by specifying static content, or by using on demand contents by specifying the respective URL. Either case, Accordion control is rendered based on the default values for all the properties; you can easily customize Accordion control by changing its properties according to your requirements. In the Live Soccer App, three panels are required; one for displaying the Recent Matches, second for listing out the Upcoming Matches and another for displaying the Ongoing Match Updates on the Live Soccer App. The following steps will guide you to create a basic Accordion for your application.
 
@@ -31,99 +29,51 @@ Create an HTML file and add the following template to the HTML file to create Ac
 
 <!DOCTYPE html>
 
-
-
 <html>
-
-
 
 <head>
 
-
-
     <title>Accordion</title>
-
-
 
     <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
 
-
-
     <script src="[https://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](https://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
-
-
 
     <script src="[https://cdn.syncfusion.com/js/assets/external/jsrender.min.js](https://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-
-
     <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
-
-
 
     <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
 
-
-
 </head>
-
-
 
 <body>
 
-
-
     <div id="page" data-role="appview">
-
-
 
         <div id="header" data-ej-title="Live Soccer" data-role="ejmheader"></div>
 
-
-
         <div id="accordion" class="sample">
-
-
 
             <div>
 
-
-
                 <!--Add Accordion Elements here.-->
-
-
 
             </div>
 
-
-
         </div>
-
-
 
         <!--Scroll Panel-->
 
-
-
         <div data-role="ejmscrollpanel" data-ej-target="accordion"></div>
-
-
 
     </div>
 
-
-
 </body>
-
-
 
 </html>
 
-
-
 {% endhighlight %}
-
-
 
 To render Accordion control, set ejmaccordion as data-role attribute to <div> element, and include a list of Accordion items, through <li> element, to be added. Add the data-ej-text attribute to set text for each item.
 
@@ -169,17 +119,14 @@ To render Accordion control, set ejmaccordion as data-role attribute to <div> el
 
         </div>
 
-
-
 {% endhighlight %}
 
 Run this code example and you can see the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
-Select Accordion Item
+## Select Accordion Item
 
 The data-ej-selecteditems attribute is used to expand the specific content section, initially by using its index value. Multiple content sections can be expanded at a time. It accepts numeric array type. The default value of selecteditems is [0]. So the first panel will be in an expanded state. But in this case example you need all the panels in collapsed state, initially. So you need to set data-ej-selecteditems attribute with the value [-1].
 
@@ -221,19 +168,13 @@ The data-ej-selecteditems attribute is used to expand the specific content secti
 
         </div>
 
-
-
 {% endhighlight %}
-
-
 
 Run this code example and you can see the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
 
-
-Enable Header Icons
+## Enable Header Icons
 
 By default, header icons are not visible. To make the icons visible, set data-ej-showHeadericon attribute to true.
 
@@ -281,17 +222,11 @@ By default, header icons are not visible. To make the icons visible, set data-ej
 
         </div>
 
-
-
 {% endhighlight %}
 
+![](Getting-Started_images/Getting-Started_img4.png)
 
-
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
-
-
-Make Accordion Collapsible
+## Make Accordion Collapsible
 
 By default, all the content sections are not collapsible. To make all its content section collapsible, set data-ej-collapsible attribute to true.
 
@@ -345,9 +280,7 @@ By default, all the content sections are not collapsible. To make all its conten
 
 {% endhighlight %}
 
-
-
-Add Content
+## Add Content
 
 In the case example given, the contents of the Recent Matches and Upcoming Matches panels are given as static. In these content panels, the team results and match schedules are listed.
 
@@ -467,17 +400,11 @@ The following code example is used to add Recent Matches and Upcoming Matches pa
 
       </div>
 
-
-
 {% endhighlight %}
-
-
 
 Use the following styles for content style.
 
 {% highlight css %}
-
-
 
            .appview .sample{
 
@@ -521,19 +448,11 @@ Use the following styles for content style.
 
             }
 
-
-
-
-
 {% endhighlight %}
 
+![](Getting-Started_images/Getting-Started_img5.png)
 
-
-{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
-
-
-Load content-on-demand
+## Load content-on-demand
 
 In some cases, you can load content only when it is required. In this case, the Ongoing Matches panel needs to be loaded only when you want to check for updates, since it refers a live content. To achieve this, specify data-ej-ajaxurl attribute with the respective URL of the HTML file that contains the dynamic content.
 
@@ -651,11 +570,7 @@ In some cases, you can load content only when it is required. In this case, the 
 
       </div>
 
-
-
 {% endhighlight %}
-
-
 
 Create an HTML file with the name load.html and assign its URL to data-ej-ajaxurl attribute.
 
@@ -731,17 +646,11 @@ Create an HTML file with the name load.html and assign its URL to data-ej-ajaxur
 
 </html>
 
-
-
 {% endhighlight %}
 
+![](Getting-Started_images/Getting-Started_img6.png)
 
-
-{{ '![](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
-{:.image }
-
-
-Disable Cache
+## Disable Cache
 
 By default, cache is enabled. So when you load the Ongoing Matches content, it will load its dynamic content, from the specified location only once. The next time, it will load the same content from cache. In the case example, you need to load the dynamic content on every request by clicking its header. To achieve this, set data-ej-enablecache attribute to False.
 
@@ -859,11 +768,6 @@ By default, cache is enabled. So when you load the Ongoing Matches content, it w
 
       </div>
 
-
-
 {% endhighlight %}
 
-
-
 From the above steps, you have learnt how to create and customize Essential JS mobile Accordion widget with case examples. There are more customization properties other than the one used here.
-
