@@ -7,9 +7,9 @@ control: AutoComplete (Mobile)
 documentation: ug
 ---
 
-## Image customization
+# Image customization
 
-### ImageField
+## ImageField
 
 The data-ej-imagefield attribute is used to map the specific field name of the given DataSource to render the icons/images for each suggestion list. The mapped field should contain the icon/image URL for each suggestion list.
 
@@ -63,11 +63,10 @@ Add the following script.
 
 The following screenshot displays the ImageField:
 
-{{ '![](Image-customization_images/Image-customization_img1.png)' | markdownify }}
-{:.image }
+![](Image-customization_images/Image-customization_img1.png)
 
 
-### ImageClass
+## ImageClass
 
 The data-ej-imageclass attribute is used to map the specific field name of the given DataSource to render the icons/images for each suggestion list. The mapped field should contain the CSS class names that define the icons/images for each suggestion list. You can customize the CSS class definitions for icons of each suggestion list based on the need.
 
@@ -161,7 +160,6 @@ Add the following style.
 
 The following screenshot displays ImageClass:
 
-{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Image-customization_images/Image-customization_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/apoorvah.ramanathan/Desktop/1.png](Image-customization_images/Image-customization_img2.png)
 
 
