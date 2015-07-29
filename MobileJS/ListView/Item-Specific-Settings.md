@@ -7,12 +7,12 @@ control: ListView (Mobile)
 documentation: ug
 ---
 
-## Item Specific Settings
+# Item Specific Settings
 
 In the ListView widget, the following numbered settings are available for easy customization of Items as per user demand. In JS, you can set this to the Li Item with ‘data-ej’ as prefix. Following are the detailed explanation.
 
 _Item specific settings_
-
+{% highlight html %}
 <table>
 <tr>
 <td>
@@ -51,6 +51,6 @@ Image Customization</td><td>
 <br>Events</td><td>
 1. data-ej-touchstart-This attribute is used to define the handler when touch start happens on a particular list item.2. data-ej-touchend-This attribute is used to define the handler when touch end happens on a particular list item.</td></tr>
 </table>
-
+{% endhighlight %}
 
 

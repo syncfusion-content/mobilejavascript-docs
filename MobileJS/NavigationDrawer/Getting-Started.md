@@ -11,8 +11,7 @@ documentation: ug
 
 Essential JavaScript Navigation Drawer is a sliding panel that displays the list of navigation options on demand. That is, by default, it is not visible but you can display it onto the left/right side of the screen by swiping or by clicking with desired target icon. 
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 The following steps guide you to add a Navigation Drawer control for a mobile application that displays a list of items such as home, profile, photos and location where you can navigate to desired page by clicking on the option available in the drawer. 
@@ -59,8 +58,6 @@ Create an HTML file and paste the following template for mobile layout.
 
 </html>
 
-
-
 {% endhighlight %}
 
 ## Add Header control for Navigation Drawer
@@ -74,8 +71,6 @@ To render the Header control, set “data-role” attribute to “ejmheader” t
         <div id="header" data-role="ejmheader" data-ej-position="normal" data-ej-title="Navigation Drawer" data-ej-showleftbutton="true" data-ej-leftbuttonimageclass="icon-target">
 
         </div>
-
-
 
 {% endhighlight %}
 
@@ -103,8 +98,6 @@ To add Navigation Drawer control, specify ejmnavigationdrawer as data-role attri
 
         </div>
 
-
-
 {% endhighlight %}
 
 ## Add target element to display the drawer
@@ -131,10 +124,7 @@ You can display the drawer by clicking target icon. To achieve this, set the tar
 
         </div>
 
-
-
 {% endhighlight %}
-
 
 
 To set the target icon image from sprite and to position the target icon properly, use the following styles.
@@ -167,22 +157,18 @@ To set the target icon image from sprite and to position the target icon properl
 
             }
 
-
-
 {% endhighlight %}
-
 
 
 Run the above code to render the following output. 
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 You can display the drawer by either clicking on the target icon or else by swiping from left. Refer to the following screenshot.
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
+
 
 
 ## Add images for Navigation Drawer
@@ -209,11 +195,7 @@ You can set the images for Navigation Drawer by using data-ej-imageclass attribu
 
         </div>
 
-
-
 {% endhighlight %}
-
-
 
 You can define the image classes specified for the list items as follows.
 
@@ -261,16 +243,14 @@ You can define the image classes specified for the list items as follows.
 
         }    
 
-
-
 {% endhighlight %}
 
 
 
 Run the above code to render the following output. 
 
-{{ '![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img4.png)
+
 
 
 ## Load appropriate content while selection
@@ -299,11 +279,7 @@ Refer to the following code examples.
 
         </div>
 
-
-
 {% endhighlight %}
-
-
 
 While clicking the navigation options it loads appropriate content into the current page. You can achieve this by setting some sample content to load on selecting the items. Refer to the following code examples.
 
@@ -347,10 +323,7 @@ While clicking the navigation options it loads appropriate content into the curr
 
         </div>
 
-
-
 {% endhighlight %}
-
 
 
 Add the following code example to display the first listitem content while rendering.
@@ -365,15 +338,13 @@ Add the following code example to display the first listitem content while rende
 
         });
 
-
-
 {% endhighlight %}
 
 
 
 Run the above code to render the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img5.png)
+
 
 

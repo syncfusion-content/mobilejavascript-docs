@@ -7,7 +7,7 @@ control: Dialog (Mobile)
 documentation: ug
 ---
 
-## Overlay
+# Overlay
 
 The data-ej-enablemodal attribute enables the Modal Dialog that blocks you from interacting with the rest of the page until it is closed. The default value is false.
 
@@ -67,7 +67,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{{ '![](Overlay_images/Overlay_img1.png)' | markdownify }}
-{:.image }
+![](Overlay_images/Overlay_img1.png)
+
 
 

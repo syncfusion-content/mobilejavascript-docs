@@ -7,7 +7,7 @@ control: RadioButton (Mobile)
 documentation: ug
 ---
 
-## Enabled
+# Enabled
 
 This is a Boolean property that lets you enable or disable the options. When set to false, this prevents you from selecting that particular choice. By default, this property is set to true.
 
@@ -133,7 +133,7 @@ This is a Boolean property that lets you enable or disable the options. When set
 
 The following screenshot displays the disabled RadioButton.
 
-{{ '![](Enabled_images/Enabled_img1.png)' | markdownify }}
-{:.image }
+![](Enabled_images/Enabled_img1.png)
+
 
 

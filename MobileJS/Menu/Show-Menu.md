@@ -7,7 +7,7 @@ control: Menu (Mobile)
 documentation: ug
 ---
 
-## Show Menu 
+# Show Menu 
 
 The Menu is shown by tap or taphold action on the target element and by setting the target element in data-ej-target attribute. Set the data-ej-showon attribute to specify the event after which the Menu is shown. By updating the desired event, the Menu shows when that particular event happens on the target element. Refer to the following code example. Here button is the target control (element). So its target ID (“menutarget”) is mentioned in the data-ej-target attribute. On clicking it, Menu control is displayed. 
 
@@ -39,7 +39,7 @@ The Menu is shown by tap or taphold action on the target element and by setting 
 
 The following screenshot displays the Show Menu:
 
-{{ '![ShowOn](Show-Menu_images/Show-Menu_img1.png)' | markdownify }}
-{:.image }
+![ShowOn](Show-Menu_images/Show-Menu_img1.png)
+
 
 

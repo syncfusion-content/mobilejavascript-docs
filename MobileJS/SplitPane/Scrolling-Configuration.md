@@ -7,9 +7,9 @@ control: SplitPane (Mobile)
 documentation: ug
 ---
 
-## Scrolling Configuration
+# Scrolling Configuration
 
-### RightPane Scroll Settings
+## RightPane Scroll Settings
 
 The “data-ej-allowrightpanescrolling” attribute is used to enable/disable the right pane content scrolling. By default the property is set to true. You can customize the right pane scrolling behavior by using this “data-ej-rightpanescrollsettings” attribute. 
 

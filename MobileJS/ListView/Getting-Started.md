@@ -13,8 +13,8 @@ Essential JavaScript Mobile ListView widget builds an interactive list view int
 
 
 
-{{ '![C:/Users/isuriyar/Desktop/image122_4.jpg](Getting-Started_images/Getting-Started_img1.jpeg)' | markdownify }}
-{:.image }
+![C:/Users/isuriyar/Desktop/image122_4.jpg](Getting-Started_images/Getting-Started_img1.jpeg)
+
 
 
 
@@ -122,7 +122,7 @@ Run the above code and you can see the following output.
 
 
 {{ '![C:/Users/isuriyar/Desktop/image122_1.jpg](Getting-Started_images/Getting-Started_img2.jpeg)' | markdownify }}
-{:.image }
+
 
 
 
@@ -267,8 +267,8 @@ You can define the image classes specified for the list items as follows.
 
 Run the above code and you can see the following output.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg)
+
 
 
 ## Create Child List with Template   
@@ -463,8 +463,8 @@ In this example, you can move to the inbox page by tapping the inbox list item t
 
 Run the above code and you can see the following output.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image122_3.jpg](Getting-Started_images/Getting-Started_img4.jpeg)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image122_3.jpg](Getting-Started_images/Getting-Started_img4.jpeg)
+
 
 
 

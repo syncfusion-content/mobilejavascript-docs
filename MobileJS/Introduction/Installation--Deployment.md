@@ -7,13 +7,13 @@ control: Introduction
 documentation: ug
 ---
 
-## Installation & Deployment
+# Installation & Deployment
 
-### For Windows Users
+## For Windows Users
 
 Download the setup file (.exe) of Essential Studio for JavaScript product from this [link](http://www.syncfusion.com/downloads/javascript) with your Syncfusion account and follow the steps mentioned in the [setup guide](http://help.syncfusion.com/ug/common/index.html) to install the specific/entire platform on your machine.
 
-#### Install Location
+### Install Location
 
 The following root location contains all the Syncfusion assemblies, scripts, stylesheets and dashboard samples.
 
@@ -21,11 +21,7 @@ The following root location contains all the Syncfusion assemblies, scripts, sty
 
 <installed location>\Syncfusion\Essential Studio\13.1.0.21\
 
-
-
 For example, whenyou have installed the Essential Studio package within C:\Program Files (x86), then navigate to the following location,
-
-
 
 C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\
 
@@ -37,26 +33,24 @@ C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\
 
 You can find the JavaScript mobile Samples from the Samples folder present within the above specified location that includes separate folders for both the web and mobile samples separately.
 
-##### JavaScript Folder Structure & Asset Details
+#### JavaScript Folder Structure & Asset Details
 
 The following location is the root JavaScript folder that contains two important sub-folder,
 
 * assets
 * Src
 
+{% highlight text %}
+
 <installed location>\Syncfusion\Essential Studio\13.1.0.21\ JavaScript\
-
-
 
 For example, whenyou have installed the Essential Studio package within C:\Program Files (x86), then navigate to the following location,
 
-
-
 C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\JavaScript\
 
+{% endhighlight %}
 
-
-assets 
+### assets 
 
 The assets folder comprises of all the minified versions of the external and common Scripts, Stylesheets and TypeScript files under their corresponding folders. It includes 4 sub-folders,
 
@@ -81,7 +75,7 @@ The assets folder comprises of all the minified versions of the external and com
 
 * The TypeScript folder includes the default type-definition file (ej.widgets.all.d.ts) for the purpose of supporting classes, modules, strong-type checking during compile time itself and also provides IntelliSense support within the JavaScript environment.
 
-Src
+### Src
 
 This folder comprises of the sub-folder assets-src that includes all the non-minified versions of the Scripts and Stylesheets separately for all the individual Syncfusion widgets.
 
@@ -89,15 +83,15 @@ The same folders available within the assets folder such as, css, external, scri
 
 The location where these non-minified files are available is as follows,
 
+{% highlight text %}
+
 <installed location>\Syncfusion\Essential Studio\13.1.0.21\ JavaScript\Src\assets-src
-
-
 
 For example, when you have installed the Essential Studio package within C:\Program Files (x86), then navigate to the following location,
 
-
-
 C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\JavaScript\Src\assets-src
+
+{% endhighlight %}
 
 ### For MAC and Linux OS Users
 
@@ -123,21 +117,21 @@ The steps to download and configure the Syncfusion Nuget Packages in Visual Stud
 
 
 
-{{ '![](Installation--Deployment_images/Installation--Deployment_img1.png)' | markdownify }}
-{:.image }
+![](Installation--Deployment_images/Installation--Deployment_img1.png)
 
 
-* Select Package Manager -> Package Sources in the above pop-up and click on the {{ '![](Installation--Deployment_images/Installation--Deployment_img2.png)' | markdownify }}
-{:.image }
+
+* Select Package Manager -> Package Sources in the above pop-up and click on the ![](Installation--Deployment_images/Installation--Deployment_img2.png)
+
  button to navigate to the location where the above collection of nuget packages are located within the Nuget Packages folder in your system.
 
 
 
-{{ '![](Installation--Deployment_images/Installation--Deployment_img3.png)' | markdownify }}
-{:.image }
+![](Installation--Deployment_images/Installation--Deployment_img3.png)
 
 
-> _Note: The Source textbox in the above image denotes the location of the nuget packages in your machine and the Name section, allows you to provide a unique name that you refer in the package installation section later._ 
+
+> Note: The Source textbox in the above image denotes the location of the nuget packages in your machine and the Name section, allows you to provide a unique name that you refer in the package installation section later. 
 
 
 
@@ -145,7 +139,7 @@ The steps to download and configure the Syncfusion Nuget Packages in Visual Stud
 
 
 
-{{ '![](Installation--Deployment_images/Installation--Deployment_img4.png)' | markdownify }}
-{:.image }
+![](Installation--Deployment_images/Installation--Deployment_img4.png)
+
 
 

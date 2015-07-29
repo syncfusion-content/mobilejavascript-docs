@@ -7,7 +7,7 @@ control: Navigation Drawer (Mobile)
 documentation: ug
 ---
 
-## Configure target element
+# Configure target element
 
 The data-ej-targetid attribute is used to define the target Id for Navigation Drawer. The drawer opens while you click on the specified target element.
 
@@ -79,8 +79,6 @@ Refer to the following code example.
 
     </div>
 
-
-
 {% endhighlight %}
 
 Add the following style
@@ -105,23 +103,21 @@ Add the following style
 
         }
 
-
-
 {% endhighlight %}
 
 
 
 Refer to the script section to update the page content while clicking the item in the drawer.
 
-{{ '![](Configure-target-element_images/Configure-target-element_img1.png)' | markdownify }}
-{:.image }
+![](Configure-target-element_images/Configure-target-element_img1.png)
+
 
 
 You can display the drawer either by clicking on the target icon or else by swiping from left. Refer to the following screenshot.
 
 
 
-{{ '![](Configure-target-element_images/Configure-target-element_img2.png)' | markdownify }}
-{:.image }
+![](Configure-target-element_images/Configure-target-element_img2.png)
+
 
 

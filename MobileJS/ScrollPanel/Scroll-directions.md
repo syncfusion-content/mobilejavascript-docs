@@ -29,8 +29,6 @@ The “data-ej-enablehrscroll” and “data-ej-enablevrscroll” attributes let
 
     <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-scrollwidth=400  data-ej-enablehrscroll="true"  />
 
-
-
 {% endhighlight %}
 
 
@@ -39,7 +37,7 @@ The following screenshot displays scroll directions:
 
 
 
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25ac5382.PNG](Scroll-directions_images/Scroll-directions_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25ac5382.PNG](Scroll-directions_images/Scroll-directions_img1.png)
+
 
 

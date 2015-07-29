@@ -7,9 +7,9 @@ control: ListView (Mobile)
 documentation: ug
 ---
 
-## Data Binding
+# Data Binding
 
-### Local Data Binding
+## Local Data Binding
 
 Essential Studio mobile JS ListView provides support for Data Binding. data-ej-databinding provides a simple and consistent way for applications to present and interact with data. Elements can be bounded to data from a variety of data sources. In local Data Binding, the data source is written inside the program. Then it is handled by the ListView control. By using data-ej-dataBinding attribute, you can enable Data Binding. data-ej-datasource attribute is used to get the data source that holds the list items.
 
@@ -87,11 +87,11 @@ To include datasource, add the following script.
 
 The following screenshot displays the Local Data Binding:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_11.png](Data-Binding_images/Data-Binding_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_11.png](Data-Binding_images/Data-Binding_img1.png)
 
 
-### Remote Data Binding
+
+## Remote Data Binding
 
 In Remote Data Binding, the data is retrieved from a particular URL unlike the local Data Binding and then it is handled by the ListView control. By using data-ej-databinding attribute, you can enable Data Binding. Datasource is used to get the data that holds the list items.
 
@@ -137,11 +137,11 @@ To include datasource, add the following script.
 
 The following screenshot displays the remote Data Binding:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_17.png](Data-Binding_images/Data-Binding_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_17.png](Data-Binding_images/Data-Binding_img2.png)
 
 
-### FieldSettings
+
+## FieldSettings
 
 data-ej-fieldsettings attribute is used to map the DataSource field with the list item fields. In addition to the list item specific properties, the following fields are available while mapping.
 
@@ -257,22 +257,22 @@ To include datasource, add the following script.
 
 The following screenshots display the Field Settings:
 
-{{ '![Field Setting z](Data-Binding_images/Data-Binding_img3.png)' | markdownify }}
-{:.image }
+![Field Setting z](Data-Binding_images/Data-Binding_img3.png)
+
 
 
 
 
 _After navigation_
 
-{{ '![Field Setting (2) z](Data-Binding_images/Data-Binding_img4.png)' | markdownify }}
-{:.image }
+![Field Setting (2) z](Data-Binding_images/Data-Binding_img4.png)
 
 
 
 
 
-### Query
+
+## Query
 
 This feature in the ListView is used to fetch data from the DataSource before listing them. A Query is a constraint that is used to take only the data defined through data-ej-query attribute.
 

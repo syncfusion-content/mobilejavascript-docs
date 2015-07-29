@@ -7,7 +7,7 @@ control: Dialog (Mobile)
 documentation: ug
 ---
 
-## Auto Open
+# Auto Open
 
 The data-ej-enableautoopen attribute is used to set whether to open the Dialog box on initial loading. The default value is false.
 
@@ -37,7 +37,7 @@ The data-ej-enableautoopen attribute is used to set whether to open the Dialog b
 
 The following screenshot displays the output.
 
-{{ '![](Auto-Open_images/Auto-Open_img1.png)' | markdownify }}
-{:.image }
+![](Auto-Open_images/Auto-Open_img1.png)
+
 
 

@@ -7,13 +7,11 @@ control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-## Prevent default action
+# Prevent default action
 
 The default action of mouse while dragging over the page is text selection. While using ScrollPanel, you can prevent the default action by using “data-ej-preventdefault” attribute.  By default, this property is set to true.
 
 {% highlight html %}
-
-
 
     <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
@@ -30,8 +28,6 @@ The default action of mouse while dragging over the page is text selection. Whil
 
 
     <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-preventdefault="true" data-ej-enablenativescrolling="false" />
-
-
 
 {% endhighlight %}
 

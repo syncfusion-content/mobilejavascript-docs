@@ -7,7 +7,7 @@ control: Rotator (Mobile)
 documentation: ug
 ---
 
-## Data Binding
+# Data Binding
 
 The Essential JavaScript Mobile Rotator provides support for data binding. Data binding provides a simple and consistent way for applications to present and interact with data. Elements can be bound to data from a variety of data sources.
 
@@ -48,11 +48,7 @@ Using data-ej-databinding attribute you can enable the databinding and data-ej-d
     </div>
 
 
-
-
-
 {% endhighlight %}
-
 
 
 Refer the following code examples for script section.
@@ -97,15 +93,11 @@ Refer the following code examples for script section.
 
         ];
 
-
-
-
-
 {% endhighlight %}
 
 
 
-{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-1.png](Data-Binding_images/Data-Binding_img1.png)' | markdownify }}
-{:.image }
+![](Data-Binding_images/Data-Binding_img1.png)
+
 
 

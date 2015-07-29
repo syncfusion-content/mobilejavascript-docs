@@ -7,9 +7,9 @@ control: Dialog (Mobile)
 documentation: ug
 ---
 
-## Button Customization
+# Button Customization
 
-### LeftButtonCaption
+## LeftButtonCaption
 
 The data-ej-leftbuttoncaption attribute is used to specify the text of the Left Button. The default value is cancel.
 
@@ -37,11 +37,11 @@ The data-ej-leftbuttoncaption attribute is used to specify the text of the Left 
 
 The following screenshot displays the output.
 
-{{ '![](Button-Customization_images/Button-Customization_img1.png)' | markdownify }}
-{:.image }
+![](Button-Customization_images/Button-Customization_img1.png)
 
 
-### RightButtonCaption
+
+## RightButtonCaption
 
 The data-ej-rightbuttoncaption attribute specifies the text of the Right Button. The default value is continue.
 
@@ -69,11 +69,11 @@ The data-ej-rightbuttoncaption attribute specifies the text of the Right Button.
 
 The following screenshot displays the output.
 
-{{ '![](Button-Customization_images/Button-Customization_img2.png)' | markdownify }}
-{:.image }
+![](Button-Customization_images/Button-Customization_img2.png)
 
 
-### ShowButtons
+
+## ShowButtons
 
 The data-ej-showbuttons attribute is used to show the buttons in the Dialog box. The default value is true.
 
@@ -105,7 +105,7 @@ The data-ej-showbuttons attribute is used to show the buttons in the Dialog box.
 
 The following screenshot displays the output.
 
-{{ '![](Button-Customization_images/Button-Customization_img3.png)' | markdownify }}
-{:.image }
+![](Button-Customization_images/Button-Customization_img3.png)
+
 
 
