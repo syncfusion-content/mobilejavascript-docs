@@ -25,8 +25,6 @@ You can refer to the following code example.
 
 {% highlight html %}
 
-
-
 <div align="center" style="margin:10px">
 
         <input type="button" id="sample_button" data-role="ejmbutton" data-ej-text="Normal" data-ej-rendermode="android" data-ej-android-style="normal" /><br /><br />
@@ -41,15 +39,6 @@ You can refer to the following code example.
 
     </div>
 
-
-
-
-
 {% endhighlight %}
 
-
-
-{{ '![](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
-
-
+![](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)

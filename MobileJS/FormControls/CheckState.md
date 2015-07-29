@@ -23,8 +23,6 @@ Refer to the following code example.
 
 {% highlight html %}
 
-
-
     <div data-role="ejmheader" data-ej-title="CheckBox"></div>
 
     <div align="center" style="padding-top:100px">
@@ -79,15 +77,8 @@ Refer to the following code example.
 
     </div>
 
-
-
 {% endhighlight %}
-
-
 
 Execute the above code example to render the following output.
 
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2f71445a.PNG](CheckState_images/CheckState_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2f71445a.PNG](CheckState_images/CheckState_img1.png)

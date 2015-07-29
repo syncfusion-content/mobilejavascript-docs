@@ -11,13 +11,11 @@ documentation: ug
 
 From the following guidelines, you can select Multiple or Single Selection List by using Checkbox. The following screenshot demonstrates the functionality with Checkbox button action.
 
-{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
-
+![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)
 
 In the above screenshot, you can select multiple search engines as your favorites by using Checkbox, Tri-State Checkbox and perform the action to render the checked values when the button is clicked.
 
-Create Checkbox 
+## Create Checkbox 
 
 Essential JavaScript Mobile Checkbox widget has built-in features like indeterminate selections. You can easily create the Checkbox widget by using a simple input Checkbox element as follows.
 
@@ -91,15 +89,9 @@ Create an HTML file and add the following template to the HTML file.
 
 </html>
 
-
-
 {% endhighlight %}
 
-
-
 To render the Checkbox control, you can set data-role attribute as “ejmcheckbox” for the specific input element as follows.
-
-
 
 {% highlight html %}
 
@@ -199,19 +191,8 @@ To render the Checkbox control, you can set data-role attribute as “ejmcheckbo
 
         }
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Run this code example and you can see the following output.
 
-{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
-
-
-
-
+![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)

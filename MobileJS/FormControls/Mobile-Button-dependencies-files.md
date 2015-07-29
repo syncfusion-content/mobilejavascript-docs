@@ -15,9 +15,9 @@ _List of Script Files_
 
 <table>
 <tr>
-<td>
-File</td><td>
-Description/Usage</td></tr>
+<th>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>
@@ -47,5 +47,3 @@ It is referred for touch events support.</td></tr>
 ej.mobile.button.min.js</td><td>
 It is referred when using mobile Button control.</td></tr>
 </table>
-
-

@@ -7,7 +7,7 @@ control: Tile (Mobile)
 documentation: ug
 ---
 
-## Text Configuration
+# Text Configuration
 
 The “data-ej-showtext” attribute is used to show or hide the Tile caption. The text property is used to set the caption of a Tile. The “data-ej-textalignment” attribute is used to align the Tile text based on the requirement. The possible position values for textAlignment are as follows.
 
@@ -18,9 +18,7 @@ The “data-ej-showtext” attribute is used to show or hide the Tile caption. T
 
 The “data-ej-textposition” attribute wraps the text inside or outside of a Tile. The possible position values of “data-ej-textposition” are inner and outer.
 
-_Note: TextPosition support is given only to iOS7 and android mode. TextPosition is not supported in small Tiles._
-
-
+> Note: TextPosition support is given only to iOS7 and android mode. TextPosition is not supported in small Tiles.
 
 {% highlight html %}
 
@@ -32,15 +30,8 @@ _Note: TextPosition support is given only to iOS7 and android mode. TextPosition
 
     </div>
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/tiletextchanges.png](Text-Configuration_images/Text-Configuration_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/tiletextchanges.png](Text-Configuration_images/Text-Configuration_img1.png)

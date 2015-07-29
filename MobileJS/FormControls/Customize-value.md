@@ -13,31 +13,16 @@ The current value of the Numeric Textbox can be specified by using data-ej-value
 
 {% highlight html %}
 
-
-
 <input type="number" id="textbox_sample" data-role="ejmnumeric" data-ej-value="30" data-ej-incrementstep="2" data-ej-maxvalue=100 data-ej-minvalue=3 />
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays the output.
 
-{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTMLd87e051.PNG](Customize-value_images/Customize-value_img1.png)' | markdownify }}
-{:.image }
-
+![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTMLd87e051.PNG](Customize-value_images/Customize-value_img1.png)
 
 {% highlight html %}
 
-
-
 <input type="number" id="textbox_sample" data-role="ejmnumeric" data-ej-decimalPlaces="3"/>
 
-
-
 {% endhighlight %}
-
-
-

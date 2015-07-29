@@ -15,15 +15,8 @@ The data-ej-enablestrictmode attribute makes Textbox accept only a value between
 
 <input type="number" id="textbox_sample" data-role="ejmnumeric" data-ej-minvalue=30 data-ej-maxvalue=100 data-ej-enablestrictmode="true" />
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays the output.
 
-{{ '![](Strict-Mode_images/Strict-Mode_img1.png)' | markdownify }}
-{:.image }
-
-
+![](Strict-Mode_images/Strict-Mode_img1.png)

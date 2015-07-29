@@ -15,19 +15,8 @@ Refer to the following code example.
 
 {% highlight html %}
 
-
-
 <input id="textbox_sample" data-role="ejmmaskedit" data-ej-watermarktext="Maskedit" data-ej-mask="+1 (999) 999-9999" />
-
-
-
-
 
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML195b49f5.PNG](Masking_images/Masking_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML195b49f5.PNG](Masking_images/Masking_img1.png)

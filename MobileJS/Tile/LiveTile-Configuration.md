@@ -7,7 +7,7 @@ control: Tile (Mobile)
 documentation: ug
 ---
 
-## LiveTile Configuration
+# LiveTile Configuration
 
 Live Tiles are used to display the current or up to date information like scores, stocks, weather, etc. This functionality is supported only in windows rendermode. 
 
@@ -30,20 +30,14 @@ Refer to the following code example.
         </div>
 
     </div>
-
-
-
+	
 {% endhighlight %}
-
-
 
 By using the “data-ej-livetile-imagetemplateid” attribute, you can specify the Live Tile images outside the Tile rendering. To achieve this, you can provide image content inside the element where the path is specified by using the templateid. You can update the imageTemplateId dynamically through the updateTemplateID public method.
 
 {% highlight html %}
 
 <div style="margin-top:45px;">
-
-
 
     <div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-imageposition="fill" data-ej-livetile-imagetemplateid=["temp1","temp2"] data-ej-livetile-enabled="true">
 
@@ -62,9 +56,7 @@ By using the “data-ej-livetile-imagetemplateid” attribute, you can specify t
             url('../themes/sample/tileview/windows/setting.png'); width: 100%; height: 100%;">
 
     </div>
-
-
-
+	
 {% endhighlight %}
 
 You can specify the array of images for the Live Tile through CSS classes by using the “data-ej-livetile-imageclass” attribute and you can define the desired styles in the specified class.
@@ -72,16 +64,12 @@ You can specify the array of images for the Live Tile through CSS classes by usi
 {% highlight html %}
 
    <div style="margin-top:45px;">
-
-
-
+   
        <div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-imageposition="fill" data-ej-livetile-imageclass=["calendar","setting"] data-ej-livetile-enabled="true">
 
     </div>
 
 </div>
-
-
 
 {% endhighlight %}
 
@@ -101,9 +89,4 @@ Refer to the following code example for CSS class.
 
         }
 
-
-
 {% endhighlight %}
-
-
-

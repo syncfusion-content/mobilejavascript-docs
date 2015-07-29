@@ -11,13 +11,9 @@ documentation: ug
 
 To create a textbox for the login page in the mobile application, follow the guidelines given. 
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
 
-
-
-
-Create the layout
+## Create the layout
 
 Create a HTML file and add the following template to the HTML file.
 
@@ -131,37 +127,18 @@ Create a HTML file and add the following template to the HTML file.
 
 </html>
 
-
-
-
-
 {% endhighlight %}
 
-
-
-Add Textbox Control
+## Add Textbox Control
 
 To create the Textbox control add the following code.
 
-
-
 {% highlight html %}
-
-
 
 <input id="textbox_sample" data-role="ejmtextbox" data-ej-watermarktext="User Name" />
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Run the code and get the following output.
 
-{{ '![D:/Final Doc/mockup/IMG_0526_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
-
-
+![D:/Final Doc/mockup/IMG_0526_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img2.png)

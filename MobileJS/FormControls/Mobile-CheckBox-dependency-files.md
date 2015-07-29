@@ -15,9 +15,9 @@ _List of CheckBox dependency files_
 
 <table>
 <tr>
-<td>
-File</td><td>
-Description/Usage</td></tr>
+<th>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>
@@ -47,5 +47,3 @@ Refer for touch events supports.</td></tr>
 ej.mobile.checkbox.min.js</td><td>
 Refer when using mobile CheckBox control.</td></tr>
 </table>
-
-

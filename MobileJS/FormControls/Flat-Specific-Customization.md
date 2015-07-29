@@ -25,8 +25,6 @@ You can refer to the following code example.
 
 {% highlight html %}
 
-
-
     <div align="center" style="margin:10px">
 
         <input type="button" id="sample_button" data-role="ejmbutton" data-ej-text="Normal" data-ej-rendermode="flat" data-ej-flat-style="Normal" /> <br /><br />
@@ -41,15 +39,6 @@ You can refer to the following code example.
 
     </div>
 
-
-
-
-
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2ab540a8.PNG](Flat-Specific-Customization_images/Flat-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2ab540a8.PNG](Flat-Specific-Customization_images/Flat-Specific-Customization_img1.png)

@@ -7,7 +7,7 @@ control: Checkbox (Mobile)
 documentation: ug
 ---
 
-## Checked Status
+# Checked Status
 
 By using data-ej-checked attribute, you can set the state of Checkbox. When data-ej-checked is true, the Checkbox is in checked state. When false, Checkbox is in unchecked state. When you want to use this data-ej-checked attribute, then checkbox should be in non Tri-state and data-ej-enabletristate attribute should be false.
 
@@ -80,10 +80,5 @@ In the HTML page, add the following input elements to configure Checkbox widget.
         <tr />
 
     </table>
-
-
-
+	
 {% endhighlight %}
-
-
-

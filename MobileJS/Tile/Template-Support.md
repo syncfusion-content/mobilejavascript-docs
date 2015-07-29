@@ -7,15 +7,13 @@ control: Tile (Mobile)
 documentation: ug
 ---
 
-## Template Support
+# Template Support
 
 The “data-ej-imagetemplateid” and “data-ej-captiontemplateid” attributes are used to customize the image and caption/description of a Tile by providing the specific template id respectively. 
 
 Refer to the following code example.
 
 {% highlight html %}
-
-
 
     <div style="margin-top: 45px;">
 
@@ -42,22 +40,11 @@ Refer to the following code example.
     </div>
 
     <div id="captionTemplate" class="title">Windows Store</div>
-
-
-
+	
     </div>
-
-
-
-
 
 {% endhighlight %}
 
-
-
 The following screenshot illustrates the output of the above code.
 
-{{ '![](Template-Support_images/Template-Support_img1.png)' | markdownify }}
-{:.image }
-
-
+![](Template-Support_images/Template-Support_img1.png)

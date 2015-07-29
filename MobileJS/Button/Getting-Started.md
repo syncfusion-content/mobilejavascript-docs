@@ -13,13 +13,7 @@ From the following guidelines, you can create a Media Player App where you can l
 
 The following screenshot illustrates the functionality of a Button control in Media Player.
 
-
-
-{{ '![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0534_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
-
-
-
+![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0534_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png)
 
 ## Create the necessary layout
 
@@ -39,11 +33,11 @@ Create an HTML file and paste the following template to it for Button creati
 
    <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)"rel="stylesheet" />
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
+	<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
 
-  <script src="http:// cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+  	<script src="http:// cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
 
-<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+	<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
 
 </head>
 
@@ -75,10 +69,6 @@ Create an HTML file and paste the following template to it for Button creati
 
 </html>
 
-
-
-
-
 {% endhighlight %}
 
 
@@ -86,8 +76,6 @@ Create an HTML file and paste the following template to it for Button creati
 Add the following styles to add formatting to your page.
 
 {% highlight css %}
-
-
 
        .center {
 
@@ -99,21 +87,13 @@ Add the following styles to add formatting to your page.
 
        }
 
-
-
        td {
 
            padding: 10px;
 
        }
-
-
-
-
-
+	   
 {% endhighlight %}
-
-
 
 You can add Audio controls in your app by using html audio control. Add the following code example inside the Div element. 
 
@@ -135,22 +115,13 @@ You can add Audio controls in your app by using html audio control. Add the foll
 
 <br />
 
-
-
 {% endhighlight %}
 
-
-
-_Note:__Make sure you have an audio file in specified location._ 
-
-
+> Note: Make sure you have an audio file in specified location.
 
 Run the above code example to render the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
-
-
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 ## Create Button Widget
@@ -185,27 +156,17 @@ Add the following code example below the audio control.
 
             <input type="button" id="save" data-role="ejmbutton" />
 
-
-
         </td>
-
-
 
     </tr>
 
 </table>
 
-
-
 {% endhighlight %}
-
-
 
 Run the above code example to render the following output.
 
-{{ '![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0533_iphone5s_spacegrey_landscape.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
-
+![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0533_iphone5s_spacegrey_landscape.png](Getting-Started_images/Getting-Started_img3.png)
 
 ## Set text
 
@@ -243,17 +204,9 @@ Now, set text for all the buttons. You can achieve this by using “data-ej-text
 
 </table>
 
-
-
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0534_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
-
-
-
+![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0534_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img4.png)
 
 ## Saving the Audio file
 
@@ -262,8 +215,6 @@ Simply, a Dialog control is added to alert you when the file is saved.
 For this purpose, use Mobile dialog control that can be rendered with the code example provided as follows.
 
 {% highlight html %}
-
-
 
 <div id="alertdlg" data-role="ejmdialog" data-ej-title="Save" data-ej-mode="alert"
 
@@ -279,11 +230,7 @@ For this purpose, use Mobile dialog control that can be rendered with the code e
 
 </div>
 
-
-
 {% endhighlight %}
-
-
 
 ## Binding Events
 
@@ -371,15 +318,8 @@ Add the following Script to your code.
 
     }
 
-
-
-
-
 {% endhighlight %}
 
- Run the above code example to render the following output. 
+Run the above code example to render the following output. 
 
-{{ '![C:/Users/Dhinesh R/AppData/Roaming/Skype/My Skype Received Files/Screenshots/Screenshots/IMG_0535_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/Dhinesh R/AppData/Roaming/Skype/My Skype Received Files/Screenshots/Screenshots/IMG_0535_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img5.png)

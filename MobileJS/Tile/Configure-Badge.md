@@ -7,7 +7,7 @@ control: Tile (Mobile)
 documentation: ug
 ---
 
-## Configure Badge
+# Configure Badge
 
 The badge property handles badge specific functionalities like enable or disable the badge and setting badge value for the Tile. The “data-ej-badge-text” property is used to set the text instead of number for Tile badge. The “data-ej-badge-maxvalue” and “data-ej-badge-minvalue” attribute are used to set the maximum and minimum badge value to a Tile respectively. 
 
@@ -23,13 +23,8 @@ Refer to the following code example.
 
     </div>
 
-
-
 {% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/badgechanges.png](Configure-Badge_images/Configure-Badge_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/badgechanges.png](Configure-Badge_images/Configure-Badge_img1.png)

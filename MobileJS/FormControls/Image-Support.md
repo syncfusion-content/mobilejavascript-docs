@@ -31,23 +31,13 @@ You can refer the following code example.
 
 </style>
 
-
-
     <!--In body section-->
 
  <input id="sample_button" type="button" data-role="ejmbutton" data-ej-contenttype="image" data-ej-imageclass="image" />
 
-
-
-
-
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abcd1f9.PNG](Image-Support_images/Image-Support_img1.png)' | markdownify }}
-{:.image }
-
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abcd1f9.PNG](Image-Support_images/Image-Support_img1.png)
 
 ## ImagePosition
 
@@ -59,21 +49,10 @@ You can refer to the following code example.
 
 {% highlight html %}
 
-
-
 <!--Set the imagePosition-->
 
-                           <input id="sample_button" type="button" data-role="ejmbutton" data-ej-contenttype="both" data-ej-text="button" data-ej-imageposition="left" data-ej-imageclass="image" />
-
-
-
-
+<input id="sample_button" type="button" data-role="ejmbutton" data-ej-contenttype="both" data-ej-text="button" data-ej-imageposition="left" data-ej-imageclass="image" />
 
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abf8235.PNG](Image-Support_images/Image-Support_img2.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abf8235.PNG](Image-Support_images/Image-Support_img2.png)

@@ -13,19 +13,10 @@ The data-ej-showspinbutton attribute is used to specify whether the Spin Button 
 
 {% highlight html %}
 
-
-
 <input type="number" id="textbox_sample" data-role="ejmnumeric" data-ej-showspinbutton="false"/>
-
-
 
 {% endhighlight %}
 
-
-
 The following screenshot displays the output.
 
-{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Spin-buttons_images/Spin-buttons_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/apoorvah.ramanathan/Desktop/1.png](Spin-buttons_images/Spin-buttons_img1.png)

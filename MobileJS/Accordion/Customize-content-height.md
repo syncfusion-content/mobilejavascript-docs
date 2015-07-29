@@ -7,7 +7,7 @@ control: Accordion (Mobile)
 documentation: ug
 ---
 
-## Customize content height
+# Customize content height
 
 The data-ej-heightadjustmode attribute is used to customize the height of each item’s content. It specifies the height style of the Accordion.  Set the “data-ej-heightadjustmode” attribute with the following possible values.
 
@@ -59,17 +59,8 @@ The data-ej-heightadjustmode attribute is used to customize the height of each i
 
         </div>
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays the customized content height.
 
-
-
-{{ '![C:/Users/isuriyar/Desktop/acc scr/heht.png](Customize-content-height_images/Customize-content-height_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/isuriyar/Desktop/acc scr/heht.png](Customize-content-height_images/Customize-content-height_img1.png)

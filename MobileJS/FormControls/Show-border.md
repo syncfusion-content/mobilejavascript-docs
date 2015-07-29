@@ -15,8 +15,6 @@ Refer to the following code example.
 
 {% highlight html %}
 
-
-
   <input id="textbox_sample" data-role="ejmtextbox" data-ej-watermarktext="Textbox" data-ej-showborder="false">
 
     <input id="textbox_sample" data-role="ejmpassword" data-ej-watermarktext="Password"   data-ej-showborder="false">
@@ -25,15 +23,6 @@ Refer to the following code example.
 
     <input id="textbox_sample" data-role="ejmmaskedit" data-ej-showborder="false" data-ej-watermarktext="Maskedit" data-ej-mask="+1 (999) 999-9999" />
 
-
-
-
-
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8017b82d.PNG](Show-Border_images/Show-Border_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8017b82d.PNG](Show-Border_images/Show-Border_img1.png)
