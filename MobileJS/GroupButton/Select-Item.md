@@ -7,7 +7,7 @@ control: Group Button (Mobile)
 documentation: ug
 ---
 
-## Select Item
+# Select Item
 
 Group Button takes a numeric value given in the data-ej-selecteditemindex attribute and selects the corresponding item that matches the given index. Default value is 0.
 
@@ -43,7 +43,7 @@ Group Button takes a numeric value given in the data-ej-selecteditemindex attrib
 
 The following screenshot displays the Selected Item Index.
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Groupbtton/images/android_1.png](Select-Item_images/Select-Item_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Groupbtton/images/android_1.png](Select-Item_images/Select-Item_img1.png)
+
 
 

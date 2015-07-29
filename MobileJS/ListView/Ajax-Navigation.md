@@ -7,9 +7,9 @@ control: ListView (Mobile)
 documentation: ug
 ---
 
-## Ajax Navigation
+# Ajax Navigation
 
-### EnableAjax
+## EnableAjax
 
 In the ListView widget, when all the items have navigation page to be loaded through Ajax content, then data-ej-enableajax attribute is set to true. 
 
@@ -141,19 +141,19 @@ Load3.html
 
 The following screenshot displays the Enable Ajax:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img1.png)
 
 
 
 
 
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img2.png)' | markdownify }}
-{:.image }
+
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img2.png)
 
 
-> _Note: When the Ajax navigation is only for a specific item, then use this atribute inside item specific configuration. (In JS, use this attribute “data-ej-enableajax” in specific “li” tag in html, while in MVC, set through EnableAjax)._
+
+Note: When the Ajax navigation is only for a specific item, then use this atribute inside item specific configuration. (In JS, use this attribute “data-ej-enableajax” in specific “li” tag in html, while in MVC, set through EnableAjax).
 
 ### AjaxSettings
 
@@ -199,12 +199,12 @@ In Ajax method, the ListView widget loads the content with default jQuery settin
 
 The following screenshots display the Ajax Settings:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img3.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img3.png)
 
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img4.png)' | markdownify }}
-{:.image }
+
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img4.png)
+
 
 
 ### EnableCache

@@ -7,9 +7,9 @@ control: ListView (Mobile)
 documentation: ug
 ---
 
-## Selection
+# Selection
 
-### MultiSelection
+## MultiSelection
 
 ListView has a check list feature that is used to select multiple list items at the same time in the ListView. For this, set data-ej-enablecheckmark to true.
 
@@ -53,17 +53,15 @@ ListView has a check list feature that is used to select multiple list items at 
 
 The following screenshot displays Multiselection:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_5.png](Selection_images/Selection_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_5.png](Selection_images/Selection_img1.png)
+
 
 
 ### PreventSelection
 
 When a specific list item is selected, it is highlighted with an active color. data-ej-preventselection attribute prevents this behavior when set to true. 
 
-> _Note: When the click (select) action is completed, the highlight is undone automatically even if this attribute is set to false._
-
-> 
+Note: When the click (select) action is completed, the highlight is undone automatically even if this attribute is set to false.
 
 {% highlight html %}
 
@@ -145,7 +143,7 @@ data-ej-persistselection attribute is used to highlight the selected item in the
 
 The following screenshot displays Persist Selection:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_6.png](Selection_images/Selection_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_6.png](Selection_images/Selection_img2.png)
+
 
 

@@ -7,11 +7,11 @@ control: Group Button (Mobile)
 documentation: ug
 ---
 
-## Type
+# Type
 
 The Group Button is rendered via button and input tag elements. Group Button rendering is classified into three types: Button type, radio input type, and checkbox input type.
 
-### Button
+## Button
 
 {% highlight html %}
 
@@ -97,7 +97,7 @@ The Group Button is rendered via button and input tag elements. Group Button ren
 
 The following screenshot displays the Group Button.
 
-{{ '![](Type_images/Type_img1.png)' | markdownify }}
-{:.image }
+![](Type_images/Type_img1.png)
+
 
 
