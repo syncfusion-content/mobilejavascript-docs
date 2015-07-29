@@ -7,9 +7,9 @@ control: AutoComplete (Mobile)
 documentation: ug
 ---
 
-## Databinding
+# Databinding
 
-### Local Databinding
+## Local Databinding
 
 The data-ej-datasource attribute is used to provide the suggestion list to the AutoComplete. The list of items are passed as an array and by using the data-ej-datasource attribute, AutoComplete retrieves the suggestion list. The data-ej-fields-text attribute is used to map the specific field name of the given DataSource to render the suggestion list when user type is in the textbox. You can refer to the following code example. Here “window.datasrc” refers to JSON data.
 
@@ -49,11 +49,10 @@ Add the Following script.
 
 The following screenshot displays the DataSource:
 
-{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Databinding_images/Databinding_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/apoorvah.ramanathan/Desktop/1.png](Databinding_images/Databinding_img1.png)
 
 
-### Remote Databinding
+## Remote Databinding
 
 The data-ej-mapper attribute is used to specify the remote URL of the DataSource for the suggestion list. 
 
@@ -69,7 +68,6 @@ The data-ej-mapper attribute is used to specify the remote URL of the DataSource
 
 The following screenshot displays remote data binding:
 
-{{ '![](Databinding_images/Databinding_img2.png)' | markdownify }}
-{:.image }
+![](Databinding_images/Databinding_img2.png)
 
 

@@ -7,7 +7,7 @@ control: AutoComplete (Mobile)
 documentation: ug
 ---
 
-## Mode
+# Mode
 
 The data-ej-mode attribute specifies the textbox type. The possible values are,
 
@@ -28,7 +28,6 @@ Default is used to render the AutoComplete as normal textbox. Search is used to 
 
 The following screenshot displays Mode:
 
-{{ '![](Mode_images/Mode_img1.png)' | markdownify }}
-{:.image }
+![](Mode_images/Mode_img1.png)
 
 

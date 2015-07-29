@@ -7,9 +7,9 @@ control: AutoComplete (Mobile)
 documentation: ug
 ---
 
-## Customize suggestion list
+# Customize suggestion list
 
-### Items count
+## Items count
 
 The data-ej-itemscount attribute specifies the number of items to be displayed in the suggestion list. By default, the value for the attribute is “5”.
 
@@ -25,13 +25,12 @@ The data-ej-itemscount attribute specifies the number of items to be displayed i
 
 The following screenshot displays items count:
 
-{{ '![](Customize-suggestion-list_images/Customize-suggestion-list_img1.png)' | markdownify }}
-{:.image }
+![](Customize-suggestion-list_images/Customize-suggestion-list_img1.png)
 
 
 
 
-### FilterType
+## FilterType
 
 The data-ej-filtertype attribute is used to filter and display the suggestion list based on your requirements. The possible values are, 
 
@@ -50,7 +49,7 @@ By default, the value for the attribute is “contains”.
 
 
 
-### EnableDistinct
+## EnableDistinct
 
 The data-ej-enabledistinct attribute is used to hide or show the duplicate items from the suggestion list. By default, the value for the attribute is “false”.
 
@@ -64,7 +63,7 @@ The data-ej-enabledistinct attribute is used to hide or show the duplicate items
 
 
 
-### Scrolling
+## Scrolling
 
 The data-ej-allowscrolling attribute defines whether to allow the scrolling functionality or not in the suggestion list. Default value is set to true.
 
@@ -80,11 +79,10 @@ The data-ej-allowscrolling attribute defines whether to allow the scrolling func
 
 The following screenshot displays the output:
 
-{{ '![](Customize-suggestion-list_images/Customize-suggestion-list_img2.png)' | markdownify }}
-{:.image }
+![](Customize-suggestion-list_images/Customize-suggestion-list_img2.png)
 
 
-### Sorting 
+## Sorting 
 
 The data-ej-allowsorting attribute enables the sorting operation for the suggestion list. When it is set to true, the suggestion list is displayed in the sorting order that can be given by using the “data-ej-sortorder” attribute.
 
@@ -107,11 +105,10 @@ The possible values are,
 
 The following screenshot displays sorting:
 
-{{ '![](Customize-suggestion-list_images/Customize-suggestion-list_img3.png)' | markdownify }}
-{:.image }
+![](Customize-suggestion-list_images/Customize-suggestion-list_img3.png)
 
 
-### EmptyResult
+## EmptyResult
 
 The data-ej-showemptyresulttext attribute is used to show or hide the suggestion box when there is no suggestion available for the user query. By default, the value is “true”.
 
@@ -131,7 +128,6 @@ The data-ej-emptyresulttext attribute is used to customize the text that is disp
 
 The following screenshot displays empty result
 
-{{ '![](Customize-suggestion-list_images/Customize-suggestion-list_img4.png)' | markdownify }}
-{:.image }
+![](Customize-suggestion-list_images/Customize-suggestion-list_img4.png)
 
 
