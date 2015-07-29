@@ -7,7 +7,7 @@ control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-## Enable native scrolling 
+# Enable native scrolling 
 
 Native scrolling refers to the scrolling behavior specific to native devices and it is controlled by the core scrolling engine of native Operating System. By setting the “data-ej-enablenativescrolling” attribute to true, you can use the default scrolling feature in your device. Disabling this property lets you to use custom scrolling feature. This property is enabled by default for android versions greater than 4.2 and WINRT devices. So, to use Essential JS, you need to set this property to false.
 
@@ -28,8 +28,6 @@ Native scrolling refers to the scrolling behavior specific to native devices and
 
 
     <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="true" /> 
-
-
 
 {% endhighlight %}
 

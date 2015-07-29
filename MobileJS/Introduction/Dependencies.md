@@ -7,7 +7,7 @@ control: Introduction
 documentation: ug
 ---
 
-## Dependencies
+# Dependencies
 
 Scripts and Stylesheets are the two essential requirements to render any of the Syncfusion JavaScript components in a HTML page. These components mainly relies on the following 3 common libraries –
 

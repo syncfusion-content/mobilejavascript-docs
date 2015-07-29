@@ -7,13 +7,11 @@ control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-## Controlling through keys
+# Controlling through keys
 
 The “data-ej-enablekeys” attribute lets you decide whether the scrollpanel can be controlled by using Arrow keys or not. 
 
 {% highlight html %}
-
-
 
     <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
@@ -32,8 +30,6 @@ The “data-ej-enablekeys” attribute lets you decide whether the scrollpanel c
 
 
     <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablekeys="false" data-ej-enablenativescrolling="false" />
-
-
 
 {% endhighlight %}
 

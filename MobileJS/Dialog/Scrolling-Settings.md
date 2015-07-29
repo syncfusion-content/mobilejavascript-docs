@@ -7,9 +7,9 @@ control: Dialog (Mobile)
 documentation: ug
 ---
 
-## Scrolling Settings
+# Scrolling Settings
 
-### AllowScrolling
+## AllowScrolling
 
 The data-ej-allowscrolling attribute is used to enable scrollingbehavior for the Dialog content. The default value is true.
 
@@ -81,11 +81,11 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{{ '![](Scrolling-Settings_images/Scrolling-Settings_img1.png)' | markdownify }}
-{:.image }
+![](Scrolling-Settings_images/Scrolling-Settings_img1.png)
 
 
-### CheckDOMChanges
+
+## CheckDOMChanges
 
 The data-ej-checkdomchanges attribute is used to refresh the scroll panel rendered in the control when elements are added dynamically. The default value is false.
 
@@ -145,11 +145,11 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{{ '![](Scrolling-Settings_images/Scrolling-Settings_img2.png)' | markdownify }}
-{:.image }
+![](Scrolling-Settings_images/Scrolling-Settings_img2.png)
 
 
-### EnableNativeScrolling
+
+## EnableNativeScrolling
 
 The data-ej-enablenativescrolling attribute is used to enable native (built-in browser) scrolling functionality of the devices when scrolling is allowed. The default value is false.
 
@@ -207,7 +207,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{{ '![](Scrolling-Settings_images/Scrolling-Settings_img3.png)' | markdownify }}
-{:.image }
+![](Scrolling-Settings_images/Scrolling-Settings_img3.png)
+
 
 

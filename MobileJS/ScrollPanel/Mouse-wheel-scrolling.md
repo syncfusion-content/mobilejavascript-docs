@@ -7,15 +7,13 @@ control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-## Mouse wheel scrolling
+# Mouse wheel scrolling
 
 The “data-ej-enablemousewheel” is a boolean attribute that lets you decide whether or not the ScrollPanel can be controlled by using mouse wheel. By default, this property is set to true.
 
 You can adjust the scrolling speed with respect to Mouse wheel speed. This can be achieved by using “data-ej-wheelspeed” attribute. By default, this property is set to 16.
 
 {% highlight html %}
-
-
 
     <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
@@ -32,10 +30,6 @@ You can adjust the scrolling speed with respect to Mouse wheel speed. This can b
 
 
     <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablemousewheel=”true” data-ej-wheelspeed=”20” data-ej-enablenativescrolling="false"/>	
-
-
-
-
 
 {% endhighlight %}
 

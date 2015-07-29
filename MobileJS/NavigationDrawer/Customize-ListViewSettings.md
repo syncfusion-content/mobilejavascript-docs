@@ -7,7 +7,7 @@ control: Navigation Drawer (Mobile)
 documentation: ug
 ---
 
-## Customize ListViewSettings
+# Customize ListViewSettings
 
 The navigation panel accommodates any template, but most of the use cases requires list view control. So built-in support is provided in Navigation Drawer to render ListView control by setting data-ej-enablelistview attribute as true. You can customize all the features available in ListView. For example you can customize the width of the list view.
 
@@ -75,8 +75,6 @@ Refer to the following code example.
 
     </div>
 
-
-
 {% endhighlight %}
 
 
@@ -85,7 +83,7 @@ Refer to the script section to update the page content while clicking the item i
 
 The following screenshot illustrates the output.
 
-{{ '![](Customize-ListViewSettings_images/Customize-ListViewSettings_img1.png)' | markdownify }}
-{:.image }
+![](Customize-ListViewSettings_images/Customize-ListViewSettings_img1.png)
+
 
 

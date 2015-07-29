@@ -7,7 +7,7 @@ control: Password (Mobile)
 documentation: ug
 ---
 
-## Windows Specific Customization
+# Windows Specific Customization
 
 The AllowReset property is used to reset the password value in Windows rendermode. The default value is “True”.
 
@@ -23,7 +23,7 @@ Refer to the following code example.
 
 
 
-{{ '![](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
+![](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)
+
 
 

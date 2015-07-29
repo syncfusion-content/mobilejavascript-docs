@@ -14,8 +14,8 @@ In this section, you can learn how to create Scroll Panel for your mobile app.
 Essential Scroll panel for mobile JavaScript is an interactive panel for scrolling. The Scroll panel control wraps its contents in a scrollable area as an object in a GUI with which continuous text, pictures can be scrolled and viewed even if it does not fit into the space of a mobile or computer display.
 
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
+
 
 
 ## Create the Scroll Panel
@@ -88,10 +88,6 @@ Create an HTML file and paste the following template to it.
 
 </html>
 
-
-
-
-
 {% endhighlight %}
 
 
@@ -128,10 +124,6 @@ Add the following styles to display image and align the content.
 
             }
 
-
-
-
-
 {% endhighlight %}
 
 
@@ -140,8 +132,8 @@ Run this code for the following output. For more details, refer to "Common Getti
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
+
 
 
 ## Add Scroll Panel
@@ -150,13 +142,8 @@ To set Scroll Panel for a particular content, you need to specify the “data-ro
 
 {% highlight html %}
 
-
-
 <div id="ScrollPanel" data-role="ejmScrollPanel" data-ej-target="content">
  </div>
-
-
-
 
 {% endhighlight %}
 
@@ -172,16 +159,14 @@ The “data-ej-targetheight” and “data-ej-targetwidth” describes the heigh
    data-ej-targetwidth="300" data-ej-targetheight="400">
    /div>
 
-
-
 {% endhighlight %}
 
 
 
 Run the above code to render the following output. For more details, refer to "Common Getting Started" section.
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
+
 
 
 By using above steps, you can create scrollable content in a page.
@@ -198,10 +183,6 @@ The target content can be scrolled vertically or horizontally or in both ways. T
              data-ej-targetwidth="300" data-ej-targetheight="300" 
              data-ej-enablevrscroll="true" data-ej-enablehrscroll="true">
         </div>
-
-
-
-
 
 {% endhighlight %}
 

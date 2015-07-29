@@ -7,15 +7,13 @@ control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-## Customize initial scrolling position	
+# Customize initial scrolling position	
 
 The “data-ej-startx” and “data-ej-starty” attributes allow you to specify initial position of the scrolling content along x-axis and y-axis respectively. By default, these properties’ values are set to 0. Refer to the following code example.
 
 {% highlight html %}
 
-
-
-    <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
+   <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
     <div id="maincontent" style="padding:10px">
 
@@ -31,16 +29,12 @@ The “data-ej-startx” and “data-ej-starty” attributes allow you to specif
 
     <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-starty=”50” />
 
-
-
-
-
 {% endhighlight %}
 
 The following screenshot displays the ScrollPanel:
 
-{{ '![](Customize-initial-scrolling-position_images/Customize-initial-scrolling-position_img1.png)' | markdownify }}
-{:.image }
+![](Customize-initial-scrolling-position_images/Customize-initial-scrolling-position_img1.png)
+
 
 
 

@@ -7,15 +7,11 @@ control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-## Disabling touch events
+# Disabling touch events
 
 The “data-ej-disabletouch” is a boolean attribute that is used to enable or disable touch events. By default, this property is set to false.
 
-
-
 {% highlight html %}
-
-
 
     <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
@@ -32,8 +28,6 @@ The “data-ej-disabletouch” is a boolean attribute that is used to enable or 
 
 
     <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-disabletouch="true" />
-
-
 
 {% endhighlight %}
 
