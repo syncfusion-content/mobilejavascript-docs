@@ -7,7 +7,7 @@ control: Dialog (Mobile)
 documentation: ug
 ---
 
-## Title
+# Title
 
 The data-ej-title attribute is used to set the title text of the Dialog box. 
 
@@ -67,7 +67,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{{ '![](Title_images/Title_img1.png)' | markdownify }}
-{:.image }
+![](Title_images/Title_img1.png)
+
 
 

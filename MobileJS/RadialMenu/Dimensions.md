@@ -7,7 +7,7 @@ control: Radial Menu (Mobile)
 documentation: ug
 ---
 
-## Dimensions
+# Dimensions
 
 You can customize Radial Menu width (radius) by using data-ej-radius attribute and its position by using data-ej-position attribute.
 
@@ -19,8 +19,6 @@ The Possible values for Position property are
 * Rightcenter   
 * Righttop
 * Rightbottom
-
-
 
 {% highlight html %}
 
@@ -53,10 +51,6 @@ The Possible values for Position property are
         </ul>
 
     </div>
-
-
-
-
 
 {% endhighlight %}
 
@@ -93,16 +87,13 @@ Refer the following code examples for script section
         }
 
 
-
-
-
 {% endhighlight %}
 
 
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![](Dimensions_images/Dimensions_img1.png)' | markdownify }}
-{:.image }
+![](Dimensions_images/Dimensions_img1.png)
+
 
 

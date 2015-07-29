@@ -7,7 +7,7 @@ control: Menu (Mobile)
 documentation: ug
 ---
 
-## Scrolling 	
+# Scrolling 	
 
 The data-ej-allowscrolling attribute defines whether to allow the scrolling behavior or not when the number of Menu items exceed the specified Menu height. To display the scrollbars when data-ej-allowscrolling is enabled, set the data-ej-showscrollbars attribute to true. You can customize the height and width of the Menu control by setting the desired value to data-ej-height and data-ej-width attributes respectively.
 
@@ -51,7 +51,7 @@ The data-ej-allowscrolling attribute defines whether to allow the scrolling beha
 
 The following screenshot displays Scrolling:
 
-{{ '![ShowScrollBars](Scrolling_images/Scrolling_img1.png)' | markdownify }}
-{:.image }
+![ShowScrollBars](Scrolling_images/Scrolling_img1.png)
+
 
 

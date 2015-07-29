@@ -7,39 +7,31 @@ control: Introduction
 documentation: ug
 ---
 
-## CDN
+# CDN
 
 The [CDN](http://en.wikipedia.org/wiki/Content_delivery_network) links are provided individually for all the Scripts and Stylesheets that provide easier access to Syncfusion JavaScript components. 
 
 {% highlight text %}
 
-> _Note: All the provided cdn links can be accessed either through_ _http_ _or_ _https__._
+> Note: All the provided cdn links can be accessed either through _http_ or _https_.
 
 
 
 {% endhighlight %}
 
-### CDN Script links
+## CDN Script links
 
-#### External dependency libraries
+### External dependency libraries
 
 The first three common script libraries listed in the following table are more essential and mandatory to render any of the Syncfusion widgets on the application module. The basic syntax is as follows,
 
 {% highlight text %}
 
-
-
 http://cdn.syncfusion.com/js/assets/external/[file name]
-
-
 
 Example:
 
 http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js
-
-
-
-
 
 {% endhighlight %}
 
@@ -97,21 +89,15 @@ Jquery.validate.unobtrusive</td><td>
 To enable unobtrusive validation options in data-* attributes.</td><td>
 {{ '[http://cdn.syncfusion.com/js/assets/external/jquery.validate.unobtrusive.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.validate.unobtrusive.min.js)' | markdownify }}</td></tr>
 </table>
-#### Syncfusion Dependency Libraries - Based on latest build version
+### Syncfusion Dependency Libraries - Based on latest build version
 
 The CDN script files are maintained for each version of the Essential Studio individually. Refer to the following syntax.
 
-
-
 http://cdn.syncfusion.com/[version]/js/mobile/[file name]
-
-
 
 For example, to access the ej.mobile.all.min.js file in 13.1.0.21 version– 
 
 [https://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](https://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)
-
-
 
 _Property Table_
 
@@ -144,11 +130,7 @@ Provides complete support for Knockout JS.</td><td>
 </table>
 The Knockout and angular dependencies can be accessed through the following syntax,
 
-
-
 http://cdn.syncfusion.com/[version]/js/[file name]
-
-
 
 For example, to access the ej.widget.angular.min.js file in 13.1.0.21 version– 
 
@@ -156,11 +138,9 @@ For example, to access the ej.widget.angular.min.js file in 13.1.0.21 version–
 
 
 
-### CDN Stylesheet links
+## CDN Stylesheet links
 
 The CDN links for all the css files (both core & theme related) are depicted together in the following table. Refer to the following syntax:
-
-
 
 http://cdn.syncfusion.com/[version]/js/mobile/[file name]
 
@@ -213,7 +193,8 @@ Windows Default</td><td colspan = "2">
 To apply the Windows Default theme specifically, refer to both core and theme css files related to it.</td><td>
 {{ '[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.windows-core.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.windows-core.min.css)' | markdownify }}{{ '[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.windows-default.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.windows-default.min.css)' | markdownify }}</td></tr>
 </table>
-### Referring local Scripts & CSS, when CDN fails
+
+## Referring local Scripts & CSS, when CDN fails
 
 Sometimes, CDN links may go down due to network or connection problems. On such scenarios, you can refer to the local scripts and css files dynamically in the application by checking if the scripts and css files loaded through CDN returns undefined. If it returns undefined, the local scripts gets referred, else the cdn links work fine as illustrated in the following code example.
 

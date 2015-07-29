@@ -7,7 +7,7 @@ control: Rotator (Mobile)
 documentation: ug
 ---
 
-## Orientation
+# Orientation
 
 The data-ej-orientation attribute is used to swipe the Rotator in horizontal and vertical direction. By default value of orientation is horizontal.
 
@@ -19,13 +19,10 @@ For vertical orientation
 * right
 
 
-
 For horizontal orientation
 
 * top
 * bottom
-
-
 
 Refer to the following code example.
 
@@ -90,14 +87,11 @@ Refer to the following code example.
     </div>
 
 
-
-
-
 {% endhighlight %}
 
  Add the following styles to the style section. 
 
-> _Note: You can use the following styles for all the other samples explained as follows._
+> Note: You can use the following styles for all the other samples explained as follows.
 
 
 
@@ -165,7 +159,7 @@ Refer to the following code example.
 
 
 
-{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-4.png](Orientation_images/Orientation_img1.png)' | markdownify }}
-{:.image }
+![](Orientation_images/Orientation_img1.png)
+
 
 

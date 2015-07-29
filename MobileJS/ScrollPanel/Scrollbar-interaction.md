@@ -13,8 +13,6 @@ Normally, the content is scrolled by dragging (touch move action) over the scrol
 
 {% highlight html %}
 
-
-
     <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
     <div id="maincontent" style="padding:10px">
@@ -30,8 +28,6 @@ Normally, the content is scrolled by dragging (touch move action) over the scrol
     </div>
 
     <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enableinteraction=true data-ej-enablenativescrolling="false" />	
-
-
 
 {% endhighlight %}
 

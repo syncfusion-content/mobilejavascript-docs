@@ -7,7 +7,7 @@ control: Rating (Mobile)
 documentation: ug
 ---
 
-## Customize shape
+# Customize shape
 
 The data-ej-shape attribute is used to specify the shape of the Rating. The possible values are,
 
@@ -37,8 +37,8 @@ The data-ej-shapeheight attribute specifies the height for the Rating shape. The
 
 The following screenshot displays the output.                        
 
-{{ '![C:/Users/Vignesh Kumar/Desktop/1.png](Customize-shape_images/Customize-shape_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/Vignesh Kumar/Desktop/1.png](Customize-shape_images/Customize-shape_img1.png)
+
 
 
 

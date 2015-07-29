@@ -7,7 +7,7 @@ control: Navigation Drawer (Mobile)
 documentation: ug
 ---
 
-## Customize Scrollsettings 
+# Customize Scrollsettings 
 
 Built-in scrolling support is provided to enable scrolling, when the number of items in the navigation panel exceeds the device height. It can be enabled by setting data-ej-allowscrolling attribute as true. You can customize all the properties of scroll panel control to render in Navigation Drawer. For example by setting data-ej-showscrollbars attribute as false, you can hide the scrollbar in Navigation Drawer.
 
@@ -77,15 +77,11 @@ Refer to the following code example.
 
         </div>
 
-
-
-
-
 {% endhighlight %}
 
 
 
-Script Section
+## Script Section
 
 You can update the content and close the Navigation Drawer, once the item is selected from the list.
 

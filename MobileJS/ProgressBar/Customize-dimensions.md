@@ -7,7 +7,7 @@ control: Progress Bar (Mobile)
 documentation: ug
 ---
 
-## Customize dimensions
+# Customize dimensions
 
 By setting an integer value to data-ej-height attribute, you can change the height of the ProgressBar. The width of the ProgressBar is changed by using data-ej-width attribute. You can refer to the following code examples.
 
@@ -15,13 +15,11 @@ By setting an integer value to data-ej-height attribute, you can change the heig
 
 <div id="progressbar_sample" data-role="ejmprogress" data-ej-height=10></div>
 
-
-
 {% endhighlight %}
 
 Output of Customize value:
 
-{{ '![F:/Progrimg/ios7_phone - Copy (2).png](Customize-dimensions_images/Customize-dimensions_img1.png)' | markdownify }}
-{:.image }
+![F:/Progrimg/ios7_phone - Copy (2).png](Customize-dimensions_images/Customize-dimensions_img1.png)
+
 
 

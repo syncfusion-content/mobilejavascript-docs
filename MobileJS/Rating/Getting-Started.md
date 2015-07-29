@@ -9,14 +9,10 @@ documentation: ug
 
 # Getting Started
 
-
-
 Essential JavaScript Rating control for Mobile provides an intuitive Rating experience that allows you to select a number of stars that represent a Rating.
 
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
-
+![](Getting-Started_images/Getting-Started_img1.png)
 
 ## Create the necessary layout
 
@@ -160,10 +156,6 @@ Add the following styles to display the image.
 
         }
 
-
-
-
-
 {% endhighlight %}
 
 
@@ -172,8 +164,8 @@ Run the above code example and rate the application by selecting stars. You will
 
 
 
-{{ '![IMG_0180](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![IMG_0180](Getting-Started_images/Getting-Started_img2.png)
+
 
 
 ## Set Precision
@@ -187,15 +179,9 @@ You can customize the Rating Precision based on your requirement. You can custom
 
 </div>
 
-
-
 {% endhighlight %}
 
-
-
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
-
+![](Getting-Started_images/Getting-Started_img3.png)
 
 From the above steps, you have learnt how to add a Mobile Rating control widget using JavaScript for your application Rating scenario. There are more customization properties other than the one used here.
 

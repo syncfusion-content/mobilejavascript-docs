@@ -7,7 +7,7 @@ control: RadioButton (Mobile)
 documentation: ug
 ---
 
-## Customize Label
+# Customize Label
 
 Specifies the text content for the RadioButton. In previous programs, separate labels are created for each RadioButton. Now, you can set the text for the RadioButton by using the text property. So, here you do not have to add label tag for each RadioButton in the HTML code.
 
@@ -129,7 +129,7 @@ Specifies the text content for the RadioButton. In previous programs, separate l
 
 The following screenshot displays the customized labels in the RadioButton.
 
-{{ '![](Customize-Label_images/Customize-Label_img1.png)' | markdownify }}
-{:.image }
+![](Customize-Label_images/Customize-Label_img1.png)
+
 
 

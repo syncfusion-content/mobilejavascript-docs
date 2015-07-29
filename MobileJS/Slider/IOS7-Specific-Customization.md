@@ -7,11 +7,11 @@ control: Slider (Mobile)
 documentation: ug
 ---
 
-## IOS7 Specific Customization
+# IOS7 Specific Customization
 
 You can set the IOS7 specific properties to the control by accessing IOS7 property.
 
-### Thumbstyle
+## Thumbstyle
 
 The data-ej-thumbstyle attribute is used to render the Slider knob in two different styles.  Default value for the attribute is set to “normal”.
 
@@ -34,7 +34,7 @@ The possible values are,
 
 The following screenshot displays the Slider iOS7:
 
-{{ '![C:/Users/dineshr/Desktop/thumb.png](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
+![](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)
+
 
 

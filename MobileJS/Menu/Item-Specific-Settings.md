@@ -7,7 +7,7 @@ control: Menu (Mobile)
 documentation: ug
 ---
 
-## Item Specific Settings
+# Item Specific Settings
 
 In Menu widget, the following settings are available for easy customization of each Menu item as per your requirement. In JS, you can set this to the li item with ‘data-ej’ as prefix. Following are the detailed explanations.
 
@@ -15,9 +15,9 @@ _Settings for easy customization_
 
 <table>
 <tr>
-<td>
-Settings</td><td>
-Properties</td></tr>
+<th>
+Settings</th><th>
+Properties</th></tr>
 <tr>
 <td>
 Item Customization</td><td>

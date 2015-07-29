@@ -11,11 +11,7 @@ documentation: ug
 
 Essential JavaScript Mobile Slider provides the selection of a single value or a range of values, using an interface with sliding handles.  The following example shows you how to create a Shopping Cart App and through that learn the features in the Slider widget.
 
-
-
-{{ '![1](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
-
+![1](Getting-Started_images/Getting-Started_img1.png)
 
 ## Create the layout for Shopping Cart App
 
@@ -155,14 +151,12 @@ Create an HTML file and add the following template to the HTML file.
 
 </html>
 
-
-
 {% endhighlight %}
 
 Execute the above code example to render the following output.
 
-{{ '![2](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![2](Getting-Started_images/Getting-Started_img2.png)
+
 
 
 ## Create Slider control
@@ -177,16 +171,14 @@ Refer to the following code example.
 
         <div id="slider" data-role="ejmslider" data-ej-minvalue="100" data-ej-maxvalue="5000" data-ej-incrementstep="100"></div>
 
-
-
 {% endhighlight %}
 
 
 
 Run the above code example to render the following output.
 
-{{ '![3](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![3](Getting-Started_images/Getting-Started_img3.png)
+
 
 
 ## Create the Range Slider
@@ -199,16 +191,14 @@ Add the following code to the Slider <div>.
 
 <div id="slider" data-role="ejmslider" data-ej-minvalue="100" data-ej-maxvalue="5000" data-ej-enablerange="true" data-ej-values="[300,1500]" data-ej-incrementstep="100"></div>
 
-
-
 {% endhighlight %}
 
 
 
 Execute the above code example to render the following output.
 
-{{ '![4](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![4](Getting-Started_images/Getting-Started_img4.png)
+
 
 
 ## Handle events
@@ -219,19 +209,13 @@ In this scenario, when you change the Slider value, the corresponding values are
 
 <div id="slider" data-role="ejmslider" data-ej-minvalue="100" data-ej-maxvalue="5000" data-ej-enablerange="true" data-ej-values="[300,1500]" data-ej-slide="processOnSlide" data-ej-incrementstep="100"></div>
 
-
-
 {% endhighlight %}
 
 
 
 From the Slider’s getValue API, you can get the present value of both the Slider handles, anytime. Add the following code example to the <script> tag. 
 
-
-
 {% highlight js %}
-
-
 
 //to display the slider value in span element (label) at initialize
 
@@ -273,14 +257,12 @@ From the Slider’s getValue API, you can get the present value of both the Slid
 
 {% endhighlight %}
 
-
-
 Execute the above code to render the following output.
 
 
 
-{{ '![5](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
+![5](Getting-Started_images/Getting-Started_img5.png)
+
 
 
 In this scenario, a dialog is displayed to provide information about the search when Submit is clicked. Add the following code to the <script> tag.
@@ -305,8 +287,6 @@ In this scenario, a dialog is displayed to provide information about the search 
 
         }
 
-
-
 {% endhighlight %}
 
 
@@ -315,7 +295,7 @@ Execute the above code example to render the following output, when you click Su
 
 
 
-{{ '![6](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img6.png)
+
 
 
