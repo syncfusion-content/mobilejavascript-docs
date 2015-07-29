@@ -7,7 +7,7 @@ control: Header and Footer (Mobile)
 documentation: ug
 ---
 
-## Header TemplateId
+# Header TemplateId
 
 data-ej-templateid is used to define the ID of the template element where you can specify the content to render in the control.
 
@@ -29,7 +29,7 @@ data-ej-templateid is used to define the ID of the template element where you ca
 
 The following screenshot displays the Template ID
 
-{{ '![F:/headertemplate.png](Header-TemplateId_images/Header-TemplateId_img1.png)' | markdownify }}
-{:.image }
+![F:/headertemplate.png](Header-TemplateId_images/Header-TemplateId_img1.png)
+
 
 

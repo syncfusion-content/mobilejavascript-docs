@@ -7,11 +7,11 @@ control: SplitPane (Mobile)
 documentation: ug
 ---
 
-## iOS7 and Windows Specific Customization
+# iOS7 and Windows Specific Customization
 
 You can set the android and windows specific properties to the control by using the following settings.
 
-### LeftHeader settings
+## LeftHeader settings
 
 You can show/hide the leftpane header by setting the “data-ej-showleftpaneheader” attribute as true/false. Default value is true.
 
@@ -96,14 +96,14 @@ The following screenshot illustrates the output for iOS7 and Windows.
 
 iOS7
 
-{{ '![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
+![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img1.png)
+
 
 
 Windows
 
-{{ '![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img2.png)' | markdownify }}
-{:.image }
+![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img2.png)
+
 
 
 Likewise, you can customize all other properties of header. For more reference, check the complete documentation of header. 
@@ -160,14 +160,14 @@ Refer to the script section and page content section to load the right pane cont
 
 iOS7
 
-{{ '![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img3.png)' | markdownify }}
-{:.image }
+![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img3.png)
+
 
 
 Windows
 
-{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML636b64a.PNG](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img4.png)' | markdownify }}
-{:.image }
+![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML636b64a.PNG](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img4.png)
+
 
 
 Likewise, you can customize all other properties of header. For more reference, check the complete documentation of header.

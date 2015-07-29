@@ -7,9 +7,9 @@ control: Group Button (Mobile)
 documentation: ug
 ---
 
-## Customize Image
+# Customize Image
 
-### ImageClass
+## ImageClass
 
 By using this attribute, you can add specific style to each Group Button item. When a string value is given to ‘data-ej-imageclass’ attribute, it adds as a class in the particular item. You can add an image or style by using that class. To achieve this, you can add ‘data-ej-imageclass’ attribute to every item.
 
@@ -79,11 +79,11 @@ Add the following styles
 
 The following screenshot displays the Image Class.
 
-{{ '![](Customize-Image_images/Customize-Image_img1.png)' | markdownify }}
-{:.image }
+![](Customize-Image_images/Customize-Image_img1.png)
 
 
-### ImageUrl
+
+## ImageUrl
 
 data-ej-imageurl attribute takes the image given in ‘data-ej-imageurl’ attribute and displays the image before the text in Group Button item.
 
@@ -119,7 +119,7 @@ data-ej-imageurl attribute takes the image given in ‘data-ej-imageurl’ attri
 
 The following screenshot displays the Image URL
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Groupbtton/images/ios7_4.png](Customize-Image_images/Customize-Image_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Groupbtton/images/ios7_4.png](Customize-Image_images/Customize-Image_img2.png)
+
 
 

@@ -7,11 +7,11 @@ control: Header and Footer (Mobile)
 documentation: ug
 ---
 
-## Android specific customization
+# Android specific customization
 
 You can set the Android Specific properties to the control by accessing Android property.
 
-### BackButtonImageClass
+## BackButtonImageClass
 
 This feature specifies the class name in which an image for the back button is set.  Refer to the following code example.
 
@@ -49,8 +49,8 @@ Add the following styles to the content.
 
 The following screenshot displays the Android Specific customization:
 
-{{ '![F:/android_phone.png](Android-specific-customization_images/Android-specific-customization_img1.png)' | markdownify }}
-{:.image }
+![F:/android_phone.png](Android-specific-customization_images/Android-specific-customization_img1.png)
+
 
 
 

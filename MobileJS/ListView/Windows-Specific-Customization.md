@@ -7,7 +7,7 @@ control: ListView (Mobile)
 documentation: ug
 ---
 
-## Windows Specific Customization
+# Windows Specific Customization
 
 You can set the Windows Specific properties to the control by accessing Windows property. data-ej-preventskew attribute is used to disable the skewing effect while clicking on the list item. 
 
@@ -51,7 +51,7 @@ You can set the Windows Specific properties to the control by accessing Windows 
 
 The following screenshot displays the Windows Specific Customization:
 
-{{ '![preventScew](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
+![preventScew](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)
+
 
 

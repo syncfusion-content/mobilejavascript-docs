@@ -7,9 +7,9 @@ control: Header and Footer (Mobile)
 documentation: ug
 ---
 
-## Customize Footer Right Button
+# Customize Footer Right Button
 
-### ShowRightButton
+## ShowRightButton
 
 In Footer control, you can view the next page by using the ShowRightButton. You can manually enable/disable the button by setting true/false using data-ej-showrightbutton attribute.
 
@@ -26,7 +26,7 @@ In Footer control, you can view the next page by using the ShowRightButton. You 
 The following screenshot displays the output.
 
 {{ '![](Customize-Footer-Right-Button_images/Customize-Footer-Right-Button_img1.png)' | markdownify }}
-{:.image }
+
 
 
 
@@ -47,8 +47,8 @@ To specify the caption (text) for Footer Right Button, set data-ej-rightbuttonca
 
 The following screenshot displays the output.
 
-{{ '![](Customize-Footer-Right-Button_images/Customize-Footer-Right-Button_img2.png)' | markdownify }}
-{:.image }
+![](Customize-Footer-Right-Button_images/Customize-Footer-Right-Button_img2.png)
+
 
 
 

@@ -11,11 +11,11 @@ documentation: ug
 
 The Essential JavaScript Group Button helps to display multiple buttons that is stacked together in a single line and looks like a navigation component. The following sections help you to create Group Button widget using a Mail App.
 
-{{ '![C:/Users/labuser/Desktop/a.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/Desktop/a.png](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create Layout 
+
+##Create Layout 
 
 Essential JavaScript Group Button widget can be created using the HTML input elements with type “radio” or “checkbox”. In the Mail App, you can use the radio input element to view the Mail content with three options “All”, “Read” and “Unread”. The respective contents are displayed on clicking the specific button in the group. 
 
@@ -73,7 +73,7 @@ Create an HTML file and add the following template to the HTML file for Group Bu
 
 Create Group Button
 
-To create Group Button control you can set data-role attribute to ejmgroupbutton to a <div> element and you can include multiple buttons through input element. Also, specify the type and name attribute in the <input> element. Refer to the following code.
+To create Group Button control you can set data-role attribute to ejmgroupbutton to a  element and you can include multiple buttons through input element. Also, specify the type and name attribute in the "input" element. Refer to the following code.
 
 {% highlight html %}
 
@@ -231,11 +231,11 @@ Use the following styles for content.
 
 Execute this code to render the following output. 
 
-{{ '![C:/Users/labuser/Desktop/a.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/Desktop/a.png](Getting-Started_images/Getting-Started_img2.png)
 
 
-Handle Events
+
+##Handle Events
 
 In the Mail App, while navigating through different buttons the content view is changed using touchEnd event. You can specify data-ej-touchend attribute. Using this event you can handle the functionalities that are necessary to switch the view. Refer to the following code.
 
@@ -431,15 +431,15 @@ Execute this code to render the following output.
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+
+![](Getting-Started_images/Getting-Started_img4.png)
 
 
-{{ '![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
+
+![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img5.png)
+
 
 

@@ -7,9 +7,9 @@ control: Header and Footer (Mobile)
 documentation: ug
 ---
 
-## Customize Footer Left Button
+# Customize Footer Left Button
 
-### ShowLeftButton
+## ShowLeftButton
 
 In Footer control, you can view the previous page by using the data-ej-showleftbutton. You can manually enable/disable the button by setting the true/false using data-ej-showleftbutton attribute.
 
@@ -23,8 +23,8 @@ In Footer control, you can view the previous page by using the data-ej-showleftb
 
 The following screenshot displays the output.
 
-{{ '![](Customize-Footer-Left-Button_images/Customize-Footer-Left-Button_img1.png)' | markdownify }}
-{:.image }
+![](Customize-Footer-Left-Button_images/Customize-Footer-Left-Button_img1.png)
+
 
 
 
@@ -47,8 +47,8 @@ To specify the caption (text) for Footer left button, set data-ej-leftbuttoncapt
 
 The following screenshot displays the output.
 
-{{ '![](Customize-Footer-Left-Button_images/Customize-Footer-Left-Button_img2.png)' | markdownify }}
-{:.image }
+![](Customize-Footer-Left-Button_images/Customize-Footer-Left-Button_img2.png)
+
 
 
 

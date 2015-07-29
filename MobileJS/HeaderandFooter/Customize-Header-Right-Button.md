@@ -7,9 +7,9 @@ control: Header and Footer (Mobile)
 documentation: ug
 ---
 
-## Customize Header Right Button
+# Customize Header Right Button
 
-### RightButtonCaption 
+## RightButtonCaption 
 
 To specify the caption (text) for HeaderRight Button, set “data-ej-rightbuttoncaption” attribute. By default, the value is set to “Right”.
 
@@ -25,8 +25,8 @@ To specify the caption (text) for HeaderRight Button, set “data-ej-rightbutton
 
 The following screenshot displays the Right Button Caption:
 
-{{ '![](Customize-Header-Right-Button_images/Customize-Header-Right-Button_img1.png)' | markdownify }}
-{:.image }
+![](Customize-Header-Right-Button_images/Customize-Header-Right-Button_img1.png)
+
 
 
 
@@ -54,8 +54,8 @@ The possible values are,
 
 The following screenshot displays the Right Button Style:
 
-{{ '![F:/hdr.png](Customize-Header-Right-Button_images/Customize-Header-Right-Button_img2.png)' | markdownify }}
-{:.image }
+![F:/hdr.png](Customize-Header-Right-Button_images/Customize-Header-Right-Button_img2.png)
+
 
 
 

@@ -7,7 +7,7 @@ control: Header and Footer (Mobile)
 documentation: ug
 ---
 
-## Footer Title
+# Footer Title
 
 You can enable/disable the title by using data-ej-showtitle attribute. data-ej-title attribute is used to set the title text for the Footer.
 
@@ -23,8 +23,8 @@ You can enable/disable the title by using data-ej-showtitle attribute. data-ej-t
 
 The following screenshot displays the output.
 
-{{ '![](Footer-Title_images/Footer-Title_img1.png)' | markdownify }}
-{:.image }
+![](Footer-Title_images/Footer-Title_img1.png)
+
 
 
 

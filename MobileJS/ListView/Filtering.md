@@ -7,7 +7,7 @@ control: ListView (Mobile)
 documentation: ug
 ---
 
-## Filtering
+# Filtering
 
 Filtering is one of the key features in the ListView control. Filtering option is added into the ListView control when the data-ej-enablefiltering attribute is set to true. This enables a simple interface to filter items from a large collection of ListView items.
 
@@ -51,13 +51,13 @@ Filtering is one of the key features in the ListView control. Filtering option i
 
 The following screenshots display the Filtering:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_12.png](Filtering_images/Filtering_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_12.png](Filtering_images/Filtering_img1.png)
 
 
 
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_13.png](Filtering_images/Filtering_img2.png)' | markdownify }}
-{:.image }
+
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_13.png](Filtering_images/Filtering_img2.png)
+
 
 

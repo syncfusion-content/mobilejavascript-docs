@@ -7,17 +7,17 @@ control: SplitPane (Mobile)
 documentation: ug
 ---
 
-## Android Specific Customization
+# Android Specific Customization
 
 You can set the android specific properties to the control by using the following settings.
 
-{{ '![C:/Users/ApoorvahR/Desktop/Note.png](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
- _Note: In iOS and windows, header control is used to set the title for both left pane and right panel. But in android, toolbar control is used as per the native user interface guideline._
+![C:/Users/ApoorvahR/Desktop/Note.png](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)
+
+Note: In iOS and windows, header control is used to set the title for both left pane and right panel. But in android, toolbar control is used as per the native user interface guideline.
 
 
 
-### Customize Toolbar
+## Customize Toolbar
 
 The “data-ej-showtoolbar” attribute is used to show/hide the toolbar when the control is rendered in android mode. You can customize toolbar title by using this toolbarSettings property.
 
@@ -61,8 +61,8 @@ The “data-ej-showtoolbar” attribute is used to show/hide the toolbar when th
 
 Refer to the script section and page content section to load the right pane content of appropriate page created. The following screenshot illustrates the output.
 
-{{ '![](Android-Specific-Customization_images/Android-Specific-Customization_img2.png)' | markdownify }}
-{:.image }
+![](Android-Specific-Customization_images/Android-Specific-Customization_img2.png)
+
 
 
 Likewise, you can customize all other properties of toolbar using this property. Refer to the complete UG of toolbar to know its properties.

@@ -7,9 +7,9 @@ control: ListView (Mobile)
 documentation: ug
 ---
 
-## Scrolling
+# Scrolling
 
-The data-ej-allowscrolling attribute defines whether to allow the scrolling behavior of the content when it exceeds the target elements’ height.
+The data-ej-allowscrolling attribute defines whether to allow the scrolling behaviour of the content when it exceeds the target elements height.
 
 {% highlight html %}
 
@@ -49,13 +49,13 @@ The data-ej-allowscrolling attribute defines whether to allow the scrolling beha
 
 
 
-> _Note:_ _Run this code example and you can see the following output. For more details, refer to the "Common Getting Started" section._
+Note: Run this code example and you can see the following output. For more details, refer to the "Common Getting Started" section.
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_10.png](Scrolling_images/Scrolling_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_10.png](Scrolling_images/Scrolling_img1.png)
 
 
-### EnableNativeScrolling
+
+## EnableNativeScrolling
 
 Even though there is inbuilt mobile JS scroll bar in the ListView, it is also possible to use the Native Scroll Bar based on the device it gets rendered. It is done by adding data-ej-enablenativescrolling attribute to the ListView element. 
 
@@ -165,14 +165,14 @@ The following code example demonstrates how it looks when this attribute is disa
 
 The following screenshots display the Adjust Fixed Position:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_15.png](Scrolling_images/Scrolling_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_15.png](Scrolling_images/Scrolling_img2.png)
 
 
-_Note: You can see here that the first list item is hidden due to fixed header element._
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_16.png](Scrolling_images/Scrolling_img3.png)' | markdownify }}
-{:.image }
+Note: You can see here that the first list item is hidden due to fixed header element.
+
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_16.png](Scrolling_images/Scrolling_img3.png)
+
 
 
 ### CheckDomChanges

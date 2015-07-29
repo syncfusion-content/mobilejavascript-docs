@@ -7,7 +7,7 @@ control: Header and Footer (Mobile)
 documentation: ug
 ---
 
-## Footer Position
+# Footer Position
 
 The data-ej-position attribute is used to customize the Footer Position. You can set the Position attribute with the following values.
 
@@ -26,8 +26,8 @@ The data-ej-position attribute is used to customize the Footer Position. You can
 
 The following screenshot displays the output.
 
-{{ '![](Footer-Position_images/Footer-Position_img1.png)' | markdownify }}
-{:.image }
+![](Footer-Position_images/Footer-Position_img1.png)
+
 
 
 
