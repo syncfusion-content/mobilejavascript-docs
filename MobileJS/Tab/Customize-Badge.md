@@ -7,15 +7,15 @@ control: Tab (Mobile)
 documentation: ug
 ---
 
-# Customize Badge
+## Customize Badge
 
 To know the number of updates available in the specific Tab item before viewing it, it is notified through the Badge support. 
 
-## Enabled
+### Enabled
 
 The “data-ej-enabled” attribute is used to enable or disable the badge in the Tab. Default value is set to false.
 
-## Value
+### Value
 
 The “data-ej-value” attribute is used to set the badge value to a Tab item. Default value is set to 0. You can refer the following code example.
 
@@ -87,10 +87,11 @@ The “data-ej-value” attribute is used to set the badge value to a Tab item. 
 
 The following screenshot displays the Customization of badge:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab4.png](Customize-Badge_images/Customize-Badge_img1.png)
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab4.png](Customize-Badge_images/Customize-Badge_img1.png)' | markdownify }}
+{:.image }
 
 
-## MaxValue
+### MaxValue
 
 The “data-ej-maxvalue” attribute is used to set the maximum badge value to a Tab item. Default value is set to 100. 
 
@@ -166,7 +167,7 @@ The “data-ej-maxvalue” attribute is used to set the maximum badge value to a
 
 The following screenshot displays the maxValue
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab3.png](Customize-Badge_images/Customize-Badge_img2.png)
-
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab3.png](Customize-Badge_images/Customize-Badge_img2.png)' | markdownify }}
+{:.image }
 
 

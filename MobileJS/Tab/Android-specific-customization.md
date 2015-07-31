@@ -7,11 +7,11 @@ control: Tab (Mobile)
 documentation: ug
 ---
 
-# Android specific customization
+## Android specific customization
 
 You can set the Android specific properties to the control by accessing the Android property.
 
-## ShowImage
+### ShowImage
 
 The “data-ej-android-showimage” attribute is used to enable or disable the image to your Tab. Default value is set to false.
 
@@ -83,9 +83,11 @@ The “data-ej-android-showimage” attribute is used to enable or disable the i
 
 The following screenshot displays the Android showImage:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img1.png)
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img1.png)' | markdownify }}
+{:.image }
 
-## ImageClass
+
+### ImageClass
 
 The “data-ej-android-imageclass” attribute is used to add images to the Tab by specifying the imageClass for individual items in the Tab.
 
@@ -157,10 +159,11 @@ The “data-ej-android-imageclass” attribute is used to add images to the Tab 
 
 The following screenshot displays the Android imageClass:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img2.png)
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img2.png)' | markdownify }}
+{:.image }
 
 
-## Position
+### Position
 
 The “data-ej-android-position” attribute holds fixed and normal values. Normal position allows relative position of the element to the appview and fixed position allows fixed position of the element. Default position is set to fixed.
 
@@ -232,6 +235,7 @@ The “data-ej-android-position” attribute holds fixed and normal values. Norm
 
 The following screenshot displays the AndroidPosition:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img3.png)
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img3.png)' | markdownify }}
+{:.image }
 
 

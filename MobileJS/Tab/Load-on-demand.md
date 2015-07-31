@@ -7,7 +7,7 @@ control: Tab (Mobile)
 documentation: ug
 ---
 
-# Load on demand
+## Load on demand
 
 In some applications, the content for the specific Tab item is loaded only when it is required. By specifying “data-ej-enableajax” attribute to true and specifying the external URL (via href property), you can load individual items on demand in the Tab. Default value is set to false.
 

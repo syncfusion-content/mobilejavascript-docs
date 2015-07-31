@@ -7,7 +7,7 @@ control: Tab (Mobile)
 documentation: ug
 ---
 
-# Select Item
+## Select Item
 
 Tab control takes a numeric value given in “data-ej-selecteditemindex” attribute and selects the corresponding item that matches the given index. Default value for selectedItemIndex property is set to 0. You can refer the following code example.
 
@@ -81,6 +81,7 @@ Tab control takes a numeric value given in “data-ej-selecteditemindex” attri
 
 The following screenshot displays the Selected Items:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab5.png](Select-Item_images/Select-Item_img1.png)
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab5.png](Select-Item_images/Select-Item_img1.png)' | markdownify }}
+{:.image }
 
 

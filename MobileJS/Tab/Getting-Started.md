@@ -13,7 +13,8 @@ The Essential JavaScript Mobile Tab provides a way to switch views within a web 
 
 
 
-![F:/Trunk/work_area/WDT/gettingstartedformobile/JS/Ios_F1.png](Getting-Started_images/Getting-Started_img1.png)
+{{ '![F:/Trunk/work_area/WDT/gettingstartedformobile/JS/Ios_F1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
+{:.image }
 
 
 
@@ -236,7 +237,9 @@ Run the code example to render the output as follows.
 
 
 
-![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img2.png)
+{{ '![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
+{:.image }
+
 
 
 
@@ -366,7 +369,8 @@ To add the images use the following styles.
 
 Run the code to render the following output.
 
-![C:/Users/ApoorvahR/Desktop/3.png](Getting-Started_images/Getting-Started_img3.png)
+{{ '![C:/Users/ApoorvahR/Desktop/3.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
+{:.image }
 
 
 The above screenshot illustrates the Tab control rendered with the tab images.
@@ -432,11 +436,11 @@ Create an HTML file with the title updates.html and add the following code sampl
 Run the code example to render the following output. 
 
 
-![C:/Users/ApoorvahR/Desktop/4.png](Getting-Started_images/Getting-Started_img4.png)
+{{ '![C:/Users/ApoorvahR/Desktop/4.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
+{:.image }
 
 
 The above screenshot illustrates the Mobile Tab with the load on-demand property.
-
 
 ## Set Badge value for updates Tab 
 
@@ -480,8 +484,8 @@ Run the above code example to render the following output.
 
 
 
-![C:/Users/ApoorvahR/Desktop/5.png](Getting-Started_images/Getting-Started_img5.png)
-
+{{ '![C:/Users/ApoorvahR/Desktop/5.png](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
+{:.image }
 
 
 To dynamically update the badge value whenever a new update is added, use the following code example.
@@ -506,7 +510,7 @@ After running the above script an updated badge renders as shown in the followin
 
 
 
-![C:/Users/ApoorvahR/Desktop/6.png](Getting-Started_images/Getting-Started_img6.png)
-
+{{ '![C:/Users/ApoorvahR/Desktop/6.png](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
+{:.image }
 
 

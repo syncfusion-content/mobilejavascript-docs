@@ -11,12 +11,13 @@ documentation: ug
 
 From the following guidelines, you can create basic Mail sending form by using the TextArea control.  In the following output, message field is rendered by using the TextArea.
 
-![](Getting-Started_images/Getting-Started_img1.png)
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
+{:.image }
 
 
 
 
-## Create the necessary layout 
+Create the necessary layout 
 
 Create an HTML file and add the following template to the HTML file.
 
@@ -86,7 +87,7 @@ Create an HTML file and add the following template to the HTML file.
 
 
 
-### Create TextArea
+Create TextArea
 
 To render the TextArea control, you can set ejmtextarea to data-role attribute for the specific input element as follows.                                   
 
@@ -120,5 +121,7 @@ To render the TextArea control, you can set ejmtextarea to data-role attribute f
 
 Run this code example and you can see the following output.
 
-![](Getting-Started_images/Getting-Started_img2.png)
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
+{:.image }
+
 
