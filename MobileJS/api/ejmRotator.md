@@ -2,7 +2,7 @@
 layout: post
 title: ejmRotator
 documentation: API
-platform: js
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---

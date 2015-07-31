@@ -2,7 +2,7 @@
 layout: post
 title: ejmDatePicker
 documentation: API
-platform: js
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---

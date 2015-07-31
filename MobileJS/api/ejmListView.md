@@ -2,7 +2,7 @@
 layout: post
 title: ejmListView
 documentation: API
-platform: js
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---

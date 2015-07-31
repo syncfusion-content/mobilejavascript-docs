@@ -2,7 +2,7 @@
 layout: post
 title: ejmRadioButton
 documentation: API
-platform: js
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---

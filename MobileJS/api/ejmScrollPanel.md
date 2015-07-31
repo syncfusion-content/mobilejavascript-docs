@@ -2,7 +2,7 @@
 layout: post
 title: ejmScrollPanel
 documentation: API
-platform: js
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---

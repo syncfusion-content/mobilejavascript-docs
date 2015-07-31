@@ -2,7 +2,7 @@
 layout: post
 title: ejmRadialMenu
 documentation: API
-platform: js
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---

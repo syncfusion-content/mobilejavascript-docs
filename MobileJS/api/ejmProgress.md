@@ -2,7 +2,7 @@
 layout: post
 title: ejmProgress
 documentation: API
-platform: js
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
