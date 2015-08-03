@@ -7,7 +7,7 @@ control: TextArea (Mobile)
 documentation: ug
 ---
 
-## ReadOnly support
+# ReadOnly support
 
 When it is set to true, you cannot edit the value in the TextArea. The default value is false.
 
