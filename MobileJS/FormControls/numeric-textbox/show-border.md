@@ -23,5 +23,5 @@ The **data-ej-showborder** attribute is used to specify whether Textbox border i
 
 The following screenshot displays the output.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-numeric-textbox//show-border_images//show-border_img1.png" Caption="Numeric Textbox -Show Border		"%}
+{% include image.html url="show-border_images/show-border_img1.png" Caption="Numeric Textbox -Show Border		"%}
 

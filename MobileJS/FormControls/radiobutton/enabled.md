@@ -54,5 +54,5 @@ The **data-ej-enabled** is a **boolean** attribute that lets you enable or disab
 
 The following screenshot displays **enabled** option.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-radiobutton//enabled_images//enabled_img1.png" Caption="RadioButton-Enabled"%}
+{% include image.html url="enabled_images/enabled_img1.png" Caption="RadioButton-Enabled"%}
 

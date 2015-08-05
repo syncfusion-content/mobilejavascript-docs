@@ -40,7 +40,7 @@ Please refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-button//ios7-specific-customization_images//ios7-specific-customization_img1.png" Caption="Button – Ios7-color"%}
+{% include image.html url="ios7-specific-customization_images/ios7-specific-customization_img1.png" Caption="Button – Ios7-color"%}
 
 ## Style
 
@@ -76,5 +76,5 @@ You can refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-button//ios7-specific-customization_images//ios7-specific-customization_img2.png" Caption="Button - IOS7 Style"%}
+{% include image.html url="ios7-specific-customization_images/ios7-specific-customization_img2.png" Caption="Button - IOS7 Style"%}
 

@@ -26,5 +26,5 @@ Refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-textbox//readonly_images//readonly_img1.png" Caption="Textbox -Read Only"%}
+{% include image.html url="readonly_images/readonly_img1.png" Caption="Textbox -Read Only"%}
 

@@ -23,5 +23,5 @@ The **data-ej-showspinbutton** attribute is used to specify whether the **Spin B
 
 The following screenshot displays the output.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-numeric-textbox//spin-buttons_images//spin-buttons_img1.png" Caption="Numeric Textbox - Show Spin Button"%}
+{% include image.html url="spin-buttons_images/spin-buttons_img1.png" Caption="Numeric Textbox - Show Spin Button"%}
 

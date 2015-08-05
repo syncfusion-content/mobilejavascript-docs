@@ -38,5 +38,5 @@ You can refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-button//windows-specific-customization_images//windows-specific-customization_img1.png" Caption="Button - Windows Style"%}
+{% include image.html url="windows-specific-customization_images/windows-specific-customization_img1.png" Caption="Button - Windows Style"%}
 

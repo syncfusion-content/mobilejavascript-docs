@@ -42,5 +42,5 @@ You can refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-button//android-specific-customization_images//android-specific-customization_img1.png" Caption="Button - Android Style"%}
+{% include image.html url="android-specific-customization_images/android-specific-customization_img1.png" Caption="Button - Android Style"%}
 

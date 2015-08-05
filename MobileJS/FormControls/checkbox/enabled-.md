@@ -52,5 +52,5 @@ Refer to the following code example.
 
 Execute the above code examples to render the following output.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-checkbox//enabled-_images//enabled-_img1.png" Caption="CheckBox with Enable and Disable state"%}
+{% include image.html url="enabled-_images/enabled-_img1.png" Caption="CheckBox with Enable and Disable state"%}
 

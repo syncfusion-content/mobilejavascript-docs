@@ -35,7 +35,7 @@ You can refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-button//customize-contenttype-and-text_images//customize-contenttype-and-text_img1.png" Caption="Button – ContentType"%}
+{% include image.html url="customize-contenttype-and-text_images/customize-contenttype-and-text_img1.png" Caption="Button – ContentType"%}
 
 ## Text
 
@@ -56,5 +56,5 @@ You can refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-button//customize-contenttype-and-text_images//customize-contenttype-and-text_img2.png" Caption="Button - Text"%}
+{% include image.html url="customize-contenttype-and-text_images/customize-contenttype-and-text_img2.png" Caption="Button - Text"%}
 

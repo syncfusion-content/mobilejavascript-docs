@@ -27,5 +27,5 @@ Refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-textbox//enable-and-disable_images//enable-and-disable_img1.png" Caption="Textbox -Enabled"%}
+{% include image.html url="enable-and-disable_images/enable-and-disable_img1.png" Caption="Textbox -Enabled"%}
 

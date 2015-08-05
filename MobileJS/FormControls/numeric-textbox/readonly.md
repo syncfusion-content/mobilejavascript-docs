@@ -23,5 +23,5 @@ The **data-ej-readonly** attribute is used to enable or disable value changes in
 
 The following screenshot displays the output.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-numeric-textbox//readonly_images//readonly_img1.png" Caption="Numeric Textbox-Read Only"%}
+{% include image.html url="readonly_images/readonly_img1.png" Caption="Numeric Textbox-Read Only"%}
 

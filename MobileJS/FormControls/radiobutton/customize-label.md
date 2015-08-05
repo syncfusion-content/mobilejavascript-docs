@@ -55,5 +55,5 @@ The **data-ej-text** attribute lets you set labels for the **RadioButton.** To s
 
 The following screenshot displays **customized labels**.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-radiobutton//customize-label_images//customize-label_img1.png" Caption="RadioButton-Text"%}
+{% include image.html url="customize-label_images/customize-label_img1.png" Caption="RadioButton-Text"%}
 

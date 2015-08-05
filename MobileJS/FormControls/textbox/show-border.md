@@ -27,5 +27,5 @@ Refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-textbox//show-border_images//show-border_img1.png" Caption="Textbox -Show Border"%}
+{% include image.html url="show-border_images/show-border_img1.png" Caption="Textbox -Show Border"%}
 

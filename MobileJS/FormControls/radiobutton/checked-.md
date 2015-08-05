@@ -55,5 +55,5 @@ The **data-ej-checked** is a **boolean** attribute that lets you choose whether 
 
 The following screenshot displays checked status.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-radiobutton//checked-_images//checked-_img1.png" Caption="RadioButton-Checked"%}
+{% include image.html url="checked-_images/checked-_img1.png" Caption="RadioButton-Checked"%}
 

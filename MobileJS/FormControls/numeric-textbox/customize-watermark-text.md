@@ -23,5 +23,5 @@ The **data-ej-watermarktext** attribute is used to define watermark text in the 
 
 The following screenshot displays the output.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-numeric-textbox//customize-watermark-text_images//customize-watermark-text_img1.png" Caption="Numeric Textbox-Water Mark Text"%}
+{% include image.html url="customize-watermark-text_images/customize-watermark-text_img1.png" Caption="Numeric Textbox-Water Mark Text"%}
 

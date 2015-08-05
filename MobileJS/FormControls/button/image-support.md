@@ -34,7 +34,7 @@ You can refer the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-button//image-support_images//image-support_img1.png" Caption="Button - ImageClass"%}
+{% include image.html url="image-support_images/image-support_img1.png" Caption="Button - ImageClass"%}
 
 ## ImagePosition
 
@@ -56,5 +56,5 @@ You can refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-button//image-support_images//image-support_img2.png" Caption="Button – ImagePosition"%}
+{% include image.html url="image-support_images/image-support_img2.png" Caption="Button – ImagePosition"%}
 

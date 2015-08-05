@@ -22,5 +22,5 @@ The **data-ej-enablestrictmode** attribute makes Textbox accept only a value bet
 
 The following screenshot displays the output.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-numeric-textbox//strict-mode_images//strict-mode_img1.png" Caption="Numeric Textbox-Enable Strict Mode"%}
+{% include image.html url="strict-mode_images/strict-mode_img1.png" Caption="Numeric Textbox-Enable Strict Mode"%}
 

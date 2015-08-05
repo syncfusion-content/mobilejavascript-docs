@@ -27,5 +27,5 @@ Refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-textbox//customize-watermark-text_images//customize-watermark-text_img1.png" Caption="Textbox - Water Mark Text"%}
+{% include image.html url="customize-watermark-text_images/customize-watermark-text_img1.png" Caption="Textbox - Water Mark Text"%}
 

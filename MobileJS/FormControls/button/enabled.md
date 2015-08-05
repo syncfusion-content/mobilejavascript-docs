@@ -24,5 +24,5 @@ In certain cases, you can disable the Button in your application depending on so
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-button//enabled_images//enabled_img1.png" Caption="Button – Enabled"%}
+{% include image.html url="enabled_images/enabled_img1.png" Caption="Button – Enabled"%}
 

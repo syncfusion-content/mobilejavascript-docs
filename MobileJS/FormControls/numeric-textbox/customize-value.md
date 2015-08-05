@@ -23,7 +23,7 @@ The current value of the Numeric Textbox can be specified by using **data-ej-val
 
 The following screenshot displays the output.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-numeric-textbox//customize-value_images//customize-value_img1.png" Caption="Figure 26: Numeric Textbox-Value"%}
+{% include image.html url="customize-value_images/customize-value_img1.png" Caption="Figure 26: Numeric Textbox-Value"%}
 
 {% highlight html %}
 

@@ -61,5 +61,5 @@ Refer to the following code example.
 
 Execute the above code example to render the following output.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-checkbox//checkstate_images//checkstate_img1.png" Caption="CheckBox - CheckState"%}
+{% include image.html url="checkstate_images/checkstate_img1.png" Caption="CheckBox - CheckState"%}
 

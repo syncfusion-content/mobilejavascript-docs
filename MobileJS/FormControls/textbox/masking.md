@@ -24,5 +24,5 @@ Refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-textbox//masking_images//masking_img1.png" Caption="Textbox –mask attribute"%}
+{% include image.html url="masking_images/masking_img1.png" Caption="Textbox –mask attribute"%}
 

@@ -24,5 +24,5 @@ Refer to the following code example.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//concepts-and-features-of-textbox//windows-specific-customization_images//windows-specific-customization_img1.png" Caption="Textbox - AllowReset"%}
+{% include image.html url="windows-specific-customization_images/windows-specific-customization_img1.png" Caption="Textbox - AllowReset"%}
 

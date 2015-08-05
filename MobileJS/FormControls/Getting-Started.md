@@ -27,7 +27,7 @@ The **Essential JavaScript** provides a way to create a **Form** with the follow
 
 In the following guidelines, you are creating a Bill Payment App through that you can learn about the features in the above mentioned widgets.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//getting-started_images//getting-started_img1.png" Caption="Bill Payment App"%}{% include image.html url="//Mobilejs//JSFormControls(Mobile)//getting-started_images//getting-started_img2.png" Caption="Bill Payment App"%}
+{% include image.html url="getting-started_images/getting-started_img1.png" Caption="Bill Payment App"%}{% include image.html url="getting-started_images/getting-started_img2.png" Caption="Bill Payment App"%}
 
 ### Create the necessary layout 
 
@@ -210,7 +210,7 @@ To render the **Textbox** control, you need to set **“data-role”** attribute
 
 Run this code and you can see the following output.
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//getting-started_images//getting-started_img3.png" Caption="Form with Essential JS Mobile Textbox"%}
+{% include image.html url="getting-started_images/getting-started_img3.png" Caption="Form with Essential JS Mobile Textbox"%}
 
 ### Set Watermark text
 
@@ -226,7 +226,7 @@ The watermark text specifies a short hint that describes the expected value of t
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//getting-started_images//getting-started_img4.png" Caption="Form with Essential JS Mobile Textbox control"%}
+{% include image.html url="getting-started_images/getting-started_img4.png" Caption="Form with Essential JS Mobile Textbox control"%}
 
 ### Add Numeric Textbox Control
 
@@ -243,7 +243,7 @@ To render the **Numeric****Textbox** control, you need to set **“data-role”*
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//getting-started_images//getting-started_img5.png" Caption="Form with Essential JS Mobile Numeric Textbox control"%}
+{% include image.html url="getting-started_images/getting-started_img5.png" Caption="Form with Essential JS Mobile Numeric Textbox control"%}
 
 ### Disable Spin Button
 
@@ -259,7 +259,7 @@ By default, the spin button is visible. By using this, you can increment or decr
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//getting-started_images//getting-started_img6.png" Caption="Form with Essential JS Mobile Numeric Textbox control without spin button"%}
+{% include image.html url="getting-started_images/getting-started_img6.png" Caption="Form with Essential JS Mobile Numeric Textbox control without spin button"%}
 
 ### Set Decimal Point
 
@@ -302,7 +302,7 @@ You can add Textbox for E-mail.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//getting-started_images//getting-started_img7.png" Caption="Form with Essential JS Mobile Radio Button control"%}
+{% include image.html url="getting-started_images/getting-started_img7.png" Caption="Form with Essential JS Mobile Radio Button control"%}
 
 ### Add Textbox for Remarks.
 
@@ -318,7 +318,7 @@ You can add Textbox for Remarks.
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//getting-started_images//getting-started_img8.png" Caption="Form with Essential JS Mobile "%}
+{% include image.html url="getting-started_images/getting-started_img8.png" Caption="Form with Essential JS Mobile "%}
 
 ### Add Checkbox Control
 
@@ -334,7 +334,7 @@ You can use **Checkbox****Control** for “agree the terms and conditions” opt
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//getting-started_images//getting-started_img9.png" Caption="Form with Essential JS Mobile Checkbox"%}
+{% include image.html url="getting-started_images/getting-started_img9.png" Caption="Form with Essential JS Mobile Checkbox"%}
 
 ### Add Button Control
 
@@ -350,7 +350,7 @@ You require a **Button****Control** to submit the **Form**. To render this contr
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//getting-started_images//getting-started_img10.png" Caption="Form with Essential JS Mobile Button"%}
+{% include image.html url="getting-started_images/getting-started_img10.png" Caption="Form with Essential JS Mobile Button"%}
 
 ### Form Validation
 
@@ -365,8 +365,8 @@ The Bill payment is created with required controls and for validation, Essential
             $("#ScrollPanel").ejmScrollPanel("refresh");
         }
         function exit() {
-            var dialogObject = $("#info_msg").data("ejmDialog"); // creating instance for dialog
-            dialogObject.close(); // close dialog
+            var dialogObject = $("#info_msg").data("ejmDialog"); / creating instance for dialog
+            dialogObject.close(); / close dialog
             $(".e-m-text-input").val("");
             $(".e-m-editor-input").val("");
             $("#chkbox").ejmCheckBox("model.checked", false);
@@ -381,9 +381,9 @@ The Bill payment is created with required controls and for validation, Essential
                     mail: { required: "Please enter e-mail" }
                 },
                 submitHandler: function (form) {
-                    var dialogObject = $("#info_msg").data("ejmDialog"); // creating instance for dialog
+                    var dialogObject = $("#info_msg").data("ejmDialog"); / creating instance for dialog
                     if (!$("#chkbox").ejmCheckBox("isChecked")) {
-                        dialogObject.open(); // open dialog
+                        dialogObject.open(); / open dialog
                         $("#dlgcontent").text("Could you please agree our terms and conditions ?");
                     }
                     else {
@@ -402,7 +402,7 @@ The Bill payment is created with required controls and for validation, Essential
 
 
 
-{% include image.html url="//Mobilejs//JSFormControls(Mobile)//getting-started_images//getting-started_img11.png" Caption="Figure 10: Form Validation"%}{% include image.html url="//Mobilejs//JSFormControls(Mobile)//getting-started_images//getting-started_img12.png" Caption="Figure 10: Form Validation"%}
+{% include image.html url="getting-started_images/getting-started_img11.png" Caption="Figure 10: Form Validation"%}{% include image.html url="getting-started_images/getting-started_img12.png" Caption="Figure 10: Form Validation"%}
 
 From the above steps, you have learnt how to create and customize Essential JS mobile Textbox, Numeric Textbox, Maskedit, Radiobutton, checkbox and Button widgets with use case samples. We have more customization properties other than the one used here. To know more about the properties in mentioned mobile widgets please refer the complete documentation page.
 
