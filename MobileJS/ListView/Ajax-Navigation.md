@@ -61,11 +61,11 @@ Add the following styles to the html
 
 {% endhighlight %}
 
-
+{% highlight html %}
 
 Load1.html
 
-{% highlight html %}
+
 
 
 
@@ -88,10 +88,10 @@ Load1.html
 {% endhighlight %}
 
 
-
+{% highlight html %}
 Load2.html
 
-{% highlight html %}
+
 
 
 
@@ -113,11 +113,11 @@ Load2.html
 
 {% endhighlight %}
 
-
+{% highlight html %}
 
 Load3.html
 
-{% highlight html %}
+
 
 
 

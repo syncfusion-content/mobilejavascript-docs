@@ -7,21 +7,20 @@ control: Grid (Mobile)
 documentation: ug
 ---
 
-## Filtering
+# Filtering
 
 Filtering behavior is used to filter particular or related records in Mobile Grid to review details of records. To enable filtering behavior in Mobile Grid you need to add allowFiltering attribute at grid initialize. Filter Bar filtering feature is available in Mobile Grid. 
 
-### Filter Bar
+## Filter Bar
 
 Filter bar is the filtering type available in Mobile Grid. It is otherwise called as text filtering because filter bar working is based on text boxes. Through this you can filter records. Filter bar contains expression to filter records. They are based on type of column. Refer to the following table for expression usage.
 
-_Filter Bar Record Table_
-
+Filter Bar Record Table
 <table>
 <tr>
-<td rowspan = "4">
-Numeric column</td><td>
-> value</td><td rowspan = "4">
+<th rowspan = "4">
+Numeric column</th><th>
+> value</th><td rowspan = "4">
 To filter numeric column. You can use these expressions.</td></tr>
 <tr>
 <td>
@@ -54,7 +53,6 @@ Boolean</td><td>
 Equal</td><td>
 Boolean filter bar works with either true or false.</td></tr>
 </table>
-
 
  Refer to the following code example for filter bar
 
@@ -96,8 +94,8 @@ Boolean filter bar works with either true or false.</td></tr>
 
 Run the above code to render the following output.
 
-{{ '![18](Filtering_images/Filtering_img1.png)' | markdownify }}
-{:.image }
+![18](Filtering_images/Filtering_img1.png)
+
 
 
 ### Filter Operators
@@ -105,7 +103,7 @@ Run the above code to render the following output.
 ejmGrid uses filter operators from DataManager that is used at the time of filtering. Here you can learn about filter operators and its usage categories. Filter operators denotes filtering type.
 
 _Filter Operators Table_
-
+{% highlight html %}
 <table>
 <tr>
 <td>
@@ -128,5 +126,5 @@ ej.FilterOperators.equalej.FilterOperators.notEqual</td></tr>
 Date</td><td>
 ej.FilterOperators.greaterThanej.FilterOperators.greaterThanOrEqualej.FilterOperators.lessThanej.FilterOperators.lessThanOrEqualej.FilterOperators.equal</td></tr>
 </table>
-
+{% endhighlight %}
 

@@ -13,10 +13,10 @@ The Mobile Grid control for JavaScript is an efficient display engine for tabula
 
 Key Features
 
-* Data sources: Binds the Grid control with an array of JSON objects or ej.DataManager.
-* Filtering: Supports filtering the data.
-* Paging: Provides an option to easily switch between pages using the pager bar.
-* Sorting: Supports sorting the data.
+* ####Data sources: Binds the Grid control with an array of JSON objects or ej.DataManager.
+* ####Filtering: Supports filtering the data.
+* ####Paging: Provides an option to easily switch between pages using the pager bar.
+* ####Sorting: Supports sorting the data.
 
 
 

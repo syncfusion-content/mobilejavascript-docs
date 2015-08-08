@@ -13,5 +13,5 @@ The Essential JavaScript Mobile SplitPane divides a region on the web page.  It 
 
 Key Features
 
-* Header customization: You can customize the header on both left and right panes.
-* Inbuilt Scrolling: You can enable the inbuilt scrolling on both panes.
+* ####Header customization: You can customize the header on both left and right panes.
+* ####Inbuilt Scrolling: You can enable the inbuilt scrolling on both panes.

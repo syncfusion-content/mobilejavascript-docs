@@ -71,7 +71,7 @@ Create an HTML file and add the following template to the HTML file for Group Bu
 
 {% endhighlight %}
 
-Create Group Button
+##Create Group Button
 
 To create Group Button control you can set data-role attribute to ejmgroupbutton to a <div> element and you can include multiple buttons through input element. Also, specify the type and name attribute in the <input> element. Refer to the following code.
 

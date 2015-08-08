@@ -13,11 +13,11 @@ The Essential JavaScript Mobile ListView widget builds interactive list view int
 
 Key Features
 
-* AJAX Load: Loads AJAX content in the ListView content.
-* Data binding: Supports Data binding with JSON data and remote data.
-* Template support: The ListView supports template content.
-* Group List: The ListView supports group item list.
-* Check List: The ListView supports check list.
+* ####AJAX Load: Loads AJAX content in the ListView content.
+* ####Data binding: Supports Data binding with JSON data and remote data.
+* ####Template support: The ListView supports template content.
+* ####Group List: The ListView supports group item list.
+* ####Check List: The ListView supports check list.
 
 
 
