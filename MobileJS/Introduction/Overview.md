@@ -17,9 +17,9 @@ _Property Table_
 
 <table>
 <tr>
-<td>
-Categories</td><td colspan = "4">
-Components</td></tr>
+<th>
+Categories</th><th colspan = "4">
+Components</th></tr>
 <tr>
 <td rowspan = "2">
 Grid</td><td colspan = "4">

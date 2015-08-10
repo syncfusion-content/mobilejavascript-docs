@@ -9,13 +9,16 @@ documentation: ug
 
 # Getting Started
 
+## Create your first RadioButton by using Javascript
+
+
 The following guidelines show you how to use the RadioButton to select the answers in the application and get the selected items. The following screenshot displays a sample Quiz application.
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create the necessary layout
+
+## Create the necessary layout
 
 Create an HTML file and paste the following template to the HTML file for the RadioButton creation.
 
@@ -217,7 +220,7 @@ Now, add the following style to align the RadioButton and contents properly in t
 
 The following screenshot is the output for the above code examples.
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
+
 
 

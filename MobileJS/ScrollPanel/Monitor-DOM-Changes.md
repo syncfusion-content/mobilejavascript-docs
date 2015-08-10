@@ -7,7 +7,7 @@ control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-## Monitor DOM Changes
+# Monitor DOM Changes
 
 The “data-ej-checkdomchanges” attribute lets you specify whether or not to refresh the Scrollpanel automatically when elements are added to the DOM tree dynamically. By default, this property is set to false. 
 
@@ -31,25 +31,17 @@ The “data-ej-checkdomchanges” attribute lets you specify whether or not to r
 
     <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-checkdomchanges="true" />
 
-
-
-
-
 {% endhighlight %}
 
 Refer the following code examples for script section
 
 {% highlight js %}
 
-
-
         function touchstart() {
 
             $("#content").append("Dynamically added content<br/>");
 
         }
-
-
 
 {% endhighlight %}
 

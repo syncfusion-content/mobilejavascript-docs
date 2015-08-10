@@ -12,9 +12,7 @@ documentation: ug
 Essential Toggle button is used in JS Mobile Widget functions, to switch On/Off functions such as Bluetooth, Airplane Mode, and WiFi. 
 
 
-{{ '![C:/Users/durga/Pictures/image1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
-
+![C:/Users/durga/Pictures/image1.png](Getting-Started_images/Getting-Started_img1.png)
 
 ## Create the Layout
 
@@ -91,8 +89,6 @@ Create an HTML file and add the following template to the HTML file.
 
 </html>
 
-
-
 {% endhighlight %}
 
 ## Add Toggle Button
@@ -105,20 +101,11 @@ Add the following code example to the <div> element.
 
     <div id="toggle" data-role="ejmtogglebutton" data-ej-togglestate=”true” style="float:right;"></div>
 
-
-
-
 {% endhighlight %}
-
-
 
 Run the code and get the following output.
 
-
-
-{{ '![C:/Users/durga/Pictures/image1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
-
+![C:/Users/durga/Pictures/image1.png](Getting-Started_images/Getting-Started_img2.png)
 
 ## Change Toggle button to render state
 
@@ -126,25 +113,15 @@ You can customize the initial Toggle button rendering state by data-ej-togglesta
 
 Add the following code to the toggle <div>.
 
-
-
 {% highlight html %}
 
-
 <div id="toggle" data-role="ejmtogglebutton"  data-ej-togglestate=false  style="float:right;"></div>
-
-
-
 
 {% endhighlight %}
 
 Run this code to get the following output.
 
-
-
-{{ '![C:/Users/durga/Pictures/image2.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
-
+![C:/Users/durga/Pictures/image2.png](Getting-Started_images/Getting-Started_img3.png)
 
 ## Handle events
 
@@ -154,21 +131,13 @@ Add the code example to the Toggle <div>.
 
 {% highlight html %}
 
-
     <div id="toggle" data-role="ejmtogglebutton"  data-ej-togglestate=false data-ej-change="showDialog" style="float:right;"></div>
-
-
-
 
 {% endhighlight %}
 
 Add the following script code to the <body> tag to show the Dialog when you change the Toggle state.
 
-
-
 {% highlight js %}
-
-
 
         $(function (args) {
 
@@ -194,21 +163,10 @@ Add the following script code to the <body> tag to show the Dialog when you chan
 
         }
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Run this code to get the following output. 
 
-{{ '![C:/Users/durga/Pictures/image3.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![C:/Users/durga/Pictures/image3.png](Getting-Started_images/Getting-Started_img4.png)
 
-
-{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
-
-
+![](Getting-Started_images/Getting-Started_img5.png)

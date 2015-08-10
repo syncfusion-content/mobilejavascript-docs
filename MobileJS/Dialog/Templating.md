@@ -7,7 +7,7 @@ control: Dialog (Mobile)
 documentation: ug
 ---
 
-## Templating
+# Templating
 
 The data-ej-templateid attribute is used to define the ID of the template element where you can specify the content to render in the Dialog.
 
@@ -73,7 +73,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{{ '![](Templating_images/Templating_img1.png)' | markdownify }}
-{:.image }
+![](Templating_images/Templating_img1.png)
+
 
 

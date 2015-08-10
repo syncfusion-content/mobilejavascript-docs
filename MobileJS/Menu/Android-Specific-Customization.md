@@ -7,11 +7,11 @@ control: Menu (Mobile)
 documentation: ug
 ---
 
-## Android Specific Customization
+# Android Specific Customization
 
 Set the Android Specific properties to the control by accessing “Android” property.
 
-### Type	
+## Type	
 
 When you click a button or target element, the Menu appears in contextual or popup mode. The appearance of the Menu is defined by data-ej-type attribute. 
 
@@ -21,8 +21,6 @@ The possible values are,
 2. Popup
 3. Optionmenu
 4. Optionslist
-
-
 
 {% highlight html %}
 
@@ -44,13 +42,11 @@ The possible values are,
 
             </ul>
 
-
-
 {% endhighlight %}
 
 The following screenshot displays the Android-specific Type:
 
-{{ '![Type-Android](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
+![Type-Android](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)
+
 
 

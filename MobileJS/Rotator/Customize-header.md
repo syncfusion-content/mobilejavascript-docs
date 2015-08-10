@@ -7,7 +7,7 @@ control: Rotator (Mobile)
 documentation: ug
 ---
 
-## Customize header
+# Customize header
 
 In Rotator you can enable the built-in header support.
 
@@ -71,13 +71,11 @@ To show or hide the header in Rotator, you can use data-ej-showheader attribute.
 
     </div>
 
-
-
 {% endhighlight %}
 
 
 
-{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-3.png](Customize-header_images/Customize-header_img1.png)' | markdownify }}
-{:.image }
+![](Customize-header_images/Customize-header_img1.png)
+
 
 

@@ -7,9 +7,9 @@ control: Header and Footer (Mobile)
 documentation: ug
 ---
 
-## Customize Header Left Button
+# Customize Header Left Button
 
-### LeftButtonCaption
+## LeftButtonCaption
 
 To specify the caption (text) for the Header left button, set the “data-ej-leftbuttoncaption” attribute. By default, the attribute value is set to back.
 
@@ -25,13 +25,13 @@ To specify the caption (text) for the Header left button, set the “data-ej-lef
 
 The following screenshot displays the Left Button Caption.
 
-{{ '![](Customize-Header-Left-Button_images/Customize-Header-Left-Button_img1.png)' | markdownify }}
-{:.image }
+![](Customize-Header-Left-Button_images/Customize-Header-Left-Button_img1.png)
 
 
 
 
-### LeftButtonStyle
+
+## LeftButtonStyle
 
 The data-ej-leftbuttonstyle attribute specifies the style of the Header left button.
 
@@ -55,13 +55,13 @@ The possible values are,
 
 The following screenshot displays the Left Button Style:
 
-{{ '![](Customize-Header-Left-Button_images/Customize-Header-Left-Button_img2.png)' | markdownify }}
-{:.image }
+![](Customize-Header-Left-Button_images/Customize-Header-Left-Button_img2.png)
 
 
 
 
-### LeftButtonNavigationURL
+
+## LeftButtonNavigationURL
 
 Specifies the navigation URL of the page while clicking the left button.
 

@@ -7,13 +7,11 @@ control: Accordion (Mobile)
 documentation: ug
 ---
 
-## Load on demand
+# Load on demand
 
 In some cases, you can load content only when it is required. To achieve this, specify “data-ej-ajaxurl” attribute with the respective URL of the HTML file that contains the dynamic content. The data-ej-spinnertext attribute is used to show the loading text, while getting (waiting for) the response from the server (via Ajax request).
 
 {% highlight html %}
-
-
 
 <div id="accordion_sample" data-role="ejmaccordion" data-ej-spinnertext="loading..">
 
@@ -29,19 +27,11 @@ In some cases, you can load content only when it is required. To achieve this, s
 
  </div>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Create an HTML file with the name text1.html.
 
 {% highlight html %}
-
-
 
 <body>
 
@@ -51,19 +41,11 @@ Create an HTML file with the name text1.html.
 
 </body>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Create an HTML file with the name text2.html.
 
 {% highlight html %}
-
-
 
 <body>
 
@@ -71,19 +53,11 @@ Create an HTML file with the name text2.html.
 
 </body>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Create an HTML file with the name text3.html.
 
 {% highlight html %}
-
-
 
 <body>
 
@@ -95,17 +69,8 @@ Create an HTML file with the name text3.html.
 
 </body>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays the load on demand:
 
-{{ '![](Load-on-demand_images/Load-on-demand_img1.png)' | markdownify }}
-{:.image }
-
-
+![](Load-on-demand_images/Load-on-demand_img1.png)

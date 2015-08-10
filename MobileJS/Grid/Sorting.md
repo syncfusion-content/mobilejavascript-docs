@@ -7,9 +7,9 @@ control: Grid (Mobile)
 documentation: ug
 ---
 
-## Sorting 
+# Sorting 
 
-### Default
+## Default
 
 Sorting is a basic technique in ejmGrid. It helps you in viewing grid records through ascending or descending based on particular column. If you want to enable sorting in Grid, use allowSorting attribute at Grid initialize. By default, sorting operation can perform through user interaction (UI) on Grid header.
 
@@ -67,11 +67,11 @@ Sorting is a basic technique in ejmGrid. It helps you in viewing grid records th
 
 Result of the above code example:
 
-{{ '![16](Sorting_images/Sorting_img1.png)' | markdownify }}
-{:.image }
+![16](Sorting_images/Sorting_img1.png)
 
 
-### Multi Sorting
+
+## Multi Sorting
 
 ejmGrid also has support to sort more than one column known as Multi sorting. To enable this behavior in Grid you can use allowMultiSorting in Mobile Grid. 
 
@@ -133,7 +133,7 @@ Refer to the following code example.
 
 Run the above code to render the following output.
 
-{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Sorting_images/Sorting_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/apoorvah.ramanathan/Desktop/1.png](Sorting_images/Sorting_img2.png)
+
 
 

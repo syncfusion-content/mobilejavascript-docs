@@ -7,7 +7,7 @@ control: Rotator (Mobile)
 documentation: ug
 ---
 
-## Render the specified target
+# Render the specified target
 
 You can render the contents for the Rotator by specifying the particular target element. The target element should maintain the HTML structure as mentioned in the following code example.
 
@@ -83,8 +83,8 @@ The data-ej-targetid attribute is used to define the Id of the target element wh
 
 
 
-{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-1.png](Render-the-specified-target_images/Render-the-specified-target_img1.png)' | markdownify }}
-{:.image }
+![](Render-the-specified-target_images/Render-the-specified-target_img1.png)
+
 
 
 

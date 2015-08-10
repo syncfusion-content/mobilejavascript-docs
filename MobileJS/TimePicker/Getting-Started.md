@@ -13,13 +13,9 @@ The Essential Mobile JavaScript TimePicker provides support to display the TimeP
 
 The following screenshot illustrates the functionality of TimePicker.
 
-{{ '![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img1.png)
 
-
-
-
-Create the necessary layout
+## Create the necessary layout
 
 You can create Essential JavaScript Mobile TimePicker widget easily by using simple input element.
 
@@ -39,7 +35,7 @@ Create an HTML file and add the following code example to it.
 
 <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
 
-  <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
 <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
 
@@ -127,11 +123,7 @@ Create an HTML file and add the following code example to it.
 
 </html>
 
-
-
 {% endhighlight %}
-
-
 
 Add the following styles to display the TimePicker’s input element.
 
@@ -163,25 +155,17 @@ Add the following styles to display the TimePicker’s input element.
 
                  } 
 
-
-
 {% endhighlight %}
-
-
 
 Execute the above code to render the following output.
 
-{{ '![C:/Users/Bharathi/Desktop/timepickerscreensecond.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
-
+![C:/Users/Bharathi/Desktop/timepickerscreensecond.png](Getting-Started_images/Getting-Started_img2.png)
 
 ## Create TimePicker
 
 To render the TimePicker control set data-role attribute to ejmtimepicker to the specific input element as follows.
 
 {% highlight html %}
-
-
 
   <!-- InTime Timepicker element -->
 
@@ -191,29 +175,17 @@ To render the TimePicker control set data-role attribute to ejmtimepicker to the
 
          <input id="endTime" data-role="ejmtimepicker" />
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Execute the above code example and focus on InTime or OutTime TimePicker element to render the following output.
 
-
-
-{{ '![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
-
+![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img3.png)
 
 ## Set the hour format
 
 The TimePicker widget supports both 12 hour and 24 hour time format. The default value is 24 hour format. In this application, the booking table opens for all time throughout the day. Refer to the following code example to set 24 hour format by using the data-ej-hourformat attribute. 
 
 {% highlight html %}
-
-
 
  <!-- InTime Timepicker element -->
 
@@ -223,23 +195,11 @@ The TimePicker widget supports both 12 hour and 24 hour time format. The default
 
          <input id="endTime" data-ej-hourformat="twentyfour" data-role="ejmtimepicker"/>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Execute the above code example and focus on InTime or OutTime TimePicker element to render the following output.
 
-
-
-{{ '![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
-
-
-
+![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img4.png)
 
 Refer to the following code example to display a conformation message on clicking the book button handled by the button touch end event.
 
@@ -250,12 +210,8 @@ Refer to the following code example to display a conformation message on clickin
             <div>Hotel reserved for specified time</div>
 
         </div>
-
-
-
+		
 {% endhighlight %}
-
-
 
 Add the following code example
 
@@ -273,19 +229,8 @@ Add the following code example
 
             }
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Execute the above code and click the Book Now button to render the conformation message as illustrated in the following screenshot.
 
-
-
-{{ '![C:/Users/Bharathi/Desktop/timepickerscreen2.png](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/Bharathi/Desktop/timepickerscreen2.png](Getting-Started_images/Getting-Started_img5.png)

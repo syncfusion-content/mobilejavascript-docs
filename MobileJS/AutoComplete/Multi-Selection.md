@@ -7,11 +7,11 @@ control: AutoComplete (Mobile)
 documentation: ug
 ---
 
-## Multi Selection
+# Multi Selection
 
 This feature is enabled by setting the data-ej-enablemultiselect attribute to true. This attribute helps you to select multiple list items from the suggestions list.
 
-### DelimiterChar
+## DelimiterChar
 
 The data-ej-delimiterchar is used to separate two or more items in the AutoComplete textbox. If you set data-ej-delimiterchar attribute, the selected value gets added in the textbox only after the delimiter character is placed. Default value is “,”.
 
@@ -29,11 +29,9 @@ You can refer to the following code examples.
 
 The following screenshot displays the DelimiterChar:
 
-{{ '![](Multi-Selection_images/Multi-Selection_img1.png)' | markdownify }}
-{:.image }
+![](Multi-Selection_images/Multi-Selection_img1.png)
 
-
-### EnableCheckBox
+## EnableCheckBox
 
 The data-ej-enablecheckbox attribute is used to display the checkbox for the suggestion list. This attribute is rendered only in the multi selection mode. By default, the value is set to “true”.
 
@@ -49,7 +47,5 @@ The data-ej-enablecheckbox attribute is used to display the checkbox for the sug
 
 The following screenshot displays EnableCheckBox:
 
-{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Multi-Selection_images/Multi-Selection_img2.png)' | markdownify }}
-{:.image }
-
+![C:/Users/apoorvah.ramanathan/Desktop/1.png](Multi-Selection_images/Multi-Selection_img2.png)
 

@@ -9,10 +9,12 @@ documentation: ug
 
 # Getting Started
 
+## Create your first DatePicker in JavaScript
+
 Essential Mobile JavaScript DatePicker provides support to display the picker element within your webpage and allows you to pick the date. By the following guidelines, you can learn how to customize two DatePickers for a real-time ticket booking scenario. The following screenshot demonstrates the functionality of DatePicker.
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
+
 
 
 ## Create a DatePicker
@@ -177,8 +179,7 @@ Add the following styles to display DatePicker’s input element.
 
 Run the above code example, to render the DatePicker.
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 ## Set Min and Max Date 
@@ -225,8 +226,8 @@ The following script helps you to set the mindate and maxdate.
 
 Run the above code example to render a DatePicker with Min and Max Date.
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
+
 
 
 ## Set Event to Process the Min and Max Date Validations
@@ -319,9 +320,7 @@ Select event is handled by the validateMinDateForReturn function as follows.
 
 Run the above code example to render the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
-
+![](Getting-Started_images/Getting-Started_img4.png)
 
 
 

@@ -7,11 +7,11 @@ control: Grid (Mobile)
 documentation: ug
 ---
 
-## Paging
+# Paging
 
 Paging is a powerful technique in Mobile Grid that is used to Navigate from one page to another. Using this pager you can implement load on demand concept where it loads only required data to Grid. To enable paging in Grid set allowPaging as true at Mobile Grid initialize.
 
-### Default
+## Default
 
 When the allowPaging is set as true, the properties in the pageSettings take the following default values.
 
@@ -58,11 +58,11 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/19.png](Paging_images/Paging_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/19.png](Paging_images/Paging_img1.png)
 
 
-### Pager Types
+
+## Pager Types
 
 There are two types of pagers available in Mobile Grid. They are,
 
@@ -127,7 +127,7 @@ Refer to the lfollowing script section.
 
 Run the above code to render the following output.
 
-{{ '![20](Paging_images/Paging_img2.png)' | markdownify }}
-{:.image }
+![20](Paging_images/Paging_img2.png)
+
 
 

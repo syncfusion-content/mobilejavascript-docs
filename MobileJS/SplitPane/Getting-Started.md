@@ -9,14 +9,16 @@ documentation: ug
 
 # Getting Started
 
+## Create your first SplitPane in JavaScript
+
 This section enables you to create SplitPane using JavaScript in your mobile app.
 
 The Essential JavaScript Mobile SplitPane divides up a region on the web page.  It can be configured to split up the horizontal view vertically. Right side panes can display the content from an external URL that is specific to the item selected in the left pane. In the following guidelines, you can learn about the features in mobile SplitPane widget by creating a Mail App.
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
+
 
 
 ## Create the required layout
@@ -115,8 +117,8 @@ Run this code and you can see the following output.
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
+
 
 
 
@@ -285,8 +287,8 @@ Use the following styles to add ListView element.
 
 Run this code and you can see the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
+
 
 
 ## Add right Pane content
@@ -541,7 +543,7 @@ Run this code and you can see the following output.
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img4.png)
+
 
 

@@ -9,13 +9,15 @@ documentation: ug
 
 # Getting Started
 
+## Create your first Menu in JavaScript
+
 The Essential JavaScript Dialog window is an overlay positioned within the AppView and displays a message along with supplementary content such as images or text and interactive content such as forms, etc.  It contains a title and a content area. The following example explains how to create a Mail Sign in form through which you can learn the features of Mobile Dialog widget.
 
-{{ '![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create the required layout
+
+### Create the required layout
 
 You can render the Dialog control based on the default values for all the properties. You can easily customize Dialog control by changing their properties according to your requirements.
 
@@ -229,11 +231,11 @@ Add content element using the following styles.
 
 Run the code to render the following output. 
 
-{{ '![F:/Work/UGchanges/Images/ios7_2.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![F:/Work/UGchanges/Images/ios7_2.png](Getting-Started_images/Getting-Started_img2.png)
 
 
-Create the Dialog control
+
+### Create the Dialog control
 
 There are four types of Dialog modes namely alert, confirm, normal and full view Dialogs. The default Dialog mode is alert. In this scenario, an error message or alert message is displayed when invalid details are entered. Alert Dialog contains title, content and one button.
 
@@ -257,7 +259,7 @@ To render a Dialog, you can set data-role attribute of a <div> element to ejmdia
 
 {% endhighlight %}
 
-Display the Dialog
+## Display the Dialog
 
 You can click the next button present in the header to display the Dialog. The click event is handled by formsubmit function as follows. You can create an object for Dialog control and display the Dialog using open function. 
 
@@ -317,11 +319,11 @@ Add the following code example to the <body> tag.
 
 Run the code to render the following output.
 
-{{ '![F:/Work/UGchanges/Images/ios7_5.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![F:/Work/UGchanges/Images/ios7_5.png](Getting-Started_images/Getting-Started_img3.png)
 
 
-Enable Modal Dialog
+
+### Enable Modal Dialog
 
 The Modal Dialog prevents you from interacting with the rest of the page until it is closed. To enable this, set data-ej-enablemodal attributes value to ‘true’.
 
@@ -347,11 +349,11 @@ Run this code to render the following output.
 
 
 
-{{ '![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img4.png)
 
 
-Handle Dialog events
+
+### Handle Dialog events
 
 To close the alert Dialog, click OK. This is achieved by triggering the buttontap event of Dialog using the data-ej-buttontap attribute. And the buttontap event is handled by alertClose function. Create an object for Dialog control and using close function you can close the Dialog.
 

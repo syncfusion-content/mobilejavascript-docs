@@ -9,15 +9,16 @@ documentation: ug
 
 # Getting Started
 
+## Create your first AutoComplete Text box in JavaScript
+
 The Essential JavaScript Mobile AutoComplete control is a text box control that provides a list of suggestions based on the query.  When you enter a text into the text box, the control performs a search operation and provides a list of results. There are several filter types available to perform the search. In following example, you will learn how to create an application to search a contact and learn about the features in AutoComplete widget.
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
-## Create AutoComplete to search for a contact
+### Create AutoComplete to search for a contact
 
 Essential JavaScript Mobile AutoComplete control can be rendered using a simple HTML textbox. It is rendered based on the default values for all the properties; you can easily customize Mobile AutoComplete control by changing its properties. The following code example shows how to create a search contact. 
 
@@ -106,9 +107,7 @@ To render the AutoComplete control, set “data-role” attribute to “ejmautoc
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
-
+![](Getting-Started_images/Getting-Started_img2.png)
 
 You can customize its watermark text using data-ej-watermarktext attribute.
 
@@ -126,11 +125,10 @@ You can customize its watermark text using data-ej-watermarktext attribute.
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
-## Data binding
+### Data binding
 
 To add data source to AutoComplete control, you can set data-ej-datasource attribute value with the particular data source name. You need to assign the necessary column (field) name of the data source to data-ej-fields-text attribute.
 
@@ -155,11 +153,10 @@ Execute the code and type the necessary query (here “A”) in the AutoComplete
 
 For more details, to run the samples refer "Common Getting Started" section.
 
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img4.png)
 
 
-## Multi value selection
+### Multi value selection
 
 Autocomplete textbox enables you to select multiple items from the suggestion list. To achieve this, set the data-ej-enablemultiselect attribute to true. The data-ej-delimiterchar attribute holds a string value that specifies the separator between two selected items. You can customize the delimiter string. In this example “;” is used as delimiter.
 
@@ -177,11 +174,9 @@ Autocomplete textbox enables you to select multiple items from the suggestion li
 
 Run the above code and type the necessary query in the textbox. The contact is displayed as shown in the following screenshot.
 
-{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img5.png)
 
-
-## Event handling
+### Event handling
 
 The data-ej-select attribute enables you to handle AutoComplete selection event, by assigning a function name to the attribute. In this case, you can set data-ej-select attribute with the function name OnSelect.  By executing the onSelect( ) function you can implement necessary action and show the full contact details of the selected contact name.
 
@@ -272,7 +267,6 @@ Add the following style
 
 Run the code to render the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img6.png)
 
 

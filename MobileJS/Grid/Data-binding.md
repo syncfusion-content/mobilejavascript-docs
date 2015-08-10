@@ -7,9 +7,9 @@ control: Grid (Mobile)
 documentation: ug
 ---
 
-## Data binding
+# Data binding
 
-### Local data
+## Local data
 
 Mobile Grid data source can be set in client-side through JavaScript. It has full support for JSON array binding. It is useful to bind records in client side using JSON data that is mostly helpful in Single Page Application (SPA) and feature rich web application. To achieve this refer to the following code example.
 
@@ -73,13 +73,13 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![2](Data-binding_images/Data-binding_img1.png)' | markdownify }}
-{:.image }
+![2](Data-binding_images/Data-binding_img1.png)
 
 
-### Remote data
 
-#### oData binding
+## Remote data
+
+### oData binding
 
 oData is standardized protocol for creating and consuming data. You can able to retrieve data from oData service using DataManager.Here is an example of remote Data binding using oData service.
 
@@ -136,13 +136,13 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![3](Data-binding_images/Data-binding_img2.png)' | markdownify }}
-{:.image }
+![3](Data-binding_images/Data-binding_img2.png)
 
 
-> _Note: For information about DataManager with Mobie Grid check DataAdaptors concept._
 
-#### Load at once
+Note: For information about DataManager with Mobie Grid check DataAdaptors concept.
+
+### Load at once
 
 Through this load at once technique, you can able to load all remote data from server to grid and process records in client side. You can check load at once with grid.
 
@@ -206,11 +206,11 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![4](Data-binding_images/Data-binding_img3.png)' | markdownify }}
-{:.image }
+![4](Data-binding_images/Data-binding_img3.png)
 
 
-#### Cross domain 
+
+## Cross domain 
 
 ejmGrid can use cross domain data service with help of data manager. Following configuration is to configure in client side. You need to configure server to retrieve data from server code. For server configuration, you can refer to this link ([https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)). Here you can learn how to use or retrieve cross domain data from Grid.
 
@@ -266,11 +266,11 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![6](Data-binding_images/Data-binding_img4.png)' | markdownify }}
-{:.image }
+![6](Data-binding_images/Data-binding_img4.png)
 
 
-#### Load on demand
+
+## Load on demand
 
 Load on demand is a powerful technique that is used to reduce bandwidth size of consuming data. In ejmGrid, you have support to use load on demand. In the following example, oData service is used. At load time, it retrieves required data from service, only for the visible page and not for all records. And when you move to another page, it loads for current page. You no need to configure Grid to enable load on demand, since load on demand is enabled by default in Grid. The following code example illustrates you on how load on demand works with Mobile Grid.
 
@@ -330,11 +330,11 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![6](Data-binding_images/Data-binding_img5.png)' | markdownify }}
-{:.image }
+![6](Data-binding_images/Data-binding_img5.png)
 
 
-### Refresh data source
+
+## Refresh data source
 
 ejmGrid contains a feature to refresh datasource dynamically after Grid initialization. It is useful to refresh grid data source.
 
@@ -414,11 +414,11 @@ Refer to the following script section.
 
 
 
-{{ '![7](Data-binding_images/Data-binding_img6.png)' | markdownify }}
-{:.image }
+![7](Data-binding_images/Data-binding_img6.png)
 
 
-### Supported DataTypes
+
+## Supported DataTypes
 
 ejmGrid supports data types in JavaScript such as string, number, datetime and Boolean. By default, ejmGrid reads datatypes from Mobile Grid dataSource. Grid uses these DataTypes for filtering and other operations. You can also customize these DataTypes through column attribute type. It overrides default data type reading. For example refer to the following code.
 
@@ -448,7 +448,7 @@ $("#MobileGrid").ejmGrid({
 
 {% endhighlight %}
 
-### HTML Binding
+## HTML Binding
 
 ejmGrid has support to form Mobile Grid from HTML table. It is flexible to convert from table to Grid with the help of data manager. 
 
@@ -619,11 +619,11 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![8](Data-binding_images/Data-binding_img7.png)' | markdownify }}
-{:.image }
+![8](Data-binding_images/Data-binding_img7.png)
 
 
-### DataManager
+
+## DataAdaptors
 
 DataManger packed adaptor concept to process data. There are three types of adaptors in DataManger. They are
 
@@ -633,7 +633,7 @@ DataManger packed adaptor concept to process data. There are three types of adap
 
 Here you can view how data bind data to grid using adaptor.
 
-#### JSON Adaptor
+### JSON Adaptor
 
 JSON adaptor is powerful way to define JSON data to Grid.  Using this technique you can able to use DataManger features to JSON before binding to Grid. Refer to the following code to use JSON Adaptor.
 
@@ -699,11 +699,11 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![9](Data-binding_images/Data-binding_img8.png)' | markdownify }}
-{:.image }
+![9](Data-binding_images/Data-binding_img8.png)
 
 
-#### oData adapter
+
+## oData adapter
 
 Now a days oData is most useful technique in consuming data. You can use oData protocol through Data Manger’s OData adaptor. Refer to the following code to use oData adaptor with Grid.
 
@@ -748,7 +748,7 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![11](Data-binding_images/Data-binding_img9.png)' | markdownify }}
-{:.image }
+![11](Data-binding_images/Data-binding_img9.png)
+
 
 

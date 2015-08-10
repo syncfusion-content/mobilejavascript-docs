@@ -9,10 +9,11 @@ documentation: ug
 
 # Getting Started
 
+## Create your first Radial Menu control in JavaScript
+
 This section explains briefly on how to create a Radial Menu control in your mobile application.
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 The following steps guide you to add a Radial Menu control for your mobile application.
@@ -119,10 +120,6 @@ Create a div element and set its data-role attribute as ejmradialmenu as follows
 
 </div>  
 
-
-
-
-
 {% endhighlight %}
 
 You can specify the images for each menu using data-ej-imageurl attribute for the inner list elements as follows. 
@@ -153,7 +150,7 @@ You can specify the images for each menu using data-ej-imageurl attribute for th
 
 Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm).
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
+
 
 

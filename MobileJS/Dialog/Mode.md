@@ -7,7 +7,7 @@ control: Dialog (Mobile)
 documentation: ug
 ---
 
-## Mode
+# Mode
 
 The data-ej-mode attribute specifies the different types of dialog modes. The possible values are, 
 
@@ -15,7 +15,8 @@ The data-ej-mode attribute specifies the different types of dialog modes. The po
 2. Confirm mode.
 3. Normal mode.
 4. Full view mode.
-### Alert Mode
+
+## Alert Mode
 
 
 The Alert Dialog mode is used to communicate an Alert message.
@@ -72,11 +73,11 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{{ '![](Mode_images/Mode_img1.png)' | markdownify }}
-{:.image }
+![](Mode_images/Mode_img1.png)
 
 
-### Confirm Mode
+
+## Confirm Mode
 
 The Confirm Dialog box attribute is mostly used to take the user's consent on any option. It displays a Dialog box with two buttons, Ok and Cancel. Ok button returns true and Cancel button returns false.
 
@@ -134,11 +135,11 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{{ '![](Mode_images/Mode_img2.png)' | markdownify }}
-{:.image }
+![](Mode_images/Mode_img2.png)
 
 
-### Normal Mode
+
+## Normal Mode
 
 The Normal Mode Dialog box attribute is used to display the message in sub screen area on a whole screen. It displays a Dialog box with two buttons, Continue and Cancel. Continue button returns true and Cancel button returns false. It is suitable for tablet devices.
 
@@ -198,11 +199,11 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{{ '![](Mode_images/Mode_img3.png)' | markdownify }}
-{:.image }
+![](Mode_images/Mode_img3.png)
 
 
-### Full View Mode
+
+## Full View Mode
 
 The FullView Dialog box attribute is used to display messages on full screen and it is suitable for mobile devices.
 
@@ -262,7 +263,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{{ '![](Mode_images/Mode_img4.png)' | markdownify }}
-{:.image }
+![](Mode_images/Mode_img4.png)
+
 
 

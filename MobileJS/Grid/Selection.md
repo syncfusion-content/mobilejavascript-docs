@@ -7,7 +7,7 @@ control: Grid (Mobile)
 documentation: ug
 ---
 
-## Selection
+# Selection
 
 The Selection attribute is used to highlight a row that you select. By default, the Mobile Grid allows row selection. Refer to the following code example.
 
@@ -53,11 +53,11 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![24](Selection_images/Selection_img1.png)' | markdownify }}
-{:.image }
+![24](Selection_images/Selection_img1.png)
 
 
-### Get Selected record data
+
+## Get Selected record data
 
 In this section, you can learn how to get selected records from one Grid and also how those records are used to update datasource of another Grid. Refer to the following code example.
 
@@ -146,7 +146,7 @@ Refer to the following script section.
 
 
 
-{{ '![25](Selection_images/Selection_img2.png)' | markdownify }}
-{:.image }
+![25](Selection_images/Selection_img2.png)
+
 
 

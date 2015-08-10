@@ -7,9 +7,9 @@ control: Button (Mobile)
 documentation: ug
 ---
 
-## IOS7 specific customization
+# IOS7 specific customization
 
-### Color
+## Color
 
 This property is specific to IOS7 RenderMode that allows you to set the color of the Button when used as an action link to indicate the state of the link. 
 
@@ -21,41 +21,23 @@ You can refer to the following code example.
 
 <div align="center" style="margin:10px">
 
-
-
         <a id="sample_button" data-role="ejmbutton" data-ej-text="button" data-ej-rendermode="ios7" data-ej-ios7-color="gray" /> <br /><br />
-
-
 
         <a id="sample_button" data-role="ejmbutton" data-ej-text="button" data-ej-rendermode="ios7" data-ej-ios7-color="black" /><br /><br />
 
-
-
         <a id="sample_button" data-role="ejmbutton" data-ej-text="button" data-ej-rendermode="ios7" data-ej-ios7-color="blue" /><br /><br />
-
-
 
         <a id="sample_button" data-role="ejmbutton" data-ej-text="button" data-ej-rendermode="ios7" data-ej-ios7-color="green"/><br /><br />
 
-
-
         <a id="sample_button" data-role="ejmbutton" data-ej-text="button" data-ej-rendermode="ios7" data-ej-ios7-color="red" /><br /><br />
-
-
 
 </div>
 
-
-
 {% endhighlight %}
 
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f717c65.PNG](IOS7-specific-customization_images/IOS7-specific-customization_img1.png)
 
-
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f717c65.PNG](IOS7-specific-customization_images/IOS7-specific-customization_img1.png)' | markdownify }}
-{:.image }
-
-
-### Styles
+## Styles
 
 By using data-ej-ios7-style attribute, you can customize the style of the button.
 
@@ -74,31 +56,14 @@ You can refer to the following code example.
 
         <input type="button" id="sample_button" data-role="ejmbutton" data-ej-text="Normal" data-ej-rendermode="ios7" data-ej-ios7-style="normal" /><br /><br />
 
-
-
         <a id="sample_button1" data-role="ejmbutton" data-ej-text="Back" data-ej-rendermode="ios7" data-ej-ios7-style="back" />
-
-
 
         <input type="button" id="sample_button2" data-role="ejmactionlink" data-ej-text="Dialog" data-ej-rendermode="ios7" data-ej-ios7-style="dialog"/>
 
-
-
         <input type="button" id="sample_button3" data-role="ejmactionlink" data-ej-text="Header" data-ej-rendermode="ios7" data-ej-ios7-style="header"/>
 
-
-
-    </div>
-
-
-
-
+</div>
 
 {% endhighlight %}
 
-
-
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f700342.PNG](IOS7-specific-customization_images/IOS7-specific-customization_img2.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f700342.PNG](IOS7-specific-customization_images/IOS7-specific-customization_img2.png)

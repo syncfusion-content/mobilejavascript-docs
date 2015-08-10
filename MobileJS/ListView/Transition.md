@@ -7,7 +7,7 @@ control: ListView (Mobile)
 documentation: ug
 ---
 
-## Transition
+# Transition
 
 The data-ej-transition attribute is mainly used for the ListView transition effects when navigated from the parent list to the child list and vice-versa. The available transition types are,
 

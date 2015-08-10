@@ -7,7 +7,7 @@ control: Checkbox (Mobile)
 documentation: ug
 ---
 
-## Enable Tri-State
+# Enable Tri-State
 
 Sometimes, to represent the answer in partially true state, you can use the indeterminate state option that is the state between checked and unchecked state. For example, a Checkbox presented to select files to send via [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol) can use a [tree view](http://en.wikipedia.org/wiki/Tree_view) so that files can be selected one at a time, or by folder. When only some files in a folder are selected, then the checkbox for that folder could be in indeterminate state.
 
@@ -83,7 +83,6 @@ In the HTML page, add the following input elements to render the Checkbox with T
 
 Execute the above code example to render the following output.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_36.png](Enable-Tri-State_images/Enable-Tri-State_img1.png)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image20_36.png](Enable-Tri-State_images/Enable-Tri-State_img1.png)
 
 

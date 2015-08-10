@@ -7,9 +7,9 @@ control: ListView (Mobile)
 documentation: ug
 ---
 
-## Grouped List
+# Grouped List
 
-### First level group list
+## First level group list
 
 The ListView widget makes a grouped list when ‘data-ej-enablegrouplist’ attribute is set to true. This groups the set of items listed under ul. The grouped item is identified with the header title specified.
 
@@ -65,11 +65,11 @@ The ListView widget makes a grouped list when ‘data-ej-enablegrouplist’ attr
 
 The following screenshot displays the first level group list:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_3.png](Grouped-List_images/Grouped-List_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_3.png](Grouped-List_images/Grouped-List_img1.png)
 
 
-### Nested Child group list
+
+## Nested Child group list
 
 While selecting a list item that is grouped, you can render another set of list items. This is achieved by defining the desired child item list within the list containing ‘PrimaryKeyValue’. This data-ej-primarykey attribute relates the parent child for identifying its appropriate child when clicking on the parent list item.
 
@@ -133,7 +133,7 @@ While selecting a list item that is grouped, you can render another set of list 
 
 The following screenshot displays the Nested Child Group List:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_4.png](Grouped-List_images/Grouped-List_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_4.png](Grouped-List_images/Grouped-List_img2.png)
+
 
 

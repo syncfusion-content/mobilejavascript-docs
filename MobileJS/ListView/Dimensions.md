@@ -7,7 +7,7 @@ control: ListView (Mobile)
 documentation: ug
 ---
 
-## Dimensions
+# Dimensions
 
 To customize the ListView dimensions, data-ej-width and data-ej-height properties are used.
 
@@ -51,11 +51,10 @@ To customize the ListView dimensions, data-ej-width and data-ej-height propertie
 
 The following screenshot displays the Dimensions:
 
-{{ '![Height z](Dimensions_images/Dimensions_img1.png)' | markdownify }}
-{:.image }
+![Height z](Dimensions_images/Dimensions_img1.png)
 
 
-### AutoAdjustScrollHeight
+## AutoAdjustScrollHeight
 
 The data-ej-autoadjustscrollheight is a Boolean attribute that lets you adjust the scrolling content height automatically in case you have “ejm” elements with fixed position in your application. Default value is set to true.
 
@@ -97,7 +96,7 @@ The data-ej-autoadjustscrollheight is a Boolean attribute that lets you adjust t
 
 
 
-### AutoAdjustHeight	
+## AutoAdjustHeight	
 
 When the data-ej-autoadjustheight attribute is set to true, it sets the Height of the list element automatically based on the window height. Default value is set to false.
 

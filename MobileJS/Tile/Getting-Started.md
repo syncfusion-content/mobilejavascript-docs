@@ -9,11 +9,7 @@ documentation: ug
 
 # Getting Started 
 
-
-
-{{ '![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
-
+![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img1.png)
 
 The following section guides you to add aTile control.
 
@@ -49,21 +45,15 @@ Create an HTML file and paste the following template for the mobile layout.
 
     <div data-role="appview">
 
-
-
         <!-- Adding Header Control Here -->
 
         <!-- Adding Tile Control here -->
-
-
 
     </div>
 
 </body>
 
 </html>
-
-
 
 {% endhighlight %}
 
@@ -76,11 +66,7 @@ Refer to the following code example.
 <div id="header" data-role="ejmheader" data-ej-title="Tile">
     </div>
 
-
-
 {% endhighlight %}
-
-
 
 ## Add a Tile control
 
@@ -100,17 +86,11 @@ Refer to the following code example.
 
  </div>
 
-
-
 {% endhighlight %}
-
-
 
 Run the above code to render the following output. To know more details, refer to this [section](http://help.syncfusion.com/ug/js/default.htm)
 
-{{ '![C:/Users/durga/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
-
+![C:/Users/durga/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)
 
 ## Create Tile as grouped tile
 
@@ -123,8 +103,6 @@ Refer to the following code example.
 <!-- Adding multiple tiles --> 
 
 <div id="scrollcontent" class="defaultsample">
-
-
 
         <div class="group">
 
@@ -190,13 +168,7 @@ data-ej-imagepath="http://js.syncfusion.com/UG/Mobile/Content/tile" data-ej-tex
 
 <div id="scroll" data-role="ejmscrollpanel" data-ej-target="scrollcontent"></div>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Add the following style to set the background image for the page.
 
@@ -216,17 +188,11 @@ Add the following style to set the background image for the page.
 
     }
 
-
-
 {% endhighlight %}
-
-
 
 Run the above code to render the following output. To know more details, refer to this [section](http://help.syncfusion.com/ug/js/default.htm)
 
-{{ '![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
-
+![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img3.png)
 
 ## Create a grouped tile in Windows Mode
 
@@ -235,8 +201,6 @@ In the windows mode scenario, you require different size of the live Tiles. To r
 Refer to the following code example.
 
 {% highlight js %}
-
-
 
 if (ej.getRenderMode() == "windows" || ej.getRenderMode() == "flat") {
 
@@ -272,17 +236,6 @@ if (ej.getRenderMode() == "windows" || ej.getRenderMode() == "flat") {
 
         }
 
-
-
-
-
         if (ej.getRenderMode() == "android") $('#scrollcontent').find('div[data-role="ejmtile"]').attr({ 'data-ej-theme': 'light' });
 
-
-
-
-
 {% endhighlight %}
-
-
-

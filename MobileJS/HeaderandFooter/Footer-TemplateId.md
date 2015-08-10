@@ -7,7 +7,7 @@ control: Header and Footer (Mobile)
 documentation: ug
 ---
 
-## Footer TemplateId
+# Footer TemplateId
 
 Footer has template support feature. The data-ej-templateid attribute is used to define the ID of the template element where you can specify the content to render in the Footer. 
 
@@ -29,8 +29,8 @@ Footer has template support feature. The data-ej-templateid attribute is used to
 
 The following screenshot displays the output.
 
-{{ '![F:/ios7_phone.png](Footer-TemplateId_images/Footer-TemplateId_img1.png)' | markdownify }}
-{:.image }
+![F:/ios7_phone.png](Footer-TemplateId_images/Footer-TemplateId_img1.png)
+
 
 
 

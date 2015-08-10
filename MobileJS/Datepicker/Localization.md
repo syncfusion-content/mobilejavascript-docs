@@ -7,7 +7,7 @@ control: DatePicker (Mobile)
 documentation: ug
 ---
 
-## Localization
+# Localization
 
 The data-ej-culture attributes is used to enable the localization support. The default value is en-US.
 
@@ -25,7 +25,6 @@ The data-ej-culture attributes is used to enable the localization support. The d
 
 The following screenshot displays the output.
 
-{{ '![](Localization_images/Localization_img1.png)' | markdownify }}
-{:.image }
+![](Localization_images/Localization_img1.png)
 
 

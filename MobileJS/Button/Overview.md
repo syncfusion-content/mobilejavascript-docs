@@ -11,7 +11,7 @@ documentation: ug
 
 The Essential JavaScript Button widget is an interactive and rich control with highly customizable APIs. It renders on any device and any platform seamlessly giving the button control a native appearance with just a single line of code.
 
-Key Features
+## Key Features
 
 * Text and Image : Supports both text and image as Button content
 * Button style: There are normal, header and back style in Button control. Default is a Normal style.

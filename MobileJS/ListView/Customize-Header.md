@@ -7,7 +7,7 @@ control: ListView (Mobile)
 documentation: ug
 ---
 
-## Customize Header
+# Customize Header
 
 In the ListView, you can enable the built-in Header support. To show or hide the Header in the ListView, use the data-ej-showheader attribute. By default, the ListView is rendered with the Header. You can set the title for the Header by using the data-ej-headertitle attribute.
 
@@ -91,8 +91,8 @@ In some cases, for navigation purposes you may want to show Back button in the L
 
  The following screenshot displays the Customize Header:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_9.png](Customize-Header_images/Customize-Header_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_9.png](Customize-Header_images/Customize-Header_img1.png)
+
 
 
 While working with hybrid mobile application development for iOS, Android and Windows Platforms, you do not need to specify show/hide Header for each platform. The data-ej-hideforunsupporteddevice attribute is used to hide/show Header by its native aspects. For example, in some scenarios, Header may not be needed for Android and Windows Platforms (when tab control is used in an application), but in iOS, Header is needed since the tab is placed at the bottom of the page. Considering these scenarios, this attribute is provided. Enabling this attribute hides Header in Android and Windows Platform, and shows only in iOS platform.

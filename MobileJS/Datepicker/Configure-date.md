@@ -7,7 +7,7 @@ control: DatePicker (Mobile)
 documentation: ug
 ---
 
-## Configure date
+# Configure date
 
 The data-ej-maxdate and data-ej-mindate attributes are used to denote the maximum and minimum selectable dates. You can format the date by using the data-ej-dateformat attributes. The current value for DatePicker can be set by using the data-ej-value attributes.
 
@@ -27,7 +27,6 @@ The data-ej-maxdate and data-ej-mindate attributes are used to denote the maximu
 
 The following screenshot displays the output.
 
-{{ '![](Configure-date_images/Configure-date_img1.png)' | markdownify }}
-{:.image }
+![](Configure-date_images/Configure-date_img1.png)
 
 

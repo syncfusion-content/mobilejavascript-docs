@@ -9,19 +9,21 @@ documentation: ug
 
 # Getting Started
 
+## Create your first ListView in JavaScript
+
 Essential JavaScript Mobile ListView widget builds an interactive list view interface. This control allows you to select an item from a list-like interface and provides the infrastructure to display a set of data items in different layouts or views. Lists display data, data navigation, result lists, and data entry.
 
 
 
-{{ '![C:/Users/isuriyar/Desktop/image122_4.jpg](Getting-Started_images/Getting-Started_img1.jpeg)' | markdownify }}
-{:.image }
+![C:/Users/isuriyar/Desktop/image122_4.jpg](Getting-Started_images/Getting-Started_img1.jpeg)
+
 
 
 
 
 The following steps help you to add a ListView control for a mobile application that views a list of items such as images, text and navigates to the child item when you click a list item.
 
-## Create a Basic Mobile Layout
+### Create a Basic Mobile Layout
 
 Essential JavaScript Mobile ListView widget is rendered, either by specifying static content on a list. The following steps help you create a basic ListView for your application.
 
@@ -71,7 +73,7 @@ Create an HTML file and add the following template to the HTML file.
 
 {% endhighlight %}
 
-## Create Grouped List
+### Create Grouped List
 
 Here, you can learn how ListView with items are grouped together using the grouplist feature in ListView. To enable this, you can set the “data-ej-enablegrouplist” attribute to “True” and you can also provide individual header titles for each group by setting the “data-ej-grouplisttitle” attribute. The list <li> element with “data-ej-text” attribute is added to render list items. By default the content scrolling is enabled for ListView content.
 
@@ -114,20 +116,16 @@ Here, you can learn how ListView with items are grouped together using the group
 
 
 {% endhighlight %}
-
-
-
 Run the above code and you can see the following output.
 
 
 
-{{ '![C:/Users/isuriyar/Desktop/image122_1.jpg](Getting-Started_images/Getting-Started_img2.jpeg)' | markdownify }}
-{:.image }
+![C:/Users/isuriyar/Desktop/image122_1.jpg](Getting-Started_images/Getting-Started_img2.jpeg)
 
 
 
 
-## Add Images
+### Add Images
 
 You can add images to your ListView items by specifying the image class name for individual items using ‘data-ej-imageclass’ attribute.
 
@@ -267,11 +265,11 @@ You can define the image classes specified for the list items as follows.
 
 Run the above code and you can see the following output.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg)
 
 
-## Create Child List with Template   
+
+### Create Child List with Template   
 
 To view the inbox messages you can add its child list items. Since the child list contains the detailed mail information, you can add its content through Template Support that you can use to customize the appearance of the list item to meet your requirements. It is achieved by specifying the “data-ej-rendertemplate” attribute.
 
@@ -463,8 +461,8 @@ In this example, you can move to the inbox page by tapping the inbox list item t
 
 Run the above code and you can see the following output.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image122_3.jpg](Getting-Started_images/Getting-Started_img4.jpeg)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image122_3.jpg](Getting-Started_images/Getting-Started_img4.jpeg)
+
 
 
 

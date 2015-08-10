@@ -7,11 +7,11 @@ control: Grid (Mobile)
 documentation: ug
 ---
 
-## Columns
+# Columns
 
 Colums is a key feature in Grid to define schema in control based on datasource. It is useful to map field to datasource values.
 
-### Formatting
+## Formatting
 
 Formatting is used to convert data values to human readable formats using specific culture settings. In Mobil Grid, you can use format attribute to format particular columns, for more refrence about globalize.js you can refer to the link ([https://github.com/jquery/globalize](https://github.com/jquery/globalize)). Refer to the following code to use formatting in Grid.
 
@@ -71,11 +71,11 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![12](Columns_images/Columns_img1.png)' | markdownify }}
-{:.image }
+![12](Columns_images/Columns_img1.png)
 
 
-### Controlling Mobile Grid actions
+
+## Controlling Mobile Grid actions
 
 In ejmGrid, you can use allowSorting and allowFiltering to control Mobile Grid actions. Refer to the following code to disable particular column. In the following example, sorting action is controlled in ”CustomerID” column and filtering in “Freight” column.
 
@@ -134,11 +134,11 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![14](Columns_images/Columns_img2.png)' | markdownify }}
-{:.image }
+![14](Columns_images/Columns_img2.png)
 
 
-### Auto-generate column
+
+## Auto-generate column
 
 The Columns are automatically generated from the datasource and you no need to specify column declarations. Refer to the following code to auto generate column behavior with Grid.
 
@@ -190,8 +190,8 @@ Refer to the following script section.
 
 Run the above code to render Auto-generate columns.
 
-{{ '![15](Columns_images/Columns_img3.png)' | markdownify }}
-{:.image }
+![15](Columns_images/Columns_img3.png)
+
 
 
 ### Column Selection
@@ -256,15 +256,15 @@ Refer to the following script section.
 
 Run the above code to render the following output.
 
-{{ '![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/27.png](Columns_images/Columns_img4.png)' | markdownify }}
-{:.image }
+![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/27.png](Columns_images/Columns_img4.png)
 
 
-{{ '![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/28.png](Columns_images/Columns_img5.png)' | markdownify }}
-{:.image }
+
+![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/28.png](Columns_images/Columns_img5.png)
 
 
-{{ '![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/29.png](Columns_images/Columns_img6.png)' | markdownify }}
-{:.image }
+
+![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/29.png](Columns_images/Columns_img6.png)
+
 
 

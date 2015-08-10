@@ -9,12 +9,15 @@ documentation: ug
 
 # Getting Started
 
+## Create your first Header and Footer in JavaScript
+
 The Essential JavaScript Mobile Header widget is placed at the top of the page. It usually contains page title and optional buttons positioned to the left and right for navigation or actions. Header position can be fixed according to the user. The Essential JavaScript mobile Footer widget is same structure as header at the bottom of the page. In the following guidelines, you will learn about features in mobile Header and Footer widget by creating a web page.
 
 ![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)
 
 
-## Create the required layout
+
+### Create the required layout
 
 Header and Footer controls will be rendered based on the default values for all the properties. You can customize the Header and Footer controls by changing their properties according to your application need. The following steps will guide you to create a web page.
 
@@ -119,7 +122,11 @@ Use the following styles to add web page content element.
             text-align: justify;
 
         } 
-		
+
+
+
+
+
 {% endhighlight %}
 
 Run this code and you can see the following output. 
@@ -127,7 +134,7 @@ Run this code and you can see the following output.
 ![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img2.png)
 
 
-## Create the Header Control
+### Create the Header Control
 
 To render the Header control, you have to set “data-role” attribute to “ejmheader” to a div element. To set Header title using “data-ej-title” attribute with the desired title, in our case we set it as “Syncfusion”.
 
@@ -220,16 +227,17 @@ Run this code and you can see the following output.
 <table>
 <tr>
 <td>
-{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
+{{'![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 
 {{ '_Header left button event_' | markdownify }}</td><td>
-{{ '![](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
+
+{{'![](Getting-Started_images/Getting-Started_img6.png)'| markdownify }}
 
 {{ '_Header right button event_' | markdownify }}</td></tr>
 </table>
 
 
-## Create Footer Control
+### Create Footer Control
 
 To render the Footer control, you need to set data-role attribute to ejmfooter to a div element. To set Footer title “data-ej-title” attribute with the desired title, in our case we set it as “Copyrights 2001-2014”.
 
@@ -245,6 +253,8 @@ To render the Footer control, you need to set data-role attribute to ejmfooter t
 
 Run this code and you can see the following output. 
 
-{{ '![C:/Users/ApoorvahR/Desktop/7.png](Getting-Started_images/Getting-Started_img7.png)' | markdownify }}
+![C:/Users/ApoorvahR/Desktop/7.png](Getting-Started_images/Getting-Started_img7.png)
+
+
 
 

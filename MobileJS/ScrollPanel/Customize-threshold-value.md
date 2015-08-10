@@ -7,13 +7,11 @@ control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-## Customize threshold value
+# Customize threshold value
 
 The threshold value is used to initiate scrolling function, that is, the direction of scrolling based on the touch movement and at what distance (movement) the scrolling should be initiated. The “data-ej-directionlockthreshold” attribute specifies the threshold value where the x/y positions are to be controlled with the respect to z axis. By default, this property is set to 5.
 
 {% highlight html %}
-
-
 
     <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
@@ -30,8 +28,6 @@ The threshold value is used to initiate scrolling function, that is, the directi
     </div>
 
     <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-directionlockthreshold=90 />
-
-
 
 {% endhighlight %}
 

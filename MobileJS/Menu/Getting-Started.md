@@ -9,15 +9,14 @@ documentation: ug
 
 # Getting Started
 
+## Create your first Menu in JavaScript
+
 The Essential JavaScript Mobile Menu provides an interface to easily navigate hierarchical data.  In the following example, you can learn to create a Gallery app and learn about the features in the Menu widget.
 
-{{ '![1](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![1](Getting-Started_images/Getting-Started_img1.png)
 
 
-
-
-## Create the required layout for Gallery app
+### Create the required layout for Gallery app
 
 Essential JS Mobile Menu widget can be rendered from a hierarchy of <ul> and <li> and can perform unique actions based on the properties given for each <li> item. You can easily customize the Menu control by changing its properties. In the following code example, the gallery app menu is used to show multiple sharing options to share images.
 
@@ -79,11 +78,7 @@ Create an HTML file and paste the following template to the HTML file for Menu c
 
 </html>
 
-
-
 {% endhighlight %}
-
-
 
 Use the following styles for content.
 
@@ -98,8 +93,6 @@ Use the following styles for content.
 
 
         }
-
-
 
 {% endhighlight %}
 
@@ -125,21 +118,15 @@ Add the following code example to the <body> tag to display the gallery image an
 
         </div>
 
-
-
 {% endhighlight %}
 
 Run the code and following screenshot is displayed.
 
 
 
-{{ '![2](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![2](Getting-Started_images/Getting-Started_img2.png)
 
-
-
-
-## Create the Menu control
+### Create the Menu control
 
 To render the menu control, set data-role attribute as ejmmenu to a <div> element. Menu can be displayed with or without a title. In this example, a title is not required, so set data-ej-ios7-showtitle attribute to false. By using the data-ej-text attribute, you can set text for menu items. Refer to the following code example.
 
@@ -167,7 +154,7 @@ To render the menu control, set data-role attribute as ejmmenu to a <div> 
 
 
 
-## Show the Menu
+### Show the Menu
 
 To show the menu control, click the target element. Add data-ej-target attribute as a target element’s ID. You can use header right button as a target.
 
@@ -195,17 +182,11 @@ Refer to the following code example. 
 
 {% endhighlight %}
 
-
-
 Run this code and the following output is displayed. 
 
-{{ '![1](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![1](Getting-Started_images/Getting-Started_img3.png)
 
-
-
-
-## Handle Menu events
+### Handle Menu events
 
 You can add functionalities for each Menu item by using its touchend handler by setting the data-ej-touchend attribute. When you click a particular menu item, its corresponding touchend event is triggered and it can be handled as shown in the following code example.
 
@@ -227,19 +208,13 @@ You can add functionalities for each Menu item by using its touchend handler by 
 
             </div> 
 
-
-
 {% endhighlight %}
-
-
 
 Add the following code example.
 
 {% highlight js %}
 
 //object declaration
-
-
 
         $(document).ready(function () {
 
@@ -257,7 +232,6 @@ Add the following code example.
 
 //handling menu action 
         //to show Dialog
-
 
 
         function showDialog(args) {
@@ -282,17 +256,13 @@ Add the following code example.
 
         }
 
-
-
-
-
 {% endhighlight %}
 
 
 
 Run the code and the following output is displayed. 
 
-{{ '![3](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![3](Getting-Started_images/Getting-Started_img4.png)
+
 
 

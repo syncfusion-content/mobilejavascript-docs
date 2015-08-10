@@ -7,7 +7,7 @@ control: Dialog (Mobile)
 documentation: ug
 ---
 
-## Target Height
+# Target Height
 
  The data-ej-targetheight attribute specifies the target height of the Dialog.
 
@@ -67,7 +67,7 @@ function openAlertDialog(args)
 
 The following screenshot displays the output.
 
-{{ '![](Target-Height_images/Target-Height_img1.png)' | markdownify }}
-{:.image }
+![](Target-Height_images/Target-Height_img1.png)
+
 
 

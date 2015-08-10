@@ -7,7 +7,7 @@ control: Tile (Mobile)
 documentation: ug
 ---
 
-## Image Configuration
+# Image Configuration
 
 The “data-ej-imageposition” attribute is used to adjust the position of the Tile image. It accepts the following values.
 
@@ -29,9 +29,7 @@ The “data-ej-imageurl” attribute is used to specify the file name for the ba
 * Android - Folder name for Android specific images
 * Windows - Folder name for Windows specific images
 
-_Note: Both data-ej-imagepath and data-ej-imageurl attribute can be set when you want to specify separate images for each render mode and so it is necessary to specify separate path for iOS, android and windows renderMode. When data-ej-imageurl attribute is alone used, you can provide common images for all render modes. So, you should provide the whole image path for this attribute._
-
-
+> Note: Both data-ej-imagepath and data-ej-imageurl attribute can be set when you want to specify separate images for each render mode and so it is necessary to specify separate path for iOS, android and windows renderMode. When data-ej-imageurl attribute is alone used, you can provide common images for all render modes. So, you should provide the whole image path for this attribute.
 
 {% highlight html %}
 
@@ -41,17 +39,12 @@ _Note: Both data-ej-imagepath and data-ej-imageurl attribute can be set when you
 
 <div id="tile" data-role="ejmtile" data-ej-imageposition="fill" data-ej-text="Weather" data-ej-backgroundcolor="#ae12ae" data-ej-imageurl="Weather_1.png" data-ej-imagepath="../themes/sample/tileview"> </div></div>
 
-
-
 {% endhighlight %}
-
 
 
 The following screenshot displays the output of the above code.
 
-{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/imagepositionchange.png](Image-Configuration_images/Image-Configuration_img1.png)' | markdownify }}
-{:.image }
-
+![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/imagepositionchange.png](Image-Configuration_images/Image-Configuration_img1.png)
 
 Also you can give images for each Tile through CSS classes by using the “data-ej-imageclass” attribute. You can define your desired styles in the specified class.
 
@@ -67,11 +60,7 @@ Refer to the following code example.
 
 </div>
 
-
-
 {% endhighlight %}
-
-
 
 Refer to the following code example for CSS classes.
 
@@ -87,15 +76,8 @@ Refer to the following code example for CSS classes.
 
         }
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![C:/Users/labuser/Desktop/ImagClass.png](Image-Configuration_images/Image-Configuration_img2.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/labuser/Desktop/ImagClass.png](Image-Configuration_images/Image-Configuration_img2.png)

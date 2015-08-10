@@ -13,8 +13,6 @@ The “data-ej-showscrollbars” attribute is to control the visibility of the S
 
 {% highlight html %}
 
-
-
     <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
     <div id="maincontent" style="padding:10px">
@@ -29,15 +27,13 @@ The “data-ej-showscrollbars” attribute is to control the visibility of the S
 
     <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablefade="false" data-ej-showscrollbars="true" data-ej-enablenativescrolling="false" />  
 
-
-
 {% endhighlight %}
 
 The following screenshot displays “show scrollbars”:
 
 
 
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Show-Scrollbars_images/Show-Scrollbars_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Show-Scrollbars_images/Show-Scrollbars_img1.png)
+
 
 

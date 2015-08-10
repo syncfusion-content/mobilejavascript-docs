@@ -11,10 +11,11 @@ documentation: ug
 
 In this section, you can learn how to create Rotator for your mobile app.
 
+## Create your first Rotator in JavaScript
+
 The Essential JavaScript Mobile Rotator widget is a container (that holds many items) with that you can navigate next and previous items through swipe gestures. Each item in rotator can hold any HTML content. In the following guideline, you can learn the features in mobile rotator widget by creating a Photo Gallery App.
 
-{{ '![C:/Users/labuser/AppData/Local/Temp/SNAGHTML1f8cc07.PNG](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/AppData/Local/Temp/SNAGHTML1f8cc07.PNG](Getting-Started_images/Getting-Started_img1.png)
 
 
 ## Create the required layout
@@ -71,25 +72,17 @@ Create an HTML file and paste the following template to it for Photo Gallery App
 
 </html>
 
-
-
-
-
 {% endhighlight %}
 
 ## Create the Rotator control
 
 To render the Rotator control, set “data-role” attribute to “ejmrotator” to a div element. Also set “data-ej-targetid” attribute with the id of the target element that contains the HTML template for each item. Each first level child div element of the target element acts as an item of Rotator. 
 
-
-
 {% highlight html %}
 
  <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent">
 
  </div>    
-
-
 
 <div id="rotatorcontent">
 
@@ -127,10 +120,6 @@ To render the Rotator control, set “data-role” attribute to “ejmrotator”
 
     </div>	
 
-
-
-
-
 {% endhighlight %}
 
 
@@ -156,14 +145,11 @@ Use the following styles to style the Rotator items.
         }
 
 
-
         .photo1 {
 
             background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/tablet.jpg);
 
         }
-
-
 
         .photo2 {
 
@@ -178,7 +164,6 @@ Use the following styles to style the Rotator items.
             background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/green.jpg);
 
         }
-
 
 
         .photo4 {
@@ -205,18 +190,14 @@ Use the following styles to style the Rotator items.
 
         }   
 
-
-
-
-
 {% endhighlight %}
 
 
 
 Run this code to render the following output. For more details, refer "Common Getting started” section.
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
+
 
 
 ## Hide the Pager
@@ -224,18 +205,11 @@ Run this code to render the following output. For more details, refer "Common Ge
 You can see in the above image, the pager is to indicate the item that is currently displayed. You don’t need to show the pager in our use case. To achieve this, make “data-ej-showpager” attribute value as false.
 
 
-
 {% highlight html %}
-
-
 
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-showpager="false">
 
 </div>
-
-
-
-
 
 {% endhighlight %}
 
@@ -245,15 +219,15 @@ Run this to render the following output. For more details, refer "Common Getting
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
+
 
 
 By swiping left and right, you can view next images from the Photo Gallery.
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img4.png)
+
 
 

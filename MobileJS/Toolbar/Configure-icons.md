@@ -7,7 +7,7 @@ control: Toolbar (Mobile)
 documentation: ug
 ---
 
-## Configure icons
+# Configure icons
 
 You can use different icons in your Toolbar and also you can customize these icons for each item by using the data-ej-iconname attribute.
 
@@ -56,14 +56,12 @@ Refer to the following code example.
 
      </div>
 
-
-
 {% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image124_8.png](Configure-icons_images/Configure-icons_img1.png)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image124_8.png](Configure-icons_images/Configure-icons_img1.png)
+
 
 
 You can set the user defined icons using data-ej-iconurl attribute. This property overrides the data-ej-iconname attribute when both properties are set at a time. 
@@ -88,15 +86,11 @@ You can set the user defined icons using data-ej-iconurl attribute. This propert
 
         </div>
 
-
-
-
-
 {% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image124_9.png](Configure-icons_images/Configure-icons_img2.png)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image124_9.png](Configure-icons_images/Configure-icons_img2.png)
+
 
 

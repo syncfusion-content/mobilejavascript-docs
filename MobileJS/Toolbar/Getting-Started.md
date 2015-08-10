@@ -9,11 +9,11 @@ documentation: ug
 
 # Getting Started
 
+## Create your first Rotator in JavaScript
+
 The Essential JavaScript mobile toolbar provides a single interface to select a command from a collection of commands. It also provides template support. In this example, you can learn how to create a Mail App and through that you can learn the features of Mobile Toolbar Widget.
 
-{{ '![1](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
-
+![1](Getting-Started_images/Getting-Started_img1.png)
 
 ## Create the necessary layout
 
@@ -111,14 +111,12 @@ Create an HTML file and add the following template to the html file for Toolbar 
 
 </html>
 
-
-
 {% endhighlight %}
 
 Execute this code to render the following output.
 
-{{ '![2](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![2](Getting-Started_images/Getting-Started_img2.png)
+
 
 
 ## Create Toolbar Control
@@ -147,8 +145,6 @@ To render the Toolbar control, set data-role attribute to ejmtoolbar in a <div> 
 
 </div>
 
-
-
 {% endhighlight %}
 
 Use the following styles for content style.
@@ -161,16 +157,11 @@ Use the following styles for content style.
 
            }
 
-
-
-
-
 {% endhighlight %}
 
 Run this code to render the following output.
 
-{{ '![1](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![1](Getting-Started_images/Getting-Started_img3.png)
 
 
 ## Add functionalities for toolbar items 
@@ -198,10 +189,6 @@ You can provide functionalities for each Toolbar items and this can be achieved 
 </ul>
 
 </div>
-
-
-
-
 
 {% endhighlight %}
 
@@ -237,15 +224,11 @@ window.dialogObject.close(); //closes dialog
 
 }
 
-
-
-
-
 {% endhighlight %}
 
 Execute this code to render the following output. 
 
-{{ '![3](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![3](Getting-Started_images/Getting-Started_img4.png)
+
 
 

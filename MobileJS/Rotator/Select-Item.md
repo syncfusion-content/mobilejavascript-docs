@@ -7,7 +7,7 @@ control: Rotator (Mobile)
 documentation: ug
 ---
 
-## Select Item
+# Select Item
 
 Rotator control takes a numeric value given in data-ej-currentitemindex attribute and displays the corresponding item that matches the given index. Refer to the following code example.
 
@@ -80,7 +80,7 @@ Rotator control takes a numeric value given in data-ej-currentitemindex attribut
 {% endhighlight %}
 
 
-{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-2.png](Select-Item_images/Select-Item_img1.png)' | markdownify }}
-{:.image }
+![](Select-Item_images/Select-Item_img1.png)
+
 
 

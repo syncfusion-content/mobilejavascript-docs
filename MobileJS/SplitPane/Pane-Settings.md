@@ -7,7 +7,7 @@ control: SplitPane (Mobile)
 documentation: ug
 ---
 
-## Pane Settings
+# Pane Settings
 
 The “data-ej-overlayleftpane” attribute is used to enable or disable the left pane in lower resolutions. Its default value is true. You can specify the direction of left pane to get slide over the rightpane by using this “data-ej-over;aydirection” attribute. The possible directions are,
 

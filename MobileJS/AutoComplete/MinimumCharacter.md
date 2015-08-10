@@ -7,7 +7,7 @@ control: AutoComplete (Mobile)
 documentation: ug
 ---
 
-## MinimumCharacter
+# MinimumCharacter
 
 The attribute data-ej-minimumcharacter specifies the minimum number of characters you can enter in the text box to display the suggestion list. By default the value is set to “1”.
 

@@ -7,35 +7,36 @@ control: Introduction
 documentation: ug
 ---
 
-## API Configuration
+# API Configuration
 
 It is possible to get and set the various properties available within the controls after its creation.
 
-### Getting API values
+## Getting API values
 
 The API values can be accessed/retrieved by using either of the following ways.
 
 
+{% highlight css %}
 
 1. $(“jquery-selector”).<ejm-plugin-name>(“model.propertyName”);
 
 Example:  $("#myDate").ejmDatePicker("model.dateFormat");
 
 
-
-
-
 2. $(“jquery-selector”).<ejm-plugin-name>(“option”, “propertyName”);
 
 Example:  $("#myDate").ejmDatePicker("option", "dateFormat");
 
-### Setting values to the API
+{% endhighlight %}
+
+
+## Setting values to the API
 
 It is possible to set new values to the properties of the Syncfusion widgets during or after the control initialization as described. 
 
-#### During Initialization
+### During Initialization
 
-{% highlight text %}
+{% highlight css %}
 
 
 
@@ -50,16 +51,11 @@ Example:  <input id="myDate" data-role="ejmdatepicker" data-ej-value="01/01/2000
 Example:  $("#myDate").ejmDatePicker({ value: "01/01/2015", dateFormat: "MM/dd/yyyy" });
 
 
-
-
-
 {% endhighlight %}
 
-#### After initialization
+### After initialization
 
-{% highlight text %}
-
-
+{% highlight css %}
 
 1. var obj = $(“jquery-selector”).data(“<ejm-plugin-name>”);  [Recommended method]
 
@@ -92,9 +88,6 @@ Example:  $("#myDate").ejmDatePicker("option", "dateFormat", "dd/MM/yyyy");
 4. $(“jquery-selector”).<ejm-plugin-name>({ propertyName : “value” });
 
 Example:  $("#myDate").ejmDatePicker({ dateFormat: "dd/MM/yyyy" });
-
-
-
 
 
 {% endhighlight %}

@@ -9,13 +9,14 @@ documentation: ug
 
 # Getting Started
 
+## Create your first Password Textbox in JavaScript
+
 Using the given guidelines, you can create a basic login form using the Password Textbox control.
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create Password Textbox
+### Create Password Textbox
 
 Create an HTML file and add the following template to the HTML file.
 
@@ -104,8 +105,6 @@ To render the Password control, you can set “ejmpassword” to the data-role a
 
 {% highlight html %}
 
-
-
 <!-- Password elements -->
 
 <div>
@@ -113,8 +112,6 @@ To render the Password control, you can set “ejmpassword” to the data-role a
 <input name="password" id="password" data-role="ejmpassword" />
 
 </div>
-
-
 
 
 {% endhighlight %}
@@ -171,11 +168,11 @@ To render the Password control, you can set “ejmpassword” to the data-role a
 
 Run the above code example and you can see the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
-Set Watermark text
+
+## Set Watermark text
 
 The watermark text is usually a short hint that describes the expected value of the input field. This can be achieved by using the “data-ej-watermarktext” attribute.
 
@@ -191,7 +188,7 @@ The watermark text is usually a short hint that describes the expected value of 
 
 Run the above code example and you can see the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
+
 
 

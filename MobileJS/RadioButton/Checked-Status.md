@@ -7,13 +7,11 @@ control: RadioButton (Mobile)
 documentation: ug
 ---
 
-## Checked Status
+# Checked Status
 
 You have options to set the state of the RadioButton either as checked or unchecked. When you select any one option, a dot mark appears inside the circle. This is called the checkedstate. RadioButtons selected earlier are unselected that is they are in unchecked state. The checked property is used to set the state of the RadioButton.
 
 {% highlight html %}
-
-
 
   <div align="center">
 
@@ -81,15 +79,11 @@ You have options to set the state of the RadioButton either as checked or unchec
 
         </div>
 
-
-
-
-
 {% endhighlight %}
 
 The following screenshot displays the checkedstatus:
 
-{{ '![](Checked-Status_images/Checked-Status_img1.png)' | markdownify }}
-{:.image }
+![](Checked-Status_images/Checked-Status_img1.png)
+
 
 

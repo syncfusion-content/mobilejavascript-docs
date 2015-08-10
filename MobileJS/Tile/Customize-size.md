@@ -7,7 +7,7 @@ control: Tile (Mobile)
 documentation: ug
 ---
 
-## Customize size
+# Customize size
 
 You can customize the size of the Tile by using the “data-ej-tilesize” attribute. The following built-in Tile sizes are supported.
 
@@ -16,7 +16,7 @@ You can customize the size of the Tile by using the “data-ej-tilesize” attri
 * large
 * wide
 
-Default value: small
+## Default value: small
 
 Refer to the following code example.
 
@@ -32,15 +32,8 @@ Refer to the following code example.
 
 </div>
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![](Customize-size_images/Customize-size_img1.png)' | markdownify }}
-{:.image }
-
-
+![](Customize-size_images/Customize-size_img1.png)

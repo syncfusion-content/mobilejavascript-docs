@@ -7,7 +7,7 @@ control: Radial Menu (Mobile)
 documentation: ug
 ---
 
-## Customize buttons
+# Customize buttons
 
 You can simply customize the Radial Menu Center and Back buttons (images) by using data-ej-imageclass and data-ej-backimageclass attributes respectively. 
 
@@ -16,8 +16,6 @@ The Radial Menu control is essentially a context menu presenting its items in a 
 Refer to the following code example.
 
 {% highlight html %}
-
-
 
     <div id="radialmenu_sample" data-role="ejmradialmenu" data-ej-position="leftcenter" data-ej-imageclass="imageclass" data-ej-backimageclass="backimage" data-ej-touchend="click">
 
@@ -91,10 +89,6 @@ Refer to the following code example.
 
     </div>
 
-
-
-
-
 {% endhighlight %}
 
 Refer the following code examples for css class
@@ -110,8 +104,6 @@ Refer the following code examples for css class
             background-repeat: no-repeat;
 
         }
-
-
 
         .backimage {
 
@@ -157,12 +149,12 @@ Refer the following code examples for script section
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![C:/Users/isuriyar/Desktop/ra.png](Customize-buttons_images/Customize-buttons_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/isuriyar/Desktop/ra.png](Customize-buttons_images/Customize-buttons_img1.png)
 
 
-{{ '![raadialmenu](Customize-buttons_images/Customize-buttons_img2.png)' | markdownify }}
-{:.image }
+
+![raadialmenu](Customize-buttons_images/Customize-buttons_img2.png)
+
 
 
 

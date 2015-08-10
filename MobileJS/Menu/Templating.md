@@ -7,9 +7,9 @@ control: Menu (Mobile)
 documentation: ug
 ---
 
-## Templating
+# Templating
 
-### RenderTemplate	
+## RenderTemplate	
 
 By using the template support, you can customize the appearance of an individual Menu item or the whole Menu is rendered with a single template. Setting the data-ej-rendertemplate to true and specifying the template inside the li item render Menu with template item. Refer to the following code example.
 
@@ -37,17 +37,15 @@ By using the template support, you can customize the appearance of an individual
 
       </div>
 
-
-
 {% endhighlight %}
 
 The following screenshot displays the RenderTemplate of Menu.
 
-{{ '![1](Templating_images/Templating_img1.png)' | markdownify }}
-{:.image }
+![1](Templating_images/Templating_img1.png)
 
 
-### TemplateID
+
+## TemplateID
 
 This attribute is used to define the Template ID for the Menu item. Template is defined outside and can be rendered by using its ID for Menu items. The template’s ID is set to the data-ej-templateid attribute for the Menu control so that the template renders along with the Menu. To use data-ej-templateid attribute, enable the data-ej-rendertemplate attribute.
 
@@ -88,8 +86,6 @@ This attribute is used to define the Template ID for the Menu item. Template is 
      <span class="text">Benefits</span>
 
 </div>
-
-
 
 {% endhighlight %}
 

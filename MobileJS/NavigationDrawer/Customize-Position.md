@@ -7,7 +7,7 @@ control: Navigation Drawer (Mobile)
 documentation: ug
 ---
 
-## Customize Position
+# Customize Position
 
 The data-ej-position attribute is used to specify the position whether it is fixed or relative to the container. When you specify its position as normal, it appends within the container otherwise it appends to the appview.
 
@@ -76,8 +76,6 @@ Refer to the following code examples.
             </div>
 
         </div>
-
-
 
 {% endhighlight %}
 

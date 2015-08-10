@@ -7,13 +7,11 @@ control: Accordion (Mobile)
 documentation: ug
 ---
 
-## Expand multiple content
+# Expand multiple content
 
 The data-ej-enablemultipleopen attribute is used to display or expand more than one item at a time. The index of the items to be expanded can be specified by using data-ej-selecteditems attribute as an array.
 
 {% highlight html %}
-
-
 
 <div id="accordion_sample" data-role="ejmaccordion" data-ej-enablemultipleopen="true" data-ej-selecteditems="[0,1]">
 
@@ -53,15 +51,8 @@ The data-ej-enablemultipleopen attribute is used to display or expand more than 
 
 </div> 
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays expand multiple contents:
 
-{{ '![](Expand-multiple-content_images/Expand-multiple-content_img1.png)' | markdownify }}
-{:.image }
-
-
+![](Expand-multiple-content_images/Expand-multiple-content_img1.png)

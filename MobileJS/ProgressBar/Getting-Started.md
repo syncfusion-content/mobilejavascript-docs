@@ -9,12 +9,12 @@ documentation: ug
 
 # Getting Started
 
+## Create your first ProgressBar in JavaScript
+
 The Essential JavaScript Mobile Progress Bar is a simple interface to indicate the current progress of an operation, such as uploading a document. In the following guidelines, you will learn about the features in progress bar widget by creating an App Installer.
 
 
-
-{{ '![1](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![1](Getting-Started_images/Getting-Started_img1.png)
 
 
 ## Create the required layout for App Installer
@@ -98,7 +98,6 @@ Create an HTML file and paste the following template to it for Progress Bar crea
 </html>
 
 
-
 {% endhighlight %}
 
 
@@ -107,8 +106,8 @@ Run the above code to render the following output.
 
 
 
-{{ '![2](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![2](Getting-Started_images/Getting-Started_img2.png)
+
 
 
 ## Create Progress bar control
@@ -140,7 +139,6 @@ Progress bar can be hidden with a desired action on its “hide” API and can b
 {% highlight js %}
 
 
-
         $(function () {
 
             window.progressObject = $("#progress").data("ejmProgress"); // create object for progressbar
@@ -158,9 +156,6 @@ Progress bar can be hidden with a desired action on its “hide” API and can b
             }
 
 
-
-
-
 {% endhighlight %}
 
 
@@ -169,8 +164,8 @@ Run this code and you will see the below output while clicking install button.
 
 
 
-{{ '![3](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![3](Getting-Started_images/Getting-Started_img3.png)
+
 
 
 ## Customize the text
@@ -199,8 +194,8 @@ Run this code and you will see the below output.
 
 
 
-{{ '![1](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![1](Getting-Started_images/Getting-Started_img4.png)
+
 
 
 ## Customize the text and value dynamically
@@ -287,8 +282,8 @@ Run this code and you will see the following output after clicking the install b
 
 
 
-{{ '![4](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
+![4](Getting-Started_images/Getting-Started_img5.png)
+
 
 
 ## Progress Bar event handling 

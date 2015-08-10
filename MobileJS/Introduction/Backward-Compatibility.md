@@ -7,9 +7,9 @@ control: Introduction
 documentation: ug
 ---
 
-## Backward Compatibility
+# Backward Compatibility
 
-### Version 12.2 Changes
+## Version 12.2 Changes
 
 As a part of an effort to improve the user experience and provide consistent APIs across all the Syncfusion’s controls, significant changes are made to the API naming effective from Volume 2, 2014 release. The changes have been documented with mapping between the old and new API names to enable quick up gradation of any control. To migrate from Volume 1, 2014 or from earlier versions to this Volume-2, 2014, refer to the following specified API changes.
 
@@ -19,10 +19,10 @@ _Property Table_
 
 <table>
 <tr>
-<td>
-Member Type</td><td>
-Old Enum Property</td><td>
-New Enum Property</td></tr>
+<th>
+Member Type</th><th>
+Old Enum Property</th><th>
+New Enum Property</th></tr>
 <tr>
 <td>
 Enum</td><td>
@@ -98,10 +98,10 @@ _ejmAccordion_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "6">
 Members</td><td>
@@ -150,10 +150,10 @@ _ejmAutoComplete_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "10">
 Members</td><td>
@@ -200,11 +200,11 @@ _ejBarcode_
 
 <table>
 <tr>
-<td>
-Member Type</td><td>
-Old API Names</td><td>
-New API Names</td><td>
-Comments</td></tr>
+<th>
+Member Type</th><th>
+Old API Names</th><th>
+New API Names</th><th>
+Comments</th></tr>
 <tr>
 <td>
 SymbologyType(Enum)</td><td>
@@ -216,11 +216,12 @@ _ejBulletGraph_
 
 <table>
 <tr>
-<td>
-Member Type</td><td colspan = "3">
-Old APIs</td><td colspan = "2">
-New APIs</td><td>
-Comments</td></tr>
+<th>
+Member Type</th><th colspan = "3">
+Old APIs</th><th colspan = "2">
+Old APIs</th><th colspan = "2">
+New APIs</th><th>
+Comments</th></tr>
 <tr>
 <td rowspan = "14">
 Property</td><td colspan = "3">
@@ -293,11 +294,11 @@ tooltip</td><td colspan = "2">
 tooltipSettings</td><td>
 Renamed tooltip property to tooltipSettings.</td></tr>
 <tr>
-<td>
-Member Type</td><td colspan = "2">
-Old Enum Names</td><td colspan = "3">
-New Enum Names</td><td colspan = "2">
-Comments</td></tr>
+<th>
+Member Type</th><th colspan = "2">
+Old Enum Names</th><th colspan = "3">
+New Enum Names</th><th colspan = "2">
+Comments</th></tr>
 <tr>
 <td rowspan = "7">
 Enum</td><td colspan = "2">
@@ -335,12 +336,12 @@ ej.BulletGraph.themes</td><td colspan = "3">
 ej.datavisualization.BulletGraph.Themes</td><td colspan = "2">
 </td></tr>
 <tr>
-<td>
-Member Type</td><td>
-Event Name</td><td>
-Old Argument Names</td><td colspan = "3">
-New  Argument Names</td><td colspan = "2">
-Comments</td></tr>
+<th>
+Member Type</th><th>
+Event Name</th><th>
+Old Argument Names</th><th colspan = "3">
+New  Argument Names</th><th colspan = "2">
+Comments</th></tr>
 <tr>
 <td rowspan = "7">
 Event</td><td>
@@ -397,10 +398,10 @@ _ejmButton_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "5">
 Members</td><td>
@@ -450,11 +451,11 @@ _ejChart_
 
 <table>
 <tr>
-<td>
-Member Type</td><td colspan = "4">
-Old APIs</td><td colspan = "2">
-New APIs</td><td colspan = "2">
-Comments</td></tr>
+<th>
+Member Type</th><th colspan = "4">
+Old APIs</th><th colspan = "2">
+New APIs</th><th colspan = "2">
+Comments</th></tr>
 <tr>
 <td rowspan = "14">
 Property</td><td colspan = "4">
@@ -792,10 +793,10 @@ _ejmCheckbox_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "3">
 Members</td><td>
@@ -814,11 +815,11 @@ _ejCircularGauge_
 
 <table>
 <tr>
-<td>
-Member Type</td><td>
-Old APIs</td><td>
-New APIs</td><td>
-Comments</td></tr>
+<th>
+Member Type</th><th>
+Old APIs</th><th>
+New APIs</th><th>
+Comments</th></tr>
 <tr>
 <td rowspan = "50">
 Property</td><td>
@@ -1200,10 +1201,10 @@ _ejmDatePicker_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "2">
 Members</td><td>
@@ -1218,14 +1219,14 @@ _ejmDialog_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "6">
 Members</td><td>
-autoOpen</td><td>
+autoOpen</td><td>ru
 enableAutoOpen</td></tr>
 <tr>
 <td>
@@ -1257,11 +1258,11 @@ _ejDigitalGauge_
 
 <table>
 <tr>
-<td>
-Member Type </td><td>
-Old API Names</td><td>
-New API Names</td><td>
-Comments </td></tr>
+<th>
+Member Type </th><th>
+Old API Names</th><th>
+New API Names</th><th>
+Comments </th></tr>
 <tr>
 <td rowspan = "9">
 Property</td><td>
@@ -1319,10 +1320,10 @@ _ejmGrid_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "6">
 Members</td><td>
@@ -1371,10 +1372,10 @@ _ejmHeader_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td>
 Members</td><td>
@@ -1385,10 +1386,10 @@ _ejmListbox_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "32">
 Members</td><td>
@@ -1621,11 +1622,11 @@ _ejLinearGauge_
 
 <table>
 <tr>
-<td>
-Member Type</td><td>
-Old API Names</td><td>
-New API Names</td><td>
-Comments</td></tr>
+<th>
+Member Type</th><th>
+Old API Names</th><th>
+New API Names</th><th>
+Comments</th></tr>
 <tr>
 <td rowspan = "44">
 Property</td><td>
@@ -1984,11 +1985,11 @@ _ejMaps_
 
 <table>
 <tr>
-<td>
-Member Type</td><td colspan = "2">
-Old API Names</td><td colspan = "2">
-New API Names</td><td colspan = "2">
-Comments</td></tr>
+<th>
+Member Type</th><th colspan = "2">
+Old API Names</th><th colspan = "2">
+New API Names</th><th colspan = "2">
+Comments</th></tr>
 <tr>
 <td>
 Property</td><td colspan = "2">
@@ -2272,10 +2273,10 @@ _ejmMaskEdit_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "2">
 Methods</td><td>
@@ -2290,10 +2291,10 @@ _ejmMenu_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "5">
 Members</td><td>
@@ -2389,10 +2390,10 @@ _ejmNumeric_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "4">
 Members</td><td>
@@ -2415,10 +2416,10 @@ _ejmPassword_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "2">
 Methods</td><td>
@@ -2433,10 +2434,10 @@ _ejmProgressBar_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "5">
 Members</td><td>
@@ -2463,11 +2464,11 @@ _ejRangeNavigator_
 
 <table>
 <tr>
-<td>
-Member Type</td><td colspan = "2">
-Old APIs</td><td>
-New APIs</td><td>
-Comments</td></tr>
+<th>
+Member Type</th><th colspan = "2">
+Old APIs</th><th>
+New APIs</th><th>
+Comments</th></tr>
 <tr>
 <td rowspan = "20">
 Property</td><td colspan = "2">
@@ -2606,10 +2607,10 @@ _ejmRating_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "2">
 Members</td><td>
@@ -2650,10 +2651,10 @@ _ejmRotator_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "3">
 Members</td><td>
@@ -2672,10 +2673,10 @@ _ejmScrollPanel_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "17">
 Members</td><td>
@@ -2755,10 +2756,10 @@ _ejmSlider_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "6">
 Members</td><td>
@@ -2794,10 +2795,10 @@ _ejmSplitPane_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "3">
 Members</td><td>
@@ -2924,10 +2925,10 @@ _ejmTextArea_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "2">
 Methods</td><td>
@@ -2942,10 +2943,10 @@ _ejmTextbox_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "2">
 Methods</td><td>
@@ -2960,10 +2961,10 @@ _ejmTile_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "5">
 Members</td><td>
@@ -3003,10 +3004,10 @@ _ejmTimePicker_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "2">
 Members</td><td>
@@ -3021,11 +3022,11 @@ _ejTreeMap_
 
 <table>
 <tr>
-<td>
-Member Type</td><td>
-Old API Names</td><td>
-New API Names</td><td>
-Comments</td></tr>
+<th>
+Member Type</th><th>
+Old API Names</th><th>
+New API Names</th><tdh>
+Comments</th></tr>
 <tr>
 <td rowspan = "9">
 Property</td><td>
@@ -3077,10 +3078,10 @@ _ejmToggleButton_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td>
 Members</td><td>
@@ -3096,10 +3097,10 @@ _ejmToolBar_
 
 <table>
 <tr>
-<td>
-Type</td><td>
-Old APIs</td><td>
-New APIs</td></tr>
+<th>
+Type</th><th>
+Old APIs</th><th>
+New APIs</th></tr>
 <tr>
 <td rowspan = "3">
 Members</td><td>

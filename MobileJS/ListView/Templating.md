@@ -7,9 +7,9 @@ control: ListView (Mobile)
 documentation: ug
 ---
 
-## Templating
+# Templating
 
-### Internal Template
+## Internal Template
 
 By using template support, you can customize the appearance of the individual list item or render the whole ListView by using a single template. Setting the data-ej-rendertemplate to true and specifying the template inside the li item renders the ListView with template item.
 
@@ -45,7 +45,7 @@ By using template support, you can customize the appearance of the individual li
 
 
 
-### External template
+## External template
 
 The data-ej-templateid attribute is used to define the template ID for the list item. Template is defined outside and is rendered by using its ID for list items. The Template ID is set to the data-ej-templatid attribute for the ListView control so that the template renders along with the ListView. To use data-ej-templateid attribute, enable the data-ej-rendertemplate attribute.
 
@@ -253,7 +253,7 @@ You can add the following styles for better appearance.
 
 The following screenshot displays the Template:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_18.png](Templating_images/Templating_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_18.png](Templating_images/Templating_img1.png)
+
 
 
