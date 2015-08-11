@@ -2,7 +2,7 @@
 layout: post
 title: ejmGroupButton
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -154,6 +154,7 @@ Requires
 
 
 ### cssClass<span class="type-signature type string">string</span>
+{:#members:cssclass}
 
 
 
@@ -231,6 +232,7 @@ $("#grpbtn").ejmGroupButton ({ cssClass: "customclass" });
 
 
 ### enablePersistence<span class="type-signature type boolean">boolean</span>
+{:#members:enablepersistence}
 
 
 
@@ -308,6 +310,7 @@ $("#grpbtn").ejmGroupButton ({ enablePersistence: true });
 
 
 ### imageclass<span class="type-signature type string">string</span>
+{:#members:imageclass}
 
 
 
@@ -360,6 +363,7 @@ Example
 
 
 ### imageurl<span class="type-signature type string">string</span>
+{:#members:imageurl}
 
 
 
@@ -412,6 +416,7 @@ Example
 
 
 ### items<span class="type-signature type string">string</span>
+{:#members:items}
 
 
 
@@ -461,6 +466,7 @@ $("#group-button").ejmGroupButton({ items: [{ imageUrl: "style" }, { imageUrl: "
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -540,6 +546,7 @@ $("#grpbtn").ejmGroupButton ("option", "renderMode", ej.mobile.RenderMode.Auto);
 
 
 ### selectedItemIndex<span class="type-signature type number">number</span>
+{:#members:selecteditemindex}
 
 
 
@@ -609,6 +616,7 @@ $("#grpbtn").ejmGroupButton ({ selectedItemIndex: 1 });
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -688,6 +696,7 @@ $("#grpbtn").ejmGroupButton ({ theme: ej.mobile.Theme.Auto });
 
 
 ### windows
+{:#members:windows}
 
 
 
@@ -709,6 +718,7 @@ Section for windows rendermode specific functionalities.
 
 
 ### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+{:#members:windows-renderdefault}
 
 
 
@@ -792,6 +802,7 @@ $("#grpbtn").ejmGroupButton("option", "windows.renderDefault", false); </code>
 
 
 ### destroy<span class="signature">()</span>
+{:#methods:destroy}
 
 
 
@@ -854,6 +865,7 @@ $("#grpbtn").ejmGroupButton("destroy");
 
 
 ### touchEnd
+{:#events:touchend}
 
 
 
@@ -961,6 +973,7 @@ touchEnd: function (args) { //handle the event
 
 
 ### touchStart
+{:#events:touchstart}
 
 
 

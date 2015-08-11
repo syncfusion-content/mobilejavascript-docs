@@ -2,7 +2,7 @@
 layout: post
 title: ejmGrid
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -136,6 +136,7 @@ Requires
 
 
 ### allowFiltering<span class="type-signature type boolean">boolean</span>
+{:#members:allowfiltering}
 
 
 
@@ -190,6 +191,7 @@ $("#mobilegrid").ejmGrid ({ allowFiltering: false,dataSource:data,columns: [
 
 
 ### allowPaging<span class="type-signature type boolean">boolean</span>
+{:#members:allowpaging}
 
 
 
@@ -244,6 +246,7 @@ $("#mobilegrid").ejmGrid ({ allowPaging: true,dataSource:data,columns: [
 
 
 ### allowScrolling<span class="type-signature type boolean">boolean</span>
+{:#members:allowscrolling}
 
 
 
@@ -298,6 +301,7 @@ $("#mobilegrid").ejmGrid ({ allowScrolling: false,dataSource:data,columns: [
 
 
 ### allowSelection<span class="type-signature type boolean">boolean</span>
+{:#members:allowselection}
 
 
 
@@ -352,6 +356,7 @@ $("#mobilegrid").ejmGrid ({ allowSelection: false,dataSource:data,columns: [
 
 
 ### allowSorting<span class="type-signature type boolean">boolean</span>
+{:#members:allowsorting}
 
 
 
@@ -390,6 +395,7 @@ $("#mobilegrid").ejmGrid ({ allowSorting: false,dataSource:data,columns: [
 
 
 ### caption<span class="type-signature type string">string</span>
+{:#members:caption}
 
 
 
@@ -444,6 +450,7 @@ $("#mobilegrid").ejmGrid ({ caption: "caption", showCaption: true,dataSource:dat
 
 
 ### columns<span class="type-signature type array">array</span>
+{:#members:columns}
 
 
 
@@ -497,6 +504,7 @@ $("#mobilegrid").ejGrid({ dataSource:data,columns: [
 
 
 ### cssClass<span class="type-signature type string">string</span>
+{:#members:cssclass}
 
 
 
@@ -551,6 +559,7 @@ $("#mobilegrid").ejmGrid ({ cssClass: "Customclass",dataSource:data,columns: [
 
 
 ### dataSource<span class="type-signature type data">data</span>
+{:#members:datasource}
 
 
 
@@ -605,6 +614,7 @@ $("#mobilegrid").ejmGrid ({ dataSource:data,columns: [
 
 
 ### enablePersistence<span class="type-signature type boolean">boolean</span>
+{:#members:enablepersistence}
 
 
 
@@ -659,6 +669,7 @@ $("#mobilegrid").ejmGrid ({ enablePersistence: false,dataSource:data,columns: [
 
 
 ### filterSettings
+{:#members:filtersettings}
 
 
 
@@ -680,6 +691,7 @@ This property is used to customize the filtering behavior of the grid.
 
 
 ### filterSettings.filterBarMode<span class="type-signature type enum">enum</span>
+{:#members:filtersettings-filterbarmode}
 
 
 
@@ -736,6 +748,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### filterSettings.filteredColumns<span class="type-signature type object">object</span>
+{:#members:filtersettings-filteredcolumns}
 
 
 
@@ -792,6 +805,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### filterSettings.interval<span class="type-signature type number">number</span>
+{:#members:filtersettings-interval}
 
 
 
@@ -848,6 +862,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### pageSettings
+{:#members:pagesettings}
 
 
 
@@ -869,6 +884,7 @@ This property is used to modify pager default configuration.
 
 
 ### pageSettings.currentPage<span class="type-signature type number">number</span>
+{:#members:pagesettings-currentpage}
 
 
 
@@ -925,6 +941,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### pageSettings.display<span class="type-signature type enum">enum</span>
+{:#members:pagesettings-display}
 
 
 
@@ -981,6 +998,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### pageSettings.pageSize<span class="type-signature type number">number</span>
+{:#members:pagesettings-pagesize}
 
 
 
@@ -1037,6 +1055,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### pageSettings.totalRecordsCount<span class="type-signature type number">number</span>
+{:#members:pagesettings-totalrecordscount}
 
 
 
@@ -1091,6 +1110,7 @@ $("#print").text("TotalRecordsCount: " + value);
 
 
 ### pageSettings.type<span class="type-signature type enum">enum</span>
+{:#members:pagesettings-type}
 
 
 
@@ -1147,6 +1167,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -1201,6 +1222,7 @@ $("#mobilegrid").ejmGrid ({ renderMode: ej.mobile.RenderMode.Auto,dataSource:dat
 
 
 ### scrollSettings
+{:#members:scrollsettings}
 
 
 
@@ -1222,6 +1244,7 @@ Used to enable grid column and row scrolling
 
 
 ### scrollSettings.enableColumnScrolling<span class="type-signature type boolean">boolean</span>
+{:#members:scrollsettings-enablecolumnscrolling}
 
 
 
@@ -1278,6 +1301,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### scrollSettings.enableNativeScrolling<span class="type-signature type boolean">boolean</span>
+{:#members:scrollsettings-enablenativescrolling}
 
 
 
@@ -1334,6 +1358,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### scrollSettings.enableRowScrolling<span class="type-signature type boolean">boolean</span>
+{:#members:scrollsettings-enablerowscrolling}
 
 
 
@@ -1390,6 +1415,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### scrollSettings.height<span class="type-signature type string">string</span>
+{:#members:scrollsettings-height}
 
 
 
@@ -1446,6 +1472,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### scrollSettings.width<span class="type-signature type string">string</span>
+{:#members:scrollsettings-width}
 
 
 
@@ -1502,6 +1529,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### selectedRowIndex<span class="type-signature type number">number</span>
+{:#members:selectedrowindex}
 
 
 
@@ -1558,6 +1586,7 @@ $("#mobilegrid").ejmGrid ({ selectedRowIndex: 1,dataSource:data,columns: [
 
 
 ### sortSettings
+{:#members:sortsettings}
 
 
 
@@ -1579,6 +1608,7 @@ This property is used to modify sorting default configuration.
 
 
 ### sortSettings.allowMultiSorting<span class="type-signature type boolean">boolean</span>
+{:#members:sortsettings-allowmultisorting}
 
 
 
@@ -1635,6 +1665,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### sortSettings.sortedColumns<span class="type-signature type object">object</span>
+{:#members:sortsettings-sortedcolumns}
 
 
 
@@ -1691,6 +1722,7 @@ $("#mobilegrid").ejmGrid ({
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -1745,6 +1777,7 @@ $("#mobilegrid").ejmGrid ({ theme: ej.mobile.Theme.Auto,dataSource:data,columns:
 
 
 ### transition<span class="type-signature type string">string</span>
+{:#members:transition}
 
 
 
@@ -1808,6 +1841,7 @@ $("#mobilegrid").ejmGrid ({ transition: "slide",dataSource:data,columns: [
 
 
 ### getColumnByField<span class="signature">()</span>
+{:#methods:getcolumnbyfield}
 
 
 
@@ -1849,6 +1883,7 @@ $("#mobilegrid").ejGrid("getColumnByField", "OrderID");
 
 
 ### getColumnByHeaderText<span class="signature">()</span>
+{:#methods:getcolumnbyheadertext}
 
 
 
@@ -1890,6 +1925,7 @@ $("#mobilegrid").ejmGrid("getColumnByHeaderText", "Order ID");
 
 
 ### getColumnByIndex<span class="signature">()</span>
+{:#methods:getcolumnbyindex}
 
 
 
@@ -1931,6 +1967,7 @@ $("#mobilegrid").ejmGrid("getColumnByIndex",1);
 
 
 ### getColumnFieldNames<span class="signature">()</span>
+{:#methods:getcolumnfieldnames}
 
 
 
@@ -1972,6 +2009,7 @@ $("#mobilegrid").ejmGrid("getColumnFieldNames");
 
 
 ### getColumnIndexByField<span class="signature">()</span>
+{:#methods:getcolumnindexbyfield}
 
 
 
@@ -2013,6 +2051,7 @@ $("#mobilegrid").ejmGrid("getColumnIndexByField","OrderID");
 
 
 ### getColumnMemberByIndex<span class="signature">()</span>
+{:#methods:getcolumnmemberbyindex}
 
 
 
@@ -2054,6 +2093,7 @@ $("#mobilegrid").ejmGrid("getColumnMemberByIndex",1);
 
 
 ### hideColumns<span class="signature">()</span>
+{:#methods:hidecolumns}
 
 
 
@@ -2095,6 +2135,7 @@ $("#mobilegrid").ejmGrid("hideColumns","Order ID");
 
 
 ### refreshContent<span class="signature">()</span>
+{:#methods:refreshcontent}
 
 
 
@@ -2151,6 +2192,7 @@ $("#mobilegrid").ejmGrid("refreshContent");
 
 
 ### scrollRefresh<span class="signature">()</span>
+{:#methods:scrollrefresh}
 
 
 
@@ -2192,6 +2234,7 @@ $("#mobilegrid").ejmGrid("scrollRefresh");
 
 
 ### showColumns<span class="signature">()</span>
+{:#methods:showcolumns}
 
 
 
@@ -2240,6 +2283,7 @@ $("#mobilegrid").ejmGrid("showColumns","Order ID");
 
 
 ### actionBegin
+{:#events:actionbegin}
 
 
 
@@ -2333,6 +2377,7 @@ function actionBegin(args) { //handle the event }
 
 
 ### actionComplete
+{:#events:actioncomplete}
 
 
 
@@ -2426,6 +2471,7 @@ function actionComplete(args) { //handle the event }
 
 
 ### actionFailure
+{:#events:actionfailure}
 
 
 
@@ -2518,6 +2564,7 @@ function actionFailure(args) { //handle the event }
 
 
 ### actionSuccess
+{:#events:actionsuccess}
 
 
 
@@ -2611,6 +2658,7 @@ function actionSuccess(args) { //handle the event }
 
 
 ### load
+{:#events:load}
 
 
 
@@ -2703,6 +2751,7 @@ function load(args) { //handle the event }
 
 
 ### modelChange
+{:#events:modelchange}
 
 
 
@@ -2796,6 +2845,7 @@ function modelChange(args) { //handle the event }
 
 
 ### queryCellInfo
+{:#events:querycellinfo}
 
 
 
@@ -2894,6 +2944,7 @@ function queryCellInfo(args) { //handle the event }
 
 
 ### rowDataBound
+{:#events:rowdatabound}
 
 
 
@@ -2987,6 +3038,7 @@ function rowDataBound(args) { //handle the event }
 
 
 ### rowSelected
+{:#events:rowselected}
 
 
 
@@ -3094,6 +3146,7 @@ function rowSelected(args) { //handle the event }
 
 
 ### rowSelecting
+{:#events:rowselecting}
 
 
 

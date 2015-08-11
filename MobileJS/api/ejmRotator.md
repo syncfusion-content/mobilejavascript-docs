@@ -2,7 +2,7 @@
 layout: post
 title: ejmRotator
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -125,6 +125,7 @@ Requires
 
 
 ### adjustFixedPosition<span class="type-signature type boolean">boolean</span>
+{:#members:adjustfixedposition}
 
 
 
@@ -219,6 +220,7 @@ $("#rotator").ejmRotator ("option", "adjustFixedPosition", true);            </c
 
 
 ### cssClass<span class="type-signature type string">string</span>
+{:#members:cssclass}
 
 
 
@@ -313,6 +315,7 @@ $("#rotator").ejmRotator ("option", "cssClass", "customclass");            </cod
 
 
 ### currentItemIndex<span class="type-signature type number">number</span>
+{:#members:currentitemindex}
 
 
 
@@ -407,6 +410,7 @@ $("#rotator").ejmRotator ("option", "currentItemIndex", 0);            </code>
 
 
 ### dataBinding<span class="type-signature type boolean">boolean</span>
+{:#members:databinding}
 
 
 
@@ -501,6 +505,7 @@ $("#rotator").ejmRotator ("option", "dataBinding", false);                      
 
 
 ### dataSource<span class="type-signature type data">data</span>
+{:#members:datasource}
 
 
 
@@ -577,6 +582,7 @@ $("#rotator").ejmRotator ("option", "dataSource", "window.imgdata");            
 
 
 ### enablePersistence<span class="type-signature type boolean">boolean</span>
+{:#members:enablepersistence}
 
 
 
@@ -671,6 +677,7 @@ $("#rotator").ejmRotator ("option", "enablePersistence", true);            </cod
 
 
 ### headerTitle<span class="type-signature type string">string</span>
+{:#members:headertitle}
 
 
 
@@ -765,6 +772,7 @@ $("#rotator").ejmRotator ("option", "headerTitle", "Title");            </code>
 
 
 ### orientation<span class="type-signature type enum">enum</span>
+{:#members:orientation}
 
 
 
@@ -861,6 +869,7 @@ $("#rotator").ejmRotator ("option", "orientation", ej.mobile.Rotator.Orientation
 
 
 ### pagerPosition
+{:#members:pagerposition}
 
 
 
@@ -882,6 +891,7 @@ Section for pagerPosition specific functionalities.
 
 
 ### pagerPosition.horizontal<span class="type-signature type enum">enum</span>
+{:#members:pagerposition-horizontal}
 
 
 
@@ -978,6 +988,7 @@ $("#rotator").ejmRotator ("option", "pagerPosition.horizontal", ej.mobile.Rotato
 
 
 ### pagerPosition.vertical<span class="type-signature type enum">enum</span>
+{:#members:pagerposition-vertical}
 
 
 
@@ -1074,6 +1085,7 @@ $("#rotator").ejmRotator ("option", "pagerPosition.vertical", ej.mobile.Rotator.
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -1170,6 +1182,7 @@ $("#rotator").ejmRotator ("option", "renderMode", ej.mobile.RenderMode.Auto);   
 
 
 ### showHeader<span class="type-signature type boolean">boolean</span>
+{:#members:showheader}
 
 
 
@@ -1264,6 +1277,7 @@ $("#rotator").ejmRotator ("option", "showHeader", false);            </code>
 
 
 ### showPager<span class="type-signature type boolean">boolean</span>
+{:#members:showpager}
 
 
 
@@ -1358,6 +1372,7 @@ $("#rotator").ejmRotator ("option", "showPager", true);            </code>
 
 
 ### targetHeight<span class="type-signature type string">string</span>
+{:#members:targetheight}
 
 
 
@@ -1452,6 +1467,7 @@ $("#rotator").ejmRotator ("option", "targetHeight", "auto");            </code>
 
 
 ### targetId<span class="type-signature type string">string</span>
+{:#members:targetid}
 
 
 
@@ -1545,6 +1561,7 @@ $("#rotator").ejmRotator ("option", "targetId", "rotatorcontent");            </
 
 
 ### targetWidth<span class="type-signature type string">string</span>
+{:#members:targetwidth}
 
 
 
@@ -1639,6 +1656,7 @@ $("#rotator").ejmRotator ("option", "targetWidth", "auto");            </code>
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -1735,6 +1753,7 @@ $("#rotator").ejmRotator ("option", "theme", ej.mobile.Theme.Light);            
 
 
 ### windows
+{:#members:windows}
 
 
 
@@ -1756,6 +1775,7 @@ Section for windows rendermode specific functionalities.
 
 
 ### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+{:#members:windows-renderdefault}
 
 
 
@@ -1858,6 +1878,7 @@ $("#rotator").ejmRotator ("option", "windows.renderDefault", true);            <
 
 
 ### renderDatasource<span class="signature">()</span>
+{:#methods:renderdatasource}
 
 
 
@@ -1922,6 +1943,7 @@ $("#rotator").ejmRotator("renderDatasource", imgdata);
 
 
 ### change
+{:#events:change}
 
 
 
@@ -2036,6 +2058,7 @@ $("#rotator").ejmRotator({
 
 
 ### pagerSelect
+{:#events:pagerselect}
 
 
 
@@ -2150,6 +2173,7 @@ $("#rotator").ejmRotator({
 
 
 ### swipeDown
+{:#events:swipedown}
 
 
 
@@ -2264,6 +2288,7 @@ $("#rotator").ejmRotator({
 
 
 ### swipeLeft
+{:#events:swipeleft}
 
 
 
@@ -2378,6 +2403,7 @@ $("#rotator").ejmRotator({
 
 
 ### swipeRight
+{:#events:swiperight}
 
 
 
@@ -2492,6 +2518,7 @@ $("#rotator").ejmRotator({
 
 
 ### swipeUp
+{:#events:swipeup}
 
 
 

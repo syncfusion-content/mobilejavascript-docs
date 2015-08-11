@@ -2,7 +2,7 @@
 layout: post
 title: ejmCheckBox
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -92,6 +92,7 @@ Requires
 
 
 ### checked<span class="type-signature type boolean">boolean</span>
+{:#members:checked}
 
 
 
@@ -155,6 +156,7 @@ Example
 
 
 ### checkState<span class="type-signature type enum">enum</span>
+{:#members:checkstate}
 
 
 
@@ -218,6 +220,7 @@ Example
 
 
 ### cssClass<span class="type-signature type string">string</span>
+{:#members:cssclass}
 
 
 
@@ -280,6 +283,7 @@ $("#chkbox").ejmCheckBox ("option", "cssClass", "customclass");            </cod
 
 
 ### enabled<span class="type-signature type boolean">boolean</span>
+{:#members:enabled}
 
 
 
@@ -343,6 +347,7 @@ Example
 
 
 ### enablePersistence<span class="type-signature type boolean">boolean</span>
+{:#members:enablepersistence}
 
 
 
@@ -405,6 +410,7 @@ Example
 
 
 ### enableTriState<span class="type-signature type boolean">boolean</span>
+{:#members:enabletristate}
 
 
 
@@ -468,6 +474,7 @@ Example
 
 
 ### preventDefault<span class="type-signature type boolean">boolean</span>
+{:#members:preventdefault}
 
 
 
@@ -531,6 +538,7 @@ $("#chkbox").ejmCheckBox ("option", "preventDefault", false);</code>
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -593,6 +601,7 @@ $("#chkbox").ejmCheckBox ("option", "renderMode", ej.mobile.RenderMode.Auto);   
 
 
 ### text<span class="type-signature type string">string</span>
+{:#members:text}
 
 
 
@@ -655,6 +664,7 @@ Example
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -718,6 +728,7 @@ Example
 
 
 ### windows
+{:#members:windows}
 
 
 
@@ -739,6 +750,7 @@ Section for windows mode specific functionalities.
 
 
 ### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+{:#members:windows-renderdefault}
 
 
 
@@ -808,6 +820,7 @@ $("#chkbox").ejmCheckBox("option", "windows.renderDefault", false); </code>
 
 
 ### isChecked<span class="signature">()</span>
+{:#methods:ischecked}
 
 
 
@@ -858,6 +871,7 @@ $("#chkbox").ejmCheckBox("isChecked");
 
 
 ### touchEnd
+{:#events:touchend}
 
 
 
@@ -958,6 +972,7 @@ $("#chkbox").ejmCheckBox({
 
 
 ### touchStart
+{:#events:touchstart}
 
 
 

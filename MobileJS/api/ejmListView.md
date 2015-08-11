@@ -2,7 +2,7 @@
 layout: post
 title: ejmListView
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -139,6 +139,7 @@ Requires
 
 
 ### adjustFixedPosition<span class="type-signature type boolean">boolean</span>
+{:#members:adjustfixedposition}
 
 
 
@@ -230,6 +231,7 @@ $("#lb").ejmListView ("option", "adjustFixedPosition", true);
 
 
 ### ajaxSettings<span class="type-signature type jsonobject">JSONObject</span>
+{:#members:ajaxsettings}
 
 
 
@@ -297,6 +299,7 @@ $("#lb").ejmListView ("option", "ajaxSettings", { type: 'GET',cache: false,async
 
 
 ### allowScrolling<span class="type-signature type boolean">boolean</span>
+{:#members:allowscrolling}
 
 
 
@@ -388,6 +391,7 @@ $("#lb").ejmListView ("option", "allowScrolling", true);
 
 
 ### autoAdjustHeight<span class="type-signature type boolean">boolean</span>
+{:#members:autoadjustheight}
 
 
 
@@ -479,6 +483,7 @@ $("#lb").ejmListView ("option", "autoAdjustHeight", true);
 
 
 ### autoAdjustScrollHeight<span class="type-signature type boolean">boolean</span>
+{:#members:autoadjustscrollheight}
 
 
 
@@ -570,6 +575,7 @@ $("#lb").ejmListView ("option", "autoAdjustScrollHeight", true);
 
 
 ### checkDOMChanges<span class="type-signature type boolean">boolean</span>
+{:#members:checkdomchanges}
 
 
 
@@ -661,6 +667,7 @@ $("#lb").ejmListView ("option", "checkDOMChanges", true);
 
 
 ### cssClass<span class="type-signature type string">string</span>
+{:#members:cssclass}
 
 
 
@@ -752,6 +759,7 @@ $("#lb").ejmListView ("option", "cssClass", "customclass");
 
 
 ### dataSource<span class="type-signature type jsonarray">JSONArray</span>
+{:#members:datasource}
 
 
 
@@ -837,6 +845,7 @@ $("#lb").ejmListView ("option", "dataSource", true);
 
 
 ### enableAjax<span class="type-signature type boolean">boolean</span>
+{:#members:enableajax}
 
 
 
@@ -914,6 +923,7 @@ $("#lb").ejmListView ("option", "enableAjax", true);
 
 
 ### enableCache<span class="type-signature type boolean">boolean</span>
+{:#members:enablecache}
 
 
 
@@ -991,6 +1001,7 @@ $("#lb").ejmListView ("option", "enableCache", true);
 
 
 ### enableCheckMark<span class="type-signature type boolean">boolean</span>
+{:#members:enablecheckmark}
 
 
 
@@ -1082,6 +1093,7 @@ $("#lb").ejmListView ("option", "enableCheckMark", true);
 
 
 ### enableFiltering<span class="type-signature type boolean">boolean</span>
+{:#members:enablefiltering}
 
 
 
@@ -1173,6 +1185,7 @@ $("#lb").ejmListView ("option", "enableFiltering", true);
 
 
 ### enableGroupList<span class="type-signature type boolean">boolean</span>
+{:#members:enablegrouplist}
 
 
 
@@ -1272,6 +1285,7 @@ $("#lb").ejmListView ("option", "enableGroupList", true);
 
 
 ### enableNativeScrolling<span class="type-signature type boolean">boolean</span>
+{:#members:enablenativescrolling}
 
 
 
@@ -1363,6 +1377,7 @@ $("#lb").ejmListView ("option", "enableNativeScrolling", true);
 
 
 ### enablePersistence<span class="type-signature type boolean">boolean</span>
+{:#members:enablepersistence}
 
 
 
@@ -1454,6 +1469,7 @@ $("#lb").ejmListView ("option", "enablePersistence", true);
 
 
 ### fieldSettings<span class="type-signature type jsonarray">JSONArray</span>
+{:#members:fieldsettings}
 
 
 
@@ -1539,6 +1555,7 @@ $("#lb").ejmListView ("option", "fieldSettings", true);
 
 
 ### headerBackButtonText<span class="type-signature type string">string</span>
+{:#members:headerbackbuttontext}
 
 
 
@@ -1630,6 +1647,7 @@ $("#lb").ejmListView ("option", "headerBackButtonText", "Back");
 
 
 ### headerTitle<span class="type-signature type string">string</span>
+{:#members:headertitle}
 
 
 
@@ -1721,6 +1739,7 @@ $("#lb").ejmListView ("option", "headerTitle", "Title");
 
 
 ### height<span class="type-signature type number">number</span>
+{:#members:height}
 
 
 
@@ -1805,6 +1824,7 @@ $("#lb").ejmListView ("option", "height", 300);</code>
 
 
 ### hideHeaderForUnsupportedDevice<span class="type-signature type boolean">boolean</span>
+{:#members:hideheaderforunsupporteddevice}
 
 
 
@@ -1896,6 +1916,7 @@ $("#lb").ejmListView ("option", "hideHeaderForUnsupportedDevice", true);
 
 
 ### ios7.inline<span class="type-signature type boolean">boolean</span>
+{:#members:ios7-inline}
 
 
 
@@ -1987,6 +2008,7 @@ $("#lb").ejmListView ("option", "ios7.inline", true);
 
 
 ### items<span class="type-signature type jsonarray">JSONarray</span>
+{:#members:items}
 
 
 
@@ -2075,6 +2097,7 @@ $("#lb").ejmListView ("option", "items", "window.dbitem");
 
 
 ### persistSelection<span class="type-signature type boolean">boolean</span>
+{:#members:persistselection}
 
 
 
@@ -2166,6 +2189,7 @@ $("#lb").ejmListView ("option", "persistSelection", true);
 
 
 ### preventSelection<span class="type-signature type boolean">boolean</span>
+{:#members:preventselection}
 
 
 
@@ -2257,6 +2281,7 @@ $("#lb").ejmListView ("option", "preventSelection", true);
 
 
 ### query<span class="type-signature type ej.query">ej.Query</span>
+{:#members:query}
 
 
 
@@ -2337,6 +2362,7 @@ $("#lb").ejmListView ("option", "query", true);
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -2428,6 +2454,7 @@ $("#lb").ejmListView ("option", "renderMode", "auto");
 
 
 ### renderTemplate<span class="type-signature type boolean">boolean</span>
+{:#members:rendertemplate}
 
 
 
@@ -2488,6 +2515,7 @@ Example
 
 
 ### selectedItemIndex<span class="type-signature type number">number</span>
+{:#members:selecteditemindex}
 
 
 
@@ -2572,6 +2600,7 @@ $("#lb").ejmListView ("option", "selectedItemIndex", 2);</code>
 
 
 ### showHeader<span class="type-signature type boolean">boolean</span>
+{:#members:showheader}
 
 
 
@@ -2663,6 +2692,7 @@ $("#lb").ejmListView ("option", "showHeader", true);
 
 
 ### showHeaderBackButton<span class="type-signature type boolean">boolean</span>
+{:#members:showheaderbackbutton}
 
 
 
@@ -2754,6 +2784,7 @@ $("#lb").ejmListView ("option", "showHeaderBackButton", true);
 
 
 ### showScrollbars<span class="type-signature type boolean">boolean</span>
+{:#members:showscrollbars}
 
 
 
@@ -2845,6 +2876,7 @@ $("#lb").ejmListView ("option", "showScrollbars", true);
 
 
 ### templateId<span class="type-signature type boolean">boolean</span>
+{:#members:templateid}
 
 
 
@@ -2905,6 +2937,7 @@ Example
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -2996,6 +3029,7 @@ $("#lb").ejmListView ("option", "theme", "auto");
 
 
 ### transition<span class="type-signature type string">string</span>
+{:#members:transition}
 
 
 
@@ -3087,6 +3121,7 @@ $("#lb").ejmListView ("option", "transition", "slide");
 
 
 ### width<span class="type-signature type number">number</span>
+{:#members:width}
 
 
 
@@ -3171,6 +3206,7 @@ $("#lb").ejmListView ("option", "width", 200);</code>
 
 
 ### windows
+{:#members:windows}
 
 
 
@@ -3192,6 +3228,7 @@ Section for windows mode specific functionalities.
 
 
 ### windows.enableCustomText<span class="type-signature type boolean">boolean</span>
+{:#members:windows-enablecustomtext}
 
 
 
@@ -3283,6 +3320,7 @@ $("#lb").ejmListView ("option", "windows.enableHeaderCustomText", true);
 
 
 ### windows.preventSkew<span class="type-signature type boolean">boolean</span>
+{:#members:windows-preventskew}
 
 
 
@@ -3374,6 +3412,7 @@ $("#lb").ejmListView ("option", "windows.preventSkew", true);
 
 
 ### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+{:#members:windows-renderdefault}
 
 
 
@@ -3472,6 +3511,7 @@ $("#lb").ejmListView ("option", "windows.renderDefault", true);
 
 
 ### addItem<span class="signature">()</span>
+{:#methods:additem}
 
 
 
@@ -3519,6 +3559,7 @@ $("#lb").ejmListView("addItem",$("&amp;ltli data-ej-text='Comic / Cartoon'></li>
 
 
 ### checkAllItem<span class="signature">()</span>
+{:#methods:checkallitem}
 
 
 
@@ -3566,6 +3607,7 @@ $("#lb").ejmListView("checkAllItem");
 
 
 ### checkItem<span class="signature">()</span>
+{:#methods:checkitem}
 
 
 
@@ -3613,6 +3655,7 @@ $("#lb").ejmListView("checkItem",2);
 
 
 ### clear<span class="signature">()</span>
+{:#methods:clear}
 
 
 
@@ -3664,6 +3707,7 @@ function touchend(){
 
 
 ### deActive<span class="signature">()</span>
+{:#methods:deactive}
 
 
 
@@ -3712,6 +3756,7 @@ $("#lb").ejmListView("deActive",2);
 
 
 ### disableItem<span class="signature">()</span>
+{:#methods:disableitem}
 
 
 
@@ -3759,6 +3804,7 @@ $("#lb").ejmListView("disableItem",2);
 
 
 ### enableItem<span class="signature">()</span>
+{:#methods:enableitem}
 
 
 
@@ -3806,6 +3852,7 @@ $("#lb").ejmListView("enableItem",2);
 
 
 ### getActiveItem<span class="signature">()</span>
+{:#methods:getactiveitem}
 
 
 
@@ -3853,6 +3900,7 @@ $("#lb").ejmListView("getActiveItem");
 
 
 ### getActiveItemText<span class="signature">()</span>
+{:#methods:getactiveitemtext}
 
 
 
@@ -3900,6 +3948,7 @@ $("#lb").ejmListView("getActiveItemText");
 
 
 ### getCheckedItems<span class="signature">()</span>
+{:#methods:getcheckeditems}
 
 
 
@@ -3947,6 +3996,7 @@ $("#lb").ejmListView("getCheckedItems");
 
 
 ### getCheckedItemsText<span class="signature">()</span>
+{:#methods:getcheckeditemstext}
 
 
 
@@ -3994,6 +4044,7 @@ $("#lb").ejmListView("getCheckedItemsText");
 
 
 ### getItemsCount<span class="signature">()</span>
+{:#methods:getitemscount}
 
 
 
@@ -4041,6 +4092,7 @@ $("#lb").ejmListView("getItemsCount");
 
 
 ### getItemText<span class="signature">()</span>
+{:#methods:getitemtext}
 
 
 
@@ -4088,6 +4140,7 @@ $("#lb").ejmListView("getItemText",2);
 
 
 ### hasChild<span class="signature">()</span>
+{:#methods:haschild}
 
 
 
@@ -4135,6 +4188,7 @@ $("#lb").ejmListView("hasChild",2);
 
 
 ### hide<span class="signature">()</span>
+{:#methods:hide}
 
 
 
@@ -4182,6 +4236,7 @@ $("#lb").ejmListView("hide");
 
 
 ### hideItem<span class="signature">()</span>
+{:#methods:hideitem}
 
 
 
@@ -4229,6 +4284,7 @@ $("#lb").ejmListView("hideItem",2);
 
 
 ### isChecked<span class="signature">()</span>
+{:#methods:ischecked}
 
 
 
@@ -4276,6 +4332,7 @@ $("#lb").ejmListView("isChecked",2);
 
 
 ### loadAjaxContent<span class="signature">()</span>
+{:#methods:loadajaxcontent}
 
 
 
@@ -4316,6 +4373,7 @@ $("#lb").ejmListView("loadAjaxContent","load1.html");
 
 
 ### removeCheckMark<span class="signature">()</span>
+{:#methods:removecheckmark}
 
 
 
@@ -4364,6 +4422,7 @@ $("#lb").ejmListView("removeCheckMark",2);
 
 
 ### removeItem<span class="signature">()</span>
+{:#methods:removeitem}
 
 
 
@@ -4411,6 +4470,7 @@ $("#lb").ejmListView("removeItem",3);
 
 
 ### selectItem<span class="signature">()</span>
+{:#methods:selectitem}
 
 
 
@@ -4459,6 +4519,7 @@ $("#lb").ejmListView("selectItem",2);
 
 
 ### setActive<span class="signature">()</span>
+{:#methods:setactive}
 
 
 
@@ -4507,6 +4568,7 @@ $("#lb").ejmListView("setActive",2);
 
 
 ### show<span class="signature">()</span>
+{:#methods:show}
 
 
 
@@ -4554,6 +4616,7 @@ $("#lb").ejmListView("show");
 
 
 ### showItem<span class="signature">()</span>
+{:#methods:showitem}
 
 
 
@@ -4601,6 +4664,7 @@ $("#lb").ejmListView("showItem",2);
 
 
 ### unCheckAllItem<span class="signature">()</span>
+{:#methods:uncheckallitem}
 
 
 
@@ -4648,6 +4712,7 @@ $("#lb").ejmListView("unCheckAllItem");
 
 
 ### unCheckItem<span class="signature">()</span>
+{:#methods:uncheckitem}
 
 
 
@@ -4702,6 +4767,7 @@ $("#lb").ejmListView("unCheckItem",2);
 
 
 ### ajaxBeforeLoad
+{:#events:ajaxbeforeload}
 
 
 
@@ -4804,6 +4870,7 @@ $("#lb").ejmListView({
 
 
 ### ajaxComplete
+{:#events:ajaxcomplete}
 
 
 
@@ -4901,6 +4968,7 @@ $("#lb").ejmListView({
 
 
 ### ajaxError
+{:#events:ajaxerror}
 
 
 
@@ -5023,6 +5091,7 @@ $("#lb").ejmListView({
 
 
 ### ajaxSuccess
+{:#events:ajaxsuccess}
 
 
 
@@ -5145,6 +5214,7 @@ $("#lb").ejmListView({
 
 
 ### headerBackButtonTap
+{:#events:headerbackbuttontap}
 
 
 
@@ -5259,6 +5329,7 @@ $("#lb").ejmListView({
 
 
 ### load
+{:#events:load}
 
 
 
@@ -5370,6 +5441,7 @@ $("#lb").ejmListView({
 
 
 ### loadComplete
+{:#events:loadcomplete}
 
 
 
@@ -5481,6 +5553,7 @@ $("#lb").ejmListView({
 
 
 ### touchEnd
+{:#events:touchend}
 
 
 
@@ -5627,6 +5700,7 @@ $("#lb").ejmListView({
 
 
 ### touchStart
+{:#events:touchstart}
 
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: ejmNumeric
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -92,6 +92,7 @@ Requires
 
 
 ### cssClass<span class="type-signature type string">string</span>
+{:#members:cssclass}
 
 
 
@@ -159,6 +160,7 @@ $("#editor").ejmNumeric ("option", "cssClass", "customclass");
 
 
 ### decimalPlaces<span class="type-signature type number">number</span>
+{:#members:decimalplaces}
 
 
 
@@ -227,6 +229,7 @@ $("#editor").ejmNumeric ("option", " ", 2);
 
 
 ### enabled<span class="type-signature type boolean">boolean</span>
+{:#members:enabled}
 
 
 
@@ -294,6 +297,7 @@ $("#editor").ejmNumeric ("option", "enabled", true);
 
 
 ### enableStrictMode<span class="type-signature type boolean">boolean</span>
+{:#members:enablestrictmode}
 
 
 
@@ -362,6 +366,7 @@ $("#editor").ejmNumeric ("option", "enableStrictMode", true);
 
 
 ### incrementStep<span class="type-signature type number">number</span>
+{:#members:incrementstep}
 
 
 
@@ -429,6 +434,7 @@ $("#editor").ejmNumeric ("option", "incrementStep", 3);
 
 
 ### maxValue<span class="type-signature type number">number</span>
+{:#members:maxvalue}
 
 
 
@@ -496,6 +502,7 @@ $("#editor").ejmNumeric ("option", "maxValue", 500);
 
 
 ### minValue<span class="type-signature type number">number</span>
+{:#members:minvalue}
 
 
 
@@ -563,6 +570,7 @@ $("#editor").ejmNumeric ("option", "minValue", 50);
 
 
 ### name<span class="type-signature type string">string</span>
+{:#members:name}
 
 
 
@@ -630,6 +638,7 @@ $("#editor").ejmNumeric ("option", "name", "numeric");
 
 
 ### readOnly<span class="type-signature type boolean">boolean</span>
+{:#members:readonly}
 
 
 
@@ -697,6 +706,7 @@ $("#editor").ejmNumeric ("option", "readOnly", true);
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -764,6 +774,7 @@ $("#editor").ejmNumeric ("option", "renderMode", ej.mobile.RenderMode.Auto);
 
 
 ### showBorder<span class="type-signature type boolean">boolean</span>
+{:#members:showborder}
 
 
 
@@ -832,6 +843,7 @@ $("#editor").ejmNumeric ("option", "showBorder", true);
 
 
 ### showSpinButton<span class="type-signature type boolean">boolean</span>
+{:#members:showspinbutton}
 
 
 
@@ -900,6 +912,7 @@ $("#editor").ejmNumeric ("option", "showSpinButton", true);
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -967,6 +980,7 @@ $("#editor").ejmNumeric ("option", "theme", ej.mobile.Theme.Auto);
 
 
 ### value<span class="type-signature type number">number</span>
+{:#members:value}
 
 
 
@@ -1034,6 +1048,7 @@ $("#editor").ejmNumeric ("option", "value", 100);
 
 
 ### watermarkText<span class="type-signature type string">string</span>
+{:#members:watermarktext}
 
 
 
@@ -1101,6 +1116,7 @@ $("#editor").ejmNumeric ("option", "watermarkText", "Enter the age");
 
 
 ### windows
+{:#members:windows}
 
 
 
@@ -1122,6 +1138,7 @@ Section for windows mode specific functionalities.
 
 
 ### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+{:#members:windows-renderdefault}
 
 
 
@@ -1196,6 +1213,7 @@ $("#editor").ejmNumeric ("option", "windows.renderDefault", true);
 
 
 ### disable<span class="signature">()</span>
+{:#methods:disable}
 
 
 
@@ -1240,6 +1258,7 @@ $("#editor").ejmNumeric("disable");
 
 
 ### enable<span class="signature">()</span>
+{:#methods:enable}
 
 
 
@@ -1284,6 +1303,7 @@ $("#editor").ejmNumeric("enable");
 
 
 ### getValue<span class="signature">()</span>
+{:#methods:getvalue}
 
 
 
@@ -1319,6 +1339,7 @@ $("#editor").ejmNumeric("getValue");
 
 
 ### setValue<span class="signature">()</span>
+{:#methods:setvalue}
 
 
 
@@ -1361,6 +1382,7 @@ $("#editor").ejmNumeric("setValue",50);
 
 
 ### change
+{:#events:change}
 
 
 
@@ -1451,6 +1473,7 @@ change: function (args) { //handle the event
 
 
 ### focusIn
+{:#events:focusin}
 
 
 
@@ -1541,6 +1564,7 @@ focusIn: function (args) { //handle the event
 
 
 ### focusOut
+{:#events:focusout}
 
 
 

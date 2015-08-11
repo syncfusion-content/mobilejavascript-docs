@@ -2,7 +2,7 @@
 layout: post
 title: ejmTimePicker
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -105,6 +105,7 @@ Requires
 
 
 ### cssClass<span class="type-signature type string">string</span>
+{:#members:cssclass}
 
 
 
@@ -170,6 +171,7 @@ $("#TimePicker").ejmTimePicker("option", "cssClass", "customclass");            
 
 
 ### enabled<span class="type-signature type boolean">boolean</span>
+{:#members:enabled}
 
 
 
@@ -235,6 +237,7 @@ $("#timepicker").ejmTimePicker("option", "enabled", true);            </code>
 
 
 ### enablePersistence<span class="type-signature type boolean">boolean</span>
+{:#members:enablepersistence}
 
 
 
@@ -300,6 +303,7 @@ $("#TimePicker").ejmTimePicker("option", "enablePersistence", true);            
 
 
 ### hourFormat<span class="type-signature type enum">enum</span>
+{:#members:hourformat}
 
 
 
@@ -365,6 +369,7 @@ $("#timepicker").ejmTimePicker("option", "hourFormat", "twentyfour");           
 
 
 ### ios7
+{:#members:ios7}
 
 
 
@@ -386,6 +391,7 @@ Section for ios7 rendermode specific functionalities.
 
 
 ### ios7.renderDefault<span class="type-signature type boolean">boolean</span>
+{:#members:ios7-renderdefault}
 
 
 
@@ -450,6 +456,7 @@ $("#timepicker").ejmTimePicker("option", "ios7.renderDefault", false); </code>
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -515,6 +522,7 @@ $("#timepicker").ejmTimePicker("option", "renderMode", "auto");            </cod
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -580,6 +588,7 @@ $("#timepicker").ejmTimePicker("option", "theme", "auto");            </code>
 
 
 ### timeFormat<span class="type-signature type string">string</span>
+{:#members:timeformat}
 
 
 
@@ -645,6 +654,7 @@ $("#timepicker").ejmTimePicker("option", "timeFormat", "hh:mm tt");            <
 
 
 ### value<span class="type-signature type string">string</span>
+{:#members:value}
 
 
 
@@ -710,6 +720,7 @@ $("#timepicker").ejmTimePicker("option", "value", "02:20 PM");            </code
 
 
 ### windows
+{:#members:windows}
 
 
 
@@ -731,6 +742,7 @@ Section for windows rendermode specific functionalities.
 
 
 ### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+{:#members:windows-renderdefault}
 
 
 
@@ -802,6 +814,7 @@ $("#timepicker").ejmTimePicker("option", "windows.renderDefault", false); </code
 
 
 ### disable<span class="signature">()</span>
+{:#methods:disable}
 
 
 
@@ -837,6 +850,7 @@ tpObj.disable();
 
 
 ### enable<span class="signature">()</span>
+{:#methods:enable}
 
 
 
@@ -872,6 +886,7 @@ tpObj.enable();
 
 
 ### getValue<span class="signature">()</span>
+{:#methods:getvalue}
 
 
 
@@ -907,6 +922,7 @@ dpObj.getValue();
 
 
 ### hide<span class="signature">()</span>
+{:#methods:hide}
 
 
 
@@ -942,6 +958,7 @@ tpObj.hide();
 
 
 ### setCurrentTime<span class="signature">()</span>
+{:#methods:setcurrenttime}
 
 
 
@@ -977,6 +994,7 @@ dpObj.setCurrentTime("05:20");
 
 
 ### show<span class="signature">()</span>
+{:#methods:show}
 
 
 
@@ -1019,6 +1037,7 @@ tpObj.show();
 
 
 ### change
+{:#events:change}
 
 
 
@@ -1110,6 +1129,7 @@ function Change(args) {}
 
 
 ### close
+{:#events:close}
 
 
 
@@ -1201,6 +1221,7 @@ function Close(args) {}
 
 
 ### focusIn
+{:#events:focusin}
 
 
 
@@ -1292,6 +1313,7 @@ function Focusin(args) {}
 
 
 ### focusOut
+{:#events:focusout}
 
 
 
@@ -1383,6 +1405,7 @@ function focusout(args) {}
 
 
 ### load
+{:#events:load}
 
 
 
@@ -1475,6 +1498,7 @@ function Load(args) {}
 
 
 ### open
+{:#events:open}
 
 
 
@@ -1566,6 +1590,7 @@ function Open(args) {}
 
 
 ### select
+{:#events:select}
 
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: ejmProgress
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -91,6 +91,7 @@ Requires
 
 
 ### enableCustomText<span class="type-signature type bool">bool</span>
+{:#members:enablecustomtext}
 
 
 
@@ -156,6 +157,7 @@ $("#progress").ejmProgress ("option", "enableCustomText", false);            </c
 
 
 ### enabled<span class="type-signature type bool">bool</span>
+{:#members:enabled}
 
 
 
@@ -221,6 +223,7 @@ $("#progress").ejmProgress ("option", "enabled", true);            </code>
 
 
 ### enablePersistence<span class="type-signature type bool">bool</span>
+{:#members:enablepersistence}
 
 
 
@@ -286,6 +289,7 @@ $("#progress").ejmProgress ("option", "enablePersistence", false);            </
 
 
 ### height<span class="type-signature type int">int</span>
+{:#members:height}
 
 
 
@@ -350,6 +354,7 @@ $("#progress").ejmProgress ("option", "height", 10);            </code>
 
 
 ### incrementStep<span class="type-signature type int">int</span>
+{:#members:incrementstep}
 
 
 
@@ -413,6 +418,7 @@ $("#progress").ejmProgress ("option", "incrementStep", 2);            </code>
 
 
 ### maxValue<span class="type-signature type int">int</span>
+{:#members:maxvalue}
 
 
 
@@ -477,6 +483,7 @@ $("#progress").ejmProgress ("option", "maxValue", 90);            </code>
 
 
 ### minValue<span class="type-signature type int">int</span>
+{:#members:minvalue}
 
 
 
@@ -541,6 +548,7 @@ $("#progress").ejmProgress ("option", "minValue", 10);            </code>
 
 
 ### orientation<span class="type-signature type enum">enum</span>
+{:#members:orientation}
 
 
 
@@ -606,6 +614,7 @@ $("#progress").ejmProgress ("option", "orientation", ej.mobile.Progress.Orientat
 
 
 ### percentage<span class="type-signature type int">int</span>
+{:#members:percentage}
 
 
 
@@ -670,6 +679,7 @@ $("#progress").ejmProgress ("option", "percentage", 35);            </code>
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -738,6 +748,7 @@ $("#progress").ejmProgress ("option", "renderMode", ej.mobile.RenderMode.Auto); 
 
 
 ### text<span class="type-signature type string">string</span>
+{:#members:text}
 
 
 
@@ -803,6 +814,7 @@ $("#progress").ejmProgress ("option", "text", "in-progress");            </code>
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -870,6 +882,7 @@ $("#progress").ejmProgress ("option", "theme", ej.mobile.Theme.Auto);           
 
 
 ### value<span class="type-signature type int">int</span>
+{:#members:value}
 
 
 
@@ -934,6 +947,7 @@ $("#progress").ejmProgress ("option", "value", 35);            </code>
 
 
 ### width<span class="type-signature type int">int</span>
+{:#members:width}
 
 
 
@@ -1005,6 +1019,7 @@ $("#progress").ejmProgress ("option", "width", 350);            </code>
 
 
 ### getPercentage<span class="signature">()</span>
+{:#methods:getpercentage}
 
 
 
@@ -1046,6 +1061,7 @@ $("#progress").ejmProgress("getPercentage");
 
 
 ### getValue<span class="signature">()</span>
+{:#methods:getvalue}
 
 
 
@@ -1087,6 +1103,7 @@ $("#progress").ejmProgress("getValue");
 
 
 ### setCustomText<span class="signature">()</span>
+{:#methods:setcustomtext}
 
 
 
@@ -1135,6 +1152,7 @@ $("#progress").ejmProgress("setCustomText", "Downloading..");
 
 
 ### change
+{:#events:change}
 
 
 
@@ -1232,6 +1250,7 @@ $("#progress").ejmProgress({
 
 
 ### complete
+{:#events:complete}
 
 
 
@@ -1329,6 +1348,7 @@ $("#progress").ejmProgress({
 
 
 ### create
+{:#events:create}
 
 
 
@@ -1426,6 +1446,7 @@ $("#progress").ejmProgress({
 
 
 ### start
+{:#events:start}
 
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: ejmDatePicker
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -107,6 +107,7 @@ Requires
 
 
 ### cssClass<span class="type-signature type string">string</span>
+{:#members:cssclass}
 
 
 
@@ -173,6 +174,7 @@ $("#datepicker").ejmDatePicker("option", "cssClass", "customclass");            
 
 
 ### culture<span class="type-signature type string">string</span>
+{:#members:culture}
 
 
 
@@ -239,6 +241,7 @@ $("#datepicker").ejmDatePicker("option", "culture", "en-US");            </code>
 
 
 ### dateFormat<span class="type-signature type string">string</span>
+{:#members:dateformat}
 
 
 
@@ -305,6 +308,7 @@ $("#datepicker").ejmDatePicker("option", "dateFormat", "MM/dd/yyyy");           
 
 
 ### enabled<span class="type-signature type boolean">boolean</span>
+{:#members:enabled}
 
 
 
@@ -371,6 +375,7 @@ $("#datepicker").ejmDatePicker("option", "enabled", false);            </code>
 
 
 ### enablePersistence<span class="type-signature type boolean">boolean</span>
+{:#members:enablepersistence}
 
 
 
@@ -437,6 +442,7 @@ $("#datepicker").ejmDatePicker("option", "enablePersistence", true);            
 
 
 ### ios7
+{:#members:ios7}
 
 
 
@@ -458,6 +464,7 @@ Section for ios7 rendermode specific functionalities.
 
 
 ### ios7.renderDefault<span class="type-signature type boolean">boolean</span>
+{:#members:ios7-renderdefault}
 
 
 
@@ -522,6 +529,7 @@ $("#datepicker").ejmDatePicker("option", "ios7.renderDefault", true); </code>
 
 
 ### maxDate<span class="type-signature type string">string</span>
+{:#members:maxdate}
 
 
 
@@ -588,6 +596,7 @@ $("#datepicker").ejmDatePicker("option", "maxDate", "31/12/2030");            </
 
 
 ### minDate<span class="type-signature type string">string</span>
+{:#members:mindate}
 
 
 
@@ -654,6 +663,7 @@ $("#datepicker").ejmDatePicker("option", "minDate", "01/01/2000");            </
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -720,6 +730,7 @@ $("#datepicker").ejmDatePicker("option", "renderMode", "android" );            <
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -786,6 +797,7 @@ $("#datepicker").ejmDatePicker("option", "theme", "auto" );            </code>
 
 
 ### value<span class="type-signature type string">string</span>
+{:#members:value}
 
 
 
@@ -852,6 +864,7 @@ $("#datepicker").ejmDatePicker("option", "value", "04/23/2010");            </co
 
 
 ### windows
+{:#members:windows}
 
 
 
@@ -873,6 +886,7 @@ Section for windows rendermode specific functionalities.
 
 
 ### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+{:#members:windows-renderdefault}
 
 
 
@@ -945,6 +959,7 @@ $("#datepicker").ejmDatePicker("option", "windows.renderDefault", true); </code>
 
 
 ### disable<span class="signature">()</span>
+{:#methods:disable}
 
 
 
@@ -990,6 +1005,7 @@ $("#datepicker").ejmDatePicker("disable");
 
 
 ### enable<span class="signature">()</span>
+{:#methods:enable}
 
 
 
@@ -1035,6 +1051,7 @@ $("#datepicker").ejmDatePicker("enable");
 
 
 ### getValue<span class="signature">()</span>
+{:#methods:getvalue}
 
 
 
@@ -1080,6 +1097,7 @@ $("#datepicker").ejmDatePicker("getValue");
 
 
 ### hide<span class="signature">()</span>
+{:#methods:hide}
 
 
 
@@ -1124,6 +1142,7 @@ $("#datepicker").ejmDatePicker("hide");
 
 
 ### setCurrentDate<span class="signature">()</span>
+{:#methods:setcurrentdate}
 
 
 
@@ -1169,6 +1188,7 @@ $("#datepicker").ejmDatePicker("setCurrentDate", "12/31/2000");
 
 
 ### show<span class="signature">()</span>
+{:#methods:show}
 
 
 
@@ -1220,6 +1240,7 @@ $("#datepicker").ejmDatePicker("show");
 
 
 ### change
+{:#events:change}
 
 
 
@@ -1311,6 +1332,7 @@ $("#datepicker").ejmDatePicker({
 
 
 ### close
+{:#events:close}
 
 
 
@@ -1402,6 +1424,7 @@ $("#datepicker").ejmDatePicker({
 
 
 ### focusIn
+{:#events:focusin}
 
 
 
@@ -1493,6 +1516,7 @@ $("#datepicker").ejmDatePicker({
 
 
 ### focusOut
+{:#events:focusout}
 
 
 
@@ -1584,6 +1608,7 @@ $("#datepicker").ejmDatePicker({
 
 
 ### load
+{:#events:load}
 
 
 
@@ -1675,6 +1700,7 @@ $("#datepicker").ejmDatePicker({
 
 
 ### open
+{:#events:open}
 
 
 
@@ -1766,6 +1792,7 @@ $("#datepicker").ejmDatePicker({
 
 
 ### select
+{:#events:select}
 
 
 

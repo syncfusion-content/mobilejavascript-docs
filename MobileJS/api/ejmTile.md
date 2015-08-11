@@ -2,7 +2,7 @@
 layout: post
 title: ejmTile
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -94,6 +94,7 @@ Requires
 
 
 ### android
+{:#members:android}
 
 
 
@@ -115,6 +116,7 @@ Section for android rendermode specific functionalities.
 
 
 ### android.textPosition<span class="type-signature type enum">enum</span>
+{:#members:android-textposition}
 
 
 
@@ -179,6 +181,7 @@ $("#tile").ejmTile("option", "android.textPosition", "outer");            </code
 
 
 ### backgroundColor<span class="type-signature type string">string</span>
+{:#members:backgroundcolor}
 
 
 
@@ -243,6 +246,7 @@ $("#tile").ejmTile("option", "backgroundColor", "black");            </code>
 
 
 ### badge<span class="type-signature type object">object</span>
+{:#members:badge}
 
 
 
@@ -264,6 +268,7 @@ Section for badge specific functionalities.
 
 
 ### badge.enabled<span class="type-signature type boolean">boolean</span>
+{:#members:badge-enabled}
 
 
 
@@ -328,6 +333,7 @@ $("#tile").ejmTile("option", "badge.enabled", true);            </code>
 
 
 ### badge.maxValue<span class="type-signature type number">number</span>
+{:#members:badge-maxvalue}
 
 
 
@@ -392,6 +398,7 @@ $("#tile").ejmTile("option", "badge.maxValue", 3);            </code>
 
 
 ### badge.minValue<span class="type-signature type number">number</span>
+{:#members:badge-minvalue}
 
 
 
@@ -456,6 +463,7 @@ $("#tile").ejmTile("option", "badge.minValue", 5);            </code>
 
 
 ### badge.text<span class="type-signature type string">string</span>
+{:#members:badge-text}
 
 
 
@@ -520,6 +528,7 @@ $("#tile").ejmTile("option", "badge.text", "ten");            </code>
 
 
 ### badge.value<span class="type-signature type number">number</span>
+{:#members:badge-value}
 
 
 
@@ -584,6 +593,7 @@ $("#tile").ejmTile("option", "badge.value", 5);            </code>
 
 
 ### captionTemplateId<span class="type-signature type string">string</span>
+{:#members:captiontemplateid}
 
 
 
@@ -652,6 +662,7 @@ $("#tile").ejmTile("option", "captionTemplateId", "sample");            </code>
 
 
 ### cssClass<span class="type-signature type string">string</span>
+{:#members:cssclass}
 
 
 
@@ -716,6 +727,7 @@ $("#tile").ejmTile("option", "cssClass", "customclass");            </code>
 
 
 ### enablePersistence<span class="type-signature type boolean">boolean</span>
+{:#members:enablepersistence}
 
 
 
@@ -780,6 +792,7 @@ $("#tile").ejmTile("option", "enablePersistence", true);            </code>
 
 
 ### height<span class="type-signature type number">number</span>
+{:#members:height}
 
 
 
@@ -844,6 +857,7 @@ $("#tile").ejmTile("option", "height", 300);            </code>
 
 
 ### imageClass<span class="type-signature type string">string</span>
+{:#members:imageclass}
 
 
 
@@ -920,6 +934,7 @@ $("#tile").ejmTile("option", "imageClass", "sample");            </code>
 
 
 ### imagePath<span class="type-signature type string">string</span>
+{:#members:imagepath}
 
 
 
@@ -984,6 +999,7 @@ $("#tile").ejmTile("option", "imagePath", "themes/sample/tile");            </co
 
 
 ### imagePosition<span class="type-signature type enum">enum</span>
+{:#members:imageposition}
 
 
 
@@ -1048,6 +1064,7 @@ $("#tile").ejmTile("option", "imagePosition", "right");            </code>
 
 
 ### imageTemplateId<span class="type-signature type string">string</span>
+{:#members:imagetemplateid}
 
 
 
@@ -1116,6 +1133,7 @@ $("#tile").ejmTile("option", "imageTemplateId", "sample");            </code>
 
 
 ### imageUrl<span class="type-signature type string">string</span>
+{:#members:imageurl}
 
 
 
@@ -1180,6 +1198,7 @@ $("#tile").ejmTile("option", "imageUrl", "people.png");            </code>
 
 
 ### ios7
+{:#members:ios7}
 
 
 
@@ -1201,6 +1220,7 @@ Section for ios7 rendermode specific functionalities.
 
 
 ### ios7.textPosition<span class="type-signature type enum">enum</span>
+{:#members:ios7-textposition}
 
 
 
@@ -1265,6 +1285,7 @@ $("#tile").ejmTile("option", "ios7.textPosition", "outer");            </code>
 
 
 ### livetile<span class="type-signature type object">object</span>
+{:#members:livetile}
 
 
 
@@ -1286,6 +1307,7 @@ Section for livetile specific functionalities.
 
 
 ### livetile.enabled<span class="type-signature type boolean">boolean</span>
+{:#members:livetile-enabled}
 
 
 
@@ -1350,6 +1372,7 @@ $("#tile").ejmTile("option", "liveTile.enabled", true);            </code>
 
 
 ### livetile.imageClass<span class="type-signature type string">string</span>
+{:#members:livetile-imageclass}
 
 
 
@@ -1442,6 +1465,7 @@ $("#tile").ejmTile("option", "liveTile.imageClass", ['img1','img2','img3']);    
 
 
 ### livetile.imageTemplateId<span class="type-signature type string">string</span>
+{:#members:livetile-imagetemplateid}
 
 
 
@@ -1518,6 +1542,7 @@ $("#tile").ejmTile("option", "liveTile.imageTemplateId", ['img1','img2','img3'])
 
 
 ### livetile.imageUrl<span class="type-signature type string">string</span>
+{:#members:livetile-imageurl}
 
 
 
@@ -1582,6 +1607,7 @@ $("#tile").ejmTile("option", "liveTile.imageUrl", ['people.png','sports.png','se
 
 
 ### livetile.type<span class="type-signature type enum">enum</span>
+{:#members:livetile-type}
 
 
 
@@ -1646,6 +1672,7 @@ $("#tile").ejmTile("option", "liveTile.type", "carousel");            </code>
 
 
 ### livetile.updateInterval<span class="type-signature type number">number</span>
+{:#members:livetile-updateinterval}
 
 
 
@@ -1710,6 +1737,7 @@ $("#tile").ejmTile("option", "liveTile.updateInterval", 1000);            </code
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -1774,6 +1802,7 @@ $("#tile").ejmTile("option", "renderMode", "android");            </code>
 
 
 ### showText<span class="type-signature type boolean">boolean</span>
+{:#members:showtext}
 
 
 
@@ -1838,6 +1867,7 @@ $("#tile").ejmTile("option", "showText", false);            </code>
 
 
 ### text<span class="type-signature type string">string</span>
+{:#members:text}
 
 
 
@@ -1902,6 +1932,7 @@ $("#tile").ejmTile("option", "text", "Settings");            </code>
 
 
 ### textAlignment<span class="type-signature type enum">enum</span>
+{:#members:textalignment}
 
 
 
@@ -1966,6 +1997,7 @@ $("#tile").ejmTile("option", "textAlignment", "left");            </code>
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -2030,6 +2062,7 @@ $("#tile").ejmTile("option", "theme", "dark");            </code>
 
 
 ### tileSize<span class="type-signature type enum">enum</span>
+{:#members:tilesize}
 
 
 
@@ -2094,6 +2127,7 @@ $("#tile").ejmTile("option", "tileSize", "medium");            </code>
 
 
 ### width<span class="type-signature type number">number</span>
+{:#members:width}
 
 
 
@@ -2165,6 +2199,7 @@ $("#tile").ejmTile("option", "width", 300);            </code>
 
 
 ### updateTemplate<span class="signature">()</span>
+{:#methods:updatetemplate}
 
 
 
@@ -2211,6 +2246,7 @@ value.updateTemplate("sample2");
 
 
 ### touchEnd
+{:#events:touchend}
 
 
 
@@ -2309,6 +2345,7 @@ touchEnd: function (args) {
 
 
 ### touchStart
+{:#events:touchstart}
 
 
 

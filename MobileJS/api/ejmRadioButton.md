@@ -2,7 +2,7 @@
 layout: post
 title: ejmRadioButton
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -92,6 +92,7 @@ Requires
 
 
 ### checked<span class="type-signature type boolean">boolean</span>
+{:#members:checked}
 
 
 
@@ -155,6 +156,7 @@ Example
 
 
 ### cssClass<span class="type-signature type string">string</span>
+{:#members:cssclass}
 
 
 
@@ -220,6 +222,7 @@ $("#radbtn").ejmRadioButton ({ cssClass: "customclass" });
 
 
 ### enabled<span class="type-signature type boolean">boolean</span>
+{:#members:enabled}
 
 
 
@@ -283,6 +286,7 @@ Example
 
 
 ### enablePersistence<span class="type-signature type boolean">boolean</span>
+{:#members:enablepersistence}
 
 
 
@@ -345,6 +349,7 @@ Example
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -410,6 +415,7 @@ $("#radbtn").ejmRadioButton ({ renderMode: ej.mobile.RenderMode.Auto });
 
 
 ### text<span class="type-signature type string">string</span>
+{:#members:text}
 
 
 
@@ -472,6 +478,7 @@ Example
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -544,6 +551,7 @@ $(function(){
 
 
 ### disable<span class="signature">()</span>
+{:#methods:disable}
 
 
 
@@ -575,6 +583,7 @@ Example
 
 
 ### enable<span class="signature">()</span>
+{:#methods:enable}
 
 
 
@@ -613,6 +622,7 @@ Example
 
 
 ### change
+{:#events:change}
 
 
 
@@ -713,6 +723,7 @@ $("#radbtn").ejmRadioButton({
 
 
 ### touchEnd
+{:#events:touchend}
 
 
 
@@ -813,6 +824,7 @@ $("#radbtn").ejmRadioButton({
 
 
 ### touchStart
+{:#events:touchstart}
 
 
 

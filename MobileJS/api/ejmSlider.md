@@ -2,7 +2,7 @@
 layout: post
 title: ejmSlider
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -91,6 +91,7 @@ Requires
 
 
 ### animationSpeed<span class="type-signature type int">int</span>
+{:#members:animationspeed}
 
 
 
@@ -156,6 +157,7 @@ $("#slider").ejmSlider ("option", "animationSpeed", 400);
 
 
 ### enableAnimation<span class="type-signature type bool">bool</span>
+{:#members:enableanimation}
 
 
 
@@ -221,6 +223,7 @@ $("#slider").ejmSlider ("option", "enableAnimation", false);
 
 
 ### enabled<span class="type-signature type bool">bool</span>
+{:#members:enabled}
 
 
 
@@ -286,6 +289,7 @@ $("#slider").ejmSlider ("option", "enabled", true);
 
 
 ### enablePersistence<span class="type-signature type bool">bool</span>
+{:#members:enablepersistence}
 
 
 
@@ -351,6 +355,7 @@ $("#slider").ejmSlider ("option", "enablePersistence", false);
 
 
 ### enableRange<span class="type-signature type bool">bool</span>
+{:#members:enablerange}
 
 
 
@@ -416,6 +421,7 @@ $("#slider").ejmSlider ("option", "enableRange", false);
 
 
 ### incrementStep<span class="type-signature type int">int</span>
+{:#members:incrementstep}
 
 
 
@@ -481,6 +487,7 @@ $("#slider").ejmSlider ("option", "incrementStep", 1);
 
 
 ### ios7
+{:#members:ios7}
 
 
 
@@ -502,6 +509,7 @@ Section for ios7 mode specific functionalities.
 
 
 ### ios7.thumbStyle<span class="type-signature type enum">enum</span>
+{:#members:ios7-thumbstyle}
 
 
 
@@ -566,6 +574,7 @@ $("#slider").ejmSlider("option", "ios7.thumbStyle", ej.mobile.Slider.ThumbStyle.
 
 
 ### maxValue<span class="type-signature type int">int</span>
+{:#members:maxvalue}
 
 
 
@@ -631,6 +640,7 @@ $("#slider").ejmSlider ("option", "maxValue", 100);
 
 
 ### minValue<span class="type-signature type int">int</span>
+{:#members:minvalue}
 
 
 
@@ -696,6 +706,7 @@ $("#slider").ejmSlider ("option", "minValue", 0);
 
 
 ### orientation<span class="type-signature type enum">enum</span>
+{:#members:orientation}
 
 
 
@@ -761,6 +772,7 @@ $("#slider").ejmSlider ("option", "orientation", ej.mobile.Slider.Orientation.Ho
 
 
 ### readOnly<span class="type-signature type bool">bool</span>
+{:#members:readonly}
 
 
 
@@ -826,6 +838,7 @@ $("#slider").ejmSlider ("option", "readOnly", false);
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -892,6 +905,7 @@ $("#slider").ejmSlider ("option", "renderMode", ej.mobile.RenderMode.Android);
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -959,6 +973,7 @@ $("#slider").ejmSlider ("option", "theme", ej.mobile.Theme.Dark);
 
 
 ### value<span class="type-signature type int">int</span>
+{:#members:value}
 
 
 
@@ -1024,6 +1039,7 @@ $("#slider").ejmSlider ("option", "value", 0);
 
 
 ### values<span class="type-signature type int[]">int[]</span>
+{:#members:values}
 
 
 
@@ -1091,6 +1107,7 @@ $("#slider").ejmSlider ("option", "values", [20,80]);
 
 
 ### windows
+{:#members:windows}
 
 
 
@@ -1112,6 +1129,7 @@ Section for windows mode specific functionalities.
 
 
 ### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+{:#members:windows-renderdefault}
 
 
 
@@ -1183,6 +1201,7 @@ $("#slider").ejmSlider("option", "windows.renderDefault", false);
 
 
 ### getValue<span class="signature">()</span>
+{:#methods:getvalue}
 
 
 
@@ -1236,6 +1255,7 @@ $("#slider").ejmSlider("getValue");
 
 
 ### change
+{:#events:change}
 
 
 
@@ -1328,6 +1348,7 @@ $("#slider").ejmSlider({
 
 
 ### load
+{:#events:load}
 
 
 
@@ -1425,6 +1446,7 @@ $("#slider").ejmSlider({
 
 
 ### slide
+{:#events:slide}
 
 
 
@@ -1522,6 +1544,7 @@ $("#slider").ejmSlider({
 
 
 ### touchEnd
+{:#events:touchend}
 
 
 
@@ -1614,6 +1637,7 @@ $("#slider").ejmSlider({
 
 
 ### touchStart
+{:#events:touchstart}
 
 
 

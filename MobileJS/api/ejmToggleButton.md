@@ -2,7 +2,7 @@
 layout: post
 title: ejmToggleButton
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -91,6 +91,7 @@ Requires
 
 
 ### animate<span class="type-signature type boolean">boolean</span>
+{:#members:animate}
 
 
 
@@ -156,6 +157,7 @@ $("#togglebutton").ejmToggleButton ("option", "animate", true);
 
 
 ### cssClass<span class="type-signature type string">string</span>
+{:#members:cssclass}
 
 
 
@@ -221,6 +223,7 @@ $("#togglebutton").ejmToggleButton ("option", "cssClass", "customclass");
 
 
 ### enabled<span class="type-signature type boolean">boolean</span>
+{:#members:enabled}
 
 
 
@@ -286,6 +289,7 @@ $("#togglebutton").ejmToggleButton ("option", "enabled", true);
 
 
 ### enablePersistence<span class="type-signature type boolean">boolean</span>
+{:#members:enablepersistence}
 
 
 
@@ -351,6 +355,7 @@ $("#togglebutton").ejmToggleButton ("option", "enablePersistence", false);
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -418,6 +423,7 @@ $("#togglebutton").ejmToggleButton ("option", "renderMode", ej.mobile.RenderMode
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -485,6 +491,7 @@ $("#togglebutton").ejmToggleButton ("option", "theme", ej.mobile.Theme.Auto);
 
 
 ### toggleState<span class="type-signature type boolean">boolean</span>
+{:#members:togglestate}
 
 
 
@@ -550,6 +557,7 @@ $("#togglebutton").ejmToggleButton ("option", "toggleState", true);
 
 
 ### windows
+{:#members:windows}
 
 
 
@@ -571,6 +579,7 @@ Section for windows mode specific functionalities.
 
 
 ### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+{:#members:windows-renderdefault}
 
 
 
@@ -643,6 +652,7 @@ $("#togglebutton").ejmToggleButton("option", "windows.renderDefault", false);
 
 
 ### disable<span class="signature">()</span>
+{:#methods:disable}
 
 
 
@@ -688,6 +698,7 @@ $("#togglebutton").ejmToggleButton("disable");
 
 
 ### enable<span class="signature">()</span>
+{:#methods:enable}
 
 
 
@@ -740,6 +751,7 @@ $("#togglebutton").ejmToggleButton("enable");
 
 
 ### change
+{:#events:change}
 
 
 
@@ -832,6 +844,7 @@ change: function (args) { //handle the event
 
 
 ### touchEnd
+{:#events:touchend}
 
 
 
@@ -924,6 +937,7 @@ touchEnd: function (args) { //handle the event
 
 
 ### touchStart
+{:#events:touchstart}
 
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: ejmTab
 documentation: API
-platform: js
+platform: mobilejs
 metaname: 
 metacontent: 
 ---
@@ -113,6 +113,7 @@ Requires
 
 
 ### ajaxSettings
+{:#members:ajaxsettings}
 
 
 
@@ -134,6 +135,7 @@ Section for ajaxSettings specific functionalities.
 
 
 ### ajaxSettings.async<span class="type-signature type boolean">boolean</span>
+{:#members:ajaxsettings-async}
 
 
 
@@ -211,6 +213,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", { async: true });            </code>
 
 
 ### ajaxSettings.cache<span class="type-signature type boolean">boolean</span>
+{:#members:ajaxsettings-cache}
 
 
 
@@ -288,6 +291,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", { cache: false });            </code
 
 
 ### ajaxSettings.contentType<span class="type-signature type string">string</span>
+{:#members:ajaxsettings-contenttype}
 
 
 
@@ -365,6 +369,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", { contentType: "html" });           
 
 
 ### ajaxSettings.data<span class="type-signature type jsonobject">JSONObject</span>
+{:#members:ajaxsettings-data}
 
 
 
@@ -442,6 +447,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", {data: {}});            </code>
 
 
 ### ajaxSettings.dataType<span class="type-signature type string">string</span>
+{:#members:ajaxsettings-datatype}
 
 
 
@@ -519,6 +525,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", { dataType: "html" });            </
 
 
 ### ajaxSettings.type<span class="type-signature type jsonobject">JSONObject</span>
+{:#members:ajaxsettings-type}
 
 
 
@@ -595,6 +602,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", { type: 'GET'});            </code>
 
 
 ### ajaxSettings.url<span class="type-signature type string">string</span>
+{:#members:ajaxsettings-url}
 
 
 
@@ -672,6 +680,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", { url: "" });            </code>
 
 
 ### allowScrolling<span class="type-signature type boolean">boolean</span>
+{:#members:allowscrolling}
 
 
 
@@ -772,6 +781,7 @@ $("#tab").ejmTab ("option", "allowScrolling", "true");            </code>
 
 
 ### android
+{:#members:android}
 
 
 
@@ -793,6 +803,7 @@ Section for android rendermode specific functionalities.
 
 
 ### android.contentType<span class="type-signature type enum">enum</span>
+{:#members:android-contenttype}
 
 
 
@@ -893,6 +904,7 @@ $("#tab").ejmTab("option", "android.ContentType", "ej.mobile.Tab.Android.Content
 
 
 ### android.imageClass<span class="type-signature type string">string</span>
+{:#members:android-imageclass}
 
 
 
@@ -956,6 +968,7 @@ Favourites content here
 
 
 ### android.position<span class="type-signature type enum">enum</span>
+{:#members:android-position}
 
 
 
@@ -1056,6 +1069,7 @@ $("#tab").ejmTab("option", "android.position",  ej.mobile.Tab.Android.Position.F
 
 
 ### badge
+{:#members:badge}
 
 
 
@@ -1077,6 +1091,7 @@ Section for badge specific functionalities.
 
 
 ### badge.enabled<span class="type-signature type boolean">boolean</span>
+{:#members:badge-enabled}
 
 
 
@@ -1177,6 +1192,7 @@ $("#tab").ejmTab ("option", "badge.enabled", "true");            </code>
 
 
 ### badge.maxValue<span class="type-signature type number">number</span>
+{:#members:badge-maxvalue}
 
 
 
@@ -1277,6 +1293,7 @@ $("#tab").ejmTab ("option", "badge.maxValue", "100");            </code>
 
 
 ### badge.minValue<span class="type-signature type number">number</span>
+{:#members:badge-minvalue}
 
 
 
@@ -1377,6 +1394,7 @@ $("#tab").ejmTab ("option", "badge.minValue", "10");            </code>
 
 
 ### badge.value<span class="type-signature type number">number</span>
+{:#members:badge-value}
 
 
 
@@ -1476,6 +1494,7 @@ $("#tab").ejmTab ("option", "badge.value", "2");            </code>
 
 
 ### cssClass<span class="type-signature type string">string</span>
+{:#members:cssclass}
 
 
 
@@ -1564,6 +1583,7 @@ $("#tab").ejmTab ("option", "cssClass", "customclass");            </code>
 
 
 ### enableAjax<span class="type-signature type boolean">boolean</span>
+{:#members:enableajax}
 
 
 
@@ -1649,6 +1669,7 @@ $("#tab").ejmTab ("option", "enableAjax", "true");            </code>
 
 
 ### enableCache<span class="type-signature type boolean">boolean</span>
+{:#members:enablecache}
 
 
 
@@ -1737,6 +1758,7 @@ $("#tab").ejmTab ("option", "enableCache", "true");            </code>
 
 
 ### enableNativeScrolling<span class="type-signature type boolean">boolean</span>
+{:#members:enablenativescrolling}
 
 
 
@@ -1837,6 +1859,7 @@ $("#tab").ejmTab ("option", "enableNativeScrolling", "true");            </code>
 
 
 ### enablePersistence<span class="type-signature type boolean">boolean</span>
+{:#members:enablepersistence}
 
 
 
@@ -1936,6 +1959,7 @@ $("#tab").ejmTab ("option", "enablePersistence", true);            </code>
 
 
 ### flat
+{:#members:flat}
 
 
 
@@ -1957,6 +1981,7 @@ Section for flat rendermode specific functionalities.
 
 
 ### flat.position<span class="type-signature type enum">enum</span>
+{:#members:flat-position}
 
 
 
@@ -2057,6 +2082,7 @@ $("#tab").ejmTab("option", "flat.position",  ej.mobile.Tab.Flat.Fixed); </code>
 
 
 ### ios7
+{:#members:ios7}
 
 
 
@@ -2078,6 +2104,7 @@ Section for ios7 rendermode specific functionalities.
 
 
 ### ios7.imageClass<span class="type-signature type string">string</span>
+{:#members:ios7-imageclass}
 
 
 
@@ -2141,6 +2168,7 @@ Favourites content here
 
 
 ### ios7.overflowBadge
+{:#members:ios7-overflowbadge}
 
 
 
@@ -2162,6 +2190,7 @@ Section for overflow badge specific functionalities.
 
 
 ### ios7.overflowBadge.enabled<span class="type-signature type boolean">boolean</span>
+{:#members:ios7-overflowbadge-enabled}
 
 
 
@@ -2262,6 +2291,7 @@ $("#tab").ejmTab("option", "ios7.overflowBadge.enabled", true); </code>
 
 
 ### ios7.overflowBadge.maxValue<span class="type-signature type number">number</span>
+{:#members:ios7-overflowbadge-maxvalue}
 
 
 
@@ -2362,6 +2392,7 @@ $("#tab").ejmTab("option", "ios7.overflowBadge.maxValue",100); </code>
 
 
 ### ios7.overflowBadge.minValue<span class="type-signature type number">number</span>
+{:#members:ios7-overflowbadge-minvalue}
 
 
 
@@ -2462,6 +2493,7 @@ $("#tab").ejmTab("option", "ios7.overflowBadge.minValue",10); </code>
 
 
 ### ios7.overflowBadge.value<span class="type-signature type number">number</span>
+{:#members:ios7-overflowbadge-value}
 
 
 
@@ -2562,6 +2594,7 @@ $("#tab").ejmTab("option", "ios7.overflowBadge.value",2); </code>
 
 
 ### prefetchAjaxContent<span class="type-signature type boolean">boolean</span>
+{:#members:prefetchajaxcontent}
 
 
 
@@ -2650,6 +2683,7 @@ $("#tab").ejmTab ("option", "prefetchAjaxContent", "true");            </code>
 
 
 ### renderMode<span class="type-signature type enum">enum</span>
+{:#members:rendermode}
 
 
 
@@ -2749,6 +2783,7 @@ $("#tab").ejmTab ("option", "renderMode", ej.mobile.RenderMode.Android);        
 
 
 ### selectedItemIndex<span class="type-signature type number">number</span>
+{:#members:selecteditemindex}
 
 
 
@@ -2848,6 +2883,7 @@ $("#tab").ejmTab ("option", "selectedItemIndex", "1");            </code>
 
 
 ### showAjaxPopup<span class="type-signature type boolean">boolean</span>
+{:#members:showajaxpopup}
 
 
 
@@ -2936,6 +2972,7 @@ $("#tab").ejmTab ("option", "showAjaxPopup", "false");            </code>
 
 
 ### showScrollbars<span class="type-signature type boolean">boolean</span>
+{:#members:showscrollbars}
 
 
 
@@ -3036,6 +3073,7 @@ $("#tab").ejmTab ("option", "showScrollbars", "false");            </code>
 
 
 ### theme<span class="type-signature type enum">enum</span>
+{:#members:theme}
 
 
 
@@ -3137,6 +3175,7 @@ $("#tab").ejmTab ("option", "theme", ej.mobile.Theme.Dark);            </code>
 
 
 ### windows
+{:#members:windows}
 
 
 
@@ -3158,6 +3197,7 @@ Section for windows rendermode specific functionalities.
 
 
 ### windows.enableCustomText<span class="type-signature type boolean">boolean</span>
+{:#members:windows-enablecustomtext}
 
 
 
@@ -3258,6 +3298,7 @@ $("#tab").ejmTab("option", "windows.enableCustomText", "true"); </code>
 
 
 ### windows.enableTouchMove
+{:#members:windows-enabletouchmove}
 
 
 
@@ -3358,6 +3399,7 @@ $("#tab").ejmTab("option", "windows.enableTouchMove", "true"); </code>
 
 
 ### windows.position<span class="type-signature type enum">enum</span>
+{:#members:windows-position}
 
 
 
@@ -3458,6 +3500,7 @@ $("#tab").ejmTab("option", "windows.position",  ej.mobile.Tab.Windows.Position.F
 
 
 ### windows.preventContentSwipe<span class="type-signature type boolean">boolean</span>
+{:#members:windows-preventcontentswipe}
 
 
 
@@ -3558,6 +3601,7 @@ $("#tab").ejmTab("option", "windows.preventContentSwipe", "true"); </code>
 
 
 ### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+{:#members:windows-renderdefault}
 
 
 
@@ -3665,6 +3709,7 @@ $("#tab").ejmTab("option", "windows.renderDefault", "false"); </code>
 
 
 ### addItem<span class="signature">()</span>
+{:#methods:additem}
 
 
 
@@ -3717,6 +3762,7 @@ $("#tab").ejmTab("addItem","addTab",3);
 
 
 ### addOverflowItem<span class="signature">()</span>
+{:#methods:addoverflowitem}
 
 
 
@@ -3769,6 +3815,7 @@ $("#tab").ejmTab("addOverflowItem","addMoreTab",3);
 
 
 ### disableContent<span class="signature">()</span>
+{:#methods:disablecontent}
 
 
 
@@ -3821,6 +3868,7 @@ $("#tab").ejmTab("disableContent",1);
 
 
 ### disableItem<span class="signature">()</span>
+{:#methods:disableitem}
 
 
 
@@ -3873,6 +3921,7 @@ $("#tab").ejmTab("disableItem",1);
 
 
 ### enableContent<span class="signature">()</span>
+{:#methods:enablecontent}
 
 
 
@@ -3925,6 +3974,7 @@ $("#tab").ejmTab("enableContent",1);
 
 
 ### enableItem<span class="signature">()</span>
+{:#methods:enableitem}
 
 
 
@@ -3977,6 +4027,7 @@ $("#tab").ejmTab("enableItem",1);
 
 
 ### getActiveItem<span class="signature">()</span>
+{:#methods:getactiveitem}
 
 
 
@@ -4029,6 +4080,7 @@ $("#tab").ejmTab("getActiveItem");
 
 
 ### getActiveItemText<span class="signature">()</span>
+{:#methods:getactiveitemtext}
 
 
 
@@ -4081,6 +4133,7 @@ $("#tab").ejmTab("getActiveItemText");
 
 
 ### getItemsCount<span class="signature">()</span>
+{:#methods:getitemscount}
 
 
 
@@ -4133,6 +4186,7 @@ $("#tab").ejmTab("getItemsCount");
 
 
 ### getOverflowItemCount<span class="signature">()</span>
+{:#methods:getoverflowitemcount}
 
 
 
@@ -4185,6 +4239,7 @@ $("#tab").ejmTab("getOverflowItemCount");
 
 
 ### hideBadge<span class="signature">()</span>
+{:#methods:hidebadge}
 
 
 
@@ -4237,6 +4292,7 @@ $("#tab").ejmTab("hideBadge",1);
 
 
 ### removeItem<span class="signature">()</span>
+{:#methods:removeitem}
 
 
 
@@ -4289,6 +4345,7 @@ $("#tab").ejmTab("removeItem",1);
 
 
 ### removeOverflowItem<span class="signature">()</span>
+{:#methods:removeoverflowitem}
 
 
 
@@ -4341,6 +4398,7 @@ $("#tab").ejmTab("removeOverflowItem",1);
 
 
 ### selectItem<span class="signature">()</span>
+{:#methods:selectitem}
 
 
 
@@ -4393,6 +4451,7 @@ $("#tab").ejmTab("selectItem",1);
 
 
 ### showBadge<span class="signature">()</span>
+{:#methods:showbadge}
 
 
 
@@ -4445,6 +4504,7 @@ $("#tab").ejmTab("showBadge",1);
 
 
 ### updateBadgeValue<span class="signature">()</span>
+{:#methods:updatebadgevalue}
 
 
 
@@ -4504,6 +4564,7 @@ $("#tab").ejmTab("updateBadgeValue",1,"Music Collection");
 
 
 ### ajaxBeforeLoad
+{:#events:ajaxbeforeload}
 
 
 
@@ -4619,6 +4680,7 @@ $("#tab").ejmTab({
 
 
 ### ajaxComplete
+{:#events:ajaxcomplete}
 
 
 
@@ -4724,6 +4786,7 @@ $("#tab").ejmTab({
 
 
 ### ajaxError
+{:#events:ajaxerror}
 
 
 
@@ -4854,6 +4917,7 @@ $("#tab").ejmTab({
 
 
 ### ajaxSuccess
+{:#events:ajaxsuccess}
 
 
 
@@ -4979,6 +5043,7 @@ $("#tab").ejmTab({
 
 
 ### load
+{:#events:load}
 
 
 
@@ -5085,6 +5150,7 @@ $("#tab").ejmTab({
 
 
 ### loadComplete
+{:#events:loadcomplete}
 
 
 
@@ -5201,6 +5267,7 @@ $("#tab").ejmTab({
 
 
 ### prefetchContentLoaded
+{:#events:prefetchcontentloaded}
 
 
 
@@ -5330,6 +5397,7 @@ $("#tab").ejmTab({enableAjax: true, enableCache: true, prefetchAjaxContent:true}
 
 
 ### touchEnd
+{:#events:touchend}
 
 
 
@@ -5441,6 +5509,7 @@ $("#tab").ejmTab({
 
 
 ### touchStart
+{:#events:touchstart}
 
 
 
