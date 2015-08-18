@@ -2,7 +2,7 @@
 layout: post
 title: ejmProgress
 documentation: API
-platform: mobilejs
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
@@ -33,19 +33,19 @@ $(element).ejmProgress<span class="signature">()</span>
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="progress" ></div>
 <script> 
 // Create progressbar  
 $("#progress").ejmProgress(); 
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="progress" data-role="ejmprogress" ></div>
-</code>
-</pre>
+{% endhighlight %}
+
 
 
 
@@ -125,14 +125,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enableCustomText property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-enablecustomtext=false ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set enable custom text on initialization. 
 //To set enable custom text API value 
 <div id="progress" ></div>
@@ -140,16 +140,16 @@ Example
 // Create progressbar  
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ enableCustomText: false });                       
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the enable custom text, after initialization:
 // Get the enable custom text API value.                
  $("#progress").ejmProgress ("option", "enableCustomText");                     
 // Set the enable custom text API
-$("#progress").ejmProgress ("option", "enableCustomText", false);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "enableCustomText", false);            {% endhighlight %}
+
 
 
 
@@ -191,14 +191,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enabled property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-enabled=true ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set enabled on initialization. 
 //To set enabled API value 
 <div id="progress" ></div>
@@ -206,16 +206,16 @@ Example
 // Create progressbar  
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ enabled: false});
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the enabled, after initialization:
 // Get the enabled API value.           
  $("#progress").ejmProgress ("option", "enabled");                      
 // Set the enabled API
-$("#progress").ejmProgress ("option", "enabled", true);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "enabled", true);            {% endhighlight %}
+
 
 
 
@@ -257,14 +257,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enablePersistence property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-enablepersistence=false ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set progressbar enablePersistence on initialization. 
 //To set enablePersistence API value 
 <div id="progress" ></div>
@@ -272,16 +272,16 @@ Example
 // Create progressbar  
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ enablePersistence: false });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the enablePersistence, after initialization:
 // Get the enablePersistence API value.         
  $("#progress").ejmProgress ("option", "enablePersistence");                    
 // Set the enablePersistence API
-$("#progress").ejmProgress ("option", "enablePersistence", false);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "enablePersistence", false);            {% endhighlight %}
+
 
 
 
@@ -323,30 +323,30 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the height property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-height=10 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set height on initialization. 
 //To set height API value
 <div id="progress" ></div>
 <script>   
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ height: 10 });
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the height, after initialization:
 // Get the height API value.            
  $("#progress").ejmProgress ("option", "height");                       
 // Set the height API
-$("#progress").ejmProgress ("option", "height", 10);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "height", 10);            {% endhighlight %}
+
 
 
 
@@ -388,29 +388,29 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the incrementStep property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-incrementstep=2 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set incrementStep on initialization. 
 //To set incrementStep API value 
 <div id="progress" ></div>
 <script>             
 $("#progress").ejmProgress ({ incrementStep: 2 });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the incrementStep, after initialization:
 // Get the incrementStep API value.             
  $("#progress").ejmProgress ("option", "incrementStep");                        
 // Set the incrementStep API
-$("#progress").ejmProgress ("option", "incrementStep", 2);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "incrementStep", 2);            {% endhighlight %}
+
 
 
 
@@ -452,30 +452,30 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the maxValue property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-maxvalue=90 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set maxValue on initialization. 
 //To set maximum API value 
 <div id="progress" ></div>
 <script>  
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ maxValue: 90 });
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the maxValue, after initialization:
 // Get the maximum API value.           
  $("#progress").ejmProgress ("option", "maxValue");                     
 // Set the maxValue API
-$("#progress").ejmProgress ("option", "maxValue", 90);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "maxValue", 90);            {% endhighlight %}
+
 
 
 
@@ -517,30 +517,30 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the minValue property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-minvalue=10 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set minValue on initialization. 
 //To set minimum API value
 <div id="progress" ></div>
 <script>  
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ minValue: 10 });
-</script>                         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the minValue, after initialization:
 // Get the minimum API value.
  $("#progress").ejmProgress ("option", "minValue");                     
 // Set the minValue API
-$("#progress").ejmProgress ("option", "minValue", 10);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "minValue", 10);            {% endhighlight %}
+
 
 
 
@@ -582,13 +582,13 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>//Set the orientation property in unobtrusive way.
+
+{% highlight html %}//Set the orientation property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-orientation="horizontal" ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set orientation on initialization. 
 //To set orientation API value 
 <div id="progress" ></div>
@@ -597,16 +597,16 @@ $(function(){
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ orientation: ej.mobile.Progress.Orientation.Horizontal });
 });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the orientation, after initialization:
 // Get the orientation API value.               
  $("#progress").ejmProgress ("option", "orientation");                  
 // Set the orientation API
-$("#progress").ejmProgress ("option", "orientation", ej.mobile.Progress.Orientation.Horizontal);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "orientation", ej.mobile.Progress.Orientation.Horizontal);            {% endhighlight %}
+
 
 
 
@@ -648,30 +648,30 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the percentage property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-percentage=35 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set percentage on initialization. 
 //To set percentage API value
 <div id="progress" ></div>
 <script>   
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ percentage: 35 });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the percentage, after initialization:
 // Get the percentage API value.                
  $("#progress").ejmProgress ("option", "percentage");                   
 // Set the percentage API
-$("#progress").ejmProgress ("option", "percentage", 35);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "percentage", 35);            {% endhighlight %}
+
 
 
 
@@ -713,14 +713,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the renderMode property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-rendermode="auto" ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set renderMode on initialization. 
 //To set renderMode API value 
 <div id="progress" ></div>
@@ -729,18 +729,18 @@ $(function(){
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ renderMode: ej.mobile.RenderMode.Auto });
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the renderMode, after initialization:
 // Get the renderMode API value.        
 <div id="progress" ></div>
 <script> 
  $("#progress").ejmProgress ("option", "renderMode");                   
 // Set the renderMode API
-$("#progress").ejmProgress ("option", "renderMode", ej.mobile.RenderMode.Auto);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "renderMode", ej.mobile.RenderMode.Auto);            {% endhighlight %}
+
 
 
 
@@ -782,14 +782,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the text property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-enablecustomtext=true data-ej-text="in-progress" ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set text on initialization. 
 //To set text API value 
 <div id="progress" ></div>
@@ -797,16 +797,16 @@ Example
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ enableCustomText: true });
 $("#progress").ejmProgress ({ text: "in-progress" });                   
-</script> </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script> {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the text, after initialization:
 // Get the text API value.              
  $("#progress").ejmProgress ("option", "text");                 
 // Set the text API
-$("#progress").ejmProgress ("option", "text", "in-progress");            </code>
-</pre>
+$("#progress").ejmProgress ("option", "text", "in-progress");            {% endhighlight %}
+
 
 
 
@@ -848,14 +848,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the theme property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-theme="auto" ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set progressbar theme on initialization. 
 //To set theme API value 
 <div id="progress" ></div>
@@ -865,16 +865,16 @@ $(function(){
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ theme: ej.mobile.Theme.Auto });
 });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the theme, after initialization:
 // Get the theme API value.             
  $("#progress").ejmProgress ("option", "theme");                        
 // Set the theme API
-$("#progress").ejmProgress ("option", "theme", ej.mobile.Theme.Auto);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "theme", ej.mobile.Theme.Auto);            {% endhighlight %}
+
 
 
 
@@ -916,30 +916,30 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the value property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-value=35 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set value on initialization. 
 //To set value API value 
 <div id="progress" ></div>
 <script>   
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ value: 35 });
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the value, after initialization:
 // Get the value API value.                                                
 $("#progress").ejmProgress ("option", "value");           
 // Set the value API
-$("#progress").ejmProgress ("option", "value", 35);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "value", 35);            {% endhighlight %}
+
 
 
 
@@ -981,30 +981,30 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the width property in unobtrusive way.
 <div id="progress" data-role="ejmprogress" data-ej-width=350 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set width on initialization. 
 //To set width API value 
 <div id="progress" ></div>
 <script> 
 $("#progress").ejmProgress(); 
 $("#progress").ejmProgress ({ width: 350 });    
-</script> </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script> {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the width, after initialization:
 // Get the width API value.             
  $("#progress").ejmProgress ("option", "width");                        
 // Set the width API
-$("#progress").ejmProgress ("option", "width", 350);            </code>
-</pre>
+$("#progress").ejmProgress ("option", "width", 350);            {% endhighlight %}
+
 
 
 
@@ -1037,23 +1037,23 @@ Get current value in percentage
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="progress"></div>
 <script>
 // Create progressbar
 var progress = $("#progress").data("ejmProgress");
 progress.getPercentage(); // returns the progressbar current percent value
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="progress"></div>
 <script>
 // Get the current percent value
 $("#progress").ejmProgress("getPercentage");    
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1079,23 +1079,23 @@ Gets the currentvalue.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="progress"></div>
 <script>
 // Create progressbar
 var progress = $("#progress").data("ejmProgress");
 progress.getValue(); // returns the progressbar current value
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="progress"></div>
 <script>
 // Get the current value
 $("#progress").ejmProgress("getValue"); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1121,23 +1121,23 @@ Set the custom text on each action conplete.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="progress"></div>
 <script>
 // Create progressbar
 var progress = $("#progress").data("ejmProgress");
 progress.setCustomText("Downloading.."); // Set the progressbar custom text
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="progress"></div>
 <script>
 // Set the custom text
 $("#progress").ejmProgress("setCustomText", "Downloading..");   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1173,7 +1173,7 @@ Event triggers when the value change happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">event parameters from progressbar
 <table class="params">
@@ -1186,27 +1186,27 @@ Event triggers when the value change happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the progressbar model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the current element</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">int</span></td>
 <td class="description last">returns the current element associated value</td>
 </tr>
@@ -1223,17 +1223,17 @@ Event triggers when the value change happens.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="progress" data-role="ejmprogress" data-ej-change="onChange"></div>
 <script> 
 // change event   
 function onChange(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //change event 
 <div id="progress"></div>
 <script> 
@@ -1241,8 +1241,8 @@ $("#progress").ejmProgress({
   change: function (args) { //handle the event 
 }
 });  
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1271,7 +1271,7 @@ Event triggers when the complete happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">event parameters from progressbar
 <table class="params">
@@ -1284,27 +1284,27 @@ Event triggers when the complete happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the progressbar model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the current element</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">int</span></td>
 <td class="description last">returns the current element associated value</td>
 </tr>
@@ -1321,17 +1321,17 @@ Event triggers when the complete happens.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="progress" data-role="ejmprogress" data-ej-complete="onComplete"></div>
 <script> 
 // complete event 
 function onComplete(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="progress"></div>
 <script> 
 //complete event 
@@ -1339,8 +1339,8 @@ $("#progress").ejmProgress({
   complete: function (args) { //handle the event
 }
 }); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1369,7 +1369,7 @@ Event triggers when the create happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">event parameters from progressbar
 <table class="params">
@@ -1382,27 +1382,27 @@ Event triggers when the create happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the progressbar model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the current element</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">int</span></td>
 <td class="description last">returns the current element associated value</td>
 </tr>
@@ -1419,17 +1419,17 @@ Event triggers when the create happens.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="progress" data-role="ejmprogress" data-ej-create="onCreate"></div>
 <script> 
 // Create event   
 function onCreate(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //create event 
 <div id="progress"></div>
 <script> 
@@ -1437,8 +1437,8 @@ $("#progress").ejmProgress({
   create: function (args) { //handle the event 
 }
 }); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1467,7 +1467,7 @@ Event triggers when the start happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">event parameters from progressbar
 <table class="params">
@@ -1480,27 +1480,27 @@ Event triggers when the start happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the progressbar model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the current element</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">int</span></td>
 <td class="description last">returns the current element associated value</td>
 </tr>
@@ -1517,17 +1517,17 @@ Event triggers when the start happens.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="progress" data-role="ejmprogress" data-ej-start="onStart"></div>
 <script> 
 // start event 
 function onStart(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //start event 
 <div id="progress"></div>
 <script> 
@@ -1535,8 +1535,8 @@ $("#progress").ejmProgress({
   start: function (args) { //handle the event 
 }
 });  
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 

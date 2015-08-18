@@ -2,7 +2,7 @@
 layout: post
 title: ejmDatePicker
 documentation: API
-platform: mobilejs
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
@@ -33,14 +33,14 @@ $(element).ejmDatePicker<span class="signature">()</span>
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <input id="datepicker" data-role="none"/>
 <script> 
 // Create DatePicker  
 $("#datepicker").ejmDatePicker(); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -141,14 +141,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the cssClass property in Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-cssclass="customclass" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the cssClass on initialization. 
 //To set cssClass API value 
 <input id="datepicker" data-role="none"/>
@@ -157,16 +157,16 @@ Example
 $(function(){
 $("#datepicker").ejmDatePicker({ cssClass: "customclass" });            
 });
-</script>                                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the cssClass, after initialization:
 // Get the cssClass API value.          
  $("#datepicker").ejmDatePicker("option", "cssClass");                  
 // Set the enablePersistence API
-$("#datepicker").ejmDatePicker("option", "cssClass", "customclass");            </code>
-</pre>
+$("#datepicker").ejmDatePicker("option", "cssClass", "customclass");            {% endhighlight %}
+
 
 
 
@@ -208,14 +208,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the culture property in Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-culture="en-US" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the culture on initialization. 
 //To set culture API value 
 <input id="datepicker" data-role="none"/>
@@ -224,16 +224,16 @@ Example
 $(function(){
 $("#datepicker").ejmDatePicker({ culture: "en-US" });           
 });
-</script>                         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the culture, after initialization:
 // Get the culture API value.           
  $("#datepicker").ejmDatePicker("option", "culture");                   
 // Set the culture API
-$("#datepicker").ejmDatePicker("option", "culture", "en-US");            </code>
-</pre>
+$("#datepicker").ejmDatePicker("option", "culture", "en-US");            {% endhighlight %}
+
 
 
 
@@ -275,14 +275,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the dateFormat property in Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-dateformat="MMMM dd, yyyy" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the dateFormat on initialization. 
 //To set dateFormat API value 
 <input id="datepicker" data-role="none"/>
@@ -291,16 +291,16 @@ Example
 $(function(){
 $("#datepicker").ejmDatePicker({ dateFormat: "MMMM dd, yyyy" });                
 });
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the dateFormat, after initialization:
 // Get the dateFormat API value.                
  $("#datepicker").ejmDatePicker("option", "dateFormat");                        
 // Set the dateFormat API
-$("#datepicker").ejmDatePicker("option", "dateFormat", "MM/dd/yyyy");            </code>
-</pre>
+$("#datepicker").ejmDatePicker("option", "dateFormat", "MM/dd/yyyy");            {% endhighlight %}
+
 
 
 
@@ -342,14 +342,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enabled property in Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-enabled=false />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the enabled on initialization. 
 //To set enabled API value 
 <input id="datepicker" data-role="none"/>
@@ -358,16 +358,16 @@ Example
 $(function(){
 $("#datepicker").ejmDatePicker({ enabled: false });             
 });
-</script>                                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the enabled, after initialization:
 // Get the enabled API value.           
  $("#datepicker").ejmDatePicker("option", "enabled");                   
 // Set the enabled API
-$("#datepicker").ejmDatePicker("option", "enabled", false);            </code>
-</pre>
+$("#datepicker").ejmDatePicker("option", "enabled", false);            {% endhighlight %}
+
 
 
 
@@ -409,14 +409,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enablePersistence property in Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-enablepersistence=true />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the enablePersistence on initialization. 
 //To set enablePersistence API value 
 <input id="datepicker" data-role="none"/>
@@ -425,16 +425,16 @@ Example
 $(function(){
 $("#datepicker").ejmDatePicker({ enablePersistence: true });            
 });
-</script>                                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the enablePersistence, after initialization:
 // Get the enablePersistence API value.         
  $("#datepicker").ejmDatePicker("option", "enablePersistence");                 
 // Set the enablePersistence API
-$("#datepicker").ejmDatePicker("option", "enablePersistence", true);            </code>
-</pre>
+$("#datepicker").ejmDatePicker("option", "enablePersistence", true);            {% endhighlight %}
+
 
 
 
@@ -498,14 +498,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the ios7 mode renderDefault property in Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-rendermode="ios7" data-ej-ios7-renderdefault=true />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // To set ios7 mode renderDefault property API value
 <input id="datepicker" data-role="none"/>
              
@@ -513,15 +513,15 @@ Example
 $(function(){
 $("#datepicker").ejmDatePicker({ renderMode:"ios7", ios: {renderDefault: true }});              
 });
-</script>                  </code>
-</pre>
-<pre class="prettyprint">
-<code>// Get or set the ios7 mode renderDefault API, after initialization:
+</script>                  {% endhighlight %}
+
+
+{% highlight html %}// Get or set the ios7 mode renderDefault API, after initialization:
 // Get the ios7 mode renderDefault value  
 $("#datepicker").ejmDatePicker("option", "ios7.renderDefault");                 
 // Set the ios7 mode renderDefault value 
-$("#datepicker").ejmDatePicker("option", "ios7.renderDefault", true); </code>
-</pre>
+$("#datepicker").ejmDatePicker("option", "ios7.renderDefault", true); {% endhighlight %}
+
 
 
 
@@ -563,14 +563,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the maxDate property in Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-maxdate="12/31/2030" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the maxDtae on initialization. 
 //To set maxDate API value 
 <input id="datepicker" data-role="none"/>
@@ -579,16 +579,16 @@ Example
 $(function(){
 $("#datepicker").ejmDatePicker({ maxDate: "12/31/2030" });              
 });
-</script>                                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the maxDate, after initialization:
 // Get the maxDate API value.           
  $("#datepicker").ejmDatePicker("option", "maxDate");                   
 // Set the maxDate API
-$("#datepicker").ejmDatePicker("option", "maxDate", "31/12/2030");            </code>
-</pre>
+$("#datepicker").ejmDatePicker("option", "maxDate", "31/12/2030");            {% endhighlight %}
+
 
 
 
@@ -630,14 +630,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the minDate property in Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-mindate="01/01/2000" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the minDate on initialization. 
 //To set minDate API value 
 <input id="datepicker" data-role="none"/>
@@ -646,16 +646,16 @@ Example
 $(function(){
 $("#datepicker").ejmDatePicker({ minDate: "01/01/2000" });              
 });
-</script>                                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the minDate, after initialization:
 // Get the minDate API value.           
  $("#datepicker").ejmDatePicker("option", "minDate");                   
 // Set the minDate API
-$("#datepicker").ejmDatePicker("option", "minDate", "01/01/2000");            </code>
-</pre>
+$("#datepicker").ejmDatePicker("option", "minDate", "01/01/2000");            {% endhighlight %}
+
 
 
 
@@ -697,14 +697,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the renderMode property in Unobtrusive way.
 <input  id="datepicker" type="date" data-role="ejmdatepicker" data-ej-rendermode="android" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the renderMode on initialization. 
 //To set renderMode API value 
 <input  id="datepicker" type="date"/>
@@ -713,16 +713,16 @@ Example
 $(function(){
 $("#datepicker").ejmDatePicker({ renderMode: "android" });              
 });
-</script>                                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the renderMode, after initialization:
 // Get the renderMode API value.                
  $("#datepicker").ejmDatePicker("option", "renderMode");                        
 // Set the renderMode API
-$("#datepicker").ejmDatePicker("option", "renderMode", "android" );            </code>
-</pre>
+$("#datepicker").ejmDatePicker("option", "renderMode", "android" );            {% endhighlight %}
+
 
 
 
@@ -764,14 +764,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the theme property in Unobtrusive way.
 <input  id="datepicker" type="date" data-role="ejmdatepicker" data-ej-theme="auto" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the theme on initialization. 
 //To set theme API value 
 <input  id="datepicker" type="date"/>
@@ -780,16 +780,16 @@ Example
 $(function(){
 $("#datepicker").ejmDatePicker({ theme: "auto" });              
 });
-</script>                                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the theme, after initialization:
 // Get the theme API value.             
  $("#datepicker").ejmDatePicker("option", "theme");                     
 // Set the theme API
-$("#datepicker").ejmDatePicker("option", "theme", "auto" );            </code>
-</pre>
+$("#datepicker").ejmDatePicker("option", "theme", "auto" );            {% endhighlight %}
+
 
 
 
@@ -831,14 +831,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the value property in Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-value="04/23/2010" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the value on initialization. 
 //To set value API value 
 <input id="datepicker" data-role="none"/>
@@ -847,16 +847,16 @@ Example
 $(function(){
 $("#datepicker").ejmDatePicker({ value: "04/23/2010" });                
 });
-</script>                         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the value, after initialization:
 // Get the value API value.             
  $("#datepicker").ejmDatePicker("option", "value");                     
 // Set the value API
-$("#datepicker").ejmDatePicker("option", "value", "04/23/2010");            </code>
-</pre>
+$("#datepicker").ejmDatePicker("option", "value", "04/23/2010");            {% endhighlight %}
+
 
 
 
@@ -920,14 +920,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the windows mode renderDefault property in Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-rendermode="windows" data-ej-windows-renderdefault=true />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // To set windows mode renderDefault property API value
 <input id="datepicker" data-role="none"/>
              
@@ -935,16 +935,16 @@ Example
 $(function(){
 $("#datepicker").ejmDatePicker({ renderMode:"windows", windows: { renderDefault: true }});              
 });
-</script>                          </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                          {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the windows mode renderDefault API, after initialization:
 // Get the windows mode renderDefault value  
 $("#datepicker").ejmDatePicker("option", "windows.renderDefault");                      
 // Set the windows mode renderDefault value 
-$("#datepicker").ejmDatePicker("option", "windows.renderDefault", true); </code>
-</pre>
+$("#datepicker").ejmDatePicker("option", "windows.renderDefault", true); {% endhighlight %}
+
 
 
 
@@ -977,8 +977,8 @@ To disable the datpicker
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <input id="datepicker" data-role="ejmdatepicker"/>
 <script>
 $(function(){
@@ -986,18 +986,18 @@ $(function(){
 var dpObj = $("#datepicker").data("ejmDatePicker");
 dpObj.disable();
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="ejmdatepicker"/>
 <script>
 // changes the DatePicker current state to disabled     
 $(function(){
 $("#datepicker").ejmDatePicker("disable");      
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1023,8 +1023,8 @@ To enable the datepicker
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <input id="datepicker" data-role="ejmdatepicker"/>
 <script>
 $(function(){
@@ -1032,18 +1032,18 @@ $(function(){
 var dpObj = $("#datepicker").data("ejmDatePicker");
 dpObj.enable();
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="ejmdatepicker"/>
 <script>
 $(function(){
 // change the DatePicker current state to enabled       
 $("#datepicker").ejmDatePicker("enable");
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1069,8 +1069,8 @@ Get the current value.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <input id="datepicker" data-role="ejmdatepicker"/>
 <script>
 $(function(){
@@ -1078,18 +1078,18 @@ $(function(){
 var dpObj = $("#datepicker").data("ejmDatePicker");
 dpObj.getValue();
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="ejmdatepicker"/>
 <script>
 // get the DatePicker current value             
 $(function(){
 $("#datepicker").ejmDatePicker("getValue");     
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1115,8 +1115,8 @@ To hide the DatePicker control
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <input id="datepicker" data-role="ejmdatepicker"/>
 <script>
 $(function(){
@@ -1124,17 +1124,17 @@ $(function(){
 var dpObj = $("#datepicker").data("ejmDatePicker");
 dpObj.hide();
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="ejmdatepicker"/>
 <script>
 $(function(){
 $("#datepicker").ejmDatePicker("hide");
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1160,8 +1160,8 @@ Set the given date.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <input id="datepicker" data-role="ejmdatepicker"/>
 <script>
 $(function(){
@@ -1169,18 +1169,18 @@ $(function(){
 var dpObj = $("#datepicker").data("ejmDatePicker");
 dpObj.setCurrentDate("12/31/2000");
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="ejmdatepicker"/>
 <script>
 // get the DatePicker current value             
 $(function(){
 $("#datepicker").ejmDatePicker("setCurrentDate", "12/31/2000");
 });
-</script>         </code>
-</pre>
+</script>         {% endhighlight %}
+
 
 
 
@@ -1206,8 +1206,8 @@ To show the DatePicker control
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <input id="datepicker" data-role="ejmdatepicker"/>
 <script>
 $(function(){
@@ -1215,17 +1215,17 @@ $(function(){
 var dpObj = $("#datepicker").data("ejmDatePicker");
 dpObj.show();
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="ejmdatepicker"/>
 <script>
 $(function(){
 $("#datepicker").ejmDatePicker("show"); 
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1261,7 +1261,7 @@ Event triggers when the value is changed while interaction.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from datepicker
 <table class="params">
@@ -1274,22 +1274,22 @@ Event triggers when the value is changed while interaction.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the datepicker model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">return the datepicker value</td>
 </tr>
@@ -1306,16 +1306,16 @@ Event triggers when the value is changed while interaction.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Bind the change event using Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-change="change" />
 <script>
 function change(){}
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="none"/>
 <script>
 //change event for DatePicker
@@ -1323,8 +1323,8 @@ $("#datepicker").ejmDatePicker({
    change: function (args) {* //handle the event 
 }
 });
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -1353,7 +1353,7 @@ Event triggers when the control is closed after interaction.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from datepicker
 <table class="params">
@@ -1366,22 +1366,22 @@ Event triggers when the control is closed after interaction.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the datepicker model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">return the datepicker value</td>
 </tr>
@@ -1398,16 +1398,16 @@ Event triggers when the control is closed after interaction.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Bind the close event using Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-close="close" />
 <script>
 function close(){}
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="none"/>
 <script>
 //close event for DatePicker
@@ -1415,8 +1415,8 @@ $("#datepicker").ejmDatePicker({
    close: function (args) {* //handle the event 
 }
 });
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -1445,7 +1445,7 @@ Event triggers when the input element is focused.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from datepicker
 <table class="params">
@@ -1458,22 +1458,22 @@ Event triggers when the input element is focused.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the datepicker model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">return the datepicker value</td>
 </tr>
@@ -1490,16 +1490,16 @@ Event triggers when the input element is focused.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Bind the focusin event using Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-focusin="focusin" />
 <script>
 function focusin(){}
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="none"/>
 <script>
 //focusIn event for DatePicker
@@ -1507,8 +1507,8 @@ $("#datepicker").ejmDatePicker({
    focusIn: function (args) { * //handle the event 
 }
 });
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -1537,7 +1537,7 @@ Event triggers when the input element is focusedout or blurred.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from datepicker
 <table class="params">
@@ -1550,22 +1550,22 @@ Event triggers when the input element is focusedout or blurred.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the datepicker model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">return the datepicker value</td>
 </tr>
@@ -1582,16 +1582,16 @@ Event triggers when the input element is focusedout or blurred.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Bind the focusout event using Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-focusout="focusout" />
 <script>
 function focusout(){}
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="none"/>
 <script>
 //focusOut event for DatePicker
@@ -1599,8 +1599,8 @@ $("#datepicker").ejmDatePicker({
    focusOut: function (args) {* //handle the event 
 }
 }); 
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -1629,7 +1629,7 @@ Event triggers when the control is loaded.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from datepicker
 <table class="params">
@@ -1642,22 +1642,22 @@ Event triggers when the control is loaded.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the datepicker model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">return the datepicker value</td>
 </tr>
@@ -1674,16 +1674,16 @@ Event triggers when the control is loaded.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Bind the load event using Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-load="load" />
 <script>
 function load(){}
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="none"/>
 <script>
 //load event for DatePicker
@@ -1691,8 +1691,8 @@ $("#datepicker").ejmDatePicker({
    load: function (args) {* //handle the event 
 }
 }); 
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -1721,7 +1721,7 @@ Event triggers when the control is opened for selection.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from datepicker
 <table class="params">
@@ -1734,22 +1734,22 @@ Event triggers when the control is opened for selection.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the datepicker model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">return the datepicker value</td>
 </tr>
@@ -1766,16 +1766,16 @@ Event triggers when the control is opened for selection.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Bind the open event using Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-open="open" />
 <script>
 function open(){}
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="none"/>
 <script>
 //open event for DatePicker
@@ -1783,8 +1783,8 @@ $("#datepicker").ejmDatePicker({
    open: function (args) {* //handle the event 
 }
 });
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -1813,7 +1813,7 @@ Event triggers when date value is selected.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from datepicker
 <table class="params">
@@ -1826,22 +1826,22 @@ Event triggers when date value is selected.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the datepicker model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">return the datepicker value</td>
 </tr>
@@ -1858,16 +1858,16 @@ Event triggers when date value is selected.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Bind the select event using Unobtrusive way.
 <input id="datepicker" data-role="ejmdatepicker" data-ej-select="select" />
 <script>
 function select(){}
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input id="datepicker" data-role="none"/>
 <script>
 //select event for DatePicker
@@ -1875,8 +1875,8 @@ $("#datepicker").ejmDatePicker({
    select: function (args) { * //handle the event 
 }
 }); 
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 

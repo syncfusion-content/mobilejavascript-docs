@@ -2,7 +2,7 @@
 layout: post
 title: ejmRotator
 documentation: API
-platform: mobilejs
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
@@ -33,8 +33,8 @@ $(element).ejmRotator<span class="signature">()</span>
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>// Render rotator in unobtrusive way
+
+{% highlight html %}// Render rotator in unobtrusive way
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent">       
 </div>
 <div id="rotatorcontent">
@@ -51,10 +51,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>//Render rotator on initialization
+</div>{% endhighlight %}
+
+
+{% highlight html %}//Render rotator on initialization
 <div id="rotator">        
 </div>
 <div id="rotatorcontent">
@@ -75,8 +75,8 @@ Example
 <script> 
 // Create rotator  
 $("#rotator").ejmRotator({ targetId: "rotatorcontent" }); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -159,8 +159,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the adjustFixedPosition property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-adjustFixedPosition=true >
 </div>
@@ -178,10 +178,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the adjustFixedPosition on initialization. 
 <div id="rotator" >       
 </div>
@@ -203,16 +203,16 @@ Example
 <script> 
 //To set the adjustFixedPosition API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", adjustFixedPosition: true });                    
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the adjustFixedPosition, after initialization:
 // Get the adjustFixedPosition API value.       
  $("#rotator").ejmRotator ("option", "adjustFixedPosition");                    
 // Set the adjustFixedPosition API
-$("#rotator").ejmRotator ("option", "adjustFixedPosition", true);            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "adjustFixedPosition", true);            {% endhighlight %}
+
 
 
 
@@ -254,8 +254,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the cssClass property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-cssclass="customclass" >
 </div>
@@ -273,10 +273,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the cssClass on initialization. 
 <div id="rotator" >       
 </div>
@@ -298,16 +298,16 @@ Example
 <script> 
 //To set the cssClass API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", cssClass: "customclass" });                      
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the cssClass, after initialization:
 // Get the cssClass API value.  
  $("#rotator").ejmRotator ("option", "cssClass");                       
 // Set the cssClass API
-$("#rotator").ejmRotator ("option", "cssClass", "customclass");            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "cssClass", "customclass");            {% endhighlight %}
+
 
 
 
@@ -349,8 +349,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the currentItemIndex property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-currentitemindex=0 >
 </div>
@@ -368,10 +368,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the currentItemIndex on initialization. 
 <div id="rotator" >       
 </div>
@@ -393,16 +393,16 @@ Example
 <script> 
 //To set the currentItemIndex API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", currentItemIndex: 0 });                  
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the  currentItemIndex, after initialization:
 // Get the currentItemIndex API value.  
  $("#rotator").ejmRotator ("option", "currentItemIndex");                       
 // Set the currentItemIndex API
-$("#rotator").ejmRotator ("option", "currentItemIndex", 0);            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "currentItemIndex", 0);            {% endhighlight %}
+
 
 
 
@@ -444,8 +444,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the dataBinding property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-databinding="false" >
 </div>
@@ -463,10 +463,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the dataBinding on initialization. 
 <div id="rotator" >       
 </div>
@@ -488,16 +488,16 @@ Example
 <script> 
 //To set the dataBinding API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", dataBinding: false });                   
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the dataBinding, after initialization:
 // Get the dataBinding API value.       
  $("#rotator").ejmRotator ("option", "dataBinding");                    
 // Set the dataBinding API
-$("#rotator").ejmRotator ("option", "dataBinding", false);                      </code>
-</pre>
+$("#rotator").ejmRotator ("option", "dataBinding", false);                      {% endhighlight %}
+
 
 
 
@@ -539,8 +539,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the dataSource property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-datasource="window.imgdata" data-ej-databinding=true >
 </div>
@@ -549,10 +549,10 @@ Example
 <div style="background-image:url({{:imageurl}});height:350px;width:630px">
 </div>
 </div>
-</div> </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div> {% endhighlight %}
+
+
+{% highlight html %} 
 // Set the dataSource on initialization. 
 <div id="rotator" >       
 </div>
@@ -565,16 +565,16 @@ Example
 <script> 
 //To set the dataSource API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", dataSource: "window.imgdata", dataBinding: true });                      
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the dataSource, after initialization:
 // Get the dataSource API value.        
  $("#rotator").ejmRotator ("option", "dataSource");                     
 // Set the dataSource API
-$("#rotator").ejmRotator ("option", "dataSource", "window.imgdata");                    </code>
-</pre>
+$("#rotator").ejmRotator ("option", "dataSource", "window.imgdata");                    {% endhighlight %}
+
 
 
 
@@ -616,8 +616,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enablePersistence property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-enablepersistence=true >
 </div>
@@ -635,10 +635,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the enablePersistence on initialization. 
 <div id="rotator" >       
 </div>
@@ -660,16 +660,16 @@ Example
 <script> 
 //To set the enablePersistence API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", enablePersistence: true });                      
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the enablePersistence, after initialization:
 // Get the enablePersistence API value. 
  $("#rotator").ejmRotator ("option", "enablePersistence");                      
 // Set the enablePersistence API
-$("#rotator").ejmRotator ("option", "enablePersistence", true);            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "enablePersistence", true);            {% endhighlight %}
+
 
 
 
@@ -711,8 +711,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the headerTitle property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-headertitle="Title" >
 </div>
@@ -730,10 +730,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the headerTitle on initialization. 
 <div id="rotator" >       
 </div>
@@ -755,16 +755,16 @@ Example
 <script> 
 //To set the headerTitle API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", headerTitle: "Title" });                 
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the headerTitle, after initialization:
 // Get the headerTitle API value.       
  $("#rotator").ejmRotator ("option", "headerTitle");                    
 // Set the headerTitle API
-$("#rotator").ejmRotator ("option", "headerTitle", "Title");            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "headerTitle", "Title");            {% endhighlight %}
+
 
 
 
@@ -806,8 +806,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the orientation property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-orientation="horizontal" >
 </div>
@@ -825,10 +825,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the orientation on initialization. 
 <div id="rotator" >       
 </div>
@@ -852,16 +852,16 @@ $(function(){
 //To set the orientation API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", orientation: ej.mobile.Rotator.Orientation.Horizontal  });                       
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the orientation, after initialization:
 // Get the orientation API value.       
  $("#rotator").ejmRotator ("option", "orientation");                    
 // Set the orientation API
-$("#rotator").ejmRotator ("option", "orientation", ej.mobile.Rotator.Orientation.Horizontal);            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "orientation", ej.mobile.Rotator.Orientation.Horizontal);            {% endhighlight %}
+
 
 
 
@@ -925,8 +925,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the pagerPosition horizontal property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-pagerposition-horizontal="bottom" >
 </div>
@@ -944,10 +944,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the pagerPosition horizontal on initialization. 
 <div id="rotator" >       
 </div>
@@ -971,16 +971,16 @@ $(function(){
 //To set the pagerPosition horizontal API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", pagerPosition: { horizontal: ej.mobile.Rotator.PagerPositionHorizontal.Bottom }});                       
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the pagerPosition horizontal, after initialization:
 // Get the pagerPosition horizontal API value.  
  $("#rotator").ejmRotator ("option", "pagerPosition.horizontal");                       
 // Set the pagerPosition horizontal API
-$("#rotator").ejmRotator ("option", "pagerPosition.horizontal", ej.mobile.Rotator.PagerPositionHorizontal.Bottom);            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "pagerPosition.horizontal", ej.mobile.Rotator.PagerPositionHorizontal.Bottom);            {% endhighlight %}
+
 
 
 
@@ -1022,8 +1022,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the pagerPosition vertical property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-orientation="vertical" data-ej-pagerposition-vertical="right" >
 </div>
@@ -1041,10 +1041,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the pagerPosition vertical on initialization. 
 <div id="rotator" >       
 </div>
@@ -1068,16 +1068,16 @@ $(function(){
 //To set the pagerPosition vertical API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", orientation: "vertical", pagerPosition: { vertical: ej.mobile.Rotator.PagerPositionVertical.Right }});           
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the pagerPosition vertical, after initialization:
 // Get the pagerPosition vertical API value.    
  $("#rotator").ejmRotator ("option", "pagerPosition.vertical");                 
 // Set the pagerPosition vertical API
-$("#rotator").ejmRotator ("option", "pagerPosition.vertical", ej.mobile.Rotator.PagerPositionVertical.Right);            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "pagerPosition.vertical", ej.mobile.Rotator.PagerPositionVertical.Right);            {% endhighlight %}
+
 
 
 
@@ -1119,8 +1119,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the rendermode property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-rendermode="auto" >
 </div>
@@ -1138,10 +1138,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the rendermode on initialization.
 <div id="rotator" >       
 </div>
@@ -1165,16 +1165,16 @@ $(function(){
 //To set the rendermode API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", renderMode: ej.mobile.RenderMode.Auto});                 
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the rendermode, after initialization:
 // Get the rendermode API value.        
  $("#rotator").ejmRotator ("option", "renderMode");                     
 // Set the renderMode API
-$("#rotator").ejmRotator ("option", "renderMode", ej.mobile.RenderMode.Auto);            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "renderMode", ej.mobile.RenderMode.Auto);            {% endhighlight %}
+
 
 
 
@@ -1216,8 +1216,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the showHeader property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-showheader=false >
 </div>
@@ -1235,10 +1235,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the showHeader on initialization. 
 <div id="rotator" >       
 </div>
@@ -1260,16 +1260,16 @@ Example
 <script> 
 //To set the showHeader API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", showHeader: false });                    
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the  showHeader, after initialization:
 // Get the showHeader API value.        
  $("#rotator").ejmRotator ("option", "showHeader");                     
 // Set the showHeader API
-$("#rotator").ejmRotator ("option", "showHeader", false);            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "showHeader", false);            {% endhighlight %}
+
 
 
 
@@ -1311,8 +1311,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the showPager property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-showpager=true >
 </div>
@@ -1330,10 +1330,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the showPager on initialization. 
 <div id="rotator" >       
 </div>
@@ -1355,16 +1355,16 @@ Example
 <script> 
 //To set the showPager API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", showPager: true });                      
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the showPager, after initialization:
 // Get the showPager API value. 
  $("#rotator").ejmRotator ("option", "showPager");                      
 // Set the showPager API
-$("#rotator").ejmRotator ("option", "showPager", true);            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "showPager", true);            {% endhighlight %}
+
 
 
 
@@ -1406,8 +1406,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the targetHeight property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-targetheight="100px" >
 </div>
@@ -1425,10 +1425,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the targetHeight on initialization. 
 <div id="rotator" >       
 </div>
@@ -1450,16 +1450,16 @@ Example
 <script> 
 //To set the targetHeight API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", targetHeight: "100px" });                        
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the  targetHeight, after initialization:
 // Get the targetHeight API value.      
  $("#rotator").ejmRotator ("option", "targetHeight");                   
 // Set the targetHeight API
-$("#rotator").ejmRotator ("option", "targetHeight", "auto");            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "targetHeight", "auto");            {% endhighlight %}
+
 
 
 
@@ -1501,8 +1501,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the targetId property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent">
 </div>
@@ -1520,10 +1520,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set the targetId on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set the targetId on initialization. 
 <div id="rotator">        
 </div>
 <div id="rotatorcontent">
@@ -1544,16 +1544,16 @@ Example
 <script> 
 //To set the targetId API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent" });
-</script> </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script> {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the targetId, after initialization:
 // Get the targetId API value.  
  $("#rotator").ejmRotator ("option", "targetId");                       
 // Set the targetId API
-$("#rotator").ejmRotator ("option", "targetId", "rotatorcontent");            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "targetId", "rotatorcontent");            {% endhighlight %}
+
 
 
 
@@ -1595,8 +1595,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the targetWidth property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-targetwidth="auto" >
 </div>
@@ -1614,10 +1614,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the targetWidth on initialization. 
 <div id="rotator" >       
 </div>
@@ -1639,16 +1639,16 @@ Example
 <script> 
 //To set the targetWidth API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", targetWidth: "auto" });                  
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the rotator targetWidth, after initialization:
 // Get the targetWidth API value.       
  $("#rotator").ejmRotator ("option", "targetWidth");                    
 // Set the targetWidth API
-$("#rotator").ejmRotator ("option", "targetWidth", "auto");            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "targetWidth", "auto");            {% endhighlight %}
+
 
 
 
@@ -1690,8 +1690,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the theme property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-theme="auto" >
 </div>
@@ -1709,10 +1709,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the theme on initialization. 
 <div id="rotator" >       
 </div>
@@ -1736,16 +1736,16 @@ $(function(){
 //To set the theme API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", theme: ej.mobile.Theme.Light });                 
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the theme, after initialization:
 // Get the theme API value.     
  $("#rotator").ejmRotator ("option", "theme");                  
 // Set the theme API
-$("#rotator").ejmRotator ("option", "theme", ej.mobile.Theme.Light);            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "theme", ej.mobile.Theme.Light);            {% endhighlight %}
+
 
 
 
@@ -1809,8 +1809,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the windows mode renderDefault property in unobtrusive way.
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-windows-renderdefault="true" >
 </div>
@@ -1828,10 +1828,10 @@ Example
 <div style="background-image:url(sculpture.jpg);height:350px;width:630px">
 </div>
 </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the windows renderDefault on initialization. 
 <div id="rotator" >       
 </div>
@@ -1854,16 +1854,16 @@ Example
 <script> 
 //To set the windows renderDefault API value 
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", windows:{ renderDefault: true} });                       
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the windows renderDefault, after initialization:
 // Get the windows renderDefault API value.     
  $("#rotator").ejmRotator ("option", "windows.renderDefault");                  
 // Set the windows renderDefault API
-$("#rotator").ejmRotator ("option", "windows.renderDefault", true);            </code>
-</pre>
+$("#rotator").ejmRotator ("option", "windows.renderDefault", true);            {% endhighlight %}
+
 
 
 
@@ -1896,8 +1896,8 @@ To handle the rotator datasource
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div id="rotator" >
 </div>
 <div id="rotatorcontent" >
@@ -1911,10 +1911,10 @@ Example
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", dataBinding: true });
 var rotObj = $("#rotator").data("ejmRotator");
 rotObj.renderDatasource(imgdata); 
-</script ></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script >{% endhighlight %}
+
+
+{% highlight html %}             
 <div id="rotator" >
 </div>
 <div id="rotatorcontent" >
@@ -1927,8 +1927,8 @@ rotObj.renderDatasource(imgdata);
 <script >
 $("#rotator").ejmRotator({ targetId: "rotatorcontent", dataBinding: true });
 $("#rotator").ejmRotator("renderDatasource", imgdata);
-</script ></code>
-</pre>
+</script >{% endhighlight %}
+
 
 
 
@@ -1964,27 +1964,27 @@ Event triggers when the rotator changes from one slide to another slide
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the cancel option value</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the Rotator model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.targetElement</code></td>
+<td class="name">{% highlight html %}argument.targetElement{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the targetElement of the rotator</td>
 </tr>
 <tr>
-<td class="name"><code>argument.value</code></td>
+<td class="name">{% highlight html %}argument.value{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current slide index.</td>
 </tr>
@@ -1997,8 +1997,8 @@ Event triggers when the rotator changes from one slide to another slide
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //change event for rotator
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-change="onChange" >
 </div>
@@ -2021,10 +2021,10 @@ Example
 function onChange(args) { 
 //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //change event for rotator
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" >      
 </div>
@@ -2049,8 +2049,8 @@ $("#rotator").ejmRotator({
 //handle the event 
 }
 });           
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2079,27 +2079,27 @@ Event triggers when the rotator's pager clicked
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the cancel option value</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the Rotator model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.targetElement</code></td>
+<td class="name">{% highlight html %}argument.targetElement{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the targetElement of the rotator</td>
 </tr>
 <tr>
-<td class="name"><code>argument.value</code></td>
+<td class="name">{% highlight html %}argument.value{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current slide index.</td>
 </tr>
@@ -2112,8 +2112,8 @@ Event triggers when the rotator's pager clicked
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //pagerSelect event for rotator
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-pagerselect="onUpdate" >
 </div>
@@ -2136,10 +2136,10 @@ Example
 function onUpdate(args) { 
 //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //pagerSelect event for rotator
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" >      
 </div>
@@ -2164,8 +2164,8 @@ $("#rotator").ejmRotator({
 //handle the event 
 }
 });           
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2194,27 +2194,27 @@ Event triggers when the swipeDown happens in the Rotator
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the cancel option value</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the Rotator model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.targetElement</code></td>
+<td class="name">{% highlight html %}argument.targetElement{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the targetElement of the rotator</td>
 </tr>
 <tr>
-<td class="name"><code>argument.value</code></td>
+<td class="name">{% highlight html %}argument.value{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current slide index.</td>
 </tr>
@@ -2227,8 +2227,8 @@ Event triggers when the swipeDown happens in the Rotator
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //SwipeDown event for rotator
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipedown="swipeDown" >
 </div>
@@ -2251,10 +2251,10 @@ Example
 function swipeDown(args) { 
 //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //SwipeDown event for rotator
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" >      
 </div>
@@ -2279,8 +2279,8 @@ $("#rotator").ejmRotator({
 //handle the event 
 }
 });           
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2309,27 +2309,27 @@ Event triggers when the swipeLeft happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the cancel option value</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the Rotator model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.targetElement</code></td>
+<td class="name">{% highlight html %}argument.targetElement{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the targetElement of the Rotator</td>
 </tr>
 <tr>
-<td class="name"><code>argument.value</code></td>
+<td class="name">{% highlight html %}argument.value{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current slide index.</td>
 </tr>
@@ -2342,8 +2342,8 @@ Event triggers when the swipeLeft happens.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //SwipeLeft event for rotator
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipeleft="swipeLeft" >
 </div>
@@ -2366,10 +2366,10 @@ Example
 function swipeLeft(args) { 
 //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //SwipeLeft event for rotator
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" >      
 </div>
@@ -2394,8 +2394,8 @@ $("#rotator").ejmRotator({
 //handle the event 
 }
 });           
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2424,27 +2424,27 @@ Event triggers when the swipeRight happens in the Rotator
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the cancel option value</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the Rotator model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.targetElement</code></td>
+<td class="name">{% highlight html %}argument.targetElement{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the targetElement of the rotator</td>
 </tr>
 <tr>
-<td class="name"><code>argument.value</code></td>
+<td class="name">{% highlight html %}argument.value{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current slide index.</td>
 </tr>
@@ -2457,8 +2457,8 @@ Event triggers when the swipeRight happens in the Rotator
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //SwipeRight event for rotator
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swiperight="swipeRight" >
 </div>
@@ -2481,10 +2481,10 @@ Example
 function swipeRight(args) { 
 //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //SwipeRight event for rotator
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" >      
 </div>
@@ -2509,8 +2509,8 @@ $("#rotator").ejmRotator({
 //handle the event 
 }
 });           
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2539,27 +2539,27 @@ Event triggers when the swipeUp happens in the Rotator
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the cancel option value</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the Rotator model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.targetElement</code></td>
+<td class="name">{% highlight html %}argument.targetElement{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the targetElement of the rotator</td>
 </tr>
 <tr>
-<td class="name"><code>argument.value</code></td>
+<td class="name">{% highlight html %}argument.value{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current slide index.</td>
 </tr>
@@ -2572,8 +2572,8 @@ Event triggers when the swipeUp happens in the Rotator
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //SwipeUp event for rotator
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipeup="swipeUp" >
 </div>
@@ -2596,10 +2596,10 @@ Example
 function swipeUp(args) { 
 //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //SwipeUp event for rotator
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" >      
 </div>
@@ -2624,8 +2624,8 @@ $("#rotator").ejmRotator({
 //handle the event 
 }
 });           
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 

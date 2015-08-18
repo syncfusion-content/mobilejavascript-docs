@@ -2,7 +2,7 @@
 layout: post
 title: ejmCheckBox
 documentation: API
-platform: mobilejs
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
@@ -33,20 +33,20 @@ $(element).ejmCheckBox<span class="signature">()</span>
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Create checkbox control in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Render checkbox on initialization
 <input type="checkbox" id="chkbox" />
 <script>  
 $("#chkbox").ejmCheckBox(); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -126,29 +126,29 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the checked property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-checked=false />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // To set checked API value during initialization  
 <input type="checkbox" id="chkbox" />
 <script>  
  $("#chkbox").ejmCheckBox({ checked:  true });                                  
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the check API, after initialization:
 //Get the checked value  
         $("#chkbox").ejmCheckBox("option", "checked");
                       
         //Set the checked value 
-        $("#chkbox").ejmCheckBox("option", "checked",  false );  </code>
-</pre>
+        $("#chkbox").ejmCheckBox("option", "checked",  false );  {% endhighlight %}
+
 
 
 
@@ -190,29 +190,29 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the Checkstate property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enabletristate=true data-ej-checkstate="indeterminate" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the Checkstate property on initialization.
 <input type="checkbox" id="chkbox" />
 <script>  
 // To set Checkstate API value 
   $("#chkbox").ejmCheckBox({ enableTriState : true,checkState: ej.mobile.CheckBox.CheckState.Indeterminate });          
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the CheckState  API, after initialization
 //Get the CheckState  value 
   $("#chkbox").ejmCheckBox("option", "checkState");     
 // Set the CheckState  value 
-  $("#chkbox").ejmCheckBox("option", "checkState", ej.mobile.CheckBox.CheckState.Indeterminate  ); </code>
-</pre>
+  $("#chkbox").ejmCheckBox("option", "checkState", ej.mobile.CheckBox.CheckState.Indeterminate  ); {% endhighlight %}
+
 
 
 
@@ -254,28 +254,28 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the cssClass property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-cssclass="customclass" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code>// Set checkbox cssClass on initialization. 
+{% endhighlight %}
+
+
+{% highlight html %}// Set checkbox cssClass on initialization. 
 <input type="checkbox" id="chkbox" />
 <script>  
 // To set cssClass API value 
 $("#chkbox").ejmCheckBox ({ cssClass: "customclass"});                  
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the checkbox cssClass, after initialization:
 // Get the cssClass API value.          
  $("#chkbox").ejmCheckBox ("option", "cssClass");                       
 // Set the cssClass API
-$("#chkbox").ejmCheckBox ("option", "cssClass", "customclass");            </code>
-</pre>
+$("#chkbox").ejmCheckBox ("option", "cssClass", "customclass");            {% endhighlight %}
+
 
 
 
@@ -317,29 +317,29 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enabled property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enabled=true />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 //Set enabled property checkbox on initialization. 
 <input type="checkbox" id="chkbox" />
 <script>  
 // To set enabled API value 
         $("#chkbox").ejmCheckBox ({ enabled: true });                   
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the checkbox state, after initialization:
 // Get the enabled API value.           
         $("#chkbox").ejmCheckBox ("option", "enabled");                 
 // Set the enabled API
-        $("#chkbox").ejmCheckBox ("option", "enabled", true);</code>
-</pre>
+        $("#chkbox").ejmCheckBox ("option", "enabled", true);{% endhighlight %}
+
 
 
 
@@ -381,28 +381,28 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the enablePersistence property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enablepersistence=true />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // To set enablePersistence API value 
 <input type="checkbox" id="chkbox" />
 <script>  
   $("#chkbox").ejmCheckBox({ enablePersistence: true});          
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the enablePersistence API, after initialization:
 // Get the enablePersistence value  
   $("#chkbox").ejmCheckBox("option", "enablePersistence");                      
 // Set the enablePersistence value 
-  $("#chkbox").ejmCheckBox("option", "enablePersistence", true ); </code>
-</pre>
+  $("#chkbox").ejmCheckBox("option", "enablePersistence", true ); {% endhighlight %}
+
 
 
 
@@ -444,29 +444,29 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enableTriState property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enabletristate="true" data-ej-checkstate="indeterminate" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the enableTriState property on initialization.
 <input type="checkbox" id="chkbox" />
 <script>  
 // To set enableTriState  API value 
   $("#chkbox").ejmCheckBox({ enableTriState : true, checkState:"indeterminate" });              
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the enableTriState  API, after initialization
 //Get the  enableTriState  value 
   $("#chkbox").ejmCheckBox("option", "enableTriState"); 
 // Set the  enableTriState  value 
-  $("#chkbox").ejmCheckBox("option", "enableTriState", false  ); </code>
-</pre>
+  $("#chkbox").ejmCheckBox("option", "enableTriState", false  ); {% endhighlight %}
+
 
 
 
@@ -508,29 +508,29 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the preventDefault property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-preventdefault="false" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set checkbox prevent default on initialization. 
 <input type="checkbox" id="chkbox" />
 <script>  
 // To set preventDefault API value 
 $("#chkbox").ejmCheckBox ({ preventDefault: false });                   
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the checkbox prevent default, after initialization:
 // Get the preventDefault API value.            
  $("#chkbox").ejmCheckBox ("option", "preventDefault");                 
 // Set the preventDefault API
-$("#chkbox").ejmCheckBox ("option", "preventDefault", false);</code>
-</pre>
+$("#chkbox").ejmCheckBox ("option", "preventDefault", false);{% endhighlight %}
+
 
 
 
@@ -572,28 +572,28 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the renderMode property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-rendermode="auto" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code>// Set checkbox rendermode on initialization. 
+{% endhighlight %}
+
+
+{% highlight html %}// Set checkbox rendermode on initialization. 
 <input type="checkbox" id="chkbox" />
 <script>  
 // To set renderMode API value 
 $("#chkbox").ejmCheckBox ({ renderMode: ej.mobile.RenderMode.Auto});                    
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the checkbox rendermode, after initialization:
 // Get the renderMode API value.                
  $("#chkbox").ejmCheckBox ("option", "renderMode");                     
 // Set the renderMode API
-$("#chkbox").ejmCheckBox ("option", "renderMode", ej.mobile.RenderMode.Auto);            </code>
-</pre>
+$("#chkbox").ejmCheckBox ("option", "renderMode", ej.mobile.RenderMode.Auto);            {% endhighlight %}
+
 
 
 
@@ -635,28 +635,28 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the text property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-text="Checkbox" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // To set text API value 
 <input type="checkbox" id="chkbox" />
 <script>  
   $("#chkbox").ejmCheckBox({ text: "Hello World"});              
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the text API, after initialization:
 // Get the text value  
   $("#chkbox").ejmCheckBox("option", "text");                   
 // Set the text value 
-  $("#chkbox").ejmCheckBox("option", "text", "Hello World" ); </code>
-</pre>
+  $("#chkbox").ejmCheckBox("option", "text", "Hello World" ); {% endhighlight %}
+
 
 
 
@@ -698,29 +698,29 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the theme property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-theme="auto" />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set checkbox theme on initialization. 
 <input type="checkbox" id="chkbox" />
 <script> 
 // To set Theme API value 
   $("#chkbox").ejmCheckBox ({ theme: ej.mobile.Theme.Auto });                   
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the checkbox prevent default, after initialization:
 // Get the theme API value.             
   $("#chkbox").ejmCheckBox ("option", "theme");                 
 // Set the theme API
-  $("#chkbox").ejmCheckBox ("option", "theme", ej.mobile.Theme.Auto);</code>
-</pre>
+  $("#chkbox").ejmCheckBox ("option", "theme", ej.mobile.Theme.Auto);{% endhighlight %}
+
 
 
 
@@ -784,28 +784,28 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the windows mode renderDefault property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-windows-renderDefault=false />
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // To set windows mode renderDefault property API value 
 <input type="checkbox" id="chkbox" />
 <script>  
 $("#chkbox").ejmCheckBox({ windows:{renderDefault: false}});             
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the windows mode renderDefault API, after initialization:
 // Get the windows mode renderDefault value  
 $("#chkbox").ejmCheckBox("option", "windows.renderDefault");                    
 // Set the windows mode renderDefault value 
-$("#chkbox").ejmCheckBox("option", "windows.renderDefault", false); </code>
-</pre>
+$("#chkbox").ejmCheckBox("option", "windows.renderDefault", false); {% endhighlight %}
+
 
 
 
@@ -838,25 +838,25 @@ To change the checked state.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <input type="checkbox" id="chkbox"/>
 <script>
 // Create checkbox
 $("#chkbox").ejmCheckBox();
 var chkObj = $("#chkbox").data("ejmCheckBox");
 chkObj.isChecked(); // returns the checkbox current state
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <input type="checkbox" id="chkbox" />
 <script>
 // get the checkbox current state
 $("#chkbox").ejmCheckBox();
 $("#chkbox").ejmCheckBox("isChecked");  
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -892,7 +892,7 @@ Event triggers when touch end happens on the control.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from CheckBox.
 <table class="params">
@@ -905,27 +905,27 @@ Event triggers when touch end happens on the control.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the current element associated value.</td>
 </tr>
 <tr>
-<td class="name"><code>isChecked</code></td>
+<td class="name">{% highlight html %}isChecked{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the status of the control.</td>
 </tr>
@@ -942,8 +942,8 @@ Event triggers when touch end happens on the control.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Define the touchend event in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-touchend="touchend" />
 <script> 
@@ -951,10 +951,10 @@ Example
 function touchend(args){ 
 //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>  
+</script>{% endhighlight %}
+
+
+{% highlight html %}  
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
 // touchEnd event for checkbox
 * <script>
@@ -963,8 +963,8 @@ $("#chkbox").ejmCheckBox({
 //handle the event 
 }
 });           
-* </script></code>
-</pre>
+* </script>{% endhighlight %}
+
 
 
 
@@ -993,7 +993,7 @@ Event triggers when touch start happens on the control.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from CheckBox.
 <table class="params">
@@ -1006,27 +1006,27 @@ Event triggers when touch start happens on the control.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the current element associated value.</td>
 </tr>
 <tr>
-<td class="name"><code>isChecked</code></td>
+<td class="name">{% highlight html %}isChecked{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the status of the control.</td>
 </tr>
@@ -1043,8 +1043,8 @@ Event triggers when touch start happens on the control.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Define the touchstart event in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-touchstart="touchstart" />
 <script> 
@@ -1052,10 +1052,10 @@ Example
 function touchstart(args){ 
 //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>  
+</script>{% endhighlight %}
+
+
+{% highlight html %}  
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
 // touchStart event for checkbox
 * <script>
@@ -1064,8 +1064,8 @@ $("#chkbox").ejmCheckBox({
 //handle the event 
 }
 });           
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 

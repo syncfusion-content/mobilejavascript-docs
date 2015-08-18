@@ -2,7 +2,7 @@
 layout: post
 title: ejmNavigationDrawer
 documentation: API
-platform: mobilejs
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
@@ -23,8 +23,8 @@ $(element).ejmNavigationDrawer<span class="signature">()</span>
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //create Navigation Drawer in Unobtrusive way
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -46,10 +46,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-type="overlay" data-ej-position="fixed">
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //create Navigation Drawer in Obtrusive way
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -76,8 +76,8 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer();    
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -135,8 +135,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the allowscrolling property in unobtrusive way.
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -158,10 +158,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-allowscrolling="true">
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set Navigation Drawer Scrolling on initialization. 
 //To set scrolling API value 
 <div id="home" class="navsubpage">
@@ -189,10 +189,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer("allowScrolling","true");     
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the Navigation Drawer allowscrolling, after initialization:
 $(function () {
@@ -201,8 +201,8 @@ $("#navpane").ejmNavigationDrawer("option", "allowScrolling");
 // Sets the allowscrolling API  
 $("#navpane").ejmNavigationDrawer ("option", "allowScrolling", false);  
 });
-</script>  </code>
-</pre>
+</script>  {% endhighlight %}
+
 
 
 
@@ -228,8 +228,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the allowscrolling property in unobtrusive way.
 //Set the allowscrolling property in unobtrusive way.
 <div id="home" class="navsubpage">
@@ -252,10 +252,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-considersubpage="true">
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set Navigation Drawer considersubpage on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set Navigation Drawer considersubpage on initialization. 
 //To set scrolling API value 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -282,10 +282,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer("considerSubPage","true");    
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the Navigation Drawer allowscrolling, after initialization:
 $(function () {
@@ -294,8 +294,8 @@ $("#navpane").ejmNavigationDrawer("option", "considerSubPage");
 // Sets the Considersubpage API 
 $("#navpane").ejmNavigationDrawer ("option", "considerSubPage", false);  
 });
-</script>  </code>
-</pre>
+</script>  {% endhighlight %}
+
 
 
 
@@ -321,8 +321,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the contentId property in unobtrusive way.
 <div id="container"> </div>
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-contentid="container" >
@@ -333,10 +333,10 @@ Example
                 <li data-ej-text="Creative Acrylic"></li>
                 <li data-ej-text="Modern Painting"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set Navigation Drawer contentId on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set Navigation Drawer contentId on initialization. 
 //To set contentId API value 
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-contentid="container" >
 <ul>
@@ -351,18 +351,18 @@ Example
 $(function () {
 $("#navpane").ejmNavigationDrawer("contentId","container");     
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Navigation Drawer contentId, after initialization:
 <script>
 // Gets the contentId API value.                
  $("#navpane").ejmNavigationDrawer ("option", "contentId");             
 // Sets the contentId API
 $("#navpane").ejmNavigationDrawer ("option", "contentId", "container");   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -388,8 +388,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the direction property in unobtrusive way.
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -412,10 +412,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-cssclass="customclass" >
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set Navigation Drawer direction on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set Navigation Drawer direction on initialization. 
 //To set direction API value 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -443,18 +443,18 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer("cssClass","customclass");    
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Navigation Drawer cssClass, after initialization:
 <script>
 // Gets the cssClass API value.         
  $("#navpane").ejmNavigationDrawer ("option", "cssClass");              
 // Sets the cssClass API
 $("#navpane").ejmNavigationDrawer ("option", "cssClass", "customclass");   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -480,8 +480,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the direction property in unobtrusive way.
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -503,10 +503,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-direction="left" >
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set Navigation Drawer direction on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set Navigation Drawer direction on initialization. 
 //To set direction API value 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -533,10 +533,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer("direction","left");  
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the Navigation Drawer direction, after initialization:
 $(function () {
@@ -545,8 +545,8 @@ $("#navpane").ejNavigationDrawer("option", "direction");
 // Sets the direction API       
 $("#navpane").ejNavigationDrawer ("option", "direction", "left");  
 });
-</script>  </code>
-</pre>
+</script>  {% endhighlight %}
+
 
 
 
@@ -572,8 +572,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the listview property in unobtrusive way.
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -595,10 +595,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-enablelistview="false" >
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set Navigation Drawer listview on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set Navigation Drawer listview on initialization. 
 //To set listview API value 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -625,18 +625,18 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer("enableListView","false");    
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Navigation Drawer listview, after initialization:
 <script>
 // Gets the listview API value.         
  $("#navpane").ejmNavigationDrawer ("option", "enableListView");                
 // Sets the listview API
 $("#navpane").ejmNavigationDrawer ("option", "enableListView", false);   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -662,8 +662,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the listView items property in unobtrusive way.
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -685,10 +685,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-items=window.lvItems >
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set Navigation Drawer listview items on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set Navigation Drawer listview items on initialization. 
 //To set listview items API value 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -715,18 +715,18 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer({enableListview:true,items:[{text:"Item1"},{text:"Item2"},{text:"Item3"}]});  
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Navigation Drawer listview item, after initialization:
 <script>
 // Gets the listview item API value.            
  $("#navpane").ejmNavigationDrawer ("option", "items"); 
 // Sets the listview item API
 $("#navpane").ejmNavigationDrawer ("option", "items", [{text:"Item1"},{text:"Item2"},{text:"Item3"}]);   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -743,8 +743,8 @@ Sets all the properties of listview to render in navigation drawer
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the listView Settings property in unobtrusive way.
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -766,10 +766,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-listviewsettings-width="200" >
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set Navigation Drawer listview settings on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set Navigation Drawer listview settings on initialization. 
 //To set listview settings API value 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -796,18 +796,18 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer({model.listViewSettings{width:200});  
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Navigation Drawer listViewSettings, after initialization:
 <script>
 // Gets the listViewSettings API value.         
  $("#navpane").ejmNavigationDrawer ("option", "listViewSettings.width");        
 // Sets the listViewSettings API
 $("#navpane").ejmNavigationDrawer ("option", "listViewSettings.width", "200");   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -833,8 +833,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the position property in unobtrusive way.
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -856,10 +856,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-position="fixed" >
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set Navigation Drawer position on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set Navigation Drawer position on initialization. 
 //To set position API value 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -886,18 +886,18 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer("position","fixed");  
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Navigation Drawer position, after initialization:
 <script>
 // Gets the position API value.         
  $("#navpane").ejmNavigationDrawer ("option", "position");              
 // Sets the position API
 $("#navpane").ejmNavigationDrawer ("option", "position", "fixed");   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -923,8 +923,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the renderMode property in unobtrusive way.
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -946,10 +946,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-rendermode="auto">
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set Navigation Drawer renderMode on initialization. 
 //To set renderMode API value 
 <div id="home" class="navsubpage">
@@ -977,18 +977,18 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer("renderMode","auto"); 
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Navigation Drawer renderMode, after initialization:
 <script>
 // Gets the renderMode API value.               
  $("#navpane").ejmNavigationDrawer ("option", "renderMode");                    
 // Sets the renderMode API
 $("#navpane").ejmNavigationDrawer ("option", "renderMode", ej.mobile.RenderMode.Auto);   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1027,8 +1027,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the direction property in unobtrusive way.
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -1051,10 +1051,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-targetid="target" >
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set Navigation Drawer direction on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set Navigation Drawer direction on initialization. 
 //To set direction API value 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -1082,18 +1082,18 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer("targetId","left");   
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Navigation Drawer targetId, after initialization:
 <script>
 // Gets the TargetId API value.         
  $("#navpane").ejmNavigationDrawer ("option", "targetId");              
 // Sets the TargetId API
 $("#navpane").ejmNavigationDrawer ("option", "targetId", "sample");   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1119,8 +1119,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the Theme property in unobtrusive way.
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -1142,10 +1142,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-theme="auto">
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set Navigation Drawer renderMode on initialization. 
 //To set Theme API value 
 <div id="home" class="navsubpage">
@@ -1173,18 +1173,18 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer("theme","auto");      
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Navigation Drawer Theme, after initialization:
 <script>
 // Gets the Theme API value.            
  $("#navpane").ejmNavigationDrawer ("option", "theme");                 
 // Sets the Theme API
 $("#navpane").ejmNavigationDrawer ("option", "theme", ej.mobile.Theme.Auto);   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1210,8 +1210,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the type property in unobtrusive way.
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -1233,10 +1233,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-type="overlay" >
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set Navigation Drawer type on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set Navigation Drawer type on initialization. 
 //To set type API value 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -1263,18 +1263,18 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 $(function () {
 $("#navpane").ejmNavigationDrawer("type","overlay");    
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Navigation Drawer type, after initialization:
 <script>
 // Gets the type API value.             
  $("#navpane").ejmNavigationDrawer ("option", "type");          
 // Sets the type API
 $("#navpane").ejmNavigationDrawer ("option", "type", "overlay");   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1300,8 +1300,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the width property in unobtrusive way.
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -1323,10 +1323,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-width="200" >
 <div class="list"> Home </div>
 <div class="list"> Communities </div>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set Navigation Drawer width on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set Navigation Drawer width on initialization. 
 //To set width API value 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -1352,18 +1352,18 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 <script>
 $(function () {
 $("#navpane").ejmNavigationDrawer("width","200");       
-});</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+});{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Navigation Drawer width, after initialization:
 <script>
 // Gets the type API value.             
  $("#navpane").ejmNavigationDrawer ("option", "width");         
 // Sets the type API
 $("#navpane").ejmNavigationDrawer ("option", "width", "auto");   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 ## Methods
@@ -1384,8 +1384,8 @@ To close the navigation drawer control
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
 <h2 class="title">
@@ -1413,8 +1413,8 @@ $(function()
 var lsm = $("#navpane").data("ejmNavigationDrawer");
 lsm.close();
 });
-</script ></code>
-</pre>
+</script >{% endhighlight %}
+
 
 
 
@@ -1431,8 +1431,8 @@ To open the navigation drawer control
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
 <h2 class="title">
@@ -1460,8 +1460,8 @@ $(function()
 var lsm = $("#navpane").data("ejmNavigationDrawer");
 lsm.open();
 });
-</script ></code>
-</pre>
+</script >{% endhighlight %}
+
 
 
 
@@ -1478,8 +1478,8 @@ To Toggle the navigation drawer control
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
 <h2 class="title">
@@ -1507,8 +1507,8 @@ $(function()
 var lsm = $("#navpane").data("ejmNavigationDrawer");
 lsm.toggle();
 });
-</script ></code>
-</pre>
+</script >{% endhighlight %}
+
 
 
 ## Events
@@ -1534,7 +1534,7 @@ Event triggers before the control gets closed.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from Navigation Drawer
 <table class="params">
@@ -1547,27 +1547,27 @@ Event triggers before the control gets closed.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the Navigation Drawer model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the item of element</td>
 </tr>
 <tr>
-<td class="name"><code>itemName</code></td>
+<td class="name">{% highlight html %}itemName{% endhighlight %}</td>
 <td class="type"><span class="param-type">String</span></td>
 <td class="description last">returns the name of item</td>
 </tr>
@@ -1582,8 +1582,8 @@ Event triggers before the control gets closed.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>  
+
+{% highlight html %}  
 <div id="home" class="navsubpage">
 <div align="center" class="content">
 <h2 class="title">
@@ -1609,10 +1609,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 function onBeforeClose(args)
 { //handle the event
 }
-</script ></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script >{% endhighlight %}
+
+
+{% highlight html %} 
 //BeforeClose event for Navigation pane
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -1641,8 +1641,8 @@ $("#navpane").ejmNavigationDrawer({
 }
 });   
 $("#navpane").ejNavigationDrawer();   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1664,7 +1664,7 @@ Event triggers when the control open.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from Navigation Drawer
 <table class="params">
@@ -1677,27 +1677,27 @@ Event triggers when the control open.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the Navigation Drawer model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the item of element</td>
 </tr>
 <tr>
-<td class="name"><code>itemName</code></td>
+<td class="name">{% highlight html %}itemName{% endhighlight %}</td>
 <td class="type"><span class="param-type">String</span></td>
 <td class="description last">returns the name of item</td>
 </tr>
@@ -1712,8 +1712,8 @@ Event triggers when the control open.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
 <h2 class="title">
@@ -1739,10 +1739,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 function onOpen(args)
 { //handle the event
 }
-</script ></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script >{% endhighlight %}
+
+
+{% highlight html %} 
 //Open event for Navigation pane
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -1771,8 +1771,8 @@ $("#navpane").ejNavigationDrawer({
 }
 });   
 $("#navpane").ejNavigationDrawer("open");
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1794,7 +1794,7 @@ Event triggers when the Swipe happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from Navigation Drawer
 <table class="params">
@@ -1807,27 +1807,27 @@ Event triggers when the Swipe happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the Navigation Drawer model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the item of element</td>
 </tr>
 <tr>
-<td class="name"><code>itemName</code></td>
+<td class="name">{% highlight html %}itemName{% endhighlight %}</td>
 <td class="type"><span class="param-type">String</span></td>
 <td class="description last">returns the name of item</td>
 </tr>
@@ -1842,8 +1842,8 @@ Event triggers when the Swipe happens.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="home" class="navsubpage">
 <div align="center" class="content">
 <h2 class="title">
@@ -1869,10 +1869,10 @@ Founded by industry experts in 2001,Syncfusion, Inc. provides the broadest range
 function onSwipe(args)
 { //handle the event
 }
-</script ></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script >{% endhighlight %}
+
+
+{% highlight html %} 
 //Swipe event for Navigation pane
 <div id="home" class="navsubpage">
 <div align="center" class="content">
@@ -1900,7 +1900,7 @@ $("#navpane").ejmNavigationDrawer({
   swipe: function (args) { //handle the event
 }
 });   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 

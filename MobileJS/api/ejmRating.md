@@ -2,7 +2,7 @@
 layout: post
 title: ejmRating
 documentation: API
-platform: mobilejs
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
@@ -23,19 +23,19 @@ $(element).ejmRating<span class="signature">()</span>
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="rating" ></div>
 <script> 
 // Create rating control 
 $("#rating").ejmRating(); 
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="rating" data-role="ejmrating" ></div>
-</code>
-</pre>
+{% endhighlight %}
+
 
 
 
@@ -85,31 +85,31 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enabled property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-enabled=true ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set enabled on initialization. 
 <div id="rating"></div>
 <script>
 //To set enabled API value 
 $("#rating").ejmRating ({ enabled: true });                     
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating enabled, after initialization:
 // Get the enabled API value.           
  $("#rating").ejmRating ("option", "enabled");                  
 // Set the enabled API
 $("#rating").ejmRating ("option", "enabled", true); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -135,14 +135,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enablePersistence property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-enablePersistence=false ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set enablePersistence on initialization. 
 <div id="rating"></div>
 <script>
@@ -150,18 +150,18 @@ Example
 $(function(){
 $("#rating").ejmRating({enablePersistence:false});
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating enablePersistence, after initialization:
 // Get the enablePersistence API value.         
  $("#rating").ejmRating ("option", "enablePersistence");                        
 // Set the enablePersistence API
 $("#rating").ejmRating ("option", "enablePersistence", false);   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -187,31 +187,31 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the incrementStep property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-incrementstep=1 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set incrementStep on initialization. 
 <div id="rating"></div>
 <script>
 //To set incrementStep API value
 $("#rating").ejmRating ({ incrementStep: 1 });  
-</script>                         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                         {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating incrementStep, after initialization:
 // Get the incrementStep API value.             
  $("#rating").ejmRating ("option", "incrementStep");                    
 // Set the incrementStep API
 $("#rating").ejmRating ("option", "incrementStep", 1);      
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -237,31 +237,31 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the maxValue property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-maxvalue=5 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set rating maxValue on initialization. 
 <div id="rating"></div>
 <script>
 //To set maximum API value
 $("#rating").ejmRating ({ maxValue: 5 });       
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating maxValue, after initialization:
 // Get the maximum API value.           
  $("#rating").ejmRating ("option", "maxValue");                 
 // Set the maximum value API
 $("#rating").ejmRating ("option", "maxValue", 5);    
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -287,31 +287,31 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the minValue property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-minvalue=0 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set rating minValue on initialization. 
 <div id="rating"></div>
 <script>
 //To set minimum API value 
 $("#rating").ejmRating ({ minValue: 0 });               
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating minValue, after initialization:
 // Get the minimum API value.           
  $("#rating").ejmRating ("option", "minValue");                 
 // Set the minValue API
 $("#rating").ejmRating ("option", "minValue", 0);   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -337,14 +337,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the orientation property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-orientation="horizontal" ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set orientation on initialization. 
 <div id="rating"></div>
 <script>
@@ -352,18 +352,18 @@ Example
 $(function(){
 $("#rating").ejmRating ({ orientation: ej.mobile.Rating.Orientation.Horizontal });
 });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating orientation, after initialization:
 // Get the orientation API value.               
  $("#rating").ejmRating ("option", "orientation");                      
 // Set the orientation API
 $("#rating").ejmRating ("option", "orientation", ej.mobile.Rating.Orientation.Horizontal);     
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -389,14 +389,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the precision property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-precision="full" ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set precision on initialization. 
 //To set precision API value 
 <div id="rating"></div>
@@ -404,18 +404,18 @@ Example
 $(function(){
 $("#rating").ejmRating ({ precision: ej.mobile.Rating.Precision.Full });                
 });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating precision, after initialization:
 // Get the precision API value.         
  $("#rating").ejmRating ("option", "precision");                        
 // Set the precision API
 $("#rating").ejmRating ("option", "precision", ej.mobile.Rating.Precision.Full);  
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -441,31 +441,31 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the read only property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-readonly=false ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set read only on initialization. 
 <div id="rating"></div>
 <script>
 //To set read only API value 
 $("#rating").ejmRating ({ readOnly: false });                   
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating read only, after initialization:
 // Get the read only API value.         
  $("#rating").ejmRating ("option", "readOnly");                 
 // Set the read only API
 $("#rating").ejmRating ("option", "readOnly", false);      
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -491,14 +491,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the renderMode property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-rendermode="auto" ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set rendermode on initialization. 
 <div id="rating"></div>
 <script>
@@ -506,18 +506,18 @@ Example
 $(function(){
 $("#rating").ejmRating ({ renderMode: ej.mobile.RenderMode.Auto });     
 });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating rendermode, after initialization:
 // Get the renderMode API value.                
  $("#rating").ejmRating ("option", "renderMode");                       
 // Set the renderMode API
 $("#rating").ejmRating ("option", "renderMode", ej.mobile.RenderMode.Auto);   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -543,14 +543,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the shape property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-shape="star" ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set shape on initialization. 
 <div id="rating"></div>
 <script>
@@ -558,18 +558,18 @@ Example
 $(function(){
 $("#rating").ejmRating ({ shape: ej.mobile.Rating.Shape.Star });
 });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating shape, after initialization:
 // Get the shape API value.             
  $("#rating").ejmRating ("option", "shape");                    
 // Set the shape API
 $("#rating").ejmRating ("option", "shape", ej.mobile.Rating.Shape.Star);          
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -595,31 +595,31 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the shape height property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-shapeheight=25 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set shape height on initialization. 
 <div id="rating"></div>
 <script>
 //To set shape height API value 
 $("#rating").ejmRating ({ shapeHeight: 25 });   
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating shape height, after initialization:
 // Get the shape height API value.              
  $("#rating").ejmRating ("option", "shapeHeight");                      
 // Set the shape height API
 $("#rating").ejmRating ("option", "shapeHeight", 25);  
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -645,31 +645,31 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the shape width property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-shapewidth=25 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set shape width on initialization. 
 <div id="rating"></div>
 <script>
 //To set shape width API value 
 $("#rating").ejmRating ({ shapeWidth: 25 });    
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating shape width, after initialization:
 // Get the shape width API value.               
  $("#rating").ejmRating ("option", "shapeWidth");                       
 // Set the shape width API
 $("#rating").ejmRating ("option", "shapeWidth", 25);       
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -695,31 +695,31 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the space between shapes property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-spacebetweenshapes=15 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set space between shapes on initialization. 
 <div id="rating"></div>
 <script>
 //To set space between shapes API value 
 $("#rating").ejmRating ({ spaceBetweenShapes: 15 });            
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating space between shapes, after initialization:
 // Get the space between shapes API value.              
  $("#rating").ejmRating ("option", "spaceBetweenShapes");                       
 // Set the space between shapes API
 $("#rating").ejmRating ("option", "spaceBetweenShapes", 15);            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -745,14 +745,14 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the theme property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-theme="auto" ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set theme on initialization. 
 <div id="rating"></div>
 <script>
@@ -760,18 +760,18 @@ Example
 $(function(){
 $("#rating").ejmRating ({ theme: ej.mobile.Theme.Auto });               
 });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating theme, after initialization:
 // Get the theme API value.             
  $("#rating").ejmRating ("option", "theme");                    
 // Set the theme API
 $("#rating").ejmRating ("option", "theme", ej.mobile.Theme.Auto);            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -797,31 +797,31 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the current value property in unobtrusive way.
 <div id="rating" data-role="ejmrating" data-ej-value=1 ></div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Set rating current value on initialization. 
 <div id="rating"></div>
 <script>
 //To set current value API value 
 $("#rating").ejmRating ({ value: 1 });          
-</script>                         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                         {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the rating current value, after initialization:
 // Get the current value API value.             
  $("#rating").ejmRating ("option", "value");                    
 // Set the current value API
 $("#rating").ejmRating ("option", "value", 1);   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 ## Methods
@@ -842,8 +842,8 @@ To disable the rating.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="rating" data-role="ejmrating" ></div>
 <script>
 $(function(){
@@ -851,10 +851,10 @@ $(function(){
 var rating = $("#rating").data("ejmRating");
 rating.disable(); // it will disable the rating control
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="rating" ></div>
 <script>
 $("#rating").ejmRating();       
@@ -862,8 +862,8 @@ $(function(){
 // To disable the Rating control
 $("#rating").ejmRating("disable");
 });   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -880,8 +880,8 @@ To enable the rating.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="rating" data-role="ejmrating" ></div>
 <script>
 $(function(){
@@ -889,10 +889,10 @@ $(function(){
 var rating = $("#rating").data("ejmRating");
 rating.enable(); // it will enable the rating control
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="rating" ></div>
 <script>
 $("#rating").ejmRating();       
@@ -900,8 +900,8 @@ $(function(){
 // To enable the Rating control
 $("#rating").ejmRating("enable");
 });   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -918,8 +918,8 @@ To get the current value.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="rating" data-role="ejmrating"></div>
 <script>
 $(function(){
@@ -927,16 +927,16 @@ $(function(){
 var rating = $("#rating").data("ejmRating");
 rating.getValue(); // it will return the current value of rating
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="rating"></div>
 <script>
 // To get the current value of Rating control
 $("#rating").ejmRating("getValue");     
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -953,8 +953,8 @@ To hide the rating.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="rating" data-role="ejmrating" ></div>
 <script>
 $(function(){
@@ -962,10 +962,10 @@ $(function(){
 var rating = $("#rating").data("ejmRating");
 rating.hide(); // it will hide the rating control
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="rating" ></div>
 <script>
 $("#rating").ejmRating();       
@@ -973,8 +973,8 @@ $(function(){
 // To hide the Rating control
 $("#rating").ejmRating("hide"); 
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -991,8 +991,8 @@ To reset the value.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="rating" data-role="ejmrating"></div>
 <script>
 $(function(){
@@ -1000,16 +1000,16 @@ $(function(){
 var rating = $("#rating").data("ejmRating");
 rating.reset(); // it will reset the value of rating
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="rating"></div>
 <script>
 // To reset value of Rating control
 $("#rating").ejmRating("reset");        
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1026,8 +1026,8 @@ To set the value.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="rating" data-role="ejmrating"></div>
 <script>
 $(function(){
@@ -1035,16 +1035,16 @@ $(function(){
 var rating = $("#rating").data("ejmRating");
 rating.setValue(3); // it will set the value of rating
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="rating"></div>
 <script>
 // To set the value of Rating control
 $("#rating").ejmRating("setValue",3);   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1061,8 +1061,8 @@ To show the rating.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="rating" data-role="ejmrating" ></div>
 <script>
 $(function(){
@@ -1070,10 +1070,10 @@ $(function(){
 var rating = $("#rating").data("ejmRating");
 rating.show(); // it will show the rating control
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="rating" ></div>
 <script>
 $("#rating").ejmRating();       
@@ -1081,8 +1081,8 @@ $(function(){
 // To show the Rating control
 $("#rating").ejmRating("show");
 });   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 ## Events
@@ -1108,7 +1108,7 @@ Event triggers when the value changed.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from rating.
 <table class="params">
@@ -1121,22 +1121,22 @@ Event triggers when the value changed.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">int</span></td>
 <td class="description last">returns the current element associated value.</td>
 </tr>
@@ -1151,17 +1151,17 @@ Event triggers when the value changed.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="rating" data-role="ejmrating" data-ej-change="onChange"></div>
 <script> 
 // change event for Rating  
 function onChange(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="rating"></div>
 <script>
 //change event for Rating
@@ -1169,8 +1169,8 @@ $("#rating").ejmRating({
   change: function (args) { //handle the event 
 }
 });           
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1192,7 +1192,7 @@ Event triggers when touch happens on the control.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from rating.
 <table class="params">
@@ -1205,22 +1205,22 @@ Event triggers when touch happens on the control.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">int</span></td>
 <td class="description last">returns the current element associated value.</td>
 </tr>
@@ -1235,17 +1235,17 @@ Event triggers when touch happens on the control.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="rating" data-role="ejmrating" data-ej-tap="onTap"></div>
 <script> 
 // Change event for Rating  
 function onTap(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="rating"></div>
 <script> 
 //Change event for Rating
@@ -1253,8 +1253,8 @@ $("#rating").ejmRating({
  tap: function (args) { //handle the event 
 }
 });     
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -1276,7 +1276,7 @@ Event triggers when touch move happens on the control.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from rating.
 <table class="params">
@@ -1289,22 +1289,22 @@ Event triggers when touch move happens on the control.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>value</code></td>
+<td class="name">{% highlight html %}value{% endhighlight %}</td>
 <td class="type"><span class="param-type">int</span></td>
 <td class="description last">returns the current element associated value.</td>
 </tr>
@@ -1319,17 +1319,17 @@ Event triggers when touch move happens on the control.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="rating" data-role="ejmrating" data-ej-touchmove="ontouchMove"></div>
 <script> 
 // Change event for Rating  
 function ontouchMove(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="rating"></div>
 <script>
 //change event for Rating
@@ -1337,7 +1337,7 @@ $("#rating").ejmRating({
   touchMove: function (args) { //handle the event 
 }
 });           
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 

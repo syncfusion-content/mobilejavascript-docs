@@ -2,7 +2,7 @@
 layout: post
 title: ejmRadialMenu
 documentation: API
-platform: mobilejs
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
@@ -23,8 +23,8 @@ $(element).ejmRadialMenu<span class="signature">()</span>
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Create radialmenu in unobtrusive way
 <div >
 <br />
@@ -46,10 +46,10 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Create radialmenu in obtrusive way
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Create radialmenu in obtrusive way
 <script> 
 $(function(){
 $("#defaultradialmenu").ejmRadialMenu(); 
@@ -74,8 +74,8 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
+</div>{% endhighlight %}
+
 
 
 
@@ -125,8 +125,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the backImageClass property in unobtrusive way.
 <div >
 <br />
@@ -148,10 +148,10 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set Radialmenu backImageClass on initialization. 
 //To set backImageClass API 
 <div >
@@ -178,18 +178,18 @@ data-ej-windows-text="browser"></li>
 $(function () {
 $("#defaultradialmenu").ejmRadialMenu({ "backImageClass":"e-m-backimage" });    
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Radialmenu backImageClass, after initialization:
 <script>
 // Gets the backImageClass API.         
 $("#defaultradialmenu").ejmRadialMenu ("option", "backImageClass");                     
 // Sets the backImageClass API
 $("#defaultradialmenu").ejmRadialMenu ("option", "backImageClass", "e-m-backimage");            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -215,8 +215,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the cssClass property in unobtrusive way.
 <div >
 <br />
@@ -238,10 +238,10 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set Radialmenu cssClass on initialization. 
 //To set cssClass API  
 <div >
@@ -268,18 +268,18 @@ data-ej-windows-text="browser"></li>
 $(function () {
 $("#defaultradialmenu").ejmRadialMenu({ "cssClass":"customclass" });    
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Radialmenu cssClass, after initialization:
 <script>
 // Gets the cssClass API.               
  $("#radialmenu").ejmRadialMenu ("option", "cssClass");                 
 // Sets the cssClass API
 $("#radialmenu").ejmRadialMenu ("option", "cssClass", "customclass");            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -305,8 +305,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enableAnimation property in unobtrusive way.
 <div >
 <br />
@@ -328,10 +328,10 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set Radialmenu enableAnimation on initialization. 
 //To set enableAnimation API  
 <div >
@@ -358,18 +358,18 @@ data-ej-windows-text="browser"></li>
 $(function () {
 $("#defaultradialmenu").ejmRadialMenu({ "enableAnimation":true });      
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Radialmenu enableAnimation, after initialization:
 <script>
 // Gets the enableAnimation API.                
  $("#radialmenu").ejmRadialMenu ("option", "enableAnimation");                  
 // Sets the enableAnimation API
 $("#radialmenu").ejmRadialMenu ("option", "enableAnimation", true);            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -395,8 +395,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the imageClass property in unobtrusive way.
 <div >
 <br />
@@ -418,10 +418,10 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set Radialmenu imageClass on initialization. 
 //To set imageClass API  
 <div >
@@ -448,18 +448,18 @@ data-ej-windows-text="browser"></li>
 $(function () {
 $("#defaultradialmenu").ejmRadialMenu({ "imageClass":"e-m-radialimage" });      
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Radialmenu imageClass, after initialization:
 <script>
 // Gets the imageClass API.             
  $("#radialmenu").ejmRadialMenu ("option", "imageClass");                       
 // Sets the imageClass API
 $("#radialmenu").ejmRadialMenu ("option", "imageClass", "e-m-radialimage");            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -485,8 +485,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the position property in unobtrusive way.
 <div >
 <br />
@@ -508,10 +508,10 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set Radialmenu position on initialization. 
 //To set position API value 
 <div >
@@ -538,18 +538,18 @@ data-ej-windows-text="browser"></li>
 $(function () {
 $("#defaultradialmenu").ejmRadialMenu({ "position":"rightcenter" });    
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Radialmenu position, after initialization:
 <script>
 // Gets the position API value.         
  $("#defaultradialmenu").ejmRadialMenu ("option", "position");                  
 // Sets the position API
 $("#defaultradialmenu").ejmRadialMenu ("option", "position", "rightcenter");            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -575,8 +575,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the radius property in unobtrusive way.
 <div >
 <br />
@@ -598,10 +598,10 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set Radialmenu radius on initialization. 
 //To set radius API value 
 <div >
@@ -628,18 +628,18 @@ data-ej-windows-text="browser"></li>
 $(function () {
 $("#defaultradialmenu").ejmRadialMenu({ "radius":150}); 
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Radialmenu radius, after initialization:
 <script>
 // Gets the radius API value.           
  $("#defaultradialmenu").ejmRadialMenu ("option", "radius");                    
 // Sets the radius API
 $("#defaultradialmenu").ejmRadialMenu ("option", "radius", 150);            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -665,8 +665,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the renderMode property in unobtrusive way.
 <div >
 <br />
@@ -688,10 +688,10 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set Radialmenu renderMode on initialization. 
 //To set renderMode API value 
 <div >
@@ -718,18 +718,18 @@ data-ej-windows-text="browser"></li>
 $(function () {
 $("#defaultradialmenu").ejmRadialMenu({ "renderMode":ej.mobile.RenderMode.Auto });      
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Radialmenu renderMode, after initialization:
 <script>
 // Gets the renderMode API value.               
  $("#defaultradialmenu").ejmRadialMenu ("option", "renderMode");                        
 // Sets the renderMode API
 $("#defaultradialmenu").ejmRadialMenu ("option", "renderMode", ej.mobile.RenderMode.Auto);            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -755,8 +755,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the theme property in unobtrusive way.
 <div >
 <br />
@@ -778,10 +778,10 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set Radialmenu theme on initialization. 
 //To set theme API value 
 <div >
@@ -808,18 +808,18 @@ data-ej-windows-text="browser"></li>
 $(function () {
 $("#defaultradialmenu").ejmRadialMenu({ "theme":ej.mobile.RenderMode.Auto });   
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Radialmenu renderMode, after initialization:
 <script>
 // Gets the theme API value.            
  $("#defaultradialmenu").ejmRadialMenu ("option", "theme");                     
 // Sets the theme API
 $("#defaultradialmenu").ejmRadialMenu ("option", "theme", "ej.mobile.Theme.Auto");            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -858,8 +858,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the windows renderDefault property in unobtrusive way.
 <div >
 <br />
@@ -881,10 +881,10 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set Radialmenu windows renderDefault on initialization. 
 //To set windows renderDefault API value 
 <div >
@@ -911,18 +911,18 @@ data-ej-windows-text="browser"></li>
 $(function () {
 $("#defaultradialmenu").ejmRadialMenu({ windows:{ renderDefault: true }});      
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the Radialmenu windows renderDefault, after initialization:
 <script>
 // Gets the windows renderDefault API value.            
  $("#defaultradialmenu").ejmRadialMenu ("option", "windows.renderDefault");                     
 // Sets the windows renderDefault API
 $("#defaultradialmenu").ejmRadialMenu ("option", "windows.renderDefault", true);            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 ## Methods
@@ -943,8 +943,8 @@ To hide the redialmenu
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div >
 <br />
 <p>
@@ -964,14 +964,14 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 $("#defaultradialmenu").ejmRadialMenu ("hide"); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -988,8 +988,8 @@ To hide the redialmenu items
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div >
 <br />
 <p>
@@ -1009,14 +1009,14 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 $("#defaultradialmenu").ejmRadialMenu ("menuHide");
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1033,8 +1033,8 @@ To Show the redialmenu
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div >
 <br />
 <p>
@@ -1054,14 +1054,14 @@ data-ej-windows-text="message"></li>
 <li data-ej-imagename="browser.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="browser"></li>
 </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 $("#defaultradialmenu").ejmRadialMenu ("show");
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 ## Events
@@ -1087,7 +1087,7 @@ Event triggers when we select an item.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from Radialmenu
 <table class="params">
@@ -1100,27 +1100,27 @@ Event triggers when we select an item.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the Radialmenu model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the item of element</td>
 </tr>
 <tr>
-<td class="name"><code>itemName</code></td>
+<td class="name">{% highlight html %}itemName{% endhighlight %}</td>
 <td class="type"><span class="param-type">String</span></td>
 <td class="description last">returns the name of item</td>
 </tr>
@@ -1135,8 +1135,8 @@ Event triggers when we select an item.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div >
 <br />
 <p>
@@ -1162,10 +1162,10 @@ data-ej-windows-text="browser"></li>
 // select event for Radialmenu  
 function select(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //select event for Radialmenu
 <div >
 <br />
@@ -1192,8 +1192,8 @@ $("#defaultradialmenu").ejmRadialMenu({
   select: function (args) { //handle the event
 }
 });         
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1215,7 +1215,7 @@ Event triggers when the touch end happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from Radialmenu
 <table class="params">
@@ -1228,27 +1228,27 @@ Event triggers when the touch end happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the Radialmenu model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the item of element</td>
 </tr>
 <tr>
-<td class="name"><code>itemName</code></td>
+<td class="name">{% highlight html %}itemName{% endhighlight %}</td>
 <td class="type"><span class="param-type">String</span></td>
 <td class="description last">returns the name of item</td>
 </tr>
@@ -1263,8 +1263,8 @@ Event triggers when the touch end happens.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div >
 <br />
 <p>
@@ -1290,10 +1290,10 @@ data-ej-windows-text="browser"></li>
 // TouchEnd event for Radialmenu  
 function touchend(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //TouchEnd event for Radialmenu
 <div >
 <br />
@@ -1320,8 +1320,8 @@ $("#defaultradialmenu").ejmRadialMenu({
   touchend: function (args) { //handle the event
 }
 });         
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1343,7 +1343,7 @@ Event triggers when the touch start happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from Radialmenu
 <table class="params">
@@ -1356,27 +1356,27 @@ Event triggers when the touch start happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the Radialmenu model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the item of element</td>
 </tr>
 <tr>
-<td class="name"><code>itemName</code></td>
+<td class="name">{% highlight html %}itemName{% endhighlight %}</td>
 <td class="type"><span class="param-type">String</span></td>
 <td class="description last">returns the name of item</td>
 </tr>
@@ -1391,8 +1391,8 @@ Event triggers when the touch start happens.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div >
 <br />
 <p>
@@ -1418,10 +1418,10 @@ data-ej-windows-text="browser"></li>
 // touchStart event for Radialmenu  
 function touchStart(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //touchStart event for Radialmenu
 <div >
 <br />
@@ -1448,7 +1448,7 @@ $("#defaultradialmenu").ejmRadialMenu({
   touchStart: function (args) { //handle the event
 }
 });         
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 

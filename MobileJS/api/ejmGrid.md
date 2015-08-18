@@ -2,7 +2,7 @@
 layout: post
 title: ejmGrid
 documentation: API
-platform: mobilejs
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
@@ -36,7 +36,7 @@ $(element).ejmGrid<span class="signature">(options)</span>
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>options</code></td>
+<td class="name">{% highlight html %}options{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">settings for grid</td>
 </tr>
@@ -49,8 +49,8 @@ $(element).ejmGrid<span class="signature">(options)</span>
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script> 
 // Create Grid
@@ -62,8 +62,8 @@ $("#mobilegrid").ejmGrid({ dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  }); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -170,8 +170,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -182,8 +182,8 @@ $("#mobilegrid").ejmGrid ({ allowFiltering: false,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-</script>                                </code>
-</pre>
+</script>                                {% endhighlight %}
+
 
 
 
@@ -225,8 +225,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>  
 $(document).ready(function(){
@@ -237,8 +237,8 @@ $("#mobilegrid").ejmGrid ({ allowPaging: true,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });                
-</script>                                         </code>
-</pre>
+</script>                                         {% endhighlight %}
+
 
 
 
@@ -280,8 +280,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -292,8 +292,8 @@ $("#mobilegrid").ejmGrid ({ allowScrolling: false,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-</script>            </code>
-</pre>
+</script>            {% endhighlight %}
+
 
 
 
@@ -335,8 +335,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -347,8 +347,8 @@ $("#mobilegrid").ejmGrid ({ allowSelection: false,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-</script>                                 </code>
-</pre>
+</script>                                 {% endhighlight %}
+
 
 
 
@@ -374,8 +374,8 @@ Enable or disable the sorting behavior for the Grid and we can able to sort the 
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -386,8 +386,8 @@ $("#mobilegrid").ejmGrid ({ allowSorting: false,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });
-</script>                                </code>
-</pre>
+</script>                                {% endhighlight %}
+
 
 
 
@@ -429,8 +429,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -441,8 +441,8 @@ $("#mobilegrid").ejmGrid ({ caption: "caption", showCaption: true,dataSource:dat
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-</script>                             </code>
-</pre>
+</script>                             {% endhighlight %}
+
 
 
 
@@ -484,8 +484,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code><div  id="mobilegrid" ></div>
+
+{% highlight html %}<div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
@@ -495,8 +495,8 @@ $("#mobilegrid").ejGrid({ dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });                   
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 
@@ -538,8 +538,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script> 
 $(document).ready(function(){
@@ -550,8 +550,8 @@ $("#mobilegrid").ejmGrid ({ cssClass: "Customclass",dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-</script>                                       </code>
-</pre>
+</script>                                       {% endhighlight %}
+
 
 
 
@@ -593,8 +593,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -605,8 +605,8 @@ $("#mobilegrid").ejmGrid ({ dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-</script>                                 </code>
-</pre>
+</script>                                 {% endhighlight %}
+
 
 
 
@@ -648,8 +648,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -660,8 +660,8 @@ $("#mobilegrid").ejmGrid ({ enablePersistence: false,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-</script>                     </code>
-</pre>
+</script>                     {% endhighlight %}
+
 
 
 
@@ -725,8 +725,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -739,8 +739,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });           
-</script>                                        </code>
-</pre>
+</script>                                        {% endhighlight %}
+
 
 
 
@@ -782,8 +782,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -796,8 +796,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });  
                  });            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -839,8 +839,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -853,8 +853,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });  
                  });            
-</script>                                        </code>
-</pre>
+</script>                                        {% endhighlight %}
+
 
 
 
@@ -918,8 +918,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -932,8 +932,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });               
-</script>                                 </code>
-</pre>
+</script>                                 {% endhighlight %}
+
 
 
 
@@ -975,8 +975,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -989,8 +989,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });              
-</script>                                        </code>
-</pre>
+</script>                                        {% endhighlight %}
+
 
 
 
@@ -1032,8 +1032,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -1046,8 +1046,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });               
-</script>                                 </code>
-</pre>
+</script>                                 {% endhighlight %}
+
 
 
 
@@ -1089,8 +1089,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -1101,8 +1101,8 @@ $("#mobilegrid").ejmGrid({
 });
 var value = $("#mobilegrid").ejmGrid("option", "pageSettings.totalRecordsCount");
 $("#print").text("TotalRecordsCount: " + value);             
-</script>                                        </code>
-</pre>
+</script>                                        {% endhighlight %}
+
 
 
 
@@ -1144,8 +1144,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -1158,8 +1158,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });              
-</script>                                         </code>
-</pre>
+</script>                                         {% endhighlight %}
+
 
 
 
@@ -1201,8 +1201,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -1213,8 +1213,8 @@ $("#mobilegrid").ejmGrid ({ renderMode: ej.mobile.RenderMode.Auto,dataSource:dat
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 
@@ -1278,8 +1278,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -1292,8 +1292,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });             
-</script>                                  </code>
-</pre>
+</script>                                  {% endhighlight %}
+
 
 
 
@@ -1335,8 +1335,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script> 
 $(document).ready(function(){
@@ -1349,8 +1349,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] }); 
                  });               
-</script>                                </code>
-</pre>
+</script>                                {% endhighlight %}
+
 
 
 
@@ -1392,8 +1392,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>  
+
+{% highlight html %}  
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -1406,8 +1406,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });  
                  });               
-</script>                                          </code>
-</pre>
+</script>                                          {% endhighlight %}
+
 
 
 
@@ -1449,8 +1449,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -1463,8 +1463,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });  
                  });             
-</script>                                 </code>
-</pre>
+</script>                                 {% endhighlight %}
+
 
 
 
@@ -1506,8 +1506,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -1520,8 +1520,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });  
                  });               
-</script>                                         </code>
-</pre>
+</script>                                         {% endhighlight %}
+
 
 
 
@@ -1563,8 +1563,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 // Set grid selectedRowIndex on initialization. 
@@ -1577,8 +1577,8 @@ $("#mobilegrid").ejmGrid ({ selectedRowIndex: 1,dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-</script>                                       </code>
-</pre>
+</script>                                       {% endhighlight %}
+
 
 
 
@@ -1642,8 +1642,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -1656,8 +1656,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });   
                  });              
-</script>                                          </code>
-</pre>
+</script>                                          {% endhighlight %}
+
 
 
 
@@ -1699,8 +1699,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -1713,8 +1713,8 @@ $("#mobilegrid").ejmGrid ({
                          { field: "Freight", headerText: "Freight" }
                  ] });  
                  });             
-</script>                                          </code>
-</pre>
+</script>                                          {% endhighlight %}
+
 
 
 
@@ -1756,8 +1756,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -1768,8 +1768,8 @@ $("#mobilegrid").ejmGrid ({ theme: ej.mobile.Theme.Auto,dataSource:data,columns:
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });    
-</script>                               </code>
-</pre>
+</script>                               {% endhighlight %}
+
 
 
 
@@ -1811,8 +1811,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 // Set grid transition on initialization. 
@@ -1825,8 +1825,8 @@ $("#mobilegrid").ejmGrid ({ transition: "slide",dataSource:data,columns: [
                          { field: "Freight", headerText: "Freight" }
                  ] });
                  });
-</script>                              </code>
-</pre>
+</script>                              {% endhighlight %}
+
 
 
 
@@ -1859,23 +1859,23 @@ To get column by field
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="mobilegrid"></div> 
 <script>
 // Create grid object.
 var gridObj = $("#mobilegrid").data("ejGrid");
 gridObj.getColumnByField("OrderID"); // Get the column details based on the given field name
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="mobilegrid"></div> 
 <script>
 // Get the column details based on the given field name
 $("#mobilegrid").ejGrid("getColumnByField", "OrderID");        
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1901,23 +1901,23 @@ To get column by header text
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>  
 <script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.getColumnByHeaderText("Order ID"); // Get column by header text
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>  
 <script>
 // Get column by header text
 $("#mobilegrid").ejmGrid("getColumnByHeaderText", "Order ID");  
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1943,23 +1943,23 @@ To get column by index
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>        
 <script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.getColumnByIndex(1); // Get column by index
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>  
 <script>
 // Get column by index
 $("#mobilegrid").ejmGrid("getColumnByIndex",1); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1985,23 +1985,23 @@ To get column field names
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="mobilegrid"></div> 
 <script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.getColumnFieldNames(); // Get column field names
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="mobilegrid"></div> 
 <script>
 // Get column field names
 $("#mobilegrid").ejmGrid("getColumnFieldNames");        
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2027,23 +2027,23 @@ To get column index by field
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="mobilegrid"></div>
 <script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.getColumnIndexByField("OrderID"); // Get column index by field
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="mobilegrid"></div>
 <script>
 // Get column index by field
 $("#mobilegrid").ejmGrid("getColumnIndexByField","OrderID");    
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2069,23 +2069,23 @@ To get column member by index
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="mobilegrid"></div>
 <script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.getColumnMemberByIndex(1); // Get column member by index
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="mobilegrid"></div>
 <script>
 // Get column member by index
 $("#mobilegrid").ejmGrid("getColumnMemberByIndex",1);   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2111,23 +2111,23 @@ To hide the specified column
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="mobilegrid"></div> 
 <script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.hideColumns("Order ID"); // Hides column based on the given header text of the column
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="mobilegrid"></div> 
 <script>
 // Hides column based on the given header text of the column
 $("#mobilegrid").ejmGrid("hideColumns","Order ID"); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2156,7 +2156,7 @@ It is used to refresh the grid contents
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>[requestType].</code></td>
+<td class="name">{% highlight html %}[requestType].{% endhighlight %}</td>
 <td class="type"><span class="param-type">enum</span></td>
 <td class="description last">The request type can be refresh, paging, sorting, filtering. If no parameter is passed, the request type will be refresh</td>
 </tr>
@@ -2169,22 +2169,22 @@ It is used to refresh the grid contents
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="mobilegrid"></div>
 <script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.refreshContent(); 
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="mobilegrid"></div>
 <script>
 $("#mobilegrid").ejmGrid("refreshContent");     
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2210,23 +2210,23 @@ To refersh grid scrollpanel
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="mobilegrid"></div> 
 <script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.scrollRefresh(); // To Refresh grid scrollpanel
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="mobilegrid"></div> 
 <script>
 // To Refresh grid scrollpanel
 $("#mobilegrid").ejmGrid("scrollRefresh"); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2252,23 +2252,23 @@ To show the specified column
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="mobilegrid"></div>
 <script>
 // Create Grid
 var grid = $("#mobilegrid").data("ejmGrid");
 grid.showColumns("Order ID"); // Shows column based on the given header text of the column
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="mobilegrid"></div>
 <script>
 // Shows column based on the given header text of the column
 $("#mobilegrid").ejmGrid("showColumns","Order ID");     
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2304,7 +2304,7 @@ Triggered for every grid action before its starts.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from grid
 <table class="params">
@@ -2317,27 +2317,27 @@ Triggered for every grid action before its starts.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the grid model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current element</td>
 </tr>
 <tr>
-<td class="name"><code>requestType</code></td>
+<td class="name">{% highlight html %}requestType{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">Returns request type</td>
 </tr>
@@ -2354,8 +2354,8 @@ Triggered for every grid action before its starts.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 //actionBegin event for grid
@@ -2368,8 +2368,8 @@ $("#mobilegrid").ejmGrid({ actionBegin:"actionBegin",dataSource:data,columns: [
                  ] });
                  });            
 function actionBegin(args) { //handle the event }                       
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -2398,7 +2398,7 @@ Event triggers when grid data loading action succeeds.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from grid
 <table class="params">
@@ -2411,27 +2411,27 @@ Event triggers when grid data loading action succeeds.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the grid model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current element</td>
 </tr>
 <tr>
-<td class="name"><code>requestType</code></td>
+<td class="name">{% highlight html %}requestType{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">Returns request type</td>
 </tr>
@@ -2448,8 +2448,8 @@ Event triggers when grid data loading action succeeds.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 //actionComplete event for grid
@@ -2462,8 +2462,8 @@ $("#mobilegrid").ejmGrid({ actionComplete:"actionComplete",dataSource:data,colum
                  ] });
                  });
 function actionComplete(args) { //handle the event }            
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -2492,7 +2492,7 @@ Event triggers when grid data loading action fails.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from grid
 <table class="params">
@@ -2505,27 +2505,27 @@ Event triggers when grid data loading action fails.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the grid model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current element</td>
 </tr>
 <tr>
-<td class="name"><code>requestType</code></td>
+<td class="name">{% highlight html %}requestType{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">Returns request type</td>
 </tr>
@@ -2542,8 +2542,8 @@ Event triggers when grid data loading action fails.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -2555,8 +2555,8 @@ $("#mobilegrid").ejmGrid({ actionFailure:"actionFailure",dataSource:data,columns
                  ] }); 
                  });
 function actionFailure(args) { //handle the event }            
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -2585,7 +2585,7 @@ Triggered for every grid action success.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from grid
 <table class="params">
@@ -2598,27 +2598,27 @@ Triggered for every grid action success.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the grid model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current element</td>
 </tr>
 <tr>
-<td class="name"><code>requestType</code></td>
+<td class="name">{% highlight html %}requestType{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">Returns request type</td>
 </tr>
@@ -2635,8 +2635,8 @@ Triggered for every grid action success.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 //actionSuccess event for grid
@@ -2649,8 +2649,8 @@ $("#mobilegrid").ejmGrid({ actionSuccess:"actionSuccess",dataSource:data,columns
                  ] });
                  });
 function actionSuccess(args) { //handle the event }          
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -2679,7 +2679,7 @@ Triggered for every grid load.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from grid
 <table class="params">
@@ -2692,27 +2692,27 @@ Triggered for every grid load.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the grid model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current element</td>
 </tr>
 <tr>
-<td class="name"><code>requestType</code></td>
+<td class="name">{% highlight html %}requestType{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">Returns request type</td>
 </tr>
@@ -2729,8 +2729,8 @@ Triggered for every grid load.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -2742,8 +2742,8 @@ $("#mobilegrid").ejmGrid({ load:"load",dataSource:data,columns: [
                  ] }); 
                  });
 function load(args) { //handle the event }            
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -2772,7 +2772,7 @@ Triggered every time while a model value changed.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from grid
 <table class="params">
@@ -2785,27 +2785,27 @@ Triggered every time while a model value changed.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the grid model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current grid row</td>
 </tr>
 <tr>
-<td class="name"><code>options</code></td>
+<td class="name">{% highlight html %}options{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the changed model values</td>
 </tr>
@@ -2822,8 +2822,8 @@ Triggered every time while a model value changed.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 //modelChange event for grid
@@ -2836,8 +2836,8 @@ $("#mobilegrid").ejmGrid({ modelChange:"modelChange",dataSource:data,columns: [
                  ] }); 
                  }); 
 function modelChange(args) { //handle the event }            
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -2866,7 +2866,7 @@ Triggered every time a request is made to access particular cell information, el
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from grid
 <table class="params">
@@ -2879,32 +2879,32 @@ Triggered every time a request is made to access particular cell information, el
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the grid model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current cell</td>
 </tr>
 <tr>
-<td class="name"><code>data</code></td>
+<td class="name">{% highlight html %}data{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current data</td>
 </tr>
 <tr>
-<td class="name"><code>text</code></td>
+<td class="name">{% highlight html %}text{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current cell Html content</td>
 </tr>
@@ -2921,8 +2921,8 @@ Triggered every time a request is made to access particular cell information, el
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 //queryCellInfo event for grid
@@ -2935,8 +2935,8 @@ $("#mobilegrid").ejmGrid({ queryCellInfo:"queryCellInfo",dataSource:data,columns
                  ] }); 
                  });
 function queryCellInfo(args) { //handle the event }   
-</script>                         </code>
-</pre>
+</script>                         {% endhighlight %}
+
 
 
 
@@ -2965,7 +2965,7 @@ Triggered every time a request is made to access row information, element and da
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from grid
 <table class="params">
@@ -2978,27 +2978,27 @@ Triggered every time a request is made to access row information, element and da
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the grid model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current grid row</td>
 </tr>
 <tr>
-<td class="name"><code>data</code></td>
+<td class="name">{% highlight html %}data{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current data</td>
 </tr>
@@ -3015,8 +3015,8 @@ Triggered every time a request is made to access row information, element and da
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 //rowDataBound event for grid
@@ -3029,8 +3029,8 @@ $("#mobilegrid").ejmGrid({ rowDataBound:"rowDataBound",dataSource:data,columns: 
                  ] });
                  }); 
 function rowDataBound(args) { //handle the event }              
-</script>                         </code>
-</pre>
+</script>                         {% endhighlight %}
+
 
 
 
@@ -3059,7 +3059,7 @@ Triggered after the row is selected.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from grid
 <table class="params">
@@ -3072,42 +3072,42 @@ Triggered after the row is selected.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the grid model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current element</td>
 </tr>
 <tr>
-<td class="name"><code>rowIndex</code></td>
+<td class="name">{% highlight html %}rowIndex{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current row index</td>
 </tr>
 <tr>
-<td class="name"><code>row</code></td>
+<td class="name">{% highlight html %}row{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the current row</td>
 </tr>
 <tr>
-<td class="name"><code>cell</code></td>
+<td class="name">{% highlight html %}cell{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the current data cell</td>
 </tr>
 <tr>
-<td class="name"><code>data</code></td>
+<td class="name">{% highlight html %}data{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the current data record</td>
 </tr>
@@ -3124,8 +3124,8 @@ Triggered after the row is selected.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>
 $(document).ready(function(){
@@ -3137,8 +3137,8 @@ $("#mobilegrid").ejmGrid({ rowSelected:"rowSelected",dataSource:data,columns: [
                  ] });
                  });                     
 function rowSelected(args) { //handle the event }
-</script>                 </code>
-</pre>
+</script>                 {% endhighlight %}
+
 
 
 
@@ -3167,7 +3167,7 @@ Triggered before the row is going to be selected.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from grid
 <table class="params">
@@ -3180,42 +3180,42 @@ Triggered before the row is going to be selected.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the grid model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>element</code></td>
+<td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current element</td>
 </tr>
 <tr>
-<td class="name"><code>rowIndex</code></td>
+<td class="name">{% highlight html %}rowIndex{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current row index</td>
 </tr>
 <tr>
-<td class="name"><code>row</code></td>
+<td class="name">{% highlight html %}row{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the current row</td>
 </tr>
 <tr>
-<td class="name"><code>cell</code></td>
+<td class="name">{% highlight html %}cell{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the current data cell</td>
 </tr>
 <tr>
-<td class="name"><code>data</code></td>
+<td class="name">{% highlight html %}data{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the current data record</td>
 </tr>
@@ -3232,8 +3232,8 @@ Triggered before the row is going to be selected.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div  id="mobilegrid" ></div>
 <script>       
 $(document).ready(function(){
@@ -3245,8 +3245,8 @@ $("#mobilegrid").ejmGrid ({ dataSource:data,columns: [
                  ],rowSelecting:"rowSelecting" });
                  });    
 function rowSelecting(args) { //handle the event }      
-</script>                         </code>
-</pre>
+</script>                         {% endhighlight %}
+
 
 
 

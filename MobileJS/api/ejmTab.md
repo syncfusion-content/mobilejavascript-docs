@@ -2,7 +2,7 @@
 layout: post
 title: ejmTab
 documentation: API
-platform: mobilejs
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
@@ -33,8 +33,8 @@ $(element).ejmTab<span class="signature">()</span>
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -57,8 +57,8 @@ Favourites content here
 <script> 
 // Create tab  
 $("#tab").ejmTab(); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -169,8 +169,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the ajaxSettings property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
 <ul >
@@ -196,16 +196,16 @@ Example
 $("#tab").ejmTab({ ajaxSettings: {                 
   async: true,                                                                
   } });                 
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the ajaxSettings, after initialization:
 // Get the ajaxSetttings API value.
  $("#tab").ejmTab ("option", "ajaxSettings");                   
 // Set the ajaxSettings API
-$("#tab").ejmTab ("option", "ajaxSettings", { async: true });            </code>
-</pre>
+$("#tab").ejmTab ("option", "ajaxSettings", { async: true });            {% endhighlight %}
+
 
 
 
@@ -247,8 +247,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the ajaxSettings property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
 <ul >
@@ -274,16 +274,16 @@ Example
 $("#tab").ejmTab({ ajaxSettings: { 
   cache: false,                
   } });                 
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the ajaxSettings, after initialization:
 // Get the ajaxSetttings API value.
  $("#tab").ejmTab ("option", "ajaxSettings");                   
 // Set the ajaxSettings API
-$("#tab").ejmTab ("option", "ajaxSettings", { cache: false });            </code>
-</pre>
+$("#tab").ejmTab ("option", "ajaxSettings", { cache: false });            {% endhighlight %}
+
 
 
 
@@ -325,8 +325,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the ajaxSettings property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
 <ul >
@@ -352,16 +352,16 @@ Example
 $("#tab").ejmTab({ ajaxSettings: { 
   contentType: "html",                                
   } });                 
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the ajaxSettings, after initialization:
 // Get the ajaxSetttings API value.
  $("#tab").ejmTab ("option", "ajaxSettings");                   
 // Set the ajaxSettings API
-$("#tab").ejmTab ("option", "ajaxSettings", { contentType: "html" });            </code>
-</pre>
+$("#tab").ejmTab ("option", "ajaxSettings", { contentType: "html" });            {% endhighlight %}
+
 
 
 
@@ -403,8 +403,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the ajaxSettings property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
 <ul >
@@ -430,16 +430,16 @@ Example
 $("#tab").ejmTab({ ajaxSettings: { 
   data: {}
   } });                 
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the ajaxSettings, after initialization:
 // Get the ajaxSetttings API value.
  $("#tab").ejmTab ("option", "ajaxSettings");                   
 // Set the ajaxSettings API
-$("#tab").ejmTab ("option", "ajaxSettings", {data: {}});            </code>
-</pre>
+$("#tab").ejmTab ("option", "ajaxSettings", {data: {}});            {% endhighlight %}
+
 
 
 
@@ -481,8 +481,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the ajaxSettings property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
 <ul >
@@ -508,16 +508,16 @@ Example
 $("#tab").ejmTab({ ajaxSettings: {                                 
   dataType: "html",                                                
   } });                 
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the ajaxSettings, after initialization:
 // Get the ajaxSetttings API value.
  $("#tab").ejmTab ("option", "ajaxSettings");                   
 // Set the ajaxSettings API
-$("#tab").ejmTab ("option", "ajaxSettings", { dataType: "html" });            </code>
-</pre>
+$("#tab").ejmTab ("option", "ajaxSettings", { dataType: "html" });            {% endhighlight %}
+
 
 
 
@@ -559,8 +559,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the ajaxSettings property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
 <ul >
@@ -585,16 +585,16 @@ Example
 <script> 
 $("#tab").ejmTab({ ajaxSettings: { type: 'GET',                
   } });                 
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the ajaxSettings, after initialization:
 // Get the ajaxSetttings API value.
  $("#tab").ejmTab ("option", "ajaxSettings");                   
 // Set the ajaxSettings API
-$("#tab").ejmTab ("option", "ajaxSettings", { type: 'GET'});            </code>
-</pre>
+$("#tab").ejmTab ("option", "ajaxSettings", { type: 'GET'});            {% endhighlight %}
+
 
 
 
@@ -636,8 +636,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the ajaxSettings property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-enableAjax="true">
 <ul >
@@ -663,16 +663,16 @@ Example
 $("#tab").ejmTab({ ajaxSettings: { 
   url: "",                
   } });                 
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the ajaxSettings, after initialization:
 // Get the ajaxSetttings API value.
  $("#tab").ejmTab ("option", "ajaxSettings");                   
 // Set the ajaxSettings API
-$("#tab").ejmTab ("option", "ajaxSettings", { url: "" });            </code>
-</pre>
+$("#tab").ejmTab ("option", "ajaxSettings", { url: "" });            {% endhighlight %}
+
 
 
 
@@ -714,8 +714,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the allowScrolling property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-allowscrolling="true" >
 <ul >
@@ -735,10 +735,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set allowScrolling on initialization. 
 //To set allowScrolling API value 
 <div id="tab">
@@ -764,16 +764,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({allowScrolling:true});        
 });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the allowScrolling, after initialization:
 // Get the allowScrolling API value.
  $("#tab").ejmTab ("option", "allowScrolling");                 
 // Set the allowScrolling API
-$("#tab").ejmTab ("option", "allowScrolling", "true");            </code>
-</pre>
+$("#tab").ejmTab ("option", "allowScrolling", "true");            {% endhighlight %}
+
 
 
 
@@ -837,8 +837,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the android mode contentType property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="android" data-ej-android-contenttype="text" >
 <ul >
@@ -858,10 +858,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>            </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>            {% endhighlight %}
+
+
+{% highlight html %} 
 // Set android mode contentType on initialization. 
 //To android mode contentType API value 
 <div id="tab" >
@@ -887,16 +887,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({renderMode:"android", android:{contentType:"ej.mobile.Tab.Android.ContentType.Text"}});       
 });
-</script>  </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>  {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the android mode contentType API, after initialization:
 // Get the android mode contentType value  
 $("#tab").ejmTab("option", "android.ContentType");   
 // Set the android mode contentType value 
-$("#tab").ejmTab("option", "android.ContentType", "ej.mobile.Tab.Android.ContentType.Text"); </code>
-</pre>
+$("#tab").ejmTab("option", "android.ContentType", "ej.mobile.Tab.Android.ContentType.Text"); {% endhighlight %}
+
 
 
 
@@ -938,8 +938,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the android mode imageClass property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="android">
 <ul >
@@ -959,8 +959,8 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>                            </code>
-</pre>
+</div>                            {% endhighlight %}
+
 
 
 
@@ -1002,8 +1002,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the android mode position property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="android" data-ej-android-position="fixed" >
 <ul >
@@ -1023,10 +1023,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>        </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>        {% endhighlight %}
+
+
+{% highlight html %} 
 // Set position on initialization. 
 //To set position API value 
 <div id="tab">
@@ -1052,16 +1052,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({renderMode:"android", android:{position: ej.mobile.Tab.Android.Position.Fixed}});     
 });
-</script>    </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>    {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the android mode position API, after initialization:
 // Get the android mode position value  
 $("#tab").ejmTab("option", "android.position");   
 // Set the android mode position value 
-$("#tab").ejmTab("option", "android.position",  ej.mobile.Tab.Android.Position.Fixed); </code>
-</pre>
+$("#tab").ejmTab("option", "android.position",  ej.mobile.Tab.Android.Position.Fixed); {% endhighlight %}
+
 
 
 
@@ -1125,8 +1125,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enabled property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-badge-enabled="false" >
 <ul >
@@ -1146,10 +1146,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set enabled on initialization. 
 // To enabled API value 
 <div id="tab">
@@ -1175,16 +1175,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({badge:{enabled:true}});       
 });
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the enabled, after initialization:
 // Get the enabled API value.
  $("#tab").ejmTab ("option", "badge.enabled");                  
 // Set the showBadge API
-$("#tab").ejmTab ("option", "badge.enabled", "true");            </code>
-</pre>
+$("#tab").ejmTab ("option", "badge.enabled", "true");            {% endhighlight %}
+
 
 
 
@@ -1226,8 +1226,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the maximum Badge Value property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-badge-enabled="true" data-ej-badge-maxvalue="100" >
 <ul >
@@ -1247,10 +1247,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set maxValue on initialization. 
 // To maxValue API value 
 <div id="tab">
@@ -1276,16 +1276,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({badge:{maxValue:100}});       
 });
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the maxValue, after initialization:
 // Get the maxValue API.
  $("#tab").ejmTab ("option", "badge.maxValue");                 
 // Set the maxValue API
-$("#tab").ejmTab ("option", "badge.maxValue", "100");            </code>
-</pre>
+$("#tab").ejmTab ("option", "badge.maxValue", "100");            {% endhighlight %}
+
 
 
 
@@ -1327,8 +1327,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the minimum Badge Value property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-badge-enabled="true" data-ej-badge-minvalue="10" >
 <ul >
@@ -1348,10 +1348,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set minValue on initialization. 
 // To minValue API value 
 <div id="tab">
@@ -1377,16 +1377,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({badge:{minValue:10}});        
 });
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the minValue, after initialization:
 // Get the minValue API.
  $("#tab").ejmTab ("option", "badge.minValue");                 
 // Set the minValue API
-$("#tab").ejmTab ("option", "badge.minValue", "10");            </code>
-</pre>
+$("#tab").ejmTab ("option", "badge.minValue", "10");            {% endhighlight %}
+
 
 
 
@@ -1428,8 +1428,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the Badge Value property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-badge-enabled="true" data-ej-badge-value="2" >
 <ul >
@@ -1449,10 +1449,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>           </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>           {% endhighlight %}
+
+
+{% highlight html %} 
 // Set badge value on initialization. 
 <div id="tab">
 <ul >
@@ -1477,16 +1477,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({badge:{value:2}});    
 });
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the badge value, after initialization:
 // Get the badge value API.
  $("#tab").ejmTab ("option", "badge.value");                    
 // Set the badge value API
-$("#tab").ejmTab ("option", "badge.value", "2");            </code>
-</pre>
+$("#tab").ejmTab ("option", "badge.value", "2");            {% endhighlight %}
+
 
 
 
@@ -1528,8 +1528,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the cssClass property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-cssclass="customclass" >
 <ul >
@@ -1546,10 +1546,10 @@ Example
 //Create the music.html file with following content.
  Music contents here 
 //Create the favourites.html file with following content.
- Favourites contents here</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+ Favourites contents here{% endhighlight %}
+
+
+{% highlight html %} 
 // Set prefetchAjaxContent on initialization. 
 //To set prefetchAjaxContent API value 
 <div id="tab">
@@ -1566,16 +1566,16 @@ Example
 $(function(){
 $("#tab").ejmTab({cssClass:"customclass"});     
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the cssClass, after initialization:
 // Get the cssClass API value.
  $("#tab").ejmTab ("option", "cssClass");                       
 // Set the cssClass API
-$("#tab").ejmTab ("option", "cssClass", "customclass");            </code>
-</pre>
+$("#tab").ejmTab ("option", "cssClass", "customclass");            {% endhighlight %}
+
 
 
 
@@ -1617,8 +1617,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enableAjax property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-enableajax="true" >
 <ul >
@@ -1652,16 +1652,16 @@ Example
 $(function(){
 $("#tab").ejmTab({enableAjax: true});   
 });
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the enableAjax, after initialization:
 // Get the enableAjax API value.
  $("#tab").ejmTab ("option", "enableAjax");                     
 // Set the enableAjax API
-$("#tab").ejmTab ("option", "enableAjax", "true");            </code>
-</pre>
+$("#tab").ejmTab ("option", "enableAjax", "true");            {% endhighlight %}
+
 
 
 
@@ -1703,8 +1703,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enableCache property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-enableajax="true" data-ej-enablecache="true" >
 <ul >
@@ -1721,10 +1721,10 @@ Example
 //Create the music.html file with following content.
  Music contents here 
 //Create the favourites.html file with following content.
- Favourites contents here</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+ Favourites contents here{% endhighlight %}
+
+
+{% highlight html %} 
 // Set enableCache on initialization. 
 //To set enableCache API value 
 <div id="tab">
@@ -1741,16 +1741,16 @@ Example
 $(function(){
 $("#tab").ejmTab({enableAjax: true, enableCache: true });       
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the enableCache, after initialization:
 // Get the enableCache API value.
  $("#tab").ejmTab ("option", "enableCache");                    
 // Set the enableCache API
-$("#tab").ejmTab ("option", "enableCache", "true");            </code>
-</pre>
+$("#tab").ejmTab ("option", "enableCache", "true");            {% endhighlight %}
+
 
 
 
@@ -1792,8 +1792,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enableNativeScrolling property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-allowscrolling="true" data-ej-enablenativescrolling="true" >
 <ul >
@@ -1813,10 +1813,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set enableNativeScrolling on initialization. 
 //To set enableNativeScrolling API value 
 <div id="tab">
@@ -1842,16 +1842,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({allowScrolling:true, enableNativeScrolling:true});    
 });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the enableNativeScrolling, after initialization:
 // Get the allowScrolling API value.
  $("#tab").ejmTab ("option", "enableNativeScrolling");                  
 // Set the allowScrolling API
-$("#tab").ejmTab ("option", "enableNativeScrolling", "true");            </code>
-</pre>
+$("#tab").ejmTab ("option", "enableNativeScrolling", "true");            {% endhighlight %}
+
 
 
 
@@ -1893,8 +1893,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enablePersistence property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-enablepersistence=true >
 <ul >
@@ -1914,10 +1914,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set enablePersistence on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set enablePersistence on initialization. 
 //To set enablePersistence API value 
 <div id="tab">
 <ul >
@@ -1942,16 +1942,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({enablePersistence:true});     
 });
-</script> </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script> {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the enablePersistence, after initialization:
 // Get the enablePersistence API value.
  $("#tab").ejmTab ("option", "enablePersistence");                      
 // Set the enablePersistence API
-$("#tab").ejmTab ("option", "enablePersistence", true);            </code>
-</pre>
+$("#tab").ejmTab ("option", "enablePersistence", true);            {% endhighlight %}
+
 
 
 
@@ -2015,8 +2015,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the flat mode position property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="flat" data-ej-flat-position="fixed" >
 <ul >
@@ -2036,10 +2036,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>           </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>           {% endhighlight %}
+
+
+{% highlight html %} 
 // Set flat mode position on initialization. 
 //To set flat mode position API value 
 <div id="tab">
@@ -2065,16 +2065,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({renderMode:"flat", flat:{position: ej.mobile.Tab.Flat.Fixed}});       
 });
-</script>  </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>  {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the flat mode position API, after initialization:
 // Get the flat mode position value  
 $("#tab").ejmTab("option", "flat.position");   
 // Set the flat mode position value 
-$("#tab").ejmTab("option", "flat.position",  ej.mobile.Tab.Flat.Fixed); </code>
-</pre>
+$("#tab").ejmTab("option", "flat.position",  ej.mobile.Tab.Flat.Fixed); {% endhighlight %}
+
 
 
 
@@ -2138,8 +2138,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the ios7 mode imageClass property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="ios7">
 <ul >
@@ -2159,8 +2159,8 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>                    </code>
-</pre>
+</div>                    {% endhighlight %}
+
 
 
 
@@ -2224,8 +2224,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the ios7 overflowBadge mode enabled property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" >
 <ul >
@@ -2245,10 +2245,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>           </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>           {% endhighlight %}
+
+
+{% highlight html %} 
 // Set ios7 mode overflowbadge enabled badge on initialization. 
 //To set ios7 mode overflowbadge enabled badge customText API value 
 <div id="tab">
@@ -2274,16 +2274,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({renderMode:"ios7", ios7:{overflowBadge:{enabled:true}}});     
 });
-</script>  </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>  {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the ios7 overflowBadge mode enabled API, after initialization:
 // Get the ios7 mode enabled value  
 $("#tab").ejmTab("option", "ios7.overflowBadge.enabled");   
 // Set the ios7 overflowBadge mode enabled value 
-$("#tab").ejmTab("option", "ios7.overflowBadge.enabled", true); </code>
-</pre>
+$("#tab").ejmTab("option", "ios7.overflowBadge.enabled", true); {% endhighlight %}
+
 
 
 
@@ -2325,8 +2325,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the ios7 mode overflowBadge maxValue property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" data-ej-ios7-overflowbadge-maxvalue="100" >
 <ul >
@@ -2346,10 +2346,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>            </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>            {% endhighlight %}
+
+
+{% highlight html %} 
 // Set ios7 mode overflowbadge maxvalue on initialization. 
 //To set ios7 mode overflowbadge maxvalue  API value 
 <div id="tab">
@@ -2375,16 +2375,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({renderMode:"ios7",ios7:{overflowBadge:{enabled:true,maxValue:100}}}); 
 });
-</script>    </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>    {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the ios7 overflowBadge mode maxValue API, after initialization:
 // Get the ios7 overflowBadge mode maxValue value  
 $("#tab").ejmTab("option", "ios7.overflowBadge.maxValue");   
 // Set the ios7 overflowBadge mode maxValue value 
-$("#tab").ejmTab("option", "ios7.overflowBadge.maxValue",100); </code>
-</pre>
+$("#tab").ejmTab("option", "ios7.overflowBadge.maxValue",100); {% endhighlight %}
+
 
 
 
@@ -2426,8 +2426,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the ios7 mode overflowBadge minValue property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" data-ej-ios7-overflowbadge-minvalue="10" >
 <ul >
@@ -2447,10 +2447,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>            </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>            {% endhighlight %}
+
+
+{% highlight html %} 
 // Set ios7 mode overflowbadge minvalue on initialization. 
 //To set ios7 mode overflowbadge minvalue  API value 
 <div id="tab">
@@ -2476,16 +2476,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({renderMode:"ios7",ios7:{overflowBadge:{enabled:true,minValue:10}}});  
 });
-</script>    </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>    {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the ios7 overflowBadge mode minValue API, after initialization:
 // Get the ios7 overflowBadge mode minValue value  
 $("#tab").ejmTab("option", "ios7.overflowBadge.minValue");   
 // Set the ios7 overflowBadge mode minValue value 
-$("#tab").ejmTab("option", "ios7.overflowBadge.minValue",10); </code>
-</pre>
+$("#tab").ejmTab("option", "ios7.overflowBadge.minValue",10); {% endhighlight %}
+
 
 
 
@@ -2527,8 +2527,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the ios7 overflowBadge mode value property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" data-ej-ios7-overflowbadge-value="2" >
 <ul >
@@ -2548,10 +2548,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>          </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>          {% endhighlight %}
+
+
+{% highlight html %} 
 // Set ios7 mode overflowbadge value on initialization. 
 //To set ios7 mode overflowbadge value API value 
 <div id="tab">
@@ -2577,16 +2577,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({renderMode:"ios7",ios7:{overflowBadge:{enabled:true,value:2}}});      
 });
-</script>  </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>  {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the ios7 overflowbadge mode value API, after initialization:
 // Get the ios7 overflowBadge mode value  
 $("#tab").ejmTab("option", "ios7.overflowBadge.value");   
 // Set the ios7 overflowBadge mode value 
-$("#tab").ejmTab("option", "ios7.overflowBadge.value",2); </code>
-</pre>
+$("#tab").ejmTab("option", "ios7.overflowBadge.value",2); {% endhighlight %}
+
 
 
 
@@ -2628,8 +2628,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the prefetchAjaxContent property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-prefetchajaxcontent="true" data-ej-enableajax="true" data-ej-enablecache="true" >
 <ul >
@@ -2646,10 +2646,10 @@ Example
 //Create the music.html file with following content.
  Music contents here 
 //Create the favourites.html file with following content.
- Favourites contents here</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+ Favourites contents here{% endhighlight %}
+
+
+{% highlight html %} 
 // Set prefetchAjaxContent on initialization. 
 //To set prefetchAjaxContent API value 
 <div id="tab">
@@ -2666,16 +2666,16 @@ Example
 $(function(){
 $("#tab").ejmTab({enableAjax: true, enableCache: true, prefetchAjaxContent:true});      
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the prefetchAjaxContent, after initialization:
 // Get the prefetchAjaxContent API value.
  $("#tab").ejmTab ("option", "prefetchAjaxContent");                    
 // Set the enableCache API
-$("#tab").ejmTab ("option", "prefetchAjaxContent", "true");            </code>
-</pre>
+$("#tab").ejmTab ("option", "prefetchAjaxContent", "true");            {% endhighlight %}
+
 
 
 
@@ -2717,8 +2717,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the renderMode property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="auto" >
 <ul >
@@ -2738,10 +2738,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="tab">
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -2766,16 +2766,16 @@ $(function(){
 // To hideBadge Tab Control
 $("#tab").ejmTab({renderMode:ej.mobile.RenderMode.Android});    
 });
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the renderMode, after initialization:
 // Get the renderMode API value.
  $("#tab").ejmTab ("option", "renderMode");                     
 // Set the renderMode API
-$("#tab").ejmTab ("option", "renderMode", ej.mobile.RenderMode.Android);            </code>
-</pre>
+$("#tab").ejmTab ("option", "renderMode", ej.mobile.RenderMode.Android);            {% endhighlight %}
+
 
 
 
@@ -2817,8 +2817,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the selectedItemIndex property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-selecteditemindex="1" >
 <ul >
@@ -2838,10 +2838,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>// Set selectedItemIndex on initialization. 
+</div>{% endhighlight %}
+
+
+{% highlight html %}// Set selectedItemIndex on initialization. 
 //To set selectedItemIndex API value 
 <div id="tab">
 <ul >
@@ -2866,16 +2866,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({selectedItemIndex:1});        
 });
-</script> </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script> {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the selectedItemIndex, after initialization:
 // Get the selectedItemIndex API value.
  $("#tab").ejmTab ("option", "selectedItemIndex");                      
 // Set the selectedItemIndex API
-$("#tab").ejmTab ("option", "selectedItemIndex", "1");            </code>
-</pre>
+$("#tab").ejmTab ("option", "selectedItemIndex", "1");            {% endhighlight %}
+
 
 
 
@@ -2917,8 +2917,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the showAjaxPopup property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-enableajax="true" data-ej-showajaxpopup="true" >
 <ul >
@@ -2935,10 +2935,10 @@ Example
 //Create the music.html file with following content.
  Music contents here 
 //Create the favourites.html file with following content.
- Favourites contents here</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+ Favourites contents here{% endhighlight %}
+
+
+{% highlight html %} 
 // Set showAjaxPopup on initialization. 
 //To set showAjaxPopup API value 
 <div id="tab">
@@ -2955,16 +2955,16 @@ Example
 $(function(){
 $("#tab").ejmTab({enableAjax: true, showAjaxPopup: false });    
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the showAjaxPopup, after initialization:
 // Get the showAjaxPopup API value.
  $("#tab").ejmTab ("option", "showAjaxPopup");                  
 // Set the showAjaxPopup API
-$("#tab").ejmTab ("option", "showAjaxPopup", "false");            </code>
-</pre>
+$("#tab").ejmTab ("option", "showAjaxPopup", "false");            {% endhighlight %}
+
 
 
 
@@ -3006,8 +3006,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the showScrollbars property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-allowscrolling="true" data-ej-showscrollbars="false" >
 <ul >
@@ -3027,10 +3027,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set showScrollbars property on initialization. 
 //To set showScrollbars API value 
 <div id="tab">
@@ -3056,16 +3056,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({allowScrolling:true,showScrollbars:false});   
 });
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the showScrollbars property, after initialization:
 // Get the showScrollbars API value.
  $("#tab").ejmTab ("option", "showScrollbars");                 
 // Set the showScrollbars API
-$("#tab").ejmTab ("option", "showScrollbars", "false");            </code>
-</pre>
+$("#tab").ejmTab ("option", "showScrollbars", "false");            {% endhighlight %}
+
 
 
 
@@ -3107,8 +3107,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the theme property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-theme="auto" >
 <ul >
@@ -3128,10 +3128,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="tab">
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -3158,16 +3158,16 @@ $(function(){
 // To enable tab Control
 $("#tab").ejmTab({theme:ej.mobile.Theme.Dark}); 
 });
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 //Get or set the theme, after initialization:
 // Get the theme API value.
  $("#tab").ejmTab ("option", "theme");                  
 // Set the theme API
-$("#tab").ejmTab ("option", "theme", ej.mobile.Theme.Dark);            </code>
-</pre>
+$("#tab").ejmTab ("option", "theme", ej.mobile.Theme.Dark);            {% endhighlight %}
+
 
 
 
@@ -3231,8 +3231,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the windows mode enableCustomText property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-enablecustomtext="true" >
 <ul >
@@ -3252,10 +3252,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>            </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>            {% endhighlight %}
+
+
+{% highlight html %} 
 // Set windows mode enableCustomText on initialization. 
 //To set windows mode enableCustomText API value 
 <div id="tab">
@@ -3281,16 +3281,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({renderMode:"windows", windows:{enableCustomText:true}});      
 });
-</script>  </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>  {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the windows mode enableCustomText API, after initialization:
 // Get the windows mode enableCustomText value  
 $("#tab").ejmTab("option", "windows.enableCustomText");   
 // Set the windows mode enableCustomText value 
-$("#tab").ejmTab("option", "windows.enableCustomText", "true"); </code>
-</pre>
+$("#tab").ejmTab("option", "windows.enableCustomText", "true"); {% endhighlight %}
+
 
 
 
@@ -3332,8 +3332,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the windows mode enableTouchMove property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-enabletouchmove="true" >
 <ul >
@@ -3353,10 +3353,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>            </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>            {% endhighlight %}
+
+
+{% highlight html %} 
 // Set windows mode enableTouchMove on initialization. 
 //To set windows mode enableTouchMove API value 
 <div id="tab">
@@ -3382,16 +3382,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({renderMode:"windows", windows:{enableTouchMove:true}});       
 });
-</script>  </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>  {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the windows mode enableTouchMove API, after initialization:
 // Get the windows mode enableTouchMove value  
 $("#tab").ejmTab("option", "windows.enableTouchMove");   
 // Set the windows mode enableTouchMove value 
-$("#tab").ejmTab("option", "windows.enableTouchMove", "true"); </code>
-</pre>
+$("#tab").ejmTab("option", "windows.enableTouchMove", "true"); {% endhighlight %}
+
 
 
 
@@ -3433,8 +3433,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the windows mode position property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-position="fixed" >
 <ul >
@@ -3454,10 +3454,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>           </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>           {% endhighlight %}
+
+
+{% highlight html %} 
 // Set windows mode position on initialization. 
 //To set windows mode position API value 
 <div id="tab">
@@ -3483,16 +3483,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({renderMode:"windows", windows:{position: ej.mobile.Tab.Windows.Position.Fixed}});     
 });
-</script> </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script> {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the windows mode position API, after initialization:
 // Get the windows mode position value  
 $("#tab").ejmTab("option", "windows.position");   
 // Set the windows mode position value 
-$("#tab").ejmTab("option", "windows.position",  ej.mobile.Tab.Windows.Position.Fixed); </code>
-</pre>
+$("#tab").ejmTab("option", "windows.position",  ej.mobile.Tab.Windows.Position.Fixed); {% endhighlight %}
+
 
 
 
@@ -3534,8 +3534,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the windows mode preventContentSwipe property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-preventcontentswipe="true" >
 <ul >
@@ -3555,10 +3555,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>            </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>            {% endhighlight %}
+
+
+{% highlight html %} 
 // Set windows mode preventContentSwipe on initialization. 
 //To set windows mode preventContentSwipe API value 
 <div id="tab">
@@ -3584,16 +3584,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({renderMode:"windows", windows:{preventContentSwipe:true}});   
 });
-</script>  </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>  {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the windows mode preventContentSwipe API, after initialization:
 // Get the windows mode preventContentSwipe value  
 $("#tab").ejmTab("option", "windows.preventContentSwipe");   
 // Set the windows mode preventContentSwipe value 
-$("#tab").ejmTab("option", "windows.preventContentSwipe", "true"); </code>
-</pre>
+$("#tab").ejmTab("option", "windows.preventContentSwipe", "true"); {% endhighlight %}
+
 
 
 
@@ -3635,8 +3635,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the windows mode renderDefault property in unobtrusive way.
 <div id="tab" data-role="ejmtab" data-ej-rendermode="windows" data-ej-windows-renderdefault="false" >
 <ul >
@@ -3656,10 +3656,10 @@ Music content here
 </div>
 <div id="default3" >
 Favourites content here
-</div>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>         {% endhighlight %}
+
+
+{% highlight html %} 
 // Set windows mode renderDefault on initialization. 
 //To set windows mode renderDefault API value 
 <div id="tab">
@@ -3685,16 +3685,16 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab({renderMode:"windows", windows:{renderDefault:true}}); 
 });
-</script> </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script> {% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the windows mode renderDefault API, after initialization:
 // Get the windows mode renderDefault value  
 $("#tab").ejmTab("option", "windows.renderDefault");   
 // Set the windows mode renderDefault value 
-$("#tab").ejmTab("option", "windows.renderDefault", "false"); </code>
-</pre>
+$("#tab").ejmTab("option", "windows.renderDefault", "false"); {% endhighlight %}
+
 
 
 
@@ -3727,8 +3727,8 @@ To add a tab item
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -3753,8 +3753,8 @@ $(function(){
 // Call addItem method
 $("#tab").ejmTab("addItem","addTab",3); 
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3780,8 +3780,8 @@ To add tab item in more option
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -3806,8 +3806,8 @@ $(function(){
 // To addOverflowItem Tab Control
 $("#tab").ejmTab("addOverflowItem","addMoreTab",3);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3833,8 +3833,8 @@ To disable the tab item content
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -3859,8 +3859,8 @@ $(function(){
 // Call disableContent method
 $("#tab").ejmTab("disableContent",1);   
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3886,8 +3886,8 @@ To disable the tab item
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -3912,8 +3912,8 @@ $(function(){
 // Call disableItem method
 $("#tab").ejmTab("disableItem",1);      
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3939,8 +3939,8 @@ To enable the tab item content
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -3965,8 +3965,8 @@ $(function(){
 // Call enableContent method
 $("#tab").ejmTab("enableContent",1);    
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3992,8 +3992,8 @@ To enable the tab item
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -4018,8 +4018,8 @@ $(function(){
 // Call enableItem method
 $("#tab").ejmTab("enableItem",1);       
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4045,8 +4045,8 @@ Get the current active item
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -4071,8 +4071,8 @@ $(function(){
 // Call getActiveItem method
 $("#tab").ejmTab("getActiveItem");      
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4098,8 +4098,8 @@ Get the current active item text
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -4124,8 +4124,8 @@ $(function(){
 // Call getActiveItem method
 $("#tab").ejmTab("getActiveItemText");  
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4151,8 +4151,8 @@ To return the tab item count
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -4177,8 +4177,8 @@ $(function(){
 // Call getItemsCount method
 $("#tab").ejmTab("getItemsCount");      
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4204,8 +4204,8 @@ Get the overflow tab item count
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -4230,8 +4230,8 @@ $(function(){
 // Call getOverflowItemCount method
 $("#tab").ejmTab("getOverflowItemCount");       
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4257,8 +4257,8 @@ To hide a badge
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" data-ej-badge-enabled="true">
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -4283,8 +4283,8 @@ $(function(){
 // Call hideBadge method
 $("#tab").ejmTab("hideBadge",1);        
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4310,8 +4310,8 @@ To remove tab item
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -4336,8 +4336,8 @@ $(function(){
 // Call removeItem method
 $("#tab").ejmTab("removeItem",1);       
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4363,8 +4363,8 @@ To remove tab item in overflow option
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -4389,8 +4389,8 @@ $(function(){
 // Call removeOverflowItem method
 $("#tab").ejmTab("removeOverflowItem",1);       
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4416,8 +4416,8 @@ To make the tab item to be active
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -4442,8 +4442,8 @@ $(function(){
 // Call selectTabItem method
 $("#tab").ejmTab("selectItem",1);       
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4469,8 +4469,8 @@ To show the tab's badge.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -4495,8 +4495,8 @@ Favourites content here
 $(function(){
 $("#tab").ejmTab("showBadge",1);        
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4522,8 +4522,8 @@ To update the badge value
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="tab" data-role="ejmtab" data-ej-badge-enabled="true" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -4548,8 +4548,8 @@ $(function(){
 //Call updateBadgeValue method
 $("#tab").ejmTab("updateBadgeValue",1,"Music Collection");      
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4585,27 +4585,27 @@ Event triggers when the ajaxBeforeLoad happens in the Tab
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the Tab model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.item</code></td>
+<td class="name">{% highlight html %}argument.item{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the ajax element.</td>
 </tr>
 <tr>
-<td class="name"><code>argument.content</code></td>
+<td class="name">{% highlight html %}argument.content{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the ajax current content.</td>
 </tr>
@@ -4618,8 +4618,8 @@ Event triggers when the ajaxBeforeLoad happens in the Tab
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div id="tab" data-role="ejmtab" data-ej-ajaxbeforeload="beforeLoad" >
 <ul >
 <li data-ej-href="movies.html" data-ej-text='Movies' >
@@ -4642,10 +4642,10 @@ Example
 // ajaxbeforeload event 
 function beforeLoad(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //open event for Tab
 <div id="tab" data-role="ejmtab" >
 <ul >
@@ -4671,8 +4671,8 @@ $("#tab").ejmTab({
   ajaxBeforeLoad: function (args) { //handle the event 
 }
 });           
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 
@@ -4701,17 +4701,17 @@ Event triggers when the ajaxComplete happens in the tab.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the tab model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
@@ -4724,8 +4724,8 @@ Event triggers when the ajaxComplete happens in the tab.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div id="tab" data-role="ejmtab" data-ej-ajaxcomplete="complete" >
 <ul >
 <li data-ej-href="movies.html" data-ej-text='Movies' >
@@ -4748,10 +4748,10 @@ Example
 // ajaxComplete event 
 function complete(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //open event for Tab
 <div id="tab" data-role="ejmtab" >
 <ul >
@@ -4777,8 +4777,8 @@ $("#tab").ejmTab({
   ajaxComplete: function (args) { //handle the event 
 }
 });           
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 
@@ -4807,42 +4807,42 @@ Event triggers when the ajaxError happens in the tab
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the tab model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.error</code></td>
+<td class="name">{% highlight html %}argument.error{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the ajax error content.</td>
 </tr>
 <tr>
-<td class="name"><code>argument.status</code></td>
+<td class="name">{% highlight html %}argument.status{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">return the tab state</td>
 </tr>
 <tr>
-<td class="name"><code>argument.item</code></td>
+<td class="name">{% highlight html %}argument.item{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the curent tab item</td>
 </tr>
 <tr>
-<td class="name"><code>argument.text</code></td>
+<td class="name">{% highlight html %}argument.text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current item text</td>
 </tr>
 <tr>
-<td class="name"><code>argument.index</code></td>
+<td class="name">{% highlight html %}argument.index{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current item index</td>
 </tr>
@@ -4855,8 +4855,8 @@ Event triggers when the ajaxError happens in the tab
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div id="tab" data-role="ejmtab" data-ej-ajaxerror="error" >
 <ul >
 <li data-ej-href="movies.html" data-ej-text='Movies' >
@@ -4879,10 +4879,10 @@ Example
 // ajaxError event 
 function error(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //open event for Tab
 <div id="tab" data-role="ejmtab" >
 <ul >
@@ -4908,8 +4908,8 @@ $("#tab").ejmTab({
   ajaxError: function (args) { //handle the event 
 }
 });   
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 
@@ -4938,37 +4938,37 @@ Event triggers when the ajaxSuccess happens in the tab
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the tab model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.item</code></td>
+<td class="name">{% highlight html %}argument.item{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the curent tab item</td>
 </tr>
 <tr>
-<td class="name"><code>argument.content</code></td>
+<td class="name">{% highlight html %}argument.content{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the ajax current content</td>
 </tr>
 <tr>
-<td class="name"><code>argument.text</code></td>
+<td class="name">{% highlight html %}argument.text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current item text</td>
 </tr>
 <tr>
-<td class="name"><code>argument.index</code></td>
+<td class="name">{% highlight html %}argument.index{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current item index</td>
 </tr>
@@ -4981,8 +4981,8 @@ Event triggers when the ajaxSuccess happens in the tab
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div id="tab" data-role="ejmtab" data-ej-ajaxsuccess="success" >
 <ul >
 <li data-ej-href="movies.html" data-ej-text='Movies' >
@@ -5005,10 +5005,10 @@ Example
 // ajaxSuccess event 
 function success(args){ //handle the event
 }
-</script>                        </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                        {% endhighlight %}
+
+
+{% highlight html %} 
 //open event for Tab
 <div id="tab" data-role="ejmtab" >
 <ul >
@@ -5034,8 +5034,8 @@ $("#tab").ejmTab({
   ajaxSuccess: function (args) { //handle the event 
 }
 });           
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 
@@ -5064,17 +5064,17 @@ Event triggers when the load happens in the Tab
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the cancel option value</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the Tab model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
@@ -5087,8 +5087,8 @@ Event triggers when the load happens in the Tab
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div id="tab" data-role="ejmtab" data-ej-load="onLoad" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -5111,10 +5111,10 @@ Favourites content here
 // complete event 
 function onLoad(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //open event for Tab
 <div id="tab" data-role="ejmtab">
 <ul >
@@ -5141,8 +5141,8 @@ $("#tab").ejmTab({
   load: function (args) { //handle the event 
 }
 });           
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 
@@ -5171,27 +5171,27 @@ Event triggers when the loadComplete happens in the Tab
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the cancel option value</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the Tab model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.element</code></td>
+<td class="name">{% highlight html %}argument.element{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the Tab element</td>
 </tr>
 <tr>
-<td class="name"><code>argument.id</code></td>
+<td class="name">{% highlight html %}argument.id{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the id</td>
 </tr>
@@ -5204,8 +5204,8 @@ Event triggers when the loadComplete happens in the Tab
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div id="tab" data-role="ejmtab" data-ej-loadcomplete="onComplete" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -5228,10 +5228,10 @@ Favourites content here
 // loadcomplete event 
 function onComplete(args){ //handle the event
 }
-</script>  </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>  {% endhighlight %}
+
+
+{% highlight html %} 
 //open event for Tab
 <div id="tab" data-role="ejmtab">
 <ul >
@@ -5258,8 +5258,8 @@ $("#tab").ejmTab({
   loadComplete: function (args) { //handle the event 
 }
 });           
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 
@@ -5288,42 +5288,42 @@ Event triggered after ajax contents are prefetched.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the tab model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.item</code></td>
+<td class="name">{% highlight html %}argument.item{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the curent tab item</td>
 </tr>
 <tr>
-<td class="name"><code>argument.content</code></td>
+<td class="name">{% highlight html %}argument.content{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the ajax current content</td>
 </tr>
 <tr>
-<td class="name"><code>argument.text</code></td>
+<td class="name">{% highlight html %}argument.text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current item text</td>
 </tr>
 <tr>
-<td class="name"><code>argument.url</code></td>
+<td class="name">{% highlight html %}argument.url{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current item's url</td>
 </tr>
 <tr>
-<td class="name"><code>argument.index</code></td>
+<td class="name">{% highlight html %}argument.index{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current item index</td>
 </tr>
@@ -5336,8 +5336,8 @@ Event triggered after ajax contents are prefetched.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div id="tab" data-role="ejmtab" data-ej-prefetchContentLoaded="onPrefetch" data-ej-prefetchajaxcontent="true" data-ej-enableajax="true" data-ej-enablecache="true" >
 <ul >
 <li data-ej-href="movies.html" data-ej-text='Movies' >
@@ -5360,10 +5360,10 @@ Example
 // prefetchContentLoaded event 
 function onPrefetch(args){ //handle the event
 }
-</script>                        </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                        {% endhighlight %}
+
+
+{% highlight html %} 
 //prefetchContentLoaded event for Tab
 <div id="tab" data-role="ejmtab" >
 <ul >
@@ -5388,8 +5388,8 @@ function onPrefetch(args){ //handle the event
 $("#tab").ejmTab({enableAjax: true, enableCache: true, prefetchAjaxContent:true},ajaxSuccess: function (args) { //handle the event 
 }
 });           
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 
@@ -5418,22 +5418,22 @@ Event triggers when the touchEnd happens in the Tab
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the Tab model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.text</code></td>
+<td class="name">{% highlight html %}argument.text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the text of the Tab</td>
 </tr>
@@ -5446,8 +5446,8 @@ Event triggers when the touchEnd happens in the Tab
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div id="tab" data-role="ejmtab" data-ej-touchend="end" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -5471,10 +5471,10 @@ Favourites content here
 // touchEnd event 
 function end(args){ //handle the event
 }
-</script> </code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script> {% endhighlight %}
+
+
+{% highlight html %}             
 <div id="tab" data-role="ejmtab" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -5500,8 +5500,8 @@ $("#tab").ejmTab({
   touchEnd: function (args) { //handle the event 
 }
 });           
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 
@@ -5530,22 +5530,22 @@ Event triggers when the touchStart happens in the Tab
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument.cancel</code></td>
+<td class="name">{% highlight html %}argument.cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>argument.model</code></td>
+<td class="name">{% highlight html %}argument.model{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the Tab model</td>
 </tr>
 <tr>
-<td class="name"><code>argument.type</code></td>
+<td class="name">{% highlight html %}argument.type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>argument.text</code></td>
+<td class="name">{% highlight html %}argument.text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the text of the Tab</td>
 </tr>
@@ -5558,8 +5558,8 @@ Event triggers when the touchStart happens in the Tab
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div id="tab" data-role="ejmtab" data-ej-touchstart="start" >
 <ul >
 <li data-ej-href="#default1" data-ej-text='Movies' >
@@ -5583,10 +5583,10 @@ Favourites content here
 // touchStart event 
 function start(args){ //handle the event
 }
-</script> </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script> {% endhighlight %}
+
+
+{% highlight html %} 
 //open event for Tab
 <div id="tab" data-role="ejmtab">
 <ul >
@@ -5613,8 +5613,8 @@ $("#tab").ejmTab({
   touchStart: function (args) { //handle the event 
 }
 });           
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 

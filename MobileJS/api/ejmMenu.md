@@ -2,7 +2,7 @@
 layout: post
 title: ejmMenu
 documentation: API
-platform: mobilejs
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
@@ -23,8 +23,8 @@ $(element).ejmMenu<span class="signature">()</span>
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Create Menu control in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
@@ -35,10 +35,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Create Menu control in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
@@ -54,8 +54,8 @@ Example
 $(function(){
       $("menu").ejmMenu({targetId:"menuitem"});
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -111,8 +111,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>       
+
+{% highlight html %}       
 // Set allowScrolling property in unobtrusive way.      
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -123,10 +123,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set allowScrolling property in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -142,18 +142,18 @@ Example
         // Set allowScrolling on initialization. 
         // To set allowScrolling API value 
         $("#menu").ejmMenu ({targetId: "menuitem" , allowScrolling : true});
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set allowScrolling, after initialization:
 // Get the allowScrolling API value.            
  $("#menu").ejmMenu("option", "allowScrolling");                        
 // Set the allowScrolling API
 $("#menu").ejmMenu("option", "allowScrolling", true); 
-</script>           </code>
-</pre>
+</script>           {% endhighlight %}
+
 
 
 
@@ -192,8 +192,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>   
+
+{% highlight html %}   
 // Set type in unobtrusive way.          
 <div>
    <input id="menuitem" type="button" data-ej-rendermode="android" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -204,10 +204,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set type in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-ej-rendermode="android" data-role="ejmbutton" data-ej-text="Menu" />
@@ -225,18 +225,18 @@ Example
 $(function() {
 $("#menu").ejmMenu ({ android:{type : ej.mobile.Menu.Android.Type.Contextual}, renderMode:"android",targetId:"menuitem"});
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set type, after initialization:
 // Get type API value.          
  $("#menu").ejmMenu("option", "android.type");                  
 // Set type API
 $("#menu").ejmMenu("option", "android.type", ej.mobile.Menu.Android.Type.Contextual);    
-</script>        </code>
-</pre>
+</script>        {% endhighlight %}
+
 
 
 
@@ -262,8 +262,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>            
+
+{% highlight html %}            
 // Set cssClass in unobtrusive way. 
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -274,10 +274,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set cssClass in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -295,18 +295,18 @@ Example
 $(function() {
 $("#menu").ejmMenu ({ targetId:"menuitem", "cssClass" : "customclass" });
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set cssClass, after initialization:
 // Get cssClass API value.              
  $("#menu").ejmMenu("option", "cssClass");                      
 // Set cssClass API
 $("#menu").ejmMenu("option", "cssClass", "customclass"); 
-</script>           </code>
-</pre>
+</script>           {% endhighlight %}
+
 
 
 
@@ -332,8 +332,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set enablePersistence in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" data-ej-enablepersistence="true"/>
@@ -344,10 +344,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set enablePersistence in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" data-ej-enablepersistence="true" />
@@ -363,18 +363,18 @@ Example
         // Set enablePersistence on initialization. 
         // To set enablePersistence API value 
         $("#menu").ejmMenu ({ targetId : "menuitem" , enablePersistence: true });                       
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set enablePersistence after initialization:
 // Get the enablePersistence API value.         
  $("#menu").ejmMenu("option", "enablePersistence");                     
 // Set the enablePersistence API
 $("#menu").ejmMenu("option", "enablePersistence", false);
-</script>            </code>
-</pre>
+</script>            {% endhighlight %}
+
 
 
 
@@ -391,8 +391,8 @@ Specifies the height.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>   
+
+{% highlight html %}   
 // Set height in unobtrusive way.          
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -403,10 +403,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 <div>
 // Set height in obtrusive way.
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
@@ -422,18 +422,18 @@ Example
         // Set height on initialization. 
         // To set height API value 
         $("#menu").ejmMenu ({targetId : "menuitem" , height: 100 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set height, after initialization:
 // Get the height API value.            
  $("#menu").ejmMenu("option", "height");                        
 // Set the height API
 $("#menu").ejmMenu("option", "height", 100);            
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -472,8 +472,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>            
+
+{% highlight html %}            
 // Set cancelButtonColor in unobtrusive way. 
 <div>
    <input id="menuitem" type="button" data-ej-rendermode="ios7" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -484,10 +484,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set cancelButtonColor in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7" data-ej-text="Menu" />
@@ -505,18 +505,18 @@ Example
 $(function() {
 $("#menu").ejmMenu ({ targetId:"menuitem", renderMode:"ios7", ios7:{cancelButtonColor : ej.mobile.Menu.IOS7.CancelButtonColor.Blue} });
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set cancel button color, after initialization:
 // Get cancel button color API value.           
  $("#menu").ejmMenu("option", "ios7.cancelButtonColor");                        
 // Set cancel button color API
 $("#menu").ejmMenu("option", "ios7.cancelButtonColor", ej.mobile.Menu.IOS7.CancelButtonColor.Blue); 
-</script>           </code>
-</pre>
+</script>           {% endhighlight %}
+
 
 
 
@@ -542,8 +542,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>      
+
+{% highlight html %}      
 // Set cancelButtonText in unobtrusive way.       
 <div>
    <input id="menuitem" type="button" data-ej-rendermode="ios7" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -554,10 +554,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set cancelButtonText in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7" data-ej-text="Menu" />
@@ -573,18 +573,18 @@ Example
 // Set cancel button text on initialization. 
 // To set cancel button text API value 
 $("#menu").ejmMenu ({ targetId:"menuitem", renderMode:"ios7", ios7:{cancelButtonText : "Cancel", type:"animate"} });    
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set cancel button text, after initialization:
 // Get cancel button text API value.            
  $("#menu").ejmMenu("option", "ios7.cancelButtonText");                 
 // Set cancel button text API
 $("#menu").ejmMenu("option", "ios7.cancelButtonText", true);  
-</script>          </code>
-</pre>
+</script>          {% endhighlight %}
+
 
 
 
@@ -610,8 +610,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>         
+
+{% highlight html %}         
 // Set showCancelButton in unobtrusive way.    
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7" data-ej-text="Menu"/>
@@ -622,10 +622,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set showCancelButton in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7" data-ej-text="Menu" />
@@ -641,18 +641,18 @@ Example
 // Set show cancel button on initialization. 
 // To set show cancel button  API value 
 $("#menu").ejmMenu ({ targetId:"menuitem", renderMode:"ios7", ios7:{showCancelButton : true , type:"animate"}});        
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set the show cancel button after initialization:
 // Get the show cancel button API value.                
  $("#menu").ejmMenu("option", "ios7.showCancelButton");                 
 // Set the show cancel button API
 $("#menu").ejmMenu("option", "ios7.showCancelButton", true);
-</script>            </code>
-</pre>
+</script>            {% endhighlight %}
+
 
 
 
@@ -678,8 +678,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 // Set type in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-ej-rendermode="ios7" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -690,10 +690,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set type in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-ej-rendermode="ios7" data-role="ejmbutton" data-ej-text="Menu" />
@@ -709,18 +709,18 @@ Example
 // Set showTitle property on initialization. 
 // To set showTitle API value 
 $("#menu").ejmMenu ({ targetId:"menuitem", renderMode:"ios7", ios7:{showTitle : true} });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set the show menu title, after initialization:
 // Get the showTitle API value.         
  $("#menu").ejmMenu("option", "ios7.showTitle");                        
 // Set the showTitle API
 $("#menu").ejmMenu("option", "ios7.showTitle", true);  
-</script>          </code>
-</pre>
+</script>          {% endhighlight %}
+
 
 
 
@@ -746,8 +746,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>      
+
+{% highlight html %}      
 // Set title for ios7 mode in unobtrusive way.       
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7" data-ej-text="Menu"/>
@@ -758,10 +758,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set title for ios7 mode in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7" data-ej-text="Menu" />
@@ -777,18 +777,18 @@ Example
         // Set menu title on initialization. 
         // To set menu title API value 
         $("#menu").ejmMenu ({ targetId : "menuitem" , renderMode : "ios7" , ios7:{title : "Title"} });                  
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set title, after initialization:
 // Get title API value.         
  $("#menu").ejmMenu("option", "ios7.title");                    
 // Set title API
 $("#menu").ejmMenu("option", "ios7.title", true);    
-</script>        </code>
-</pre>
+</script>        {% endhighlight %}
+
 
 
 
@@ -814,8 +814,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>          
+
+{% highlight html %}          
 // Set type in unobtrusive way.   
 <div>
    <input id="menuitem" type="button" data-ej-rendermode="ios7" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -826,10 +826,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 <div>
 // Set type in obtrusive way.
    <input id="menuitem" type="button" data-ej-rendermode="ios7" data-role="ejmbutton" data-ej-text="Menu" />
@@ -847,18 +847,18 @@ Example
 $(function(){
 $("#menu").ejmMenu ({ targetId:"menuitem", renderMode:"ios7", ios7:{type : ej.mobile.Menu.IOS7.Type.Auto} });
 });
-</script>         </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>         {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set type, after initialization:
 // Get type API value.          
  $("#menu").ejmMenu("option", "ios7.type");                     
 // Set type API
 $("#menu").ejmMenu("option", "ios7.type", ej.mobile.Menu.IOS7.Type.Auto);    
-</script>        </code>
-</pre>
+</script>        {% endhighlight %}
+
 
 
 
@@ -884,8 +884,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set renderMode in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" data-ej-rendermode="auto"/>
@@ -896,10 +896,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set renderMode in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" data-ej-rendermode="auto" />
@@ -917,18 +917,18 @@ Example
 $(function(){
         $("#menu").ejmMenu ({ targetId : "menuitem" , renderMode: ej.mobile.RenderMode.Auto });                 
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set rendermode, after initialization:
 // Get renderMode API value.            
  $("#menu").ejmMenu("option", "renderMode");                    
 // Set renderMode API
 $("#menu").ejmMenu("option", "renderMode", ej.mobile.RenderMode.Auto);   
-</script>         </code>
-</pre>
+</script>         {% endhighlight %}
+
 
 
 
@@ -954,8 +954,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 // Set renderTemplate property in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -966,10 +966,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set renderTemplate property in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
@@ -985,18 +985,18 @@ Example
         // Set renderTemplate property on initialization. 
         // To set renderTemplate API value 
         $("#menu").ejmMenu ({ targetId : "menuitem" , renderTemplate: false});  
-</script>                 </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>                 {% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set renderTemplate property, after initialization:
 // Get the renderTemplate API value.            
  $("#menu").ejmMenu("option", "renderTemplate");                        
 // Set the renderTemplate API
 $("#menu").ejmMenu("option", "renderTemplate", false);  
-</script>           </code>
-</pre>
+</script>           {% endhighlight %}
+
 
 
 
@@ -1022,8 +1022,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>       
+
+{% highlight html %}       
 // Set showOn property in unobtrusive way.      
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -1034,10 +1034,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set showOn property in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
@@ -1053,18 +1053,18 @@ Example
         // Set showOn on initialization. 
         // To set showOn API value 
         $("#menu").ejmMenu ({targetId : "menuitem" , showOn: "taphold"});               
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 &amp;ltscript>
 // Get or set showOn, after initialization:
 // Get the showOn API value.            
  $("#menu").ejmMenu("option", "showOn");                        
 // Set the showOn API
 $("#menu").ejmMenu("option", "showOn", "taphold");  
-</script>          </code>
-</pre>
+</script>          {% endhighlight %}
+
 
 
 
@@ -1090,8 +1090,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 // Set showScrollbars in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -1102,10 +1102,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set showScrollbars property in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
@@ -1121,18 +1121,18 @@ Example
         // Set showScrollbars property on initialization. 
         // To set showScrollbars API value 
         $("#menu").ejmMenu ({ targetId : "menuitem" , allowScrolling : true , showScrollbars: true});   
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set showScrollbars property, after initialization:
 // Get the showScrollbars API value.            
  $("#menu").ejmMenu("option", "showScrollbars");                        
 // Set the showScrollbars API
 $("#menu").ejmMenu("option", "showScrollbars", true);   
-</script>         </code>
-</pre>
+</script>         {% endhighlight %}
+
 
 
 
@@ -1149,8 +1149,8 @@ Specifies ID of target element.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 // Set target element ID in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -1161,10 +1161,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set target element ID in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -1180,18 +1180,18 @@ Example
         // Set target element ID on initialization. 
         // To set target element ID value 
         $("#menu").ejmMenu ({ targetId: "menuitem" });  
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set target element ID, after initialization:
 // Get the target element ID value.             
  $("#menu").ejmMenu("option", "targetId");                      
 // Set the target element ID
 $("#menu").ejmMenu("option", "targetId", "menu");  
-</script>          </code>
-</pre>
+</script>          {% endhighlight %}
+
 
 
 
@@ -1217,8 +1217,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 // Set templateId property in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -1228,10 +1228,10 @@ Example
      <li>Get info</li>
      <li>Show in folder</li>
      <li>Delete</li>
-  </div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+  </div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set templateId property in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
@@ -1246,18 +1246,18 @@ Example
         // Set templateId property on initialization. 
         // To set templateId API value 
         $("#menu").ejmMenu ({ targetId : "menuitem" , renderTemplate : true , templateId: "menuTemplate"});                     
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set templateId property, after initialization:
 // Get the templateId API value.                
  $("#menu").ejmMenu("option", "templateId");                    
 // Set the templateId API
 $("#menu").ejmMenu("option", "templateId", "menuTemplate");   
-</script>         </code>
-</pre>
+</script>         {% endhighlight %}
+
 
 
 
@@ -1283,8 +1283,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set theme in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" data-ej-theme="auto"/>
@@ -1295,10 +1295,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set theme in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" data-ej-theme="auto" />
@@ -1316,18 +1316,18 @@ Example
 $(function(){
         $("#menu").ejmMenu ({ targetId : "menuitem" , theme: ej.mobile.Theme.Auto });           
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set theme, after initialization:
 // Get theme API value.         
  $("#menu").ejmMenu("option", "theme");                 
 // Set theme API value.
 $("#menu").ejmMenu("option", "theme", ej.mobile.Theme.Auto);    
-</script>        </code>
-</pre>
+</script>        {% endhighlight %}
+
 
 
 
@@ -1344,8 +1344,8 @@ Specifies the width.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>        
+
+{% highlight html %}        
 // Set width in unobtrusive way.     
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -1356,10 +1356,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set width in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
@@ -1375,18 +1375,18 @@ Example
         // Set width on initialization. 
         // To set width API value 
         $("#menu").ejmMenu ({ targetId : "menuitem" , width: 200 });    
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set width, after initialization:
 // Get the width API value.             
  $("#menu").ejmMenu("option", "width");                 
 // Set the width API
 $("#menu").ejmMenu("option", "width", 200);  
-</script>          </code>
-</pre>
+</script>          {% endhighlight %}
+
 
 
 
@@ -1425,8 +1425,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 // Set the windows mode renderDefault property in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-ej-rendermode="windows" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -1437,10 +1437,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the windows mode renderDefault property in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" data-ej-rendermode="windows" />
@@ -1456,18 +1456,18 @@ Example
         // Get or set the windows mode renderDefault API, after initialization:
         // Get the windows mode renderDefault value  
         $("#menu").ejmMenu ({ targetId : "menuitem" , renderMode : "windows" , windows:{renderDefault : false }});              
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set windows mode renderDefault, after initialization:
 // Get the windows mode renderDefault value     
  $("#menu").ejmMenu("option", windows.renderDefault);                   
 // Set the windows mode renderDefault value 
 $("#menu").ejmMenu("option", "windows.renderDefault", false);
-</script>            </code>
-</pre>
+</script>            {% endhighlight %}
+
 
 
 
@@ -1493,8 +1493,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 // Set type in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-ej-rendermode="windows" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -1505,10 +1505,10 @@ Example
      <li data-ej-text="Show in folder"></li>
      <li data-ej-text="Delete"></li>
   </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set type in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-ej-rendermode="windows" data-role="ejmbutton" data-ej-text="Menu" />
@@ -1526,18 +1526,18 @@ Example
 $function(){
 $("#menu").ejmMenu ({ windows:{type : ej.mobile.Menu.Windows.Type.Contextual} });                       
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 // Get or set type, after initialization:
 // Get type API value.          
  $("#menu").ejmMenu("option", "windows.type");                  
 // Set type API
 $("#menu").ejmMenu("option", "windows.type", ej.mobile.Menu.Windows.Type.Contextual);           
-</script>      </code>
-</pre>
+</script>      {% endhighlight %}
+
 
 
 ## Methods
@@ -1558,8 +1558,8 @@ To add item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
 </div> 
@@ -1577,10 +1577,10 @@ $(function (){
         var element = ej.buildTag('li');
         menuObj.addItem(element,3); // Add the given index menu item
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script>{% endhighlight %}
+
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1599,8 +1599,8 @@ $(function(){
         var element = ej.buildTag('li');
         $("#menu").ejmMenu("addItem", element,3);       
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1617,8 +1617,8 @@ To disable the menu.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1635,10 +1635,10 @@ $(function (){
         var menuObj = $("#menu").data("ejmMenu");
         menuObj.disable(); // disable the menu control
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script>{% endhighlight %}
+
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1656,8 +1656,8 @@ $(function (){
 $(function (){
         $("#menu").ejmMenu("disable");  
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1674,8 +1674,8 @@ To disable the item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1692,10 +1692,10 @@ $(function () {
         var menuObj = $("#menu").data("ejmMenu");
         menuObj.disableItem(1); // disable the given index menu item
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script>{% endhighlight %}
+
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1713,8 +1713,8 @@ $(function () {
 $(function (){
         $("#menu").ejmMenu("disableItem", "1"); 
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1731,8 +1731,8 @@ To disable the overflow menu.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1749,10 +1749,10 @@ $(function (){
         var menuObj = $("#menu").data("ejmMenu");
         menuObj.disableOverflow(); // disableOverFlow menu item.
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script>{% endhighlight %}
+
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1770,8 +1770,8 @@ $(function (){
 $(function (){
         $("#menu").ejmMenu("disableOverflow");  
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1788,8 +1788,8 @@ To disable overflow item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1806,10 +1806,10 @@ $(function (){
         var menuObj = $("#menu").data("ejmMenu");
         menuObj.disableOverflowItem(1); // disable the given index menu item in overflow menu
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script>{% endhighlight %}
+
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1827,8 +1827,8 @@ $(function (){
 $(function (){
         $("#menu").ejmMenu("disableOverflowItem", "1"); 
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1845,8 +1845,8 @@ To enable the menu.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1862,10 +1862,10 @@ Example
 <script>
 var menuObj = $("#menu").data("ejmMenu");
 menuObj.enable(); // enable the menu control
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script>{% endhighlight %}
+
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1882,8 +1882,8 @@ menuObj.enable(); // enable the menu control
 <script>
 // Enable the menu control
 $("#menu").ejmMenu("enable");   
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1900,8 +1900,8 @@ To enable item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1917,10 +1917,10 @@ Example
 <script>
 var menuObj = $("#menu").data("ejmMenu");
 menuObj.enableItem(1); // enable the given index menu item
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script>{% endhighlight %}
+
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1937,8 +1937,8 @@ menuObj.enableItem(1); // enable the given index menu item
 <script>
 // Enable the given index menu item
 $("#menu").ejmMenu("enableItem", "1");  
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1955,8 +1955,8 @@ To enable the overflow menu.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1973,10 +1973,10 @@ $(function (){
         var menuObj = $("#menu").data("ejmMenu");
         menuObj.enableOverflow(); // enable the overflow menu
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script>{% endhighlight %}
+
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -1994,8 +1994,8 @@ $(function (){
 $(function (){
         $("#menu").ejmMenu("enableOverflow");   
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2012,8 +2012,8 @@ To enable overflow item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -2029,10 +2029,10 @@ Example
 <script>
 var menuObj = $("#menu").data("ejmMenu");
 menuObj.enableOverflowItem(1); // enable the overflow menu item.
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script>{% endhighlight %}
+
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -2049,8 +2049,8 @@ menuObj.enableOverflowItem(1); // enable the overflow menu item.
 <script>
 // Enable the given index menu item
 $("#menu").ejmMenu("enableOverflowItem", "1");  
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2067,8 +2067,8 @@ To hide the menu.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>      
+
+{% highlight html %}      
 // Create menu control       
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2084,10 +2084,10 @@ Example
 <script>
 var menuObj = $("#menu").data("ejmMenu");
 menuObj.hide(); // hide the menu which is already opened
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script>{% endhighlight %}
+
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -2103,8 +2103,8 @@ menuObj.hide(); // hide the menu which is already opened
 <script>
 // Hide the menu which is already opened
 $("#menu").ejmMenu("hide");     
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2121,8 +2121,8 @@ To remove item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>             
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -2139,10 +2139,10 @@ $(function (){
         var menuObj = $("#menu").data("ejmMenu");
         menuObj.removeItem(1); // remove the given index menu item
 }):
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script>{% endhighlight %}
+
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -2160,8 +2160,8 @@ $(function (){
 $(function (){
         $("#menu").ejmMenu("removeItem", "1");  
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2178,8 +2178,8 @@ To show the menu.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code>     
+
+{% highlight html %}     
 // Create menu control        
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2195,10 +2195,10 @@ Example
 <script>
 var menuObj = $("#menu").data("ejmMenu");
 menuObj.show(); // Show/Open the menu which is in hide state.
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>             
+</script>{% endhighlight %}
+
+
+{% highlight html %}             
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
 </div> 
@@ -2214,8 +2214,8 @@ menuObj.show(); // Show/Open the menu which is in hide state.
 <script>
 // Show/Open the menu which is in hide state.
 $("#menu").ejmMenu("show");     
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 ## Events
@@ -2241,7 +2241,7 @@ Event triggers when touch end happens on the cancel button in ios7 mode.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from menu.
 <table class="params">
@@ -2254,27 +2254,27 @@ Event triggers when touch end happens on the cancel button in ios7 mode.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current menu list element.</td>
 </tr>
 <tr>
-<td class="name"><code>text</code></td>
+<td class="name">{% highlight html %}text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current menu list element associated text.</td>
 </tr>
@@ -2289,8 +2289,8 @@ Event triggers when touch end happens on the cancel button in ios7 mode.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set hide method in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-ej-rendermode="ios7" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2306,10 +2306,10 @@ Example
 // hide event for menu&#65533;
 function cancelbuttontouchend(args){ //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set hide method in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-ej-rendermode="ios7" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2326,8 +2326,8 @@ function cancelbuttontouchend(args){ //handle the event
 $("#menu").ejmMenu({ targetId:"menuitem",renderMode:"ios7",ios7:{type:"animate",cancelButtonTouchEnd: function (args) { 
 //handle the event
 }}
-});           </code>
-</pre>
+});           {% endhighlight %}
+
 
 
 
@@ -2349,7 +2349,7 @@ Event triggers when the control get hided.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from menu.
 <table class="params">
@@ -2362,17 +2362,17 @@ Event triggers when the control get hided.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
@@ -2387,8 +2387,8 @@ Event triggers when the control get hided.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set hide event in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2405,10 +2405,10 @@ Example
 function hide(args){ 
        //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set hide event in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2427,8 +2427,8 @@ $("#menu").ejmMenu({ targetId:"menuitem",
         //handle the event 
   }
  });          
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 
@@ -2450,7 +2450,7 @@ Event triggers before the items loaded.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from menu.
 <table class="params">
@@ -2463,17 +2463,17 @@ Event triggers before the items loaded.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
@@ -2488,8 +2488,8 @@ Event triggers before the items loaded.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set load event in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" data-ej-rendermode="auto"/>
@@ -2506,10 +2506,10 @@ Example
 function load(args){ 
                 //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>  
+</script>{% endhighlight %}
+
+
+{% highlight html %}  
 // Set load event in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" data-ej-rendermode="auto"/>
@@ -2528,8 +2528,8 @@ $("#menu").ejmMenu({ targetId:"menuitem",
                         //handle the event 
                 }
  });         
-</script>  </code>
-</pre>
+</script>  {% endhighlight %}
+
 
 
 
@@ -2551,7 +2551,7 @@ Event triggers after the items loaded.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from menu.
 <table class="params">
@@ -2564,17 +2564,17 @@ Event triggers after the items loaded.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
@@ -2589,8 +2589,8 @@ Event triggers after the items loaded.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set loadcomplete event in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2608,10 +2608,10 @@ Example
 function loadcomplete(args){ 
         //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>  
+</script>{% endhighlight %}
+
+
+{% highlight html %}  
 // Set loadcomplete event in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2630,8 +2630,8 @@ $("#menu").ejmMenu({ targetId:"menuitem",
   loadComplete: function (args) { 
                 //handle the event 
         }
- });           </code>
-</pre>
+ });           {% endhighlight %}
+
 
 
 
@@ -2653,7 +2653,7 @@ Event triggers when the control get shown.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from menu.
 <table class="params">
@@ -2666,17 +2666,17 @@ Event triggers when the control get shown.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
@@ -2691,8 +2691,8 @@ Event triggers when the control get shown.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set show event in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2709,10 +2709,10 @@ Example
 function show(args){ 
         //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set show event in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2731,8 +2731,8 @@ $("#menu").ejmMenu({ targetId:"menuitem",
                 //handle the event 
   }
  });      
-</script>     </code>
-</pre>
+</script>     {% endhighlight %}
+
 
 
 
@@ -2754,7 +2754,7 @@ Event triggers when touch end happens on the item.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from menu.
 <table class="params">
@@ -2767,27 +2767,27 @@ Event triggers when touch end happens on the item.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current menu list element</td>
 </tr>
 <tr>
-<td class="name"><code>text</code></td>
+<td class="name">{% highlight html %}text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current menu list element associated text</td>
 </tr>
@@ -2802,8 +2802,8 @@ Event triggers when touch end happens on the item.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set touchend event in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2821,10 +2821,10 @@ Example
 function touchend(args){ 
         //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set touchend event in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2844,8 +2844,8 @@ $("#menu").ejmMenu({ targetId:"menuitem",
      //handle the event 
   }
  });      
-</script>     </code>
-</pre>
+</script>     {% endhighlight %}
+
 
 
 
@@ -2867,7 +2867,7 @@ Event triggers when touch start happens on the item.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from menu.
 <table class="params">
@@ -2880,27 +2880,27 @@ Event triggers when touch start happens on the item.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the current menu list element</td>
 </tr>
 <tr>
-<td class="name"><code>text</code></td>
+<td class="name">{% highlight html %}text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current menu list element associated text</td>
 </tr>
@@ -2915,8 +2915,8 @@ Event triggers when touch start happens on the item.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set touchstart event in unobtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2933,10 +2933,10 @@ Example
 function touchstart(args){ 
         //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set touchstart event in obtrusive way.
 <div>
    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu"/>
@@ -2955,7 +2955,7 @@ $("#menu").ejmMenu({targetId:"menuitem" ,
      //handle the event 
    }
  });           
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 

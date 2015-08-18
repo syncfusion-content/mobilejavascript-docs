@@ -2,7 +2,7 @@
 layout: post
 title: ejmGroupButton
 documentation: API
-platform: mobilejs
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
@@ -33,17 +33,17 @@ $(element).ejmGroupButton<span class="signature">()</span>
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Render groupbutton control by default with button behavior in unobtrusive way
 <div data-role="ejmgroupbutton">
 <button>ipad</button>
 <button>ipod</button>
 </div>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 //Render groupbutton control by default with button behavior in obtrusive way
 <div id="grpbtn" >
 <button>ipad</button>
@@ -51,10 +51,10 @@ Example
 </div>
 <script >
 $("#grpbtn").ejmGroupButton();
-</script ></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script >{% endhighlight %}
+
+
+{% highlight html %} 
 //Obtain radiobutton behavior for groupbutton control in unobtrusive way
 <div data-role="ejmgroupbutton">
 <label>
@@ -63,10 +63,10 @@ $("#grpbtn").ejmGroupButton();
 <label>
 <input type="radio"/>ipod
 </label>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Render groupbutton control by default with radiobutton behavior in obtrusive way
 <div id="grpbtn" >
 <label >
@@ -80,10 +80,10 @@ ipod
 </div >
 <script >
 $("#grpbtn").ejmGroupButton();
-</script ></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script >{% endhighlight %}
+
+
+{% highlight html %} 
 //Obtain checkbox behavior for groupbutton control in unobtrusive way
 <div data-role="ejmgroupbutton">
 <label>
@@ -92,10 +92,10 @@ $("#grpbtn").ejmGroupButton();
 <label>
 <input type="checkbox"/>ipod
 </label>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Obtain checkbox behavior for groupbutton control in obtrusive way
 <div id="grpbtn" >
 <label>
@@ -107,8 +107,8 @@ $("#grpbtn").ejmGroupButton();
 </div>
 <script >
 $("#grpbtn").ejmGroupButton();
-</script ></code>
-</pre>
+</script >{% endhighlight %}
+
 
 
 
@@ -188,8 +188,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the cssClass property in unobtrusive way.
 <div id="grpbtn" data-role="ejmgroupbutton" data-ej-cssclass="customclass" >
 <label>
@@ -198,10 +198,10 @@ Example
 <label>
 <input type="radio"/>ipod
 </label>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the cssClass property in obtrusive way.
 // To set cssClass API value 
 <div id="grpbtn">
@@ -215,16 +215,16 @@ Example
 <script>
 $("#grpbtn").ejmGroupButton ({ cssClass: "customclass" });
 </script>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the cssClass, after initialization:
 // Get the cssClass API value.          
   $("#grpbtn").ejmGroupButton ("option", "cssClass");                   
 // Set the cssClass API
-  $("#grpbtn").ejmGroupButton ("option", "cssClass", "customclass");</code>
-</pre>
+  $("#grpbtn").ejmGroupButton ("option", "cssClass", "customclass");{% endhighlight %}
+
 
 
 
@@ -266,8 +266,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enablePersistence property in unobtrusive way.
 <div id="grpbtn" data-role="ejmgroupbutton" data-ej-enablepersistence=true >
 <label>
@@ -276,10 +276,10 @@ Example
 <label>
 <input type="radio"/>ipod
 </label>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the enablePersistence property in obtrusive way. 
 // To set enablePersistence API value 
 <div id="grpbtn">
@@ -293,16 +293,16 @@ Example
 <script>
 $("#grpbtn").ejmGroupButton ({ enablePersistence: true });
 </script>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the enablePersistence, after initialization:
 // Get the enablePersistence API value.         
   $("#grpbtn").ejmGroupButton ("option", "enablePersistence");                  
 // Set the enablePersistence API
-  $("#grpbtn").ejmGroupButton ("option", "enablePersistence", true);</code>
-</pre>
+  $("#grpbtn").ejmGroupButton ("option", "enablePersistence", true);{% endhighlight %}
+
 
 
 
@@ -344,8 +344,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the imageclass property in unobtrusive way.
 <div id="grpbtn" data-role="ejmgroupbutton">
 <label data-ej-imageclass="class-ipad">
@@ -354,8 +354,8 @@ Example
 <label data-ej-imageclass="class-ipod">
 <input type="radio"/>ipod
 </label>
-</div>                </code>
-</pre>
+</div>                {% endhighlight %}
+
 
 
 
@@ -397,8 +397,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the imageurl property in unobtrusive way.
 <div id="grpbtn" data-role="ejmgroupbutton">
 <label data-ej-imageurl="ipad.png">
@@ -407,8 +407,8 @@ Example
 <label data-ej-imageurl="ipod.png">
 <input type="radio"/>ipod
 </label>
-</div></code>
-</pre>
+</div>{% endhighlight %}
+
 
 
 
@@ -450,15 +450,15 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the items imageurl property in obtrusive way.
 <div id="grpbtn">
 <script>
 </div>
 $("#group-button").ejmGroupButton({ items: [{ imageUrl: "style" }, { imageUrl: "image" }});
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -500,8 +500,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the renderMode property in unobtrusive way.
 <div id="grpbtn" data-role="ejmgroupbutton" data-ej-rendermode="auto">
 <label>
@@ -510,10 +510,10 @@ Example
 <label>
 <input type="radio"/>ipod
 </label>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the renderMode property in obtrusive way. 
 // To set renderMode API value 
 <div id="grpbtn">
@@ -529,16 +529,16 @@ $(function(){
 $("#grpbtn").ejmGroupButton ({ renderMode: ej.mobile.RenderMode.Auto });        
 });
 </script>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the rendermode, after initialization:
 // Get the renderMode API value.                
  $("#grpbtn").ejmGroupButton ("option", "renderMode");                  
 // Set the renderMode API
-$("#grpbtn").ejmGroupButton ("option", "renderMode", ej.mobile.RenderMode.Auto);            </code>
-</pre>
+$("#grpbtn").ejmGroupButton ("option", "renderMode", ej.mobile.RenderMode.Auto);            {% endhighlight %}
+
 
 
 
@@ -580,8 +580,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the selectedItemIndex property in unobtrusive way.
 <div id="grpbtn" data-role="ejmgroupbutton" data-ej-selecteditemindex=1>
 <label>
@@ -590,10 +590,10 @@ Example
 <label>
 <input type="radio"/>ipod
 </label>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set selectedItemIndex on initialization in obtrusive way
 // To set selectedItemIndex API value in obtrusive way
 <div id="grpbtn">
@@ -607,8 +607,8 @@ Example
 <script>
 $("#grpbtn").ejmGroupButton ({ selectedItemIndex: 1 });
 </script>
-</code>
-</pre>
+{% endhighlight %}
+
 
 
 
@@ -650,8 +650,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the theme property in unobtrusive way.
 <div id="grpbtn" data-role="ejmgroupbutton" data-ej-theme="auto">
 <label>
@@ -660,10 +660,10 @@ Example
 <label>
 <input type="radio"/>ipod
 </label>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the theme property in obtrusive way.
 // To set theme API value 
 <div id="grpbtn">
@@ -679,16 +679,16 @@ $(function(){
 $("#grpbtn").ejmGroupButton ({ theme: ej.mobile.Theme.Auto });
 });
 </script>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the theme, after initialization:
 // Get the theme API value.             
   $("#grpbtn").ejmGroupButton ("option", "theme");                      
 // Set the theme API
-  $("#grpbtn").ejmGroupButton ("option", "theme", ej.mobile.Theme.Auto);</code>
-</pre>
+  $("#grpbtn").ejmGroupButton ("option", "theme", ej.mobile.Theme.Auto);{% endhighlight %}
+
 
 
 
@@ -752,8 +752,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the windows mode renderDefault property in unobtrusive way.
 <div id="grpbtn" data-role="ejmgroupbutton" data-ej-windows-renderdefault=false>
 <label>
@@ -762,10 +762,10 @@ Example
 <label>
 <input type="radio"/>ipod
 </label>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the windows mode renderDefault property in obtrusive way.
 <div id="grpbtn">
 <label>
@@ -778,16 +778,16 @@ Example
 <script>
 $("#grpbtn").ejmGroupButton({"windows.renderDefault": false});
 </script>
-</code>
-</pre>
-<pre class="prettyprint">
-<code> 
+{% endhighlight %}
+
+
+{% highlight html %} 
 // Get or set the windows mode renderDefault API, after initialization:
 // Get the windows mode renderDefault value  
 $("#grpbtn").ejmGroupButton("option", "windows.renderDefault");   
 // Set the windows mode renderDefault value 
-$("#grpbtn").ejmGroupButton("option", "windows.renderDefault", false); </code>
-</pre>
+$("#grpbtn").ejmGroupButton("option", "windows.renderDefault", false); {% endhighlight %}
+
 
 
 
@@ -820,8 +820,8 @@ destroy the GroupButton widget all events bound using this._on will be unbind au
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="grpbtn" >
 <label>
 <input type="radio"/>ipad
@@ -834,10 +834,10 @@ Example
 // Get the instance of the group button
 var grpObj = $("#grpbtn").data("ejmGroupButton");
 grpObj.destroy();
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <div id="grpbtn" data-role="ejmgroupbutton">
 <label>
 <input type="radio" />ipad
@@ -849,8 +849,8 @@ grpObj.destroy();
 <script>
 // destroy the GroupButton
 $("#grpbtn").ejmGroupButton("destroy"); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -886,7 +886,7 @@ Event triggers when the touchend happens in the groupbutton
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from groupbutton
 <table class="params">
@@ -899,22 +899,22 @@ Event triggers when the touchend happens in the groupbutton
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the groupbutton model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>text</code></td>
+<td class="name">{% highlight html %}text{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the selected button text</td>
 </tr>
@@ -931,8 +931,8 @@ Event triggers when the touchend happens in the groupbutton
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Define the touchend event in unobtrusive way.
 <div id="grpbtn" data-role="ejmgroupbutton" data-ej-touchend="touchend">
 <label>
@@ -946,10 +946,10 @@ Example
 // touchEnd event for groupbutton 
 function touchend(args){ //handle the event 
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Define the touchend event in obtrusive way.
 <div id="grpbtn">
 <label>
@@ -964,8 +964,8 @@ $("#grpbtn").ejmGroupButton({
 touchEnd: function (args) { //handle the event 
 }
 });           
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -994,7 +994,7 @@ Event triggers when the touchstart happens in the groupbutton
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from groupbutton
 <table class="params">
@@ -1007,22 +1007,22 @@ Event triggers when the touchstart happens in the groupbutton
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">if the event should be canceled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the groupbutton model</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the name of the event</td>
 </tr>
 <tr>
-<td class="name"><code>text</code></td>
+<td class="name">{% highlight html %}text{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns the current button text</td>
 </tr>
@@ -1039,8 +1039,8 @@ Event triggers when the touchstart happens in the groupbutton
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Define the touchStart event in unobtrusive way.
 <div id="grpbtn" data-role="ejmgroupbutton" data-ej-touchstart="touchstart">
 <label>
@@ -1054,10 +1054,10 @@ Example
 // touchStart event for groupbutton 
 function touchstart(args){ //handle the event
 }
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 // Define the touchStart event in obtrusive way.
 <div id="grpbtn">
 <label>
@@ -1073,8 +1073,8 @@ touchStart: function (args) { //handle the event
 }
 });     
 </script>
-</code>
-</pre>
+{% endhighlight %}
+
 
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: ejmListView
 documentation: API
-platform: mobilejs
+platform: Mobilejs
 metaname: 
 metacontent: 
 ---
@@ -33,8 +33,8 @@ $(element).ejmListView<span class="signature">()</span>
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set listbox in unobtrusive way.
 <div id="lb" data-role="ejmlistview">
          <ul>
@@ -49,10 +49,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set listbox in obtrusive way.
 <div id="lb">
          <ul>
@@ -71,8 +71,8 @@ Example
 <script> 
 // Create ListView
 $("#lb").ejmListView(); 
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -173,8 +173,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the adjustFixedPosition property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-adjustFixedPosition="true">
          <ul>
@@ -189,10 +189,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the adjustFixedPosition property in obtrusive way.
 <div id="lb">
          <ul>
@@ -212,18 +212,18 @@ Example
 //To set adjustFixedPosition API value 
 <script>
 $("#lb").ejmListView ({ adjustFixedPosition: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set adjustFixedPosition, after initialization:
 // Get the adjustFixedPosition API value.               
  $("#lb").ejmListView ("option", "adjustFixedPosition");                        
 // Set the adjustFixedPosition API
 $("#lb").ejmListView ("option", "adjustFixedPosition", true);     
-</script>       </code>
-</pre>
+</script>       {% endhighlight %}
+
 
 
 
@@ -249,8 +249,8 @@ Specifies the settings option for ajax request.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set ajaxSettings in unobtrusive way
 <div id="lb" data-role="ejmlistview" data-ej-ajaxsettings-type="GET" data-ej-ajaxsettings-cache=false data-ej-ajaxsettings-async=true
 data-ej-ajaxsettings-datatype="html" data-ej-ajaxsettings-contenttype="html" >
@@ -259,10 +259,10 @@ data-ej-ajaxsettings-datatype="html" data-ej-ajaxsettings-contenttype="html" >
                 <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
                 <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
         </ul>
-</div>          </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>          {% endhighlight %}
+
+
+{% highlight html %} 
 //Set ajaxSettings in obtrusive way
 <div id="lb" >
         <ul>
@@ -280,18 +280,18 @@ $("#lb").ejmListView({ ajaxSettings: { type: 'GET',
   dataType: "html",
   contentType: "html"
   } });         
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the ListView ajaxSettings, after initialization:
 // Get the ajaxSettings API value.
 $("#lb").ejmListView ("option", "ajaxSettings");                        
 // Set the ajaxSettings API
 $("#lb").ejmListView ("option", "ajaxSettings", { type: 'GET',cache: false,async: true,dataType: "html",contentType: "html",url: "",data: {}});        
-</script>    </code>
-</pre>
+</script>    {% endhighlight %}
+
 
 
 
@@ -333,8 +333,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the allowScrolling property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-allowScrolling="true">
         <ul>
@@ -349,10 +349,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div>            </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>            {% endhighlight %}
+
+
+{% highlight html %} 
 //Set the allowScrolling property in obtrusive way.
 <div id="lb">
         <ul>
@@ -372,18 +372,18 @@ Example
 //To set allowScrolling API value 
 <script>
 $("#lb").ejmListView ({ allowScrolling: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  allowScrolling, after initialization:
 // Get the allowScrolling API value.            
 $("#lb").ejmListView ("option", "allowScrolling");                      
 // Set the allowScrolling API
 $("#lb").ejmListView ("option", "allowScrolling", true);  
-</script>          </code>
-</pre>
+</script>          {% endhighlight %}
+
 
 
 
@@ -425,8 +425,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the autoAdjustScrollHeight property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-autoAdjustHeight="true">
          <ul>
@@ -441,10 +441,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the autoAdjustHeight property in obtrusive way.
 <div id="lb">
          <ul>
@@ -464,18 +464,18 @@ Example
 // Set autoAdjustHeight on initialization. 
 //To set autoAdjustHeight API value 
 $("#lb").ejmListView ({ autoAdjustHeight: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  autoAdjustHeight, after initialization:
 // Get the autoAdjustHeight API value.          
  $("#lb").ejmListView ("option", "autoAdjustHeight");                   
 // Set the autoAdjustHeight API
 $("#lb").ejmListView ("option", "autoAdjustHeight", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -517,8 +517,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the autoAdjustScrollHeight property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-autoAdjustScrollHeight="true">
          <ul>
@@ -533,10 +533,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the autoAdjustScrollHeight property in obtrusive way.
 <div id="lb">
          <ul>
@@ -556,18 +556,18 @@ Example
 // Set autoAdjustScrollHeight on initialization. 
 //To set autoAdjustScrollHeight API value 
 $("#lb").ejmListView ({ autoAdjustScrollHeight: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  autoAdjustScrollHeight, after initialization:
 // Get the autoAdjustScrollHeight API value.            
  $("#lb").ejmListView ("option", "autoAdjustScrollHeight");                     
 // Set the autoAdjustScrollHeight API
 $("#lb").ejmListView ("option", "autoAdjustScrollHeight", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -609,8 +609,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the checkDOMChanges property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-checkdomchanges=true>
         <ul>
@@ -625,10 +625,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the checkDOMChanges property in obtrusive way.
 <div id="lb">
         <ul>
@@ -648,18 +648,18 @@ Example
 //Set the checkDOMChanges property on initialization. 
 //To set checkDOMChanges API value
 $("#lb").ejmListView ({ checkDOMChanges: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  checkDOMChanges, after initialization:
 // Get the checkDOMChanges API value.           
 $("#lb").ejmListView ("option", "checkDOMChanges");                     
 // Set the checkDOMChanges API
 $("#lb").ejmListView ("option", "checkDOMChanges", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -701,8 +701,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the cssClass property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-cssclass="customclass">
          <ul>
@@ -717,10 +717,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the cssClass property in obtrusive way.
 <div id="lb" >
          <ul>
@@ -740,18 +740,18 @@ Example
 // Set cssClass on initialization. 
 //To set cssClass API value 
 $("#lb").ejmListView ({ cssClass: "customclass" });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  cssClass, after initialization:
 // Get the cssClass API value.          
  $("#lb").ejmListView ("option", "cssClass");                   
 // Set the cssClass API
 $("#lb").ejmListView ("option", "cssClass", "customclass");
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -793,8 +793,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the dataSource property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-datasource="window.dbitem">
 </div>           
@@ -807,10 +807,10 @@ window.dbitem =
     { "text": "100 Albums - $5 Each"},
     { "text": "Hip-Hop and R&amp;B Sale"},
     { "text": "CD Deals"}];
-</script> </code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script> {% endhighlight %}
+
+
+{% highlight html %} 
 //Set the dataSource property in obtrusive way.
 <div id="lb" >
 </div>           
@@ -826,18 +826,18 @@ window.dbitem =
     { "text": "100 Albums - $5 Each"},
     { "text": "Hip-Hop and R&amp;B Sale"},
     { "text": "CD Deals"}];
-</script>  </code>
-</pre>
-<pre class="prettyprint">
-<code>       
+</script>  {% endhighlight %}
+
+
+{% highlight html %}       
 <script>
 //Get or set  dataSource, after initialization:
 // Get the dataSource API value.                
 $("#lb").ejmListView ("option", "dataSource");                  
 // Set the dataSource API
 $("#lb").ejmListView ("option", "dataSource", true);   
-</script>                     </code>
-</pre>
+</script>                     {% endhighlight %}
+
 
 
 
@@ -879,8 +879,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enableAjax property in unobtrusive way.
 <div id="lb" data-role="ejmlistview">
         <ul>
@@ -888,10 +888,10 @@ Example
                 <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
                 <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code>  
+</div>{% endhighlight %}
+
+
+{% highlight html %}  
 //Set the enableAjax property in obtrusive way.
 <div id="lb">
         <ul>
@@ -904,18 +904,18 @@ Example
 // Set enableAjax on initialization. 
 //To set enableAjax API value
 $("#lb").ejmListView ({ enableAjax: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  enableAjax, after initialization:
 // Get the enableAjax API value.                
 $("#lb").ejmListView ("option", "enableAjax");                  
 // Set the enableAjax API
 $("#lb").ejmListView ("option", "enableAjax", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -957,8 +957,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enableCache property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-enableCache="true">
         <ul>
@@ -966,10 +966,10 @@ Example
                 <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true" data-ej-enableCache="true"></li>
                 <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true" data-ej-enableCache="true"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the enableCache property in obtrusive way.
 <div id="lb" >
         <ul>
@@ -982,18 +982,18 @@ Example
 // Set enableCache on initialization. 
 //To set enableCache API value 
 $("#lb").ejmListView ({ enableCache: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  enableCache, after initialization:
 // Get the enableCache API value.               
 $("#lb").ejmListView ("option", "enableCache");                 
 // Set the enableCache API
 $("#lb").ejmListView ("option", "enableCache", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1035,8 +1035,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enableCheckMark property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
         <ul>
@@ -1051,10 +1051,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the enableCheckMark property in obtrusive way.
 <div id="lb">
         <ul>
@@ -1074,18 +1074,18 @@ Example
 // Set enableCheckMark on initialization. 
 //To set enableCheckMark API value 
 $("#lb").ejmListView ({ enableCheckMark: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the ListView enableCheckMark, after initialization:
 // Get the enableCheckMark API value.           
 $("#lb").ejmListView ("option", "enableCheckMark");                     
 // Set the enableCheckMark API
 $("#lb").ejmListView ("option", "enableCheckMark", true);    
-</script>        </code>
-</pre>
+</script>        {% endhighlight %}
+
 
 
 
@@ -1127,8 +1127,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enableFiltering property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-enableFiltering="true">
         <ul>
@@ -1143,10 +1143,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the enableFiltering property in obtrusive way.
 <div id="lb">
         <ul>
@@ -1166,18 +1166,18 @@ Example
 // Set enableFiltering on initialization. 
 //To set enableFiltering API value 
 $("#lb").ejmListView ({ enableFiltering: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the ListView enableFiltering, after initialization:
 // Get the enableFiltering API value.           
 $("#lb").ejmListView ("option", "enableFiltering");                     
 // Set the enableFiltering API
 $("#lb").ejmListView ("option", "enableFiltering", true);    
-</script>        </code>
-</pre>
+</script>        {% endhighlight %}
+
 
 
 
@@ -1219,8 +1219,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enableGroupList property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-enableGroupList="true">
         <ul data-ej-grouplisttitle="Network">
@@ -1239,10 +1239,10 @@ Example
                 <li data-ej-text="Brightness"></li>
                 <li data-ej-text="Wallpaper"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the enableGroupList property in obtrusive way.
 <div id="lb">
         <ul data-ej-grouplisttitle="Network">
@@ -1266,18 +1266,18 @@ Example
 // Set enableGroupList on initialization. 
 //To set enableGroupList API value 
 $("#lb").ejmListView ({ enableGroupList: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  enableGroupList, after initialization:
 // Get the enableGroupList API value.           
  $("#lb").ejmListView ("option", "enableGroupList");                    
 // Set the enableGroupList API
 $("#lb").ejmListView ("option", "enableGroupList", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1319,8 +1319,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enableNativeScrolling property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-enableNativeScrolling="true">
          <ul>
@@ -1335,10 +1335,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the enableNativeScrolling property in obtrusive way.
 <div id="lb">
          <ul>
@@ -1358,18 +1358,18 @@ Example
 // Set enableNativeScrolling on initialization. 
 //To set enableNativeScrolling API value 
 $("#lb").ejmListView ({ enableNativeScrolling: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  enableNativeScrolling, after initialization:
 // Get the enableNativeScrolling API value.             
  $("#lb").ejmListView ("option", "enableNativeScrolling");                      
 // Set the enableNativeScrolling API
 $("#lb").ejmListView ("option", "enableNativeScrolling", true); 
-</script>           </code>
-</pre>
+</script>           {% endhighlight %}
+
 
 
 
@@ -1411,8 +1411,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the enablePersistence property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-enablepersistence=true >
          <ul>
@@ -1427,10 +1427,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the enablePersistence property in obtrusive way.
 <div id="lb">
          <ul>
@@ -1450,18 +1450,18 @@ Example
 // Set enablePersistence on initialization. 
 //To set enablePersistence API value 
 $("#lb").ejmListView ({ enablePersistence: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  enablePersistence, after initialization:
 // Get the enablePersistence API value.         
  $("#lb").ejmListView ("option", "enablePersistence");                  
 // Set the enablePersistence API
 $("#lb").ejmListView ("option", "enablePersistence", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1487,8 +1487,8 @@ Specifies the field settings to map the datasource.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the fieldSettings property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-fieldSettings="window.musicFields" data-ej-datasource="window.dbitem" >
 </div>           
@@ -1509,10 +1509,10 @@ window.musicFields = {
 "primaryKey": "PrimaryKeys",
 "parentPrimaryKey": "ParentPrimaryKeyss"
 };
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the fieldSettings property in obtrusive way.
 <div id="lb" >
 </div>           
@@ -1536,18 +1536,18 @@ window.musicFields = {
 $(function(){
 $("#lb").ejmListView({fieldSettings:"window.musicFields",dataSource:"window.dbitem"});
 });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>         
+</script>{% endhighlight %}
+
+
+{% highlight html %}         
 <script>
 //Get or set  fieldSettings, after initialization:
 // Get the fieldSettings API value.             
 $("#lb").ejmListView ("option", "fieldSettings");                       
 // Set the fieldSettings API
 $("#lb").ejmListView ("option", "fieldSettings", true); 
-</script> </code>
-</pre>
+</script> {% endhighlight %}
+
 
 
 
@@ -1589,8 +1589,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the headerBackButtonText property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true" data-ej-headerBackButtonText="Back">
          <ul>
@@ -1605,10 +1605,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the headerBackButtonText property in obtrusive way.
 <div id="lb" >
          <ul>
@@ -1628,18 +1628,18 @@ Example
 // Set headerBackButtonText on initialization. 
 //To set headerBackButtonText API value 
 $("#lb").ejmListView ({ showHeader: true,showHeaderBackButton:true,headerBackButtonText: "Back" });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  headerBackButtonText, after initialization:
 // Get the headerBackButtonText API value.              
  $("#lb").ejmListView ("option", "headerBackButtonText");                       
 // Set the headerBackButtonText API
 $("#lb").ejmListView ("option", "headerBackButtonText", "Back");
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1681,8 +1681,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the headerTitle property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-headerTitle="Title">
          <ul>
@@ -1697,10 +1697,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the headerTitle property in obtrusive way.
 <div id="lb" >
          <ul>
@@ -1720,18 +1720,18 @@ Example
 // Set headerTitle on initialization. 
 //To set headerTitle API value 
 $("#lb").ejmListView ({ headerTitle: "Title" });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  headerTitle, after initialization:
 // Get the headerTitle API value.               
  $("#lb").ejmListView ("option", "headerTitle");                        
 // Set the headerTitle API
 $("#lb").ejmListView ("option", "headerTitle", "Title");
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1773,8 +1773,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the height property in Unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-height="300">
          <ul>
@@ -1789,10 +1789,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the height property in Obtrusive way.
 <div id="lb" >
          <ul>
@@ -1815,8 +1815,8 @@ $("#lb").ejmListView ({ height: 300 });
 // Gets the height API value.           
  $("#lb").ejmListView ("option", "height");                     
 // Sets the height API
-$("#lb").ejmListView ("option", "height", 300);</code>
-</pre>
+$("#lb").ejmListView ("option", "height", 300);{% endhighlight %}
+
 
 
 
@@ -1858,8 +1858,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the hideHeaderForUnsupportedDevice property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-hideHeaderForUnsupportedDevice="true">
          <ul>
@@ -1874,10 +1874,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the hideHeaderForUnsupportedDevice property in obtrusive way.
 <div id="lb">
          <ul>
@@ -1897,18 +1897,18 @@ Example
 // Set hideHeaderForUnsupportedDevice on initialization. 
 //To set hideHeaderForUnsupportedDevice API value 
 $("#lb").ejmListView ({ hideHeaderForUnsupportedDevice: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  hideHeaderForUnsupportedDevice, after initialization:
 // Get the hideHeaderForUnsupportedDevice API value.            
  $("#lb").ejmListView ("option", "hideHeaderForUnsupportedDevice");                     
 // Set the hideHeaderForUnsupportedDevice API
 $("#lb").ejmListView ("option", "hideHeaderForUnsupportedDevice", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -1950,8 +1950,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the inline property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-rendermode="ios7" data-ej-ios7-inline="true">
         <ul>
@@ -1966,10 +1966,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the inline property in obtrusive way.
 <div id="lb">
         <ul>
@@ -1989,18 +1989,18 @@ Example
 // Setinline on initialization. 
 //To set inline API value 
 $("#lb").ejmListView ({ renderMode:"ios7", ios7:{inline: true} });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  inline, after initialization:
 // Get the inline API value.            
 $("#lb").ejmListView ("option", "ios7.inline");                 
 // Set the inline API
 $("#lb").ejmListView ("option", "ios7.inline", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2042,8 +2042,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the items property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-items="window.dbitem"e>
 </div>
@@ -2058,10 +2058,10 @@ window.dbitem =
     { "text": "100 Albums - $5 Each", "parentPrimaryKey": "2" },
     { "text": "Hip-Hop and R&amp;B Sale", "parentPrimaryKey": "2" },
     { "text": "CD Deals", "parentPrimaryKey": "2" }];
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the items property in obtrusive way.
 <div id="lb">
 </div>
@@ -2078,18 +2078,18 @@ window.dbitem = [{ "text": "Discover Music", "primaryKey": "1" },
 //Set the items property on initialization. 
 //To set items API value
 $("#lb").ejmListView ({ items: "window.dbitem" });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set items, after initialization:
 // Get the items API value.             
 $("#lb").ejmListView ("option", "items");                       
 // Set the items API
 $("#lb").ejmListView ("option", "items", "window.dbitem");
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2131,8 +2131,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the persistSelection property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-persistSelection="true">
         <ul>
@@ -2147,10 +2147,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the persistSelection property in obtrusive way.
 <div id="lb">
         <ul>
@@ -2170,18 +2170,18 @@ Example
 // Set persistSelection on initialization. 
 //To set persistSelection API value 
 $("#lb").ejmListView ({ persistSelection: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the ListView persistSelection, after initialization:
 // Get the persistSelection API value.          
 $("#lb").ejmListView ("option", "persistSelection");                    
 // Set the persistSelection API
 $("#lb").ejmListView ("option", "persistSelection", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2223,8 +2223,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the preventSelection property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-preventSelection="true">
         <ul>
@@ -2239,10 +2239,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the preventSelection property in obtrusive way.
 <div id="lb">
         <ul>
@@ -2262,18 +2262,18 @@ Example
 // Set preventSelection on initialization. 
 //To set preventSelection API value 
 $("#lb").ejmListView ({ preventSelection: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the ListView preventSelection, after initialization:
 // Get the preventSelection API value.          
 $("#lb").ejmListView ("option", "preventSelection");                    
 // Set the preventSelection API
 $("#lb").ejmListView ("option", "preventSelection", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2315,8 +2315,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the query property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-fieldSettings="window.dbitem" data-ej-datasource="window.datasource" 
 data-ej-query="ej.Query().from('Orders').select('ShipCity').take(5)">
@@ -2327,10 +2327,10 @@ data-ej-query="ej.Query().from('Orders').select('ShipCity').take(5)">
         url: "http://mvc.syncfusion.com/Services/Northwnd.svc/"
                 });
                 window.dbitem = { "text": "ShipCity" };            
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the query property in obtrusive way.
 <div id="lb" >
 </div>            
@@ -2343,18 +2343,18 @@ data-ej-query="ej.Query().from('Orders').select('ShipCity').take(5)">
 $(function(){
 $("#lb").ejmListView({fieldSettings:"window.dbitem",dataSource:"window.datasource",query:"ej.Query().from('Orders').select('ShipCity').take(5)"});
 });         
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code>        
+</script>{% endhighlight %}
+
+
+{% highlight html %}        
 <script>  
 //Get or set  query, after initialization:
 // Get the query API value.             
 $("#lb").ejmListView ("option", "query");                       
 // Set the query API
 $("#lb").ejmListView ("option", "query", true);  
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2396,8 +2396,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the renderMode property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-renderMode="auto">
         <ul>
@@ -2412,10 +2412,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the renderMode property in obtrusive way.
 <div id="lb">
         <ul>
@@ -2435,18 +2435,18 @@ Example
 // Set renderMode on initialization. 
 //To set renderMode API value 
 $("#lb").ejmListView ({ renderMode: "auto" });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  renderMode, after initialization:
 // Get the renderMode API value.                
 $("#lb").ejmListView ("option", "renderMode");                  
 // Set the renderMode API
 $("#lb").ejmListView ("option", "renderMode", "auto");
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -2488,8 +2488,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the renderTemplate property in unobtrusive way.
 <div id="lb" data-role="ejmlistview">
         <ul>
@@ -2506,8 +2506,8 @@ Example
 </div>
 <div id="target3">
         <div> Template3 </div>
-</div>            </code>
-</pre>
+</div>            {% endhighlight %}
+
 
 
 
@@ -2549,8 +2549,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the selectedItemIndex property in Unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-selectedItemIndex="2">
          <ul>
@@ -2565,10 +2565,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the selectedItemIndex property in Obtrusive way.
 <div id="lb" >
          <ul>
@@ -2591,8 +2591,8 @@ $("#lb").ejmListView ({ selectedItemIndex: 2 });
 // Gets the selectedItemIndex API value.                
  $("#lb").ejmListView ("option", "selectedItemIndex");                  
 // Sets the selectedItemIndex API
-$("#lb").ejmListView ("option", "selectedItemIndex", 2);</code>
-</pre>
+$("#lb").ejmListView ("option", "selectedItemIndex", 2);{% endhighlight %}
+
 
 
 
@@ -2634,8 +2634,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the showHeader property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-showHeader="true">
          <ul>
@@ -2650,10 +2650,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the showHeader property in obtrusive way.
 <div id="lb">
          <ul>
@@ -2673,18 +2673,18 @@ Example
 // Set showHeader on initialization. 
 //To set showHeader API value 
 $("#lb").ejmListView ({ showHeader: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  showHeader, after initialization:
 // Get the showHeader API value.                
  $("#lb").ejmListView ("option", "showHeader");                 
 // Set the showHeader API
 $("#lb").ejmListView ("option", "showHeader", true);  
-</script>          </code>
-</pre>
+</script>          {% endhighlight %}
+
 
 
 
@@ -2726,8 +2726,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the showHeaderBackButton property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true">
          <ul>
@@ -2742,10 +2742,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the showHeaderBackButton property in obtrusive way.
 <div id="lb">
          <ul>
@@ -2765,18 +2765,18 @@ Example
 // Set showHeaderBackButton on initialization. 
 //To set showHeaderBackButton API value 
 $("#lb").ejmListView ({ showHeaderBackButton: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  showHeaderBackButton, after initialization:
 // Get the showHeaderBackButton API value.              
  $("#lb").ejmListView ("option", "showHeaderBackButton");                       
 // Set the showHeaderBackButton API
 $("#lb").ejmListView ("option", "showHeaderBackButton", true);   
-</script>         </code>
-</pre>
+</script>         {% endhighlight %}
+
 
 
 
@@ -2818,8 +2818,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the showScrollbars property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-showScrollbars="true">
          <ul>
@@ -2834,10 +2834,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the showScrollbars property in obtrusive way.
 <div id="lb">
          <ul>
@@ -2857,18 +2857,18 @@ Example
 // Set showScrollbars on initialization. 
 //To set showScrollbars API value 
 $("#lb").ejmListView ({ showScrollbars: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  showScrollbars, after initialization:
 // Get the showScrollbars API value.            
  $("#lb").ejmListView ("option", "showScrollbars");                     
 // Set the showScrollbars API
 $("#lb").ejmListView ("option", "showScrollbars", true); 
-</script>           </code>
-</pre>
+</script>           {% endhighlight %}
+
 
 
 
@@ -2910,8 +2910,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the templateId property in unobtrusive way.
 <div id="lb" data-role="ejmlistview">
         <ul>
@@ -2928,8 +2928,8 @@ Example
 </div>
 <div id="target3">
         <div> Template3 </div>
-</div></code>
-</pre>
+</div>{% endhighlight %}
+
 
 
 
@@ -2971,8 +2971,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the theme property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-theme="auto">
         <ul>
@@ -2987,10 +2987,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the theme property in obtrusive way.
 <div id="lb">
         <ul>
@@ -3010,18 +3010,18 @@ Example
 // Set theme on initialization. 
 //To set theme API value 
 $("#lb").ejmListView ({ theme: "auto" });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  theme, after initialization:
 // Get the theme API value.             
 $("#lb").ejmListView ("option", "theme");                       
 // Set the theme API
 $("#lb").ejmListView ("option", "theme", "auto");
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3063,8 +3063,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the transition property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-transition="slide">
         <ul>
@@ -3079,10 +3079,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the transition property in obtrusive way.
 <div id="lb">
         <ul>
@@ -3102,18 +3102,18 @@ Example
 // Set transition on initialization. 
 //To set transition API value 
 $("#lb").ejmListView ({ transition: "slide" });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set the ListView transition, after initialization:
 // Get the transition API value.                
 $("#lb").ejmListView ("option", "transition");                  
 // Set the transition API
 $("#lb").ejmListView ("option", "transition", "slide");
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3155,8 +3155,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the width property in Unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-width="200">
          <ul>
@@ -3171,10 +3171,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the width property in Obtrusive way.
 <div id="lb" >
          <ul>
@@ -3197,8 +3197,8 @@ $("#lb").ejmListView ({ width: 200 });
 // Gets the width API value.            
  $("#lb").ejmListView ("option", "width");                      
 // Sets the width API
-$("#lb").ejmListView ("option", "width", 200);</code>
-</pre>
+$("#lb").ejmListView ("option", "width", 200);{% endhighlight %}
+
 
 
 
@@ -3262,8 +3262,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the windows mode enableCustomText property for header in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-windows-enableheadercustomtext="true">
          <ul>
@@ -3278,10 +3278,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 // Set the windows mode enableCustomText property for header in obtrusive way.
 <div id="lb">
          <ul>
@@ -3301,18 +3301,18 @@ Example
 // Set enableCustomText on initialization. 
 //To set enableHeaderCustomText API value 
 $("#lb").ejmListView ({ windows:{ enableHeaderCustomText: true });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  enableHeaderCustomText, after initialization:
 // Get the enableHeaderCustomText API value.            
  $("#lb").ejmListView ("option", "windows.enableHeaderCustomText");                     
 // Set the enableHeaderCustomText API
 $("#lb").ejmListView ("option", "windows.enableHeaderCustomText", true);  
-</script>          </code>
-</pre>
+</script>          {% endhighlight %}
+
 
 
 
@@ -3354,8 +3354,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the preventSkew property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-rendermode="windows" data-ej-windows-preventSkew="true">
         <ul>
@@ -3370,10 +3370,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the preventSkew property in obtrusive way.
 <div id="lb" >
         <ul>
@@ -3393,18 +3393,18 @@ Example
 // Set preventSkew on initialization. 
 //To set preventSkew API value
 $("#lb").ejmListView ({ windows:{preventSkew: true} });
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  preventSkew, after initialization:
 // Get the preventSkew API value.               
 $("#lb").ejmListView ("option", "windows.preventSkew");                 
 // Set the preventSkew API
 $("#lb").ejmListView ("option", "windows.preventSkew", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3446,8 +3446,8 @@ Default Value:
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the renderDefault property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-rendermode="windows" data-ej-windows-renderDefault="true">
         <ul>
@@ -3462,10 +3462,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //Set the renderDefault property in obtrusive way.
 <div id="lb">
         <ul>
@@ -3485,18 +3485,18 @@ Example
 // Set renderDefault on initialization. 
 //To set renderDefault API value 
 $("#lb").ejmListView ({ renderMode:"windows", windows:{renderDefault: true} });                
-</script></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</script>{% endhighlight %}
+
+
+{% highlight html %} 
 <script>
 //Get or set  renderDefault, after initialization:
 // Get the renderDefault API value.             
 $("#lb").ejmListView ("option", "windows.renderDefault");                       
 // Set the renderDefault API
 $("#lb").ejmListView ("option", "windows.renderDefault", true);
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3529,8 +3529,8 @@ To add item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -3550,8 +3550,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("addItem",$("&amp;ltli data-ej-text='Comic / Cartoon'></li>"),2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3577,8 +3577,8 @@ To check all the items.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -3598,8 +3598,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("checkAllItem");
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3625,8 +3625,8 @@ To check item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -3646,8 +3646,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("checkItem",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3673,8 +3673,8 @@ To clear all the list item in the control before updating with new datasource.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview" data-ej-datasource="window.dbitem1" >
 </div>  
 <input id="button" type="button" data-role="ejmbutton" data-ej-text="Clear" data-ej-touchend="touchend" />
@@ -3698,8 +3698,8 @@ function touchend(){
     $('#lb').ejmListView("clear");
     $("#lb").ejmListView({dataSource:"window.dbitem2"});
 }
-</script>  </code>
-</pre>
+</script>  {% endhighlight %}
+
 
 
 
@@ -3725,8 +3725,8 @@ To make the item in the given index to be default state.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -3747,8 +3747,8 @@ $(document).ready(function(){
 $("#lb").ejListView({persistSelection:true});
 $("#lb").ejmListView("deActive",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3774,8 +3774,8 @@ To disable item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -3795,8 +3795,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("disableItem",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3822,8 +3822,8 @@ To enable item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -3843,8 +3843,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("enableItem",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3870,8 +3870,8 @@ To get the active item.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -3891,8 +3891,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("getActiveItem");
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3918,8 +3918,8 @@ To get the text of the active item.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -3939,8 +3939,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("getActiveItemText");
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -3966,8 +3966,8 @@ To get all the checked items.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -3987,8 +3987,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("getCheckedItems");
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4014,8 +4014,8 @@ To get the text of all the checked items.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4035,8 +4035,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("getCheckedItemsText");
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4062,8 +4062,8 @@ To get the total item count.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4083,8 +4083,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("getItemsCount");
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4110,8 +4110,8 @@ To get the text of the item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4131,8 +4131,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("getItemText",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4158,8 +4158,8 @@ To check whether the item in the given index has child item.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4179,8 +4179,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("hasChild",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4206,8 +4206,8 @@ To hide the list.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4227,8 +4227,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("hide");
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4254,8 +4254,8 @@ To hide item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4275,8 +4275,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("hideItem",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4302,8 +4302,8 @@ To check whether item in the given index is checked.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4323,8 +4323,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("isChecked",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4350,8 +4350,8 @@ To load the ajax content while selecting the item.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableAjax="true"></li>
@@ -4364,8 +4364,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("loadAjaxContent","load1.html");
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4391,8 +4391,8 @@ To remove the check mark either for specific item in the given index or for all 
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4413,8 +4413,8 @@ $(document).ready(function(){
 $("#lb").ejListView({enableCheckMark:true});
 $("#lb").ejmListView("removeCheckMark",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4440,8 +4440,8 @@ To remove item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4461,8 +4461,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("removeItem",3);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4488,8 +4488,8 @@ To select item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4510,8 +4510,8 @@ $(document).ready(function(){
 $("#lb").ejListView({enableCheckMark:true});
 $("#lb").ejmListView("selectItem",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4537,8 +4537,8 @@ To make the item in the given index to be active state.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4559,8 +4559,8 @@ $(document).ready(function(){
 $("#lb").ejmListView({persistSelection:true});
 $("#lb").ejmListView("setActive",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4586,8 +4586,8 @@ To show the list.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4607,8 +4607,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("show");
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4634,8 +4634,8 @@ To show item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4655,8 +4655,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("showItem",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4682,8 +4682,8 @@ To uncheck all the items.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4703,8 +4703,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("unCheckAllItem");
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4730,8 +4730,8 @@ To uncheck item in the given index.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 <div id="lb" data-role="ejmlistview">
         <ul>
                 <li data-ej-text="Artwork"></li>
@@ -4751,8 +4751,8 @@ Example
 $(document).ready(function(){
 $("#lb").ejmListView("unCheckItem",2);
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4788,7 +4788,7 @@ Event triggers before the ajax request happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from listview.
 <table class="params">
@@ -4801,22 +4801,22 @@ Event triggers before the ajax request happens.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>ajaxData</code></td>
+<td class="name">{% highlight html %}ajaxData{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the ajax settings.</td>
 </tr>
@@ -4833,8 +4833,8 @@ Event triggers before the ajax request happens.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the ajaxBeforeLoad property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-ajaxBeforeLoad="ajaxBeforeLoad">
         <ul>
@@ -4842,10 +4842,10 @@ Example
                 <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
                 <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //ajaxBeforeLoad event for ListView
 <div id="lb" data-role="ejmlistview">
         <ul>
@@ -4861,8 +4861,8 @@ $("#lb").ejmListView({
 }
         });           
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4891,7 +4891,7 @@ Event triggers after the ajax content loaded completely.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from listview.
 <table class="params">
@@ -4904,17 +4904,17 @@ Event triggers after the ajax content loaded completely.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
@@ -4931,8 +4931,8 @@ Event triggers after the ajax content loaded completely.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the ajaxComplete property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-ajaxComplete="ajaxComplete">
         <ul>
@@ -4940,10 +4940,10 @@ Example
                 <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
                 <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //ajaxComplete event for ListView
 <div id="lb" data-role="ejmlistview" >
         <ul>
@@ -4959,8 +4959,8 @@ $("#lb").ejmListView({
 }
         });         
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -4989,7 +4989,7 @@ Event triggers when the ajax request failed.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from listview.
 <table class="params">
@@ -5002,42 +5002,42 @@ Event triggers when the ajax request failed.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>errorThrown</code></td>
+<td class="name">{% highlight html %}errorThrown{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the error thrown in the ajax post.</td>
 </tr>
 <tr>
-<td class="name"><code>textStatus</code></td>
+<td class="name">{% highlight html %}textStatus{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the status.</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the curent list item.</td>
 </tr>
 <tr>
-<td class="name"><code>text</code></td>
+<td class="name">{% highlight html %}text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current item text.</td>
 </tr>
 <tr>
-<td class="name"><code>index</code></td>
+<td class="name">{% highlight html %}index{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current item index.</td>
 </tr>
@@ -5054,8 +5054,8 @@ Event triggers when the ajax request failed.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the ajaxError property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-ajaxError="ajaxError">
         <ul>
@@ -5063,10 +5063,10 @@ Example
                 <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
                 <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //ajaxError event for ListView
 <div id="lb" data-role="ejmlistview">
         <ul>
@@ -5082,8 +5082,8 @@ $("#lb").ejmListView({
 }
         });         
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -5112,7 +5112,7 @@ Event triggers after the ajax content loaded successfully.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from listview.
 <table class="params">
@@ -5125,42 +5125,42 @@ Event triggers after the ajax content loaded successfully.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>content</code></td>
+<td class="name">{% highlight html %}content{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the ajax current content.</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
 <td class="description last">returns the curent list item.</td>
 </tr>
 <tr>
-<td class="name"><code>text</code></td>
+<td class="name">{% highlight html %}text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current item text.</td>
 </tr>
 <tr>
-<td class="name"><code>index</code></td>
+<td class="name">{% highlight html %}index{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current item index.</td>
 </tr>
 <tr>
-<td class="name"><code>url</code></td>
+<td class="name">{% highlight html %}url{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current url of the ajax post.</td>
 </tr>
@@ -5177,8 +5177,8 @@ Event triggers after the ajax content loaded successfully.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the ajaxSuccess property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-ajaxSuccess="ajaxSuccess">
         <ul>
@@ -5186,10 +5186,10 @@ Example
                 <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
                 <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //ajaxSuccess event for ListView
 <div id="lb" data-role="ejmlistview">
         <ul>
@@ -5205,8 +5205,8 @@ $("#lb").ejmListView({
 }
         });         
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -5235,7 +5235,7 @@ Event triggers when touch end happens on the back button in the header.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from listbox.
 <table class="params">
@@ -5248,22 +5248,22 @@ Event triggers when touch end happens on the back button in the header.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>text</code></td>
+<td class="name">{% highlight html %}text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the text of the button.</td>
 </tr>
@@ -5280,8 +5280,8 @@ Event triggers when touch end happens on the back button in the header.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 // Set the headerBackButtonTap property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true" data-ej-headerBackButtonTap="headerBackButtonTap">
          <ul>
@@ -5296,10 +5296,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //headerBackButtonTap event for ListView
 <div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true">
          <ul>
@@ -5320,8 +5320,8 @@ $("#lb").ejmListView({
         headerBackButtonTap: function (args) { //handle the event 
 }
         });         
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -5350,7 +5350,7 @@ Event triggers before the items loaded.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from listview.
 <table class="params">
@@ -5363,17 +5363,17 @@ Event triggers before the items loaded.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
@@ -5390,8 +5390,8 @@ Event triggers before the items loaded.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the load property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-load="load">
         <ul>
@@ -5406,10 +5406,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //load event for ListView
 <div id="lb" data-role="ejmlistview">
         <ul>
@@ -5432,8 +5432,8 @@ $("#lb").ejmListView({
 }
         });         
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -5462,7 +5462,7 @@ Event triggers after the items loaded.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from listview.
 <table class="params">
@@ -5475,17 +5475,17 @@ Event triggers after the items loaded.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
@@ -5502,8 +5502,8 @@ Event triggers after the items loaded.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the loadComplete property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-loadComplete="loadComplete">
         <ul>
@@ -5518,10 +5518,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //loadComplete event for ListView
 <div id="lb" data-role="ejmlistview">
         <ul>
@@ -5544,8 +5544,8 @@ $("#lb").ejmListView({
 }
         });         
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -5574,7 +5574,7 @@ Event triggers when touch end happens on the item.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from listbox.
 <table class="params">
@@ -5587,52 +5587,52 @@ Event triggers when touch end happens on the item.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>hasChild</code></td>
+<td class="name">{% highlight html %}hasChild{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">If the child element exist return true; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current list item.</td>
 </tr>
 <tr>
-<td class="name"><code>text</code></td>
+<td class="name">{% highlight html %}text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current text of item.</td>
 </tr>
 <tr>
-<td class="name"><code>index</code></td>
+<td class="name">{% highlight html %}index{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current Index of the item.</td>
 </tr>
 <tr>
-<td class="name"><code>isChecked</code></td>
+<td class="name">{% highlight html %}isChecked{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">If checked return true; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>checkedItems</code></td>
+<td class="name">{% highlight html %}checkedItems{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the list of checked items.</td>
 </tr>
 <tr>
-<td class="name"><code>checkedItemsText</code></td>
+<td class="name">{% highlight html %}checkedItemsText{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current checked item text.</td>
 </tr>
@@ -5649,8 +5649,8 @@ Event triggers when touch end happens on the item.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the touchEnd property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-touchEnd="touchEnd">
         <ul>
@@ -5665,10 +5665,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //touchEnd event for ListView
 <div id="lb" data-role="ejmlistview">
         <ul>
@@ -5691,8 +5691,8 @@ $("#lb").ejmListView({
 }
         });    
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
@@ -5721,7 +5721,7 @@ Event triggers when touch start happens on the item.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>argument</code></td>
+<td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">Event parameters from listbox.
 <table class="params">
@@ -5734,52 +5734,52 @@ Event triggers when touch start happens on the item.
 </thead>
 <tbody>
 <tr>
-<td class="name"><code>cancel</code></td>
+<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>type</code></td>
+<td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name"><code>model</code></td>
+<td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
 <td class="description last">returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name"><code>hasChild</code></td>
+<td class="name">{% highlight html %}hasChild{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">If the child element exist return true; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>item</code></td>
+<td class="name">{% highlight html %}item{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current list item.</td>
 </tr>
 <tr>
-<td class="name"><code>text</code></td>
+<td class="name">{% highlight html %}text{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current text of item.</td>
 </tr>
 <tr>
-<td class="name"><code>index</code></td>
+<td class="name">{% highlight html %}index{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the current Index of the item.</td>
 </tr>
 <tr>
-<td class="name"><code>isChecked</code></td>
+<td class="name">{% highlight html %}isChecked{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
 <td class="description last">If checked return true; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name"><code>checkedItems</code></td>
+<td class="name">{% highlight html %}checkedItems{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
 <td class="description last">returns the list of checked items.</td>
 </tr>
 <tr>
-<td class="name"><code>checkedItemsText</code></td>
+<td class="name">{% highlight html %}checkedItemsText{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
 <td class="description last">returns the current checked item text.</td>
 </tr>
@@ -5796,8 +5796,8 @@ Event triggers when touch start happens on the item.
 Example
 {:.example}
 
-<pre class="prettyprint">
-<code> 
+
+{% highlight html %} 
 //Set the touchStart property in unobtrusive way.
 <div id="lb" data-role="ejmlistview" data-ej-touchStart="touchStart">
         <ul>
@@ -5812,10 +5812,10 @@ Example
                 <li data-ej-text="Preschool Crafts"></li>
                 <li data-ej-text="School-age Crafts"></li>
         </ul>
-</div></code>
-</pre>
-<pre class="prettyprint">
-<code> 
+</div>{% endhighlight %}
+
+
+{% highlight html %} 
 //touchStart event for ListView
 <div id="lb" data-role="ejmlistview">
         <ul>
@@ -5838,8 +5838,8 @@ $("#lb").ejmListView({
 }
         });         
 });
-</script></code>
-</pre>
+</script>{% endhighlight %}
+
 
 
 
