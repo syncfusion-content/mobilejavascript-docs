@@ -452,6 +452,8 @@ Use the following styles for content style.
 
 ![](Getting-Started_images/Getting-Started_img5.png)
 
+![](Getting-Started_images/Getting-Started_img7.png)
+
 ## Load content-on-demand
 
 In some cases, you can load content only when it is required. In this case, the Ongoing Matches panel needs to be loaded only when you want to check for updates, since it refers a live content. To achieve this, specify data-ej-ajaxurl attribute with the respective URL of the HTML file that contains the dynamic content.

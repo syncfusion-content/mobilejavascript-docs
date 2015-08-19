@@ -35,7 +35,7 @@ Set the data-role attribute of a “div” to appview as shown in the following 
 {% endhighlight %}
 
 
->  Note: When the application does not contain an appview element, it is created automatically and wraps the content of the application before all the EJ mobile widgets are initialized. 
+> Note: When the application does not contain an appview element, it is created automatically and wraps the content of the application before all the EJ mobile widgets are initialized. 
 
 #### Page Navigation
 
@@ -66,7 +66,7 @@ App.transferPage(App.activePage, "page2.html");
 
 {% endhighlight %}
 
->  Note: Before specifying the destined URL of the file, make sure that the file with the specific name already exists in that location.
+> Note: Before specifying the destined URL of the file, make sure that the file with the specific name already exists in that location.
 
 #### Page Transitions
 

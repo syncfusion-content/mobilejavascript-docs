@@ -126,6 +126,7 @@ The data-ej-emptyresulttext attribute is used to customize the text that is disp
 
 
 The following screenshot displays empty result
+
 ![](Customize-suggestion-list_images/Customize-suggestion-list_img4.png)
 
 

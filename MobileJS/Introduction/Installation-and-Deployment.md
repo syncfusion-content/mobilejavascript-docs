@@ -50,7 +50,7 @@ C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\JavaScript\
 
 {% endhighlight %}
 
-##### assets 
+#### assets 
 
 The assets folder comprises of all the minified versions of the external and common Scripts, Stylesheets and TypeScript files under their corresponding folders. It includes 4 sub-folders,
 

@@ -26,14 +26,14 @@ The [CDN](http://en.wikipedia.org/wiki/Content_delivery_network) links are provi
 The first three common script libraries listed in the following table are more essential and mandatory to render any of the Syncfusion widgets on the application module. The basic syntax is as follows,
 
 
-
+{% highlight text %}
 http://cdn.syncfusion.com/js/assets/external/[file name]
 
 Example:
 
 http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js
 
-
+{% endhighlight %}
 
 _Property Table_
 
@@ -94,11 +94,14 @@ To enable unobtrusive validation options in data-* attributes.</td><td>
 
 The CDN script files are maintained for each version of the Essential Studio individually. Refer to the following syntax.
 
+{% highlight text %}
 http://cdn.syncfusion.com/[version]/js/mobile/[file name]
 
 For example, to access the ej.mobile.all.min.js file in 13.1.0.21 version– 
 
 [https://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](https://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)
+
+{% endhighlight %}
 
 _Property Table_
 
@@ -131,19 +134,21 @@ Provides complete support for Knockout JS.</td><td>
 </table>
 The Knockout and angular dependencies can be accessed through the following syntax,
 
+{% highlight text %}
 http://cdn.syncfusion.com/[version]/js/[file name]
 
 For example, to access the ej.widget.angular.min.js file in 13.1.0.21 version– 
 
 [https://cdn.syncfusion.com/13.1.0.21/js/ej.widget.angular.min.js](https://cdn.syncfusion.com/13.1.0.21/js/ej.widget.angular.min.js)
-
+{% endhighlight %}
 
 
 ## CDN Stylesheet links
 
 The CDN links for all the css files (both core & theme related) are depicted together in the following table. Refer to the following syntax:
-
+{% highlight text %}
 http://cdn.syncfusion.com/[version]/js/mobile/[file name]
+{% endhighlight %}
 
 _Property Table_
 

@@ -22,110 +22,57 @@ The Essential JavaScript Mobile AutoComplete control is a text box control that 
 
 Essential JavaScript Mobile AutoComplete control can be rendered using a simple HTML textbox. It is rendered based on the default values for all the properties; you can easily customize Mobile AutoComplete control by changing its properties. The following code example shows how to create a search contact. 
 
-Create an HTML file and paste the following template to the html file for AutoComplete creation.
+1. Create an HTML file and paste the following template to the html file for AutoComplete creation.
 
-{% highlight html %}
+   ~~~ html
+   <!DOCTYPE html>
+   <html>   
+   <head>
+   <title> Autocomplete</title>
+   <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
+   <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+   <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+   <script src="[http://js.syncfusion.com/UG/Mobile/Content/contacts.min.js](http://js.syncfusion.com/UG/Mobile/Content/contacts.min.js)"></script>
+   </head>
+   <body>
+   <div id="page" data-role="appview">
+   <!-- Header control -->
+   <div id="header" data-role="ejmheader" data-ej-title="Contacts">
+   </div>
+   <div id="content">
+   <div style="padding: 5px 0; text-indent: 5px;">
+   Select Contacts</div>
+   <div>
+   <!--Adds Autocomplete Elements here.--> 
+   </div>
+   </div> 
+   <!-- Scroll panel -->
+   <div data-role="ejmscrollpanel" data-ej-target="content"></div>
+   </div>
+   </body>
+   </html>
+   ~~~
+   {:.prettyprint}   
 
-<!DOCTYPE html>
+2. To render the AutoComplete control, set “data-role” attribute to “ejmautocomplete” to an input element. 
 
-<html>   
+   ~~~ html
+   <!-- Autocomplete control -->
+   <input id="contacts" data-role="ejmautocomplete" />
+   ~~~ 
+   {:.prettyprint}
 
-<head>
+   ![](Getting-Started_images/Getting-Started_img2.png)
 
-<title> Autocomplete</title>
+    You can customize its watermark text using data-ej-watermarktext attribute.
 
-<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
-
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
-
-<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
-
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
-
-<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
-
-
-
-<script src="[http://js.syncfusion.com/UG/Mobile/Content/contacts.min.js](http://js.syncfusion.com/UG/Mobile/Content/contacts.min.js)"></script>
-
-</head>
-
-
-
-<body>
-
-    <div id="page" data-role="appview">
-
-        <!-- Header control -->
-
-        <div id="header" data-role="ejmheader" data-ej-title="Contacts">
-
-        </div>
-
-        <div id="content">
-
-                    <div style="padding: 5px 0; text-indent: 5px;">
-
-                         Select Contacts</div>
-
-            <div>
-
-               <!--Adds Autocomplete Elements here.-->
-
-            </div>
-
-        </div> 
-        <!-- Scroll panel -->
-
-        <div data-role="ejmscrollpanel" data-ej-target="content"></div>
-
-    </div>
-
-</body>
-
-</html>
-
-
-
-{% endhighlight %}
-
-
-
-To render the AutoComplete control, set “data-role” attribute to “ejmautocomplete” to an input element. 
-
-{% highlight html %}
-
-
-     <!-- Autocomplete control -->
-
-     <input id="contacts" data-role="ejmautocomplete" />
-
-
-
-
-{% endhighlight %}
-
-
-
-![](Getting-Started_images/Getting-Started_img2.png)
-
-You can customize its watermark text using data-ej-watermarktext attribute.
-
-{% highlight html %}
-
-
-<!-- Autocomplete control -->
-
-<input id="contacts" data-role="ejmautocomplete" data-ej-watermarktext="Search Contacts" />
-
-
-
-
-{% endhighlight %}
-
-
-
-![](Getting-Started_images/Getting-Started_img3.png)
+    {% highlight html %}
+	<!-- Autocomplete control -->
+	<input id="contacts" data-role="ejmautocomplete" data-ej-watermarktext="Search Contacts" />
+	{% endhighlight %}
+	![](Getting-Started_images/Getting-Started_img3.png)
 
 
 ### Data binding

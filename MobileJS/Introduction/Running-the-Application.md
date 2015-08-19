@@ -113,9 +113,9 @@ To open the Web page on a browser, open the desired browser and type in the foll
 
 ### Running Device
 
-1 . To access this Webpage from your mobile/tablet device, make sure that the following prerequisites are met:
-  * The IIS port is open to firewall. Type the following URL on the mobile/tablet device. (Refer to: Enabling IIS port in Firewall section for more details).
-  * The Mobile device and the IIS hosted Machine must be connected to the same network for IIS to work.
+1. To access this Webpage from your mobile/tablet device, make sure that the following prerequisites are met:
+   * The IIS port is open to firewall. Type the following URL on the mobile/tablet device. (Refer to: Enabling IIS port in Firewall section for more details).
+   * The Mobile device and the IIS hosted Machine must be connected to the same network for IIS to work.
 2. Type the following URL on the mobile/tablet: [http://ipaddress/MobileApp/<samplename>.html](http://ipaddress/MobileApp/%3csamplename%3e.html)
 
 ### Device emulation in the browser
@@ -141,7 +141,9 @@ You can emulate Mobile application in Chrome browser to know how its look varies
 
    _Chrome_
 
-5. You can select different devices from the dropdown list to emulate mobile applications. Refer to the following screenshots where mobile applications are emulated in different modes (Nexus 5, iPhone 5, and Lumia 520).
+5. You can select different devices from the dropdown list to emulate mobile applications. Refer to the following screenshots where mobile applications are
+   emulated in different modes (Nexus 5, iPhone 5, and Lumia 520).
+
    ![](Running-the-Application_images/Running-the-Application_img14.png)
 
 
@@ -174,26 +176,26 @@ Version of the OS X prior to mountain lion and mavericks can turn on “web shar
 2. Type the following command and replace the USERNAME with user account short name: Nano /etc/apache2/users/USERNAME.conf
 3. Enter the admin password when requested, and then paste the following into the nano text editor.
 
-<Directory “/Users/USERNAME/Sites/”>
+   <Directory “/Users/USERNAME/Sites/”>
 
-Options  Indexes Multiviews
+   Options  Indexes Multiviews
 
-AllowOverride AuthConfig Limit
+   AllowOverride AuthConfig Limit
 
-Order allow, deny
+   Order allow, deny
 
-Allow from all
+   Allow from all
 
-</Directory>
+   </Directory>
 
 4. Edit the Directory path USERNAME to an appropriate username.
 5. Do not click Control+O to save the changes to USERNAME.conf. Click Control+X to quit.
 6. Next, you can start the web server with the following command: sudo apachect1 start.
 7. Launch the browser and navigate to [http://127.0.0.1](http://127.0.0.1) to verify whether the server is running. You will get an “It works!” message.
 
-Then visit the http://127.0.0.1/~USERNAME / to see all the contents stored in the user ~/Sites/directory/, and you can add an index.html file or any other to the directory, to serve it to the outside world or even just the LAN.
+   Then visit the http://127.0.0.1/~USERNAME / to see all the contents stored in the user ~/Sites/directory/, and you can add an index.html file or any other to the directory, to serve it to the outside world or even just the LAN.
 
-You can also use [http://localhost](http://localhost), and can edit the host files to set a local domain to whatever you want, to create local test environment with another live domain
+   You can also use [http://localhost](http://localhost), and can edit the host files to set a local domain to whatever you want, to create local test environment with another live domain
 
 8. To stop apache server user, use the following command: sudo apachect1 stop.
 9. To restart apache server, use the following command: sudo apachect1 restart. 
