@@ -9,6 +9,8 @@ documentation: ug
 
 # Getting Started
 
+## Create your first TextArea in JavaScript
+
 From the following guidelines, you can create basic Mail sending form by using the TextArea control.  In the following output, message field is rendered by using the TextArea.
 
 ![](Getting-Started_images/Getting-Started_img1.png)
@@ -16,7 +18,7 @@ From the following guidelines, you can create basic Mail sending form by using t
 
 
 
-## Create the necessary layout 
+### Create the necessary layout 
 
 Create an HTML file and add the following template to the HTML file.
 
