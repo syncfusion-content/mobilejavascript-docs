@@ -9,6 +9,8 @@ documentation: ug
 
 # Getting Started
 
+This section briefly describes how to create a DatePicker control in your application.
+
 ## Create your first DatePicker in JavaScript
 
 Essential Mobile JavaScript DatePicker provides support to display the picker element within your webpage and allows you to pick the date. By the following guidelines, you can learn how to customize two DatePickers for a real-time ticket booking scenario. The following screenshot demonstrates the functionality of DatePicker.
@@ -19,167 +21,86 @@ Essential Mobile JavaScript DatePicker provides support to display the picker el
 
 ## Create a DatePicker
 
- You can create DatePicker widget easily by using simple input element. 
-
-Create an HTML file and add the following code example to it.
-
-{% highlight html %}
-
-
-
-<!DOCTYPE html>
-
-<html>
-
-<head>
-
-    <title>Ticket Booking</title>
-
-    <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
-
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
-
-  <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
-
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.js)"></script>
-
-    <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
-
-</head>
-
-<body>
-
-    <div data-role="appview">
-
-        <div id="header" data-ej-position="normal" data-role="ejmheader"></div>
-
-        <!--Add Datepicker element here-->
-
-    </div>
-
-</body>
-
-</html>
-
-
-
-{% endhighlight %}
-
-
-
-To set the header’s title in the layout, you can set data-ej-title attribute to the desired title. In this case you can set it as Ticket Booking.
-
-{% highlight html %}
-
-
-
-<div id="header" data-ej-title="Ticket Booking"  data-ej-position="normal" data-role="ejmheader"></div>
-
-
-
-
-
-{% endhighlight %}
-
-
-
-To render the DatePicker control, you can set ejmdatepicker to data-role attribute for the specific input element as follows.
-
-{% highlight html %}
-
-
-
-        <table>
-
-            <tr>
-
-                <td class="tdclass">Onward Date</td>
-
-            </tr>
-
-            <tr>
-
-                <td class="tdclass">
-
-                    <span class="innerdp">
-
-                        <input id="startDate" data-role="ejmdatepicker" />
-
-                    </span>
-
-                </td>
-
-            </tr>
-
-            <tr>
-
-                <td class="tdclass">Return date</td>
-
-            </tr>
-
-            <tr>
-
-                <td class="tdclass">
-
-                    <span class="innerdp">
-
-                        <input id="endDate" data-role="ejmdatepicker" />
-
-                    </span>
-
-                </td>
-
-            </tr>
-
-        </table>
-
-
-
-
-
-{% endhighlight %}
-
-
-
-Add the following styles to display DatePicker’s input element.
-
-{% highlight css %}
-
-
-
-        .tdclass
-
-        {
-
-            width: 300px;
-
-            font-weight: bold;
-
-            padding-bottom: 10px;
-
-        }
-
-
-
-        table
-
-        {
-
-            margin: 30px auto;
-
-        }
-
-
-
-
-
-{% endhighlight %}
-
-
-
-Run the above code example, to render the DatePicker.
-
-![](Getting-Started_images/Getting-Started_img2.png)
+You can create DatePicker widget easily by using simple input element. 
+
+1. Create an HTML file and add the following code example to it.
+
+   ~~~ html
+   <!DOCTYPE html>
+   <html>
+   <head>
+   <title>Ticket Booking</title>
+   <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
+   <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.js)"></script>
+   <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+   </head>
+   <body>
+   <div data-role="appview">
+   <div id="header" data-ej-position="normal" data-role="ejmheader"></div>
+   <!--Add Datepicker element here-->
+   </div>
+   </body>
+   </html>
+   ~~~
+   {:.prettyprint}
+
+2. To set the header’s title in the layout, you can set data-ej-title attribute to the desired title. In this case you can set it as Ticket Booking.
+
+   ~~~ html
+   <div id="header" data-ej-title="Ticket Booking"  data-ej-position="normal" data-role="ejmheader"></div>
+   ~~~
+   {:.prettyprint}
+
+3. To render the DatePicker control, you can set ejmdatepicker to data-role attribute for the specific input element as follows.
+
+   ~~~ html
+   <table>
+   <tr>
+   <td class="tdclass">Onward Date</td>
+   </tr>
+   <tr>
+   <td class="tdclass">
+   <span class="innerdp">
+   <input id="startDate" data-role="ejmdatepicker" />
+   </span>
+   </td>
+   </tr>
+   <tr>
+   <td class="tdclass">Return date</td>
+   </tr>
+   <tr>
+   <td class="tdclass">
+   <span class="innerdp">
+   <input id="endDate" data-role="ejmdatepicker" />
+   </span>
+   </td>
+   </tr>
+   </table>
+   ~~~
+   {:.prettyprint}
+
+4. Add the following styles to display DatePicker’s input element.
+
+   ~~~ cs
+   .tdclass
+   {
+   width: 300px;
+   font-weight: bold;
+   padding-bottom: 10px;
+   }
+   table
+   {
+   margin: 30px auto;
+   }
+   ~~~
+   {:.prettyprint}
+
+
+5. Run the above code example, to render the DatePicker.
+
+   ![](Getting-Started_images/Getting-Started_img2.png)
 
 
 ## Set Min and Max Date 

@@ -9,6 +9,8 @@ documentation: ug
 
 # Getting Started
 
+This section briefly describes about how to create and customize Essential JS Mobile Checkbox widget.
+
 ## Create your first Checkbox in JavaScript
 
 From the following guidelines, you can select Multiple or Single Selection List by using Checkbox. The following screenshot demonstrates the functionality with Checkbox button action.
