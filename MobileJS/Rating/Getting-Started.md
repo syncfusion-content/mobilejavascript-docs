@@ -9,7 +9,7 @@ documentation: ug
 
 # Getting Started
 
-## Create your first Rotator in 
+## Create your first Rating Control in JavaScript 
 
 Essential JavaScript Rating control for Mobile provides an intuitive Rating experience that allows you to select a number of stars that represent a Rating.
 
@@ -20,7 +20,7 @@ Essential JavaScript Rating control for Mobile provides an intuitive Rating expe
 
 The following steps guide you to add a Rating control for a mobile application Rating scenario, that uses Rating control to rate Google Search Mobile App.
 
-Create an HTML file and paste the following template to the HTML file to add Rating control.
+1. Create an HTML file and paste the following template to the HTML file to add Rating control.
 
 {% highlight html %}
 

@@ -9,6 +9,8 @@ documentation: ug
 
 # Getting Started
 
+This section describes in brief how you can create an Essential JavaScript Mobile Password Textbox widget.
+
 ## Create your first Password Textbox in JavaScript
 
 Using the given guidelines, you can create a basic login form using the Password Textbox control.
@@ -172,7 +174,7 @@ Run the above code example and you can see the following output.
 
 
 
-## Set Watermark text
+### Set Watermark text
 
 The watermark text is usually a short hint that describes the expected value of the input field. This can be achieved by using the “data-ej-watermarktext” attribute.
 

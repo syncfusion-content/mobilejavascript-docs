@@ -9,6 +9,8 @@ documentation: ug
 
 # Getting Started
 
+This section explains briefly on how to create a ListView control in your application.
+
 ## Create your first ListView in JavaScript
 
 Essential JavaScript Mobile ListView widget builds an interactive list view interface. This control allows you to select an item from a list-like interface and provides the infrastructure to display a set of data items in different layouts or views. Lists display data, data navigation, result lists, and data entry.
@@ -27,7 +29,7 @@ The following steps help you to add a ListView control for a mobile application 
 
 Essential JavaScript Mobile ListView widget is rendered, either by specifying static content on a list. The following steps help you create a basic ListView for your application.
 
-Create an HTML file and add the following template to the HTML file.
+1. Create an HTML file and add the following template to the HTML file.
 
 {% highlight html %}
 

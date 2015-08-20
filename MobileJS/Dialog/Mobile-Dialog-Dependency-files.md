@@ -15,9 +15,9 @@ _Script files to render the Dialog control_
 
 <table>
 <tr>
-<td>
-{{ '**Files**' | markdownify }}</td><td>
-{{ '**Description/Usage**' | markdownify }}</td></tr>
+<th>
+Files</th><th>
+Description/Usage</th></th>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

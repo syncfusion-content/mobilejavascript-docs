@@ -9,6 +9,8 @@ documentation: ug
 
 # Getting Started
 
+In this section, you can learn how to create ProgressBar and how to use it in your application.
+
 ## Create your first ProgressBar in JavaScript
 
 The Essential JavaScript Mobile Progress Bar is a simple interface to indicate the current progress of an operation, such as uploading a document. In the following guidelines, you will learn about the features in progress bar widget by creating an App Installer.

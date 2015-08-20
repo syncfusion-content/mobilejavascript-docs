@@ -9,6 +9,8 @@ documentation: ug
 
 # Getting Started
 
+This section explains briefly on how to create a Radial Menu control in your mobile application.
+
 ## Create your first Radial Menu control in JavaScript
 
 This section explains briefly on how to create a Radial Menu control in your mobile application.
@@ -20,93 +22,56 @@ The following steps guide you to add a Radial Menu control for your mobile appli
 
 ## Create basic mobile layout
 
-Create an HTML file and paste the following template for mobile layout.     
+1. Create an HTML file and paste the following template for mobile layout.     
 
-{% highlight html %}
-
-<!doctype html>
-
-<html lang="en">
-
-<head>
-
-    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
-
-    <title>Radialmenu</title>
-
-    <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css”](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css) rel="stylesheet" />
-
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
-
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
-
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
-
-    <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
-
-</head>
-
-<body>
-
-    <div data-role="appview">
-
-        <!--- Adds Header Element Here  --->
-
-        <!--- Adds Page Content Here  --->
-
-        <!--- Adds Radialmenu Element Here  --->
-
-    </div>
-
-</body>
-
-</html>
+   ~~~ html
+   <!doctype html>
+   <html lang="en">
+   <head>
+   <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+   <title>Radialmenu</title>
+   <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css”](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css) rel="stylesheet" />
+   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
+   <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+   <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+   </head>
+   <body>
+   <div data-role="appview">
+   <!--- Adds Header Element Here  --->
+   <!--- Adds Page Content Here  --->
+   <!--- Adds Radialmenu Element Here  --->
+   </div>
+   </body>
+   </html>
+   ~~~ 
+   {:.prettyprint}
 
 
 
+2. You can create header element with the following code.
+
+   ~~~ html
+   <!--- Adds Header Element Here  --->
+   <div id="header" data-role="ejmheader" data-ej-title="RadialMenu">
+   </div>          
+   ~~~ 
+   {:.prettyprint}
 
 
-{% endhighlight %}
+3. Create the page content as follows.
 
-
-
-You can create header element with the following code.
-
-{% highlight html %}
-
-<!--- Adds Header Element Here  --->
-
-<div id="header" data-role="ejmheader" data-ej-title="RadialMenu">
-
-        </div>          
-
-
-
-{% endhighlight %}
-
-
-
-Create the page content as follows.
-
-{% highlight html %}
-
-<div style="padding: 66px 25px; text-align: justify">
-
-        <p>
-
-            Syncfusion is the enterprise technology partner of choice for Windows development, delivering a broad range of software frameworks and tools. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications.
-
-        </p>
-
-    </div>
-
-
-
-{% endhighlight %}
+   ~~~ html
+   <div style="padding: 66px 25px; text-align: justify">
+   <p>Syncfusion is the enterprise technology partner of choice for Windows development, delivering a broad range of software frameworks and tools. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications.
+   </p>
+   </div>
+   ~~~
+   {:.prettyprint}
 
 ## Add Radial Menu control
 
-Create a div element and set its data-role attribute as ejmradialmenu as follows.
+1. Create a div element and set its data-role attribute as ejmradialmenu as follows.
 
 {% highlight html %}
 

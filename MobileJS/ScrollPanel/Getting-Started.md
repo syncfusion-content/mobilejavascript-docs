@@ -9,6 +9,8 @@ documentation: ug
 
 # Getting Started
 
+In this section, you can learn how to create Scroll Panel for your mobile app.
+
 ## Create your first ScrollPanel in JavaScript
 
 In this section, you can learn how to create Scroll Panel for your mobile app.
@@ -142,14 +144,13 @@ Run this code for the following output. For more details, refer to "Common Getti
 
 To set Scroll Panel for a particular content, you need to specify the “data-role” attribute as “ejmScrollPanel” for a <div> element and set the “data-ej-target” attribute with value which should match the “id” (“content” here) of the target element for which you need to add the Scroll Panel.
 
+Refer the following code snippets.
 {% highlight html %}
 
 <div id="ScrollPanel" data-role="ejmScrollPanel" data-ej-target="content">
  </div>
 
 {% endhighlight %}
-
-Refer the following code snippets.
 
 ## Set Panel Height and Width	
 
