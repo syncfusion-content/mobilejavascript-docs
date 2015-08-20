@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Mobile-Accordion-dependency-files
-description: mobile accordion dependency files
+title: Mobile-Scrollpanel-dependencies
+description: mobile scrollpanel dependencies
 platform: Mobilejs
-control: Accordion (Mobile)
+control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-# Mobile Accordion dependency files
+# Mobile Scrollpanel dependencies
 
-This section deals with the dependency files for Accordion control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When not, then you need to refer the following script files to render the Accordion control.
+This section deals with dependency files for ScrollPanel control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When not, then you need to refer to the following script files to render the ScrollPanel control.
 
 _Script files_
 
@@ -25,7 +25,7 @@ It is referred to handle Mobile view port specifications.</td></tr>
 <tr>
 <td>
 ej.core.min.js</td><td>
-It is referred before using all the Mobile controls.</td></tr>
+It is referred always before using all the Mobile controls.</td></tr>
 <tr>
 <td>
 ej.unobtrusive.min.js</td><td>
@@ -44,8 +44,12 @@ ej.touch.min.js</td><td>
 It is referred for touch events support.</td></tr>
 <tr>
 <td>
-ej.mobile.accordion.min.js</td><td>
-Used to handle Accordion control and should be used while rendering Accordion control.</td></tr>
+ej.mobile.scrollbar.min.js</td><td>
+It is referred for initializing scrollbars.</td></tr>
+<tr>
+<td>
+ej.mobile.scrollpanel.min.js</td><td>
+It is referred when using mobile ScrollPanel control.</td></tr>
 </table>
 
 

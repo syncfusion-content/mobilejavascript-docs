@@ -15,9 +15,9 @@ _Script files to render the Autocomplete control_
 
 <table>
 <tr>
-<td>
-{{ '**File**' | markdownify }}</td><td>
-{{ '**Description/Usage**' | markdownify }}</td></tr>
+<th>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

@@ -7,7 +7,7 @@ control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-## Show Scrollbars
+# Show Scrollbars
 
 The “data-ej-showscrollbars” attribute is to control the visibility of the Scrollbars in your application. By default, this property is set to true.
 

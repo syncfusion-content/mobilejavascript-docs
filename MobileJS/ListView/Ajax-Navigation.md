@@ -153,7 +153,7 @@ The following screenshot displays the Enable Ajax:
 
 
 
-Note: When the Ajax navigation is only for a specific item, then use this atribute inside item specific configuration. (In JS, use this attribute “data-ej-enableajax” in specific “li” tag in html, while in MVC, set through EnableAjax).
+> Note: When the Ajax navigation is only for a specific item, then use this atribute inside item specific configuration. (In JS, use this attribute “data-ej-enableajax” in specific “li” tag in html, while in MVC, set through EnableAjax).
 
 ## AjaxSettings
 

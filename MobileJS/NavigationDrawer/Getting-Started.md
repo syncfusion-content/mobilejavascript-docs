@@ -18,7 +18,7 @@ Essential JavaScript Navigation Drawer is a sliding panel that displays the list
 
 The following steps guide you to add a Navigation Drawer control for a mobile application that displays a list of items such as home, profile, photos and location where you can navigate to desired page by clicking on the option available in the drawer. 
 
-## Create basic mobile layout
+### Create basic mobile layout
 
 Create an HTML file and paste the following template for mobile layout.
 
@@ -62,7 +62,7 @@ Create an HTML file and paste the following template for mobile layout.
 
 {% endhighlight %}
 
-## Add Header control for Navigation Drawer
+### Add Header control for Navigation Drawer
 
 To render the Header control, set “data-role” attribute to “ejmheader” to a div element. To set header title you can use “data-ej-title” attribute with desired title.
 
@@ -76,7 +76,7 @@ To render the Header control, set “data-role” attribute to “ejmheader” t
 
 {% endhighlight %}
 
-## Add Navigation Drawer control
+### Add Navigation Drawer control
 
 To add Navigation Drawer control, specify ejmnavigationdrawer as data-role attribute for a <div> element. You can display a navigable option as a list by using listview. To achieve this, set the attribute data-ej-enablelistview as true in navigation drawer wrapper element. You can set thetext for list itemsby using data-ej-text attribute.
 
@@ -102,7 +102,7 @@ To add Navigation Drawer control, specify ejmnavigationdrawer as data-role attri
 
 {% endhighlight %}
 
-## Add target element to display the drawer
+### Add target element to display the drawer
 
 You can display the drawer by clicking target icon. To achieve this, set the target element’s id with ‘data-ej-targetid’ attribute of the navigation drawer wrapper element.
 
@@ -173,7 +173,7 @@ You can display the drawer by either clicking on the target icon or else by swip
 
 
 
-## Add images for Navigation Drawer
+### Add images for Navigation Drawer
 
 You can set the images for Navigation Drawer by using data-ej-imageclass attribute in the inner list elements.
 
@@ -255,7 +255,7 @@ Run the above code to render the following output.
 
 
 
-## Load appropriate content while selection
+### Load appropriate content while selection
 
 You can load the desired content for the navigation items by updating the content through touch end handler of listview. Also to know which item’s content is being loaded in the page you can make the list selection to persist in the drawer by setting ‘data-ej-listviewsettings-persistselection’ attribute as true.
 

@@ -7,7 +7,7 @@ control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-## Scroll directions
+# Scroll directions
 
 The “data-ej-enablehrscroll” and “data-ej-enablevrscroll” attributes let you enable or disable the horizontal and vertical scrolling feature respectively. By default, “data-ej-enablehrscroll” attribute is set to false and “data-ej-enablevrscroll” is set to true.
 

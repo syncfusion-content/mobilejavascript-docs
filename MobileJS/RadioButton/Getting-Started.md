@@ -9,6 +9,8 @@ documentation: ug
 
 # Getting Started
 
+This section briefly describes you how to create a QuizApp by using the Essential JavaScript Mobile RadioButton control and features available in it.
+
 ## Create your first RadioButton by using Javascript
 
 

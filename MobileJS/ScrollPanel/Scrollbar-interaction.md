@@ -7,7 +7,7 @@ control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-## Scrollbar interaction
+# Scrollbar interaction
 
 Normally, the content is scrolled by dragging (touch move action) over the scrollable content. The content can also be scrolled through scrollbars by dragging it. It can be enabled by using “data-ej-enableinteraction” attribute. By default, this property is set to true. Refer to the following code example.
 
