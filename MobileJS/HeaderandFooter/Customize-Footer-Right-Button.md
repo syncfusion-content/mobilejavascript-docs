@@ -31,7 +31,7 @@ The following screenshot displays the output.
 
 
 
-### RightButtonCaption
+## RightButtonCaption
 
 To specify the caption (text) for Footer Right Button, set data-ej-rightbuttoncaption attribute. 
 
@@ -53,7 +53,7 @@ The following screenshot displays the output.
 
 
 
-### RightButtonNavigationURL
+## RightButtonNavigationURL
 
 Specifies the URL to which the page should be navigated when the Right Button is clicked.
 

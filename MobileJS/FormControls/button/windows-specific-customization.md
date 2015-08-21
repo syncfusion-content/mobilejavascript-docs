@@ -9,11 +9,11 @@ documentation: ug
 
 # Windows Specific Customization
 
-You can set the **Windows specific** properties to the control by accessing **Windows** property.
+You can set the Windows specific properties to the control by accessing Windows property.
 
 ## Style
 
-You can change the style of Windows mode button by accessing **data-ej-windows-style** attribute.
+You can change the style of Windows mode button by accessing data-ej-windows-style attribute.
 
 The possible values are
 

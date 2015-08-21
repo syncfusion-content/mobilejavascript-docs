@@ -11,7 +11,7 @@ documentation: ug
 
 The **Styles and Appearance** of the **Numeric** textbox works based on the CSS class. You need a style sheet to apply styles to the **Numeric** textbox control, **ej.mobile.all.min**.**css.**
 
-**Customize styles**
+## Customize styles
 
 To change the color or design of the **Numeric Textbox** control’s appearance, you can override default styles of **Numeric Textbox** control by using its class names. The following are specific class names you can use to modify styles and appearance of the **Numeric Textbox**.
 

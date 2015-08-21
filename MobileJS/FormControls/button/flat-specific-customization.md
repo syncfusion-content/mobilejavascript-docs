@@ -9,11 +9,11 @@ documentation: ug
 
 # Flat Specific Customization
 
-You can set the **Flat specific** properties to the control by accessing **Flat** property.
+You can set the Flat specific properties to the control by accessing Flat property.
 
 ## Style
 
-You can change the style of Flat mode button by accessing **data-ej-flat-style** attribute 
+You can change the style of Flat mode button by accessing data-ej-flat-style attribute 
 
 The possible values are
 

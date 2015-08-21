@@ -11,7 +11,7 @@ documentation: ug
 
 ## ImageClass
 
-In your application, you can include **image** inside the Button. In that case, you can use **data-ej-imageclass** attribute for Button control, where you can specify the image to be displayed in the Button. Ensure that you need to set the **data-ej-contenttype** to ‘**image**’. 
+In your application, you can include image inside the Button. In that case, you can use data-ej-imageclass attribute for Button control, where you can specify the image to be displayed in the Button. Ensure that you need to set the data-ej-contenttype to ‘image’. 
 
 You can refer the following code example.
 
@@ -38,9 +38,9 @@ You can refer the following code example.
 
 ## ImagePosition
 
-You can also set the position of the image in the Button. The **data-ej-imageposition** attribute allows you to specify the position of the image in your Button control. You can set the position of the image in the Button either after the text or before text by setting the image position to ‘**right**’ or ‘**left**’ respectively.
+You can also set the position of the image in the Button. The data-ej-imageposition attribute allows you to specify the position of the image in your Button control. You can set the position of the image in the Button either after the text or before text by setting the image position to ‘right’ or ‘left’ respectively.
 
-By default this attribute is set to ‘**left**’. Ensure that you need to set the **data-ej-contenttype** to **‘both’**.
+By default this attribute is set to ‘left’. Ensure that you need to set the data-ej-contenttype to ‘both’.
 
 You can refer to the following code example.
 

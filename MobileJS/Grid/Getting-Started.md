@@ -9,17 +9,20 @@ documentation: ug
 
 # Getting Started
 
+In this section, you can learn how to create Grid using JavaScript in mobile app.
+
+## Create your first Grid in JavaScript
+
 Essential Grid for Mobile JavaScript is a feature-rich Grid component that can handle large amount of data. It is very easy to use and includes features like data binding, filtering, paging, and sorting. You can make use of the Mobile Grid control to generate complex grid-based reports. In the following guidelines, you will learn about the features in Mobile Grid widget by creating a Sales data grid.
 
 ![5](Getting-Started_images/Getting-Started_img1.png)
-
 
 
 ## Create the necessary layout 
 
 Essential JavaScript Mobile Grid can be rendered only by specifying the data source. It is rendered based on the default values for all the properties; you can easily customize Mobile Grid control by changing its properties according to your requirement. 
 
-Create an HTML file and paste the following template to it for Grid creation.
+1. Create an HTML file and paste the following template to it for Grid creation.
 
 {% highlight html %}
 

@@ -11,7 +11,7 @@ documentation: ug
 
 ## ContentType
 
-You can make the Button appear as an image or text or combination of both. The **data-ej-contenttype** attribute allows you to choose the content type of the Button in your application. By default, the content type of Button is set to ‘**text**’.
+You can make the Button appear as an image or text or combination of both. The data-ej-contenttype attribute allows you to choose the content type of the Button in your application. By default, the content type of Button is set to ‘text’.
 
 The possible values are, 
 
@@ -39,7 +39,7 @@ You can refer to the following code example.
 
 ## Text
 
-The **data-ej-text** attribute allows you to specify the text to be appeared inside the Button. 
+The data-ej-text attribute allows you to specify the text to be appeared inside the Button. 
 
 You can refer to the following code example.
 

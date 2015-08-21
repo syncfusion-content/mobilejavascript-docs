@@ -9,7 +9,7 @@ documentation: ug
 
 # Enabled
 
-In certain cases, you can disable the Button in your application depending on some conditions by default. The **data-ej-enabled** attribute allows you **enable** or **disable** the Button by setting to ‘**true**’ or ‘**false**’ respectively.
+In certain cases, you can disable the Button in your application depending on some conditions by default. The data-ej-enabled attribute allows you enable or disable the Button by setting to ‘true’ or ‘false’ respectively.
 
 {% highlight html %}
 

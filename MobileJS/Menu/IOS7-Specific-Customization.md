@@ -48,7 +48,7 @@ The following screenshot displays the Button Customization:
 ![CancelButtonColor](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)
 
 
-### Hide Cancel Button	
+## Hide Cancel Button	
 
 You can hide or show the Cancel Button by setting false or true to the data-ej-showcancelbutton attribute.
 

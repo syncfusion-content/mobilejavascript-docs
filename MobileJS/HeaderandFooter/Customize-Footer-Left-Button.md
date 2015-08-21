@@ -29,7 +29,7 @@ The following screenshot displays the output.
 
 
 
-### LeftButtonCaption
+## LeftButtonCaption
 
 To specify the caption (text) for Footer left button, set data-ej-leftbuttoncaption attribute. 
 
@@ -53,7 +53,7 @@ The following screenshot displays the output.
 
 
 
-### LeftButtonNavigationURL
+## LeftButtonNavigationURL
 
 Specifies the navigation URL to go to the page when the Left Button is clicked. 
 

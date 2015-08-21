@@ -9,6 +9,8 @@ documentation: ug
 
 # Getting Started
 
+This section explains you on how to create a Menu using Essential JavaScript and how to use it in your application.
+
 ## Create your first Menu in JavaScript
 
 The Essential JavaScript Mobile Menu provides an interface to easily navigate hierarchical data.  In the following example, you can learn to create a Gallery app and learn about the features in the Menu widget.

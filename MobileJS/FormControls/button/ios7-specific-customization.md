@@ -9,13 +9,13 @@ documentation: ug
 
 # IOS7 Specific Customization
 
-You can set the **IOS7 specific** properties to the control by accessing **IOS7** property.
+You can set the IOS7 specific properties to the control by accessing IOS7 property.
 
 ## Color
 
-This attribute is specific to **IOS7** rendermode that allows you to set the color of the Button when rendered as an action link to indicate the state of the link. 
+This attribute is specific to IOS7 rendermode that allows you to set the color of the Button when rendered as an action link to indicate the state of the link. 
 
-You can set the text color of the Button using **data-ej-ios7-color** attribute.
+You can set the text color of the Button using data-ej-ios7-color attribute.
 
 Please refer to the following code example.
 
@@ -44,7 +44,7 @@ Please refer to the following code example.
 
 ## Style
 
-You can change the style of IOS7 mode button by accessing **data-ej-ios7-style** attribute. The possible values are:
+You can change the style of IOS7 mode button by accessing data-ej-ios7-style attribute. The possible values are:
 
 1. Normal
 
