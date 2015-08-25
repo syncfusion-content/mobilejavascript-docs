@@ -119,7 +119,7 @@ You can add Audio controls in your app by using html audio control. Add the foll
 
 {% endhighlight %}
 
-> Note: Make sure you have an audio file in specified location.
+N> Make sure you have an audio file in specified location.
 
 Run the above code example to render the following output.
 

@@ -306,7 +306,7 @@ Click the filter icon in column header to make the filtering text box visible. T
 
 
 
-> Note: The filter query is a combination of value and symbols (“<, >, =, etc). For example, you can provide “<10255” in Order ID column. The numeric columns can be filtered by using the symbols ‘<’, ‘>’, ‘=’, ‘<=’, ‘>=’, ‘!’ and the string columns can be filtered by using the symbols “%” (for startswith and endswith) and “*” (contains). Also , you can use “&&” and OR operator to provide multiple conditions in single column.
+N> The filter query is a combination of value and symbols (“<, >, =, etc). For example, you can provide “<10255” in Order ID column. The numeric columns can be filtered by using the symbols ‘<’, ‘>’, ‘=’, ‘<=’, ‘>=’, ‘!’ and the string columns can be filtered by using the symbols “%” (for startswith and endswith) and “*” (contains). Also , you can use “&&” and OR operator to provide multiple conditions in single column.
 
 Run this code and you can see the following output.
 

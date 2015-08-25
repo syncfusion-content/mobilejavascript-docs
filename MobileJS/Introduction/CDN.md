@@ -13,7 +13,7 @@ The [CDN](http://en.wikipedia.org/wiki/Content_delivery_network) links are provi
 
 
 
-> Note: All the provided cdn links can be accessed either through _http_ or _https_.
+N> All the provided cdn links can be accessed either through _http_ or _https_.
 
 
 

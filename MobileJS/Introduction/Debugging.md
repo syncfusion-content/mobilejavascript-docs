@@ -109,7 +109,7 @@ On your Mac, Launch Safari. Open Safari Preferences and navigate to Advanced 
 
 
 
-> Note: Connect your iOS device with mac using USB cable.
+N> Connect your iOS device with mac using USB cable.
 
 
 

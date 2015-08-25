@@ -18,7 +18,7 @@ The “data-ej-showtext” attribute is used to show or hide the Tile caption. T
 
 The “data-ej-textposition” attribute wraps the text inside or outside of a Tile. The possible position values of “data-ej-textposition” are inner and outer.
 
-> Note: TextPosition support is given only to iOS7 and android mode. TextPosition is not supported in small Tiles.
+N> TextPosition support is given only to iOS7 and android mode. TextPosition is not supported in small Tiles.
 
 {% highlight html %}
 

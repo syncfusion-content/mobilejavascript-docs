@@ -91,7 +91,7 @@ Refer to the following code example.
 
  Add the following styles to the style section. 
 
-> Note: You can use the following styles for all the other samples explained as follows.
+N> You can use the following styles for all the other samples explained as follows.
 
 
 

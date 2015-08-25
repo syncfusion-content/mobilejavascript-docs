@@ -32,8 +32,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu"
->
+<div id="defaultradialmenu" data-role="ejmradialmenu">
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>
@@ -134,8 +133,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-backimageclass="e-m-backimage" 
->
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-backimageclass="e-m-backimage" >
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>
@@ -224,8 +222,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-cssclass="customclass" 
->
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-cssclass="customclass" >
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>
@@ -314,8 +311,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-enableanimation="true" 
->
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-enableanimation="true" >
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>
@@ -404,8 +400,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-imagaclass="e-m-radialimage" 
->
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-imagaclass="e-m-radialimage" >
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>
@@ -494,8 +489,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-position="rightcenter" 
->
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-position="rightcenter" >
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>
@@ -584,8 +578,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-radius="150"
->
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-radius="150">
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>
@@ -674,8 +667,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-rendermode="auto" 
->
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-rendermode="auto" >
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>
@@ -764,8 +756,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-theme="auto"
->
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-theme="auto">
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>
@@ -867,8 +858,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-windows-renderdefault="true"
->
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-windows-renderdefault="true">
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>
@@ -1143,8 +1133,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-select="select" 
->
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-select="select" >
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>
@@ -1271,8 +1260,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-touchend="touchend" 
->
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-touchend="touchend" >
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>
@@ -1399,8 +1387,7 @@ Example
 Syncfusion is the enterprise technology partner of choice for Windows development
 </p>
 </div>  
-<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-touchstart="touchstart" 
->
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-touchstart="touchstart" >
 <ul>
 <li data-ej-imagename="social.png" data-ej-imagepath="../themes/sample/radialmenu"
 data-ej-windows-text="social"></li>

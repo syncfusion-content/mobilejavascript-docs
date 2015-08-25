@@ -32,7 +32,7 @@ The users with Essential Studio Enterprise license or Essential Studio for JavaS
 
 
 
-> Note: An e-mail alert with the Custom script downloadable link will be sent to you automatically.
+N> An e-mail alert with the Custom script downloadable link will be sent to you automatically.
 
 
 

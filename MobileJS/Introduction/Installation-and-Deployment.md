@@ -131,7 +131,7 @@ The steps to download and configure the Syncfusion Nuget Packages in Visual Stud
 
 
 
-> Note: The Source textbox in the above image denotes the location of the nuget packages in your machine and the Name section, allows you to provide a unique name that you refer in the package installation section later. 
+N> The Source textbox in the above image denotes the location of the nuget packages in your machine and the Name section, allows you to provide a unique name that you refer in the package installation section later. 
 
 
 

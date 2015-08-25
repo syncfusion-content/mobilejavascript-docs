@@ -174,7 +174,7 @@ To render the Tab control, set the “data-role” attribute to “ejmtab” to 
 
 To add content for the Tab control, specify the “data-ej-href” to set the content that is loading on each tab and this attribute should match the “id” of the element in which you have specified the Tab content. In this application the Essential JS Mobile ListView control is used with ids “mymusic” and “favorites” that are specified in “data-ej-href” attribute to the respective items and you have a third tab that loads the content dynamically from a given URL. 
 
-> _Note: The third tab is discussed later in the “loading on demand content section”._
+N> _The third tab is discussed later in the “loading on demand content section”._
 
 
 

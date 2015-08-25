@@ -49,7 +49,7 @@ The data-ej-allowscrolling attribute defines whether to allow the scrolling beha
 
 
 
-> Note: Run this code example and you can see the following output. For more details, refer to the "Common Getting Started" section.
+N> Run this code example and you can see the following output. For more details, refer to the "Common Getting Started" section.
 
 ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_10.png](Scrolling_images/Scrolling_img1.png)
 
@@ -169,7 +169,7 @@ The following screenshots display the Adjust Fixed Position:
 
 
 
-> Note: You can see here that the first list item is hidden due to fixed header element.
+N> You can see here that the first list item is hidden due to fixed header element.
 
 ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_16.png](Scrolling_images/Scrolling_img3.png)
 

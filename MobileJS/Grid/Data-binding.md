@@ -140,7 +140,7 @@ Run the above code to render the following output.
 
 
 
-> Note: For information about DataManager with Mobie Grid check DataAdaptors concept.
+N> For information about DataManager with Mobie Grid check DataAdaptors concept.
 
 ### Load at once
 

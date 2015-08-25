@@ -29,7 +29,7 @@ The “data-ej-imageurl” attribute is used to specify the file name for the ba
 * Android - Folder name for Android specific images
 * Windows - Folder name for Windows specific images
 
-> Note: Both data-ej-imagepath and data-ej-imageurl attribute can be set when you want to specify separate images for each render mode and so it is necessary to specify separate path for iOS, android and windows renderMode. When data-ej-imageurl attribute is alone used, you can provide common images for all render modes. So, you should provide the whole image path for this attribute.
+N> Both data-ej-imagepath and data-ej-imageurl attribute can be set when you want to specify separate images for each render mode and so it is necessary to specify separate path for iOS, android and windows renderMode. When data-ej-imageurl attribute is alone used, you can provide common images for all render modes. So, you should provide the whole image path for this attribute.
 
 {% highlight html %}
 

@@ -35,7 +35,7 @@ Set the data-role attribute of a “div” to appview as shown in the following 
 {% endhighlight %}
 
 
-> Note: When the application does not contain an appview element, it is created automatically and wraps the content of the application before all the EJ mobile widgets are initialized. 
+N> When the application does not contain an appview element, it is created automatically and wraps the content of the application before all the EJ mobile widgets are initialized. 
 
 #### Page Navigation
 
@@ -66,7 +66,7 @@ App.transferPage(App.activePage, "page2.html");
 
 {% endhighlight %}
 
-> Note: Before specifying the destined URL of the file, make sure that the file with the specific name already exists in that location.
+N> Before specifying the destined URL of the file, make sure that the file with the specific name already exists in that location.
 
 #### Page Transitions
 
@@ -200,7 +200,7 @@ Example:  $("#myDate").ejmDatePicker({ value: "01/01/2015", dateFormat: "MM/dd/y
 {% endhighlight %}
 
 
-> Note: All the mobile widget names begins with the prefix „__ejm__“ and its other properties needs to be prefixed with the keyword „__data-ej-“__, while rendering in an unobtrusive way.
+N> All the mobile widget names begins with the prefix „__ejm__“ and its other properties needs to be prefixed with the keyword „__data-ej-“__, while rendering in an unobtrusive way.
 
 ### Manual reference of Scripts and Stylesheets in a HTML page
 
@@ -323,7 +323,7 @@ C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\JavaScript\assets\e
 
 Apart from the above common scripts, it is also necessary to refer the ej.mobile.all.min.js file, that contains all the JavaScript mobile components scripts together in a minified format.
 
-> Note: ej.mobile.all.min.js file bundles together the scripts of all the EJ mobile components as well as the other common scripts such as ej.core, ej.unobtrusive, ej.mobile.core, ej.mobile.application, ej.touch & so on.
+N> ej.mobile.all.min.js file bundles together the scripts of all the EJ mobile components as well as the other common scripts such as ej.core, ej.unobtrusive, ej.mobile.core, ej.mobile.application, ej.touch & so on.
 
 
 
@@ -376,7 +376,7 @@ Now, include the reference to it in your HTML file within the head section as sh
 
 {% endhighlight %}
 
-> Note: The order of the reference to the script files made in the above section should be maintained in the same manner as mentioned above.
+N> The order of the reference to the script files made in the above section should be maintained in the same manner as mentioned above.
 
 #### Adding Syncfusion Mobile Widget into your HTML page
 
@@ -386,7 +386,7 @@ To add any of the Syncfusion Mobile controls into your HTML page,
 
 
 
-> Note: The meta tag also has been added to render the application based on the device dimensions
+N> The meta tag also has been added to render the application based on the device dimensions
 
 {% highlight html %}
 
@@ -538,7 +538,7 @@ It is mandatory to include the reference to the required JavaScript files in you
 
 
 
-> Note: The order of the reference to the script files made in the above section should be maintained in the same manner as mentioned above.
+N> The order of the reference to the script files made in the above section should be maintained in the same manner as mentioned above.
 
 
 
@@ -546,7 +546,7 @@ It is mandatory to include the reference to the required JavaScript files in you
 
 Add the <input> element within the appview container and initialize its data-role attribute with ejmDatePicker widget name and then further define its other properties prefixed with the keyword data-ej as shown here.
 
-> Note: The meta tag also has been added to render the application based on the device dimensions.
+N> The meta tag also has been added to render the application based on the device dimensions.
 
 
 {% highlight html %}
