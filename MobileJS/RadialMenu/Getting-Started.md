@@ -113,7 +113,7 @@ You can specify the images for each menu using data-ej-imageurl attribute for th
 
 {% endhighlight %}
 
-Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm).
+Run the above code to render the following output. To know how to run the code, refer to this [section](http://docs.syncfusion.com/js).
 
 ![](Getting-Started_images/Getting-Started_img2.png)
 

@@ -83,6 +83,6 @@ In the HTML page, add the following input elements to render the Checkbox with T
 
 Execute the above code example to render the following output.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image20_36.png](Enable-Tri-State_images/Enable-Tri-State_img1.png)
+![](Enable-Tri-State_images/Enable-Tri-State_img1.png)
 
 

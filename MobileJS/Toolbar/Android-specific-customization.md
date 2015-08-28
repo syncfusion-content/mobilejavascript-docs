@@ -39,7 +39,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image124_11.png](Android-specific-customization_images/Android-specific-customization_img1.png)
+![](Android-specific-customization_images/Android-specific-customization_img1.png)
 
 
 ## EnableSplitView
@@ -76,7 +76,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image124_12.png](Android-specific-customization_images/Android-specific-customization_img2.png)
+![](Android-specific-customization_images/Android-specific-customization_img2.png)
 
 
 
@@ -110,7 +110,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image124_13.png](Android-specific-customization_images/Android-specific-customization_img3.png)
+![](Android-specific-customization_images/Android-specific-customization_img3.png)
 
 
 
@@ -144,7 +144,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image124_14.png](Android-specific-customization_images/Android-specific-customization_img4.png)
+![](Android-specific-customization_images/Android-specific-customization_img4.png)
 
 ## ShowTitleIcon
 
@@ -178,7 +178,7 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image124_15.png](Android-specific-customization_images/Android-specific-customization_img5.png)
+![](Android-specific-customization_images/Android-specific-customization_img5.png)
 
 
 

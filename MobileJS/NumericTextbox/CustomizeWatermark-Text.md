@@ -19,4 +19,4 @@ The WatermarkText property is used to define the watermark text in the control
 
 The following screenshot displays the output.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image20_44.png](CustomizeWatermark-Text_images/CustomizeWatermark-Text_img1.png)
+![](CustomizeWatermark-Text_images/CustomizeWatermark-Text_img1.png)

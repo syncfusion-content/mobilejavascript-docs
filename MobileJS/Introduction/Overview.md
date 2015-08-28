@@ -131,7 +131,7 @@ Obtrusive</td><td>
 RequireJS</td></tr>
 <tr>
 <td>
-{{ '[Data-binding](http://help.syncfusion.com/ug/js/Documents/overview13.htm)' | markdownify }}</td><td>
+{{ '[Data-binding](http://docs.syncfusion.com/js/datamanager/data-binding)' | markdownify }}</td><td>
 </td></tr>
 </table>
 

@@ -267,7 +267,7 @@ You can define the image classes specified for the list items as follows.
 
 Run the above code and you can see the following output.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg)
+![](Getting-Started_images/Getting-Started_img3.jpeg)
 
 
 
@@ -463,7 +463,7 @@ In this example, you can move to the inbox page by tapping the inbox list item t
 
 Run the above code and you can see the following output.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image122_3.jpg](Getting-Started_images/Getting-Started_img4.jpeg)
+![](Getting-Started_images/Getting-Started_img4.jpeg)
 
 
 

@@ -19,4 +19,4 @@ The ReadOnly property is used to enable or disable the value changes in the Te
 
 The following screenshot displays the output.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image20_43.png](ReadOnly-Support_images/ReadOnly-Support_img1.png)
+![](ReadOnly-Support_images/ReadOnly-Support_img1.png)

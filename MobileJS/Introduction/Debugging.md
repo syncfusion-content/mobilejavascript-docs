@@ -44,7 +44,7 @@ The output of the following command will be displayed as below,
 
 
 
-![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_95.jpg](Debugging_images/Debugging_img1.jpeg)
+![](Debugging_images/Debugging_img1.jpeg)
 
 
 
@@ -54,7 +54,7 @@ To enable Weinre, enter the displayed link from command prompt (system IP and p
 
 Example: [http://127.0.0.1:8080](http://127.0.0.1:8080/).
 
-![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_96.jpg](Debugging_images/Debugging_img2.jpeg)
+![](Debugging_images/Debugging_img2.jpeg)
 
 
 
@@ -74,13 +74,13 @@ To debug any client application, connect all the remote systems in the same netw
 
 In the browser, open debug client user interface link to get the list of available mobile devices for debugging. When an application is launched in mobile, it appears under Targets tab. Click on this link to inspect the elements.
 
-![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_97.jpg](Debugging_images/Debugging_img3.jpeg)
+![](Debugging_images/Debugging_img3.jpeg)
 
 
 
 Click the Element tab in the browser and start debugging the elements. You can change the style, edit elements, etc.
 
-![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_98.jpg](Debugging_images/Debugging_img4.jpeg)
+![](Debugging_images/Debugging_img4.jpeg)
 
 
 
@@ -97,7 +97,7 @@ Web Inspector is used to debug web content on your iOS device directly from y
 
 On your iOS device, open Settings->Safari->Advanced and turn on Web Inspector.
 
-![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_99.jpg](Debugging_images/Debugging_img5.jpeg)
+![](Debugging_images/Debugging_img5.jpeg)
 
 
 
@@ -105,7 +105,7 @@ On your iOS device, open Settings->Safari->Advanced and turn on Web Inspect
 
 On your Mac, Launch Safari. Open Safari Preferences and navigate to Advanced and then enable the checkbox Show Develop menu in menu bar.
 
-![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_100.jpg](Debugging_images/Debugging_img6.jpeg)
+![](Debugging_images/Debugging_img6.jpeg)
 
 
 
@@ -117,7 +117,7 @@ N> Connect your iOS device with mac using USB cable.
 
 Open the mobile application to debug in iOS device. In your mac, open safari and click Develop menu. Navigate to iOS device name->Open the web page (Ex: index.html)
 
-![http://help.syncfusion.com/UG/orubase/ImagesExt/image10_101.jpg](Debugging_images/Debugging_img7.jpeg)
+![](Debugging_images/Debugging_img7.jpeg)
 
 
 
