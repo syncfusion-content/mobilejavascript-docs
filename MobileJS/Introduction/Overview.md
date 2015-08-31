@@ -52,7 +52,7 @@ BulletGraph</td></tr>
 Editors</td><td>
 {{ '[AutoComplete](http://docs.syncfusion.com/js/autocomplete/overview.htm)' | markdownify }}</td><td>
 {{ '[NumericTextbox](http://docs.syncfusion.com/js/numerictextbox/behavior-settings.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[PasswordTextbox](http://help.syncfusion.com/ug/js/Documents/windowsspecificcustomization.htm)' | markdownify }}</td></tr>
+{{ '[PasswordTextbox](http://docs.syncfusion.com/mobilejs/passwordtrextbox/overview.htm)' | markdownify }}</td></tr>
 <tr>
 <td>
 {{ '[Button](http://docs.syncfusion.com/js/button/easy-customization)' | markdownify }}</td><td>
@@ -102,7 +102,8 @@ Notification</td><td>
 <tr>
 <td>
 Layout</td><td>
-{{ '[Dialog](http://docs.syncfusion.com/mobilejs/dialog/overview.htm)' | markdownify }}{{ '[SplitPane](http://help.syncfusion.com/ug/js/Documents/overview80.htm)' | markdownify }}</td><td colspan = "2">
+{{ '[Dialog](http://docs.syncfusion.com/mobilejs/dialog/overview.htm)' | markdownify }}
+{{ '[SplitPane](http://docs.syncfusion.com/mobilejs/splitpane/overview.htm.htm)' | markdownify }}</td><td colspan = "2">
 {{ '[ListView](http://docs.syncfusion.com/mobilejs/listview/overview.htm)' | markdownify }}</td><td>
 {{ '[TileView](http://docs.syncfusion.com/mobilejs/tile/overview.htm)' | markdownify }}</td></tr>
 </table>
@@ -131,7 +132,7 @@ Obtrusive</td><td>
 RequireJS</td></tr>
 <tr>
 <td>
-{{ '[Data-binding](http://docs.syncfusion.com/mobilejs/splitpane/overview.htm)' | markdownify }}</td><td>
+{{ '[Data-binding](http://docs.syncfusion.com/mobilejs/overview.htm)' | markdownify }}</td><td>
 </td></tr>
 </table>
 
