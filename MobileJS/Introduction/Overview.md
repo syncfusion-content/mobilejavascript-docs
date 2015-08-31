@@ -23,7 +23,7 @@ Components</th></tr>
 <tr>
 <td rowspan = "2">
 Grid</td><td colspan = "4">
-{{ '[Grid](http://help.syncfusion.com/ug/js/Documents/overview68.htm)' | markdownify }}</td></tr>
+{{ '[Grid](http://docs.syncfusion.com/mobilejs/grid/overview.htm)' | markdownify }}</td></tr>
 <tr>
 <td colspan = "4">
 </td></tr>
@@ -50,61 +50,61 @@ BulletGraph</td></tr>
 <tr>
 <td rowspan = "5">
 Editors</td><td>
-{{ '[AutoComplete](http://help.syncfusion.com/ug/js/Documents/overview64.htm)' | markdownify }}</td><td>
-{{ '[NumericTextbox](http://help.syncfusion.com/ug/js/Documents/conceptsandfeaturesofnumerictextbox.htm)' | markdownify }}</td><td colspan = "2">
+{{ '[AutoComplete](http://docs.syncfusion.com/js/autocomplete/overview.htm)' | markdownify }}</td><td>
+{{ '[NumericTextbox](http://docs.syncfusion.com/js/numerictextbox/behavior-settings.htm)' | markdownify }}</td><td colspan = "2">
 {{ '[PasswordTextbox](http://help.syncfusion.com/ug/js/Documents/windowsspecificcustomization.htm)' | markdownify }}</td></tr>
 <tr>
 <td>
-{{ '[Button](http://help.syncfusion.com/ug/js/Documents/conceptsandfeaturesofbutton.htm)' | markdownify }}</td><td>
-{{ '[DatePicker](http://help.syncfusion.com/ug/js/Documents/overview65.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[TextArea](http://help.syncfusion.com/ug/js/Documents/readonly2.htm)' | markdownify }}</td></tr>
+{{ '[Button](http://docs.syncfusion.com/js/button/easy-customization)' | markdownify }}</td><td>
+{{ '[DatePicker](http://docs.syncfusion.com/js/datepicker/overview)' | markdownify }}</td><td colspan = "2">
+{{ '[TextArea](http://docs.syncfusion.com/mobilejs/textarea/readonly-support)' | markdownify }}</td></tr>
 <tr>
 <td>
-{{ '[TimePicker](http://help.syncfusion.com/ug/js/Documents/overview83.htm)' | markdownify }}</td><td>
-{{ '[Rating](http://help.syncfusion.com/ug/js/Documents/overview76.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[MaskEdit](http://help.syncfusion.com/ug/js/Documents/masking.htm)' | markdownify }}</td></tr>
+{{ '[TimePicker](http://docs.syncfusion.com/mobilejs/timepicker/overview)' | markdownify }}</td><td>
+{{ '[Rating](http://docs.syncfusion.com/mobilejs/rating/overview)' | markdownify }}</td><td colspan = "2">
+{{ '[MaskEdit](http://docs.syncfusion.com/mobilejs/maskedit/masking)' | markdownify }}</td></tr>
 <tr>
 <td>
-{{ '[Slider](http://help.syncfusion.com/ug/js/Documents/overview79.htm)' | markdownify }}</td><td>
-{{ '[Checkbox](http://help.syncfusion.com/ug/js/Documents/conceptsandfeaturesofcheckbox.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[GroupButton](http://help.syncfusion.com/ug/js/Documents/overview69.htm)' | markdownify }}</td></tr>
+{{ '[Slider](http://docs.syncfusion.com/js/slider/overview.htm)' | markdownify }}</td><td>
+{{ '[Checkbox](http://docs.syncfusion.com/mobilejs/checkbox/overview.htm)' | markdownify }}</td><td colspan = "2">
+{{ '[GroupButton](http://docs.syncfusion.com/mobilejs/groupbutton/overview.htm)' | markdownify }}</td></tr>
 <tr>
 <td>
-{{ '[Radiobutton](http://help.syncfusion.com/ug/js/Documents/conceptsandfeaturesofradiobutton.htm)' | markdownify }}</td><td>
-{{ '[Textbox](http://help.syncfusion.com/ug/js/Documents/conceptsandfeaturesoftextbox.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[ToggleButton](http://help.syncfusion.com/ug/js/Documents/overview84.htm)' | markdownify }}</td></tr>
+{{ '[Radiobutton](http://docs.syncfusion.com/mobilejs/radiobutton/checked-status.htm)' | markdownify }}</td><td>
+{{ '[Textbox](http://docs.syncfusion.com/mobilejs/textbox/border-support.htm)' | markdownify }}</td><td colspan = "2">
+{{ '[ToggleButton](http://docs.syncfusion.com/mobilejs/togglebutton/overview.htm)' | markdownify }}</td></tr>
 <tr>
 <td rowspan = "4">
 Navigation</td><td>
-{{ '[Accordion](http://help.syncfusion.com/ug/js/Documents/overview63.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[Menu](http://help.syncfusion.com/ug/js/Documents/overview72.htm)' | markdownify }}</td><td>
+{{ '[Accordion](http://docs.syncfusion.com/mobilejs/accordion/overview.htm)' | markdownify }}</td><td colspan = "2">
+{{ '[Menu](http://docs.syncfusion.com/mobilejs/menu/overview.htm)' | markdownify }}</td><td>
 </td></tr>
 <tr>
 <td>
-{{ '[NavigationDrawer](http://help.syncfusion.com/ug/js/Documents/overview73.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[Rotator](http://help.syncfusion.com/ug/js/Documents/overview77.htm)' | markdownify }}</td><td>
+{{ '[NavigationDrawer](http://docs.syncfusion.com/mobilejs/navigationdrawer/overview.htm)' | markdownify }}</td><td colspan = "2">
+{{ '[Rotator](http://docs.syncfusion.com/mobilejs/rotator/overview.htm)' | markdownify }}</td><td>
 </td></tr>
 <tr>
 <td>
-{{ '[Tab](http://help.syncfusion.com/ug/js/Documents/overview81.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[RadialMenu](http://help.syncfusion.com/ug/js/Documents/overview75.htm)' | markdownify }}</td><td>
-{{ '[ScrollPanel](http://help.syncfusion.com/ug/js/Documents/overview78.htm)' | markdownify }}</td></tr>
+{{ '[Tab](http://docs.syncfusion.com/mobilejs/tab/overview.htm)' | markdownify }}</td><td colspan = "2">
+{{ '[RadialMenu](http://docs.syncfusion.com/mobilejs/radialmenu/overview.htm)' | markdownify }}</td><td>
+{{ '[ScrollPanel](http://docs.syncfusion.com/mobilejs/scrollpanel/overview.htm)' | markdownify }}</td></tr>
 <tr>
 <td>
-{{ '[ToolBar](http://help.syncfusion.com/ug/js/Documents/overview85.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[Header](http://help.syncfusion.com/ug/js/Documents/overview70.htm)' | markdownify }}</td><td>
-{{ '[Footer](http://help.syncfusion.com/ug/js/Documents/overview70.htm)' | markdownify }}</td></tr>
+{{ '[ToolBar](http://docs.syncfusion.com/mobilejs/toolbar/overview.htm)' | markdownify }}</td><td colspan = "2">
+{{ '[Header](http://docs.syncfusion.com/mobilejs/headerandfooter/overviewhtm)' | markdownify }}</td><td>
+{{ '[Footer](http://docs.syncfusion.com/mobilejs/headerandfooter/overview.htm)' | markdownify }}</td></tr>
 <tr>
 <td>
 Notification</td><td>
-{{ '[Progressbar](http://help.syncfusion.com/ug/js/Documents/overview74.htm)' | markdownify }}</td><td colspan = "3">
+{{ '[Progressbar](http://docs.syncfusion.com/mobilejs/progressbar/overview.htm)' | markdownify }}</td><td colspan = "3">
 </td></tr>
 <tr>
 <td>
 Layout</td><td>
-{{ '[Dialog](http://help.syncfusion.com/ug/js/Documents/overview66.htm)' | markdownify }}{{ '[SplitPane](http://help.syncfusion.com/ug/js/Documents/overview80.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[ListView](http://help.syncfusion.com/ug/js/Documents/overview71.htm)' | markdownify }}</td><td>
-{{ '[TileView](http://help.syncfusion.com/ug/js/Documents/overview82.htm)' | markdownify }}</td></tr>
+{{ '[Dialog](http://docs.syncfusion.com/mobilejs/dialog/overview.htm)' | markdownify }}{{ '[SplitPane](http://help.syncfusion.com/ug/js/Documents/overview80.htm)' | markdownify }}</td><td colspan = "2">
+{{ '[ListView](http://docs.syncfusion.com/mobilejs/listview/overview.htm)' | markdownify }}</td><td>
+{{ '[TileView](http://docs.syncfusion.com/mobilejs/tile/overview.htm)' | markdownify }}</td></tr>
 </table>
 
 
@@ -131,7 +131,7 @@ Obtrusive</td><td>
 RequireJS</td></tr>
 <tr>
 <td>
-{{ '[Data-binding](/js/datamanager/data-binding)' | markdownify }}</td><td>
+{{ '[Data-binding](http://docs.syncfusion.com/mobilejs/splitpane/overview.htm)' | markdownify }}</td><td>
 </td></tr>
 </table>
 
