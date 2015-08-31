@@ -23,7 +23,7 @@ Components</th></tr>
 <tr>
 <td rowspan = "2">
 Grid</td><td colspan = "4">
-{{ '[Grid](http://docs.syncfusion.com/mobilejs/grid/overview.htm)' | markdownify }}</td></tr>
+{{ '[Grid](/js/grid)' | markdownify }}</td></tr>
 <tr>
 <td colspan = "4">
 </td></tr>
@@ -50,68 +50,66 @@ BulletGraph</td></tr>
 <tr>
 <td rowspan = "5">
 Editors</td><td>
-{{ '[AutoComplete](http://docs.syncfusion.com/js/autocomplete/overview.htm)' | markdownify }}</td><td>
-{{ '[NumericTextbox](http://docs.syncfusion.com/js/numerictextbox/behavior-settings.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[PasswordTextbox](http://docs.syncfusion.com/mobilejs/passwordtrextbox/overview.htm)' | markdownify }}</td></tr>
+{{ '[AutoComplete](/js/autocomplete)' | markdownify }}</td><td>
+{{ '[NumericTextbox](/js/numerictextbox)' | markdownify }}</td><td colspan = "2">
+{{ 'PasswordTextbox' | markdownify }}</td></tr>
 <tr>
 <td>
-{{ '[Button](http://docs.syncfusion.com/js/button/easy-customization)' | markdownify }}</td><td>
-{{ '[DatePicker](http://docs.syncfusion.com/js/datepicker/overview)' | markdownify }}</td><td colspan = "2">
-{{ '[TextArea](http://docs.syncfusion.com/mobilejs/textarea/readonly-support)' | markdownify }}</td></tr>
+{{ '[Button](/js/button)' | markdownify }}</td><td>
+{{ '[DatePicker](/js/datepicker)' | markdownify }}</td><td colspan = "2">
+{{ 'TextArea' | markdownify }}</td></tr>
 <tr>
 <td>
-{{ '[TimePicker](http://docs.syncfusion.com/mobilejs/timepicker/overview)' | markdownify }}</td><td>
-{{ '[Rating](http://docs.syncfusion.com/mobilejs/rating/overview)' | markdownify }}</td><td colspan = "2">
-{{ '[MaskEdit](http://docs.syncfusion.com/mobilejs/maskedit/masking)' | markdownify }}</td></tr>
+{{ '[TimePicker](/js/timepicker)' | markdownify }}</td><td>
+{{ '[Rating](/js/rating)' | markdownify }}</td><td colspan = "2">
+{{ '[MaskEdit](/js/maskedit)' | markdownify }}</td></tr>
 <tr>
 <td>
-{{ '[Slider](http://docs.syncfusion.com/js/slider/overview.htm)' | markdownify }}</td><td>
-{{ '[Checkbox](http://docs.syncfusion.com/mobilejs/checkbox/overview.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[GroupButton](http://docs.syncfusion.com/mobilejs/groupbutton/overview.htm)' | markdownify }}</td></tr>
+{{ '[Slider](/js/silder)' | markdownify }}</td><td>
+{{ '[Checkbox](/js/checkbox)' | markdownify }}</td><td colspan = "2">
+{{ '[GroupButton](/js/groupbutton)' | markdownify }}</td></tr>
 <tr>
 <td>
-{{ '[Radiobutton](http://docs.syncfusion.com/mobilejs/radiobutton/checked-status.htm)' | markdownify }}</td><td>
-{{ '[Textbox](http://docs.syncfusion.com/mobilejs/textbox/border-support.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[ToggleButton](http://docs.syncfusion.com/mobilejs/togglebutton/overview.htm)' | markdownify }}</td></tr>
+{{ '[Radiobutton](h/js/radiobutton)' | markdownify }}</td><td>
+Textbox</td><td colspan = "2">
+{{ '[ToggleButton](/js/togglebutton)' | markdownify }}</td></tr>
 <tr>
 <td rowspan = "4">
 Navigation</td><td>
-{{ '[Accordion](http://docs.syncfusion.com/mobilejs/accordion/overview.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[Menu](http://docs.syncfusion.com/mobilejs/menu/overview.htm)' | markdownify }}</td><td>
+{{ '[Accordion](/ja/accordion)' | markdownify }}</td><td colspan = "2">
+{{ '[Menu](/js/menu)' | markdownify }}</td><td>
 </td></tr>
 <tr>
 <td>
-{{ '[NavigationDrawer](http://docs.syncfusion.com/mobilejs/navigationdrawer/overview.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[Rotator](http://docs.syncfusion.com/mobilejs/rotator/overview.htm)' | markdownify }}</td><td>
+{{ '[NavigationDrawer](/js/navigationdrawer)' | markdownify }}</td><td colspan = "2">
+{{ '[Rotator](/js/rotator)' | markdownify }}</td><td>
 </td></tr>
 <tr>
 <td>
-{{ '[Tab](http://docs.syncfusion.com/mobilejs/tab/overview.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[RadialMenu](http://docs.syncfusion.com/mobilejs/radialmenu/overview.htm)' | markdownify }}</td><td>
-{{ '[ScrollPanel](http://docs.syncfusion.com/mobilejs/scrollpanel/overview.htm)' | markdownify }}</td></tr>
+{{ '[Tab](/js/tab)' | markdownify }}</td><td colspan = "2">
+{{ '[RadialMenu](/js/radialmenu)' | markdownify }}</td><td>
+{{ '[ScrollPanel](/js/scroller)' | markdownify }}</td></tr>
 <tr>
 <td>
-{{ '[ToolBar](http://docs.syncfusion.com/mobilejs/toolbar/overview.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[Header](http://docs.syncfusion.com/mobilejs/headerandfooter/overviewhtm)' | markdownify }}</td><td>
-{{ '[Footer](http://docs.syncfusion.com/mobilejs/headerandfooter/overview.htm)' | markdownify }}</td></tr>
+{{ '[ToolBar](/js/toolbar)' | markdownify }}</td><td colspan = "2">
+Header</td><td>
+Footer</td></tr>
 <tr>
 <td>
 Notification</td><td>
-{{ '[Progressbar](http://docs.syncfusion.com/mobilejs/progressbar/overview.htm)' | markdownify }}</td><td colspan = "3">
+{{ '[Progressbar](/js/progressbar)' | markdownify }}</td><td colspan = "3">
 </td></tr>
 <tr>
 <td>
 Layout</td><td>
-{{ '[Dialog](http://docs.syncfusion.com/mobilejs/dialog/overview.htm)' | markdownify }}
-{{ '[SplitPane](http://docs.syncfusion.com/mobilejs/splitpane/overview.htm.htm)' | markdownify }}</td><td colspan = "2">
-{{ '[ListView](http://docs.syncfusion.com/mobilejs/listview/overview.htm)' | markdownify }}</td><td>
-{{ '[TileView](http://docs.syncfusion.com/mobilejs/tile/overview.htm)' | markdownify }}</td></tr>
+{{ '[Dialog](/js/dialog)' | markdownify }}{{ '[SplitPane](http://help.syncfusion.com/ug/js/Documents/overview80.htm)' | markdownify }}</td><td colspan = "2">
+{{ '[ListView](/js/listview)' | markdownify }}</td><td>
+{{ '[TileView](/js/tile)' | markdownify }}</td></tr>
 </table>
 
 
 All your mobile UI widgets supports the following listed major key featuresthat are more essential in building mobile application in recent days.
 
-_Property Table_
 
 <table>
 <tr>
@@ -132,7 +130,7 @@ Obtrusive</td><td>
 RequireJS</td></tr>
 <tr>
 <td>
-{{ '[Data-binding](http://docs.syncfusion.com/mobilejs/overview.htm)' | markdownify }}</td><td>
+{{ '[Data-binding](/js/datamanager/data-binding)' | markdownify }}</td><td>
 </td></tr>
 </table>
 

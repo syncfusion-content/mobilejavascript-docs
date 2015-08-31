@@ -11,7 +11,7 @@ documentation: ug
 
 ## For Windows Users
 
-Download the setup file (.exe) of Essential Studio for JavaScript product from this [link](http://www.syncfusion.com/downloads/javascript) with your Syncfusion account and follow the steps mentioned in the [setup guide](http://help.syncfusion.com/ug/common/index.html) to install the specific/entire platform on your machine.
+Download the setup file (.exe) of Essential Studio for JavaScript product from this [link](http://www.syncfusion.com/downloads/javascript) with your Syncfusion account and follow the steps mentioned in the [setup guide](/common) to install the specific/entire platform on your machine.
 
 ### Install Location
 
