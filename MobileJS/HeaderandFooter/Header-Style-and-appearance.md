@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Header-Style-and-appearance
 description: header-style-and-appearance
