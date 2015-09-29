@@ -3,7 +3,7 @@ layout: post
 title: mobile-button-dependencies-files
 description: mobile button dependencies files
 platform: Mobilejs
-control: Form Controls
+control: Button (Mobile)
 documentation: ug
 ---
 

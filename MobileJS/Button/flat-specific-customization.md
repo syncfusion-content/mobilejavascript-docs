@@ -3,7 +3,7 @@ layout: post
 title: flat-specific-customization
 description: flat specific customization
 platform: Mobilejs
-control: Form Controls
+control: Button (Mobile)
 documentation: ug
 ---
 

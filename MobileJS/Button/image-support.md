@@ -3,7 +3,7 @@ layout: post
 title: image-support
 description: image support
 platform: Mobilejs
-control: Form Controls
+control: Button (Mobile)
 documentation: ug
 ---
 

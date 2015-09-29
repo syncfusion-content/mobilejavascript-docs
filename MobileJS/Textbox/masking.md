@@ -3,7 +3,7 @@ layout: post
 title: masking
 description: masking
 platform: Mobilejs
-control: Form Controls
+control: Textbox (Mobile)
 documentation: ug
 ---
 

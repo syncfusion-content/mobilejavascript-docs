@@ -3,7 +3,7 @@ layout: post
 title: windows-specific-customization
 description: windows specific customization
 platform: Mobilejs
-control: Form Controls
+control: Textbox (Mobile)
 documentation: ug
 ---
 

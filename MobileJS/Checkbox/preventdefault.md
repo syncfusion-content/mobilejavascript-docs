@@ -3,7 +3,7 @@ layout: post
 title: preventdefault-
 description: preventdefault 
 platform: Mobilejs
-control: Form Controls
+control: Checkbox (Mobile)
 documentation: ug
 ---
 

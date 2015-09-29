@@ -3,7 +3,7 @@ layout: post
 title: customize-contenttype-and-text
 description: customize contenttype and text
 platform: Mobilejs
-control: Form Controls
+control: Button (Mobile)
 documentation: ug
 ---
 

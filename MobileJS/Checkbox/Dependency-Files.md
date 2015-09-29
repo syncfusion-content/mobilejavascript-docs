@@ -3,7 +3,7 @@ layout: post
 title: mobile-checkbox-dependency-files
 description: mobile checkbox dependency files
 platform: Mobilejs
-control: Form Controls
+control: Button (Mobile)
 documentation: ug
 ---
 

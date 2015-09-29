@@ -3,7 +3,7 @@ layout: post
 title: styles-and-appearance
 description: styles and appearance
 platform: Mobilejs
-control: Form Controls
+control: Button (Mobile)
 documentation: ug
 ---
 

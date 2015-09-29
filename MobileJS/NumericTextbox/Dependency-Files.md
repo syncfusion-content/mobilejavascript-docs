@@ -3,7 +3,7 @@ layout: post
 title: mobile-numeric-textbox-dependency-files
 description: mobile numeric textbox dependency files
 platform: Mobilejs
-control: Form Controls
+control: Numeric Textbox (Mobile)
 documentation: ug
 ---
 

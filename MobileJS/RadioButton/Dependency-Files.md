@@ -3,7 +3,7 @@ layout: post
 title: mobile-radiobutton-dependency-files
 description: mobile radiobutton dependency files
 platform: Mobilejs
-control: Form Controls
+control: RadioButton (Mobile)
 documentation: ug
 ---
 

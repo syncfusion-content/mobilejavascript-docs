@@ -3,7 +3,7 @@ layout: post
 title: mobile-textbox-dependency-files
 description: mobile textbox dependency files
 platform: Mobilejs
-control: Form Controls
+control: Textbox (Mobile)
 documentation: ug
 ---
 
