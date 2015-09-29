@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ImageField
+title: ImageField | AutoComplete| Mobilejs | Syncfusion
 description: imagefield
 platform: Mobilejs
 control: AutoComplete (Mobile) 
@@ -15,49 +15,40 @@ The data-ej-imagefield attribute is used to map the specific field name of the g
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-datasource="window.datacont" data-ej-fields-text="country" data-ej-imagefield="flag" />
 
-
-
 {% endhighlight %}
-
-
 
 Add the following script.
 
 {% highlight js %}
 
-        var datacont = [
+var datacont = [
 
-{
+    {
 
-"country": "Afghanistan",
+        "country": "Afghanistan",
 
-"flag": "../themes/sample/autocomplete/afghanistan.png"
+        "flag": "../themes/sample/autocomplete/afghanistan.png"
 
-},
+    },
 
-{
+    {
 
-"country": "Argentina",
+        "country": "Argentina",
 
-"flag": "../themes/sample/autocomplete/argentina.png"
+        "flag": "../themes/sample/autocomplete/argentina.png"
 
-},
+    },
 
-{
+    {
 
-"country": "Australia",
+        "country": "Australia",
 
-"flag": "../themes/sample/autocomplete/Australia.png"
+        "flag": "../themes/sample/autocomplete/Australia.png"
 
-}
-
+    }
 ];
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays the ImageField:
 

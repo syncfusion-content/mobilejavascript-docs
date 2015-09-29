@@ -1,28 +1,19 @@
 ---
 layout: post
-title: ejmSplitPane
+title: ejmSplitPane | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmSplitPane, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html SplitPane control.
+# ejmSplitPane
 
-
-
-
+Custom Design for Html SplitPane control.
 
 $(element).ejmSplitPane<span class="signature">()</span>
 
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %}// Create SplitPane in unobtrusive way
 <div id="splitview" data-role="ejmsplitpane" >
@@ -53,8 +44,7 @@ $("#splitview").ejmSplitPane();
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 * module:jQuery
@@ -87,7 +77,7 @@ Requires
 
 
 
-### allowLeftPaneScrolling<span class="type-signature type boolean">boolean</span>
+### allowLeftPaneScrolling`boolean`
 {:#members:allowleftpanescrolling}
 
 
@@ -96,8 +86,7 @@ Requires
 Specifies whether to allow scrolling for leftpane content.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -106,8 +95,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -150,7 +138,7 @@ $("#splitview").ejmSplitPane("option", "allowLeftPaneScrolling", false);        
 
 
 
-### allowRightPaneScrolling<span class="type-signature type boolean">boolean</span>
+### allowRightPaneScrolling`boolean`
 {:#members:allowrightpanescrolling}
 
 
@@ -159,8 +147,7 @@ $("#splitview").ejmSplitPane("option", "allowLeftPaneScrolling", false);        
 Specifies whether to allow scrolling for rightpane content.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -169,8 +156,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -226,7 +212,7 @@ Section for android rendermode specific functionalities.
 
 
 
-### android.showToolbar<span class="type-signature type bool">bool</span>
+### android.showToolbar`bool`
 {:#members:android-showtoolbar}
 
 
@@ -235,8 +221,7 @@ Section for android rendermode specific functionalities.
 Specifies whether to show the toolbar when the control is rendered in android mode.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -245,8 +230,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -289,7 +273,7 @@ $("#splitview").ejmSplitPane("option", "android.showToolbar", false);           
 
 
 
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
 
 
@@ -298,8 +282,7 @@ $("#splitview").ejmSplitPane("option", "android.showToolbar", false);           
 Sets the root class for SplitPane theme. This cssClass API helps to use custom skinning option for SplitPane control. By defining the root class using this API, we need to include this root class in CSS.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -308,8 +291,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -350,7 +332,7 @@ $("#splitview").ejmSplitPane("option", "cssClass","customclass" );              
 
 
 
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
 
 
@@ -359,8 +341,7 @@ $("#splitview").ejmSplitPane("option", "cssClass","customclass" );              
 Saves current model value to browser cookies for state maintains. While refreshing the page retains the model value apply from browser cookies.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -369,8 +350,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -411,7 +391,7 @@ $("#splitview").ejmSplitPane("option", "enablePersistence", true);              
 
 
 
-### enableSwipe<span class="type-signature type boolean">Boolean</span>
+### enableSwipe`Boolean`
 {:#members:enableswipe}
 
 
@@ -420,8 +400,7 @@ $("#splitview").ejmSplitPane("option", "enablePersistence", true);              
 Enable or Disable the swiping behavior to the content.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -430,8 +409,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -485,7 +463,7 @@ Section for flat rendermode specific functionalities.
 
 
 
-### flat.showLeftPaneHeader<span class="type-signature type bool">bool</span>
+### flat.showLeftPaneHeader`bool`
 {:#members:flat-showleftpaneheader}
 
 
@@ -494,8 +472,7 @@ Section for flat rendermode specific functionalities.
 Specifies whether to show the left header .
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -504,8 +481,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -548,7 +524,7 @@ $("#splitview").ejmSplitPane("option", "flat.showLeftPaneHeader", false);       
 
 
 
-### flat.showRightPaneHeader<span class="type-signature type bool">bool</span>
+### flat.showRightPaneHeader`bool`
 {:#members:flat-showrightpaneheader}
 
 
@@ -557,8 +533,7 @@ $("#splitview").ejmSplitPane("option", "flat.showLeftPaneHeader", false);       
 Specifies whether to show the right header .
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -567,8 +542,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -624,7 +598,7 @@ Section for ios7 rendermode specific functionalities.
 
 
 
-### ios7.showLeftPaneHeader<span class="type-signature type bool">bool</span>
+### ios7.showLeftPaneHeader`bool`
 {:#members:ios7-showleftpaneheader}
 
 
@@ -633,8 +607,7 @@ Section for ios7 rendermode specific functionalities.
 Specifies whether to show the left header .
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -643,8 +616,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -687,7 +659,7 @@ $("#splitview").ejmSplitPane("option", "ios7.showLeftPaneHeader", false);       
 
 
 
-### ios7.showRightPaneHeader<span class="type-signature type bool">bool</span>
+### ios7.showRightPaneHeader`bool`
 {:#members:ios7-showrightpaneheader}
 
 
@@ -696,8 +668,7 @@ $("#splitview").ejmSplitPane("option", "ios7.showLeftPaneHeader", false);       
 Specifies whether to show the right header .
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -706,8 +677,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -750,7 +720,7 @@ $("#splitview").ejmSplitPane("option", "ios7.showRightPaneHeader", false);      
 
 
 
-### leftHeaderSettings<span class="type-signature type string">String</span>
+### leftHeaderSettings`String`
 {:#members:leftheadersettings}
 
 
@@ -759,8 +729,7 @@ $("#splitview").ejmSplitPane("option", "ios7.showRightPaneHeader", false);      
 Section for set the header functionalities to the left header of the Split Pane control.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -769,8 +738,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -811,7 +779,7 @@ $("#splitview").ejmSplitPane("option", "leftHeaderSettings.title","Title");     
 
 
 
-### leftPaneScrollSettings<span class="type-signature type number">Number</span>
+### leftPaneScrollSettings`Number`
 {:#members:leftpanescrollsettings}
 
 
@@ -820,8 +788,7 @@ $("#splitview").ejmSplitPane("option", "leftHeaderSettings.title","Title");     
 Section for scroll panel specific functionalities appear to the left pane content
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -830,8 +797,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -872,7 +838,7 @@ $("#splitview").ejmSplitPane("option", "leftPaneScrollSettings.targetWidth", 300
 
 
 
-### overlayDirection<span class="type-signature type enum">enum</span>
+### overlayDirection`enum`
 {:#members:overlaydirection}
 
 
@@ -881,8 +847,7 @@ $("#splitview").ejmSplitPane("option", "leftPaneScrollSettings.targetWidth", 300
 Specifies the direction to slide the overlay leftpane
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -891,8 +856,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -933,7 +897,7 @@ $("#splitview").ejmSplitPane("option", "overlayDirection",right);               
 
 
 
-### overlayLeftPane<span class="type-signature type boolean">Boolean</span>
+### overlayLeftPane`Boolean`
 {:#members:overlayleftpane}
 
 
@@ -942,8 +906,7 @@ $("#splitview").ejmSplitPane("option", "overlayDirection",right);               
 specifies whether to overlay the leftpane content on lower resolutions.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -952,8 +915,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -994,7 +956,7 @@ $("#splitview").ejmSplitPane("option", "overlayLeftPane",false);                
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -1003,8 +965,7 @@ $("#splitview").ejmSplitPane("option", "overlayLeftPane",false);                
 Changes the rendering mode of the SplitPane. See <a href="global.html#RenderMode">RenderMode</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1013,8 +974,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1057,7 +1017,7 @@ $("#splitview").ejmSplitpane("option", "renderMode", ej.mobile.RenderMode.Androi
 
 
 
-### rightHeaderSettings<span class="type-signature type string">String</span>
+### rightHeaderSettings`String`
 {:#members:rightheadersettings}
 
 
@@ -1066,8 +1026,7 @@ $("#splitview").ejmSplitpane("option", "renderMode", ej.mobile.RenderMode.Androi
 Section for set the header functionalities to the right header of the Split Pane control.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1076,8 +1035,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1118,7 +1076,7 @@ $("#splitview").ejmSplitPane("option", "rightHeaderSettings.title","Title");    
 
 
 
-### rightPaneScrollSettings<span class="type-signature type number">Number</span>
+### rightPaneScrollSettings`Number`
 {:#members:rightpanescrollsettings}
 
 
@@ -1127,8 +1085,7 @@ $("#splitview").ejmSplitPane("option", "rightHeaderSettings.title","Title");    
 Section for scroll panel specific functionalities appear to the right pane content.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1137,8 +1094,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1179,7 +1135,7 @@ $("#splitview").ejmSplitPane("option", "rightPaneScrollSettings.targetWidth", 30
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -1188,8 +1144,7 @@ $("#splitview").ejmSplitPane("option", "rightPaneScrollSettings.targetWidth", 30
 Changes the theme of the SplitPane. See <a href="global.html#Theme">Theme</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1198,8 +1153,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1242,7 +1196,7 @@ $("#splitview").ejmSplitPane("option", "theme", ej.mobile.Theme.Dark);          
 
 
 
-### toolbarSettings<span class="type-signature type string">String</span>
+### toolbarSettings`String`
 {:#members:toolbarsettings}
 
 
@@ -1251,8 +1205,7 @@ $("#splitview").ejmSplitPane("option", "theme", ej.mobile.Theme.Dark);          
 Section for specifies toolbar functionalities when the control is rendered.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1261,8 +1214,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1316,7 +1268,7 @@ Section for windows rendermode specific functionalities.
 
 
 
-### windows.showLeftPaneHeader<span class="type-signature type bool">bool</span>
+### windows.showLeftPaneHeader`bool`
 {:#members:windows-showleftpaneheader}
 
 
@@ -1325,8 +1277,7 @@ Section for windows rendermode specific functionalities.
 Specifies whether to show the left header .
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1335,8 +1286,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1379,7 +1329,7 @@ $("#splitview").ejmSplitPane("option", "windows.showLeftPaneHeader", false);    
 
 
 
-### windows.showRightPaneHeader<span class="type-signature type bool">bool</span>
+### windows.showRightPaneHeader`bool`
 {:#members:windows-showrightpaneheader}
 
 
@@ -1388,8 +1338,7 @@ $("#splitview").ejmSplitPane("option", "windows.showLeftPaneHeader", false);    
 Specifies whether to show the right header .
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1398,8 +1347,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1446,7 +1394,7 @@ $("#splitview").ejmSplitPane("option", "windows.showRightPaneHeader", false);   
 
 
 
-### loadContent<span class="signature">()</span>
+### loadContent`()`
 {:#methods:loadcontent}
 
 
@@ -1456,8 +1404,7 @@ To handle right side content loading
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1496,7 +1443,7 @@ rightButtonTap: "RightButtonTapped"
 
 
 
-### refreshLeftScroller<span class="signature">()</span>
+### refreshLeftScroller`()`
 {:#methods:refreshleftscroller}
 
 
@@ -1506,8 +1453,7 @@ To refresh the left pane scrolling.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1550,7 +1496,7 @@ alert("Load Failed");
 
 
 
-### refreshRightScroller<span class="signature">()</span>
+### refreshRightScroller`()`
 {:#methods:refreshrightscroller}
 
 
@@ -1560,8 +1506,7 @@ To refresh the active right pane scrolling.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1606,7 +1551,7 @@ alert("Load Failed");
 
 
 
-### transferPage<span class="signature">()</span>
+### transferPage`()`
 {:#methods:transferpage}
 
 
@@ -1616,8 +1561,7 @@ To handle transferPage
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1713,8 +1657,7 @@ Event triggers after the ajax content is loaded.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1790,8 +1733,7 @@ Event triggers before the content is transfer.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

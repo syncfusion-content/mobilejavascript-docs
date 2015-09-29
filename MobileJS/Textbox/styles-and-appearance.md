@@ -1,6 +1,6 @@
 ---
 layout: post
-title: styles-and-appearance
+title: styles and appearance | Textbox | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
 control: Textbox (Mobile)
@@ -32,6 +32,3 @@ In certain scenarios, it is necessary to change the color or design of **Textbox
 * e-m-noborder - This class is applied to the element of Textbox borders.
 
 * e-m-state-disabled - This class is applied to numeric Textbox in disabled state. 
-
-
-

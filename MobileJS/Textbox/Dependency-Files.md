@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mobile-textbox-dependency-files
+title: mobile textbox dependency files | Textbox | Mobilejs | Syncfusion
 description: mobile textbox dependency files
 platform: Mobilejs
 control: Textbox (Mobile)
@@ -9,15 +9,15 @@ documentation: ug
 
 # Mobile Textbox dependency files
 
-This section deals with the dependency files for all **Textbox** control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you are using this file, skip this section, else refer to the following script files to render all the **Textbox** controls.
+This section deals with the dependency files for all Textbox control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you are using this file, skip this section, else refer to the following script files to render all the Textbox controls.
 
 _List of Script Files_
 
 <table>
 <tr>
-<td>
-<b>File</b></td><td>
-<b>Description/Usage</b></td></tr>
+<th>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>
@@ -49,7 +49,7 @@ It is referred to handle all the properties, events, and methods of Textbox.</td
 </table>
 
 
-The **Textbox** package contains the following controls.
+The Textbox package contains the following controls.
 
 1. Textbox - Textbox accept both numeric values and other text key values. 
 
@@ -58,6 +58,3 @@ The **Textbox** package contains the following controls.
 3. Text Area - The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control.
 
 4. Mask Edit Textbox - The Masked Edit control provides restricted data input as well as formatted data output. It generally behaves as a standard text box control with enhancements for optional masked input and formatted output. When you do not use an input mask, the Masked Edit control behaves much like a standard text box. 
-
-
-

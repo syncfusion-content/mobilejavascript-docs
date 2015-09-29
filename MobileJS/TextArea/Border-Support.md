@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Border-Support
+title: Border Support | TextArea | Mobilejs | Syncfusion
 description: border support
 platform: Mobilejs
 control: TextArea (Mobile)
@@ -17,10 +17,6 @@ Refer to the following code example.
 
 <textarea id="textarea" data-role="ejmtextarea" data-ej-watermarktext="TextArea" data-ej-showborder="false"></textarea>
 
-
-
 {% endhighlight %}
 
 ![](Border-Support_images/Border-Support_img1.png)
-
-

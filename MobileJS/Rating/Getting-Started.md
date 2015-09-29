@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | Rating | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: Rating (Mobile)
@@ -13,7 +13,6 @@ documentation: ug
 
 Essential JavaScript Rating control for Mobile provides an intuitive Rating experience that allows you to select a number of stars that represent a Rating.
 
-
 ![](Getting-Started_images/Getting-Started_img1.png)
 
 ## Create the necessary layout
@@ -24,91 +23,84 @@ The following steps guide you to add a Rating control for a mobile application R
 
 {% highlight html %}
 
-
 <!DOCTYPE html>
 
 <html>
 
-<head>
+	<head>
 
-<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
 
-<title>Rating</title>
+	<title>Rating</title>
 
-<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+	<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
+	<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
 
-  <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+	<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+	<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
 
+	<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
 
+	</head>
 
-<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+	<body>
 
-</head>
+		<div data-role="appview">
 
-<body>
+			<!-- Header control -->
 
-<div data-role="appview">
+			<div id="header" data-ej-title="Google Search" data-ej-position="normal" 
+	             										data-role="ejmheader"> </div>
 
-<!-- Header control -->
+			<div id="content">
 
-<div id="header" data-ej-title="Google Search" data-ej-position="normal" 
-             data-role="ejmheader"></div>
+				<div align="center" id="form" style="padding: 10px;>
 
-           <div id="content">
+				<div id="image">
+				
+					<!—to display the google image -->
 
-            <div align="center" id="form" style="padding: 10px;>
+				</div>
 
-      <div id="image"><!—to display the google image -->
+				<div style="padding: 0 20px;">
 
-                </div>
+	            	<h2>
+	
+						Description
+						
+					</h2>
+					
+					<br />                     The fastest, easiest way to find what you need on the web and on your device. Quickly                     search the web and your phone or tablet.
+					
+					<br />
+					
+					<br />
+					
+					<h2>
+					
+						Rate me
+						
+					</h2>  
+					               
+				</div>
+				
+				<!--Add Rating control here-->
+				
+			</div>
+			
+		</div> 
+		
+		<!-- Scroll panel -->
+		
+		<div data-role="ejmscrollpanel"  data-ej-target="content"></div>
+		
+		</div>
 
-                 <div style="padding: 0 20px;">
-
-                    <h2>
-
-                        Description
-
-                    </h2>
-
-                    <br />
-
-                    The fastest, easiest way to find what you need on the web and on your device. Quickly
-
-                    search the web and your phone or tablet.
-
-                    <br />
-
-                    <br />
-
-                    <h2>
-
-                        Rate me
-
-                    </h2>
-
-                </div>
-
- <!--Add Rating control here-->
-
-
-
-                 </div>
-
-</div>
-        <!-- Scroll panel -->
-        <div data-role="ejmscrollpanel" data-ej-target="content"></div>
-
-</div>
-
-</body>
+	</body>
 
 </html>
-
-
 
 {% endhighlight %}
 
@@ -122,15 +114,9 @@ To add Rating control, you need to specify ejmrating to data-role attribute for 
 
 <div data-role="ejmrating">
 
-
-
 </div>
 
-
-
 {% endhighlight %}
-
-
 
 Add the following styles to display the image. 
 
@@ -138,37 +124,31 @@ Add the following styles to display the image.
 
 <!--Adds styles to display google image-->
 
-        #image
+#image
 
-        {
+{
 
-            background: url("http://js.syncfusion.com/UG/Mobile/Content/google.png") no-repeat;
+	background: url("http://js.syncfusion.com/UG/Mobile/Content/google.png") no-repeat;
 
-            height: 140px;
+	height: 140px;
 
-            width: 140px;
+	width: 140px;
 
-            margin-top:50px;
+	margin-top:50px;
 
-        }
+}
 
-         #form h2 {
+ #form h2 {
 
-            font-weight: bold;
+	font-weight: bold;
 
-        }
+}
 
 {% endhighlight %}
 
-
-
 Run the above code example and rate the application by selecting stars. You will see the following output.
 
-
-
-![IMG_0180](Getting-Started_images/Getting-Started_img2.png)
-
-
+![](Getting-Started_images/Getting-Started_img2.png)
 
 ## Set Precision
 
@@ -186,4 +166,3 @@ You can customize the Rating Precision based on your requirement. You can custom
 ![](Getting-Started_images/Getting-Started_img3.png)
 
 From the above steps, you have learnt how to add a Mobile Rating control widget using JavaScript for your application Rating scenario. There are more customization properties other than the one used here.
-

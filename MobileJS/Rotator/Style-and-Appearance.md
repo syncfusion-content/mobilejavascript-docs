@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Style-and-Appearance
+title: Style and Appearance | Rotator | Mobilejs | Syncfusion
 description: style and appearance     
 platform: Mobilejs
 control: Rotator (Mobile)
@@ -23,8 +23,3 @@ In certain scenarios, it is necessary to change the color or design of Rotator c
 * e-m-sv-pagerright - This class is applied to right pager position of the Rotator.
 * e-m-rot-item - This class is applied to each rotator items in Rotator control.
 * e-m-active - This class is applied to element of active Rotator item.
-
-
-
-
-

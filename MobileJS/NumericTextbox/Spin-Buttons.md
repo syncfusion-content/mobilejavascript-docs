@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spin-Buttons
+title: Spin Buttons | Numeric Textbox | Mobilejs | Syncfusion
 description: spin buttons
 platform: Mobilejs
 control: Numeric Textbox (Mobile)

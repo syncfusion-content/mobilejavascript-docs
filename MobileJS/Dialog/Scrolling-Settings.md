@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrolling-Settings
+title: Scrolling Settings | Dialog | Mobilejs | Syncfusion
 description: scrolling settings
 platform: Mobilejs
 control: Dialog (Mobile)

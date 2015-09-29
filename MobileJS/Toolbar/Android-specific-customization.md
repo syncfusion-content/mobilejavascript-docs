@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android-specific-customization
+title: Android specific customization | Toolbar | Mobilejs | Syncfusion
 description: android specific customization
 platform: Mobilejs
 control: Toolbar (Mobile)
@@ -19,28 +19,25 @@ Refer to the following code example.
 
 {% highlight html %}
 
-    <div data-role="ejmtoolbar" id="toolbar_sample" data-ej-templateid="sample1" data-ej-rendermode="android">
+<div data-role="ejmtoolbar" id="toolbar_sample" data-ej-templateid="sample1" data-ej-rendermode="android">
 
-        <ul>
+	<ul>
 
-            <li data-ej-iconname="add"></li>
+		<li data-ej-iconname="add"></li>
 
-            <li data-ej-iconname="cut"></li>
+		<li data-ej-iconname="cut"></li>
 
-        </ul>
+	</ul>
 
-    </div>
+</div>
 
-    <span id="sample1">Hi, Welcome</span> 
-
-
+<span id="sample1">Hi, Welcome</span> 
 
 {% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
 ![](Android-specific-customization_images/Android-specific-customization_img1.png)
-
 
 ## EnableSplitView
 
@@ -50,35 +47,29 @@ Refer to the following code example.
 
 {% highlight html %}
 
-  <div id="toolbar_sample" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-enablesplitview=true>
+<div id="toolbar_sample" data-role="ejmtoolbar" data-ej-rendermode="android" data-ej-android-enablesplitview=true>
 
-            <ul>
+	<ul>
 
-                <li  data-ej-iconname="add" ></li>
+		<li  data-ej-iconname="add" ></li>
 
-                <li data-ej-iconname="cut" ></li>
+		<li data-ej-iconname="cut" ></li>
 
-                <li data-ej-iconname="copy" ></li>
+		<li data-ej-iconname="copy" ></li>
 
-                <li data-ej-iconname="save" ></li>
+		<li data-ej-iconname="save" ></li>
 
-                <li data-ej-iconname="search" ></li>
+		<li data-ej-iconname="search" ></li>
 
-            </ul>
+	</ul>
 
-    </div>
-
-
-
-
+</div>
 
 {% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
 ![](Android-specific-customization_images/Android-specific-customization_img2.png)
-
-
 
 ## ShowBackNavigator
 
@@ -90,29 +81,27 @@ Refer to the following code example.
 
 <div data-role="ejmtoolbar" id="toolbar_sample" data-ej-rendermode="android"  data-ej-android-showbacknavigator="true" >
 
-            <ul>
+	<ul>
 
-                <li  data-ej-iconname="add"></li>
+		<li  data-ej-iconname="add"></li>
 
-                <li data-ej-iconname="cut"></li>
+		<li data-ej-iconname="cut"></li>
 
-                <li data-ej-iconname="copy"></li>
+		<li data-ej-iconname="copy"></li>
 
-                <li data-ej-iconname="save"></li>
+		<li data-ej-iconname="save"></li>
 
-                <li data-ej-iconname="search"></li>
+		<li data-ej-iconname="search"></li>
 
-            </ul>
+	</ul>
 
-        </div>
+</div>
 
 {% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
 ![](Android-specific-customization_images/Android-specific-customization_img3.png)
-
-
 
 ## ShowEllipsis
 
@@ -124,19 +113,19 @@ Refer to the following code example.
 
 <div data-role="ejmtoolbar" id="toolbar_sample" data-ej-rendermode="android"  data-ej-android-showellipsis=true >
 
-            <ul>
+	<ul>
 
-                <li  data-ej-iconname="add"></li>
+		<li  data-ej-iconname="add"></li>
 
-                <li data-ej-iconname="cut"></li>
+		<li data-ej-iconname="cut"></li>
 
-                <li data-ej-iconname="copy"></li>
+		<li data-ej-iconname="copy"></li>
 
-                <li data-ej-iconname="save"></li>
+		<li data-ej-iconname="save"></li>
 
-                <li data-ej-iconname="search"></li>
+		<li data-ej-iconname="search"></li>
 
-            </ul>
+	</ul>
 
  </div>
 
@@ -156,31 +145,24 @@ Refer to the following code example.
 
 <div data-role="ejmtoolbar" id="toolbar_sample" data-ej-rendermode="android"  data-ej-android-titleiconurl="http://js.syncfusion.com/UG/Mobile/Content/updates.png" data-ej-android-showtitleicon=true >
 
-            <ul>
+	<ul>
 
-                <li  data-ej-iconname="add"></li>
+		<li  data-ej-iconname="add"></li>
 
-                <li data-ej-iconname="cut"></li>
+		<li data-ej-iconname="cut"></li>
 
-                <li data-ej-iconname="copy"></li>
+		<li data-ej-iconname="copy"></li>
 
-                <li data-ej-iconname="save"></li>
+		<li data-ej-iconname="save"></li>
 
-                <li data-ej-iconname="search"></li>
+		<li data-ej-iconname="search"></li>
 
-            </ul>
+	</ul>
 
-        </div>
-
-
+</div>
 
 {% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
 ![](Android-specific-customization_images/Android-specific-customization_img5.png)
-
-
-
-
-

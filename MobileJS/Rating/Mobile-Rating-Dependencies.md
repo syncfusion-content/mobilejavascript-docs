@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Rating-Dependencies
+title: Mobile Rating Dependencies | Rating | Mobilejs | Syncfusion
 description: mobile rating dependencies
 platform: Mobilejs
 control: Rating (Mobile)
@@ -47,5 +47,3 @@ It is referred for touch events support.</td></tr>
 ej.mobile.rating.min.js</td><td>
 It is referred to handle the Rating control and should be used while rendering the Rating control.</td></tr>
 </table>
-
-

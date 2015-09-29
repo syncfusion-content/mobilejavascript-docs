@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | Password | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: Password (Mobile)
@@ -28,78 +28,69 @@ Create an HTML file and add the following template to the HTML file.
 
 <html>
 
-<head>
+	<head>
 
-    <title>Password</title>
+		<title>Password</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
 
-    <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+		<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
+	<div id="header" data-role="ejmheader" data-ej-position="normal" data-ej-title="Login"></div>
 
+		<div id="sample" class="sample">
 
-<div id="header" data-role="ejmheader" data-ej-position="normal" data-ej-title="Login"></div>
+			<div class="container">
 
-    <div id="sample" class="sample">
+				<form id="loginForm">
 
-        <div class="container">
+					<label>
 
-            <form id="loginForm">
+						User Name
 
-                <label>
+					</label>
 
-                    User Name
+					<div>
 
-                </label>
+						<input id="userName" name="userName" data-role="ejmtextbox" data-ej-watermarktext="User Name" />                    
 
-                <div>
+					</div>
 
-                    <input id="userName" name="userName" data-role="ejmtextbox" data-ej-watermarktext="User Name" />                    
+					<label>
 
-                </div>
+						Password
 
-                <label>
+					</label>
 
-                    Password
+					<!-- Add Password elements here -->
 
-                </label>
+					<div class="submit">
 
+						<input id="submit" name="submit" data-role="ejmbutton" data-ej-text="Login" type="button" />
 
+					</div>
 
-                <!-- Add Password elements here -->
+				</form>
 
+			</div>
 
+		</div>
 
-                <div class="submit">
+		<div id="scrollPanel" data-role="ejmscrollpanel" data-ej-target="sample"></div>
 
-                    <input id="submit" name="submit" data-role="ejmbutton" data-ej-text="Login" type="button" />
+	</body>
 
-                </div>
-
-            </form>
-
-        </div>
-
-    </div>
-
-    <div id="scrollPanel" data-role="ejmscrollpanel" data-ej-target="sample"></div>
-
-
-
-</body>
 </html>
-
-
 
 {% endhighlight %}
 
@@ -111,10 +102,9 @@ To render the Password control, you can set “ejmpassword” to the data-role a
 
 <div>
 
-<input name="password" id="password" data-role="ejmpassword" />
+	<input name="password" id="password" data-role="ejmpassword" />
 
 </div>
-
 
 {% endhighlight %}
 
@@ -122,49 +112,39 @@ To render the Password control, you can set “ejmpassword” to the data-role a
 
 {% highlight css %}
 
-        .error {
+.error {
 
-            color: red;
+	color: red;
 
-        }
+}
 
+.sample {
 
+	display: table;
 
-        .sample {
+	width: 100%;
 
-            display: table;
+}
 
-            width: 100%;
+.submit {
 
-        }
+	text-align: center;
 
+}
 
+form {
 
-        .submit {
+	padding: 15px;
 
-            text-align: center;
+}
 
-        }
+.container {
 
+	display: table-cell;
 
+	vertical-align: middle;
 
-        form {
-
-            padding: 15px;
-
-        }
-
-
-
-        .container {
-
-            display: table-cell;
-
-            vertical-align: middle;
-
-        }
-
-
+}
 
 {% endhighlight %}
 
@@ -172,25 +152,16 @@ Run the above code example and you can see the following output.
 
 ![](Getting-Started_images/Getting-Started_img2.png)
 
-
-
 ### Set Watermark text
 
 The watermark text is usually a short hint that describes the expected value of the input field. This can be achieved by using the “data-ej-watermarktext” attribute.
 
 {% highlight html %}
 
-
 <input name="password" id="password" data-role="ejmpassword" data-ej-watermarktext="Password" />
-
-
-
 
 {% endhighlight %}
 
 Run the above code example and you can see the following output.
 
 ![](Getting-Started_images/Getting-Started_img3.png)
-
-
-

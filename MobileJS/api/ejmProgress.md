@@ -1,37 +1,19 @@
 ---
 layout: post
-title: ejmProgress
+title: ejmProgress | API Reference | Mobile JS | Syncfusion
+description: 
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmProgress, API, Essential Studio JS Autocomplete (Mobile)
 ---
 
-# Custom Design for Html Progressbar control.
+# ejmProgress
 
-
-
-
-
-
-
-
-
+Custom Design for Html Progressbar control.
 
 $(element).ejmProgress<span class="signature">()</span>
 
-
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -47,83 +29,37 @@ $("#progress").ejmProgress();
 {% endhighlight %}
 
 
-
-
-
-
-
-Requires
-{:.require}
-
-
-
+#### Requires
 
 * module:jQuery
 
-
 * module:ej.mobile.application
-
 
 * module:ej.core
 
-
 * module:ej.unobtrusive
-
 
 * module:ej.mobile.core
 
-
 * module:ej.data
 
-
 * module:ej.touch
-
-
-
 
 ## Members
 
 
-
-
-
-
-
-
-### enableCustomText<span class="type-signature type bool">bool</span>
+### enableCustomText`bool`
 {:#members:enablecustomtext}
-
-
-
-
-
-
 
 
 Specifies whether to accept custom text or not.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
 
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -156,7 +92,7 @@ $("#progress").ejmProgress ("option", "enableCustomText", false);            {% 
 
 
 
-### enabled<span class="type-signature type bool">bool</span>
+### enabled`bool`
 {:#members:enabled}
 
 
@@ -171,8 +107,7 @@ Specifies whether the control is enabled or disabled.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -188,8 +123,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -222,7 +156,7 @@ $("#progress").ejmProgress ("option", "enabled", true);            {% endhighlig
 
 
 
-### enablePersistence<span class="type-signature type bool">bool</span>
+### enablePersistence`bool`
 {:#members:enablepersistence}
 
 
@@ -237,8 +171,7 @@ Saves current model value to browser cookies for state maintainance. While refre
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -254,8 +187,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -288,7 +220,7 @@ $("#progress").ejmProgress ("option", "enablePersistence", false);            {%
 
 
 
-### height<span class="type-signature type int">int</span>
+### height`int`
 {:#members:height}
 
 
@@ -303,8 +235,7 @@ Specifies the Height.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -320,8 +251,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -353,7 +283,7 @@ $("#progress").ejmProgress ("option", "height", 10);            {% endhighlight 
 
 
 
-### incrementStep<span class="type-signature type int">int</span>
+### incrementStep`int`
 {:#members:incrementstep}
 
 
@@ -368,8 +298,7 @@ Specifies the value to be added in each step of increment.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -385,8 +314,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -417,7 +345,7 @@ $("#progress").ejmProgress ("option", "incrementStep", 2);            {% endhigh
 
 
 
-### maxValue<span class="type-signature type int">int</span>
+### maxValue`int`
 {:#members:maxvalue}
 
 
@@ -432,8 +360,7 @@ Specifies the maximum value.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -449,8 +376,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -482,7 +408,7 @@ $("#progress").ejmProgress ("option", "maxValue", 90);            {% endhighligh
 
 
 
-### minValue<span class="type-signature type int">int</span>
+### minValue`int`
 {:#members:minvalue}
 
 
@@ -497,8 +423,7 @@ specifies the minimum value.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -514,8 +439,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -547,7 +471,7 @@ $("#progress").ejmProgress ("option", "minValue", 10);            {% endhighligh
 
 
 
-### orientation<span class="type-signature type enum">enum</span>
+### orientation`enum`
 {:#members:orientation}
 
 
@@ -562,8 +486,7 @@ Specifies the orientation whether it is horizontal or vertical. See <a href="glo
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -579,8 +502,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}//Set the orientation property in unobtrusive way.
@@ -613,7 +535,7 @@ $("#progress").ejmProgress ("option", "orientation", ej.mobile.Progress.Orientat
 
 
 
-### percentage<span class="type-signature type int">int</span>
+### percentage`int`
 {:#members:percentage}
 
 
@@ -628,8 +550,7 @@ Specifies the initial value in percentage.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -645,8 +566,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -678,7 +598,7 @@ $("#progress").ejmProgress ("option", "percentage", 35);            {% endhighli
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -693,8 +613,7 @@ Changes the rendering mode. See <a href="global.html#RenderMode">RenderMode</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -710,8 +629,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -747,7 +665,7 @@ $("#progress").ejmProgress ("option", "renderMode", ej.mobile.RenderMode.Auto); 
 
 
 
-### text<span class="type-signature type string">string</span>
+### text`string`
 {:#members:text}
 
 
@@ -762,8 +680,7 @@ Applies custom text to notify it's current actions.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -779,8 +696,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -813,7 +729,7 @@ $("#progress").ejmProgress ("option", "text", "in-progress");            {% endh
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -828,8 +744,7 @@ Specifies the theme.See <a href="global.html#Theme">Theme</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -845,8 +760,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -881,7 +795,7 @@ $("#progress").ejmProgress ("option", "theme", ej.mobile.Theme.Auto);           
 
 
 
-### value<span class="type-signature type int">int</span>
+### value`int`
 {:#members:value}
 
 
@@ -896,8 +810,7 @@ Specifies the initial value.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -913,8 +826,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -946,7 +858,7 @@ $("#progress").ejmProgress ("option", "value", 35);            {% endhighlight %
 
 
 
-### width<span class="type-signature type int">int</span>
+### width`int`
 {:#members:width}
 
 
@@ -961,8 +873,7 @@ Specifies the width.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -978,8 +889,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1018,7 +928,7 @@ $("#progress").ejmProgress ("option", "width", 350);            {% endhighlight 
 
 
 
-### getPercentage<span class="signature">()</span>
+### getPercentage`()`
 {:#methods:getpercentage}
 
 
@@ -1034,8 +944,7 @@ Get current value in percentage
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1060,7 +969,7 @@ $("#progress").ejmProgress("getPercentage");
 
 
 
-### getValue<span class="signature">()</span>
+### getValue`()`
 {:#methods:getvalue}
 
 
@@ -1076,8 +985,7 @@ Gets the currentvalue.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1102,7 +1010,7 @@ $("#progress").ejmProgress("getValue");
 
 
 
-### setCustomText<span class="signature">()</span>
+### setCustomText`()`
 {:#methods:setcustomtext}
 
 
@@ -1118,8 +1026,7 @@ Set the custom text on each action conplete.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1220,8 +1127,7 @@ Event triggers when the value change happens.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1318,8 +1224,7 @@ Event triggers when the complete happens.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1416,8 +1321,7 @@ Event triggers when the create happens.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1514,8 +1418,7 @@ Event triggers when the start happens.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

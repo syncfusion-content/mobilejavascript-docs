@@ -1,6 +1,6 @@
 ---
 layout: post
-title: styles-and-appearance
+title: styles and appearance | Numeric Textbox  | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
 control: Numeric Textbox (Mobile)
@@ -22,6 +22,3 @@ To change the color or design of the **Numeric Textbox** control’s appearance,
 * e-m-icon-minus -This class is applied to the element of the Textbox’s left spinbutton.
 
 * e-m-watermarktext - This class is applied to the watermarktext in the Numeric Textbox.
-
-
-

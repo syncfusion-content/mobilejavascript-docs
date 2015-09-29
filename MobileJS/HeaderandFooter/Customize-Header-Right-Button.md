@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Header-Right-Button
+title: Customize Header Right Button | Header and Footer | Mobilejs | Syncfusion
 description: customize header right button
 platform: Mobilejs
 control: Header and Footer (Mobile)
@@ -15,21 +15,13 @@ To specify the caption (text) for HeaderRight Button, set “data-ej-rightbutton
 
 {% highlight html %}
 
-
-
 <div id="header_sample" data-role="ejmheader" data-ej-showrightbutton="true" data-ej-rightbuttoncaption="Next" ></div>
-
-
 
 {% endhighlight %}
 
 The following screenshot displays the Right Button Caption:
 
 ![](Customize-Header-Right-Button_images/Customize-Header-Right-Button_img1.png)
-
-
-
-
 
 ## RightButtonStyle
 
@@ -40,25 +32,15 @@ The possible values are,
 * Header
 * Normal
 
-
-
 {% highlight html %}
 
-
-
 <div id="header_sample" data-role="ejmheader" data-ej-showrightbutton="true" data-ej-rightbuttonstyle="header" ></div>
-
-
 
 {% endhighlight %}
 
 The following screenshot displays the Right Button Style:
 
-![F:/hdr.png](Customize-Header-Right-Button_images/Customize-Header-Right-Button_img2.png)
-
-
-
-
+![](Customize-Header-Right-Button_images/Customize-Header-Right-Button_img2.png)
 
 ## RightButtonNavigationURL
 
@@ -66,13 +48,6 @@ This feature specifies the navigation URL of the page while clicking the right b
 
 {% highlight html %}
 
-
-
 <div id="header_sample" data-role="ejmheader" data-ej-showrightbutton="true" data-ej-rightbuttonnavigationurl="" ></div>
 
-
-
 {% endhighlight %}
-
-
-

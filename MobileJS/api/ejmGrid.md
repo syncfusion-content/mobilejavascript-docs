@@ -1,30 +1,17 @@
 ---
 layout: post
-title: ejmGrid
+title: ejmGrid | API Reference | Mobile JS | Syncfusion
+description: 
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmGrid, API, Essential Studio JS Autocomplete (Mobile)
 ---
+
+# ejmGrid
 
 The grid can be easily configured to the DOM element, such as div. you can create a grid with a highly customizable look and feel.
 
-
-
-
-
-
-
-
-
-
 $(element).ejmGrid<span class="signature">(options)</span>
-
-
-
-
-
-
 
 <table class="params">
 <thead>
@@ -43,12 +30,7 @@ $(element).ejmGrid<span class="signature">(options)</span>
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -57,118 +39,60 @@ Example
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));   
 $("#mobilegrid").ejmGrid({ dataSource:data,columns: [
-                         { field: "OrderID", headerText: "Order ID" },
-                         { field: "CustomerID", headerText: "Customer ID" },
-                         { field: "Freight", headerText: "Freight" }
-                 ] });
-                 }); 
+		 { field: "OrderID", headerText: "Order ID" },
+		 { field: "CustomerID", headerText: "Customer ID" },
+		 { field: "Freight", headerText: "Freight" }
+ ] });
+ }); 
 </script>{% endhighlight %}
 
-
-
-
-
-
-
-Requires
-{:.require}
-
-
-
+#### Requires
 
 * module:jQuery
 
-
 * module:jsrender
-
 
 * module:jquery.globalize
 
-
 * module:ej.mobile.application
-
 
 * module:ej.core
 
-
 * module:ej.unobtrusive
-
 
 * module:ej.mobile.core
 
-
 * module:ej.data
-
 
 * module:ej.touch
 
-
 * module:ej.mobile.scrollbar
-
 
 * module:ej.mobile.scrollpanel
 
-
 * module:ej.mobile.header
-
 
 * module:ej.mobile.button
 
-
 * module:ej.mobile.dialog
-
 
 * module:ej.mobile.listbox
 
-
 * module:ej.mobile.checkbox
-
-
-
 
 ## Members
 
-
-
-
-
-
-
-
-### allowFiltering<span class="type-signature type boolean">boolean</span>
+### allowFiltering`boolean`
 {:#members:allowfiltering}
-
-
-
-
-
-
-
 
 Specifies whether to enable the filtering for the columns . It helps to filter the desired records in Grid columns.
 
 
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -177,53 +101,25 @@ Example
 $(document).ready(function(){
 var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 $("#mobilegrid").ejmGrid ({ allowFiltering: false,dataSource:data,columns: [
-                         { field: "OrderID", headerText: "Order ID" },
-                         { field: "CustomerID", headerText: "Customer ID" },
-                         { field: "Freight", headerText: "Freight" }
-                 ] });
-                 });    
-</script>                                {% endhighlight %}
+			 { field: "OrderID", headerText: "Order ID" },
+			 { field: "CustomerID", headerText: "Customer ID" },
+			 { field: "Freight", headerText: "Freight" }
+	 ] });
+	 });    
+</script>                                
+{% endhighlight %}
 
 
-
-
-
-
-
-### allowPaging<span class="type-signature type boolean">boolean</span>
+### allowPaging`boolean`
 {:#members:allowpaging}
-
-
-
-
-
-
-
 
 Specifies whether to enable the Grid pager feature
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -239,47 +135,16 @@ $("#mobilegrid").ejmGrid ({ allowPaging: true,dataSource:data,columns: [
                  });                
 </script>                                         {% endhighlight %}
 
-
-
-
-
-
-
-### allowScrolling<span class="type-signature type boolean">boolean</span>
+### allowScrolling`boolean`
 {:#members:allowscrolling}
-
-
-
-
-
-
-
 
 Specifies whether to enable the scrolling feature in Grid.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -294,47 +159,16 @@ $("#mobilegrid").ejmGrid ({ allowScrolling: false,dataSource:data,columns: [
                  });    
 </script>            {% endhighlight %}
 
-
-
-
-
-
-
-### allowSelection<span class="type-signature type boolean">boolean</span>
+### allowSelection`boolean`
 {:#members:allowselection}
-
-
-
-
-
-
-
 
 Specifies whether to enable the grid row selection.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -349,31 +183,13 @@ $("#mobilegrid").ejmGrid ({ allowSelection: false,dataSource:data,columns: [
                  });    
 </script>                                 {% endhighlight %}
 
-
-
-
-
-
-
-### allowSorting<span class="type-signature type boolean">boolean</span>
+### allowSorting`boolean`
 {:#members:allowsorting}
-
-
-
-
-
-
 
 
 Enable or disable the sorting behavior for the Grid and we can able to sort the Grid columns in Ascending or Decending Order.
 
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -388,47 +204,16 @@ $("#mobilegrid").ejmGrid ({ allowSorting: false,dataSource:data,columns: [
                  });
 </script>                                {% endhighlight %}
 
-
-
-
-
-
-
-### caption<span class="type-signature type string">string</span>
+### caption`string`
 {:#members:caption}
-
-
-
-
-
-
-
 
 Set the caption for the grid
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ""
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -443,47 +228,16 @@ $("#mobilegrid").ejmGrid ({ caption: "caption", showCaption: true,dataSource:dat
                  });    
 </script>                             {% endhighlight %}
 
-
-
-
-
-
-
-### columns<span class="type-signature type array">array</span>
+### columns`array`
 {:#members:columns}
-
-
-
-
-
-
-
 
 It is used to define which columns can be bound to grid
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * []
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %}<div  id="mobilegrid" ></div>
 <script>
@@ -497,47 +251,17 @@ $("#mobilegrid").ejGrid({ dataSource:data,columns: [
                  });                   
 </script> {% endhighlight %}
 
-
-
-
-
-
-
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
-
-
-
-
-
-
-
 
 Specifies the CSS class to grid to achieve custom theme.
 
 
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ""
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -552,46 +276,16 @@ $("#mobilegrid").ejmGrid ({ cssClass: "Customclass",dataSource:data,columns: [
                  });    
 </script>                                       {% endhighlight %}
 
-
-
-
-
-
-
-### dataSource<span class="type-signature type data">data</span>
+### dataSource`data`
 {:#members:datasource}
-
-
-
-
-
-
-
 
 Specifies the data source for the grid
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * null
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -607,46 +301,16 @@ $("#mobilegrid").ejmGrid ({ dataSource:data,columns: [
                  });    
 </script>                                 {% endhighlight %}
 
-
-
-
-
-
-
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
-
-
-
-
-
-
-
 
 Specifies whether to enable the state maintenance in grid.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -662,68 +326,22 @@ $("#mobilegrid").ejmGrid ({ enablePersistence: false,dataSource:data,columns: [
                  });    
 </script>                     {% endhighlight %}
 
-
-
-
-
-
-
 ### filterSettings
 {:#members:filtersettings}
 
-
-
-
-
-
-
-
 This property is used to customize the filtering behavior of the grid.
 
-
-
-
-
-
-
-
-
-
-
-### filterSettings.filterBarMode<span class="type-signature type enum">enum</span>
+### filterSettings.filterBarMode`enum`
 {:#members:filtersettings-filterbarmode}
-
-
-
-
-
-
 
 
 Set the filter bar mode option in the grid. Accepted filterBarModes are "immediate" and "onenter". See <a href="global.html#FilterBarMode">FilterBarMode</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Grid.FilterBarMode.OnEnter
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -741,46 +359,16 @@ $("#mobilegrid").ejmGrid ({
                  });           
 </script>                                        {% endhighlight %}
 
-
-
-
-
-
-
-### filterSettings.filteredColumns<span class="type-signature type object">object</span>
+### filterSettings.filteredColumns`object`
 {:#members:filtersettings-filteredcolumns}
-
-
-
-
-
-
-
 
 Get filtered columns details programmatically after filtering.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * []
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -798,47 +386,16 @@ $("#mobilegrid").ejmGrid ({
                  });            
 </script>{% endhighlight %}
 
-
-
-
-
-
-
-### filterSettings.interval<span class="type-signature type number">number</span>
+### filterSettings.interval`number`
 {:#members:filtersettings-interval}
-
-
-
-
-
-
-
 
 Specifies the filter interval (in milliseconds) when filterbar mode is set to Immediate.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * 1500
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -855,68 +412,21 @@ $("#mobilegrid").ejmGrid ({
                  });            
 </script>                                        {% endhighlight %}
 
-
-
-
-
-
-
 ### pageSettings
 {:#members:pagesettings}
 
-
-
-
-
-
-
-
 This property is used to modify pager default configuration.
 
-
-
-
-
-
-
-
-
-
-
-### pageSettings.currentPage<span class="type-signature type number">number</span>
+### pageSettings.currentPage`number`
 {:#members:pagesettings-currentpage}
-
-
-
-
-
-
-
 
 This is used to define which page to display currently.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * 1
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -934,46 +444,16 @@ $("#mobilegrid").ejmGrid ({
                  });               
 </script>                                 {% endhighlight %}
 
-
-
-
-
-
-
-### pageSettings.display<span class="type-signature type enum">enum</span>
+### pageSettings.display`enum`
 {:#members:pagesettings-display}
-
-
-
-
-
-
-
 
 Used to define the pager position which can be fixed or normal. See <a href="global.html#PagerDisplay">PagerDisplay</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Grid.PagerDisplay.Normal
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -991,46 +471,17 @@ $("#mobilegrid").ejmGrid ({
                  });              
 </script>                                        {% endhighlight %}
 
-
-
-
-
-
-
-### pageSettings.pageSize<span class="type-signature type number">number</span>
+### pageSettings.pageSize`number`
 {:#members:pagesettings-pagesize}
-
-
-
-
-
-
-
 
 This is used to define the number of records displayed per page.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * 5
 
 
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1049,46 +500,17 @@ $("#mobilegrid").ejmGrid ({
 </script>                                 {% endhighlight %}
 
 
-
-
-
-
-
-### pageSettings.totalRecordsCount<span class="type-signature type number">number</span>
+### pageSettings.totalRecordsCount`number`
 {:#members:pagesettings-totalrecordscount}
-
-
-
-
-
-
 
 
 It holds the total records count available in the grid.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * null
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -1103,46 +525,16 @@ var value = $("#mobilegrid").ejmGrid("option", "pageSettings.totalRecordsCount")
 $("#print").text("TotalRecordsCount: " + value);             
 </script>                                        {% endhighlight %}
 
-
-
-
-
-
-
-### pageSettings.type<span class="type-signature type enum">enum</span>
+### pageSettings.type`enum`
 {:#members:pagesettings-type}
-
-
-
-
-
-
-
 
 Used to define the pager type which can be scrollable or normal. See <a href="global.html#PagerType">PagerType</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Grid.PagerType.Scrollable
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1160,47 +552,18 @@ $("#mobilegrid").ejmGrid ({
                  });              
 </script>                                         {% endhighlight %}
 
-
-
-
-
-
-
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
-
-
-
-
-
-
 
 
 Changes the rendering mode of the grid. It can be auto, ios7, android, windows or flat. See <a href="global.html#RenderMode">RenderMode</a>
 
 
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * auto
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -1215,68 +578,22 @@ $("#mobilegrid").ejmGrid ({ renderMode: ej.mobile.RenderMode.Auto,dataSource:dat
                  });    
 </script> {% endhighlight %}
 
-
-
-
-
-
-
 ### scrollSettings
 {:#members:scrollsettings}
 
 
-
-
-
-
-
-
 Used to enable grid column and row scrolling
 
-
-
-
-
-
-
-
-
-
-
-### scrollSettings.enableColumnScrolling<span class="type-signature type boolean">boolean</span>
+### scrollSettings.enableColumnScrolling`boolean`
 {:#members:scrollsettings-enablecolumnscrolling}
-
-
-
-
-
-
-
 
 Used to enable or disable column scrolling.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1294,46 +611,17 @@ $("#mobilegrid").ejmGrid ({
                  });             
 </script>                                  {% endhighlight %}
 
-
-
-
-
-
-
-### scrollSettings.enableNativeScrolling<span class="type-signature type boolean">boolean</span>
+### scrollSettings.enableNativeScrolling`boolean`
 {:#members:scrollsettings-enablenativescrolling}
-
-
-
-
-
-
-
 
 Used to enable or disable native scrolling.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
+#### Default Value
 
 
 * true
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1351,47 +639,18 @@ $("#mobilegrid").ejmGrid ({
                  });               
 </script>                                {% endhighlight %}
 
-
-
-
-
-
-
-### scrollSettings.enableRowScrolling<span class="type-signature type boolean">boolean</span>
+### scrollSettings.enableRowScrolling`boolean`
 {:#members:scrollsettings-enablerowscrolling}
-
-
-
-
-
-
 
 
 Used to enable or disable row scrolling.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
+#### Default Value
 
 
 * true
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %}  
 <div  id="mobilegrid" ></div>
@@ -1408,46 +667,17 @@ $("#mobilegrid").ejmGrid ({
                  });               
 </script>                                          {% endhighlight %}
 
-
-
-
-
-
-
-### scrollSettings.height<span class="type-signature type string">string</span>
+### scrollSettings.height`string`
 {:#members:scrollsettings-height}
-
-
-
-
-
-
-
 
 Specifies the height for the Grid content.
 
 
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * auto
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1466,45 +696,17 @@ $("#mobilegrid").ejmGrid ({
 </script>                                 {% endhighlight %}
 
 
-
-
-
-
-
-### scrollSettings.width<span class="type-signature type string">string</span>
+### scrollSettings.width`string`
 {:#members:scrollsettings-width}
-
-
-
-
-
-
-
 
 Specifies the width for the Grid content.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * auto
 
 
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1522,46 +724,18 @@ $("#mobilegrid").ejmGrid ({
                  });               
 </script>                                         {% endhighlight %}
 
-
-
-
-
-
-
-### selectedRowIndex<span class="type-signature type number">number</span>
+### selectedRowIndex`number`
 {:#members:selectedrowindex}
-
-
-
-
-
-
 
 
 To apply row selection based on your row index value.
 
 
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * -1
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1579,68 +753,22 @@ $("#mobilegrid").ejmGrid ({ selectedRowIndex: 1,dataSource:data,columns: [
                  });    
 </script>                                       {% endhighlight %}
 
-
-
-
-
-
-
 ### sortSettings
 {:#members:sortsettings}
-
-
-
-
-
-
-
 
 This property is used to modify sorting default configuration.
 
 
-
-
-
-
-
-
-
-
-
-### sortSettings.allowMultiSorting<span class="type-signature type boolean">boolean</span>
+### sortSettings.allowMultiSorting`boolean`
 {:#members:sortsettings-allowmultisorting}
-
-
-
-
-
-
-
 
 Enable or disable the multi sorting behavior of grid.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1658,46 +786,16 @@ $("#mobilegrid").ejmGrid ({
                  });              
 </script>                                          {% endhighlight %}
 
-
-
-
-
-
-
-### sortSettings.sortedColumns<span class="type-signature type object">object</span>
+### sortSettings.sortedColumns`object`
 {:#members:sortsettings-sortedcolumns}
-
-
-
-
-
-
-
 
 To define which column can be sorted and also to define the sort direction
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * []
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1715,46 +813,16 @@ $("#mobilegrid").ejmGrid ({
                  });             
 </script>                                          {% endhighlight %}
 
-
-
-
-
-
-
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
-
-
-
-
-
-
-
 
 Specifies the theme of the Grid. See <a href="global.html#Theme">Theme</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * auto
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1770,46 +838,15 @@ $("#mobilegrid").ejmGrid ({ theme: ej.mobile.Theme.Auto,dataSource:data,columns:
                  });    
 </script>                               {% endhighlight %}
 
-
-
-
-
-
-
-### transition<span class="type-signature type string">string</span>
-{:#members:transition}
-
-
-
-
-
-
-
+### transition`string`
 
 Specifies the transition type when navigation happens while interacting with grid.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * For Android, "pop". For Windows, "turn". For IOS, "slide".
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1827,37 +864,14 @@ $("#mobilegrid").ejmGrid ({ transition: "slide",dataSource:data,columns: [
                  });
 </script>                              {% endhighlight %}
 
-
-
-
-
 ## Methods
 
-
-
-
-
-
-
-
-### getColumnByField<span class="signature">()</span>
+### getColumnByField`()`
 {:#methods:getcolumnbyfield}
-
-
-
-
-
-
-
 
 To get column by field
 
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1877,29 +891,13 @@ $("#mobilegrid").ejGrid("getColumnByField", "OrderID");
 </script>{% endhighlight %}
 
 
-
-
-
-
-
-### getColumnByHeaderText<span class="signature">()</span>
+### getColumnByHeaderText`()`
 {:#methods:getcolumnbyheadertext}
-
-
-
-
-
-
 
 
 To get column by header text
 
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1918,30 +916,13 @@ grid.getColumnByHeaderText("Order ID"); // Get column by header text
 $("#mobilegrid").ejmGrid("getColumnByHeaderText", "Order ID");  
 </script>{% endhighlight %}
 
-
-
-
-
-
-
-### getColumnByIndex<span class="signature">()</span>
+### getColumnByIndex`()`
 {:#methods:getcolumnbyindex}
-
-
-
-
-
-
-
 
 To get column by index
 
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1961,29 +942,13 @@ $("#mobilegrid").ejmGrid("getColumnByIndex",1);
 </script>{% endhighlight %}
 
 
-
-
-
-
-
-### getColumnFieldNames<span class="signature">()</span>
+### getColumnFieldNames`()`
 {:#methods:getcolumnfieldnames}
-
-
-
-
-
-
 
 
 To get column field names
 
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2002,30 +967,12 @@ grid.getColumnFieldNames(); // Get column field names
 $("#mobilegrid").ejmGrid("getColumnFieldNames");        
 </script>{% endhighlight %}
 
-
-
-
-
-
-
-### getColumnIndexByField<span class="signature">()</span>
+### getColumnIndexByField`()`
 {:#methods:getcolumnindexbyfield}
-
-
-
-
-
-
-
 
 To get column index by field
 
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2045,29 +992,12 @@ $("#mobilegrid").ejmGrid("getColumnIndexByField","OrderID");
 </script>{% endhighlight %}
 
 
-
-
-
-
-
-### getColumnMemberByIndex<span class="signature">()</span>
+### getColumnMemberByIndex`()`
 {:#methods:getcolumnmemberbyindex}
-
-
-
-
-
-
-
 
 To get column member by index
 
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2087,29 +1017,13 @@ $("#mobilegrid").ejmGrid("getColumnMemberByIndex",1);
 </script>{% endhighlight %}
 
 
-
-
-
-
-
-### hideColumns<span class="signature">()</span>
+### hideColumns`()`
 {:#methods:hidecolumns}
-
-
-
-
-
-
-
 
 To hide the specified column
 
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2128,20 +1042,8 @@ grid.hideColumns("Order ID"); // Hides column based on the given header text of 
 $("#mobilegrid").ejmGrid("hideColumns","Order ID"); 
 </script>{% endhighlight %}
 
-
-
-
-
-
-
-### refreshContent<span class="signature">()</span>
+### refreshContent`()`
 {:#methods:refreshcontent}
-
-
-
-
-
-
 
 
 It is used to refresh the grid contents
@@ -2163,12 +1065,7 @@ It is used to refresh the grid contents
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="mobilegrid"></div>
@@ -2186,29 +1083,14 @@ $("#mobilegrid").ejmGrid("refreshContent");
 </script>{% endhighlight %}
 
 
-
-
-
-
-
-### scrollRefresh<span class="signature">()</span>
+### scrollRefresh`()`
 {:#methods:scrollrefresh}
-
-
-
-
-
-
 
 
 To refersh grid scrollpanel
 
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2227,31 +1109,12 @@ grid.scrollRefresh(); // To Refresh grid scrollpanel
 $("#mobilegrid").ejmGrid("scrollRefresh"); 
 </script>{% endhighlight %}
 
-
-
-
-
-
-
-### showColumns<span class="signature">()</span>
+### showColumns`()`
 {:#methods:showcolumns}
-
-
-
-
-
-
-
 
 To show the specified column
 
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="mobilegrid"></div>
@@ -2269,28 +1132,10 @@ grid.showColumns("Order ID"); // Shows column based on the given header text of 
 $("#mobilegrid").ejmGrid("showColumns","Order ID");     
 </script>{% endhighlight %}
 
-
-
-
-
 ## Events
-
-
-
-
-
-
-
 
 ### actionBegin
 {:#events:actionbegin}
-
-
-
-
-
-
-
 
 Triggered for every grid action before its starts.
 
@@ -2348,12 +1193,7 @@ Triggered for every grid action before its starts.
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -2370,21 +1210,8 @@ $("#mobilegrid").ejmGrid({ actionBegin:"actionBegin",dataSource:data,columns: [
 function actionBegin(args) { //handle the event }                       
 </script>                 {% endhighlight %}
 
-
-
-
-
-
-
 ### actionComplete
 {:#events:actioncomplete}
-
-
-
-
-
-
-
 
 Event triggers when grid data loading action succeeds.
 
@@ -2442,12 +1269,7 @@ Event triggers when grid data loading action succeeds.
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -2464,21 +1286,8 @@ $("#mobilegrid").ejmGrid({ actionComplete:"actionComplete",dataSource:data,colum
 function actionComplete(args) { //handle the event }            
 </script>                 {% endhighlight %}
 
-
-
-
-
-
-
 ### actionFailure
 {:#events:actionfailure}
-
-
-
-
-
-
-
 
 Event triggers when grid data loading action fails.
 
@@ -2536,12 +1345,7 @@ Event triggers when grid data loading action fails.
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -2557,21 +1361,8 @@ $("#mobilegrid").ejmGrid({ actionFailure:"actionFailure",dataSource:data,columns
 function actionFailure(args) { //handle the event }            
 </script>                 {% endhighlight %}
 
-
-
-
-
-
-
 ### actionSuccess
 {:#events:actionsuccess}
-
-
-
-
-
-
-
 
 Triggered for every grid action success.
 
@@ -2629,11 +1420,7 @@ Triggered for every grid action success.
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2651,21 +1438,8 @@ $("#mobilegrid").ejmGrid({ actionSuccess:"actionSuccess",dataSource:data,columns
 function actionSuccess(args) { //handle the event }          
 </script>                 {% endhighlight %}
 
-
-
-
-
-
-
 ### load
 {:#events:load}
-
-
-
-
-
-
-
 
 Triggered for every grid load.
 
@@ -2723,12 +1497,7 @@ Triggered for every grid load.
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div  id="mobilegrid" ></div>
@@ -2744,21 +1513,8 @@ $("#mobilegrid").ejmGrid({ load:"load",dataSource:data,columns: [
 function load(args) { //handle the event }            
 </script>                 {% endhighlight %}
 
-
-
-
-
-
-
 ### modelChange
 {:#events:modelchange}
-
-
-
-
-
-
-
 
 Triggered every time while a model value changed.
 
@@ -2816,11 +1572,7 @@ Triggered every time while a model value changed.
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2838,21 +1590,8 @@ $("#mobilegrid").ejmGrid({ modelChange:"modelChange",dataSource:data,columns: [
 function modelChange(args) { //handle the event }            
 </script>                 {% endhighlight %}
 
-
-
-
-
-
-
 ### queryCellInfo
 {:#events:querycellinfo}
-
-
-
-
-
-
-
 
 Triggered every time a request is made to access particular cell information, element and data.
 
@@ -2915,11 +1654,7 @@ Triggered every time a request is made to access particular cell information, el
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2937,20 +1672,8 @@ $("#mobilegrid").ejmGrid({ queryCellInfo:"queryCellInfo",dataSource:data,columns
 function queryCellInfo(args) { //handle the event }   
 </script>                         {% endhighlight %}
 
-
-
-
-
-
-
 ### rowDataBound
 {:#events:rowdatabound}
-
-
-
-
-
-
 
 
 Triggered every time a request is made to access row information, element and data.
@@ -3010,10 +1733,7 @@ Triggered every time a request is made to access row information, element and da
 </table>
 
 
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3031,21 +1751,8 @@ $("#mobilegrid").ejmGrid({ rowDataBound:"rowDataBound",dataSource:data,columns: 
 function rowDataBound(args) { //handle the event }              
 </script>                         {% endhighlight %}
 
-
-
-
-
-
-
 ### rowSelected
 {:#events:rowselected}
-
-
-
-
-
-
-
 
 Triggered after the row is selected.
 
@@ -3121,8 +1828,7 @@ Triggered after the row is selected.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3139,21 +1845,8 @@ $("#mobilegrid").ejmGrid({ rowSelected:"rowSelected",dataSource:data,columns: [
 function rowSelected(args) { //handle the event }
 </script>                 {% endhighlight %}
 
-
-
-
-
-
-
 ### rowSelecting
 {:#events:rowselecting}
-
-
-
-
-
-
-
 
 Triggered before the row is going to be selected.
 
@@ -3226,11 +1919,7 @@ Triggered before the row is going to be selected.
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3246,7 +1935,3 @@ $("#mobilegrid").ejmGrid ({ dataSource:data,columns: [
                  });    
 function rowSelecting(args) { //handle the event }      
 </script>                         {% endhighlight %}
-
-
-
-

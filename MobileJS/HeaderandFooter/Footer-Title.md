@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Footer-Title
+title: Footer Title | Header and Footer | Mobilejs | Syncfusion
 description: footer title
 platform: Mobilejs
 control: Header and Footer (Mobile)
@@ -13,19 +13,10 @@ You can enable/disable the title by using data-ej-showtitle attribute. data-ej-t
 
 {% highlight html %}
 
-
-
 <div id="footer_sample" data-role="ejmfooter" data-ej-showtitle=true data-ej-title="Footer"></div>
-
-
 
 {% endhighlight %}
 
 The following screenshot displays the output.
 
 ![](Footer-Title_images/Footer-Title_img1.png)
-
-
-
-
-

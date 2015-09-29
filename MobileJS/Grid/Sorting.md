@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sorting
+title: Sorting | Grid | Mobilejs | Syncfusion
 description: sorting 
 platform: Mobilejs
 control: Grid (Mobile)
@@ -15,61 +15,45 @@ Sorting is a basic technique in ejmGrid. It helps you in viewing grid records th
 
 {% highlight html %}
 
-
-<div id="MobileGrid">
-
-    </div>
-
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 {% highlight js %}
 
-        $(function () {
+$(function () {
 
-            var data = ej.DataManager({
+	var data = ej.DataManager({
 
-                url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/"
+		url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/"
 
-            });
+	});
 
-            $("#MobileGrid").ejmGrid({
+	$("#MobileGrid").ejmGrid({
 
-                dataSource: data,
+		dataSource: data,
 
-                allowSorting: true,
+		allowSorting: true,
 
-                columns: [
+		columns: [
 
-                         { field: "OrderID", headerText: "Order ID" },
+				 { field: "OrderID", headerText: "Order ID" },
 
-                         { field: "CustomerID", headerText: "Customer ID" },
+				 { field: "CustomerID", headerText: "Customer ID" },
 
-                         { field: "ShipCity", headerText: "Ship City" }
+				 { field: "ShipCity", headerText: "Ship City" }
 
-                ]
+		]
 
-            });
+	});
 
-        });
-
-
+});
 
 {% endhighlight %}
 
-
-
 Result of the above code example:
 
-![16](Sorting_images/Sorting_img1.png)
-
-
+![](Sorting_images/Sorting_img1.png)
 
 ## Multi Sorting
 
@@ -77,63 +61,46 @@ ejmGrid also has support to sort more than one column known as Multi sorting. To
 
 {% highlight html %}
 
-
-<div id="MobileGrid">
-
-    </div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following code example.
 
 {% highlight js %}
 
-        $(function () {
+$(function () {
 
-            var data = ej.DataManager({
+	var data = ej.DataManager({
 
-                url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/"
+		url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/"
 
-            });
+	});
 
-            $("#MobileGrid").ejmGrid({
+	$("#MobileGrid").ejmGrid({
 
-                dataSource: data,
+		dataSource: data,
 
-                allowSorting: true, 
+		allowSorting: true, 
 
-                sortSettings:{allowMultiSorting:true},
+		sortSettings:{allowMultiSorting:true},
 
-                columns: [
+		columns: [
 
-                         { field: "OrderID", headerText: "Order ID" },
+				 { field: "OrderID", headerText: "Order ID" },
 
-                         { field: "CustomerID", headerText: "Customer ID" },
+				 { field: "CustomerID", headerText: "Customer ID" },
 
-                         { field: "ShipCity", headerText: "Ship City" }
+				 { field: "ShipCity", headerText: "Ship City" }
 
-                ]
+		]
 
-            });
+	});
 
-        });
-
-
-
+});
 
 {% endhighlight %}
 
-
-
 Run the above code to render the following output.
 
-![C:/Users/apoorvah.ramanathan/Desktop/1.png](Sorting_images/Sorting_img2.png)
-
-
-
+![](Sorting_images/Sorting_img2.png)

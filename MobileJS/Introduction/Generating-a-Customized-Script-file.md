@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generating-a-Customized-Script-file
+title: Generating a Customized Script file | Introduction | Mobilejs | Syncfusion
 description: generating a customized script file 
 platform: Mobilejs
 control: Introduction
@@ -17,24 +17,17 @@ The users with Essential Studio Enterprise license or Essential Studio for JavaS
 
 ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img1.png)
 
-
-
 * Select the required version from the Version list and also select the output file type either to be generated as a minified or non-minified version.
+
 * Once the selections are done, now click on the Generate button and provide a name to the file to be generated as follows,
 
 ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img2.png)
-
-
 
 * Once the Generate button is clicked, the combining process of selected scripts is executed and once the process is done, the Download button is available that allows you to download the requested files combined.
 
 ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img3.png)
 
-
-
 N> An e-mail alert with the Custom script downloadable link will be sent to you automatically.
-
-
 
 ## Settings Customization
 
@@ -46,8 +39,6 @@ You can save the frequently used controls to generate custom Script and CSS file
 
 ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img4.png)
 
-
-
 ### Generating the Scripts and CSS from an existing Saved Settings
 
 Use the following steps to perform custom Script and CSS file generation by using the existing saved settings.
@@ -56,13 +47,9 @@ Use the following steps to perform custom Script and CSS file generation by usin
 
 ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img5.png)
 
-
-
 * Click on the Proceed icon to request for the Custom script and css file generation for the required controls.
 
 ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img6.png)
-
-
 
 ### Editing & Deleting the Saved Settings
 
@@ -71,7 +58,5 @@ You can also modify or delete the existing controls by using the edit or delete 
 * To edit the settings, click on the edit icon. Now, perform the required changes in the control selection page that appears, and again click on the Save Settings button to update the modified one.
 
 ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img7.png)
-
-
 
 * To delete the unwanted or unused settings, click on the delete icon displayed in the above screenshot.

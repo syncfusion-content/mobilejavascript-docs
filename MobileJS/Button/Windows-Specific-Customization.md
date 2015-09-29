@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows-Specific-Customization
+title: Windows Specific Customization | Button | Mobilejs | Syncfusion
 description: windows specific customization
 platform: Mobilejs
 control: Button (Mobile)
@@ -22,12 +22,12 @@ You can refer to the following code example.
 
 <div align="center" style="margin:10px">
 
-        <input type="button" id="sample_button1" data-role="ejmbutton" data-ej-text="Normal" data-ej-rendermode="windows" data-ej-windows-style="normal" /><br /><br />
+	<input type="button" id="sample_button1" data-role="ejmbutton" data-ej-text="Normal" data-ej-rendermode="windows" data-ej-windows-style="normal" /><br /><br />
 
-        <a id="sample_button2" data-role="ejmbutton" data-ej-text="Back" data-ej-rendermode="windows" data-ej-windows-style="back" />
+	<a id="sample_button2" data-role="ejmbutton" data-ej-text="Back" data-ej-rendermode="windows" data-ej-windows-style="back" />
 
 </div>
 
 {% endhighlight %}
 
-![F:/Work/Testing/release_testing/13.2/Phase-3/btn.PNG](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)
+![](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)

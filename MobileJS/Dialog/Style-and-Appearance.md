@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Style-and-Appearance
+title: Style and Appearance | Dialog | Mobilejs | Syncfusion
 description: style and appearance
 platform: Mobilejs
 control: Dialog (Mobile)

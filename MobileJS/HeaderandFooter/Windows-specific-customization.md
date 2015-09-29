@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows-specific-customization
+title: Windows specific customization | Header and Footer | Mobilejs | Syncfusion
 description: windows specific customization
 platform: Mobilejs
 control: Header and Footer (Mobile)
@@ -19,15 +19,8 @@ In the Windows phones, by default, the Header title's text is in the lower case 
 
 <div id="header_sample" data-role="ejmheader" data-ej-rendermode="windows" data-ej-windows-enablecustomtext=true data-ej-title="Custom Text" ></div>
 
-
-
 {% endhighlight %}
 
 The following screenshot displays the Windows specific customization:
 
 ![](Windows-specific-customization_images/Windows-specific-customization_img1.png)
-
-
-
-
-

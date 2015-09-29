@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Strict-Mode-Support
+title: Strict Mode Support | Numeric Textbox | Mobilejs | Syncfusion
 description: strict mode support
 platform: Mobilejs
 control: Numeric Textbox (Mobile)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Databinding
+title: Databinding | AutoComplete| Mobilejs | Syncfusion
 description: databinding
 platform: Mobilejs
 control: AutoComplete (Mobile) 
@@ -17,40 +17,31 @@ The data-ej-datasource attribute is used to provide the suggestion list to the A
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-
-
 {% endhighlight %}
-
-
 
 Add the Following script.
 
 {% highlight js %}
 
-        window.datasrc = [
+window.datasrc = [
 
-{ 'name': 'Audi S6' },
+	{ 'name': 'Audi S6' },
 
-{ 'name': 'BMW 7' },
+	{ 'name': 'BMW 7' },
 
-{ 'name': 'Chevrolet Camaro' },
+	{ 'name': 'Chevrolet Camaro' },
 
-{ 'name': 'Duesenberg J' },
+	{ 'name': 'Duesenberg J' },
 
-{ 'name': 'Elantra' }
+	{ 'name': 'Elantra' }
 
 ];
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays the DataSource:
 
-![C:/Users/apoorvah.ramanathan/Desktop/1.png](Databinding_images/Databinding_img1.png)
-
+![](Databinding_images/Databinding_img1.png)
 
 ## Remote Databinding
 
@@ -60,14 +51,8 @@ The data-ej-mapper attribute is used to specify the remote URL of the DataSource
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-fields-text="ContactName" data-ej-mapper="http://mvc.syncfusion.com/Services/Northwnd.svc/Suppliers" />
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays remote data binding:
 
 ![](Databinding_images/Databinding_img2.png)
-
-

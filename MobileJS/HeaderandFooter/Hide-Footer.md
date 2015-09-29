@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hide-Footer
+title: Hide Footer | Header and Footer | Mobilejs | Syncfusion
 description: hide footer
 platform: Mobilejs
 control: Header and Footer (Mobile)
@@ -13,11 +13,6 @@ In some cases (for example, when toolbar is used in the application), Footer con
 
 {% highlight html %}
 
-<div id="footer_sample" data-role="ejmfooter" data-ej-hideforunsupporteddevice=true ></div>
-
-
+<div id="footer_sample" data-role="ejmfooter" data-ej-hideforunsupporteddevice=true> </div>
 
 {% endhighlight %}
-
-
-

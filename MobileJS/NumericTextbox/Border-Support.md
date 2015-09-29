@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Border-Support
+title: Border Support | Numeric Textbox | Mobilejs | Syncfusion
 description: border support
 platform: Mobilejs
 control: Numeric Textbox (Mobile)

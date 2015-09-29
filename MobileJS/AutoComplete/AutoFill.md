@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AutoFill
+title: AutoFill | AutoComplete| Mobilejs | Syncfusion
 description: autofill
 platform: Mobilejs
 control: AutoComplete (Mobile) 
@@ -15,13 +15,8 @@ The data-ej-enableautofill attribute is used to automatically fill the AutoCompl
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-enableautofill=true data-ej-datasource="window.datasrc" data-ej-filtertype="startswith" data-ej-fields-text="name" />
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays AutoFill
 
 ![](AutoFill_images/AutoFill_img1.png)
-

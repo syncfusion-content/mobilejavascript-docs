@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Image
+title: Customize Image | Group Button | Mobilejs | Syncfusion
 description: customize image
 platform: Mobilejs
 control: Group Button (Mobile)
@@ -17,65 +17,51 @@ By using this attribute, you can add specific style to each Group Button item. W
 
 <!-- Group Button rendering via radiobutton -->
 
-    <div id="groupbutton_sample" data-role="ejmgroupbutton">
+<div id="groupbutton_sample" data-role="ejmgroupbutton">
 
-        <label data-ej-imageclass="apple">
+	<label data-ej-imageclass="apple">
 
-            <input type="radio" />ipad
+		<input type="radio" />ipad
 
-        </label>
+	</label>
 
-        <label data-ej-imageclass="apple">
+	<label data-ej-imageclass="apple">
 
-            <input type="radio" />ipod
+		<input type="radio" />ipod
 
-        </label>
+	</label>
 
-        <label data-ej-imageclass="apple">
+	<label data-ej-imageclass="apple">
 
-            <input type="radio" />iphone
+		<input type="radio" />iphone
 
-        </label>
+	</label>
 
-    </div>
-
-
-
-
+</div>
 
 {% endhighlight %}
-
-
 
 Add the following styles
 
 {% highlight css %}
 
+.apple {
 
+	background: url("apple.png") no-repeat;
 
-        .apple {
+	background-position: 6px 50%;
 
-            background: url("apple.png") no-repeat;
+	background-repeat: no-repeat;
 
-            background-position: 6px 50%;
+	background-size: 20px 20px;
 
-            background-repeat: no-repeat;
+	position: relative;
 
-            background-size: 20px 20px;
+	text-indent: 20px;
 
-            position: relative;
-
-            text-indent: 20px;
-
-        }
-
-
-
-
+}
 
 {% endhighlight %}
-
-
 
 The following screenshot displays the Image Class.
 
@@ -91,35 +77,30 @@ data-ej-imageurl attribute takes the image given in ‘data-ej-imageurl’ attri
 
 <!-- Group Button rendering via radiobutton -->
 
-    <div id="groupbutton_sample" data-role="ejmgroupbutton">
+<div id="groupbutton_sample" data-role="ejmgroupbutton">
 
-        <label data-ej-imageurl="apple.png">
+	<label data-ej-imageurl="apple.png">
 
-            <input type="radio" />ipad
+		<input type="radio" />ipad
 
-        </label>
+	</label>
 
-        <label data-ej-imageurl="apple.png">
+	<label data-ej-imageurl="apple.png">
 
-            <input type="radio" />ipod
+		<input type="radio" />ipod
 
-        </label>
+	</label>
 
-        <label data-ej-imageurl="apple.png">
+	<label data-ej-imageurl="apple.png">
 
-            <input type="radio" />iphone
+		<input type="radio" />iphone
 
-        </label>
+	</label>
 
-    </div>
-
-
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays the Image URL
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Groupbtton/images/ios7_4.png](Customize-Image_images/Customize-Image_img2.png)
-
-
-
+![](Customize-Image_images/Customize-Image_img2.png)

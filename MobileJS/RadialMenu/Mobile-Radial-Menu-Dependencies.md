@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Radial-Menu-Dependencies
+title: Mobile Radial Menu Dependencies | Radial Menu | Mobilejs | Syncfusion
 description: mobile radial menu dependencies
 platform: Mobilejs
 control: Radial Menu (Mobile)
@@ -47,5 +47,3 @@ Refer for touch events supports.</td></tr>
 ej.mobile.radialmenu.min.js</td><td>
 Refer to handle the radialmenu control that holds all the properties, events, and methods. </td></tr>
 </table>
-
-

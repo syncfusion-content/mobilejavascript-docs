@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows-phone-specific-toolbar
+title: Windows phone specific toolbar | Toolbar | Mobilejs | Syncfusion
 description: windows phone specific toolbar
 platform: Mobilejs
 control: Toolbar (Mobile)
@@ -14,30 +14,26 @@ Refer to the following code example.
 
 {% highlight html %}
 
+<div data-role="ejmtoolbar" data-ej-rendermode="windows">
 
-        <div data-role="ejmtoolbar" data-ej-rendermode="windows">
+	<ul>
 
-            <ul>
+		<li data-ej-iconname="add"></li>
 
-                <li data-ej-iconname="add"></li>
+		<li data-ej-iconname="cut"></li>
 
-                <li data-ej-iconname="cut"></li>
+		<li data-ej-iconname="copy"></li>
 
-                <li data-ej-iconname="copy"></li>
+		<li data-ej-iconname="save"></li>
 
-                <li data-ej-iconname="save"></li>
+		<li data-ej-iconname="search"></li>
 
-                <li data-ej-iconname="search"></li>
+	</ul>
 
-            </ul>
-
-        </div>
+</div>
 
 {% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
 ![](Windows-phone-specific-toolbar_images/Windows-phone-specific-toolbar_img1.png)
-
-
-

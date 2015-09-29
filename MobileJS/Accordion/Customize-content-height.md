@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-content-height
+title: Customize content height | Accordion | Mobilejs | Syncfusion
 description: customize content height
 platform: Mobilejs
 control: Accordion (Mobile)
@@ -18,8 +18,6 @@ The data-ej-heightadjustmode attribute is used to customize the height of each i
 
 
 {% highlight html %}
-
-
 
 <div id="accordion_sample" data-role="ejmaccordion" data-ej-heightadjustmode="auto">
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Watermark-text
+title: Customize Watermark text | MaskEdit | Mobilejs | Syncfusion
 description: customize watermark text
 platform: Mobilejs
 control: MaskEdit (Mobile)
@@ -19,4 +19,4 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-![D:/Final Doc/mockup/IMG_0525_iphone5s_spacegrey_portrait.png](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)
+![](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)

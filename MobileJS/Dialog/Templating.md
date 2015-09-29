@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Templating
+title: Templating | Dialog | Mobilejs | Syncfusion
 description: templating
 platform: Mobilejs
 control: Dialog (Mobile)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-ProgressBar-Dependency-files
+title: Mobile ProgressBar Dependency files | Progress Bar | Mobilejs | Syncfusion
 description: mobile progressbar dependency files
 platform: Mobilejs
 control: Progress Bar (Mobile)
@@ -47,5 +47,3 @@ It is referred for touch events support.</td></tr>
 ej.mobile.progressbar.min.js</td><td>
 It is referred for ProgressBar control that holds all the properties, events, and methods, otherwise the control is not created.</td></tr>
 </table>
-
-

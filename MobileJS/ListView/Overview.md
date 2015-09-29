@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | ListView | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: ListView (Mobile)
@@ -18,6 +18,3 @@ The Essential JavaScript Mobile ListView widget builds interactive list view int
 * Template support: The ListView supports template content.
 * Group List: The ListView supports group item list.
 * Check List: The ListView supports check list.
-
-
-

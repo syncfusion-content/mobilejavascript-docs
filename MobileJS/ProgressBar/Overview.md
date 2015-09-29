@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | Progress Bar | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: Progress Bar (Mobile)

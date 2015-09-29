@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Animate
+title: Animate | Toggle Button | Mobilejs | Syncfusion
 description: animate
 platform: Mobilejs
 control: Toggle Button (Mobile)
@@ -13,10 +13,10 @@ data-ej-animate attribute specifies the transition effect for state change. When
 
 {% highlight html %}
 
-    <div id="togglebutton_sample" data-role="ejmtogglebutton" data-ej-animate=false></div> 
+<div id="togglebutton_sample" data-role="ejmtogglebutton" data-ej-animate=false></div> 
 	
 {% endhighlight %}
 
 The following screenshot displays the Animate Toggle Button:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ToggleButton/images/ios7_4.png](Animate_images/Animate_img1.png)
+![](Animate_images/Animate_img1.png)

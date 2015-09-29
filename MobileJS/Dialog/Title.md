@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Title
+title: Title | Dialog | Mobilejs | Syncfusion
 description: title
 platform: Mobilejs
 control: Dialog (Mobile)

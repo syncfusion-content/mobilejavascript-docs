@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Select-Item
+title: Select Item | Group Button | Mobilejs | Syncfusion
 description: select item
 platform: Mobilejs
 control: Group Button (Mobile)
@@ -15,35 +15,30 @@ Group Button takes a numeric value given in the data-ej-selecteditemindex attrib
 
 <!-- Group Button rendering via radiobutton -->
 
-    <div id="groupbutton_sample" data-role="ejmgroupbutton" data-ej-selecteditemindex=1>
+<div id="groupbutton_sample" data-role="ejmgroupbutton" data-ej-selecteditemindex=1>
 
-        <label>
+	<label>
 
-            <input type="radio" />ipad
+		<input type="radio" />ipad
 
-        </label>
+	</label>
 
-        <label>
+	<label>
 
-            <input type="radio" />ipod
+		<input type="radio" />ipod
 
-        </label>
+	</label>
 
-        <label>
+	<label>
 
-            <input type="radio" />iphone
+		<input type="radio" />iphone
 
-        </label>
+	</label>
 
-    </div>
-
-
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays the Selected Item Index.
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Groupbtton/images/android_1.png](Select-Item_images/Select-Item_img1.png)
-
-
-
+![](Select-Item_images/Select-Item_img1.png)

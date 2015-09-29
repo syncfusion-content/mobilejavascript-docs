@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enable-and-Disable
+title: Enable and Disable | MaskEdit | Mobilejs | Syncfusion
 description: enable and disable
 platform: Mobilejs
 control: MaskEdit (Mobile)
@@ -19,4 +19,4 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-![D:/Final Doc/mockup/IMG_0523_iphone5s_spacegrey_portrait.png](Enable-and-Disable_images/Enable-and-Disable_img1.png)
+![](Enable-and-Disable_images/Enable-and-Disable_img1.png)

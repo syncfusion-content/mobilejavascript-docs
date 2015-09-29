@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance | Toolbar | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
-control: Accordion (Mobile)
+control: Toolbar (Mobile)
 documentation: ug
 ---
 
@@ -42,5 +42,3 @@ In certain scenarios, you can change the color or design of Toolbar control’s 
 * e-m-titlecontainer - This class is applied to the parent element of the title container element of the Toolbar control.
 
 * e-m-title-text - This class is applied to the title container element of the Toolbar control.
-
- 

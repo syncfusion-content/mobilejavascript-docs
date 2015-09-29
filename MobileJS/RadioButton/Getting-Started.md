@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | RadioButton | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: RadioButton (Mobile)
@@ -13,11 +13,9 @@ This section briefly describes you how to create a QuizApp by using the Essentia
 
 ## Create your first RadioButton by using Javascript
 
-
 The following guidelines show you how to use the RadioButton to select the answers in the application and get the selected items. The following screenshot displays a sample Quiz application.
 
 ![](Getting-Started_images/Getting-Started_img1.png)
-
 
 
 ## Create the necessary layout
@@ -30,69 +28,55 @@ Create an HTML file and paste the following template to the HTML file for the Ra
 
 <html>
 
-<head>
+	<head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
 
-    <title>RadioButton</title>
+		<title>RadioButton</title>
 
-    <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+		<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
 
+		<script src="http://js.syncfusion.com/UG/Mobile/Content/contacts.min.js"></script>
 
+	</head>
 
-    <script src="http://js.syncfusion.com/UG/Mobile/Content/contacts.min.js"></script>
+	<body>
 
-</head>
+		<div align="center">
 
+			<!-- Header control here-->
 
+			<div id="Div1" data-role="ejmheader" data-ej-title="Quiz Application" data-ej-position="normal"></div>
 
-<body>
+			<div id="Div2">
 
-    <div align="center">
+				<div>
 
-        <!-- Header control here-->
+					<!--RadioButton content here-->
 
-        <div id="Div1" data-role="ejmheader" data-ej-title="Quiz Application" data-ej-position="normal"></div>
+				</div>
 
-        <div id="Div2">
+			</div>
 
-            <div>
+			<!-- ScrollPanel control here-->
 
+		<div id="Div3" data-role="ejmscrollpanel" data-ej-target="scroller"></div>
 
+	   </div>
 
-                <!--RadioButton content here-->
-
-            </div>
-
-        </div>
-
-
-
-<!-- ScrollPanel control here-->
-
-    <div id="Div3" data-role="ejmscrollpanel" data-ej-target="scroller"></div>
-
-   </div>
-
-
-
-</body>
+	</body>
 
 </html>
 
-
-
 {% endhighlight %}
-
-
 
 ## Create RadioButton
 
@@ -104,8 +88,6 @@ Add the following code example to render the RadioButton in the quiz application
 
 <!--RadioButton content-->
 
-
-
 <table border="0" cellpadding="5">
 
     <tr>
@@ -114,115 +96,98 @@ Add the following code example to render the RadioButton in the quiz application
 
         </td>
 
-     </tr>
+    </tr>
 
-      <tr>
+    <tr>
 
-         <td class="align">
+        <td class="align">
 
-              <input id="Radio1" name="radbtn" type="radio" data-role="ejmradiobutton" data-ej-text="Model View Controller" />
+            <input id="Radio1" name="radbtn" type="radio" data-role="ejmradiobutton" data-ej-text="Model View Controller" />
 
-          </td>
+        </td>
 
-       </tr>
+    </tr>
 
-        <tr>
+    <tr>
 
-            <td class="align">
+        <td class="align">
 
-                 <input id="Radio2" name="radbtn" type="radio" data-role="ejmradiobutton" data-ej-text="Model Virtual Container" />
+            <input id="Radio2" name="radbtn" type="radio" data-role="ejmradiobutton" data-ej-text="Model Virtual Container" />
 
-             </td>
+        </td>
 
-         </tr>
+    </tr>
 
-          <tr>
+    <tr>
 
-             <td class="align">
+        <td class="align">
 
-                  <input id="Radio3" name="radbtn" type="radio" data-role="ejmradiobutton" data-ej-text="Model Visual Controller" />
+            <input id="Radio3" name="radbtn" type="radio" data-role="ejmradiobutton" data-ej-text="Model Visual Controller" />
 
-             </td>
+        </td>
 
-          </tr>
+    </tr>
 
-            <tr>
+    <tr>
+	
+        <td>2. What is the Expansion for USB?
 
-               <td>2. What is the Expansion for USB?
+        </td>
 
-                </td>
+    </tr>
 
-            </tr>
+    <tr>
 
-             <tr>
+        <td class="align">
 
-                 <td class="align">
+            <input id="Radio4" name="USB" type="radio" data-role="ejmradiobutton" data-ej-text="Universal serialized Buffer" />
 
-                      <input id="Radio4" name="USB" type="radio" data-role="ejmradiobutton" data-ej-text="Universal serialized Buffer" />
+        </td>
 
-                  </td>
+    </tr>
 
-             </tr>
+    <tr>
 
-              <tr>
+		<td class="align">
 
-                 <td class="align">
+            <input id="Radio5" name="USB" type="radio" data-role="ejmradiobutton" data-ej-text="Universal Serial Buffer" />
 
-                       <input id="Radio5" name="USB" type="radio" data-role="ejmradiobutton" data-ej-text="Universal Serial Buffer" />
+        </td>
 
-                      </td>
+    </tr>
 
-                  </tr>
+    <tr>
 
-                   <tr>
+        <td class="align">
 
-                       <td class="align">
+            <input id="Radio6" name="USB" type="radio" data-role="ejmradiobutton" data-ej-text="Universal Serial Bus" />
 
-                           <input id="Radio6" name="USB" type="radio" data-role="ejmradiobutton" data-ej-text="Universal Serial Bus" />
+        </td>
 
-                        </td>
+    </tr>
 
-                    </tr>
-
-                </table>
-
-
+</table>
 
 {% endhighlight %}
-
-
 
 Now, add the following style to align the RadioButton and contents properly in the quiz application
 
 {% highlight css %}
 
+td {
 
+	padding: 5px;
 
-        td {
+}
 
-            padding: 5px;
+td.align {
 
-        }
+	padding-left: 20px;
 
-
-
-            td.align {
-
-                padding-left: 20px;
-
-            }
-
-
-
-
+}
 
 {% endhighlight %}
-
-
 
 The following screenshot is the output for the above code examples.
 
 ![](Getting-Started_images/Getting-Started_img2.png)
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrolling
+title: Scrolling | ListView | Mobilejs | Syncfusion
 description: scrolling
 platform: Mobilejs
 control: ListView (Mobile)
@@ -13,47 +13,39 @@ The data-ej-allowscrolling attribute defines whether to allow the scrolling beha
 
 {% highlight html %}
 
-
-
 <div id="lb" data-role="ejmListView" data-ej-showheader="true" data-ej-headertitle="ListView" data-ej-allowscrolling="true">
 
-<ul>
+	<ul>
 
-<li data-ej-text="Artwork"></li>
+		<li data-ej-text="Artwork"></li>
 
-<li data-ej-text="Abstract"></li>
+		<li data-ej-text="Abstract"></li>
 
-<li data-ej-text="2 Acrylic Mediums"></li>
+		<li data-ej-text="2 Acrylic Mediums"></li>
 
-<li data-ej-text="Creative Acrylic"></li>
+		<li data-ej-text="Creative Acrylic"></li>
 
-<li data-ej-text="Modern Painting"></li>
+		<li data-ej-text="Modern Painting"></li>
 
-<li data-ej-text="Canvas Art"></li>
+		<li data-ej-text="Canvas Art"></li>
 
-<li data-ej-text="Black white"></li>
+		<li data-ej-text="Black white"></li>
 
-<li data-ej-text="Children"></li>
+		<li data-ej-text="Children"></li>
 
-<li data-ej-text="Preschool Crafts"></li>
+		<li data-ej-text="Preschool Crafts"></li>
 
-<li data-ej-text="School-age Crafts"></li>
+		<li data-ej-text="School-age Crafts"></li>
 
-</ul>
+	</ul>
 
 </div>
 
-
-
 {% endhighlight %}
-
-
 
 N> Run this code example and you can see the following output. For more details, refer to the "Common Getting Started" section.
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_10.png](Scrolling_images/Scrolling_img1.png)
-
-
+![](Scrolling_images/Scrolling_img1.png)
 
 ## EnableNativeScrolling
 
@@ -61,61 +53,55 @@ Even though there is inbuilt mobile JS scroll bar in the ListView, it is also po
 
 {% highlight html %}
 
-
-
 <div id="lb" data-role="ejmListView" data-ej-allowscrolling="true" data-ej-enablenativescrolling="true">
 
-<ul>
+	<ul>
 
-<li data-ej-text="Artwork"></li>
+		<li data-ej-text="Artwork"></li>
 
-<li data-ej-text="Abstract"></li>
+		<li data-ej-text="Abstract"></li>
 
-<li data-ej-text="2 Acrylic Mediums"></li>
+		<li data-ej-text="2 Acrylic Mediums"></li>
 
-<li data-ej-text="Creative Acrylic"></li>
+		<li data-ej-text="Creative Acrylic"></li>
 
-<li data-ej-text="Modern Painting"></li>
+		<li data-ej-text="Modern Painting"></li>
 
-<li data-ej-text="Canvas Art"></li>
+		<li data-ej-text="Canvas Art"></li>
 
-<li data-ej-text="Black white"></li>
+		<li data-ej-text="Black white"></li>
 
-<li data-ej-text="Children"></li>
+		<li data-ej-text="Children"></li>
 
-<li data-ej-text="Preschool Crafts"></li>
+		<li data-ej-text="Preschool Crafts"></li>
 
-<li data-ej-text="School-age Crafts"></li>
+		<li data-ej-text="School-age Crafts"></li>
 
-            <li data-ej-text="Artwork"></li>
+					<li data-ej-text="Artwork"></li>
 
-<li data-ej-text="Abstract"></li>
+		<li data-ej-text="Abstract"></li>
 
-<li data-ej-text="2 Acrylic Mediums"></li>
+		<li data-ej-text="2 Acrylic Mediums"></li>
 
-<li data-ej-text="Creative Acrylic"></li>
+		<li data-ej-text="Creative Acrylic"></li>
 
-<li data-ej-text="Modern Painting"></li>
+		<li data-ej-text="Modern Painting"></li>
 
-<li data-ej-text="Canvas Art"></li>
+		<li data-ej-text="Canvas Art"></li>
 
-<li data-ej-text="Black white"></li>
+		<li data-ej-text="Black white"></li>
 
-<li data-ej-text="Children"></li>
+		<li data-ej-text="Children"></li>
 
-<li data-ej-text="Preschool Crafts"></li>
+		<li data-ej-text="Preschool Crafts"></li>
 
-<li data-ej-text="School-age Crafts"></li>
+		<li data-ej-text="School-age Crafts"></li>
 
-</ul>
+	</ul>
 
 </div>
 
-
-
 {% endhighlight %}
-
-
 
 ## AdjustFixedPosition
 
@@ -125,55 +111,45 @@ The following code example demonstrates how it looks when this attribute is disa
 
 {% highlight html %}
 
-
-
 <div id="header" data-role="ejmheader" data-ej-title="ListView" data-ej-position="fixed"></div>
 
 <div id="lb" data-role="ejmListView" data-ej-allowscrolling="true" data-ej-adjustfixedposition="true" data-ej-showheader="false">
 
-<ul>
+	<ul>
 
-<li data-ej-text="Artwork"></li>
+		<li data-ej-text="Artwork"></li>
 
-<li data-ej-text="Abstract"></li>
+		<li data-ej-text="Abstract"></li>
 
-<li data-ej-text="2 Acrylic Mediums"></li>
+		<li data-ej-text="2 Acrylic Mediums"></li>
 
-<li data-ej-text="Creative Acrylic"></li>
+		<li data-ej-text="Creative Acrylic"></li>
 
-<li data-ej-text="Modern Painting"></li>
+		<li data-ej-text="Modern Painting"></li>
 
-<li data-ej-text="Canvas Art"></li>
+		<li data-ej-text="Canvas Art"></li>
 
-<li data-ej-text="Black white"></li>
+		<li data-ej-text="Black white"></li>
 
-<li data-ej-text="Children"></li>
+		<li data-ej-text="Children"></li>
 
-<li data-ej-text="Preschool Crafts"></li>
+		<li data-ej-text="Preschool Crafts"></li>
 
-<li data-ej-text="School-age Crafts"></li>
+		<li data-ej-text="School-age Crafts"></li>
 
-</ul>
+	</ul>
 
 </div>
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshots display the Adjust Fixed Position:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_15.png](Scrolling_images/Scrolling_img2.png)
-
-
+![](Scrolling_images/Scrolling_img2.png)
 
 N> You can see here that the first list item is hidden due to fixed header element.
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_16.png](Scrolling_images/Scrolling_img3.png)
-
-
+![](Scrolling_images/Scrolling_img3.png)
 
 ## CheckDomChanges
 
@@ -181,39 +157,32 @@ data-ej-checkdomchanges attribute specifies the regular updates for scroll bar i
 
 {% highlight html %}
 
-
-
 <div id="lb" data-role="ejmListView" data-ej-allowscrolling="true" data-ej-checkdomchanges="true">
 
-<ul>
+	<ul>
 
-<li data-ej-text="Artwork"></li>
+		<li data-ej-text="Artwork"></li>
 
-<li data-ej-text="Abstract"></li>
+		<li data-ej-text="Abstract"></li>
 
-<li data-ej-text="2 Acrylic Mediums"></li>
+		<li data-ej-text="2 Acrylic Mediums"></li>
 
-<li data-ej-text="Creative Acrylic"></li>
+		<li data-ej-text="Creative Acrylic"></li>
 
-<li data-ej-text="Modern Painting"></li>
+		<li data-ej-text="Modern Painting"></li>
 
-<li data-ej-text="Canvas Art"></li>
+		<li data-ej-text="Canvas Art"></li>
 
-<li data-ej-text="Black white"></li>
+		<li data-ej-text="Black white"></li>
 
-<li data-ej-text="Children"></li>
+		<li data-ej-text="Children"></li>
 
-<li data-ej-text="Preschool Crafts"></li>
+		<li data-ej-text="Preschool Crafts"></li>
 
-<li data-ej-text="School-age Crafts"></li>
+		<li data-ej-text="School-age Crafts"></li>
 
-</ul>
+	</ul>
 
 </div>
 
-
-
 {% endhighlight %}
-
-
-

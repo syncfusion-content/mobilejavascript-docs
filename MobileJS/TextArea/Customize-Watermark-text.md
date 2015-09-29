@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Watermark-text
+title: Customize Watermark text | TextArea | Mobilejs | Syncfusion
 description: customize watermark text
 platform: Mobilejs
 control: TextArea (Mobile)
@@ -15,9 +15,6 @@ The watermark text specifies a short hint that describes the expected value of t
 
 <textarea id="textarea" data-role="ejmtextarea" data-ej-watermarktext="TextArea" ></textarea>
 
-
-
 {% endhighlight %}
 
 ![](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)
-

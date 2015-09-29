@@ -1,28 +1,19 @@
 ---
 layout: post
-title: ejmTextBox
+title: ejmTextBox | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmTextBox, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html TextBox control.
+# ejmTextBox
 
-
-
-
+Custom Design for Html TextBox control.
 
 $(element).ejmTextBox<span class="signature">()</span>
 
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %}//To create the textbox 
 <input id="textbox" />
@@ -81,8 +72,7 @@ $("#textarea").ejmTextArea();
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 * module:jQuery
@@ -105,7 +95,7 @@ Requires
 
 
 
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
 
 
@@ -114,8 +104,7 @@ Requires
 Sets the root class for Textbox theme. This cssClass API helps to use custom skinning option for Textbox control. By defining the root class using this API, we need to include this root class in CSS.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -124,8 +113,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}// For TextBox 
@@ -233,7 +221,7 @@ $("#textarea").ejmTextArea ("option", "cssClass", "customclass");
 
 
 
-### enabled<span class="type-signature type boolean">boolean</span>
+### enabled`boolean`
 {:#members:enabled}
 
 
@@ -242,8 +230,7 @@ $("#textarea").ejmTextArea ("option", "cssClass", "customclass");
 Specifies whether to be enable on initialization.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -252,8 +239,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -362,7 +348,7 @@ $("#textarea").ejmTextArea ("option", "enabled", true);
 
 
 
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
 
 
@@ -371,8 +357,7 @@ $("#textarea").ejmTextArea ("option", "enabled", true);
 Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -381,8 +366,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -491,7 +475,7 @@ $("#textarea").ejmTextArea ("option", "enablePersistence", false);
 
 
 
-### readOnly<span class="type-signature type boolean">boolean</span>
+### readOnly`boolean`
 {:#members:readonly}
 
 
@@ -500,8 +484,7 @@ $("#textarea").ejmTextArea ("option", "enablePersistence", false);
 Specifies the TextBox, Password, Mask Edit, and Textarea readOnly.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -510,8 +493,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -620,7 +602,7 @@ $("#textarea").ejmTextArea ("option", "readOnly", false);
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -629,8 +611,7 @@ $("#textarea").ejmTextArea ("option", "readOnly", false);
 Changes the rendering mode of the TextBox, Password, Mask Edit, and Textarea. See <a href="global.html#RenderMode">RenderMode</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -639,8 +620,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -758,7 +738,7 @@ $("#textarea").ejmTextArea ("option", "renderMode", ej.mobile.RenderMode.Auto);
 
 
 
-### showBorder<span class="type-signature type boolean">boolean</span>
+### showBorder`boolean`
 {:#members:showborder}
 
 
@@ -767,8 +747,7 @@ $("#textarea").ejmTextArea ("option", "renderMode", ej.mobile.RenderMode.Auto);
 Specifies whether to show the border on the TextBox, Password, Mask Edit, and Textarea.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -777,8 +756,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}// For TextBox 
@@ -889,7 +867,7 @@ $("#textarea").ejmTextArea ("option", "showBorder", true);
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -898,8 +876,7 @@ $("#textarea").ejmTextArea ("option", "showBorder", true);
 Changes the theme of the TextBox, Password, Mask Edit, and Textarea. See <a href="global.html#Theme">Theme</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -908,8 +885,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}// For TextBox  
@@ -1027,7 +1003,7 @@ $("#textarea").ejmTextArea ("option", "theme", ej.mobile.Theme.Auto);
 
 
 
-### value<span class="type-signature type string">string</span>
+### value`string`
 {:#members:value}
 
 
@@ -1036,8 +1012,7 @@ $("#textarea").ejmTextArea ("option", "theme", ej.mobile.Theme.Auto);
 Specifies the value on initialization.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1046,8 +1021,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}// For TextBox 
@@ -1155,7 +1129,7 @@ $("#textarea").ejmTextArea ("option", "value", "");
 
 
 
-### watermarkText<span class="type-signature type string">string</span>
+### watermarkText`string`
 {:#members:watermarktext}
 
 
@@ -1164,8 +1138,7 @@ $("#textarea").ejmTextArea ("option", "value", "");
 Specifies the watermarkText on initialization.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1174,8 +1147,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1297,7 +1269,7 @@ Section for windows rendermode specific functionalities.
 
 
 
-### windows.allowReset<span class="type-signature type boolean">boolean</span>
+### windows.allowReset`boolean`
 {:#members:windows-allowreset}
 
 
@@ -1306,8 +1278,7 @@ Section for windows rendermode specific functionalities.
 Specifies whether to allow the reset button for the windows mode in TextBox, Password, MaskEdit, TextArea.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1316,8 +1287,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1430,7 +1400,7 @@ $("#textarea").ejmTextArea("option", "windows.allowReset", true);
 
 
 
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
 
 
@@ -1439,8 +1409,7 @@ $("#textarea").ejmTextArea("option", "windows.allowReset", true);
 Specifies whether to render control based on the windowsphone's current accent color and device theme.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1449,8 +1418,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1567,7 +1535,7 @@ $("#textarea").ejmTextArea("option", "windows.renderDefault", false);
 
 
 
-### disable<span class="signature">()</span>
+### disable`()`
 {:#methods:disable}
 
 
@@ -1577,8 +1545,7 @@ To handle the TextBox, or Password or MaskEdit or TextArea to disable
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1663,7 +1630,7 @@ $("#textarea").ejmTextArea("disable");
 
 
 
-### enable<span class="signature">()</span>
+### enable`()`
 {:#methods:enable}
 
 
@@ -1673,8 +1640,7 @@ To handle the TextBox, or Password or MaskEdit or TextArea to enable
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1759,7 +1725,7 @@ $("#textarea").ejmTextArea("enable");
 
 
 
-### getStrippedValue<span class="signature">()</span>
+### getStrippedValue`()`
 {:#methods:getstrippedvalue}
 
 
@@ -1769,8 +1735,7 @@ To handle the TextBox, or Password or MaskEdit or TextArea to getStrippedValue
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1855,7 +1820,7 @@ $("#textarea").ejmTextArea("getStrippedValue");
 
 
 
-### getUnstrippedValue<span class="signature">()</span>
+### getUnstrippedValue`()`
 {:#methods:getunstrippedvalue}
 
 
@@ -1865,8 +1830,7 @@ To handle the TextBox, or Password or MaskEdit or TextArea to getUnstrippedValue
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1951,7 +1915,7 @@ $("#textarea").ejmTextArea("getUnstrippedValue");
 
 
 
-### getValue<span class="signature">()</span>
+### getValue`()`
 {:#methods:getvalue}
 
 
@@ -1961,8 +1925,7 @@ To handle the TextBox, or Password or MaskEdit or TextArea to getValue
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2047,7 +2010,7 @@ $("#textarea").ejmTextArea("getValue");
 
 
 
-### getWatermarkText<span class="signature">()</span>
+### getWatermarkText`()`
 {:#methods:getwatermarktext}
 
 
@@ -2057,8 +2020,7 @@ To handle the TextBox, or Password or MaskEdit or TextArea to getWatermarkText
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2209,8 +2171,7 @@ Event triggers when the Textbox or Password or Maskedit or textarea value change
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

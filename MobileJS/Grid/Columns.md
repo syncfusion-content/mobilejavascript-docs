@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Columns
+title: Columns | Grid | Mobilejs | Syncfusion
 description: columns
 platform: Mobilejs
 control: Grid (Mobile)
@@ -17,63 +17,51 @@ Formatting is used to convert data values to human readable formats using specif
 
 {% highlight html %}
 
-
 <div id="MobileGrid"></div>
 
-
-
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
+$(function () { // Document is ready.
 
+	window.data = [];
 
-      $(function () {// Document is ready.
+	for (i = 1; i < 6; i++) {
 
-            window.data = [];
+		window.data.push({ Number: 100 / i, Currency: 100 / i, Date: new Date() });
 
-            for (i = 1; i < 6; i++) {
+	}
 
-                window.data.push({ Number: 100 / i, Currency: 100 / i, Date: new Date() });
+	$("#MobileGrid").ejmGrid({
 
-            }
+		// the datasource gets data
 
-            $("#MobileGrid").ejmGrid({
+		dataSource: window.data,
 
-                // the datasource gets data
+		columns: [
 
-                dataSource: window.data,
+				// the formatting columns
 
-                columns: [
+			{ field: "Number", headerText: "Number", textAlign: ej.textAlign.Right, format: "{0:n2}", width: 70 },
 
-                        // the formatting columns
+			{ field: "Currency", headerText: "Currency", textAlign: ej.textAlign.Right, format: "{0:c2}", width: 70 },
 
-                    { field: "Number", headerText: "Number", textAlign: ej.textAlign.Right, format: "{0:n2}", width: 70 },
+			{ field: "Date", headerText: "Date", textAlign: ej.textAlign.Right, format: "{0:MM/dd/yyyy}", width: 70 }
 
-                    { field: "Currency", headerText: "Currency", textAlign: ej.textAlign.Right, format: "{0:c2}", width: 70 },
+		],
 
-                    { field: "Date", headerText: "Date", textAlign: ej.textAlign.Right, format: "{0:MM/dd/yyyy}", width: 70 }
+	});
 
-                ],
-
-            });
-
-        });
-
-
-
+});
 
 {% endhighlight %}
 
 Run the above code to render the following output.
 
-![12](Columns_images/Columns_img1.png)
-
-
+![](Columns_images/Columns_img1.png)
 
 ## Controlling Mobile Grid actions
 
@@ -81,62 +69,49 @@ In ejmGrid, you can use allowSorting and allowFiltering to control Mobile Grid a
 
 {% highlight html %}
 
-
-<div id="MobileGrid"></div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-        $(function () { // Document is ready.
+$(function () { // Document is ready.
 
-            $("#MobileGrid").ejmGrid({
+	$("#MobileGrid").ejmGrid({
 
-                // The datasource "window.gridData" is referred from jsondata.min.js
+		// The datasource "window.gridData" is referred from jsondata.min.js
 
-                dataSource: window.gridData,
+		dataSource: window.gridData,
 
-                allowSorting: true,
+		allowSorting: true,
 
-                allowFiltering: true,
+		allowFiltering: true,
 
-                columns:
+		columns:
 
-            [
+	[
 
-                { field: "OrderID", headerText: "Order ID" },
+		{ field: "OrderID", headerText: "Order ID" },
 
-                { field: "CustomerID", headerText: "Customer ID", allowSorting: false },
+		{ field: "CustomerID", headerText: "Customer ID", allowSorting: false },
 
-                { field: "Freight", headerText: "Freight", allowFiltering: false }
+		{ field: "Freight", headerText: "Freight", allowFiltering: false }
 
-            ]
-
-
-
-            });
-
-        });
+	]
 
 
+
+	});
+
+});
 
 {% endhighlight %}
 
-
-
 Run the above code to render the following output.
 
-![14](Columns_images/Columns_img2.png)
-
-
+![](Columns_images/Columns_img2.png)
 
 ## Auto-generate column
 
@@ -144,51 +119,38 @@ The Columns are automatically generated from the datasource and you no need to s
 
 {% highlight html %}
 
-
-<div id="MobileGrid"></div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-    $(function () {// Document is ready.
+$(function () {// Document is ready.
 
-        // Data for Mobile Grid.
+	// Data for Mobile Grid.
 
-        window.gridData = [
+	window.gridData = [
 
-          { firstName: "John", lastName: "Beckett", email: "john@syncfusion.com" },
+	  { firstName: "John", lastName: "Beckett", email: "john@syncfusion.com" },
 
-          { firstName: "Ben", lastName: "Beckett", email: "ben@syncfusion.com" },
+	  { firstName: "Ben", lastName: "Beckett", email: "ben@syncfusion.com" },
 
-          { firstName: "Andrew", lastName: "Beckett", email: "andrew@syncfusion.com" }
+	  { firstName: "Andrew", lastName: "Beckett", email: "andrew@syncfusion.com" }
 
-        ];
+	];
 
-        $("#MobileGrid").ejmGrid({
+	$("#MobileGrid").ejmGrid({
 
-            dataSource: window.gridData
+		dataSource: window.gridData
 
-        });
+	});
 
-    });
-
-
-
-
-
+});
 
 {% endhighlight %}
 
 Run the above code to render Auto-generate columns.
 
-![15](Columns_images/Columns_img3.png)
-
+![](Columns_images/Columns_img3.png)

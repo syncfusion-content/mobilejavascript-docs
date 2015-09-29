@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configure-icons
+title: Configure icons | Toolbar | Mobilejs | Syncfusion
 description: configure icons
 platform: Mobilejs
 control: Toolbar (Mobile)
@@ -38,23 +38,23 @@ Refer to the following code example.
 
 {% highlight html %}
 
-   <div data-role="ejmtoolbar" id="toolbar_sample">
+<div data-role="ejmtoolbar" id="toolbar_sample">
 
-            <ul>
+	<ul>
 
-                <li data-ej-iconname="add" li>
+		<li data-ej-iconname="add" li>
 
-                <li data-ej-iconname="cut"></li>
+		<li data-ej-iconname="cut"></li>
 
-                <li data-ej-iconname="copy"></li>
+		<li data-ej-iconname="copy"></li>
 
-                <li data-ej-iconname="save"></li>
+		<li data-ej-iconname="save"></li>
 
-                <li data-ej-iconname="search"></li>
+		<li data-ej-iconname="search"></li>
 
-            </ul>
+	</ul>
 
-     </div>
+</div>
 
 {% endhighlight %}
 
@@ -62,35 +62,30 @@ The following screenshot illustrates the output of the above code.
 
 ![](Configure-icons_images/Configure-icons_img1.png)
 
-
-
 You can set the user defined icons using data-ej-iconurl attribute. This property overrides the data-ej-iconname attribute when both properties are set at a time. 
 
 {% highlight html %}
 
 <div data-role="ejmtoolbar" id="sample-toolbar" style="z-index: 100000;">
 
-            <ul>
+	<ul>
 
-                <li data-ej-iconurl=" http://js.syncfusion.com/UG/Mobile/Content/toolbar/back.png"></li>
+		<li data-ej-iconurl=" http://js.syncfusion.com/UG/Mobile/Content/toolbar/back.png"></li>
 
-                <li data-ej-iconurl=" http://js.syncfusion.com/UG/Mobile/Content/toolbar/forward.png"></li>
+		<li data-ej-iconurl=" http://js.syncfusion.com/UG/Mobile/Content/toolbar/forward.png"></li>
 
-                <li data-ej-iconurl=" http://js.syncfusion.com/UG/Mobile/Content/toolbar/plugin.png"></li>
+		<li data-ej-iconurl=" http://js.syncfusion.com/UG/Mobile/Content/toolbar/plugin.png"></li>
 
-                <li data-ej-iconurl=" http://js.syncfusion.com/UG/Mobile/Content/toolbar/edit.png"></li>
+		<li data-ej-iconurl=" http://js.syncfusion.com/UG/Mobile/Content/toolbar/edit.png"></li>
 
-                <li data-ej-iconurl=" http://js.syncfusion.com/UG/Mobile/Content/toolbar/airoplane_mode.png"></li>
+		<li data-ej-iconurl=" http://js.syncfusion.com/UG/Mobile/Content/toolbar/airoplane_mode.png"></li>
 
-            </ul>
+	</ul>
 
-        </div>
+</div>
 
 {% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
 ![](Configure-icons_images/Configure-icons_img2.png)
-
-
-

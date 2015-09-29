@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Mobile-Accordion-dependency-files
+title: Mobile Accordion dependency files | Tab | Mobilejs | Syncfusion
 description: mobile accordion dependency files
 platform: Mobilejs
-control: Accordion (Mobile)
+control: Tab (Mobile)
 documentation: ug
 ---
 
@@ -62,5 +62,3 @@ It is referred to handle scrollpanel control and used while rendering Tab contro
 ej.mobile.scrollbar.min.js</td><td>
 It is referred to handle scrollbar control and used while rendering Tab control.</td></tr>
 </table>
-
-

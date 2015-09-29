@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How-To
-description: how-to
+title: Initialize ejmGrid | Grid | Mobilejs | Syncfusion
+description: initialize ejmgrid
 platform: Mobilejs
 control: Grid (Mobile)
 documentation: ug
@@ -27,37 +27,8 @@ $("#MobileGrid").ejmGrid({
 
 });
 
-
-
-
-
 {% endhighlight %}
 
 Run the above code to render the following output.
 
 ![](Initialize-ejmGrid_images/Initialize-ejmGrid_img1.png)
-
-## Get Mobile Grid object
-
-After you initialize Mobile Grid, Grid object is stored in container element of Grid. To access Mobile Grid object refer to the following code example.
-
-{% highlight js %}
-
-
-
-var gridObject = $("#MobileGrid").ejmGrid("instance");
-
-
-
-                [or]
-
-
-
-var gridObject = $("#MobileGrid ").data("ejmGrid");
-
-
-
-{% endhighlight %}
-
-
-

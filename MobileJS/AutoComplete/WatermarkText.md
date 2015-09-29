@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-WatermarkText
+title: Customize WatermarkText | AutoComplete| Mobilejs | Syncfusion
 description: customize watermarktext
 platform: Mobilejs
 control: AutoComplete (Mobile) 
@@ -15,15 +15,8 @@ The data-ej-watermarktext attribute displays text in the AutoComplete textbox wh
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-watermarktext="Search a Car" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />    
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays Watermark text:
 
 ![](Customize-WatermarkText_images/Customize-WatermarkText_img1.png)
-
-
-

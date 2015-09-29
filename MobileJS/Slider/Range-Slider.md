@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Range-Slider
+title: Range Slider | Slider | Mobilejs | Syncfusion
 description: range slider
 platform: Mobilejs
 control: Slider (Mobile)
@@ -13,15 +13,10 @@ The attribute data-ej-enablerange is used to select the range of values that is 
 
 {% highlight html %}
 
-        <div id="slider_sample" data-role="ejmslider" data-ej-enablerange=true ></div>    
+<div id="slider_sample" data-role="ejmslider" data-ej-enablerange=true ></div>    
 
 {% endhighlight %}
-
-
 
 The following screenshot displays the Range of the Slider:
 
 ![](Range-Slider_images/Range-Slider_img1.png)
-
-
-

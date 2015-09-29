@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mobile-radiobutton-dependency-files
+title: mobile radiobutton dependency files | RadioButton | Mobilejs | Syncfusion
 description: mobile radiobutton dependency files
 platform: Mobilejs
 control: RadioButton (Mobile)
@@ -9,15 +9,15 @@ documentation: ug
 
 # Mobile RadioButton dependency files
 
-This section deals with the dependency files for **RadioButton** control. The file **ej.mobile.all.min.js** is a collection of Mobile Controls. If you are using this file, then you can skip this section. If not, then you need to refer to the following script files to render the **RadioButton** control.
+This section deals with the dependency files for RadioButton control. The file ej.mobile.all.min.js is a collection of Mobile Controls. If you are using this file, then you can skip this section. If not, then you need to refer to the following script files to render the RadioButton control.
 
 _Script files_
 
 <table>
 <tr>
-<td>
-<b>File</b></td><td>
-<b>Description/Usage</b></td></tr>
+<th>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

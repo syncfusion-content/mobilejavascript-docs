@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mode
+title: Mode | AutoComplete| Mobilejs | Syncfusion
 description: mode
 platform: Mobilejs
 control: AutoComplete (Mobile) 
@@ -20,13 +20,8 @@ Default is used to render the AutoComplete as normal textbox. Search is used to 
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-mode="search" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays Mode:
 
 ![](Mode_images/Mode_img1.png)
-

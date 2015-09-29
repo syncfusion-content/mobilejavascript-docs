@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Style-and-appearance
+title: Style and appearance | Menu | Mobilejs | Syncfusion
 description: style and appearance
 platform: Mobilejs
 control: Menu (Mobile)
@@ -63,6 +63,3 @@ This class is applied to disable the Menu item.</td></tr>
 e-m-state-enabled</td><td>
 This class is applied to enable the Menu item.</td></tr>
 </table>
-
-
-

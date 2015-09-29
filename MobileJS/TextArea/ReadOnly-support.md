@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ReadOnly-support
+title: ReadOnly support | TextArea | Mobilejs | Syncfusion
 description: readonly support
 platform: Mobilejs
 control: TextArea (Mobile)
@@ -17,13 +17,4 @@ Refer to the following code example.
 
 <textarea id="textarea" data-role="ejmtextarea" data-ej-watermarktext="TextArea" data-ej-readonly="true"></textarea>
 
-
-
 {% endhighlight %}
-
-
-
-
-
-
-

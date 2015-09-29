@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Border-support
+title: Border support | Textbox | Mobilejs | Syncfusion
 description: border support
 platform: Mobilejs
 control: Textbox (Mobile)
@@ -19,7 +19,6 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-
 The following screenshot displays the ShowBorder property.
 
-![D:/Final Doc/mockup/IMG_0527_iphone5s_spacegrey_portrait.png](Border-support_images/Border-support_img1.png)
+![](Border-support_images/Border-support_img1.png)

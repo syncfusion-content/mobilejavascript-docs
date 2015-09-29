@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enable-native-scrolling
+title: Enable native scrolling | Scroll Panel | Mobilejs | Syncfusion
 description: enable native scrolling 
 platform: Mobilejs
 control: Scroll Panel (Mobile)
@@ -25,11 +25,6 @@ Native scrolling refers to the scrolling behavior specific to native devices and
 
     </div>
 
-
-
-    <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="true" /> 
+<div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="true" /> 
 
 {% endhighlight %}
-
-
-

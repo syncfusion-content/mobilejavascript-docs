@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Accordion-dependency-files
+title: Mobile Accordion dependency files | Accordion | Mobilejs | Syncfusion
 description: mobile accordion dependency files
 platform: Mobilejs
 control: Accordion (Mobile)
@@ -47,5 +47,3 @@ It is referred for touch events support.</td></tr>
 ej.mobile.accordion.min.js</td><td>
 Used to handle Accordion control and should be used while rendering Accordion control.</td></tr>
 </table>
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Checked-Status
+title: Checked Status | RadioButton | Mobilejs | Syncfusion
 description: checked status
 platform: Mobilejs
 control: RadioButton (Mobile)
@@ -13,77 +13,66 @@ You have options to set the state of the RadioButton either as checked or unchec
 
 {% highlight html %}
 
-  <div align="center">
+<div align="center">
 
-            <br />
+	<br />
 
-            <div>
+	<div>
 
-                <div>
+		<div>
 
-                    <b>Marital Status</b>
+			<b>Marital Status</b>
 
-                </div>
+		</div>
 
-            </div>
+	</div>
 
-            <br />
+	<br />
 
-            <table border="0" cellpadding="5">
+	<table border="0" cellpadding="5">
 
-                <tr>
+		<tr>
 
-                    <td width="100px">
+			<td width="100px">
 
-                        <input type="radio" name="radbtn" data-role="ejmradiobutton" data-ej-text="Single" data-ej-checked="true" />
+				<input type="radio" name="radbtn" data-role="ejmradiobutton" data-ej-text="Single" data-ej-checked="true" />
 
-                    </td>
+			</td>
 
+			<td>
 
+				<input type="radio" name="radbtn" data-role="ejmradiobutton" data-ej-text="Married" />
 
-                    <td>
+			</td>
 
-                        <input type="radio" name="radbtn" data-role="ejmradiobutton" data-ej-text="Married" />
+		</tr>
 
-                    </td>
+		<tr>
 
+			<td>
 
+				<input type="radio" name="radbtn" data-role="ejmradiobutton" data-ej-text="Divorced" />
 
-                </tr>
+			</td>
 
-                <tr>
+			<td>
 
-                    <td>
+				<input type="radio" name="radbtn" data-role="ejmradiobutton" data-ej-text="Widowed" />
 
-                        <input type="radio" name="radbtn" data-role="ejmradiobutton" data-ej-text="Divorced" />
+			</td>
 
-                    </td>
+		</tr>
 
+	</table>
 
+	<div>
 
-                    <td>
+	</div>
 
-                        <input type="radio" name="radbtn" data-role="ejmradiobutton" data-ej-text="Widowed" />
-
-                    </td>
-
-
-
-                </tr>
-
-            </table>
-
-            <div>
-
-            </div>
-
-        </div>
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays the checkedstatus:
 
 ![](Checked-Status_images/Checked-Status_img1.png)
-
-
-

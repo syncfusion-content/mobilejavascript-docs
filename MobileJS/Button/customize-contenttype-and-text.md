@@ -1,6 +1,6 @@
 ---
 layout: post
-title: customize-contenttype-and-text
+title: customize contenttype and text | Button | Mobilejs | Syncfusion
 description: customize contenttype and text
 platform: Mobilejs
 control: Button (Mobile)
@@ -25,17 +25,16 @@ You can refer to the following code example.
 
 {% highlight html %}
 
-
-  <!--specify the button content-type-->               
- <input id="sample_button" type="button" data-role="ejmbutton" data-ej-text="button" **data-ej-contenttype="text"** />
-
-
+<!--specify the button content-type-->     
+  
+<input id="sample_button" type="button" data-role="ejmbutton" data-ej-text="button" data-ej-contenttype="text" />
 
 {% endhighlight %}
 
+![](customize-contenttype-and-text_images/customize-contenttype-and-text_img1.png)
 
-
-{% include image.html url="customize-contenttype-and-text_images/customize-contenttype-and-text_img1.png" Caption="Button – ContentType"%}
+Button – ContentType
+{:.caption}
 
 ## Text
 
@@ -45,16 +44,13 @@ You can refer to the following code example.
 
 {% highlight html %}
 
-
 <!-- Set the button text-->
 
-<input id="sample_button" data-role="ejmbutton" **data-ej-text="button"** />
-
-
+<input id="sample_button" data-role="ejmbutton" data-ej-text="button" />
 
 {% endhighlight %}
 
+![](customize-contenttype-and-text_images/customize-contenttype-and-text_img2.png)
 
-
-{% include image.html url="customize-contenttype-and-text_images/customize-contenttype-and-text_img2.png" Caption="Button - Text"%}
-
+Button - Text
+{:.caption}

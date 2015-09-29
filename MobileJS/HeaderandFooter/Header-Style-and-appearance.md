@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Header-Style-and-appearance
+title: Header Style and appearance | Header and Footer | Mobilejs | Syncfusion
 description: header-style-and-appearance
 platform: Mobilejs
 control: Header and Footer (Mobile)

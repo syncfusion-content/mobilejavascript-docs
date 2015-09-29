@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-buttons
+title: Customize buttons | Radial Menu | Mobilejs | Syncfusion
 description: customize buttons
 platform: Mobilejs
 control: Radial Menu (Mobile)
@@ -17,77 +17,77 @@ Refer to the following code example.
 
 {% highlight html %}
 
-    <div id="radialmenu_sample" data-role="ejmradialmenu" data-ej-position="leftcenter" data-ej-imageclass="imageclass" data-ej-backimageclass="backimage" data-ej-touchend="click">
+<div id="radialmenu_sample" data-role="ejmradialmenu" data-ej-position="leftcenter" data-ej-imageclass="imageclass" data-ej-backimageclass="backimage" data-ej-touchend="click">
 
-        <ul>
+	<ul>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/music.png">
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/music.png">
 
-            </li>
+		</li>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/social.png">
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/social.png">
 
-                <ul>
+			<ul>
 
-                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/googleplus.png">
+				<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/googleplus.png">
 
-                    </li>
+				</li>
 
-                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/facebook.png">
+				<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/facebook.png">
 
-                    </li>
+				</li>
 
-                </ul>
+			</ul>
 
-            </li>
+		</li>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/direction.png">
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/direction.png">
 
-            </li>
+		</li>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/browser.png">
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/browser.png">
 
-                <ul>
+			<ul>
 
-                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/chrome.png">
+				<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/chrome.png">
 
-                    </li>
+				</li>
 
-                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/opera.png">
+				<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/opera.png">
 
-                    </li>
+				</li>
 
-                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/bing.png">
+				<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/bing.png">
 
-                    </li>
+				</li>
 
-                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png">
+				<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png">
 
-                    </li>
+				</li>
 
-                </ul>
+			</ul>
 
-            </li>
+		</li>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/message.png">
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/message.png">
 
-                <ul>
+			<ul>
 
-                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/google.png">
+				<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/google.png">
 
-                    </li>
+				</li>
 
-                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png">
+				<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png">
 
-                    </li>
+				</li>
 
-                </ul>
+			</ul>
 
-            </li>
+		</li>
 
-        </ul>
+	</ul>
 
-    </div>
+</div>
 
 {% endhighlight %}
 
@@ -95,39 +95,37 @@ Refer the following code examples for css class
 
 {% highlight css %}
 
-        .imageclass {
+.imageclass {
 
-            background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/home.png");
+	background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/home.png");
 
-            background-position: center;
+	background-position: center;
 
-            background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-        }
+}
 
-        .backimage {
+.backimage {
 
-            background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/windowsback.png");
+	background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/windowsback.png");
 
-            background-position: center;
+	background-position: center;
 
-            background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-            -moz-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
 
-            -o-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
 
-            -webkit-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
 
-            transform: scaleX(-1);
+	transform: scaleX(-1);
 
-            filter: FlipH;
+	filter: FlipH;
 
-            -ms-filter: "FlipH";
+	-ms-filter: "FlipH";
 
-        }
-
-
+}
 
 {% endhighlight %}
 
@@ -135,13 +133,11 @@ Refer the following code examples for script section
 
 {% highlight js %}
 
-        function click(e) {
+function click(e) {
 
-            $("# radialmenu_sample ").ejmRadialMenu("menuHide");
+	$("# radialmenu_sample ").ejmRadialMenu("menuHide");
 
-        }
-
-
+}
 
 {% endhighlight %}
 
@@ -149,15 +145,6 @@ Refer the following code examples for script section
 
 The following screenshot illustrates the output of the above code.
 
-![C:/Users/isuriyar/Desktop/ra.png](Customize-buttons_images/Customize-buttons_img1.png)
+![](Customize-buttons_images/Customize-buttons_img1.png)
 
-
-
-![raadialmenu](Customize-buttons_images/Customize-buttons_img2.png)
-
-
-
-
-
-
-
+![](Customize-buttons_images/Customize-buttons_img2.png)

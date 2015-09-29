@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance | Scroll Panel | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
 control: Scroll Panel (Mobile)
@@ -75,15 +75,3 @@ This class represents the style and appearance of ScrollPanel when rendered with
 e-m-windows</td><td>
 This class represents the style and appearance of ScrollPanel when rendered with Windows render mode.</td></tr>
 </table>
-.
-
-
-
-
-
-
-
-
-
-
-

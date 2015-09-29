@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IOS7-Specific-Customization
+title: IOS7 Specific Customization | Slider | Mobilejs | Syncfusion
 description: ios7 specific customization
 platform: Mobilejs
 control: Slider (Mobile)
@@ -18,23 +18,15 @@ The data-ej-thumbstyle attribute is used to render the Slider knob in two differ
 The possible values are,
 
 1. Normal
+
 2. Small
-
-
 
 {% highlight html %}
 
-        <div id="slider_sample" data-role="ejmslider" data-ej-rendermode="ios7" data-ej-ios7-thumbstyle="small" ></div>
-
-
+<div id="slider_sample" data-role="ejmslider" data-ej-rendermode="ios7" data-ej-ios7-thumbstyle="small" ></div>
 
 {% endhighlight %}
-
-
 
 The following screenshot displays the Slider iOS7:
 
 ![](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)
-
-
-

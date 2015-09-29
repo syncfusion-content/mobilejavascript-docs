@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Persist-state
+title: Persist state | Button | Mobilejs | Syncfusion
 description: persist state
 platform: Mobilejs
 control: Button (Mobile)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Type
+title: Type | Group Button | Mobilejs | Syncfusion
 description: type
 platform: Mobilejs
 control: Group Button (Mobile)
@@ -17,17 +17,15 @@ The Group Button is rendered via button and input tag elements. Group Button ren
 
 <!-- Group Button rendering via button tag -->
 
-    <div id="groupbutton_sample" data-role="ejmgroupbutton">
+<div id="groupbutton_sample" data-role="ejmgroupbutton">
 
-        <button>ipad</button>
+	<button>ipad</button>
 
-        <button>ipod</button>
+	<button>ipod</button>
 
-        <button>iphone</button>
+	<button>iphone</button>
 
-    </div>
-
-
+</div>
 
 {% endhighlight %}
 
@@ -37,29 +35,27 @@ The Group Button is rendered via button and input tag elements. Group Button ren
 
 <!-- Group Button rendering via radiobutton -->
 
-    <div id="groupbutton_sample" data-role="ejmgroupbutton">
+<div id="groupbutton_sample" data-role="ejmgroupbutton">
 
-        <label>
+	<label>
 
-            <input type="radio" />ipad
+		<input type="radio" />ipad
 
-        </label>
+	</label>
 
-        <label>
+	<label>
 
-            <input type="radio" />ipod
+		<input type="radio" />ipod
 
-        </label>
+	</label>
 
-        <label>
+	<label>
 
-            <input type="radio" />iphone
+		<input type="radio" />iphone
 
-        </label>
+	</label>
 
-    </div>
-
-
+</div>
 
 {% endhighlight %}
 
@@ -69,35 +65,30 @@ The Group Button is rendered via button and input tag elements. Group Button ren
 
 <!-- Group Button rendering via checkbox-->
 
-    <div id="groupbutton_sample" data-role="ejmgroupbutton">
+<div id="groupbutton_sample" data-role="ejmgroupbutton">
 
-        <label>
+	<label>
 
-            <input type="checkbox" />ipad
+		<input type="checkbox" />ipad
 
-        </label>
+	</label>
 
-        <label>
+	<label>
 
-            <input type="checkbox" />ipod
+		<input type="checkbox" />ipod
 
-        </label>
+	</label>
 
-        <label>
+	<label>
 
-            <input type="checkbox" />iphone
+		<input type="checkbox" />iphone
 
-        </label>
+	</label>
 
-    </div>
-
-
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays the Group Button.
 
 ![](Type_images/Type_img1.png)
-
-
-

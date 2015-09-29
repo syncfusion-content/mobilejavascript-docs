@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Mobile-Accordion-dependency-files
+title: Mobile Accordion dependency files | Slider | Mobilejs | Syncfusion
 description: mobile accordion dependency files
 platform: Mobilejs
-control: Accordion (Mobile)
+control: Slider (Mobile)
 documentation: ug
 ---
 
@@ -11,8 +11,7 @@ documentation: ug
 
 This section deals with the dependency files for Slider control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not, then you can refer the following script files to render the Slider control.
 
-Script files
-
+_Script files_
 
 <table>
 <tr>
@@ -47,7 +46,4 @@ It is referred for touch events support.</td></tr>
 <td>
 ej.mobile.slider.min.js</td><td>
 It is referred to handle all the properties, events, and methods of Slider.</td></tr>
-
 </table>
-
-

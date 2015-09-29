@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scroll-directions
+title: Scroll directions | Scroll Panel | Mobilejs | Syncfusion
 description: scroll directions
 platform: Mobilejs
 control: Scroll Panel (Mobile)
@@ -13,7 +13,7 @@ The “data-ej-enablehrscroll” and “data-ej-enablevrscroll” attributes let
 
 {% highlight html %}
 
-    <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
+<div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
     <div id="maincontent" style="padding:10px">
 
@@ -27,17 +27,10 @@ The “data-ej-enablehrscroll” and “data-ej-enablevrscroll” attributes let
 
     </div>	
 
-    <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-scrollwidth=400  data-ej-enablehrscroll="true"  />
+<div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-scrollwidth=400  data-ej-enablehrscroll="true"  />
 
 {% endhighlight %}
 
-
-
 The following screenshot displays scroll directions:
 
-
-
-![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25ac5382.PNG](Scroll-directions_images/Scroll-directions_img1.png)
-
-
-
+![](Scroll-directions_images/Scroll-directions_img1.png)

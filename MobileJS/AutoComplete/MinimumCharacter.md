@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MinimumCharacter
+title: MinimumCharacter | AutoComplete| Mobilejs | Syncfusion
 description: minimumcharacter
 platform: Mobilejs
 control: AutoComplete (Mobile) 
@@ -15,9 +15,4 @@ The attribute data-ej-minimumcharacter specifies the minimum number of character
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-mincharacter=2 data-ej-datasource="window.datasrc" data-ej-filtertype="contains" data-ej-fields-text="name" />
 
-
-
 {% endhighlight %}
-
-
-

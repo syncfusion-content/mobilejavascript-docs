@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Target-Height
+title: Target Height | Dialog | Mobilejs | Syncfusion
 description: target height
 platform: Mobilejs
 control: Dialog (Mobile)

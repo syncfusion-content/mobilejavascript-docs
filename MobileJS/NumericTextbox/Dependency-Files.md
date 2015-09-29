@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mobile-numeric-textbox-dependency-files
+title: mobile numeric textbox dependency files | Numeric Textbox | Mobilejs | Syncfusion
 description: mobile numeric textbox dependency files
 platform: Mobilejs
 control: Numeric Textbox (Mobile)
@@ -15,9 +15,9 @@ _Script Files_
 
 <table>
 <tr>
-<td>
-<b>Files</b></td><td>
-<b>Description/Usage</b></td></tr>
+<th>
+Files</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>
@@ -47,5 +47,3 @@ It is referred for touch events support.</td></tr>
 ej.mobile.editor.min.js</td><td>
 It is used to handle the <b>textbox</b> control and while rendering the <b>textbox</b> control.</td></tr>
 </table>
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CDN
+title: CDN | Introduction | Mobilejs | Syncfusion
 description: cdn
 platform: Mobilejs
 control: Introduction
@@ -11,13 +11,7 @@ documentation: ug
 
 The [CDN](http://en.wikipedia.org/wiki/Content_delivery_network) links are provided individually for all the Scripts and Stylesheets that provide easier access to Syncfusion JavaScript components. 
 
-
-
 N> All the provided cdn links can be accessed either through _http_ or _https_.
-
-
-
-
 
 ## CDN Script links
 
@@ -25,8 +19,8 @@ N> All the provided cdn links can be accessed either through _http_ or _https_.
 
 The first three common script libraries listed in the following table are more essential and mandatory to render any of the Syncfusion widgets on the application module. The basic syntax is as follows,
 
-
 {% highlight text %}
+
 http://cdn.syncfusion.com/js/assets/external/[file name]
 
 Example:
@@ -35,7 +29,8 @@ http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js
 
 {% endhighlight %}
 
-_Property Table_
+Property Table
+{:.caption}
 
 <table>
 <tr>
@@ -95,6 +90,7 @@ To enable unobtrusive validation options in data-* attributes.</td><td>
 The CDN script files are maintained for each version of the Essential Studio individually. Refer to the following syntax.
 
 {% highlight text %}
+
 http://cdn.syncfusion.com/[version]/js/mobile/[file name]
 
 For example, to access the ej.mobile.all.min.js file in 13.1.0.21 version– 
@@ -140,6 +136,7 @@ http://cdn.syncfusion.com/[version]/js/[file name]
 For example, to access the ej.widget.angular.min.js file in 13.1.0.21 version– 
 
 [https://cdn.syncfusion.com/13.1.0.21/js/ej.widget.angular.min.js](https://cdn.syncfusion.com/13.1.0.21/js/ej.widget.angular.min.js)
+
 {% endhighlight %}
 
 
@@ -147,7 +144,9 @@ For example, to access the ej.widget.angular.min.js file in 13.1.0.21 version–
 
 The CDN links for all the css files (both core & theme related) are depicted together in the following table. Refer to the following syntax:
 {% highlight text %}
+
 http://cdn.syncfusion.com/[version]/js/mobile/[file name]
+
 {% endhighlight %}
 
 _Property Table_
@@ -211,41 +210,23 @@ Sometimes, CDN links may go down due to network or connection problems. On such 
 
 <head>
 
-
-
 <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
 
-
-
     <title>My first HTML page</title>
-
-
 
     <!-- CDN LINK references-->  
 
     <link href="http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css" rel="stylesheet" />
 
-
-
     <script src="http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js"></script>
-
-
 
     <script src="http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js"></script>
 
-
-
     <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
-
-
 
     <script src="http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js" ></script>
 
-
-
     <script type="text/javascript">
-
-
 
         if (typeof jQuery == "undefined") { // If CDN fails, jQuery returns undefined
 
@@ -259,35 +240,24 @@ Sometimes, CDN links may go down due to network or connection problems. On such 
 
         }
 
-
-
         if (typeof ej == "undefined") { // If CDN fails, ej returns undefined.
 
             // So that, refer the Syncfusion stylesheets and scripts from the local path here
 
-
-
             // StyleSheet reference from the local system path
 
             document.write(decodeURIComponent('%3Clink rel="stylesheet" href="Content/ej/mobile/ej.mobile.all.min.css" %3C/%3E'));
-
-
 
             // Script reference from the local system path
 
             document.write(decodeURIComponent('%3Cscript src="Scripts/ej/ej.mobile.all.min.js" %3E%3C/script%3E'));
 
         }
-
-
-
     </script> 
 
 </head>
 
 <body> 
-
-
 
 <div data-role="appview">
 
@@ -295,15 +265,10 @@ Sometimes, CDN links may go down due to network or connection problems. On such 
 
 <input id="startDate" data-role="ejmdatepicker" data-ej-value="01/01/2000" />
 
-
-
 </div>
 
 </body>
 
 </html>
 
-
 {% endhighlight %}
-
-

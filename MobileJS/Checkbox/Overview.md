@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | Checkbox | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: Checkbox (Mobile)

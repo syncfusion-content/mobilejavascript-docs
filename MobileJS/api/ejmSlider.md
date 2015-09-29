@@ -1,38 +1,19 @@
 ---
 layout: post
-title: ejmSlider
+title: ejmSlider | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmSlider, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html slider control.
+# ejmSlider
 
-
-
-
-
-
-
-
-
+Custom Design for Html slider control.
 
 $(element).ejmSlider<span class="signature">()</span>
 
-
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="slider" ></div>
@@ -52,8 +33,7 @@ $("#slider").ejmSlider();
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 
@@ -90,7 +70,7 @@ Requires
 
 
 
-### animationSpeed<span class="type-signature type int">int</span>
+### animationSpeed`int`
 {:#members:animationspeed}
 
 
@@ -105,8 +85,7 @@ Specifies the animation speed when animation is enabled.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -122,8 +101,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -156,7 +134,7 @@ $("#slider").ejmSlider ("option", "animationSpeed", 400);
 
 
 
-### enableAnimation<span class="type-signature type bool">bool</span>
+### enableAnimation`bool`
 {:#members:enableanimation}
 
 
@@ -171,8 +149,7 @@ Specifies whether to enable animation.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -188,8 +165,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -222,7 +198,7 @@ $("#slider").ejmSlider ("option", "enableAnimation", false);
 
 
 
-### enabled<span class="type-signature type bool">bool</span>
+### enabled`bool`
 {:#members:enabled}
 
 
@@ -237,8 +213,7 @@ Specifies whether to enable or disable the control.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -254,8 +229,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -288,7 +262,7 @@ $("#slider").ejmSlider ("option", "enabled", true);
 
 
 
-### enablePersistence<span class="type-signature type bool">bool</span>
+### enablePersistence`bool`
 {:#members:enablepersistence}
 
 
@@ -303,8 +277,7 @@ Specifies to maintain the current model value to browser cookies for state maint
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -320,8 +293,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -354,7 +326,7 @@ $("#slider").ejmSlider ("option", "enablePersistence", false);
 
 
 
-### enableRange<span class="type-signature type bool">bool</span>
+### enableRange`bool`
 {:#members:enablerange}
 
 
@@ -369,8 +341,7 @@ Specifies whether to enable range slider.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -386,8 +357,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -420,7 +390,7 @@ $("#slider").ejmSlider ("option", "enableRange", false);
 
 
 
-### incrementStep<span class="type-signature type int">int</span>
+### incrementStep`int`
 {:#members:incrementstep}
 
 
@@ -435,8 +405,7 @@ Specifies the step value for incrementation.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -452,8 +421,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -508,7 +476,7 @@ Section for ios7 mode specific functionalities.
 
 
 
-### ios7.thumbStyle<span class="type-signature type enum">enum</span>
+### ios7.thumbStyle`enum`
 {:#members:ios7-thumbstyle}
 
 
@@ -523,8 +491,7 @@ Specifies the thumb style in ios7 mode. See <a href="global.html#ThumbStyle">Thu
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -540,8 +507,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -573,7 +539,7 @@ $("#slider").ejmSlider("option", "ios7.thumbStyle", ej.mobile.Slider.ThumbStyle.
 
 
 
-### maxValue<span class="type-signature type int">int</span>
+### maxValue`int`
 {:#members:maxvalue}
 
 
@@ -588,8 +554,7 @@ Specifies the maximum value.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -605,8 +570,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -639,7 +603,7 @@ $("#slider").ejmSlider ("option", "maxValue", 100);
 
 
 
-### minValue<span class="type-signature type int">int</span>
+### minValue`int`
 {:#members:minvalue}
 
 
@@ -654,8 +618,7 @@ Specifies the minimum value.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -671,8 +634,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -705,7 +667,7 @@ $("#slider").ejmSlider ("option", "minValue", 0);
 
 
 
-### orientation<span class="type-signature type enum">enum</span>
+### orientation`enum`
 {:#members:orientation}
 
 
@@ -720,8 +682,7 @@ Specifies whether the orientation is horizontal or vertical. See <a href="global
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -737,8 +698,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -771,7 +731,7 @@ $("#slider").ejmSlider ("option", "orientation", ej.mobile.Slider.Orientation.Ho
 
 
 
-### readOnly<span class="type-signature type bool">bool</span>
+### readOnly`bool`
 {:#members:readonly}
 
 
@@ -786,8 +746,7 @@ Specifies whether the control is read only.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -803,8 +762,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -837,7 +795,7 @@ $("#slider").ejmSlider ("option", "readOnly", false);
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -852,8 +810,7 @@ Specifies the rendering mode of the control. See <a href="global.html#RenderMode
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -869,8 +826,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -904,7 +860,7 @@ $("#slider").ejmSlider ("option", "renderMode", ej.mobile.RenderMode.Android);
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -919,8 +875,7 @@ Specifies the theme. See <a href="global.html#Theme">Theme</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -936,8 +891,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -972,7 +926,7 @@ $("#slider").ejmSlider ("option", "theme", ej.mobile.Theme.Dark);
 
 
 
-### value<span class="type-signature type int">int</span>
+### value`int`
 {:#members:value}
 
 
@@ -987,8 +941,7 @@ Specifies the current value.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1004,8 +957,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1038,7 +990,7 @@ $("#slider").ejmSlider ("option", "value", 0);
 
 
 
-### values<span class="type-signature type int[]">int[]</span>
+### values`int[]`
 {:#members:values}
 
 
@@ -1053,8 +1005,7 @@ Specifies the values when range slider is enabled.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1070,8 +1021,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1128,7 +1078,7 @@ Section for windows mode specific functionalities.
 
 
 
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
 
 
@@ -1143,8 +1093,7 @@ Specifies whether to render control based on the windowsphone's current accent c
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1160,8 +1109,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1200,7 +1148,7 @@ $("#slider").ejmSlider("option", "windows.renderDefault", false);
 
 
 
-### getValue<span class="signature">()</span>
+### getValue`()`
 {:#methods:getvalue}
 
 
@@ -1216,8 +1164,7 @@ To get the current value.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1318,8 +1265,7 @@ Event triggers when the value changed.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1416,8 +1362,7 @@ Event triggers before the control get loaded.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1514,8 +1459,7 @@ Event triggers when touch move happens on the control.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1607,8 +1551,7 @@ Event triggers when touch end happens on the control.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1700,8 +1643,7 @@ Event triggers when touch start happens on the control.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

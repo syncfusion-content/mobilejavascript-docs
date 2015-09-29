@@ -1,28 +1,19 @@
 ---
 layout: post
-title: ejmScrollPanel
+title: ejmScrollPanel | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmScrollPanel, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html Scrollpanel control.
+# ejmScrollPanel
 
-
-
-
+Custom Design for Html Scrollpanel control.
 
 $(element).ejmScrollPanel<span class="signature">()</span>
 
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Create scrollpanel control in unobtrusive way.
@@ -36,8 +27,7 @@ Example
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 * module:jQuery
@@ -62,7 +52,7 @@ Requires
 
 
 
-### adjustFixedPosition<span class="type-signature type boolean">boolean</span>
+### adjustFixedPosition`boolean`
 {:#members:adjustfixedposition}
 
 
@@ -71,8 +61,7 @@ Requires
 Specifies whether need to adjust the scrolling content height for fixed position elements.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -81,8 +70,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -121,7 +109,7 @@ $("#scrollpanel").ejmScrollPanel("option", "adjustFixedPosition", true);
 
 
 
-### autoAdjustHeight<span class="type-signature type boolean">boolean</span>
+### autoAdjustHeight`boolean`
 {:#members:autoadjustheight}
 
 
@@ -130,8 +118,7 @@ $("#scrollpanel").ejmScrollPanel("option", "adjustFixedPosition", true);
 Specifies whether need to calculate the scroll content height.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -140,8 +127,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -180,7 +166,7 @@ $("#scrollpanel").ejmScrollPanel("option", "autoAdjustHeight", true);
 
 
 
-### bounceTime<span class="type-signature type int">int</span>
+### bounceTime`int`
 {:#members:bouncetime}
 
 
@@ -189,8 +175,7 @@ $("#scrollpanel").ejmScrollPanel("option", "autoAdjustHeight", true);
 Specifies the bouncing time when bouncing behavior is enabled.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -199,8 +184,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -239,7 +223,7 @@ $("#scrollpanel").ejmScrollPanel("option", "bounceTime", "500");
 
 
 
-### checkDOMChanges<span class="type-signature type boolean">boolean</span>
+### checkDOMChanges`boolean`
 {:#members:checkdomchanges}
 
 
@@ -248,8 +232,7 @@ $("#scrollpanel").ejmScrollPanel("option", "bounceTime", "500");
 Specifies whether need to refresh scrollpanel when elements are added dynamically.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -258,8 +241,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -298,7 +280,7 @@ $("#scrollpanel").ejmScrollPanel("option", "checkDOMChanges", true);
 
 
 
-### directionLockThreshold<span class="type-signature type int">int</span>
+### directionLockThreshold`int`
 {:#members:directionlockthreshold}
 
 
@@ -307,8 +289,7 @@ $("#scrollpanel").ejmScrollPanel("option", "checkDOMChanges", true);
 Specifies the value for direction lock threshold.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -317,8 +298,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -357,7 +337,7 @@ $("#scrollpanel").ejmScrollPanel("option", "directionLockThreshold ", 12);
 
 
 
-### disableMouse<span class="type-signature type bool">bool</span>
+### disableMouse`bool`
 {:#members:disablemouse}
 
 
@@ -366,8 +346,7 @@ $("#scrollpanel").ejmScrollPanel("option", "directionLockThreshold ", 12);
 Specifies whether to disable mouse.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -376,8 +355,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -416,7 +394,7 @@ $("#scrollpanel").ejmScrollPanel("option", "disableMouse", true);
 
 
 
-### disablePointer<span class="type-signature type bool">bool</span>
+### disablePointer`bool`
 {:#members:disablepointer}
 
 
@@ -425,8 +403,7 @@ $("#scrollpanel").ejmScrollPanel("option", "disableMouse", true);
 Specifies whether to disable pointer.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -435,8 +412,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -475,7 +451,7 @@ $("#scrollpanel").ejmScrollPanel("option", "disablePointer", true);
 
 
 
-### disableTouch<span class="type-signature type bool">bool</span>
+### disableTouch`bool`
 {:#members:disabletouch}
 
 
@@ -484,8 +460,7 @@ $("#scrollpanel").ejmScrollPanel("option", "disablePointer", true);
 Specifies whether to disable touch.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -494,8 +469,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -534,7 +508,7 @@ $("#scrollpanel").ejmScrollPanel("option", "disableTouch", true);
 
 
 
-### enableBounce<span class="type-signature type boolean">boolean</span>
+### enableBounce`boolean`
 {:#members:enablebounce}
 
 
@@ -543,8 +517,7 @@ $("#scrollpanel").ejmScrollPanel("option", "disableTouch", true);
 Specifies whether to enable bouncing behavior.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -555,8 +528,7 @@ Note: For Android platform this property is false
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -595,7 +567,7 @@ $("#scrollpanel").ejmScrollpanel("option", "enableBounce", true);
 
 
 
-### enabled<span class="type-signature type boolean">boolean</span>
+### enabled`boolean`
 {:#members:enabled}
 
 
@@ -604,8 +576,7 @@ $("#scrollpanel").ejmScrollpanel("option", "enableBounce", true);
 Specifies whether to enable or disable the control.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -614,8 +585,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -654,7 +624,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enabled", true);
 
 
 
-### enableFade<span class="type-signature type boolean">boolean</span>
+### enableFade`boolean`
 {:#members:enablefade}
 
 
@@ -663,8 +633,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enabled", true);
 Specifies whether need to fade the scrollbars.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -673,8 +642,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -711,7 +679,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableFade", true);
 
 
 
-### enableHrScroll<span class="type-signature type boolean">boolean</span>
+### enableHrScroll`boolean`
 {:#members:enablehrscroll}
 
 
@@ -720,8 +688,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableFade", true);
 Specifies whether need to enable the horizontal scrolling.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -732,8 +699,7 @@ Note: For windows tablet horizontal scrolling is true
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -772,7 +738,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableHrScroll", true);
 
 
 
-### enableInteraction<span class="type-signature type boolean">boolean</span>
+### enableInteraction`boolean`
 {:#members:enableinteraction}
 
 
@@ -781,8 +747,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableHrScroll", true);
 Specifies whether need to enable the interactive scrollbars.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -791,8 +756,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -831,7 +795,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableInteraction", true);
 
 
 
-### enableKeys<span class="type-signature type boolean">boolean</span>
+### enableKeys`boolean`
 {:#members:enablekeys}
 
 
@@ -840,8 +804,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableInteraction", true);
 Specifies whether to enable keys.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -850,8 +813,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -888,7 +850,7 @@ $("#scrollpanel").ejmScrollpanel("option", "enableKeys", false);
 
 
 
-### enableMouseWheel<span class="type-signature type boolean">boolean</span>
+### enableMouseWheel`boolean`
 {:#members:enablemousewheel}
 
 
@@ -897,8 +859,7 @@ $("#scrollpanel").ejmScrollpanel("option", "enableKeys", false);
 Specifies whether to enable mouse wheel scrolling.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -907,8 +868,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -945,7 +905,7 @@ $("#scrollpanel").ejmScrollPnel("option", "enableMouseWheel", false);
 
 
 
-### enableNativeScrolling<span class="type-signature type boolean">boolean</span>
+### enableNativeScrolling`boolean`
 {:#members:enablenativescrolling}
 
 
@@ -954,8 +914,7 @@ $("#scrollpanel").ejmScrollPnel("option", "enableMouseWheel", false);
 Specifies whether to enable device's native scroll behavior.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -966,8 +925,7 @@ Note: For Windows tablet, this property is true
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -992,7 +950,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableNativeScrolling", true);
 
 
 
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
 
 
@@ -1001,8 +959,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableNativeScrolling", true);
 Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1011,8 +968,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1051,7 +1007,7 @@ $("#scrollpanel").ejmScrollpanel("option", "enablePersistence", true);
 
 
 
-### enableResize<span class="type-signature type boolean">boolean</span>
+### enableResize`boolean`
 {:#members:enableresize}
 
 
@@ -1060,8 +1016,7 @@ $("#scrollpanel").ejmScrollpanel("option", "enablePersistence", true);
 Specifies whether need to resize the scrollbar.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1070,8 +1025,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1110,7 +1064,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableResize", true);
 
 
 
-### enableShrink<span class="type-signature type boolean">boolean</span>
+### enableShrink`boolean`
 {:#members:enableshrink}
 
 
@@ -1119,8 +1073,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableResize", true);
 Specifies whether need to shrink the scrollbars.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1129,8 +1082,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1167,7 +1119,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableShrink", true);
 
 
 
-### enableTransform<span class="type-signature type boolean">boolean</span>
+### enableTransform`boolean`
 {:#members:enabletransform}
 
 
@@ -1176,8 +1128,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableShrink", true);
 Specifies whether to enable transform style for the control.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1186,8 +1137,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1226,7 +1176,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableTransform", false);
 
 
 
-### enableTransition<span class="type-signature type boolean">boolean</span>
+### enableTransition`boolean`
 {:#members:enabletransition}
 
 
@@ -1235,8 +1185,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableTransform", false);
 Specifies whether to enable transition effect for the control.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1245,8 +1194,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1285,7 +1233,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableTransition", false);
 
 
 
-### enableVrScroll<span class="type-signature type boolean">boolean</span>
+### enableVrScroll`boolean`
 {:#members:enablevrscroll}
 
 
@@ -1294,8 +1242,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableTransition", false);
 Specifies whether need to enable the vertical scrolling.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1304,8 +1251,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1344,7 +1290,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableVrScroll", true);
 
 
 
-### enableZoom<span class="type-signature type boolean">boolean</span>
+### enableZoom`boolean`
 {:#members:enablezoom}
 
 
@@ -1353,8 +1299,7 @@ $("#scrollpanel").ejmScrollPanel("option", "enableVrScroll", true);
 Specifies whether to enable zooming.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1363,8 +1308,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1403,7 +1347,7 @@ $("#scrollpanel").ejmScrollpanel("option", "enableZoom", true);
 
 
 
-### invertWheel<span class="type-signature type boolean">boolean</span>
+### invertWheel`boolean`
 {:#members:invertwheel}
 
 
@@ -1412,8 +1356,7 @@ $("#scrollpanel").ejmScrollpanel("option", "enableZoom", true);
 Specifies whether to enable invert wheel.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1422,8 +1365,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1462,7 +1404,7 @@ $("#scrollpanel").ejmScrollpanel("option", "invertWheel", true);
 
 
 
-### isRelative<span class="type-signature type boolean">boolean</span>
+### isRelative`boolean`
 {:#members:isrelative}
 
 
@@ -1471,8 +1413,7 @@ $("#scrollpanel").ejmScrollpanel("option", "invertWheel", true);
 Specifies whether need to style the target element with relative position.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1481,8 +1422,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1521,7 +1461,7 @@ $("#scrollpanel").ejmScrollPanel("option", "isRelative", true);
 
 
 
-### preventDefault<span class="type-signature type bool">bool</span>
+### preventDefault`bool`
 {:#members:preventdefault}
 
 
@@ -1530,8 +1470,7 @@ $("#scrollpanel").ejmScrollPanel("option", "isRelative", true);
 Specifies whether to prevent default events.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1540,8 +1479,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1580,7 +1518,7 @@ $("#scrollpanel").ejmScrollPanel("option", "preventDefault", false);
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -1589,8 +1527,7 @@ $("#scrollpanel").ejmScrollPanel("option", "preventDefault", false);
 Specifies the rendering mode of the control. See <a href="global.html#RenderMode">RenderMode</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1599,8 +1536,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1640,7 +1576,7 @@ $("#scrollpanel").ejmScrollPanel("option", "renderMode", ej.mobile.RenderMode.Au
 
 
 
-### scrollHeight<span class="type-signature type int">int</span>
+### scrollHeight`int`
 {:#members:scrollheight}
 
 
@@ -1649,8 +1585,7 @@ $("#scrollpanel").ejmScrollPanel("option", "renderMode", ej.mobile.RenderMode.Au
 Specifies the scroll height of the content.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1659,8 +1594,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1699,7 +1633,7 @@ $("#scrollpanel").ejmScrollPanel("option", "scrollHeight", "300");
 
 
 
-### scrollWidth<span class="type-signature type int">int</span>
+### scrollWidth`int`
 {:#members:scrollwidth}
 
 
@@ -1708,8 +1642,7 @@ $("#scrollpanel").ejmScrollPanel("option", "scrollHeight", "300");
 Specifies the scroll width of the content.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1718,8 +1651,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1758,7 +1690,7 @@ $("#scrollpanel").ejmScrollPanel("option", "scrollwidth", "200");
 
 
 
-### showScrollbars<span class="type-signature type boolean">boolean</span>
+### showScrollbars`boolean`
 {:#members:showscrollbars}
 
 
@@ -1767,8 +1699,7 @@ $("#scrollpanel").ejmScrollPanel("option", "scrollwidth", "200");
 Specifies whether need to show the scroll bars.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1777,8 +1708,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1817,7 +1747,7 @@ $("#scrollpanel").ejmScrollpanel("option", "showScrollbars", true);
 
 
 
-### startX<span class="type-signature type int">int</span>
+### startX`int`
 {:#members:startx}
 
 
@@ -1826,8 +1756,7 @@ $("#scrollpanel").ejmScrollpanel("option", "showScrollbars", true);
 Specifies the x position on intialize.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1836,8 +1765,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1876,7 +1804,7 @@ $("#scrollpanel").ejmScrollPanel("option", "startX", 0);
 
 
 
-### startY<span class="type-signature type int">int</span>
+### startY`int`
 {:#members:starty}
 
 
@@ -1885,8 +1813,7 @@ $("#scrollpanel").ejmScrollPanel("option", "startX", 0);
 Specifies the y position on intialize.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1895,8 +1822,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1935,7 +1861,7 @@ $("#scrollpanel").ejmScrollPanel("option", "startY", 30);
 
 
 
-### startZoom<span class="type-signature type int">int</span>
+### startZoom`int`
 {:#members:startzoom}
 
 
@@ -1944,8 +1870,7 @@ $("#scrollpanel").ejmScrollPanel("option", "startY", 30);
 Specifies the initial zooming value.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1954,8 +1879,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1994,7 +1918,7 @@ $("#scrollpanel").ejmScrollPanel("option", "startZoom", 2);
 
 
 
-### target<span class="type-signature type string">string</span>
+### target`string`
 {:#members:target}
 
 
@@ -2003,8 +1927,7 @@ $("#scrollpanel").ejmScrollPanel("option", "startZoom", 2);
 Specifies the target element.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2013,8 +1936,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2053,7 +1975,7 @@ $("#scrollpanel").ejmScrollpanel("option", "target", "maincontent");
 
 
 
-### targetHeight<span class="type-signature type int">int</span>
+### targetHeight`int`
 {:#members:targetheight}
 
 
@@ -2062,8 +1984,7 @@ $("#scrollpanel").ejmScrollpanel("option", "target", "maincontent");
 Specifies the target element height.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2072,8 +1993,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2112,7 +2032,7 @@ $("#scrollpanel").ejmScrollpanel("option", "targetHeight", "300");
 
 
 
-### targetWidth<span class="type-signature type int">int</span>
+### targetWidth`int`
 {:#members:targetwidth}
 
 
@@ -2121,8 +2041,7 @@ $("#scrollpanel").ejmScrollpanel("option", "targetHeight", "300");
 Specifies the target element width.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2131,8 +2050,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2171,7 +2089,7 @@ $("#scrollpanel").ejmScrollpanel("option", "targetWidth", "200");
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -2180,8 +2098,7 @@ $("#scrollpanel").ejmScrollpanel("option", "targetWidth", "200");
 Specifies the theme. See <a href="global.html#Theme">Theme</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2190,8 +2107,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2230,7 +2146,7 @@ $("#scrollpanel").ejmScrollPanel("option", "theme", ej.mobile.Theme.Auto);
 
 
 
-### wheelSpeed<span class="type-signature type int">int</span>
+### wheelSpeed`int`
 {:#members:wheelspeed}
 
 
@@ -2239,8 +2155,7 @@ $("#scrollpanel").ejmScrollPanel("option", "theme", ej.mobile.Theme.Auto);
 Specifies the wheel speed.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2249,8 +2164,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2289,7 +2203,7 @@ $("#scrollpanel").ejmScrollPanel("option", "wheelSpeed", 20);
 
 
 
-### zoomMax<span class="type-signature type int">int</span>
+### zoomMax`int`
 {:#members:zoommax}
 
 
@@ -2298,8 +2212,7 @@ $("#scrollpanel").ejmScrollPanel("option", "wheelSpeed", 20);
 Specifies the maximum zoom value.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2308,8 +2221,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2348,7 +2260,7 @@ $("#scrollpanel").ejmScrollPanel("option", "zoomMax", 10);
 
 
 
-### zoomMin<span class="type-signature type int">int</span>
+### zoomMin`int`
 {:#members:zoommin}
 
 
@@ -2357,8 +2269,7 @@ $("#scrollpanel").ejmScrollPanel("option", "zoomMax", 10);
 Specifies the minimum zoom value.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2367,8 +2278,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2411,7 +2321,7 @@ $("#scrollpanel").ejmScrollPanel("option", "zoomMin", 2);
 
 
 
-### disable<span class="signature">()</span>
+### disable`()`
 {:#methods:disable}
 
 
@@ -2421,8 +2331,7 @@ To disable the scrollpanel.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}<div id="maincontent">
@@ -2439,7 +2348,7 @@ $("#scrollpanel").ejmScrollPanel('disable');
 
 
 
-### enable<span class="signature">()</span>
+### enable`()`
 {:#methods:enable}
 
 
@@ -2449,8 +2358,7 @@ To enable the scrollpanel.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}<div id="maincontent">
@@ -2467,7 +2375,7 @@ $("#scrollpanel").ejmScrollPanel('enable');
 
 
 
-### getComputedPosition<span class="signature">()</span>
+### getComputedPosition`()`
 {:#methods:getcomputedposition}
 
 
@@ -2477,8 +2385,7 @@ To get the computed position.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}<div id="maincontent">
@@ -2495,7 +2402,7 @@ $("#scrollpanel").ejmScrollPanel('getComputedPosition');
 
 
 
-### getScrollPosition<span class="signature">()</span>
+### getScrollPosition`()`
 {:#methods:getscrollposition}
 
 
@@ -2505,8 +2412,7 @@ To get the scroll position.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}<div id="maincontent">
@@ -2523,7 +2429,7 @@ $("#scrollpanel").ejmScrollPanel('getScrollPosition');
 
 
 
-### refresh<span class="signature">()</span>
+### refresh`()`
 {:#methods:refresh}
 
 
@@ -2533,8 +2439,7 @@ To refresh the scrollpanel.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}<div id="maincontent">
@@ -2551,7 +2456,7 @@ $("#scrollpanel").ejmScrollPanel('refresh');
 
 
 
-### scrollBy<span class="signature">()</span>
+### scrollBy`()`
 {:#methods:scrollby}
 
 
@@ -2561,8 +2466,7 @@ To make the content scroll with time and easing given.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}<div id="maincontent">
@@ -2583,7 +2487,7 @@ scroll.scrollBy(100,1000,5,10);
 
 
 
-### scrollTo<span class="signature">()</span>
+### scrollTo`()`
 {:#methods:scrollto}
 
 
@@ -2593,8 +2497,7 @@ To make the content scroll to the position given.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}<div id="maincontent">
@@ -2615,7 +2518,7 @@ scroll.scrollTo(10,10);
 
 
 
-### stop<span class="signature">()</span>
+### stop`()`
 {:#methods:stop}
 
 
@@ -2625,8 +2528,7 @@ To stop the scrolling.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}<div id="maincontent">
@@ -2643,7 +2545,7 @@ $("#scrollpanel").ejmScrollPanel('stop');
 
 
 
-### zoom<span class="signature">()</span>
+### zoom`()`
 {:#methods:zoom}
 
 
@@ -2653,8 +2555,7 @@ To zoom the scroll content.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}<div id="maincontent">
@@ -2743,8 +2644,7 @@ Event triggers when scroll move happens on the control.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2845,8 +2745,7 @@ Event triggers when scroll end happens on the control.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2947,8 +2846,7 @@ Event triggers when scroll start happens on the control.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3049,8 +2947,7 @@ Event triggers when zoom end happens on the control.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3151,8 +3048,7 @@ Event triggers when zoom start happens on the control.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

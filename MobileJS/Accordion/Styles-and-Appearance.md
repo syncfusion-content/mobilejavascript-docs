@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance | Accordion | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
 control: Accordion (Mobile)
@@ -19,12 +19,12 @@ _Class names_
 
 <table>
 <tr>
-<td>
-{{ '**Class**' | markdownify }}</td><td>
-{{ '**Description**' | markdownify }} </td></tr>
+<th>
+Class</th><th>
+Description</th></tr>
 <tr>
 <td>
-e-m-acc                                           </td><td>
+e-m-acc</td><td>
  This is the root class of Accordion control.</td></tr>
 <tr>
 <td>

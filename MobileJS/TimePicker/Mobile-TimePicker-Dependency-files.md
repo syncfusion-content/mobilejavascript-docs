@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Mobile-Accordion-dependency-files
+title: Mobile Accordion dependency files | TimePicker | Mobilejs | Syncfusion
 description: mobile accordion dependency files
 platform: Mobilejs
-control: Accordion (Mobile)
+control: TimePicker (Mobile)
 documentation: ug
 ---
 
@@ -67,5 +67,3 @@ It is referred to handle scrollpanel related configuration while rendering the T
 ej.mobile.toolbar.min.js</td><td>
 It is referred to handle toolbar related configuration while rendering the TimePicker.</td></tr>
 </table>
-
-

@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance | Tab | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
-control: Accordion (Mobile)
+control: Tab (Mobile)
 documentation: ug
 ---
 
 # Styles and Appearance
 
 Styles and Appearance of Tab control work based on CSS class. You need a style sheet to apply styles to Tab control that is, ej.mobile.all.min.css.
-
 
 ## Customize styles
 
@@ -106,7 +105,3 @@ This class is applied to content <div> or the Tab item elements when content or 
 e-m-dark                                           </td><td>
 This class is applied to the root Accordion element in dark theme.          </td></tr>
 </table>
-
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Masking
+title: Masking | MaskEdit | Mobilejs | Syncfusion
 description: masking
 platform: Mobilejs
 control: MaskEdit (Mobile)
@@ -19,4 +19,4 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-![D:/Final Doc/mockup/IMG_0521_iphone5s_spacegrey_portrait.png](Masking_images/Masking_img1.png)
+![](Masking_images/Masking_img1.png)

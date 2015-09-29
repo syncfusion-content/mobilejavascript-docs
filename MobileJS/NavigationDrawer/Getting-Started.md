@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | Navigation Drawer | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: Navigation Drawer (Mobile)
@@ -28,35 +28,35 @@ Create an HTML file and paste the following template for mobile layout.
 
 <html>
 
-<head>
+	<head>
 
-    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+	    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
 
-    <title>Navigation Drawer</title>
+	    <title>Navigation Drawer</title>
 
-    <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+	    <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
 
-  <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
 
-<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script> 
+		<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script> 
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-    <div data-role="appview">
+	    <div data-role="appview">
 
-        <!-- Adding Header Control Here -->
+	        <!-- Adding Header Control Here -->
 
-        <!-- Adding Navigation Drawer Control here -->
+	        <!-- Adding Navigation Drawer Control here -->
 
-    </div>
+	    </div>
 
-</body>
+	</body>
 
 </html>
 
@@ -68,11 +68,11 @@ To render the Header control, set “data-role” attribute to “ejmheader” t
 
 {% highlight html %}
 
-   <!-- Adding Header Control Here -->
+<!-- Adding Header Control Here -->
 
-        <div id="header" data-role="ejmheader" data-ej-position="normal" data-ej-title="Navigation Drawer" data-ej-showleftbutton="true" data-ej-leftbuttonimageclass="icon-target">
+<div id="header" data-role="ejmheader" data-ej-position="normal" data-ej-title="Navigation Drawer" data-ej-showleftbutton="true" data-ej-leftbuttonimageclass="icon-target">
 
-        </div>
+</div>
 
 {% endhighlight %}
 
@@ -82,23 +82,23 @@ To add Navigation Drawer control, specify ejmnavigationdrawer as data-role attri
 
 {% highlight html %}
 
-    <!-- Adding Navigation Drawer Control here -->
+<!-- Adding Navigation Drawer Control here -->
 
-        <div data-role="ejmnavigationdrawer" id="navpane" data-ej-enablelistview="true">
+<div data-role="ejmnavigationdrawer" id="navpane" data-ej-enablelistview="true">
 
-            <ul>
+	<ul>
 
-                <li data-ej-text="Home"></li>
+		<li data-ej-text="Home"></li>
 
-                <li data-ej-text="Profile"></li>
+		<li data-ej-text="Profile"></li>
 
-                <li data-ej-text="Photos"></li>
+		<li data-ej-text="Photos"></li>
 
-                <li data-ej-text="Location"></li>
+		<li data-ej-text="Location"></li>
 
-            </ul>
+	</ul>
 
-        </div>
+</div>
 
 {% endhighlight %}
 
@@ -108,23 +108,23 @@ You can display the drawer by clicking target icon. To achieve this, set the tar
 
 {% highlight html %}
 
-        <!-- Adding Navigation Drawer Control here -->
+<!-- Adding Navigation Drawer Control here -->
 
-        <div data-role="ejmnavigationdrawer" id="navpane" data-ej-enablelistview="true" data-ej-targetid="target_leftbutton">
+<div data-role="ejmnavigationdrawer" id="navpane" data-ej-enablelistview="true" data-ej-targetid="target_leftbutton">
 
-            <ul>
+   <ul>
 
-                <li data-ej-text="Home"></li>
+      <li data-ej-text="Home"></li>
 
-                <li data-ej-text="Profile"></li>
+      <li data-ej-text="Profile"></li>
 
-                <li data-ej-text="Photos"></li>
+      <li data-ej-text="Photos"></li>
 
-                <li data-ej-text="Location"></li>
+      <li data-ej-text="Location"></li>
 
-            </ul>
+   </ul>
 
-        </div>
+</div>
 
 {% endhighlight %}
 
@@ -133,31 +133,27 @@ To set the target icon image from sprite and to position the target icon properl
 
 {% highlight css %}
 
-            [class*="icon-"] {
+[class*="icon-"] {
 
-                background-image: url("http://js.syncfusion.com/ug/mobile/content/drawer/sprite.png");
+	background-image: url("http://js.syncfusion.com/ug/mobile/content/drawer/sprite.png");
 
-            }
+}
 
+#content .e-m-list-container {
 
+	padding: 20px;
 
-            #content .e-m-list-container {
+	background: transparent;
 
-                padding: 20px;
+}
 
-                background: transparent;
+.e-m-btnwrapper.e-m-btn-image .e-m-btn-tag.icon-target {
 
-            }
+	background-position: -4px -345px;
 
+	background-size: auto auto;
 
-
-            .e-m-btnwrapper.e-m-btn-image .e-m-btn-tag.icon-target {
-
-                background-position: -4px -345px;
-
-                background-size: auto auto;
-
-            }
+}
 
 {% endhighlight %}
 
@@ -171,31 +167,29 @@ You can display the drawer by either clicking on the target icon or else by swip
 
 ![](Getting-Started_images/Getting-Started_img3.png)
 
-
-
 ### Add images for Navigation Drawer
 
 You can set the images for Navigation Drawer by using data-ej-imageclass attribute in the inner list elements.
 
 {% highlight html %}
 
-   <!-- Adding Navigation Drawer Control here -->
+<!-- Adding Navigation Drawer Control here -->
 
-        <div data-role="ejmnavigationdrawer" id="navpane" data-ej-enablelistview="true" data-ej-targetid="header_leftbutton">
+<div data-role="ejmnavigationdrawer" id="navpane" data-ej-enablelistview="true" data-ej-targetid="header_leftbutton">
 
-            <ul>
+   <ul>
 
-                <li data-ej-imageclass="icon-home" data-ej-text="Home"></li>
+      <li data-ej-imageclass="icon-home" data-ej-text="Home"></li>
 
-                <li data-ej-imageclass="icon-profile" data-ej-text="Profile"></li>
+      <li data-ej-imageclass="icon-profile" data-ej-text="Profile"></li>
 
-                <li data-ej-imageclass="icon-photo" data-ej-text="Photos"></li>
+      <li data-ej-imageclass="icon-photo" data-ej-text="Photos"></li>
 
-                <li data-ej-imageclass="icon-locations" data-ej-text="Location"></li>
+      <li data-ej-imageclass="icon-locations" data-ej-text="Location"></li>
 
-            </ul>
+   </ul>
 
-        </div>
+</div>
 
 {% endhighlight %}
 
@@ -203,57 +197,53 @@ You can define the image classes specified for the list items as follows.
 
 {% highlight css %}
 
-        #navpane [class*="icon-"]
+#navpane [class*="icon-"]
 
-        {
+{
 
-            width: 35px;
+	width: 35px;
 
-            height: 35px;
+	height: 35px;
 
-        }
+}
 
-        .icon-home
+.icon-home
 
-        {
+{
 
-            background-position: 0 0;
+	background-position: 0 0;
 
-        }
+}
 
-        .icon-profile
+.icon-profile
 
-        {
+{
 
-            background-position: 0 -253px;
+	background-position: 0 -253px;
 
-        }
+}
 
-        .icon-photo
+.icon-photo
 
-        {
+{
 
-            background-position: 0 -168px;
+	background-position: 0 -168px;
 
-        }
+}
 
-        .icon-locations
+.icon-locations
 
-        {
+{
 
-            background-position: 0 -85px;
+	background-position: 0 -85px;
 
-        }    
+}    
 
 {% endhighlight %}
-
-
 
 Run the above code to render the following output. 
 
 ![](Getting-Started_images/Getting-Started_img4.png)
-
-
 
 ### Load appropriate content while selection
 
@@ -263,23 +253,23 @@ Refer to the following code examples.
 
 {% highlight html %}
 
-   <!-- Adding Navigation Drawer Control here -->
+<!-- Adding Navigation Drawer Control here -->
 
-        <div data-role="ejmnavigationdrawer" id="navpane" data-ej-enablelistview="true" data-ej-listviewsettings persistselection="true" data-ej-targetid="header_leftbutton" data-ej-contentid="content">
+<div data-role="ejmnavigationdrawer" id="navpane" data-ej-enablelistview="true" data-ej-listviewsettings persistselection="true" data-ej-targetid="header_leftbutton" data-ej-contentid="content">
 
-            <ul>
+	<ul>
 
-                <li data-ej-imageclass="icon-home" data-ej-text="Home"></li>
+		<li data-ej-imageclass="icon-home" data-ej-text="Home"></li>
 
-                <li data-ej-imageclass="icon-profile" data-ej-text="Profile"></li>
+		<li data-ej-imageclass="icon-profile" data-ej-text="Profile"></li>
 
-                <li data-ej-imageclass="icon-photo" data-ej-text="Photos"></li>
+		<li data-ej-imageclass="icon-photo" data-ej-text="Photos"></li>
 
-                <li data-ej-imageclass="icon-locations" data-ej-text="Location"></li>
+		<li data-ej-imageclass="icon-locations" data-ej-text="Location"></li>
 
-            </ul>
+	</ul>
 
-        </div>
+</div>
 
 {% endhighlight %}
 
@@ -332,21 +322,16 @@ Add the following code example to display the first listitem content while rende
 
 {% highlight js %}
 
-        $(function () {
+$(function () {
 
-            var instance = ej.getCurrentPage().find("#navpane_listview").ejmListView("instance");
+	var instance = ej.getCurrentPage().find("#navpane_listview").ejmListView("instance");
 
-            instance.selectItem(0);
+	instance.selectItem(0);
 
-        });
+});
 
 {% endhighlight %}
-
-
 
 Run the above code to render the following output.
 
 ![](Getting-Started_images/Getting-Started_img5.png)
-
-
-

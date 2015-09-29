@@ -1,30 +1,23 @@
 ---
 layout: post
-title: ejmRadialMenu
+title: ejmRadialMenu | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmRadialMenu, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html radialmenu control.
+# ejmRadialMenu
 
-
-
-
+Custom Design for Html radialmenu control.
 
 $(element).ejmRadialMenu<span class="signature">()</span>
 
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
+
 //Create radialmenu in unobtrusive way
 <div >
 <br />
@@ -78,8 +71,7 @@ data-ej-windows-text="browser"></li>
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 * module:jQuery
@@ -102,7 +94,7 @@ Requires
 
 
 
-### backImageClass<span class="type-signature type string">string</span>
+### backImageClass`string`
 {:#members:backimageclass}
 
 
@@ -111,8 +103,7 @@ Requires
 Renders the back button Image for Radial using class.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -121,8 +112,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -191,7 +181,7 @@ $("#defaultradialmenu").ejmRadialMenu ("option", "backImageClass", "e-m-backimag
 
 
 
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
 
 
@@ -200,8 +190,7 @@ $("#defaultradialmenu").ejmRadialMenu ("option", "backImageClass", "e-m-backimag
 Sets the root class for RadialMenu theme. This cssClass API helps to use custom skinning option for RadialMenu control. By defining the root class using this API, we need to include this root class in CSS.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -210,8 +199,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -280,7 +268,7 @@ $("#radialmenu").ejmRadialMenu ("option", "cssClass", "customclass");
 
 
 
-### enableAnimation<span class="type-signature type boolean">boolean</span>
+### enableAnimation`boolean`
 {:#members:enableanimation}
 
 
@@ -289,8 +277,7 @@ $("#radialmenu").ejmRadialMenu ("option", "cssClass", "customclass");
 To enable Animation for Radial Menu.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -299,8 +286,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -369,7 +355,7 @@ $("#radialmenu").ejmRadialMenu ("option", "enableAnimation", true);
 
 
 
-### imageClass<span class="type-signature type string">string</span>
+### imageClass`string`
 {:#members:imageclass}
 
 
@@ -378,8 +364,7 @@ $("#radialmenu").ejmRadialMenu ("option", "enableAnimation", true);
 Renders the image for Radial using Class.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -388,8 +373,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -458,7 +442,7 @@ $("#radialmenu").ejmRadialMenu ("option", "imageClass", "e-m-radialimage");
 
 
 
-### position<span class="type-signature type enum">enum</span>
+### position`enum`
 {:#members:position}
 
 
@@ -467,8 +451,7 @@ $("#radialmenu").ejmRadialMenu ("option", "imageClass", "e-m-radialimage");
 Changes the Position of the control.See <a href="global.html#Position">Position</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -477,8 +460,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -547,7 +529,7 @@ $("#defaultradialmenu").ejmRadialMenu ("option", "position", "rightcenter");
 
 
 
-### radius<span class="type-signature type int">int</span>
+### radius`int`
 {:#members:radius}
 
 
@@ -556,8 +538,7 @@ $("#defaultradialmenu").ejmRadialMenu ("option", "position", "rightcenter");
 Specifies the radius of the radialmenu control.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -566,8 +547,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -636,7 +616,7 @@ $("#defaultradialmenu").ejmRadialMenu ("option", "radius", 150);
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -645,8 +625,7 @@ $("#defaultradialmenu").ejmRadialMenu ("option", "radius", 150);
 Changes the rendering mode. See <a href="global.html#RenderMode">RenderMode</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -655,8 +634,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -725,7 +703,7 @@ $("#defaultradialmenu").ejmRadialMenu ("option", "renderMode", ej.mobile.RenderM
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -734,8 +712,7 @@ $("#defaultradialmenu").ejmRadialMenu ("option", "renderMode", ej.mobile.RenderM
 Specifies the theme. See <a href="global.html#Theme">Theme</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -744,8 +721,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -827,7 +803,7 @@ Section for windows rendermode specific functionalities.
 
 
 
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
 
 
@@ -836,8 +812,7 @@ Section for windows rendermode specific functionalities.
 Specifies whether to render the Radial Menu based on the windowsphone's current accent color and device theme.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -846,8 +821,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -920,7 +894,7 @@ $("#defaultradialmenu").ejmRadialMenu ("option", "windows.renderDefault", true);
 
 
 
-### hide<span class="signature">()</span>
+### hide`()`
 {:#methods:hide}
 
 
@@ -930,8 +904,7 @@ To hide the redialmenu
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -965,7 +938,7 @@ $("#defaultradialmenu").ejmRadialMenu ("hide");
 
 
 
-### menuHide<span class="signature">()</span>
+### menuHide`()`
 {:#methods:menuhide}
 
 
@@ -975,8 +948,7 @@ To hide the redialmenu items
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1010,7 +982,7 @@ $("#defaultradialmenu").ejmRadialMenu ("menuHide");
 
 
 
-### show<span class="signature">()</span>
+### show`()`
 {:#methods:show}
 
 
@@ -1020,8 +992,7 @@ To Show the redialmenu
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1122,8 +1093,7 @@ Event triggers when we select an item.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1249,8 +1219,7 @@ Event triggers when the touch end happens.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1376,8 +1345,7 @@ Event triggers when the touch start happens.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1436,6 +1404,3 @@ $("#defaultradialmenu").ejmRadialMenu({
 }
 });         
 </script>{% endhighlight %}
-
-
-

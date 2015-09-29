@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mobile-button-dependencies-files
+title: mobile button dependencies files | Button | Mobilejs | Syncfusion
 description: mobile button dependencies files
 platform: Mobilejs
 control: Button (Mobile)
@@ -15,9 +15,9 @@ _List of Script Files_
 
 <table>
 <tr>
-<td>
-<b>File</b></td><td>
-<b>Description/Usage</b></td></tr>
+<th>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

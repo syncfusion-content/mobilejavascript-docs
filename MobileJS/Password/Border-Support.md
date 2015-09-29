@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Border-Support
+title: Border Support | Password | Mobilejs | Syncfusion
 description: border support
 platform: Mobilejs
 control: Password (Mobile)
@@ -15,9 +15,6 @@ Refer to the following code example.
 
 {% highlight html %}
 
-    <input id="password_sample" data-role="ejmpassword" data-ej-watermarktext="Password"   data-ej-showborder="false">
+<input id="password_sample" data-role="ejmpassword" data-ej-watermarktext="Password"   data-ej-showborder="false">
 
 {% endhighlight %}
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dependency-files
+title: Dependency files | Navigation Drawer | Mobilejs | Syncfusion
 description: dependency files
 platform: Mobilejs
 control: Navigation Drawer (Mobile)
@@ -55,5 +55,3 @@ It is referred to handle scroll panel related configuration while rendering Navi
 ej.mobile.navigationdrawer.min.js</td><td>
 It is referred to handle all the properties, events, and methods of Navigation drawer.</td></tr>
 </table>
-
-

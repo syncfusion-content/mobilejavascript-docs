@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enabled
+title: Enabled | Checkbox | Mobilejs | Syncfusion
 description: enabled
 platform: Mobilejs
 control: Checkbox (Mobile)
@@ -15,72 +15,60 @@ Refer to the following code example.
 
 {% highlight html %}
 
+<div data-role="ejmheader" data-ej-title="CheckBox">
 
+</div>
 
-    <div data-role="ejmheader" data-ej-title="CheckBox"></div>
+<div align="center" style="padding-top:100px">
 
-    <div align="center" style="padding-top:100px">
+   <div>
 
-        <div>
+     <b> Favorite Mobile</b>
 
-            <b> Favorite Mobile</b>
+   </div>
 
-        </div>
+   <br />
 
-        <br />
+   <table border="0" cellpadding="6">
 
-        <table border="0" cellpadding="6">
+      <tr>
 
-            <tr>
+          <td width="100px">
 
-                <td width="100px">
+              <input id="apple" name="chkbox" data-role="ejmcheckbox" data-ej-text="Apple" data-ej-enabled="false" />
 
-                    <input id="apple" name="chkbox" data-role="ejmcheckbox" data-ej-text="Apple" data-ej-enabled="false" />
+          </td>
 
-                </td>
+          <td width="100px">
 
+              <input id="android" name="chkbox" data-role="ejmcheckbox" data-ej-text="Android" data-ej-enabled="false" />
 
+         </td>
 
-                <td width="100px">
+      </tr>
 
-                    <input id="android" name="chkbox" data-role="ejmcheckbox" data-ej-text="Android" data-ej-enabled="false" />
+      <tr>
 
-                </td>
+         <td width="100px">
 
-            </tr>
+             <input id="windows" name="chkbox" data-role="ejmcheckbox" data-ej-text="Windows" />
 
-            <tr>
+         </td>
 
-                <td width="100px">
+         <td width="100px">
 
-                    <input id="windows" name="chkbox" data-role="ejmcheckbox" data-ej-text="Windows" />
+             <input id="Bberry" name="chkbox" data-role="ejmcheckbox" data-ej-text="BlackBerry" />
 
-                </td>
+         </td>
 
+	  </tr>
 
+  </table>
 
-                <td width="100px">
-
-                    <input id="Bberry" name="chkbox" data-role="ejmcheckbox" data-ej-text="BlackBerry" />
-
-                </td>
-
-            </tr>
-
-        </table>
-
-    </div>
-
-
-
-
+</div>
 
 {% endhighlight %}
 
 Execute the above code example to render the following output.
 
 ![](Enabled_images/Enabled_img1.png)
-
-
-
-

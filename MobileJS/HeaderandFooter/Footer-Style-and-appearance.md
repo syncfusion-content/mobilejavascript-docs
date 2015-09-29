@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Footer-Style-and-appearance
+title: Footer Style and appearance | Header and Footer | Mobilejs | Syncfusion
 description: footer-style-and-appearance
 platform: Mobilejs
 control: Header and Footer (Mobile)
@@ -19,5 +19,3 @@ To change the color or design of the Footer control’s appearance, you can ov
 * e-m-footer-title- This class is applied to display the title for the Footer.
 * e-m-footer-right- This class is applied to display the content in the right side of the Footer.
 * e-m-footer-left- This class is applied to display the content in the left side of the Footer.
-
-

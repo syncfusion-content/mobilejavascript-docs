@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data-Binding
+title: Data Binding | ListView | Mobilejs | Syncfusion
 description: data binding
 platform: Mobilejs
 control: ListView (Mobile)
@@ -15,81 +15,65 @@ Essential Studio mobile JS ListView provides support for Data Binding. data-ej-d
 
 {% highlight html %}
 
+<div data-role="ejmListBox" id="localListView" data-ej-databinding="true" data-ej-datasource="window.dbitem" data-ej-showheader="true" data-ej-headertitle="Default" data-ej-showheaderbackbutton="true">
 
-
-    <div data-role="ejmListBox" id="localListView" data-ej-databinding="true" data-ej-datasource="window.dbitem" data-ej-showheader="true" data-ej-headertitle="Default" data-ej-showheaderbackbutton="true">
-
-    </div>
-
-
-
-
+</div>
 
 {% endhighlight %}
-
-
 
 To include datasource, add the following script.
 
 {% highlight js %}
 
+window.dbitem =
 
+[
 
-        window.dbitem =
+	 { "text": "Hot Singles" },
 
-            [
+	 { "text": "Rising Artists" },
 
-                 { "text": "Hot Singles" },
+	 { "text": "Live Music" },
 
-                 { "text": "Rising Artists" },
+	 { "text": "Best of 2013 So Far" },
 
-                 { "text": "Live Music" },
+	 { "text": "100 Albums - $5 Each" },
 
-                 { "text": "Best of 2013 So Far" },
+	 { "text": "Hip-Hop and R&B Sale" },
 
-                 { "text": "100 Albums - $5 Each" },
+	 { "text": "CD Deals" },
 
-                 { "text": "Hip-Hop and R&B Sale" },
+	 { "text": "Songs" },
 
-                 { "text": "CD Deals" },
+	 { "text": "Bestselling Albums" },
 
-                 { "text": "Songs" },
+	 { "text": "New Releases" },
 
-                 { "text": "Bestselling Albums" },
+	 { "text": "Bestselling Songs" },
 
-                 { "text": "New Releases" },
+	 { "text": "Rock" },
 
-                 { "text": "Bestselling Songs" },
+	 { "text": "Gospel" },
 
-                 { "text": "Rock" },
+	 { "text": "Latin Music" },
 
-                 { "text": "Gospel" },
+	 { "text": "Jazz" },
 
-                 { "text": "Latin Music" },
+	 { "text": "Music Trade-In" },
 
-                 { "text": "Jazz" },
+	 { "text": "Redeem a Gift Card" },
 
-                 { "text": "Music Trade-In" },
+	 { "text": "Band T-Shirts" },
 
-                 { "text": "Redeem a Gift Card" },
+	 { "text": "Mobile MVC"}
 
-                 { "text": "Band T-Shirts" },
-
-                 { "text": "Mobile MVC"}];
-
-
-
-
+];
 
 {% endhighlight %}
 
-
-
 The following screenshot displays the Local Data Binding:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_11.png](Data-Binding_images/Data-Binding_img1.png)
-
-
+![](Data-Binding_images/Data-Binding_img1.png)
 
 ## Remote Data Binding
 
@@ -97,49 +81,31 @@ In Remote Data Binding, the data is retrieved from a particular URL unlike the l
 
 {% highlight html %}
 
-
-
 <div id="lb" data-role="ejmListView" data-ej-showheader="true" data-ej-headertitle="Data Binding Remote" data-ej-showheaderbackbutton="true" data-ej-databinding="true" data-ej-fieldsettings="window.dbitem" data-ej-datasource="window.datasource" data-ej-query="ej.Query().from('Orders').select('ShipCity').take(5)">
 
 </div>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 To include datasource, add the following script.
 
 {% highlight js %}
 
+// DataManager creation.
 
+window.datasource = ej.DataManager({
 
-        // DataManager creation.
+	url: "http://mvc.syncfusion.com/Services/Northwnd.svc/"
 
-        window.datasource = ej.DataManager({
+});
 
-            url: "http://mvc.syncfusion.com/Services/Northwnd.svc/"
-
-        });
-
-        window.dbitem = { "text": "ShipCity" };
-
-
-
-
+window.dbitem = { "text": "ShipCity" };
 
 {% endhighlight %}
 
-
-
 The following screenshot displays the remote Data Binding:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_17.png](Data-Binding_images/Data-Binding_img2.png)
-
-
+![](Data-Binding_images/Data-Binding_img2.png)
 
 ## FieldSettings
 
@@ -160,117 +126,92 @@ Attributes</td><td>
 In DB, you can define the desired class name or styles for the list item through ‘Attributes’ field.</td></tr>
 </table>
 
-
 {% highlight html %}
 
+<div data-role="ejmListView" id="localListBox" data-ej-databinding="true" data-ej-datasource="window.dbitem" data-ej-fieldsettings="window.musicFields" data-ej-showheader="true" data-ej-headertitle="Music World">
 
-
-    <div data-role="ejmListView" id="localListBox" data-ej-databinding="true" data-ej-datasource="window.dbitem" data-ej-fieldsettings="window.musicFields" data-ej-showheader="true" data-ej-headertitle="Music World">
-
-    </div>
-
-
-
-
+</div>
 
 {% endhighlight %}
-
-
 
 To include datasource, add the following script.
 
 {% highlight js %}
 
+window.dbitem =
 
+	[{ "Texts": "Discover Music", "PrimaryKeys": "1", "Title": "Discover Music","BackIconText":"back" },
 
-        window.dbitem =
+		 { "Texts": "Hot Singles", "ParentPrimaryKeyss": "1" },
 
-            [{ "Texts": "Discover Music", "PrimaryKeys": "1", "Title": "Discover Music","BackIconText":"back" },
+		 { "Texts": "Rising Artists", "PrimaryKeyss": null, "ParentPrimaryKeyss": "1" },
 
-                 { "Texts": "Hot Singles", "ParentPrimaryKeyss": "1" },
+		 { "Texts": "Live Music", "ParentPrimaryKeyss": "1" },
 
-                 { "Texts": "Rising Artists", "PrimaryKeyss": null, "ParentPrimaryKeyss": "1" },
+		 { "Texts": "Best of 2013 So Far", "ParentPrimaryKeyss": "1" },
 
-                 { "Texts": "Live Music", "ParentPrimaryKeyss": "1" },
+	{ "Texts": "Sales and Events", "PrimaryKeys": "2", "Title": "Sales and Events", "BackIconText": "back" },
 
-                 { "Texts": "Best of 2013 So Far", "ParentPrimaryKeyss": "1" },
+		 { "Texts": "100 Albums - $5 Each", "ParentPrimaryKeyss": "2" },
 
-            { "Texts": "Sales and Events", "PrimaryKeys": "2", "Title": "Sales and Events", "BackIconText": "back" },
+		 { "Texts": "Hip-Hop and R&B Sale", "ParentPrimaryKeyss": "2" },
 
-                 { "Texts": "100 Albums - $5 Each", "ParentPrimaryKeyss": "2" },
+		 { "Texts": "CD Deals", "ParentPrimaryKeyss": "2" },
 
-                 { "Texts": "Hip-Hop and R&B Sale", "ParentPrimaryKeyss": "2" },
+	{ "Texts": "Categories", "PrimaryKeys": "3", "Title": "Categories", "BackIconText": "back" },
 
-                 { "Texts": "CD Deals", "ParentPrimaryKeyss": "2" },
+		 { "Texts": "Songs", "ParentPrimaryKeyss": "3" },
 
-            { "Texts": "Categories", "PrimaryKeys": "3", "Title": "Categories", "BackIconText": "back" },
+		 { "Texts": "Bestselling Albums", "ParentPrimaryKeyss": "3" },
 
-                 { "Texts": "Songs", "ParentPrimaryKeyss": "3" },
+		 { "Texts": "New Releases", "ParentPrimaryKeyss": "3" },
 
-                 { "Texts": "Bestselling Albums", "ParentPrimaryKeyss": "3" },
+		 { "Texts": "Bestselling Songs", "ParentPrimaryKeyss": "3" },
 
-                 { "Texts": "New Releases", "ParentPrimaryKeyss": "3" },
+	{ "Texts": "MP3 Albums", "PrimaryKeys": "4", "Title": "MP3 Albums", "BackIconText": "back" },
 
-                 { "Texts": "Bestselling Songs", "ParentPrimaryKeyss": "3" },
+		 { "Texts": "Rock", "ParentPrimaryKeyss": "4" },
 
-            { "Texts": "MP3 Albums", "PrimaryKeys": "4", "Title": "MP3 Albums", "BackIconText": "back" },
+		 { "Texts": "Gospel", "ParentPrimaryKeyss": "4" },
 
-                 { "Texts": "Rock", "ParentPrimaryKeyss": "4" },
+		 { "Texts": "Latin Music", "ParentPrimaryKeyss": "4" },
 
-                 { "Texts": "Gospel", "ParentPrimaryKeyss": "4" },
+		 { "Texts": "Jazz", "ParentPrimaryKeyss": "4" },
 
-                 { "Texts": "Latin Music", "ParentPrimaryKeyss": "4" },
+	{ "Texts": "More in Music", "PrimaryKeys": "5", "Title": "More in Music", "BackIconText": "back" },
 
-                 { "Texts": "Jazz", "ParentPrimaryKeyss": "4" },
+		 { "Texts": "Music Trade-In", "ParentPrimaryKeyss": "5" },
 
-            { "Texts": "More in Music", "PrimaryKeys": "5", "Title": "More in Music", "BackIconText": "back" },
+		 { "Texts": "Redeem a Gift Card", "ParentPrimaryKeyss": "5" },
 
-                 { "Texts": "Music Trade-In", "ParentPrimaryKeyss": "5" },
+		 { "Texts": "Band T-Shirts", "ParentPrimaryKeyss": "5" },
 
-                 { "Texts": "Redeem a Gift Card", "ParentPrimaryKeyss": "5" },
+		 { "Texts": "Mobile MVC", "ParentPrimaryKeyss": "5"}];
 
-                 { "Texts": "Band T-Shirts", "ParentPrimaryKeyss": "5" },
+window.musicFields = {
 
-                 { "Texts": "Mobile MVC", "ParentPrimaryKeyss": "5"}];
+	"text": "Texts",
 
-        window.musicFields = {
+	"primaryKey": "PrimaryKeys",
 
-            "text": "Texts",
+	"parentPrimaryKey": "ParentPrimaryKeyss",
 
-            "primaryKey": "PrimaryKeys",
+	"childHeaderTitle": "Title",
 
-            "parentPrimaryKey": "ParentPrimaryKeyss",
+	"childHeaderBackButtonText":"BackIconText"
 
-            "childHeaderTitle": "Title",
-
-            "childHeaderBackButtonText":"BackIconText"
-
-        };
-
-
-
-
+};
 
 {% endhighlight %}
 
-
-
 The following screenshots display the Field Settings:
 
-![Field Setting z](Data-Binding_images/Data-Binding_img3.png)
+![](Data-Binding_images/Data-Binding_img3.png)
 
+After navigation
+{:.caption}
 
-
-
-
-_After navigation_
-
-![Field Setting (2) z](Data-Binding_images/Data-Binding_img4.png)
-
-
-
-
-
+![](Data-Binding_images/Data-Binding_img4.png)
 
 ## Query
 
@@ -278,15 +219,9 @@ This feature in the ListView is used to fetch data from the DataSource before li
 
 {% highlight html %}
 
+<div id="lb" data-role="ejmListView" data-ej-databinding="true" data-ej-fieldsettings="window.dbitem" data-ej-datasource="window.datasource" data-ej-query="ej.Query().from('Orders').select('ShipCity').take(5)">
 
-
-    <div id="lb" data-role="ejmListView" data-ej-databinding="true" data-ej-fieldsettings="window.dbitem" data-ej-datasource="window.datasource" data-ej-query="ej.Query().from('Orders').select('ShipCity').take(5)">
-
-    </div>
-
-
-
-
+</div>
 
 {% endhighlight %}
 
@@ -294,23 +229,14 @@ To include datasource, add the following script.
 
 {% highlight js %}
 
+// DataManager creation.
 
+window.datasource = ej.DataManager({
 
-        // DataManager creation.
+	url: "http://mvc.syncfusion.com/Services/Northwnd.svc/"
 
-        window.datasource = ej.DataManager({
+});
 
-            url: "http://mvc.syncfusion.com/Services/Northwnd.svc/"
-
-        });
-
-        window.dbitem = { "text": "ShipCity" };
-
-
-
-
+window.dbitem = { "text": "ShipCity" };
 
 {% endhighlight %}
-
-
-

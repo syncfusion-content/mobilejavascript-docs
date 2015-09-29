@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows-Specific-Customization
+title: Windows Specific Customization | Menu | Mobilejs | Syncfusion
 description: windows specific customization
 platform: Mobilejs
 control: Menu (Mobile)
@@ -23,39 +23,28 @@ The possible values are,
 
 {% highlight html %}
 
-        <div style="text-align: center;">
+<div style="text-align: center;">
 
-            <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" data-ej-rendermode="windows" />
+	<input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" data-ej-rendermode="windows" />
 
-        </div>
+</div>
 
-        <div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem" data-ej-rendermode="windows" data-ej-windows-type="contextual">
+<div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem" data-ej-rendermode="windows" data-ej-windows-type="contextual">
 
-            <ul>
+	<ul>
 
-                <li data-ej-text="Get info"></li>
+		<li data-ej-text="Get info"></li>
 
-                <li data-ej-text="Show in folder"></li>
+		<li data-ej-text="Show in folder"></li>
 
-                <li data-ej-text="Delete"></li>
+		<li data-ej-text="Delete"></li>
 
-            </ul>
+	</ul>
 
-        </div>
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays the Windows-specific Type:
 
-![Type-Windows](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)
-
-
-
-
-
-
-
-
-
-
-
+![](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)

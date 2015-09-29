@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | Toggle Button | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: Toggle Button (Mobile)

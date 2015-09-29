@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | Dialog | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: Dialog (Mobile)
@@ -84,7 +84,7 @@ You can render the Dialog control based on the default values for all the proper
    </body>
    </html>
    ~~~
-   {:.prettyprint}
+   
 
 2. Add content element using the following styles. 
 
@@ -115,7 +115,7 @@ You can render the Dialog control based on the default values for all the proper
    padding: 3px;
    }
    ~~~
-   {:.prettyprint}
+   
 
 3. Run the code to render the following output. 
 

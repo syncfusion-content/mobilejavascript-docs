@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | DatePicker | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: DatePicker (Mobile)
@@ -26,76 +26,104 @@ You can create DatePicker widget easily by using simple input element.
 1. Create an HTML file and add the following code example to it.
 
    ~~~ html
-   <!DOCTYPE html>
-   <html>
-   <head>
-   <title>Ticket Booking</title>
-   <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
-   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
-   <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
-   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.js)"></script>
-   <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
-   </head>
-   <body>
-   <div data-role="appview">
-   <div id="header" data-ej-position="normal" data-role="ejmheader"></div>
-   <!--Add Datepicker element here-->
-   </div>
-   </body>
-   </html>
-   ~~~
-   {:.prettyprint}
+   
+	   <!DOCTYPE html>
+	   
+	   <html>
+	   
+		   <head>
+		   
+			   <title>Ticket Booking</title>
+			  			   
+			   <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+			   
+			   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
+			   
+			   <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+			   
+			   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.js)"></script>
+			   
+			   <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+		   </head>
+		   
+		   <body>
+		   
+			   <div data-role="appview">
+			   
+				   
+				   <div id="header" data-ej-position="normal" data-role="ejmheader"></div>
+				  
+				   <!--Add Datepicker element here-->
+			   
+			   </div>
+		   
+		   </body>
+		   
+	   </html>
+	   
+   ~~~ 
 
 2. To set the header’s title in the layout, you can set data-ej-title attribute to the desired title. In this case you can set it as Ticket Booking.
 
    ~~~ html
-   <div id="header" data-ej-title="Ticket Booking"  data-ej-position="normal" data-role="ejmheader"></div>
-   ~~~
-   {:.prettyprint}
+   
+		<div id="header" data-ej-title="Ticket Booking"  data-ej-position="normal" data-role="ejmheader"></div>
+   
+   ~~~  
 
 3. To render the DatePicker control, you can set ejmdatepicker to data-role attribute for the specific input element as follows.
 
    ~~~ html
-   <table>
-   <tr>
-   <td class="tdclass">Onward Date</td>
-   </tr>
-   <tr>
-   <td class="tdclass">
-   <span class="innerdp">
-   <input id="startDate" data-role="ejmdatepicker" />
-   </span>
-   </td>
-   </tr>
-   <tr>
-   <td class="tdclass">Return date</td>
-   </tr>
-   <tr>
-   <td class="tdclass">
-   <span class="innerdp">
-   <input id="endDate" data-role="ejmdatepicker" />
-   </span>
-   </td>
-   </tr>
-   </table>
+   
+	   <table>
+	   
+		   <tr>
+		   		<td class="tdclass">Onward Date</td>
+		   </tr>
+		  
+		   <tr>
+		   		<td class="tdclass">
+		   			<span class="innerdp">
+						<input id="startDate" data-role="ejmdatepicker" />
+		   			</span>
+		   		</td>
+		   </tr>
+		  
+		   <tr>
+				<td class="tdclass">Return date</td>
+		   </tr>
+		  
+		   <tr>
+				<td class="tdclass">
+					<span class="innerdp">
+						<input id="endDate" data-role="ejmdatepicker" />
+					</span>
+				</td>
+		   </tr>
+		 
+	   </table>
+	 
    ~~~
-   {:.prettyprint}
+   
 
 4. Add the following styles to display DatePicker’s input element.
 
-   ~~~ cs
-   .tdclass
-   {
-   width: 300px;
-   font-weight: bold;
-   padding-bottom: 10px;
-   }
-   table
-   {
-   margin: 30px auto;
-   }
+   ~~~ css
+   
+	   .tdclass
+	   {
+		   width: 300px;
+		   font-weight: bold;
+		   padding-bottom: 10px;
+	   }
+	   
+	   table
+	   {
+		   margin: 30px auto;
+	   }
+	   
    ~~~
-   {:.prettyprint}
+   
 
 
 5. Run the above code example, to render the DatePicker.
@@ -111,45 +139,35 @@ The following script helps you to set the mindate and maxdate.
 
 {% highlight js %}
 
+var curDate = new Date();// Mention the current date.
 
+// The following code mentions 2 years from the current date.
 
-        var curDate = new Date();// Mention the current date.
-
-        // The following code mentions 2 years from the current date.
-
-        var rangeDate = new Date(curDate.getFullYear() + 2, curDate.getMonth(), curDate.getDate());
-
-
-
-        // Sets minDate and maxDate at the time of document ready.
-
-        $(function () {
-
-            var startdate = $("#startDate").data("ejmDatePicker");
-
-            startdate.option({ "minDate": curDate, "maxDate": rangeDate });
+var rangeDate = new Date(curDate.getFullYear() + 2, curDate.getMonth(), curDate.getDate());
 
 
 
-            var enddate = $("#endDate").data("ejmDatePicker");
+// Sets minDate and maxDate at the time of document ready.
 
-            enddate.option({ "minDate": curDate, "maxDate": rangeDate });
+$(function () {
 
-        });
+	var startdate = $("#startDate").data("ejmDatePicker");
+
+	startdate.option({ "minDate": curDate, "maxDate": rangeDate });
 
 
 
+	var enddate = $("#endDate").data("ejmDatePicker");
 
+	enddate.option({ "minDate": curDate, "maxDate": rangeDate });
+
+});
 
 {% endhighlight %}
-
-
 
 Run the above code example to render a DatePicker with Min and Max Date.
 
 ![](Getting-Started_images/Getting-Started_img3.png)
-
-
 
 ## Set Event to Process the Min and Max Date Validations
 
@@ -159,89 +177,52 @@ The following code example explains how to set an event to process the Min and M
 
 {% highlight html %}
 
+<table>
 
+<tr>
+  <td class="tdclass">Onward Date</td>
+</tr>
 
-         <table>
+	<tr>
+	  <td class="tdclass">
+		<span class="innerdp">
+		  <input id="startDate" data-role="ejmdatepicker" data-ej-select="validateMinDateForReturn"/>
+		</span>
+	  </td>
+	</tr>                     
 
-            <tr>
+	<tr>
+	  <td class="tdclass">Return date</td>
+	</tr>
 
-                <td class="tdclass">Onward Date</td>
+	<tr>
+	  <td class="tdclass">
+		<span class="innerdp">
+		  <input id="endDate" data-role="ejmdatepicker" />
+		</span>
+	  </td>
+	</tr>
 
-            </tr>
-
-            <tr>
-
-                <td class="tdclass">
-
-                    <span class="innerdp">
-
-                        <input id="startDate" data-role="ejmdatepicker"
-
-data-ej-select="validateMinDateForReturn"/>
-
-                    </span>
-
-                </td>
-
-            </tr>                     
-
-            <tr>
-
-                <td class="tdclass">Return date</td>
-
-            </tr>
-
-            <tr>
-
-                <td class="tdclass">
-
-                    <span class="innerdp">
-
-                        <input id="endDate" data-role="ejmdatepicker" />
-
-                    </span>
-
-                </td>
-
-            </tr>
-
-        </table>
-
-
-
-
+</table>
 
 {% endhighlight %}
-
-
 
 Select event is handled by the validateMinDateForReturn function as follows.
 
 {% highlight js %}
 
+function validateMinDateForReturn (args) {
 
+	var selDate = new Date(args.value); // Mentions the selected date.
 
-        function validateMinDateForReturn (args) {
+	minDatepicker = $("#endDate").data("ejmDatePicker");// Creates DatePicker object
 
-            var selDate = new Date(args.value); // Mentions the selected date.
+	minDatepicker.option({ "minDate": selDate });// Sets minDate property through setModel of DatePicker object.
 
-            minDatepicker = $("#endDate").data("ejmDatePicker");// Creates DatePicker object
-
-            minDatepicker.option({ "minDate": selDate });// Sets minDate property through setModel of DatePicker object.
-
-        }
-
-
-
-
+}
 
 {% endhighlight %}
-
-
 
 Run the above code example to render the following output.
 
 ![](Getting-Started_images/Getting-Started_img4.png)
-
-
-

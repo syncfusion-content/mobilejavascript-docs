@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance | ListView | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
 control: ListView (Mobile)
@@ -107,4 +107,3 @@ This class is applied to anchor element inside the ListView items when list item
 e-m-list-text</td><td>
 This class is applied to span element inside the ListView items.</td></tr>
 </table>
-

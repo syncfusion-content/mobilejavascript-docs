@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Collapse-content
+title: Collapse content | Accordion | Mobilejs | Syncfusion
 description: collapse content
 platform: Mobilejs
 control: Accordion (Mobile)

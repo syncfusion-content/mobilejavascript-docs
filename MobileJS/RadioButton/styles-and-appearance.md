@@ -1,6 +1,6 @@
 ---
 layout: post
-title: styles-and-appearance
+title: styles and appearance | RadioButton | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
 control: RadioButton (Mobile)
@@ -9,11 +9,11 @@ documentation: ug
 
 # Styles and Appearance
 
-Styles and Appearance of **RadioButton** work based on **CSS** classes. You need a style sheet to apply styles to **RadioButton** control that is **ej.mobile.all.min**.**css**
+Styles and Appearance of RadioButton work based on CSS classes. You need a style sheet to apply styles to RadioButton control that is ej.mobile.all.min.css
 
 ## Customize styles
 
-To change the style or appearance of your **RadioButton** control,you can override the predefined styles by using the **class names** applied to the elements in your control. The following are the **specific class names** that can be used to modify the style and appearance of **RadioButton** control.
+To change the style or appearance of your RadioButton control,you can override the predefined styles by using the class names applied to the elements in your control. The following are the specific class names that can be used to modify the style and appearance of RadioButton control.
 
 _Class names_
 

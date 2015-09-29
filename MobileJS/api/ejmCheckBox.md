@@ -1,44 +1,24 @@
 ---
 layout: post
-title: ejmCheckBox
+title: ejmCheckBox | API Reference | Mobile JS | Syncfusion
+description: 
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmCheckBox, API, Essential Studio JS Autocomplete (Mobile)
 ---
 
-# Custom Design for Html CheckBox control.
+# ejmCheckBox
 
-
-
-
-
-
-
-
-
+Custom Design for Html CheckBox control.
 
 $(element).ejmCheckBox<span class="signature">()</span>
 
-
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Create checkbox control in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
 {% endhighlight %}
-
 
 {% highlight html %} 
 // Render checkbox on initialization
@@ -47,91 +27,39 @@ Example
 $("#chkbox").ejmCheckBox(); 
 </script>{% endhighlight %}
 
-
-
-
-
-
-
-Requires
-{:.require}
-
-
-
+#### Requires
 
 * module:jQuery
 
-
 * module:ej.mobile.application
-
 
 * module:ej.core
 
-
 * module:ej.unobtrusive
-
 
 * module:ej.mobile.core
 
-
 * module:ej.data
-
 
 * module:ej.touch
 
-
-
-
 ## Members
 
-
-
-
-
-
-
-
-### checked<span class="type-signature type boolean">boolean</span>
+### checked`boolean`
 {:#members:checked}
-
-
-
-
-
-
-
 
 Specifies whether to check the control.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the checked property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-checked=false />
 {% endhighlight %}
-
 
 {% highlight html %} 
 // To set checked API value during initialization  
@@ -144,58 +72,26 @@ Example
 {% highlight html %} 
 // Get or set the check API, after initialization:
 //Get the checked value  
-        $("#chkbox").ejmCheckBox("option", "checked");
-                      
-        //Set the checked value 
-        $("#chkbox").ejmCheckBox("option", "checked",  false );  {% endhighlight %}
+$("#chkbox").ejmCheckBox("option", "checked");
+			  
+//Set the checked value 
+$("#chkbox").ejmCheckBox("option", "checked",  false );  {% endhighlight %}
 
-
-
-
-
-
-
-### checkState<span class="type-signature type enum">enum</span>
+### checkState`enum`
 {:#members:checkstate}
-
-
-
-
-
-
-
 
 Specifies the check CheckState of the control. See <a href="global.html#CheckState">CheckState</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.CheckBox.CheckState.Uncheck
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the Checkstate property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enabletristate=true data-ej-checkstate="indeterminate" />
 {% endhighlight %}
-
 
 {% highlight html %} 
 //Set the Checkstate property on initialization.
@@ -205,7 +101,6 @@ Example
   $("#chkbox").ejmCheckBox({ enableTriState : true,checkState: ej.mobile.CheckBox.CheckState.Indeterminate });          
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 // Get or set the CheckState  API, after initialization
 //Get the CheckState  value 
@@ -213,47 +108,16 @@ Example
 // Set the CheckState  value 
   $("#chkbox").ejmCheckBox("option", "checkState", ej.mobile.CheckBox.CheckState.Indeterminate  ); {% endhighlight %}
 
-
-
-
-
-
-
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
-
-
-
-
-
-
-
 
 Sets the root class for checkbox theme. This cssClass API helps to use custom skinning option for checkbox control. By defining the root class using this API, we need to include this root class in CSS.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ""
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Set the cssClass property in unobtrusive way.
@@ -268,7 +132,6 @@ Example
 $("#chkbox").ejmCheckBox ({ cssClass: "customclass"});                  
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 // Get or set the checkbox cssClass, after initialization:
 // Get the cssClass API value.          
@@ -276,53 +139,21 @@ $("#chkbox").ejmCheckBox ({ cssClass: "customclass"});
 // Set the cssClass API
 $("#chkbox").ejmCheckBox ("option", "cssClass", "customclass");            {% endhighlight %}
 
-
-
-
-
-
-
-### enabled<span class="type-signature type boolean">boolean</span>
+### enabled`boolean`
 {:#members:enabled}
-
-
-
-
-
-
-
 
 Specifies whether to enable or disable the control.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * true
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the enabled property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enabled=true />
 {% endhighlight %}
-
 
 {% highlight html %} 
 //Set enabled property checkbox on initialization. 
@@ -332,7 +163,6 @@ Example
         $("#chkbox").ejmCheckBox ({ enabled: true });                   
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 // Get or set the checkbox state, after initialization:
 // Get the enabled API value.           
@@ -340,53 +170,21 @@ Example
 // Set the enabled API
         $("#chkbox").ejmCheckBox ("option", "enabled", true);{% endhighlight %}
 
-
-
-
-
-
-
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
-
-
-
-
-
-
-
 
 Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Set the enablePersistence property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enablepersistence=true />
 {% endhighlight %}
-
 
 {% highlight html %} 
 // To set enablePersistence API value 
@@ -395,7 +193,6 @@ Example
   $("#chkbox").ejmCheckBox({ enablePersistence: true});          
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 // Get or set the enablePersistence API, after initialization:
 // Get the enablePersistence value  
@@ -403,53 +200,21 @@ Example
 // Set the enablePersistence value 
   $("#chkbox").ejmCheckBox("option", "enablePersistence", true ); {% endhighlight %}
 
-
-
-
-
-
-
-### enableTriState<span class="type-signature type boolean">boolean</span>
+### enableTriState`boolean`
 {:#members:enabletristate}
-
-
-
-
-
-
-
 
 Specifies whether to render the control with tri state behavior.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the enableTriState property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-enabletristate="true" data-ej-checkstate="indeterminate" />
 {% endhighlight %}
-
 
 {% highlight html %} 
 //Set the enableTriState property on initialization.
@@ -459,7 +224,6 @@ Example
   $("#chkbox").ejmCheckBox({ enableTriState : true, checkState:"indeterminate" });              
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 // Get or set the enableTriState  API, after initialization
 //Get the  enableTriState  value 
@@ -467,53 +231,21 @@ Example
 // Set the  enableTriState  value 
   $("#chkbox").ejmCheckBox("option", "enableTriState", false  ); {% endhighlight %}
 
-
-
-
-
-
-
-### preventDefault<span class="type-signature type boolean">boolean</span>
+### preventDefault`boolean`
 {:#members:preventdefault}
-
-
-
-
-
-
-
 
 Specifies whether to prevent default actions in the control.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Set the preventDefault property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-preventdefault="false" />
 {% endhighlight %}
-
 
 {% highlight html %} 
 // Set checkbox prevent default on initialization. 
@@ -523,7 +255,6 @@ Example
 $("#chkbox").ejmCheckBox ({ preventDefault: false });                   
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 // Get or set the checkbox prevent default, after initialization:
 // Get the preventDefault API value.            
@@ -531,53 +262,21 @@ $("#chkbox").ejmCheckBox ({ preventDefault: false });
 // Set the preventDefault API
 $("#chkbox").ejmCheckBox ("option", "preventDefault", false);{% endhighlight %}
 
-
-
-
-
-
-
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
-
-
-
-
-
-
-
 
 Specifies the rendering mode of the control.See <a href="global.html#RenderMode">RenderMode</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * auto
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Set the renderMode property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-rendermode="auto" />
 {% endhighlight %}
-
 
 {% highlight html %}// Set checkbox rendermode on initialization. 
 <input type="checkbox" id="chkbox" />
@@ -586,7 +285,6 @@ Example
 $("#chkbox").ejmCheckBox ({ renderMode: ej.mobile.RenderMode.Auto});                    
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 // Get or set the checkbox rendermode, after initialization:
 // Get the renderMode API value.                
@@ -594,53 +292,21 @@ $("#chkbox").ejmCheckBox ({ renderMode: ej.mobile.RenderMode.Auto});
 // Set the renderMode API
 $("#chkbox").ejmCheckBox ("option", "renderMode", ej.mobile.RenderMode.Auto);            {% endhighlight %}
 
-
-
-
-
-
-
-### text<span class="type-signature type string">string</span>
+### text`string`
 {:#members:text}
-
-
-
-
-
-
-
 
 Specifies the text.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ""
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Set the text property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-text="Checkbox" />
 {% endhighlight %}
-
 
 {% highlight html %} 
 // To set text API value 
@@ -649,7 +315,6 @@ Example
   $("#chkbox").ejmCheckBox({ text: "Hello World"});              
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 // Get or set the text API, after initialization:
 // Get the text value  
@@ -657,53 +322,21 @@ Example
 // Set the text value 
   $("#chkbox").ejmCheckBox("option", "text", "Hello World" ); {% endhighlight %}
 
-
-
-
-
-
-
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
-
-
-
-
-
-
-
 
 Specifies the theme.See <a href="global.html#Theme">Theme</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * auto
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the theme property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-theme="auto" />
 {% endhighlight %}
-
 
 {% highlight html %} 
 // Set checkbox theme on initialization. 
@@ -713,7 +346,6 @@ Example
   $("#chkbox").ejmCheckBox ({ theme: ej.mobile.Theme.Auto });                   
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 // Get or set the checkbox prevent default, after initialization:
 // Get the theme API value.             
@@ -721,75 +353,26 @@ Example
 // Set the theme API
   $("#chkbox").ejmCheckBox ("option", "theme", ej.mobile.Theme.Auto);{% endhighlight %}
 
-
-
-
-
-
-
 ### windows
 {:#members:windows}
 
-
-
-
-
-
-
-
 Section for windows mode specific functionalities.
 
-
-
-
-
-
-
-
-
-
-
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
-
-
-
-
-
-
-
 
 Specifies whether to render control based on the windowsphone's current accent color and device theme.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Set the windows mode renderDefault property in unobtrusive way.
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-windows-renderDefault=false />
 {% endhighlight %}
-
 
 {% highlight html %} 
 // To set windows mode renderDefault property API value 
@@ -798,7 +381,6 @@ Example
 $("#chkbox").ejmCheckBox({ windows:{renderDefault: false}});             
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 // Get or set the windows mode renderDefault API, after initialization:
 // Get the windows mode renderDefault value  
@@ -806,38 +388,14 @@ $("#chkbox").ejmCheckBox("option", "windows.renderDefault");
 // Set the windows mode renderDefault value 
 $("#chkbox").ejmCheckBox("option", "windows.renderDefault", false); {% endhighlight %}
 
-
-
-
-
 ## Methods
 
-
-
-
-
-
-
-
-### isChecked<span class="signature">()</span>
+### isChecked`()`
 {:#methods:ischecked}
-
-
-
-
-
-
-
 
 To change the checked state.
 
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <input type="checkbox" id="chkbox"/>
@@ -848,7 +406,6 @@ var chkObj = $("#chkbox").data("ejmCheckBox");
 chkObj.isChecked(); // returns the checkbox current state
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 <input type="checkbox" id="chkbox" />
 <script>
@@ -857,28 +414,10 @@ $("#chkbox").ejmCheckBox();
 $("#chkbox").ejmCheckBox("isChecked");  
 </script>{% endhighlight %}
 
-
-
-
-
 ## Events
-
-
-
-
-
-
-
 
 ### touchEnd
 {:#events:touchend}
-
-
-
-
-
-
-
 
 Event triggers when touch end happens on the control.
 
@@ -936,12 +475,7 @@ Event triggers when touch end happens on the control.
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Define the touchend event in unobtrusive way.
@@ -952,7 +486,6 @@ function touchend(args){
 //handle the event
 }
 </script>{% endhighlight %}
-
 
 {% highlight html %}  
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
@@ -965,21 +498,8 @@ $("#chkbox").ejmCheckBox({
 });           
 * </script>{% endhighlight %}
 
-
-
-
-
-
-
 ### touchStart
 {:#events:touchstart}
-
-
-
-
-
-
-
 
 Event triggers when touch start happens on the control.
 
@@ -1037,12 +557,7 @@ Event triggers when touch start happens on the control.
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Define the touchstart event in unobtrusive way.
@@ -1054,7 +569,6 @@ function touchstart(args){
 }
 </script>{% endhighlight %}
 
-
 {% highlight html %}  
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
 // touchStart event for checkbox
@@ -1065,7 +579,3 @@ $("#chkbox").ejmCheckBox({
 }
 });           
 </script>{% endhighlight %}
-
-
-
-

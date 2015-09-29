@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Load-on-demand
+title: Load on demand | Accordion | Mobilejs | Syncfusion
 description: load on demand
 platform: Mobilejs
 control: Accordion (Mobile)

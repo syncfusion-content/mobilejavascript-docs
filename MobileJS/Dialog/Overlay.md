@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overlay
+title: Overlay | Dialog | Mobilejs | Syncfusion
 description: overlay
 platform: Mobilejs
 control: Dialog (Mobile)

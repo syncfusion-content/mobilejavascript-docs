@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Load-on-demand
+title: Load on demand | Tab | Mobilejs | Syncfusion
 description: load on demand
 platform: Mobilejs
 control: Tab (Mobile)
@@ -27,11 +27,7 @@ In some applications, the content for the specific Tab item is loaded only when 
 
 </div>
 
-
-
 {% endhighlight %}
-
-
 
 Create a HTML file with title mymusic.html and add the following code example to it.
 
@@ -41,38 +37,35 @@ Create a HTML file with title mymusic.html and add the following code example to
 
 <html>
 
-<head>
+	<head>
 
-<title>Tab-Mymusic</title>
+	<title>Tab-Mymusic</title>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-<div data-role="ejmlistview" data-ej-showheader="false" id="mymusic">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="mymusic">
 
-    <ul>
+		<ul>
 
-        <li data-ej-text="Not Afraid"></li>
+			<li data-ej-text="Not Afraid"></li>
 
-        <li data-ej-text="Get Lucky"></li>
+			<li data-ej-text="Get Lucky"></li>
 
-        <li data-ej-text="Roar"></li>
+			<li data-ej-text="Roar"></li>
 
-        <li data-ej-text="Till I Collapse"></li>
+			<li data-ej-text="Till I Collapse"></li>
 
-    </ul>
+		</ul>
 
-</div>
+	</div>
 
-</body>
+	</body>
 
 </html>
 
-
-
 {% endhighlight %}
-
 
 
 Create a HTML file with the title favorites.html and add the following code example to it.
@@ -83,35 +76,31 @@ Create a HTML file with the title favorites.html and add the following code exam
 
 <html>
 
-<head>
+	<head>
 
-<title>Tab-Favorites</title>
+	<title>Tab-Favorites</title>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-<div data-role="ejmlistview" data-ej-showheader="false" id="favorites">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="favorites">
 
-    <ul>
+		<ul>
 
-        <li data-ej-text="Dark Horse"></li>
+			<li data-ej-text="Dark Horse"></li>
 
-        <li data-ej-text="Roar"></li>
+			<li data-ej-text="Roar"></li>
 
-    </ul>
+		</ul>
 
-</div>
+	</div>
 
-</body>
+	</body>
 
 </html>
 
-
-
 {% endhighlight %}
-
-
 
 Create a HTML file with the title updates.html and add the following code example to it.
 
@@ -121,33 +110,28 @@ Create a HTML file with the title updates.html and add the following code exampl
 
 <html>
 
-<head>
+	<head>
 
-<title>Tab-Updates</title>
+	<title>Tab-Updates</title>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-<div data-role="ejmlistview" data-ej-showheader="false" id="updates">
+		<div data-role="ejmlistview" data-ej-showheader="false" id="updates">
 
- <ul>
+		 <ul>
 
-     <li data-ej-text="New songs available for download"></li>
+			 <li data-ej-text="New songs available for download"></li>
 
-     <li data-ej-text="1.2.1 update available"></li>
+			 <li data-ej-text="1.2.1 update available"></li>
 
- </ul>
+		 </ul>
 
-</div>
+		</div>
 
-</body>
+	</body>
 
 </html>
 
-
-
 {% endhighlight %}
-
-
-

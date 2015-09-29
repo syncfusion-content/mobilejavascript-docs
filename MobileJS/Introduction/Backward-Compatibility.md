@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Backward-Compatibility
+title: Backward Compatibility | Introduction | Mobilejs | Syncfusion
 description: backward compatibility
 platform: Mobilejs
 control: Introduction
@@ -36,7 +36,7 @@ ej.Orientation = {    Horizontal: "horizontal",              �
 </table>
 
 
-The other changes based on each components are as follows,__
+The other changes based on each components are as follows,
 
 <table>
 <tr>
@@ -94,6 +94,7 @@ ejmTextbox</td><td>
 ejmTile</td><td>
 </td></tr>
 </table>
+
 _ejmAccordion_
 
 <table>
@@ -146,6 +147,7 @@ Enum</td><td>
 heightStyle</td><td>
 HeightAdjustMode</td></tr>
 </table>
+
 _ejmAutoComplete_
 
 <table>
@@ -196,6 +198,7 @@ itemsCount</td></tr>
 showNoResults</td><td>
 showEmptyResultText</td></tr>
 </table>
+
 _ejBarcode_
 
 <table>
@@ -212,6 +215,7 @@ symbologyType</td><td>
 SymbologyType</td><td>
 </td></tr>
 </table>
+
 _ejBulletGraph_
 
 <table>
@@ -394,6 +398,7 @@ Modified the args.Object and args.Value</td></tr>
 </td><td>
 </td></tr>
 </table>
+
 _ejmButton_
 
 <table>
@@ -447,6 +452,7 @@ iOS7Style</td></tr>
 iOS7.buttonColor</td><td>
 iOS7Color</td></tr>
 </table>
+
 _ejChart_
 
 <table>
@@ -789,6 +795,7 @@ args:{cancelCancelData={Model}modeltype}</td><td colspan = "2">
 args:{canceldata={model}modeltype}</td><td colspan = "2">
 Modified the args.Dataargs.Cancel is removed.</td></tr>
 </table>
+
 _ejmCheckbox_
 
 <table>
@@ -811,6 +818,7 @@ enableTriState</td></tr>
 indeterminate</td><td>
 checkState</td></tr>
 </table>
+
 _ejCircularGauge_
 
 <table>
@@ -1197,6 +1205,7 @@ args.pointerElement</td><td>
 args.pointer{angleelementvalueIndex}</td><td>
 arguments are moved to Object type.</td></tr>
 </table>
+
 _ejmDatePicker_
 
 <table>
@@ -1215,6 +1224,7 @@ culture</td></tr>
 defaultDate</td><td>
 value</td></tr>
 </table>
+
 _ejmDialog_
 
 <table>
@@ -1254,6 +1264,7 @@ Enum</td><td>
 dialogMode</td><td>
 Mode</td></tr>
 </table>
+
 _ejDigitalGauge_
 
 <table>
@@ -1316,6 +1327,7 @@ ej.fontStyle = {Normal: "Normal",Bold: "Bold",Italic: "Italic",Underline: "U
 ej.FontStyle = {Normal: "normal",Bold: "bold",Italic: "italic",Underline: "underline",Strikeout: "strikeout"    };</td><td>
 </td></tr>
 </table>
+
 _ejmGrid_
 
 <table>
@@ -1368,6 +1380,7 @@ PagerType</td></tr>
 filterBarMode</td><td>
 FilterBarMode</td></tr>
 </table>
+
 _ejmHeader_
 
 <table>
@@ -1382,6 +1395,7 @@ Members</td><td>
 windows.customText </td><td>
 windows.enableCustomText</td></tr>
 </table>
+
 _ejmListbox_
 
 <table>
@@ -1618,6 +1632,7 @@ ajaxSuccess</td></tr>
 headerButtonTap</td><td>
 headerBackButtonTap </td></tr>
 </table>
+
 _ejLinearGauge_
 
 <table>
@@ -1981,6 +1996,7 @@ args.pointerValue</td></tr>
 <td>
 args.pointerAngle</td></tr>
 </table>
+
 _ejMaps_
 
 <table>
@@ -2269,6 +2285,7 @@ panning</td><td colspan = "2">
 N/A</td><td>
 This API is removed.</td></tr>
 </table>
+
 _ejmMaskEdit_
 
 <table>
@@ -2287,6 +2304,7 @@ enablePersistence</td></tr>
 windows.showReset</td><td>
 windows.allowReset</td></tr>
 </table>
+
 _ejmMenu_
 
 <table>
@@ -2386,6 +2404,7 @@ Android.Type</td></tr>
 windows.menuType</td><td>
 Windows.Type</td></tr>
 </table>
+
 _ejmNumeric_
 
 <table>
@@ -2412,6 +2431,7 @@ enableStrictMode</td></tr>
 waterMarkText</td><td>
 watermarkText</td></tr>
 </table>
+
 _ejmPassword_
 
 <table>
@@ -2430,6 +2450,7 @@ enablePersistence</td></tr>
 windows.showReset</td><td>
 windows.allowReset</td></tr>
 </table>
+
 _ejmProgressBar_
 
 <table>
@@ -2460,6 +2481,7 @@ minValue </td></tr>
 max </td><td>
 maxValue</td></tr>
 </table>
+
 _ejRangeNavigator_
 
 <table>
@@ -2603,6 +2625,7 @@ args:{cancelCancelData={Model}modeltype}</td><td>
 args:{cancelCanceldata={model}modeltype}</td><td>
 Modified args.Data.Removed args.Cancel.</td></tr>
 </table>
+
 _ejmRating_
 
 <table>
@@ -2647,6 +2670,7 @@ change</td></tr>
 Move</td><td>
 touchMove </td></tr>
 </table>
+
 _ejmRotator_
 
 <table>
@@ -2669,6 +2693,7 @@ showHeader</td></tr>
 pager</td><td>
 showPager</td></tr>
 </table>
+
 _ejmScrollPanel_
 
 <table>
@@ -2752,6 +2777,7 @@ Events</td><td>
 scrollMove</td><td>
 scroll</td></tr>
 </table>
+
 _ejmSlider_
 
 <table>
@@ -2791,6 +2817,7 @@ Events</td><td>
 start</td><td>
 touchStart</td></tr>
 </table>
+
 _ejmSplitPane_
 
 <table>
@@ -2813,7 +2840,8 @@ allowRightPaneScrolling</td></tr>
 android->showToolbarBackNavigator</td><td>
 android->showBackNavigator</td></tr>
 </table>
-___ejmTab_
+
+_ejmTab_
 
 <table>
 <tr>
@@ -2921,6 +2949,7 @@ removeOverflowItem</td></tr>
 selectTabItem</td><td>
 selectItem</td></tr>
 </table>
+
 _ejmTextArea_
 
 <table>
@@ -2939,6 +2968,7 @@ enablePersistence</td></tr>
 windows.showReset</td><td>
 windows.allowReset</td></tr>
 </table>
+
 _ejmTextbox_
 
 <table>
@@ -2957,6 +2987,7 @@ enablePersistence</td></tr>
 windows.showReset</td><td>
 windows.allowReset</td></tr>
 </table>
+
 _ejmTile_
 
 <table>
@@ -3000,6 +3031,7 @@ setText</td></tr>
 setTextAlign</td><td>
 setTextAlignment</td></tr>
 </table>
+
 _ejmTimePicker_
 
 <table>
@@ -3018,6 +3050,7 @@ hourFormat</td></tr>
 defaultTime           </td><td>
 value</td></tr>
 </table>
+
 _ejTreeMap_
 
 <table>
@@ -3025,7 +3058,7 @@ _ejTreeMap_
 <th>
 Member Type</th><th>
 Old API Names</th><th>
-New API Names</th><tdh>
+New API Names</th><th>
 Comments</th></tr>
 <tr>
 <td rowspan = "9">
@@ -3074,6 +3107,7 @@ labelTemplate</td><td>
 itemTemplate</td><td>
 This API comes under leafItemSettings. You can use this template to customize the item with label.</td></tr>
 </table>
+
 _ejmToggleButton_
 
 <table>
@@ -3093,6 +3127,7 @@ Events</td><td>
 stateChange</td><td>
 change</td></tr>
 </table>
+
 _ejmToolBar_
 
 <table>

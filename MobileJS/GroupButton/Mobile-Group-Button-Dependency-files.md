@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Accordion-dependency-files
+title: Mobile Accordion dependency files | Group Button | Mobilejs | Syncfusion
 description: mobile accordion dependency files
 platform: Mobilejs
 control: Accordion (Mobile)
@@ -11,8 +11,7 @@ documentation: ug
 
 This section deals with the dependency files for Group Button control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not using, then you can refer to the following script files to render the Group Button control.
 
-Script files
-
+_Script files_
 
 <table>
 <tr>
@@ -47,7 +46,4 @@ It is referred for touch events support.</td></tr>
 <td>
 ej.mobile.groupbutton.min.js</td><td>
 It is referred to handle Group Button control and used while rendering Group Button control.</td></tr>
-
 </table>
-
-

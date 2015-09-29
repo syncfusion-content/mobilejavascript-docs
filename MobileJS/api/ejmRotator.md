@@ -1,38 +1,19 @@
 ---
 layout: post
-title: ejmRotator
+title: ejmRotator | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmRotator, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html Rotator control.
+# ejmRotator
 
-
-
-
-
-
-
-
-
+Custom Design for Html Rotator control.
 
 $(element).ejmRotator<span class="signature">()</span>
 
-
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %}// Render rotator in unobtrusive way
 <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent">       
@@ -83,8 +64,7 @@ $("#rotator").ejmRotator({ targetId: "rotatorcontent" });
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 
@@ -124,7 +104,7 @@ Requires
 
 
 
-### adjustFixedPosition<span class="type-signature type boolean">boolean</span>
+### adjustFixedPosition`boolean`
 {:#members:adjustfixedposition}
 
 
@@ -139,8 +119,7 @@ Calculates the windows inner height for the Rotator.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -156,8 +135,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -219,7 +197,7 @@ $("#rotator").ejmRotator ("option", "adjustFixedPosition", true);            {% 
 
 
 
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
 
 
@@ -234,8 +212,7 @@ Sets the root class for Rotator theme. This cssClass API helps to use custom ski
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -251,8 +228,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -314,7 +290,7 @@ $("#rotator").ejmRotator ("option", "cssClass", "customclass");            {% en
 
 
 
-### currentItemIndex<span class="type-signature type number">number</span>
+### currentItemIndex`number`
 {:#members:currentitemindex}
 
 
@@ -329,8 +305,7 @@ Specifies the currentItemIndex for select the particular item based on the speci
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -346,8 +321,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -409,7 +383,7 @@ $("#rotator").ejmRotator ("option", "currentItemIndex", 0);            {% endhig
 
 
 
-### dataBinding<span class="type-signature type boolean">boolean</span>
+### dataBinding`boolean`
 {:#members:databinding}
 
 
@@ -424,8 +398,7 @@ Specifies whether to enable dataBinding for the items on initilization.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -441,8 +414,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -504,7 +476,7 @@ $("#rotator").ejmRotator ("option", "dataBinding", false);                      
 
 
 
-### dataSource<span class="type-signature type data">data</span>
+### dataSource`data`
 {:#members:datasource}
 
 
@@ -519,8 +491,7 @@ Specifies the dataSource for items .
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -536,8 +507,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -581,7 +551,7 @@ $("#rotator").ejmRotator ("option", "dataSource", "window.imgdata");            
 
 
 
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
 
 
@@ -596,8 +566,7 @@ Current model value to browser cookies for state maintains. While refresh the Ro
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -613,8 +582,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -676,7 +644,7 @@ $("#rotator").ejmRotator ("option", "enablePersistence", true);            {% en
 
 
 
-### headerTitle<span class="type-signature type string">string</span>
+### headerTitle`string`
 {:#members:headertitle}
 
 
@@ -691,8 +659,7 @@ Specifies the headerTitle on initialization .
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -708,8 +675,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -771,7 +737,7 @@ $("#rotator").ejmRotator ("option", "headerTitle", "Title");            {% endhi
 
 
 
-### orientation<span class="type-signature type enum">enum</span>
+### orientation`enum`
 {:#members:orientation}
 
 
@@ -786,8 +752,7 @@ Specifies the rotator orientation to the horizontal or vertical. See <a href="gl
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -803,8 +768,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -890,7 +854,7 @@ Section for pagerPosition specific functionalities.
 
 
 
-### pagerPosition.horizontal<span class="type-signature type enum">enum</span>
+### pagerPosition.horizontal`enum`
 {:#members:pagerposition-horizontal}
 
 
@@ -905,8 +869,7 @@ Specifies the PagerPosition Horizontal to the top or bottom position. See <a hre
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -922,8 +885,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -987,7 +949,7 @@ $("#rotator").ejmRotator ("option", "pagerPosition.horizontal", ej.mobile.Rotato
 
 
 
-### pagerPosition.vertical<span class="type-signature type enum">enum</span>
+### pagerPosition.vertical`enum`
 {:#members:pagerposition-vertical}
 
 
@@ -1002,8 +964,7 @@ Specifies the PagerPosition Vertical to the top or bottom position. See <a href=
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1019,8 +980,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1084,7 +1044,7 @@ $("#rotator").ejmRotator ("option", "pagerPosition.vertical", ej.mobile.Rotator.
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -1099,8 +1059,7 @@ Changes the rendering mode for rotator. See <a href="global.html#RenderMode">Ren
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1116,8 +1075,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1181,7 +1139,7 @@ $("#rotator").ejmRotator ("option", "renderMode", ej.mobile.RenderMode.Auto);   
 
 
 
-### showHeader<span class="type-signature type boolean">boolean</span>
+### showHeader`boolean`
 {:#members:showheader}
 
 
@@ -1196,8 +1154,7 @@ Specifies whether to enable the header on initialization.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1213,8 +1170,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1276,7 +1232,7 @@ $("#rotator").ejmRotator ("option", "showHeader", false);            {% endhighl
 
 
 
-### showPager<span class="type-signature type boolean">boolean</span>
+### showPager`boolean`
 {:#members:showpager}
 
 
@@ -1291,8 +1247,7 @@ Specifies whether to show the Pager on initialization.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1308,8 +1263,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1371,7 +1325,7 @@ $("#rotator").ejmRotator ("option", "showPager", true);            {% endhighlig
 
 
 
-### targetHeight<span class="type-signature type string">string</span>
+### targetHeight`string`
 {:#members:targetheight}
 
 
@@ -1386,8 +1340,7 @@ Specifies the targetHeight on initialization.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1403,8 +1356,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1466,7 +1418,7 @@ $("#rotator").ejmRotator ("option", "targetHeight", "auto");            {% endhi
 
 
 
-### targetId<span class="type-signature type string">string</span>
+### targetId`string`
 {:#members:targetid}
 
 
@@ -1481,8 +1433,7 @@ Specifies the targetId to the content .
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1498,8 +1449,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1560,7 +1510,7 @@ $("#rotator").ejmRotator ("option", "targetId", "rotatorcontent");            {%
 
 
 
-### targetWidth<span class="type-signature type string">string</span>
+### targetWidth`string`
 {:#members:targetwidth}
 
 
@@ -1575,8 +1525,7 @@ Specifies the targetWidth on initialization.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1592,8 +1541,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1655,7 +1603,7 @@ $("#rotator").ejmRotator ("option", "targetWidth", "auto");            {% endhig
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -1670,8 +1618,7 @@ Changes the theme of the Rotator. See<a href="global.html#Theme">Theme</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1687,8 +1634,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1774,7 +1720,7 @@ Section for windows rendermode specific functionalities.
 
 
 
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
 
 
@@ -1789,8 +1735,7 @@ Specifies whether to render the rotator based on the windowsphone's current acce
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1806,8 +1751,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1877,7 +1821,7 @@ $("#rotator").ejmRotator ("option", "windows.renderDefault", true);            {
 
 
 
-### renderDatasource<span class="signature">()</span>
+### renderDatasource`()`
 {:#methods:renderdatasource}
 
 
@@ -1893,8 +1837,7 @@ To handle the rotator datasource
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1994,8 +1937,7 @@ Event triggers when the rotator changes from one slide to another slide
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2109,8 +2051,7 @@ Event triggers when the rotator's pager clicked
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2224,8 +2165,7 @@ Event triggers when the swipeDown happens in the Rotator
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2339,8 +2279,7 @@ Event triggers when the swipeLeft happens.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2454,8 +2393,7 @@ Event triggers when the swipeRight happens in the Rotator
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2569,8 +2507,7 @@ Event triggers when the swipeUp happens in the Rotator
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

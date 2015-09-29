@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Read-only-Support
+title: Read only Support | MaskEdit | Mobilejs | Syncfusion
 description: read-only support
 platform: Mobilejs
 control: MaskEdit (Mobile)
@@ -19,4 +19,4 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-![D:/Final Doc/mockup/IMG_0524_iphone5s_spacegrey_portrait.png](Read-only-Support_images/Read-only-Support_img1.png)
+![](Read-only-Support_images/Read-only-Support_img1.png)

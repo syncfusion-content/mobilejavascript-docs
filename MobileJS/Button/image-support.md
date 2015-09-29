@@ -1,6 +1,6 @@
 ---
 layout: post
-title: image-support
+title: image support | Button | Mobilejs | Syncfusion
 description: image support
 platform: Mobilejs
 control: Button (Mobile)
@@ -17,24 +17,26 @@ You can refer the following code example.
 
 {% highlight html %}
 
+<!--In head section-->
 
-    <!--In head section-->
 <style>
-     .image {
-            background-image: url("silverlight.jpg");
-        }
+
+.image {
+	background-image: url("silverlight.jpg");
+}
+
 </style>
 
-    <!--In body section-->
- <input id="sample_button" type="button" data-role="ejmbutton" **data-ej-contenttype="image" data-ej-imageclass="image"** />
+<!--In body section-->
 
-
+ <input id="sample_button" type="button" data-role="ejmbutton" data-ej-contenttype="image" data-ej-imageclass="image" />
 
 {% endhighlight %}
 
+![](image-support_images/image-support_img1.png)
 
-
-{% include image.html url="image-support_images/image-support_img1.png" Caption="Button - ImageClass"%}
+Button - ImageClass
+{:.caption}
 
 ## ImagePosition
 
@@ -46,15 +48,13 @@ You can refer to the following code example.
 
 {% highlight html %}
 
-
 <!--Set the imagePosition-->
-                           <input id="sample_button" type="button" data-role="ejmbutton" **data-ej-contenttype="both"** data-ej-text="button" **data-ej-imageposition="left"** data-ej-imageclass="image" />
 
-
+<input id="sample_button" type="button" data-role="ejmbutton" data-ej-contenttype="both" data-ej-text="button" data-ej-imageposition="left" data-ej-imageclass="image" />
 
 {% endhighlight %}
 
+![](image-support_images/image-support_img2.png)
 
-
-{% include image.html url="image-support_images/image-support_img2.png" Caption="Button – ImagePosition"%}
-
+Button – ImagePosition
+{:.caption}

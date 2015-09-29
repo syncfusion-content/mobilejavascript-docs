@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enable-and-Disable
+title: Enable and Disable | Password | Mobilejs | Syncfusion
 description: enable and disable
 platform: Mobilejs
 control: Password (Mobile)
@@ -15,11 +15,6 @@ Refer to the following code example.
 
 {% highlight html %}
 
-     <input id="password_sample" data-role="ejmpassword" data-ej-watermarktext="Password" data-ej-enabled="false">
+<input id="password_sample" data-role="ejmpassword" data-ej-watermarktext="Password" data-ej-enabled="false">
 
 {% endhighlight %}
-
-
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Multi-Selection
+title: Multi Selection | AutoComplete| Mobilejs | Syncfusion
 description: multi selection
 platform: Mobilejs
 control: AutoComplete (Mobile) 
@@ -21,8 +21,6 @@ You can refer to the following code examples.
 
 <input id="autocomplete_sample" data-role="ejmautocomplete"  data-ej-enablemultiselect=true data-ej-delimiterchar=";" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-
-
 {% endhighlight %}
 
 
@@ -39,13 +37,8 @@ The data-ej-enablecheckbox attribute is used to display the checkbox for the sug
 
 <input id="autocomplete_sample" data-role="ejmautocomplete"  data-ej-enablemultiselect=true data-ej-enablecheckbox="true" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />    
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays EnableCheckBox:
 
-![C:/Users/apoorvah.ramanathan/Desktop/1.png](Multi-Selection_images/Multi-Selection_img2.png)
-
+![](Multi-Selection_images/Multi-Selection_img2.png)

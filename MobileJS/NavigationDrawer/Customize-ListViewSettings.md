@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-ListViewSettings
+title: Customize ListViewSettings | Navigation Drawer | Mobilejs | Syncfusion
 description: customize listviewsettings
 platform: Mobilejs
 control: Navigation Drawer (Mobile)
@@ -17,73 +17,68 @@ Refer to the following code example.
 
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-enablelistview="true" data-ej-listviewsettings-width="250" data-ej-listviewsettings-touchend="navListClick">
 
-        <ul>
+	<ul>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/home.png" data-ej-text="Home"
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/home.png" data-ej-text="Home"
 
-                id="navhome"></li>
+			id="navhome"></li>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/profile.png" data-ej-text="Profile"
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/profile.png" data-ej-text="Profile"
 
-                id="navprofile"></li>
+			id="navprofile"></li>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/photo.png" data-ej-text="Photos"
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/photo.png" data-ej-text="Photos"
 
-                id="navphotos"></li>
+			id="navphotos"></li>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/locations.png" data-ej-text="Location"
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/locations.png" data-ej-text="Location"
 
-                id="navlocation"></li>
+			id="navlocation"></li>
 
-        </ul>
+	</ul>
 
-    </div>
+</div>
 
-    <div id="head" data-role="ejmheader" data-ej-title="NavigationDrawer" data-ej-position="normal"></div>
+<div id="head" data-role="ejmheader" data-ej-title="NavigationDrawer" data-ej-position="normal"></div>
 
-    <div id="content" style="margin-top: 45px;">
+<div id="content" style="margin-top: 45px;">
 
-        <div id="Home">
+	<div id="Home">
 
-            The Home screen allows you to choose the specific content type displayed.
-
-
-
-        </div>
-
-        <div id="Profile" style="display: none">
-
-            The Profile page content is displayed.
-
-        </div>
+		The Home screen allows you to choose the specific content type displayed.
 
 
 
-        <div id="Photos" style="display: none">
+	</div>
 
-            The Photos page content is displayed.
+	<div id="Profile" style="display: none">
 
-        </div>
+		The Profile page content is displayed.
+
+	</div>
 
 
 
-        <div id="Location" style="display: none">
+	<div id="Photos" style="display: none">
 
-            The Location page content is displayed.
+		The Photos page content is displayed.
 
-        </div>
+	</div>
 
-    </div>
+
+
+	<div id="Location" style="display: none">
+
+		The Location page content is displayed.
+
+	</div>
+
+</div>
 
 {% endhighlight %}
-
-
 
 Refer to the script section to update the page content while clicking the item in the drawer.
 
 The following screenshot illustrates the output.
 
 ![](Customize-ListViewSettings_images/Customize-ListViewSettings_img1.png)
-
-
-

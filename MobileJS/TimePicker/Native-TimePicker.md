@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Native-TimePicker
+title: Native TimePicker | TimePicker | Mobilejs | Syncfusion
 description: native timepicker
 platform: Mobilejs
 control: TimePicker (Mobile)

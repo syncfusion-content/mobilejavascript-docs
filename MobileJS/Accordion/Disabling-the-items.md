@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Disabling-the-items
+title: Disabling the items | Accordion | Mobilejs | Syncfusion
 description: disabling the items
 platform: Mobilejs
 control: Accordion (Mobile)

@@ -1,23 +1,23 @@
 ---
 layout: post
-title: mobile-checkbox-dependency-files
+title: mobile checkbox dependency files | Checkbox | Mobilejs | Syncfusion
 description: mobile checkbox dependency files
 platform: Mobilejs
-control: Button (Mobile)
+control: Checkbox (Mobile)
 documentation: ug
 ---
 
 # Mobile CheckBox dependency files
 
-This section deals with the dependency files for **CheckBox** control. The file **ej.mobile.all.min.js** is a mass collection of **Mobile** controls and when you use this file, this section can be skipped. When this file is not used, refer to the following script files to render the **CheckBox** control.
+This section deals with the dependency files for CheckBox control. The file ej.mobile.all.min.js is a mass collection of Mobile controls and when you use this file, this section can be skipped. When this file is not used, refer to the following script files to render the CheckBox control.
 
 _List of CheckBox dependency files_
 
 <table>
 <tr>
-<td>
-<b>File</b></td><td>
-<b>Description/Usage</b></td></tr>
+<th>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

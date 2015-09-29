@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Precision
+title: Customize Precision | Rating | Mobilejs | Syncfusion
 description: customize precision
 platform: Mobilejs
 control: Rating (Mobile)
@@ -17,15 +17,12 @@ The data-ej-precision attribute is used to specify how the Rating control can ac
 
 {% highlight html %}
 
-     <div id="rating_sample" data-role="ejmrating" data-ej-precision="exact">
+<div id="rating_sample" data-role="ejmrating" data-ej-precision="exact">
 
-     </div> 
+</div> 
 
 {% endhighlight %}
 
 The following screenshot displays the output.                        
 
 ![](Customize-Precision_images/Customize-Precision_img1.png)
-
-
-

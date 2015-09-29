@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | SplitPane | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: SplitPane (Mobile)
@@ -15,11 +15,7 @@ This section enables you to create SplitPane using JavaScript in your mobile app
 
 The Essential JavaScript Mobile SplitPane divides up a region on the web page.  It can be configured to split up the horizontal view vertically. Right side panes can display the content from an external URL that is specific to the item selected in the left pane. In the following guidelines, you can learn about the features in mobile SplitPane widget by creating a Mail App.
 
-
-
 ![](Getting-Started_images/Getting-Started_img1.png)
-
-
 
 ## Create the required layout
 
@@ -33,45 +29,41 @@ Create an HTML file and paste the following template to it for Mail App creation
 
 <html>
 
-<head>
+	<head>
 
-    <title>Splitpane</title>
+		<title>Splitpane</title>
 
-    <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+		<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"> </script>
+		<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"> </script>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-    <div id="page" data-role="appview">
+		<div id="page" data-role="appview">
 
-        <div id="content">
+			<div id="content">
 
-            <div>
+				<div>
 
-                <!--Add Splitpane Element here-->
+					<!--Add Splitpane Element here-->
 
-            </div>
+				</div>
 
-        </div>
+			</div>
 
-    </div>
+		</div>
 
-</body>
+	</body>
 
 </html>
-
-
-
-
 
 {% endhighlight %}
 
@@ -85,43 +77,33 @@ Refer the following code example.
 
 <div id="splitview" data-role="ejmsplitpane" >                                            
 
-            <div data-ej-layout="pane">
+    <div data-ej-layout="pane">
 
-                <div>                  
+        <div>                  
 
-<!--Left pane content-->
+				<!--Left pane content-->
 
-                </div>
+        </div>
 
-            </div>
+    </div>
 
-            <div data-ej-layout="pane">
+	<div data-ej-layout="pane">
 
-                <div>
+		<div>
 
-                    <!--Right pane content-->				
+			<!--Right pane content-->				
 
-                </div>
+		</div>
 
-            </div>
+	</div>
 
 </div>
 
-
-
 {% endhighlight %}
-
-
 
 Run this code and you can see the following output.
 
-
-
 ![](Getting-Started_images/Getting-Started_img2.png)
-
-
-
-
 
 ## Add left Pane content
 
@@ -131,165 +113,103 @@ Refer to the following code example.
 
 {% highlight html %}
 
-
-
 <div id="splitview" data-role="ejmsplitpane" data-ej-toolbarsettings-android-title="Messages" data-ej-leftheadersettings-title="Inbox">
 
-        <div data-ej-layout="pane">
+	<div data-ej-layout="pane">
 
-            <div>
+		<div>
 
-                <div data-role="ejmlistview" id="templatelist" data-ej-allowscrolling="false" data-ej-datasource="window.dbitem"
+			<div data-role="ejmlistview" id="templatelist" data-ej-allowscrolling="false" data-ej-datasource="window.dbitem"
 
-                     data-ej-databinding="true" data-ej-showheader="false" data-ej-rendertemplate="true"
+				 data-ej-databinding="true" data-ej-showheader="false" data-ej-rendertemplate="true"
 
-                     data-ej-persistselection="true" data-ej-selecteditemindex="0" data-ej-touchend="listItemSelect">
+				 data-ej-persistselection="true" data-ej-selecteditemindex="0" data-ej-touchend="listItemSelect">
 
-                    <div class="cont-bg">
+				<div class="cont-bg">
 
-                        <span class="templatetext">{{>Name}}</span> <span class="timestyle">{{>Time}}</span>
+					<span class="templatetext">{{>Name}}</span> <span class="timestyle">{{>Time}}</span>
 
-                        <div class="aboutstyle">
+					<div class="aboutstyle">
 
-                            {{>About}}
+						{{>About}}
 
-                        </div>
+					</div>
 
-                    </div>
+				</div>
 
-                </div>
+			</div>
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div data-ej-layout="pane">
+	<div data-ej-layout="pane">
 
-            <div>
+		<div>
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-    </div> 
-
-
+</div> 
 
 {% endhighlight %}
-
-
 
 {% highlight js %}
 
+// data source for listbox with right pane’s url for each item
 
+window.dbitem =
 
+[{ "Name": "Skype", "Time": "3:06 am", "About": "Password changed successfully", "Url": "load1.html" },
 
+	{ "Name": "Skype", "Time": "3:00 am", "About": "Your password has been changed", "Url": "load2.html" },
 
-        // data source for listbox with right pane’s url for each item
+	{ "Name": "Skype", "Time": "Yesterday", "About": "Password token", "Url": "load3.html" },
 
-
-
-        window.dbitem =
-
-
-
-    [{ "Name": "Skype", "Time": "3:06 am", "About": "Password changed successfully", "Url": "load1.html" },
-
-
-
-        { "Name": "Skype", "Time": "3:00 am", "About": "Your password has been changed", "Url": "load2.html" },
-
-
-
-        { "Name": "Skype", "Time": "Yesterday", "About": "Password token", "Url": "load3.html" },
-
-
-
-        { "Name": "Skype", "Time": "Monday", "About": "Hello from Skype", "Url": "load4.html" }];
-
-
-
-
-
-
+	{ "Name": "Skype", "Time": "Monday", "About": "Hello from Skype", "Url": "load4.html" }];
 
 {% endhighlight %}
-
-
 
 Use the following styles to add ListView element.
 
 {% highlight css %}
 
+.cont-bg {
+    padding: 6px 0px;
+}
 
+.templatetext {
+    font-weight: bolder;
+    font-size: 17px;
+}
 
-        .cont-bg {
+#templatelist .timestyle {
+    float: right;
+    font-size: 12px;
+    position: relative;
+    padding-right: 2px;
+}
 
-            padding: 6px 0px;
+#templatelist .aboutstyle {
+    font-size: 14px;
+}
 
-        }
+/* listbox active item color */
 
+.e-m-ios7.e-m-tablet .e-m-state-active .e-m-list-div * {
+    color: #FFFFFF;
+}
 
-
-        .templatetext {
-
-            font-weight: bolder;
-
-            font-size: 17px;
-
-        }
-
-
-
-        #templatelist .timestyle {
-
-            float: right;
-
-            font-size: 12px;
-
-            position: relative;
-
-            padding-right: 2px;
-
-        }
-
-
-
-        #templatelist .aboutstyle {
-
-            font-size: 14px;
-
-        }
-
-        /* listbox active item color */
-
-        .e-m-ios7.e-m-tablet .e-m-state-active .e-m-list-div * {
-
-            color: #FFFFFF;
-
-        }
-
-
-
-        #splitview.e-m-windows.e-m-dark .e-m-sp-left {
-
-            background: black;
-
-        }
-
-
-
-
+#splitview.e-m-windows.e-m-dark .e-m-sp-left {
+    background: black;
+}
 
 {% endhighlight %}
-
-
 
 Run this code and you can see the following output.
 
 ![](Getting-Started_images/Getting-Started_img3.png)
-
-
 
 ## Add right Pane content
 
@@ -300,98 +220,73 @@ Refer to the following code example.
 {% highlight js %}
 
 
+// data source for listbox with right pane’s url for each item
 
-        // data source for listbox with right pane’s url for each item
+window.dbitem =
 
+[{ "Name": "Skype", "Time": "3:06 am", "About": "Password changed successfully", "Url": "load1.html" },
 
+	{ "Name": "Skype", "Time": "3:00 am", "About": "Your password has been changed", "Url": "load2.html" },
 
-        window.dbitem =
+	{ "Name": "Skype", "Time": "Yesterday", "About": "Password token", "Url": "load3.html" },
 
+	{ "Name": "Skype", "Time": "Monday", "About": "Hello from Skype", "Url": "load4.html" }];
 
-
-    [{ "Name": "Skype", "Time": "3:06 am", "About": "Password changed successfully", "Url": "load1.html" },
-
-
-
-        { "Name": "Skype", "Time": "3:00 am", "About": "Your password has been changed", "Url": "load2.html" },
-
-
-
-        { "Name": "Skype", "Time": "Yesterday", "About": "Password token", "Url": "load3.html" },
+// initial loading right pane content
 
 
 
-        { "Name": "Skype", "Time": "Monday", "About": "Hello from Skype", "Url": "load4.html" }];
+$(document).ready(function () {
+
+	// $("#splitview").data("ejmSplitPane").loadContent(toPage, options)
+
+	var split = $("#splitview").data("ejmSplitPane");
+
+	split.loadContent(dbitem[0].Url, {
+
+		rightHeaderSettings:
+
+		{ title: dbitem[0].About },
+
+		toolbarSettings: { android: { title: dbitem[0].About } }, 
+
+		transition: "none"
+
+	});
+
+});
 
 
 
+// loading right pane content by clicking list item selected
 
+function listItemSelect(args) {
 
+	// $("#splitview").data("ejmSplitPane").loadContent(toPage, options)
 
+	var split = $("#splitview").data("ejmSplitPane");
 
-        // initial loading right pane content
+	split.loadContent(dbitem[args.index].Url, {
 
+		rightHeaderSettings:
 
+		{ title: dbitem[args.index].About }, 
 
-        $(document).ready(function () {
+		toolbarSettings: { android: { title: dbitem[args.index].About } }, 
 
-            // $("#splitview").data("ejmSplitPane").loadContent(toPage, options)
+		transition: "none"
 
-            var split = $("#splitview").data("ejmSplitPane");
+	});
 
-            split.loadContent(dbitem[0].Url, {
-
-                rightHeaderSettings:
-
-                { title: dbitem[0].About },
-
-                toolbarSettings: { android: { title: dbitem[0].About } },
-
-                transition: "none"
-
-            });
-
-        });
-
-
-
-        // loading right pane content by clicking list item selected
-
-        function listItemSelect(args) {
-
-            // $("#splitview").data("ejmSplitPane").loadContent(toPage, options)
-
-            var split = $("#splitview").data("ejmSplitPane");
-
-            split.loadContent(dbitem[args.index].Url, {
-
-                rightHeaderSettings:
-
-                { title: dbitem[args.index].About },
-
-                toolbarSettings: { android: { title: dbitem[args.index].About } },
-
-                transition: "none"
-
-            });
-
-        }
-
-
-
-
-
-
+}
 
 {% endhighlight %}
-
-
 
 Create an HTML file with load1.html name and add the following code to the file.
 
 {% highlight html %}
 
- <h2>
+<h2>
 
     Hi John,</h2>
 
@@ -419,17 +314,13 @@ You can now access your Account, view your call history or change your account s
 
 The people at Skype
 
-
-
 {% endhighlight %}
-
-
 
 Create an HTML file with load2.html name and add the following code to the file.
 
 {% highlight html %}
 
- <h2>
+<h2>
 
     Hello John,</h2>
 
@@ -451,23 +342,23 @@ contact one of the administrators of the Skype Manager you belong to.
 
 <h5>
 
-    Talk soon,</h5>
+    Talk soon,
+	
+</h5>
 
 The people at Skype
 
-
-
 {% endhighlight %}
-
-
 
 Create an HTML file with load3.html name and add the following code to the file
 
 {% highlight html %}
 
- <h2>
+<h2>
 
-    Hello John,</h2>
+    Hello John,
+
+</h2>
 
 <br />
 
@@ -493,14 +384,13 @@ If the link doesn't work, you can enter the code manually using this token: 45c5
 
 <h5>
 
-    Talk soon,</h5>
+    Talk soon,
+
+</h5>
 
 The people at Skype
 
-
-
 {% endhighlight %}
-
 
 
 Create an HTML file with load4.html name and add the following code to the file.
@@ -509,7 +399,9 @@ Create an HTML file with load4.html name and add the following code to the fil
 
  <h3>
 
-    Hi John,</h3>
+    Hi John,
+	
+</h3>
 
 <br />
 
@@ -529,21 +421,14 @@ calls, instant messaging, screen sharing and so much more - all with Skype.
 
 <h5>
 
-    Talk soon,</h5>
+    Talk soon,
+
+</h5>
 
 The people at Skype
 
-
-
 {% endhighlight %}
-
-
 
 Run this code and you can see the following output.
 
-
-
 ![](Getting-Started_images/Getting-Started_img4.png)
-
-
-

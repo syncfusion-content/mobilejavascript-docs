@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Styles-and-Appearance
-description: styles and appearance
+description: styles and appearance| SplitPane | Mobilejs | Syncfusion
 platform: Mobilejs
-control: Accordion (Mobile)
+control: SplitPane (Mobile)
 documentation: ug
 ---
 

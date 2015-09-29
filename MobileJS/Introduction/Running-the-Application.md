@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Running-the-Application
+title: Running the Application | Introduction | Mobilejs | Syncfusion
 description: running the application
 platform: Mobilejs
 control: Introduction
@@ -17,97 +17,55 @@ To run an application on a device and emulator, you need to configure IIS on you
 
 1. Go to the Control Panel -> Programs -> Turn Windows Features on or off.
 
-
-
-   ![C:/Users/Vignesh Kumar/Desktop/getting/2s.JPG](Running-the-Application_images/Running-the-Application_img1.jpeg)
-
-
+   ![](Running-the-Application_images/Running-the-Application_img1.jpeg)
 
 2. The Turn Windows features on or off dialog appears. Check all the features under Internet Information Services and Internet Information Services Hostable Web Core and click OK.
 
-
-
-   ![C:/Users/Vignesh Kumar/Desktop/getting/3s.JPG](Running-the-Application_images/Running-the-Application_img2.jpeg)
-
-
+   ![](Running-the-Application_images/Running-the-Application_img2.jpeg)
 
 3. IIS starts installing. It takes a few minutes to install.
 
-
-
    ![](Running-the-Application_images/Running-the-Application_img3.png)
-
-
 
 4. After installation, click finish, and continue with the following steps.
 
-
-
-   ![E:/build/IMG_14052014_095604.png](Running-the-Application_images/Running-the-Application_img4.png)
-
-
+   ![](Running-the-Application_images/Running-the-Application_img4.png)
 
 5. Go to the Control Panel->Administrative Tools-> Internet Information Services (IIS) Manager. IIS Manager appears as shown.
 
-
-
-   ![E:/build/IMG_14052014_095819.png](Running-the-Application_images/Running-the-Application_img5.png)
-
-
+   ![](Running-the-Application_images/Running-the-Application_img5.png)
 
 6. Right-click the Default Web Site and select Browse from the Manage Website.
 
-
-
-   ![E:/build/IMG_14052014_101000.png](Running-the-Application_images/Running-the-Application_img6.png)
-
-
+   ![](Running-the-Application_images/Running-the-Application_img6.png)
 
 7. The following browser page appears when IIS is configured correctly.
 
-
-
-   ![E:/build/IMG_14052014_101013.png](Running-the-Application_images/Running-the-Application_img7.png)
-
-
+   ![](Running-the-Application_images/Running-the-Application_img7.png)
 
 ### Steps to Host an Application in IIS
 
 1. To Host an Application in the IIS, right click the “Default Web Site” and Select Add Application.
 
-
-
-   ![E:/build/IMG_14052014_101120.png](Running-the-Application_images/Running-the-Application_img8.png)
-
-
+   ![](Running-the-Application_images/Running-the-Application_img8.png)
 
 2. The Add application dialog appears as follows. Provide the path of the application and the Alias (the name given for the application for accessing by URL). The Alias is provided as “MobileApp” as shown in the following screenshot.
 
-
-
-   ![E:/build/IMG_14052014_102833.png](Running-the-Application_images/Running-the-Application_img9.png)
-
-
+   ![](Running-the-Application_images/Running-the-Application_img9.png)
 
 3. The application gets added to the Default Web Site. You can open the sample in the browser by using the following URL: [http://localhost/MobileApp/<samplename>.html](http://localhost/MobileApp/%3csamplename%3e.html)
 
 ### Enabling IIS port in Firewall
 
-
 To enable the IIS port to access the hosted webpage from outside the hosted machine, follow the instructions:
 
 1. Go to the control panel -> Windows Firewall -> Advanced Settings, and the following dialog appears.
 
-
-
-   ![C:/Users/Vignesh Kumar/Desktop/getting/4s.JPG](Running-the-Application_images/Running-the-Application_img10.jpeg)
-
-
+   ![](Running-the-Application_images/Running-the-Application_img10.jpeg)
 
 2. Select World Wide Web Services and click Enable Rule as shown in the above screenshot. This allows the HTTP traffic from outside the host.
 
 ### Running in Browser
-
 
 To open the Web page on a browser, open the desired browser and type in the following URL to view the page: [http://localhost/MobileApp/<samplename>.html](http://localhost/MobileApp/%3csamplename%3e.html)
 
@@ -116,46 +74,43 @@ To open the Web page on a browser, open the desired browser and type in the foll
 1. To access this Webpage from your mobile/tablet device, make sure that the following prerequisites are met:
    * The IIS port is open to firewall. Type the following URL on the mobile/tablet device. (Refer to: Enabling IIS port in Firewall section for more details).
    * The Mobile device and the IIS hosted Machine must be connected to the same network for IIS to work.
+
 2. Type the following URL on the mobile/tablet: [http://ipaddress/MobileApp/<samplename>.html](http://ipaddress/MobileApp/%3csamplename%3e.html)
 
 ### Device emulation in the browser
 
-
 You can emulate Mobile application in Chrome browser to know how its look varies for different devices. Follow the steps to emulate Mobile Application in Chrome.
 
 1. Host your Mobile application in the IIIS as mentioned above.
+
 2. Load your hosted URL in the Chrome browser. Now, you can see Mobile Application opened with browser configurations as follows.
 
    ![](Running-the-Application_images/Running-the-Application_img11.png)
 
-
-   _Mobile Application_
-
+   Mobile Application
+   {:.caption}
+   
 3. To emulate any device mode, click the Toggle device mode icon (![](Running-the-Application_images/Running-the-Application_img12.png))
    in the developer options window. Now, you can see the following window.
-4. You can change the emulation mode to different devices by selecting different devices from the device dropdown. Refer to the following screenshot. Various devices are provided as options in the Chrome browser.
 
+4. You can change the emulation mode to different devices by selecting different devices from the device dropdown. Refer to the following screenshot. Various devices are provided as options in the Chrome browser.
 
    ![](Running-the-Application_images/Running-the-Application_img13.png)
 
-
-   _Chrome_
+   Chrome
+   {:.caption}
 
 5. You can select different devices from the dropdown list to emulate mobile applications. Refer to the following screenshots where mobile applications are
    emulated in different modes (Nexus 5, iPhone 5, and Lumia 520).
 
    ![](Running-the-Application_images/Running-the-Application_img14.png)
 
-
-
    ![](Running-the-Application_images/Running-the-Application_img15.png)
-
-
 
    ![](Running-the-Application_images/Running-the-Application_img16.png)
 
-
-   _Lumia 520_
+   Lumia 520
+   {:.caption}
 
 By clicking the Toggle device mode icon (![](Running-the-Application_images/Running-the-Application_img17.png))
 again, you can get back from device emulation.
@@ -206,19 +161,17 @@ Version of the OS X prior to mountain lion and mavericks can turn on “web shar
 
    ![http://i.stack.imgur.com/IjsG3.png](Running-the-Application_images/Running-the-Application_img18.png)
 
-
-   _iOS Simulator_    
+   iOS Simulator
+   {:.caption}   
 
 2. Open Safari application in the home page, and then enter the hosted application link.
 
-   ![iOS Simulator](Running-the-Application_images/Running-the-Application_img19.png)
+   ![](Running-the-Application_images/Running-the-Application_img19.png)
 
 ### Running in iOS Device:
 
 1. Open the Safari application from iOS device home page.
+
 2. Enter the hosted application URL.
 
-   ![device](Running-the-Application_images/Running-the-Application_img20.png)
-
-
-
+   ![](Running-the-Application_images/Running-the-Application_img20.png)

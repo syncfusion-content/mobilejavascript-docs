@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrolling
+title: Scrolling | Grid | Mobilejs | Syncfusion
 description: scrolling
 platform: Mobilejs
 control: Grid (Mobile)
@@ -15,60 +15,47 @@ Scrolling is an important feature in Mobile Grid. It makes Grid more compatible 
 
 {% highlight html %}
 
-
-<div id="MobileGrid"></div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-        $(function () { // Document is ready.
+$(function () { // Document is ready.
 
-            $("#MobileGrid").ejmGrid({
+	$("#MobileGrid").ejmGrid({
 
-                // The datasource "window.gridData" is referred from jsondata.min.js
+		// The datasource "window.gridData" is referred from jsondata.min.js
 
-                dataSource: window.gridData,
+		dataSource: window.gridData,
 
-                allowScrolling: true,
+		allowScrolling: true,
 
-                scrollSettings: { height: 352 },
+		scrollSettings: { height: 352 },
 
-                columns:
+		columns:
 
-            [
+	[
 
-                { field: "OrderID", headerText: "Order ID" },
+		{ field: "OrderID", headerText: "Order ID" },
 
-                { field: "CustomerID", headerText: "Customer ID" },
+		{ field: "CustomerID", headerText: "Customer ID" },
 
-                { field: "Freight", headerText: "Freight" }
+		{ field: "Freight", headerText: "Freight" }
 
-            ]
+	]
 
-            });
+	});
 
-        });
-
-
-
+});
 
 {% endhighlight %}
 
 Result of above code example.
 
-
-![22](Scrolling_images/Scrolling_img1.png)
-
-
+![](Scrolling_images/Scrolling_img1.png)
 
 ## Column Scrolling
 
@@ -76,63 +63,48 @@ Column scrolling is powerful technique in ejmGrid. It makes Grid more compatible
 
 {% highlight html %}
 
-
-<div id="MobileGrid"></div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-        $(function () { // Document is ready.
+$(function () { // Document is ready.
 
-            $("#MobileGrid").ejmGrid({
+	$("#MobileGrid").ejmGrid({
 
-                // The datasource "window.gridData" is referred from jsondata.min.js
+		// The datasource "window.gridData" is referred from jsondata.min.js
 
-                dataSource: window.gridData,
+		dataSource: window.gridData,
 
-                allowScrolling: true,
+		allowScrolling: true,
 
-                scrollSettings: { enableColumnScrolling: true, height: 352 },
+		scrollSettings: { enableColumnScrolling: true, height: 352 },
 
-                columns:
+		columns:
 
-            [
-
-
-
-                         { field: "OrderID", headerText: "Order ID", width: 100 },
-
-                         { field: "CustomerID", headerText: "Customer ID", width: 140 },
-
-                         { field: "EmployeeID", headerText: "Employee ID", width: 140 },
-
-                         { field: "Freight", headerText: "Freight", width: 100 }
-
-            ]
-
-            });
-
-        });
+	[
 
 
 
+				 { field: "OrderID", headerText: "Order ID", width: 100 },
+
+				 { field: "CustomerID", headerText: "Customer ID", width: 140 },
+
+				 { field: "EmployeeID", headerText: "Employee ID", width: 140 },
+
+				 { field: "Freight", headerText: "Freight", width: 100 }
+
+	]
+
+	});
+
+});
 
 {% endhighlight %}
 
-
-
 Run the above code to render the following output.
 
-![23](Scrolling_images/Scrolling_img2.png)
-
-
-
+![](Scrolling_images/Scrolling_img2.png)

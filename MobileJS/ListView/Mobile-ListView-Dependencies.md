@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-ListView-Dependencies
+title: Mobile ListView Dependencies | ListView | Mobilejs | Syncfusion
 description: mobile listview dependencies
 platform: Mobilejs
 control: ListView (Mobile)
@@ -67,4 +67,3 @@ It is referred to handle header related configuration while rendering the ListVi
 ej.mobile.scrollpanel.min.js ej.mobile.scrollbar.min.js</td><td>
 It is referred to handle scrollpanel related configuration while rendering the ListView.</td></tr>
 </table>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | Header and Footer | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: Header and Footer (Mobile)

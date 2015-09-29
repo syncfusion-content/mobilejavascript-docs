@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrolling
+title: Scrolling | Menu | Mobilejs | Syncfusion
 description: scrolling 	
 platform: Mobilejs
 control: Menu (Mobile)
@@ -13,45 +13,40 @@ The data-ej-allowscrolling attribute defines whether to allow the scrolling beha
 
 {% highlight html %}
 
-        <div style="text-align: center;">
+<div style="text-align: center;">
 
-            <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
+	<input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
 
-        </div>
+</div>
 
-        <div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem" data-ej-allowscrolling="true" data-ej-height=200 data-ej-allowscrolling="true" data-ej-showscrollbars="true">
+<div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem" data-ej-allowscrolling="true" data-ej-height=200 data-ej-allowscrolling="true" data-ej-showscrollbars="true">
 
-            <ul>
+	<ul>
 
-                <li data-ej-text="Get info"></li>
+		<li data-ej-text="Get info"></li>
 
-                <li data-ej-text="Show in folder"></li>
+		<li data-ej-text="Show in folder"></li>
 
-                <li data-ej-text="Delete"></li>
+		<li data-ej-text="Delete"></li>
 
-                <li data-ej-text="Get info"></li>
+		<li data-ej-text="Get info"></li>
 
-                <li data-ej-text="Show in folder"></li>
+		<li data-ej-text="Show in folder"></li>
 
-                <li data-ej-text="Delete"></li>
+		<li data-ej-text="Delete"></li>
 
-                <li data-ej-text="Get info"></li>
+		<li data-ej-text="Get info"></li>
 
-                <li data-ej-text="Show in folder"></li>
+		<li data-ej-text="Show in folder"></li>
 
-                <li data-ej-text="Delete"></li>
+		<li data-ej-text="Delete"></li>
 
-            </ul>
+	</ul>
 
-        </div>
-
-
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays Scrolling:
 
-![ShowScrollBars](Scrolling_images/Scrolling_img1.png)
-
-
-
+![](Scrolling_images/Scrolling_img1.png)

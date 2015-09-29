@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Footer-Dependency-files
+title: Mobile Footer Dependency files | Header and Footer | Mobilejs | Syncfusion
 description: mobile-footer-dependency-files
 platform: Mobilejs
 control: Header and Footer (Mobile)
@@ -51,4 +51,3 @@ It is used to render the Footer control that holds all the properties, events, a
 ej.mobile.button.min.js</td><td>
 It is referred to handle button related configuration, while rendering Footer.</td></tr>
 </table>
-

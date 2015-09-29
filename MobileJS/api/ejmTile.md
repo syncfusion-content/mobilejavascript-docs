@@ -1,38 +1,19 @@
 ---
 layout: post
-title: ejmTile
+title: ejmTile | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmTile, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html Tile control.
+# ejmTile
 
-
-
-
-
-
-
-
-
+Custom Design for Html Tile control.
 
 $(element).ejmTile<span class="signature">()</span>
 
-
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="tile" data-role="ejmtile" data-ej-imagepath="themes/sample/tile" data-ej-imageurl="people.png"></div>
@@ -52,8 +33,7 @@ $("#tile").ejmTile({ imagePath: "themes/sample/tile", imageUrl: "people.png" });
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 
@@ -115,7 +95,7 @@ Section for android rendermode specific functionalities.
 
 
 
-### android.textPosition<span class="type-signature type enum">enum</span>
+### android.textPosition`enum`
 {:#members:android-textposition}
 
 
@@ -130,8 +110,7 @@ Specifies the position of the tile text. i.e inner or outer.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -147,8 +126,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -180,7 +158,7 @@ $("#tile").ejmTile("option", "android.textPosition", "outer");            {% end
 
 
 
-### backgroundColor<span class="type-signature type string">string</span>
+### backgroundColor`string`
 {:#members:backgroundcolor}
 
 
@@ -195,8 +173,7 @@ Changes the background color of Tile.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -212,8 +189,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -245,7 +221,7 @@ $("#tile").ejmTile("option", "backgroundColor", "black");            {% endhighl
 
 
 
-### badge<span class="type-signature type object">object</span>
+### badge`object`
 {:#members:badge}
 
 
@@ -267,7 +243,7 @@ Section for badge specific functionalities.
 
 
 
-### badge.enabled<span class="type-signature type boolean">boolean</span>
+### badge.enabled`boolean`
 {:#members:badge-enabled}
 
 
@@ -282,8 +258,7 @@ Specifies whether to enable badge or not.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -299,8 +274,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -332,7 +306,7 @@ $("#tile").ejmTile("option", "badge.enabled", true);            {% endhighlight 
 
 
 
-### badge.maxValue<span class="type-signature type number">number</span>
+### badge.maxValue`number`
 {:#members:badge-maxvalue}
 
 
@@ -347,8 +321,7 @@ Specifies maximum value for tile badge.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -364,8 +337,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -397,7 +369,7 @@ $("#tile").ejmTile("option", "badge.maxValue", 3);            {% endhighlight %}
 
 
 
-### badge.minValue<span class="type-signature type number">number</span>
+### badge.minValue`number`
 {:#members:badge-minvalue}
 
 
@@ -412,8 +384,7 @@ Specifies minimum value for tile badge.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -429,8 +400,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -462,7 +432,7 @@ $("#tile").ejmTile("option", "badge.minValue", 5);            {% endhighlight %}
 
 
 
-### badge.text<span class="type-signature type string">string</span>
+### badge.text`string`
 {:#members:badge-text}
 
 
@@ -477,8 +447,7 @@ Specifies text instead of number for tile badge.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -494,8 +463,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -527,7 +495,7 @@ $("#tile").ejmTile("option", "badge.text", "ten");            {% endhighlight %}
 
 
 
-### badge.value<span class="type-signature type number">number</span>
+### badge.value`number`
 {:#members:badge-value}
 
 
@@ -542,8 +510,7 @@ Sets value for tile badge.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -559,8 +526,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -592,7 +558,7 @@ $("#tile").ejmTile("option", "badge.value", 5);            {% endhighlight %}
 
 
 
-### captionTemplateId<span class="type-signature type string">string</span>
+### captionTemplateId`string`
 {:#members:captiontemplateid}
 
 
@@ -607,8 +573,7 @@ Specifies the tile text in outside template content.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -624,8 +589,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -661,7 +625,7 @@ $("#tile").ejmTile("option", "captionTemplateId", "sample");            {% endhi
 
 
 
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
 
 
@@ -676,8 +640,7 @@ Sets the root class for Tile theme. This cssClass API helps to use custom skinni
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -693,8 +656,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -726,7 +688,7 @@ $("#tile").ejmTile("option", "cssClass", "customclass");            {% endhighli
 
 
 
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
 
 
@@ -741,8 +703,7 @@ Saves current model value to browser cookies for state maintains. While refreshi
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -758,8 +719,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -791,7 +751,7 @@ $("#tile").ejmTile("option", "enablePersistence", true);            {% endhighli
 
 
 
-### height<span class="type-signature type number">number</span>
+### height`number`
 {:#members:height}
 
 
@@ -806,8 +766,7 @@ Customize the tile size height.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -823,8 +782,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -856,7 +814,7 @@ $("#tile").ejmTile("option", "height", 300);            {% endhighlight %}
 
 
 
-### imageClass<span class="type-signature type string">string</span>
+### imageClass`string`
 {:#members:imageclass}
 
 
@@ -871,8 +829,7 @@ Specifies Tile imageclass, using this property we can give images for each tile 
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -888,8 +845,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -933,7 +889,7 @@ $("#tile").ejmTile("option", "imageClass", "sample");            {% endhighlight
 
 
 
-### imagePath<span class="type-signature type string">string</span>
+### imagePath`string`
 {:#members:imagepath}
 
 
@@ -948,8 +904,7 @@ Specifies the file path of tile image.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -965,8 +920,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -998,7 +952,7 @@ $("#tile").ejmTile("option", "imagePath", "themes/sample/tile");            {% e
 
 
 
-### imagePosition<span class="type-signature type enum">enum</span>
+### imagePosition`enum`
 {:#members:imageposition}
 
 
@@ -1013,8 +967,7 @@ Specifies the position of tile image.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1030,8 +983,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1063,7 +1015,7 @@ $("#tile").ejmTile("option", "imagePosition", "right");            {% endhighlig
 
 
 
-### imageTemplateId<span class="type-signature type string">string</span>
+### imageTemplateId`string`
 {:#members:imagetemplateid}
 
 
@@ -1078,8 +1030,7 @@ Specifies the tile image in outside template content.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1095,8 +1046,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1132,7 +1082,7 @@ $("#tile").ejmTile("option", "imageTemplateId", "sample");            {% endhigh
 
 
 
-### imageUrl<span class="type-signature type string">string</span>
+### imageUrl`string`
 {:#members:imageurl}
 
 
@@ -1147,8 +1097,7 @@ Specifies the file name of tile image.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1164,8 +1113,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1219,7 +1167,7 @@ Section for ios7 rendermode specific functionalities.
 
 
 
-### ios7.textPosition<span class="type-signature type enum">enum</span>
+### ios7.textPosition`enum`
 {:#members:ios7-textposition}
 
 
@@ -1234,8 +1182,7 @@ Specifies the position of the tile text. i.e inner or outer.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1251,8 +1198,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1284,7 +1230,7 @@ $("#tile").ejmTile("option", "ios7.textPosition", "outer");            {% endhig
 
 
 
-### livetile<span class="type-signature type object">object</span>
+### livetile`object`
 {:#members:livetile}
 
 
@@ -1306,7 +1252,7 @@ Section for livetile specific functionalities.
 
 
 
-### livetile.enabled<span class="type-signature type boolean">boolean</span>
+### livetile.enabled`boolean`
 {:#members:livetile-enabled}
 
 
@@ -1321,8 +1267,7 @@ Specifies whether to enable livetile or not.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1338,8 +1283,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1371,7 +1315,7 @@ $("#tile").ejmTile("option", "liveTile.enabled", true);            {% endhighlig
 
 
 
-### livetile.imageClass<span class="type-signature type string">string</span>
+### livetile.imageClass`string`
 {:#members:livetile-imageclass}
 
 
@@ -1386,8 +1330,7 @@ Specifies liveTile images in css classes.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1403,8 +1346,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1464,7 +1406,7 @@ $("#tile").ejmTile("option", "liveTile.imageClass", ['img1','img2','img3']);    
 
 
 
-### livetile.imageTemplateId<span class="type-signature type string">string</span>
+### livetile.imageTemplateId`string`
 {:#members:livetile-imagetemplateid}
 
 
@@ -1479,8 +1421,7 @@ Specifies liveTile images in templates.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1496,8 +1437,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1541,7 +1481,7 @@ $("#tile").ejmTile("option", "liveTile.imageTemplateId", ['img1','img2','img3'])
 
 
 
-### livetile.imageUrl<span class="type-signature type string">string</span>
+### livetile.imageUrl`string`
 {:#members:livetile-imageurl}
 
 
@@ -1556,8 +1496,7 @@ Specifies liveTile images in css classes.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1573,8 +1512,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1606,7 +1544,7 @@ $("#tile").ejmTile("option", "liveTile.imageUrl", ['people.png','sports.png','se
 
 
 
-### livetile.type<span class="type-signature type enum">enum</span>
+### livetile.type`enum`
 {:#members:livetile-type}
 
 
@@ -1621,8 +1559,7 @@ Specifies liveTile type for Tile. i.e flip, slide or carousel
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1638,8 +1575,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1671,7 +1607,7 @@ $("#tile").ejmTile("option", "liveTile.type", "carousel");            {% endhigh
 
 
 
-### livetile.updateInterval<span class="type-signature type number">number</span>
+### livetile.updateInterval`number`
 {:#members:livetile-updateinterval}
 
 
@@ -1686,8 +1622,7 @@ Specifies time interval between two successive livetile animation
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1703,8 +1638,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1736,7 +1670,7 @@ $("#tile").ejmTile("option", "liveTile.updateInterval", 1000);            {% end
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -1751,8 +1685,7 @@ Changes the rendering mode of Tile.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1768,8 +1701,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1801,7 +1733,7 @@ $("#tile").ejmTile("option", "renderMode", "android");            {% endhighligh
 
 
 
-### showText<span class="type-signature type boolean">boolean</span>
+### showText`boolean`
 {:#members:showtext}
 
 
@@ -1816,8 +1748,7 @@ Specifies whether the tile text to be shown or hidden.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1833,8 +1764,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1866,7 +1796,7 @@ $("#tile").ejmTile("option", "showText", false);            {% endhighlight %}
 
 
 
-### text<span class="type-signature type string">string</span>
+### text`string`
 {:#members:text}
 
 
@@ -1881,8 +1811,7 @@ Changes the text of a tile.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1898,8 +1827,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1931,7 +1859,7 @@ $("#tile").ejmTile("option", "text", "Settings");            {% endhighlight %}
 
 
 
-### textAlignment<span class="type-signature type enum">enum</span>
+### textAlignment`enum`
 {:#members:textalignment}
 
 
@@ -1946,8 +1874,7 @@ Aligns the text of a tile. i.e left, right or center.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1963,8 +1890,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1996,7 +1922,7 @@ $("#tile").ejmTile("option", "textAlignment", "left");            {% endhighligh
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -2011,8 +1937,7 @@ Changes the theme of Tile.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2028,8 +1953,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2061,7 +1985,7 @@ $("#tile").ejmTile("option", "theme", "dark");            {% endhighlight %}
 
 
 
-### tileSize<span class="type-signature type enum">enum</span>
+### tileSize`enum`
 {:#members:tilesize}
 
 
@@ -2076,8 +2000,7 @@ Specifies the size of a tile. i.e small, medium, large or wide.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2093,8 +2016,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2126,7 +2048,7 @@ $("#tile").ejmTile("option", "tileSize", "medium");            {% endhighlight %
 
 
 
-### width<span class="type-signature type number">number</span>
+### width`number`
 {:#members:width}
 
 
@@ -2141,8 +2063,7 @@ Customize the tile size width.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2158,8 +2079,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2198,7 +2118,7 @@ $("#tile").ejmTile("option", "width", 300);            {% endhighlight %}
 
 
 
-### updateTemplate<span class="signature">()</span>
+### updateTemplate`()`
 {:#methods:updatetemplate}
 
 
@@ -2214,8 +2134,7 @@ Update the image template to another one.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2309,8 +2228,7 @@ Event triggers when the touchend happens in the tile
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2408,8 +2326,7 @@ Event triggers when the touchstart happens in the tile
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

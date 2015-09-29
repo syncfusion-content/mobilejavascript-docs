@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | Tile | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: Tile (Mobile)

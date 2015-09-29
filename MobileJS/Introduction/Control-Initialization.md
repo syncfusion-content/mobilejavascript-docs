@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Control-Initialization
+title: Control Initialization | Introduction | Mobilejs | Syncfusion
 description: control initialization
 platform: Mobilejs
 control: Introduction
@@ -16,19 +16,16 @@ AppView acts as a base container for an EJ Mobile application and also acts like
 ### Initializing AppView [optional]
 
 Set the data-role attribute of a “div” to appview as shown in the following code example to initialize an AppView. It should be created as an immediate child of the body element.
+
 {% highlight html %}
 
 <body>
 
-      <!-- appview initialization -->
+	<!-- appview initialization -->
 
+	<div data-role="appview"> Mobile JS Application 
 
-
-      <div data-role="appview"> Mobile JS Application 
-
-
-
-      </div>
+	</div>
 
 </body>
 
@@ -46,21 +43,13 @@ The AppView is linked with single or multiple pages and takes care of the page t
 
 <script type ="text/javascript">
 
+function loadPage() {
 
-
-    function loadPage() {
-
-
-
-        //Navigate to the page2 
+//Navigate to the page2 
 
 App.transferPage(App.activePage, "page2.html"); 
 
-
-
-    }
-
-
+}
 
 </script>
 
@@ -92,33 +81,28 @@ In this transition, the old AppView turns leftwards and the new AppView appears 
 
 
 {% highlight html %}
-   <div data-role="appview">
+ 
+<div data-role="appview">
 
+	<!--Application contents-->
 
+	<a href="page2.html" data-ej-apptransition="pop">Move to Page 2</a>
 
-       <!--Application contents-->
-
-       <a href="page2.html" data-ej-apptransition="pop">Move to Page 2</a>
-
-
-
-   </div>
+</div>
 
 {% endhighlight %}
 
 To reverse a particular page transition and to simulate a history back navigation, you need to set the data-ej-appdirection attribute of the navigation element to reverse as shown here,
 
-
 {% highlight html %}
-   <div data-role="appview">
 
+<div data-role="appview">
 
+   <!--Application contents-->
 
-       <!--Application contents-->
+   <a href="page2.htm" data-ej-apptransition="pop" data-ej-appdirection="reverse">Move to Page 2</a>
 
-       <a href="page2.htm" data-ej-apptransition="pop" data-ej-appdirection="reverse">Move to Page 2</a>
-
-   </div>
+</div>
 
 {% endhighlight %}
 
@@ -136,25 +120,15 @@ Meta tags are required to render the web pages according to the device dimension
 
     <meta charset="UTF-8">
 
-
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-
 
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-
-
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-
-
 
     <title>My first HTML page</title>
 
     <!-- CSS and Script reference section -->
-
-
 
   </head>
 
@@ -244,11 +218,7 @@ Navigating to the specified location given here, you can find all the required m
 
 <installed location>\Syncfusion\Essential Studio\13.1.0.21\JavaScript\assets\css\mobile
 
-
-
 For example, If you have installed the Essential Studio package within C:\Program Files (x86), then navigate to the below location,
-
-
 
 C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\JavaScript\assets\css\mobile
 
@@ -259,9 +229,8 @@ Create a first level sub-folder named “ej” within the Content folder. Now, c
 
 ![](Control-Initialization_images/Control-Initialization_img2.png)
 
-
-
-_css file copied into the Content folder of the Sample Project_
+css file copied into the Content folder of the Sample Project
+{:.caption}
 
 Include the reference to the copied stylesheet file, ej.mobile.all.min.css, into your HTML file. Referred here is the combined theme file, within the head section as shown here,
 
@@ -275,21 +244,14 @@ Include the reference to the copied stylesheet file, ej.mobile.all.min.css, into
 
         <title>My first HTML page</title>
 
-
-
         <link href="Content/ej/mobile/ej.mobile.all.min.css" rel="stylesheet" />
 
-
-
     </head>
-
-
-
+	
     <body>    
 
     </body>
-
-
+	
 </html>
 
 {% endhighlight %}
@@ -305,44 +267,33 @@ Adding and referring the required JavaScript files into the same HTML file plays
 
 Navigating to the specified location, you can find the above specified dependency script files that you need to copy and paste into the Scripts folder of your application,
 
-
 {% highlight text%}
-<installed location>\ Syncfusion\Essential Studio\13.1.0.21\JavaScript\assets\external 
 
-
+&lt;installed location&gt;\ Syncfusion\Essential Studio\13.1.0.21\JavaScript\assets\external 
 
 For example, If you have installed the Essential Studio package within C:\Program Files (x86), then navigate to the below location,
-
-
 
 C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\JavaScript\assets\external
 
 {% endhighlight %}
 
-
-
 Apart from the above common scripts, it is also necessary to refer the ej.mobile.all.min.js file, that contains all the JavaScript mobile components scripts together in a minified format.
 
 N> ej.mobile.all.min.js file bundles together the scripts of all the EJ mobile components as well as the other common scripts such as ej.core, ej.unobtrusive, ej.mobile.core, ej.mobile.application, ej.touch & so on.
 
-
-
 Navigate to the specified location and copy the ej.mobile.all.min.js file, that needs to then be pasted onto the ej sub-folder, create a new sub-folder ej under the Scripts folder, within the Scripts folder. 
 
 {% highlight text %}
-<installed location>\ Syncfusion\Essential Studio\13.1.0.21\JavaScript\assets\scripts\mobile
 
-
+&lt;installed location&gt;\ Syncfusion\Essential Studio\13.1.0.21\JavaScript\assets\scripts\mobile
 
 For example, If you have installed the Essential Studio package within C:\Program Files (x86), then navigate to the below location,
 
-
 C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\JavaScript\assets\scripts\mobile
+
 {% endhighlight %}
 
 ![](Control-Initialization_images/Control-Initialization_img3.png)
-
-
 
 Now, include the reference to it in your HTML file within the head section as shown here,
 
@@ -356,9 +307,9 @@ Now, include the reference to it in your HTML file within the head section as sh
 
     <title>My first HTML page</title>
 
-<link href="Content/ej/mobile/ej.mobile.all.min.css" rel="stylesheet" />
+	<link href="Content/ej/mobile/ej.mobile.all.min.css" rel="stylesheet" />
 
-<script src="Scripts/jquery-1.10.2.min.js"></script>
+	<script src="Scripts/jquery-1.10.2.min.js"></script>
 
     <script src="Scripts/jquery.globalize.min.js"></script>
 
@@ -382,9 +333,7 @@ N> The order of the reference to the script files made in the above section shou
 
 To add any of the Syncfusion Mobile controls into your HTML page,
 
-1. Add the <input> element within the appview container and initialize its data-role attribute with ejmDatePicker widget name and then further define its other properties prefixed with the keyword data-ej as shown below.
-
-
+1. Add the &lt;input&gt; element within the appview container and initialize its data-role attribute with ejmDatePicker widget name and then further define its other properties prefixed with the keyword data-ej as shown below.
 
 N> The meta tag also has been added to render the application based on the device dimensions
 
@@ -400,7 +349,7 @@ N> The meta tag also has been added to render the application based on the devic
 
         <title>My first HTML page</title>
 
-<link href="Content/ej/mobile/ej.mobile.all.min.css" rel="stylesheet" />
+		<link href="Content/ej/mobile/ej.mobile.all.min.css" rel="stylesheet" />
 
         <script src="Scripts/jquery-1.10.2.min.js"></script>
 
@@ -418,13 +367,9 @@ N> The meta tag also has been added to render the application based on the devic
 
        <div class="sample" style="padding:15px;">
 
-
-
        <!-- Initialization of ejmDatePicker widget-->
 
        <input id="startDate" data-role="ejmdatepicker" data-ej-value="01/01/2000" />
-
-
 
 </div>
 
@@ -438,9 +383,7 @@ N> The meta tag also has been added to render the application based on the devic
 
 Open your HTML page in any of the mobile browser and the screen displays the DatePicker widget as shown here,
 
-![C:/Users/Vignesh Kumar/Desktop/IMG_0516_iphone5s_spacegrey_portrait(1).png](Control-Initialization_images/Control-Initialization_img4.png)
-
-
+![](Control-Initialization_images/Control-Initialization_img4.png)
 
 ### Using Syncfusion Nuget Package in Visual Studio for Scripts and Stylesheet reference
 
@@ -448,23 +391,17 @@ Start Visual Studio. Create a new ASP.NET Empty Web Application or ASP.NET Empty
 
 ![](Control-Initialization_images/Control-Initialization_img5.png)
 
-
-
 #### Configuring and Installing Nuget into your project
 
 To add the required scripts and css files automatically into your Project - Configure the Syncfusion Nuget Package for JavaScript in Visual Studio initially, before proceeding with the following installation procedure.
 
 1. Right-click on your project in the Solutions Explorer and select “Manage Nuget Packages” options from the sub-menu that pop-up on the screen. In the Manage Nuget Packages dialog, select the Syncfusion Nuget Packages within the Online tab, that displays the list of available packages in it, as shown here.
 
-![](Control-Initialization_images/Control-Initialization_img6.png)
-
-
+   ![](Control-Initialization_images/Control-Initialization_img6.png)
 
 You need to install the SyncfusionJavaScript package shown in the above image just by clicking the Install button. The following image depicts the Nuget Packages for JavaScript have been successfully installed into your project.
 
 ![](Control-Initialization_images/Control-Initialization_img7.png)
-
-
 
 Once the package installation is completed, all the required scripts and css files are automatically added to your application. 
 
@@ -473,8 +410,6 @@ Once the package installation is completed, all the required scripts and css fil
 Right-click on your Project in the Solution Explorer. Select Add -> New Item -> HTML Page and add it to your application. The blank HTML page gets added to your application.
 
 ![](Control-Initialization_images/Control-Initialization_img8.png)
-
-
 
 #### Adding reference to the required Stylesheets
 
@@ -516,9 +451,9 @@ It is mandatory to include the reference to the required JavaScript files in you
 
        <title>My first HTML page</title>
 
-<link href="Content/ej/mobile/ej.mobile.all.min.css" rel="stylesheet" />
+		<link href="Content/ej/mobile/ej.mobile.all.min.css" rel="stylesheet" />
 
-<script src="Scripts/jquery-1.10.2.min.js"></script>
+		<script src="Scripts/jquery-1.10.2.min.js"></script>
 
        <script src="Scripts/jquery.globalize.min.js"></script>
 
@@ -536,15 +471,11 @@ It is mandatory to include the reference to the required JavaScript files in you
 
 {% endhighlight %}
 
-
-
 N> The order of the reference to the script files made in the above section should be maintained in the same manner as mentioned above.
-
-
 
 ##### Adding Syncfusion mobile Widget into your HTML page
 
-Add the <input> element within the appview container and initialize its data-role attribute with ejmDatePicker widget name and then further define its other properties prefixed with the keyword data-ej as shown here.
+Add the &lt;input&gt; element within the appview container and initialize its data-role attribute with ejmDatePicker widget name and then further define its other properties prefixed with the keyword data-ej as shown here.
 
 N> The meta tag also has been added to render the application based on the device dimensions.
 
@@ -579,8 +510,6 @@ N> The meta tag also has been added to render the application based on the devic
 
        <div class="sample" style="padding:15px;">
 
-
-
        <!--Container for ejmDatePicker widget-->
 
        <input id="startDate" data-role="ejmdatepicker" data-ej-value="01/01/2000" />
@@ -598,8 +527,6 @@ N> The meta tag also has been added to render the application based on the devic
 Open your HTML page in any mobile browser and the screen displays the DatePicker widget as shown here.
 
 ![](Control-Initialization_images/Control-Initialization_img9.png)
-
-
 
 ### Using CDN link for Script and Stylesheet reference 
 
@@ -623,23 +550,13 @@ Referred here is the cdn link of ej.mobile.all.min.css. Likewise, any of the ava
 
         <link href="http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css" rel="stylesheet" />
 
-
-
         <script src="http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js"></script>
-
-
 
         <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
 
-
-
         <script src="http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js"></script>
 
-
-
         <script src="http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js"></script>
-
-
 
     </head>
 
@@ -665,25 +582,15 @@ Add the <input> element within the appview container and initialize its data-rol
 
         <title>My first HTML page</title>
 
-<link href="http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css" rel="stylesheet" />
-
-
+		<link href="http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css" rel="stylesheet" />
 
         <script src="http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js"></script>
 
-
-
         <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
-
-
 
         <script src="http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js"></script>
 
-
-
         <script src="http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js"></script>
-
-
 
     </head>
 
@@ -702,4 +609,3 @@ Add the <input> element within the appview container and initialize its data-rol
 </html>
 
 {% endhighlight %}
-

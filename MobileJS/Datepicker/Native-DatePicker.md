@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Native-DatePicker
+title: Native DatePicker | DatePicker | Mobilejs | Syncfusion
 description: native datepicker
 platform: Mobilejs
 control: DatePicker (Mobile)
@@ -13,20 +13,10 @@ The data-ej-renderdefault attributes is used to enable the iOS7 native DatePicke
 
 {% highlight html %}
 
-
-
 <input id="datepicker" data-role="ejmdatepicker" data-ej-rendermode="ios7" data-ej-ios7-renderdefault=true />
 
-
-
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays the output.
 
 ![](Native-DatePicker_images/Native-DatePicker_img1.png)
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Expand-multiple-content
+title: Expand multiple content | Accordion | Mobilejs | Syncfusion
 description: expand multiple content
 platform: Mobilejs
 control: Accordion (Mobile)

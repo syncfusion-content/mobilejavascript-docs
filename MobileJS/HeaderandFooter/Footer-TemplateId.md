@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Footer-TemplateId
+title: Footer TemplateId | Header and Footer | Mobilejs | Syncfusion
 description: footer templateid
 platform: Mobilejs
 control: Header and Footer (Mobile)
@@ -13,25 +13,16 @@ Footer has template support feature. The data-ej-templateid attribute is used to
 
 {% highlight html %}
 
+<div id="footer_sample" data-role="ejmfooter" data-ej-templateid="template"></div>
 
+<div id="template" class="temp">
 
-<div id="footer_sample" data-role="ejmfooter" data-ej-templateid="template" ></div>
+	<div id="rating" data-role="ejmrating"></div>
 
-   <div id="template" class="temp">
-
-   <div id="rating" data-role="ejmrating" ></div>
-
-   </div>  
-
-
+</div>  
 
 {% endhighlight %}
 
 The following screenshot displays the output.
 
-![F:/ios7_phone.png](Footer-TemplateId_images/Footer-TemplateId_img1.png)
-
-
-
-
-
+![](Footer-TemplateId_images/Footer-TemplateId_img1.png)

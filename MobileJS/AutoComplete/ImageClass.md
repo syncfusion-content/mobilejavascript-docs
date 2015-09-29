@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ImageClass
+title: ImageClass | AutoComplete| Mobilejs | Syncfusion
 description: imageclass
 platform: Mobilejs
 control: AutoComplete (Mobile) 
@@ -15,45 +15,38 @@ The data-ej-imageclass attribute is used to map the specific field name of the g
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-datasource="window.datacont" data-ej-fields-text="country" data-ej-imageclass="flag" />
 
-
-
 {% endhighlight %}
-
-
 
 Add the following script
 
 {% highlight js %}
 
-        var datacont = [
+var datacont = [
 
-{
+    {
 
-"country": "Afghanistan",
+        "country": "Afghanistan",
 
-"flag": "afghan"
+        "flag": "afghan"
 
-},
+    },
 
+    {
 
+        "country": "Argentina",
 
-{
+        "flag": "argen"
 
-"country": "Argentina",
+    },
 
-"flag": "argen"
+    {
 
-},
+        "country": "Australia",
 
-{
+        "flag": "aust"
 
-"country": "Australia",
-
-"flag": "aust"
-
-}];
-
-
+    }
+];
 
 {% endhighlight %}
 
@@ -63,44 +56,38 @@ Add the following style.
 
 {% highlight css %}
 
-        .afghan {
+.afghan {
 
-        background-image: url("../themes/sample/autocomplete/afghanistan.png");
+background-image: url("../themes/sample/autocomplete/afghanistan.png");
 
-        background-position: center center;
+background-position: center center;
 
-        background-size: 30px 30px;
+background-size: 30px 30px;
 
-        }
+}
 
-        .argen {
+.argen {
 
-        background-image: url("../themes/sample/autocomplete/argentina.png");
+background-image: url("../themes/sample/autocomplete/argentina.png");
 
-        background-position: center center;
+background-position: center center;
 
-       background-size: 30px 30px;
+background-size: 30px 30px;
 
-        }
+}
 
-        .aust {
+.aust {
 
-        background-image: url("../themes/sample/autocomplete/australia.png") ;
+background-image: url("../themes/sample/autocomplete/australia.png") ;
 
-        background-position: center center;
+background-position: center center;
 
-        background-size: 30px 30px;
+background-size: 30px 30px;
 
-        }
-
-
+}
 
 {% endhighlight %}
 
-
-
 The following screenshot displays ImageClass:
 
-![C:/Users/apoorvah.ramanathan/Desktop/1.png](Image-customization_images/Image-customization_img2.png)
-
-
+![](Image-customization_images/Image-customization_img2.png)

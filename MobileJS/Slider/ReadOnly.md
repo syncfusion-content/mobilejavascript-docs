@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ReadOnly
+title: ReadOnly | Slider | Mobilejs | Syncfusion
 description: readonly
 platform: Mobilejs
 control: Slider (Mobile)
@@ -13,9 +13,6 @@ The data-ej-readonly attribute makes the Slider control to be fixed. When data-e
 
 {% highlight html %}
 
-           <div id="slider_sample" data-role="ejmslider" data-ej-readonly="true"> </div>
+<div id="slider_sample" data-role="ejmslider" data-ej-readonly="true"> </div>
 
 {% endhighlight %}
-
-
-

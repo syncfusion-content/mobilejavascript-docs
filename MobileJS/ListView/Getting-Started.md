@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | ListView | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: ListView (Mobile)
@@ -15,13 +15,7 @@ This section explains briefly on how to create a ListView control in your applic
 
 Essential JavaScript Mobile ListView widget builds an interactive list view interface. This control allows you to select an item from a list-like interface and provides the infrastructure to display a set of data items in different layouts or views. Lists display data, data navigation, result lists, and data entry.
 
-
-
-![C:/Users/isuriyar/Desktop/image122_4.jpg](Getting-Started_images/Getting-Started_img1.jpeg)
-
-
-
-
+![](Getting-Started_images/Getting-Started_img1.jpeg)
 
 The following steps help you to add a ListView control for a mobile application that views a list of items such as images, text and navigates to the child item when you click a list item.
 
@@ -35,43 +29,39 @@ Essential JavaScript Mobile ListView widget is rendered, either by specifyin
 
 <!DOCTYPE html>
 
-
-
 <html>
 
-<head>
+	<head>
 
-    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+	    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
 
-    <title>ListView</title>
+	    <title>ListView</title>
 
-<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+		<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>      
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>      
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
 
-<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-    <div data-role="appview">
+	    <div data-role="appview">
 
-        <!--Add Header Element Here-->
+	        <!--Add Header Element Here-->
 
-        <!--Add Listview Element Here-->
+	        <!--Add Listview Element Here-->
 
-    </div>
+	    </div>
 
-</body>
+	</body>
 
 </html>
-
-
 
 {% endhighlight %}
 
@@ -79,11 +69,7 @@ Essential JavaScript Mobile ListView widget is rendered, either by specifyin
 
 Here, you can learn how ListView with items are grouped together using the grouplist feature in ListView. To enable this, you can set the “data-ej-enablegrouplist” attribute to “True” and you can also provide individual header titles for each group by setting the “data-ej-grouplisttitle” attribute. The list <li> element with “data-ej-text” attribute is added to render list items. By default the content scrolling is enabled for ListView content.
 
-
-
 {% highlight html %}
-
-
 
 <div data-role="ejmlistview" id="grouplistsamp" data-ej-showheader="true" data-ej-enablegrouplist="true" data-ej-headertitle="MailBoxes">
 
@@ -115,17 +101,11 @@ Here, you can learn how ListView with items are grouped together using the group
 
 </div>       
 
-
-
 {% endhighlight %}
+
 Run the above code and you can see the following output.
 
-
-
-![C:/Users/isuriyar/Desktop/image122_1.jpg](Getting-Started_images/Getting-Started_img2.jpeg)
-
-
-
+![](Getting-Started_images/Getting-Started_img2.jpeg)
 
 ### Add Images
 
@@ -135,141 +115,105 @@ The following code example displays how to add images to the ListView.
 
 {% highlight html %}
 
+<div data-role="ejmlistview" id="grouplistsamp" data-ej-showheader="true" data-ej-enablegrouplist="true" data-ej-headertitle="MailBoxes">
 
+	<ul data-ej-grouplisttitle="Mailboxes">
 
-    <div data-role="ejmlistview" id="grouplistsamp" data-ej-showheader="true" data-ej-enablegrouplist="true" data-ej-headertitle="MailBoxes">
+		<!-- Adding the Child Items for List -->
 
-        <ul data-ej-grouplisttitle="Mailboxes">
+		<li data-ej-text="Inbox" data-ej-imageclass="icn-inbox"></li>
 
-            <!-- Adding the Child Items for List -->
+		<li data-ej-text="VIP" data-ej-imageclass="icn-vip"></li>
 
-            <li data-ej-text="Inbox" data-ej-imageclass="icn-inbox"></li>
+	</ul>
 
-            <li data-ej-text="VIP" data-ej-imageclass="icn-vip"></li>
+	<ul data-ej-grouplisttitle="Labels">
 
-        </ul>
+		<li data-ej-text="Draft" data-ej-imageclass="icn-draft"></li>
 
-        <ul data-ej-grouplisttitle="Labels">
+		<li data-ej-text="Sent" data-ej-imageclass=" icn-sent"></li>
 
-            <li data-ej-text="Draft" data-ej-imageclass="icn-draft"></li>
+		<li data-ej-text="Junk" data-ej-imageclass=" icn-junk"></li>
 
-            <li data-ej-text="Sent" data-ej-imageclass=" icn-sent"></li>
+		<li data-ej-text="Trash" data-ej-imageclass="icn-trash"></li>
 
-            <li data-ej-text="Junk" data-ej-imageclass=" icn-junk"></li>
+		<li data-ej-text="All Mail" data-ej-imageclass="icn-allmail"></li>
 
-            <li data-ej-text="Trash" data-ej-imageclass="icn-trash"></li>
+		<li data-ej-text="Mail" data-ej-imageclass="icn-mail"></li>
 
-            <li data-ej-text="All Mail" data-ej-imageclass="icn-allmail"></li>
+	</ul>
 
-            <li data-ej-text="Mail" data-ej-imageclass="icn-mail"></li>
-
-        </ul>
-
-    </div>
-
-
+</div>
 
 {% endhighlight %}
-
-
 
 To set the ListView image from sprite and to position the listview images properly use the following styles.
 
 You can define the image classes specified for the list items as follows.
 
-
-
 {% highlight css %}
 
+[class*="icn-"] {
 
+	background-image: url("http://js.syncfusion.com/ug/mobile/content/listview/sprite.png");
 
-            [class*="icn-"] {
+	background-repeat: no-repeat;
 
-                background-image: url("http://js.syncfusion.com/ug/mobile/content/listview/sprite.png");
+}
 
-                background-repeat: no-repeat;
+.icn-inbox {
 
-            }
+	background-position: 0 -157px;
 
+}
 
+.icn-vip {
 
+	background-position: 0 -530px;
 
+}
 
-            .icn-inbox {
+.icn-draft {
 
-                background-position: 0 -157px;
+	background-position: 0 -78px;
 
-            }
+}
 
+.icn-sent {
 
+	background-position: 0 -372px;
 
-            .icn-vip {
+}
 
-                background-position: 0 -530px;
+.icn-junk {
 
-            }
+	background-position: 0 -227px;
 
+}
 
+.icn-trash {
 
-            .icn-draft {
+	background-position: 0 -157px;
 
-                background-position: 0 -78px;
+}
 
-            }
+.icn-allmail {
 
+	background-position: 0 0;
 
+}
 
-            .icn-sent {
+.icn-mail {
 
-                background-position: 0 -372px;
+	background-position: 0 -297px;
 
-            }
-
-
-
-            .icn-junk {
-
-                background-position: 0 -227px;
-
-            }
-
-
-
-            .icn-trash {
-
-                background-position: 0 -157px;
-
-            }
-
-
-
-            .icn-allmail {
-
-                background-position: 0 0;
-
-            }
-
-
-
-            .icn-mail {
-
-                background-position: 0 -297px;
-
-            }
-
-
-
-
+}
 
 {% endhighlight %}
-
-
 
 Run the above code and you can see the following output.
 
 ![](Getting-Started_images/Getting-Started_img3.jpeg)
-
-
 
 ### Create Child List with Template   
 
@@ -341,13 +285,7 @@ You can refer to the following code example to create a child list with template
 
 </div>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Use the following code example to add your customized template within a list item.
 
@@ -377,9 +315,7 @@ Use the following code example to add your customized template within a list ite
 
 </div>
 
-
-
-  <!--User Template Code for child item2. Code given in next step -->
+<!--User Template Code for child item2. Code given in next step -->
 
 <div class="mailcontentdiv">
 
@@ -405,59 +341,41 @@ Use the following code example to add your customized template within a list ite
 
 </div>
 
-
-
 {% endhighlight %}
-
-
 
 Use the following styles to add custom style for the template’s content.
 
 {% highlight css %}
 
+    .mailcontentdiv, .contentdiv, .subjectdiv, .titlediv {
 
+		display: inline-block;
 
-  .mailcontentdiv, .contentdiv, .subjectdiv, .titlediv {
+		padding:5px;
 
-                display: inline-block;
+		}
 
-                padding:5px;
+	.contentdiv {
 
-            }
+			font-size: 12px;
 
+			color: gray;
 
+		}
+		
+	.subjectdiv {
 
-            .contentdiv {
+			font-size: 14px;
 
-                font-size: 12px;
+		}
+		
+	.titlediv {
 
-                color: gray;
+			font-size: 18px;
 
-            }
-
-
-
-            .subjectdiv {
-
-                font-size: 14px;
-
-            }
-
-
-
-            .titlediv {
-
-                font-size: 18px;
-
-            }
-
-
-
-
+		}
 
 {% endhighlight %}
-
-
 
 In this example, you can move to the inbox page by tapping the inbox list item to render the child items in inbox.            
 
@@ -465,9 +383,4 @@ Run the above code and you can see the following output.
 
 ![](Getting-Started_images/Getting-Started_img4.jpeg)
 
-
-
-
-
 From the above steps, you have learnt how to create Essential JS Mobile ListView widget with examples. There are more customization properties other than the ones used here. To know more about the properties in Mobile ListView widget, you can refer the complete documentation page for Mobile ListView widget.
-

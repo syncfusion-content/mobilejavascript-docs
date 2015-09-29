@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enable-and-Disable
+title: Enable and Disable | TextArea | Mobilejs | Syncfusion
 description: enable and disable
 platform: Mobilejs
 control: TextArea (Mobile)
@@ -17,10 +17,6 @@ Refer to the following code example.
 
 <textarea id="textarea" data-role="ejmtextarea" data-ej-watermarktext="TextArea" data-ej-enabled="false"></textarea>
 
-
-
 {% endhighlight %}
 
 ![](Enable-and-Disable_images/Enable-and-Disable_img1.png)
-
-

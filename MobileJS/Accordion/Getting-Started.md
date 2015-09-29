@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | Accordion | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: Accordion (Mobile)
@@ -79,45 +79,45 @@ To render Accordion control, set ejmaccordion as data-role attribute to <div> el
 
 {% highlight html %}
 
-        <!--Accordion Control-->
+<!--Accordion Control-->
 
-        <div id="accordionControl" data-role="ejmaccordion">
+<div id="accordionControl" data-role="ejmaccordion">
 
-          <ul>
+  <ul>
 
-            <!--Accordion Panel 1-->
+     <!--Accordion Panel 1-->
 
-            <li data-ej-text="Recent Matches">
+     <li data-ej-text="Recent Matches">
 
-              <div>
+	     <div>
 
-                 <!--Content-->
+	          <!--Content-->
 
-              </div>
+	     </div>
 
-            </li>
+     </li>
 
-            <!--Accordion Panel 2-->
+     <!--Accordion Panel 2-->
 
-            <li data-ej-text="Upcoming Matches">
+     <li data-ej-text="Upcoming Matches">
 
-             <div>
+        <div>
 
-                 <!--Content-->
-
-             </div>
-
-            </li>
-
-            <!--Accordion Panel 3-->
-
-            <li data-ej-text="Ongoing Matches">
-
-            </li>
-
-          </ul>
+             <!--Content-->
 
         </div>
+
+     </li>
+
+     <!--Accordion Panel 3-->
+
+     <li data-ej-text="Ongoing Matches">
+
+     </li>
+
+  </ul>
+
+</div>
 
 {% endhighlight %}
 
@@ -132,41 +132,39 @@ The data-ej-selecteditems attribute is used to expand the specific content secti
 
 {% highlight html %}
 
-       <!--Accordion Control-->
+<!--Accordion Control-->
 
-        <div id="accordionControl" data-role="ejmaccordion"
+<div id="accordionControl" data-role="ejmaccordion" data-ej-selecteditems="[-1]">
 
-         data-ej-selecteditems="[-1]">
+	<ul>
 
-          <ul>
+		<!--Accordion Panel 1-->
 
-            <!--Accordion Panel 1-->
+		<li data-ej-text="Recent Matches">
 
-            <li data-ej-text="Recent Matches">
+		</li>
 
-            </li>
+        <!--Accordion Panel 2-->
 
-            <!--Accordion Panel 2-->
+        <li data-ej-text="Upcoming Matches">
 
-            <li data-ej-text="Upcoming Matches">
-
-              <div>
+        	<div>
 
                  <!--Content-->
 
-              </div>
+            </div>
 
-            </li>
+       	</li>
 
-            <!--Accordion Panel 3-->
+		<!--Accordion Panel 3-->
 
-            <li data-ej-text="Ongoing Matches">
+		<li data-ej-text="Ongoing Matches">
 
-           </li>
+		</li>
 
-          </ul>
+	</ul>
 
-        </div>
+</div>
 
 {% endhighlight %}
 
@@ -180,47 +178,45 @@ By default, header icons are not visible. To make the icons visible, set data-ej
 
 {% highlight html %}
 
-        <!--Accordion Control-->
+<!--Accordion Control-->
 
-        <div id="accordionControl" data-role="ejmaccordion"
+<div id="accordionControl" data-role="ejmaccordion" data-ej-selecteditems="[-1]" data-ej-showheadericon="true">
 
-         data-ej-selecteditems="[-1]" data-ej-showheadericon="true">
+	<ul>
 
-          <ul>
+		<!--Accordion Panel 1-->
 
-            <!--Accordion Panel 1-->
+		<li data-ej-text="Recent Matches">
 
-            <li data-ej-text="Recent Matches">
+			<div>
 
-             <div>
+				<!--Content-->
 
-                <!--Content-->
+			</div>
 
-             </div>
+		</li>
 
-            </li>
+		<!--Accordion Panel 2-->
 
-            <!--Accordion Panel 2-->
+		<li data-ej-text="Upcoming Matches">
 
-            <li data-ej-text="Upcoming Matches">
+			<div>
 
-              <div>
+				<!--Content-->
 
-                 <!--Content-->
+	        </div>
 
-              </div>
+        </li>
 
-            </li>
+        <!--Accordion Panel 3-->
 
-            <!--Accordion Panel 3-->
+		<li data-ej-text="Ongoing Matches">
 
-            <li data-ej-text="Ongoing Matches">
+		</li>
 
-            </li>
+	</ul>
 
-          </ul>
-
-        </div>
+</div>
 
 {% endhighlight %}
 
@@ -232,51 +228,41 @@ By default, all the content sections are not collapsible. To make all its conten
 
 {% highlight html %}
 
-        <!--Accordion Control-->
+<!--Accordion Control-->
 
-        <div id="accordionControl" data-role="ejmaccordion"
+<div id="accordionControl" data-role="ejmaccordion"
+		data-ej-selecteditems="[-1]" data-ej-showheadericon="true" data-ej-collapsible="true" >
 
-         data-ej-selecteditems="[-1]" data-ej-showheadericon="true"
+	<ul>
 
-         data-ej-collapsible="true" >
-
-          <ul>
-
-            <!--Accordion Panel 1-->
+		<!--Accordion Panel 1-->
 
             <li data-ej-text="Recent Matches">
-
-              <div>
-
-                <!--Content-->
-
-              </div>
-
-            </li>
-
-            <!--Accordion Panel 2-->
-
-             <li data-ej-text="Upcoming Matches">
-
-              <div>
-
-                 <!--Content-->
-
-              </div>
-
-            </li>
-
-            <!--Accordion Panel 3-->
-
-            <li data-ej-text="Ongoing Matches">
-
-           </li>
-
-          </ul>
-
-        </div>
-
-
+				<div>
+					<!--Content-->
+				</div>
+			</li>
+		<!--Accordion Panel 2-->
+		
+		<li data-ej-text="Upcoming Matches">
+		
+			<div>
+			
+				<!--Content-->
+				
+			</div>
+			
+		</li>
+		
+		<!--Accordion Panel 3-->
+		
+		<li data-ej-text="Ongoing Matches"> 
+		
+		</li>
+		
+	</ul>
+	
+</div>
 
 {% endhighlight %}
 
@@ -406,47 +392,44 @@ Use the following styles for content style.
 
 {% highlight css %}
 
-           .appview .sample{
+.appview .sample {
 
-               padding:20px;
+    padding: 20px;
+	
+}
 
-           }
+.appview .message-title {
 
-           .appview .message-title{
+    font-weight: bold;
+	
+    padding-bottom: 5px;
+	
+    padding-top: 8px;
+	
+}
+.appview .text-panel {
 
-              font-weight: bold;
+    padding-bottom: 5px;
+	
+}
+.appview .border-panel {
 
-              padding-bottom: 5px;
+    border-bottom-width: 1px;
+	
+    border-bottom-color: #C0C0C0;
+	
+    border-bottom-style: solid;
+	
+    padding-top: 5px;
+	
+}
+.appview .time-panel {
 
-              padding-top: 8px;
-
-           }
-
-           .appview .text-panel{
-
-              padding-bottom: 5px;
-
-           }
-
-           .appview .border-panel{
-
-              border-bottom-width: 1px;
-
-              border-bottom-color: #C0C0C0;
-
-              border-bottom-style: solid;
-
-              padding-top: 5px;
-
-           }
-
-           .appview .time-panel{
-
-                float: right;
-
-                font-weight: bold;
-
-            }
+    float: right;
+	
+    font-weight: bold;
+	
+}
 
 {% endhighlight %}
 
@@ -596,53 +579,64 @@ Create an HTML file with the name load.html and assign its URL to data-ej-ajaxur
 
             Brighton & Hove Albion  - 1
 
-       <div class="time-panel">
+       		<div class="time-panel">
 
-            FT</div></div>
+            FT</div>
+        </div>
 
        <div class="text-panel">vs</div>
 
        <div class="message-title">
 
-            Derby County  - 2</div>
+            Derby County  - 2
+	   </div>
 
-        <div class="border-panel"></div>
+        <div class="border-panel">
+
+		</div>
 
         <div class="message-title">
 
             Manchester United - 3
 
-       <div class="time-panel">
+	        <div class="time-panel">
 
-            FT</div></div>
+	            FT
+			</div>
+
+		</div>
 
        <div class="text-panel">vs</div>
 
        <div class="message-title">
 
-            Hull City  -  1</div>
+            Hull City  -  1
+	   </div>
 
-       <div class="border-panel"></div>
+       <div class="border-panel">
+      
+	   </div>
 
        <div class="message-title">
 
             Empoli
 
-       <div class="time-panel">
+       		<div class="time-panel">
 
-            19:00</div>
+            	19:00
+			</div>
 
-        </div>
+      </div>
 
-       <div class="text-panel">vs</div>
+      <div class="text-panel">vs</div>
 
-       <div class="message-title">
+      <div class="message-title">
 
             Crotone
 
        </div>
 
-      </div>
+	</div>
 
 </body>
 

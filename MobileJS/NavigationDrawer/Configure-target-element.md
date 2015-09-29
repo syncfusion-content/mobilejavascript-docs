@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configure-target-element
+title: Configure target element | Navigation Drawer | Mobilejs | Syncfusion
 description: configure target element
 platform: Mobilejs
 control: Navigation Drawer (Mobile)
@@ -18,8 +18,6 @@ Refer to the following code example.
   <div id="target" class="targeticon"></div>
 
     <div data-role="ejmnavigationdrawer" id="navpane" data-ej-targetid="target" data-ej-enablelistview="true" data-ej-listviewsettings-touchend="navListClick">
-
-
 
         <ul>
 
@@ -51,8 +49,6 @@ Refer to the following code example.
 
             The Home screen allows you to choose the specific content type displayed.
 
-
-
         </div>
 
         <div id="Profile" style="display: none">
@@ -61,15 +57,11 @@ Refer to the following code example.
 
         </div>
 
-
-
         <div id="Photos" style="display: none">
 
             The Photos page content is displayed.
 
         </div>
-
-
 
         <div id="Location" style="display: none">
 
@@ -87,37 +79,28 @@ Add the following style
 
 .targeticon {
 
-            background: url("http://js.syncfusion.com/UG/Mobile/Content/drawer/sprite.png") no-repeat scroll 0 -344px rgba(0, 0, 0, 0);
+	background: url("http://js.syncfusion.com/UG/Mobile/Content/drawer/sprite.png") no-repeat scroll 0 -344px rgba(0, 0, 0, 0);
 
-            height: 48px;
+	height: 48px;
 
-            left: 10px;
+	left: 10px;
 
-            position: absolute;
+	position: absolute;
 
-            top: 5px;
+	top: 5px;
 
-            width: 48px;
+	width: 48px;
 
-            z-index: 3;
+	z-index: 3;
 
-        }
+}
 
 {% endhighlight %}
-
-
 
 Refer to the script section to update the page content while clicking the item in the drawer.
 
 ![](Configure-target-element_images/Configure-target-element_img1.png)
 
-
-
 You can display the drawer either by clicking on the target icon or else by swiping from left. Refer to the following screenshot.
 
-
-
 ![](Configure-target-element_images/Configure-target-element_img2.png)
-
-
-

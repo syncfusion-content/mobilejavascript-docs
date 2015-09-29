@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ImageClass
+title: ImageClass | Button | Mobilejs | Syncfusion
 description: imageclass
 platform: Mobilejs
 control: Button (Mobile)
@@ -15,7 +15,7 @@ You can refer to the following code example.
 
 {% highlight html %}
 
- <input id="sample_button" type="button" data-role="ejmbutton" data-ej-contenttype="image" data-ej-imageclass="image" />
+<input id="sample_button" type="button" data-role="ejmbutton" data-ej-contenttype="image" data-ej-imageclass="image" />
 
 {% endhighlight %}
 
@@ -23,12 +23,12 @@ Add the following styles to the content
 
 {% highlight css %}
 
-     .image {
+.image {
 
-            background-image: url("silverlight.jpg");
+	background-image: url("silverlight.jpg");
 
-        }
+}
 		
 {% endhighlight %}
 
-![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abcd1f9.PNG](ImageClass_images/ImageClass_img1.png)
+![](ImageClass_images/ImageClass_img1.png)

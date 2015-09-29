@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Debugging
+title: Debugging | Introduction | Mobilejs | Syncfusion
 description: debugging
 platform: Mobilejs
 control: Introduction
@@ -16,15 +16,14 @@ For debugging mobile applications in iOS, Android and Windows Phone - many mobil
 
 ## Weinre
 
-
 Weinre is a remote debugger for web pages similar to firebug and web inspector which is designed to work remotely. In particular, it allows you to inspect elements in web pages on a mobile device and cannot set breakpoints in JavaScript codes.
 
 ### Install Weinre
 
 Install node.js and then type the following command in the command prompt to install the Weinre, 
 
-
 {% highlight text %}
+
 npm –g install weinre
 
 {% endhighlight %}
@@ -32,7 +31,6 @@ npm –g install weinre
 ### Starting the Weinre Server
 
 To start the Weinre server, use the following command in the command prompt,
-
 
 {% highlight text %}
 
@@ -42,11 +40,7 @@ weinre --boundHost <IPAddress> -- httpPort <port number>
 
 The output of the following command will be displayed as below,
 
-
-
 ![](Debugging_images/Debugging_img1.jpeg)
-
-
 
 ### Enabling Weinre in the application
 
@@ -56,17 +50,13 @@ Example: [http://127.0.0.1:8080](http://127.0.0.1:8080/).
 
 ![](Debugging_images/Debugging_img2.jpeg)
 
-
-
 Add the script reference shown under Target Script in html file which you want to inspect elements and launch the application in mobile device to start inspecting elements.
 
-
 {% highlight html %}
+
 <script src="http://ipaddress:8080/target/target-script-min.js#anonymous"></script>
 
 {% endhighlight %}
-
-
 
 ### Debug Client User Interface
 
@@ -76,13 +66,9 @@ In the browser, open debug client user interface link to get the list of avail
 
 ![](Debugging_images/Debugging_img3.jpeg)
 
-
-
 Click the Element tab in the browser and start debugging the elements. You can change the style, edit elements, etc.
 
 ![](Debugging_images/Debugging_img4.jpeg)
-
-
 
 ## Web Inspector
 
@@ -94,12 +80,9 @@ Web Inspector is used to debug web content on your iOS device directly from y
 
 ### Enabling Web Inspector
 
-
 On your iOS device, open Settings->Safari->Advanced and turn on Web Inspector.
 
 ![](Debugging_images/Debugging_img5.jpeg)
-
-
 
 ### Enabling Develop menu in MAC
 
@@ -107,11 +90,7 @@ On your Mac, Launch Safari. Open Safari Preferences and navigate to Advanced 
 
 ![](Debugging_images/Debugging_img6.jpeg)
 
-
-
 N> Connect your iOS device with mac using USB cable.
-
-
 
 ### Starting the Web Inspector
 
@@ -119,9 +98,6 @@ Open the mobile application to debug in iOS device. In your mac, open safar
 
 ![](Debugging_images/Debugging_img7.jpeg)
 
-
-
 ## Remote debugging using Chrome
 
 This method is used only to debug Android devices with the assist of Chrome browser. Go through this [Android USB debugging](https://developer.chrome.com/devtools/docs/remote-debugging). By following the simple steps provided in the link we can enable USB debugging for Android devices.
-

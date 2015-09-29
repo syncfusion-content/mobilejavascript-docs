@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-shape
+title: Customize shape | Rating | Mobilejs | Syncfusion
 description: customize shape
 platform: Mobilejs
 control: Rating (Mobile)
@@ -21,25 +21,14 @@ The data-ej-shape attribute is used to specify the shape of the Rating. The poss
 
 The data-ej-shapeheight attribute specifies the height for the Rating shape. The data-ej-shapewidth attribute specifies the width of the Rating shape. The data-ej-spacebetweenshapes attribute specifies the space (padding) between each rating point (element).
 
-
-
 {% highlight html %}
 
+<div id="rating_sample" data-role="ejmrating" data-ej-shape="diamond" data-ej-shapeheight=40 data-ej-shapewidth=45 data-ej-spacebetweenshapes=20>
 
-
-    <div id="rating_sample" data-role="ejmrating" data-ej-shape="diamond" data-ej-shapeheight=40 data-ej-shapewidth=45 data-ej-spacebetweenshapes=20>
-
-    </div>
-
-
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays the output.                        
 
-![C:/Users/Vignesh Kumar/Desktop/1.png](Customize-shape_images/Customize-shape_img1.png)
-
-
-
-
-
+![](Customize-shape_images/Customize-shape_img1.png)

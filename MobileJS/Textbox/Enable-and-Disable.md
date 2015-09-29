@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enable-and-Disable
+title: Enable and Disable | Textbox | Mobilejs | Syncfusion
 description: enable and disable
 platform: Mobilejs
 control: Textbox (Mobile)
@@ -19,7 +19,6 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-
 The following screenshot displays the Enabled property set to false.
 
-![D:/Final Doc/mockup/IMG_0528_iphone5s_spacegrey_portrait.png](Enable-and-Disable_images/Enable-and-Disable_img1.png)
+![](Enable-and-Disable_images/Enable-and-Disable_img1.png)

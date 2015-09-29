@@ -1,38 +1,20 @@
 ---
 layout: post
-title: ejmTimePicker
+title: ejmTimePicker | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmTimePicker, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html TimePicker control.
+# ejmTimePicker
 
-
-
-
-
-
-
-
-
+Custom Design for Html TimePicker control.
 
 $(element).ejmTimePicker<span class="signature">()</span>
 
 
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <input id="timepicker" data-role="none" />
@@ -48,8 +30,7 @@ $("#timepicker").ejmTimePicker();
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 
@@ -104,7 +85,7 @@ Requires
 
 
 
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
 
 
@@ -119,8 +100,7 @@ Sets the root class for TimePicker theme. This cssClass API helps to use custom 
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -136,8 +116,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -170,7 +149,7 @@ $("#TimePicker").ejmTimePicker("option", "cssClass", "customclass");            
 
 
 
-### enabled<span class="type-signature type boolean">boolean</span>
+### enabled`boolean`
 {:#members:enabled}
 
 
@@ -185,8 +164,7 @@ Specifies whether to enable the control on initialization.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -202,8 +180,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -236,7 +213,7 @@ $("#timepicker").ejmTimePicker("option", "enabled", true);            {% endhigh
 
 
 
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
 
 
@@ -251,8 +228,7 @@ Current model value to browser cookies for state maintains. While refresh the pa
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -268,8 +244,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -302,7 +277,7 @@ $("#TimePicker").ejmTimePicker("option", "enablePersistence", true);            
 
 
 
-### hourFormat<span class="type-signature type enum">enum</span>
+### hourFormat`enum`
 {:#members:hourformat}
 
 
@@ -317,8 +292,7 @@ Specifies the hour format See <a href="global.html#HourFormat">HourFormat</a>.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -334,8 +308,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -390,7 +363,7 @@ Section for ios7 rendermode specific functionalities.
 
 
 
-### ios7.renderDefault<span class="type-signature type boolean">boolean</span>
+### ios7.renderDefault`boolean`
 {:#members:ios7-renderdefault}
 
 
@@ -405,8 +378,7 @@ Specifies whether to use ios7 native timepicker or not.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -422,8 +394,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -455,7 +426,7 @@ $("#timepicker").ejmTimePicker("option", "ios7.renderDefault", false); {% endhig
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -470,8 +441,7 @@ Changes the rendering mode. See <a href="global.html#RenderMode">RenderMode</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -487,8 +457,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -521,7 +490,7 @@ $("#timepicker").ejmTimePicker("option", "renderMode", "auto");            {% en
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -536,8 +505,7 @@ Changes the theme. See <a href="global.html#Theme">Theme</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -553,8 +521,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -587,7 +554,7 @@ $("#timepicker").ejmTimePicker("option", "theme", "auto");            {% endhigh
 
 
 
-### timeFormat<span class="type-signature type string">string</span>
+### timeFormat`string`
 {:#members:timeformat}
 
 
@@ -602,8 +569,7 @@ Specifies the time format.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -619,8 +585,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -653,7 +618,7 @@ $("#timepicker").ejmTimePicker("option", "timeFormat", "hh:mm tt");            {
 
 
 
-### value<span class="type-signature type string">string</span>
+### value`string`
 {:#members:value}
 
 
@@ -668,8 +633,7 @@ Specifies the value.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -685,8 +649,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -741,7 +704,7 @@ Section for windows rendermode specific functionalities.
 
 
 
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
 
 
@@ -756,8 +719,7 @@ Specifies whether to render the control based on the windowsphone's current them
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -773,8 +735,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -813,7 +774,7 @@ $("#timepicker").ejmTimePicker("option", "windows.renderDefault", false); {% end
 
 
 
-### disable<span class="signature">()</span>
+### disable`()`
 {:#methods:disable}
 
 
@@ -829,8 +790,7 @@ To handle the TimePicker control disabled state
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -849,7 +809,7 @@ tpObj.disable();
 
 
 
-### enable<span class="signature">()</span>
+### enable`()`
 {:#methods:enable}
 
 
@@ -865,8 +825,7 @@ To handle the TimePicker control enabled state
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -885,7 +844,7 @@ tpObj.enable();
 
 
 
-### getValue<span class="signature">()</span>
+### getValue`()`
 {:#methods:getvalue}
 
 
@@ -901,8 +860,7 @@ To change the TimePicker control to disabled state
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -921,7 +879,7 @@ dpObj.getValue();
 
 
 
-### hide<span class="signature">()</span>
+### hide`()`
 {:#methods:hide}
 
 
@@ -937,8 +895,7 @@ To hide the TimePicker control
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -957,7 +914,7 @@ tpObj.hide();
 
 
 
-### setCurrentTime<span class="signature">()</span>
+### setCurrentTime`()`
 {:#methods:setcurrenttime}
 
 
@@ -973,8 +930,7 @@ To change the TimePicker control to disabled state
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -993,7 +949,7 @@ dpObj.setCurrentTime("05:20");
 
 
 
-### show<span class="signature">()</span>
+### show`()`
 {:#methods:show}
 
 
@@ -1009,8 +965,7 @@ To show the TimePicker control
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1100,8 +1055,7 @@ Event triggers when the time is changed.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1192,8 +1146,7 @@ Event triggers when the control is closed.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1284,8 +1237,7 @@ Event triggers when the input element is focused.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1376,8 +1328,7 @@ Event triggers when the input element is blurred.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1468,8 +1419,7 @@ Event triggers when the control is loaded.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1561,8 +1511,7 @@ Event triggers when the control is opened.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1653,8 +1602,7 @@ Event triggers when the time is selected.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
