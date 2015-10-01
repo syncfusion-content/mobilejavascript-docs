@@ -1,28 +1,19 @@
 ---
 layout: post
-title: ejmMenu
+title: ejmMenu | API Reference | Mobile JS | Syncfusion
+description: 
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmMenu, API, Essential Studio JS Autocomplete (Mobile)
 ---
 
-# Custom Design for Html Menu control.
+# ejmMenu
 
-
-
-
+Custom Design for Html Menu control.
 
 $(element).ejmMenu<span class="signature">()</span>
 
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Create Menu control in unobtrusive way.
@@ -57,10 +48,7 @@ $(function(){
 </script>{% endhighlight %}
 
 
-
-
-Requires
-{:.require}
+#### Requires
 
 
 * module:jQuery
@@ -89,7 +77,7 @@ Requires
 
 
 
-### allowScrolling<span class="type-signature type boolean">boolean</span>
+### allowScrolling`boolean`
 {:#members:allowscrolling}
 
 
@@ -98,8 +86,7 @@ Requires
 Specifies whether to allow scrolling behavior for the contents.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -108,8 +95,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}       
@@ -170,7 +156,7 @@ Section for android mode specific functionalities.
 
 
 
-### android.type<span class="type-signature type enum">enum</span>
+### android.type`enum`
 {:#members:android-type}
 
 
@@ -179,8 +165,7 @@ Section for android mode specific functionalities.
 Specifies android mode menu type.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -189,8 +174,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}   
@@ -240,7 +224,7 @@ $("#menu").ejmMenu("option", "android.type", ej.mobile.Menu.Android.Type.Context
 
 
 
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
 
 
@@ -249,8 +233,7 @@ $("#menu").ejmMenu("option", "android.type", ej.mobile.Menu.Android.Type.Context
 Sets the root class for Menu theme. This cssClass API helps to use custom skinning option for Menu control. By defining the root class using this API, we need to include this root class in CSS.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -259,8 +242,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}            
@@ -310,7 +292,7 @@ $("#menu").ejmMenu("option", "cssClass", "customclass");
 
 
 
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
 
 
@@ -319,8 +301,7 @@ $("#menu").ejmMenu("option", "cssClass", "customclass");
 Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -329,8 +310,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -378,7 +358,7 @@ $("#menu").ejmMenu("option", "enablePersistence", false);
 
 
 
-### height<span class="type-signature type int">int</span>
+### height`int`
 {:#members:height}
 
 
@@ -388,8 +368,7 @@ Specifies the height.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}   
@@ -450,7 +429,7 @@ Section for ios7 mode specific functionalities.
 
 
 
-### ios7.cancelButtonColor<span class="type-signature type enum">enum</span>
+### ios7.cancelButtonColor`enum`
 {:#members:ios7-cancelbuttoncolor}
 
 
@@ -459,8 +438,7 @@ Section for ios7 mode specific functionalities.
 Specifies cancel button color in ios7 mode.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -469,8 +447,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}            
@@ -520,7 +497,7 @@ $("#menu").ejmMenu("option", "ios7.cancelButtonColor", ej.mobile.Menu.IOS7.Cance
 
 
 
-### ios7.cancelButtonText<span class="type-signature type string">string</span>
+### ios7.cancelButtonText`string`
 {:#members:ios7-cancelbuttontext}
 
 
@@ -529,8 +506,7 @@ $("#menu").ejmMenu("option", "ios7.cancelButtonColor", ej.mobile.Menu.IOS7.Cance
 Specifies cancel button text in ios7 mode.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -539,8 +515,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}      
@@ -588,7 +563,7 @@ $("#menu").ejmMenu("option", "ios7.cancelButtonText", true);
 
 
 
-### ios7.showCancelButton<span class="type-signature type boolean">boolean</span>
+### ios7.showCancelButton`boolean`
 {:#members:ios7-showcancelbutton}
 
 
@@ -597,8 +572,7 @@ $("#menu").ejmMenu("option", "ios7.cancelButtonText", true);
 Specifies whether to show cancel button in ios7 mode.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -607,8 +581,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}         
@@ -656,7 +629,7 @@ $("#menu").ejmMenu("option", "ios7.showCancelButton", true);
 
 
 
-### ios7.showTitle<span class="type-signature type boolean">boolean</span>
+### ios7.showTitle`boolean`
 {:#members:ios7-showtitle}
 
 
@@ -665,8 +638,7 @@ $("#menu").ejmMenu("option", "ios7.showCancelButton", true);
 Specifies whether to show title in ios7 mode.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -675,8 +647,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -724,7 +695,7 @@ $("#menu").ejmMenu("option", "ios7.showTitle", true);
 
 
 
-### ios7.title<span class="type-signature type string">string</span>
+### ios7.title`string`
 {:#members:ios7-title}
 
 
@@ -733,8 +704,7 @@ $("#menu").ejmMenu("option", "ios7.showTitle", true);
 Specifies title text in ios7 mode.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -743,8 +713,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}      
@@ -792,7 +761,7 @@ $("#menu").ejmMenu("option", "ios7.title", true);
 
 
 
-### ios7.type<span class="type-signature type enum">enum</span>
+### ios7.type`enum`
 {:#members:ios7-type}
 
 
@@ -801,8 +770,7 @@ $("#menu").ejmMenu("option", "ios7.title", true);
 Specifies ios7 mode menu type.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -811,8 +779,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}          
@@ -862,7 +829,7 @@ $("#menu").ejmMenu("option", "ios7.type", ej.mobile.Menu.IOS7.Type.Auto);
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -871,8 +838,7 @@ $("#menu").ejmMenu("option", "ios7.type", ej.mobile.Menu.IOS7.Type.Auto);
 Specifies the rendering mode of the control. See <a href="global.html#RenderMode">RenderMode</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -881,8 +847,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -932,7 +897,7 @@ $("#menu").ejmMenu("option", "renderMode", ej.mobile.RenderMode.Auto);
 
 
 
-### renderTemplate<span class="type-signature type boolean">boolean</span>
+### renderTemplate`boolean`
 {:#members:rendertemplate}
 
 
@@ -941,8 +906,7 @@ $("#menu").ejmMenu("option", "renderMode", ej.mobile.RenderMode.Auto);
 Specifies whether need to render the control with the template contents.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -951,8 +915,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1000,7 +963,7 @@ $("#menu").ejmMenu("option", "renderTemplate", false);
 
 
 
-### showOn<span class="type-signature type string">string</span>
+### showOn`string`
 {:#members:showon}
 
 
@@ -1009,8 +972,7 @@ $("#menu").ejmMenu("option", "renderTemplate", false);
 Specifies in which action need to show the menu. See <a href="global.html#ShowOn">ShowOn</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1019,8 +981,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}       
@@ -1068,7 +1029,7 @@ $("#menu").ejmMenu("option", "showOn", "taphold");
 
 
 
-### showScrollbars<span class="type-signature type boolean">boolean</span>
+### showScrollbars`boolean`
 {:#members:showscrollbars}
 
 
@@ -1077,8 +1038,7 @@ $("#menu").ejmMenu("option", "showOn", "taphold");
 Specifies whether need to show the scroll bars when scrolling is allowed.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1087,8 +1047,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1136,7 +1095,7 @@ $("#menu").ejmMenu("option", "showScrollbars", true);
 
 
 
-### targetId<span class="type-signature type string">string</span>
+### targetId`string`
 {:#members:targetid}
 
 
@@ -1146,8 +1105,7 @@ Specifies ID of target element.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1195,7 +1153,7 @@ $("#menu").ejmMenu("option", "targetId", "menu");
 
 
 
-### templateId<span class="type-signature type string">string</span>
+### templateId`string`
 {:#members:templateid}
 
 
@@ -1204,8 +1162,7 @@ $("#menu").ejmMenu("option", "targetId", "menu");
 Specifies ID of the element contains template contents.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1214,8 +1171,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1261,7 +1217,7 @@ $("#menu").ejmMenu("option", "templateId", "menuTemplate");
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -1270,8 +1226,7 @@ $("#menu").ejmMenu("option", "templateId", "menuTemplate");
 Specifies the theme. See <a href="global.html#Theme">Theme</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1280,8 +1235,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1331,7 +1285,7 @@ $("#menu").ejmMenu("option", "theme", ej.mobile.Theme.Auto);
 
 
 
-### width<span class="type-signature type int">int</span>
+### width`int`
 {:#members:width}
 
 
@@ -1341,8 +1295,7 @@ Specifies the width.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}        
@@ -1403,7 +1356,7 @@ Section for windows mode specific functionalities.
 
 
 
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
 
 
@@ -1412,8 +1365,7 @@ Section for windows mode specific functionalities.
 Specifies whether to render control based on the windowsphone's current accent color and device theme.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1422,8 +1374,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1471,7 +1422,7 @@ $("#menu").ejmMenu("option", "windows.renderDefault", false);
 
 
 
-### windows.type<span class="type-signature type enum">enum</span>
+### windows.type`enum`
 {:#members:windows-type}
 
 
@@ -1480,8 +1431,7 @@ $("#menu").ejmMenu("option", "windows.renderDefault", false);
 Specifies windows mode menu type.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1490,8 +1440,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1545,7 +1494,7 @@ $("#menu").ejmMenu("option", "windows.type", ej.mobile.Menu.Windows.Type.Context
 
 
 
-### addItem<span class="signature">()</span>
+### addItem`()`
 {:#methods:additem}
 
 
@@ -1555,8 +1504,7 @@ To add item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1604,7 +1552,7 @@ $(function(){
 
 
 
-### disable<span class="signature">()</span>
+### disable`()`
 {:#methods:disable}
 
 
@@ -1614,8 +1562,7 @@ To disable the menu.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1661,7 +1608,7 @@ $(function (){
 
 
 
-### disableItem<span class="signature">()</span>
+### disableItem`()`
 {:#methods:disableitem}
 
 
@@ -1671,8 +1618,7 @@ To disable the item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1718,7 +1664,7 @@ $(function (){
 
 
 
-### disableOverFlow<span class="signature">()</span>
+### disableOverFlow`()`
 {:#methods:disableoverflow}
 
 
@@ -1728,8 +1674,7 @@ To disable the overflow menu.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1775,7 +1720,7 @@ $(function (){
 
 
 
-### disableOverFlowItem<span class="signature">()</span>
+### disableOverFlowItem`()`
 {:#methods:disableoverflowitem}
 
 
@@ -1785,8 +1730,7 @@ To disable overflow item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1832,7 +1776,7 @@ $(function (){
 
 
 
-### enable<span class="signature">()</span>
+### enable`()`
 {:#methods:enable}
 
 
@@ -1842,8 +1786,7 @@ To enable the menu.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1887,7 +1830,7 @@ $("#menu").ejmMenu("enable");
 
 
 
-### enableItem<span class="signature">()</span>
+### enableItem`()`
 {:#methods:enableitem}
 
 
@@ -1897,8 +1840,7 @@ To enable item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1942,7 +1884,7 @@ $("#menu").ejmMenu("enableItem", "1");
 
 
 
-### enableOverFlow<span class="signature">()</span>
+### enableOverFlow`()`
 {:#methods:enableoverflow}
 
 
@@ -1952,8 +1894,7 @@ To enable the overflow menu.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -1999,7 +1940,7 @@ $(function (){
 
 
 
-### enableOverFlowItem<span class="signature">()</span>
+### enableOverFlowItem`()`
 {:#methods:enableoverflowitem}
 
 
@@ -2009,8 +1950,7 @@ To enable overflow item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -2054,7 +1994,7 @@ $("#menu").ejmMenu("enableOverflowItem", "1");
 
 
 
-### hide<span class="signature">()</span>
+### hide`()`
 {:#methods:hide}
 
 
@@ -2064,8 +2004,7 @@ To hide the menu.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}      
@@ -2108,7 +2047,7 @@ $("#menu").ejmMenu("hide");
 
 
 
-### removeItem<span class="signature">()</span>
+### removeItem`()`
 {:#methods:removeitem}
 
 
@@ -2118,8 +2057,7 @@ To remove item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -2165,7 +2103,7 @@ $(function (){
 
 
 
-### show<span class="signature">()</span>
+### show`()`
 {:#methods:show}
 
 
@@ -2175,8 +2113,7 @@ To show the menu.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}     
@@ -2286,8 +2223,7 @@ Event triggers when touch end happens on the cancel button in ios7 mode.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2384,8 +2320,7 @@ Event triggers when the control get hided.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2485,8 +2420,7 @@ Event triggers before the items loaded.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2586,8 +2520,7 @@ Event triggers after the items loaded.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2688,8 +2621,7 @@ Event triggers when the control get shown.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2799,8 +2731,7 @@ Event triggers when touch end happens on the item.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2912,8 +2843,7 @@ Event triggers when touch start happens on the item.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

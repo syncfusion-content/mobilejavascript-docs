@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LiveTile-Configuration
+title: LiveTile Configuration | Tile | Mobilejs | Syncfusion
 description: livetile configuration
 platform: Mobilejs
 control: Tile (Mobile)
@@ -21,15 +21,15 @@ Refer to the following code example.
 
 {% highlight html %}
 
-   <div style="margin-top:45px;">
+<div style="margin-top:45px;">
 
-        <div id="head" data-role="ejmheader" data-ej-title="Tileview"></div>
+	<div id="head" data-role="ejmheader" data-ej-title="Tileview"></div>
 
-        <div id="tile" data-role="ejmtile" data-ej-imagepath="../themes/sample/tileview" data-ej-rendermode="windows" data-ej-livetile-updateinterval="2500" data-ej-livetile-type="slide" data-ej-livetile-enabled="true" data-ej-imageposition="fill" data-ej-livetile-imageurl=["photo1.png","photo2.png"]>
+	<div id="tile" data-role="ejmtile" data-ej-imagepath="../themes/sample/tileview" data-ej-rendermode="windows" data-ej-livetile-updateinterval="2500" data-ej-livetile-type="slide" data-ej-livetile-enabled="true" data-ej-imageposition="fill" data-ej-livetile-imageurl=["photo1.png","photo2.png"]>
 
-        </div>
+	</div>
 
-    </div>
+</div>
 	
 {% endhighlight %}
 
@@ -45,17 +45,17 @@ By using the “data-ej-livetile-imagetemplateid” attribute, you can specify t
 
 </div>
 
-    <div id="temp1" style="background-image:
+<div id="temp1" style="background-image:
 
-            url('../themes/sample/tileview/windows/calendar.png'); width: 100%; height: 100%;">
+		url('../themes/sample/tileview/windows/calendar.png'); width: 100%; height: 100%;">
 
-    </div>
+</div>
 
-    <div id="temp2" style="background-image:
+<div id="temp2" style="background-image:
 
-            url('../themes/sample/tileview/windows/setting.png'); width: 100%; height: 100%;">
+		url('../themes/sample/tileview/windows/setting.png'); width: 100%; height: 100%;">
 
-    </div>
+</div>
 	
 {% endhighlight %}
 
@@ -63,11 +63,11 @@ You can specify the array of images for the Live Tile through CSS classes by usi
 
 {% highlight html %}
 
-   <div style="margin-top:45px;">
-   
-       <div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-imageposition="fill" data-ej-livetile-imageclass=["calendar","setting"] data-ej-livetile-enabled="true">
+<div style="margin-top:45px;">
 
-    </div>
+   <div id="tile" data-role="ejmtile" data-ej-rendermode="windows" data-ej-imageposition="fill" data-ej-livetile-imageclass=["calendar","setting"] data-ej-livetile-enabled="true">
+
+   </div>
 
 </div>
 
@@ -77,16 +77,16 @@ Refer to the following code example for CSS class.
 
 {% highlight css %}
 
-        .calendar {
+.calendar {
 
-            background-image: url('../themes/sample/tileview/windows/calendar.png');
+	background-image: url('../themes/sample/tileview/windows/calendar.png');
 
-        }
+}
 
-        .setting {
+.setting {
 
-            background-image: url('../themes/sample/tileview/windows/setting.png');
+	background-image: url('../themes/sample/tileview/windows/setting.png');
 
-        }
+}
 
 {% endhighlight %}

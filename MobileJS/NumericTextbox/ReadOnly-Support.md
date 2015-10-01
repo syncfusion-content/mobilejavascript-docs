@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ReadOnly-Support
+title: ReadOnly Support | Numeric Textbox | Mobilejs | Syncfusion
 description: readonly support
 platform: Mobilejs
 control: Numeric Textbox (Mobile)

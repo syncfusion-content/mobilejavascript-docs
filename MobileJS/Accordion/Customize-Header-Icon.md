@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Header-Icon
+title: Customize Header Icon | Accordion | Mobilejs | Syncfusion
 description: customize header icon
 platform: Mobilejs
 control: Accordion (Mobile)

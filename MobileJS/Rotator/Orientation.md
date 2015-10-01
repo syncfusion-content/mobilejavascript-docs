@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Orientation
+title: Orientation | Rotator | Mobilejs | Syncfusion
 description: orientation
 platform: Mobilejs
 control: Rotator (Mobile)
@@ -28,138 +28,116 @@ Refer to the following code example.
 
 {% highlight html %}
 
-    <div id="page" data-role="appview">
+<div id="page" data-role="appview">
 
-        <!-- header control -->
+	<!-- header control -->
 
-        <div data-role="ejmheader" id="header" data-ej-title="Rotator">
+	<div data-role="ejmheader" id="header" data-ej-title="Rotator">
 
-        </div>   
+	</div>   
 
-     <div id="rotatordefault" data-role="ejmrotator" data-ej-showpager="true"  data-ej-orientation="vertical" data-ej-pagerposition-vertical="left" data-ej-targetid="rotatorcontentdefault">
+ <div id="rotatordefault" data-role="ejmrotator" data-ej-showpager="true"  data-ej-orientation="vertical" data-ej-pagerposition-vertical="left" data-ej-targetid="rotatorcontentdefault">
 
-        </div>
+	</div>
 
-    </div>
+</div>
 
-    <div id="rotatorcontentdefault">
+<div id="rotatorcontentdefault">
 
-        <div>
+	<div>
 
-            <div class="photo photo1">
+		<div class="photo photo1">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div>
+	<div>
 
-            <div class="photo photo2">
+		<div class="photo photo2">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div>
+	<div>
 
-            <div class="photo photo3">
+		<div class="photo photo3">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div>
+	<div>
 
-            <div class="photo photo4">
+		<div class="photo photo4">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div>
+	<div>
 
-            <div class="photo photo5">
+		<div class="photo photo5">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-    </div>
-
+</div>
 
 {% endhighlight %}
 
- Add the following styles to the style section. 
+Add the following styles to the style section. 
 
 N> You can use the following styles for all the other samples explained as follows.
 
-
-
 {% highlight css %}
 
-        .photo {
+.photo {
 
-            background-position: center center;
+	background-position: center center;
 
-            background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-            height: 100%;
+	height: 100%;
 
-            width: 100%;
+	width: 100%;
 
-            background-size:contain;
+	background-size:contain;
 
-        }
+}
 
+.photo1 {
 
+	background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/tablet.jpg);
 
-        .photo1 {
+}
 
-            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/tablet.jpg);
+.photo2 {
 
-        }
+	background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/rose.jpg);
 
+}
 
+.photo3 {
 
-        .photo2 {
+	background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/green.jpg);
 
-            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/rose.jpg);
+}
 
-        }
+.photo4 {
 
+	background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/nature.jpg);
 
+}
 
-        .photo3 {
+.photo5 {
 
-            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/green.jpg);
+	background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/snowfall.jpg);
 
-        }
-
-
-
-        .photo4 {
-
-            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/nature.jpg);
-
-        }
-
-
-
-        .photo5 {
-
-            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/snowfall.jpg);
-
-        }
-
-
-
-
+}
 
 {% endhighlight %}
 
-
-
 ![](Orientation_images/Orientation_img1.png)
-
-
-

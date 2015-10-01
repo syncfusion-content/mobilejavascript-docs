@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | AutoComplete| Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: AutoComplete (Mobile) 
@@ -25,54 +25,91 @@ Essential JavaScript Mobile AutoComplete control can be rendered using a simple 
 1. Create an HTML file and paste the following template to the html file for AutoComplete creation.
 
    ~~~ html
-   <!DOCTYPE html>
-   <html>   
-   <head>
-   <title> Autocomplete</title>
-   <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
-   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
-   <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
-   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
-   <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
-   <script src="[http://js.syncfusion.com/UG/Mobile/Content/contacts.min.js](http://js.syncfusion.com/UG/Mobile/Content/contacts.min.js)"></script>
-   </head>
-   <body>
-   <div id="page" data-role="appview">
-   <!-- Header control -->
-   <div id="header" data-role="ejmheader" data-ej-title="Contacts">
-   </div>
-   <div id="content">
-   <div style="padding: 5px 0; text-indent: 5px;">
-   Select Contacts</div>
-   <div>
-   <!--Adds Autocomplete Elements here.--> 
-   </div>
-   </div> 
-   <!-- Scroll panel -->
-   <div data-role="ejmscrollpanel" data-ej-target="content"></div>
-   </div>
-   </body>
-   </html>
+   
+		<!DOCTYPE html>
+		
+		<html> 
+		  
+			<head>
+			
+				<title> Autocomplete</title>
+				
+				<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+				
+				<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
+				
+				<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+				
+				<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+				
+				<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+				
+				<script src="[http://js.syncfusion.com/UG/Mobile/Content/contacts.min.js](http://js.syncfusion.com/UG/Mobile/Content/contacts.min.js)"></script>
+			</head>
+			
+			<body>
+				
+				<div id="page" data-role="appview">
+					
+					<!-- Header control -->
+					
+					<div id="header" data-role="ejmheader" data-ej-title="Contacts">
+					
+					</div>
+					
+					<div id="content">
+						
+						<div style="padding: 5px 0; text-indent: 5px;">
+						
+							Select Contacts
+						
+						</div>
+						
+						<div>
+						
+							<!--Adds Autocomplete Elements here.--> 
+						
+						</div>
+						
+					</div> 
+					
+						<!-- Scroll panel -->
+						
+					<div data-role="ejmscrollpanel" data-ej-target="content">
+					
+					</div>
+					
+				</div>
+				
+			</body>
+			
+		</html>
    ~~~
-   {:.prettyprint}   
+   
 
 2. To render the AutoComplete control, set “data-role” attribute to “ejmautocomplete” to an input element. 
 
    ~~~ html
-   <!-- Autocomplete control -->
-   <input id="contacts" data-role="ejmautocomplete" />
-   ~~~ 
-   {:.prettyprint}
+   
+	   <!-- Autocomplete control -->
+	   
+	   <input id="contacts" data-role="ejmautocomplete" />
+	   
+   ~~~   
 
    ![](Getting-Started_images/Getting-Started_img2.png)
 
-    You can customize its watermark text using data-ej-watermarktext attribute.
+You can customize its watermark text using data-ej-watermarktext attribute.
 
-    {% highlight html %}
-	<!-- Autocomplete control -->
-	<input id="contacts" data-role="ejmautocomplete" data-ej-watermarktext="Search Contacts" />
-	{% endhighlight %}
-	![](Getting-Started_images/Getting-Started_img3.png)
+{% highlight html %}
+
+<!-- Autocomplete control -->
+
+<input id="contacts" data-role="ejmautocomplete" data-ej-watermarktext="Search Contacts" />
+
+{% endhighlight %}
+	
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
 ### Data binding
@@ -81,20 +118,13 @@ To add data source to AutoComplete control, you can set data-ej-datasource attri
 
 {% highlight html %}
 
+ <!-- Autocomplete control -->
+ 
+ <!-- The data source "window.contacts" is referred from contacts.min.js-->
 
-
-     <!-- Autocomplete control -->
-     <!-- The data source "window.contacts" is referred from contacts.min.js-->
-
-     <input id="contacts" data-role="ejmautocomplete"
-     data-ej-watermarktext="Search Contacts" data-ej-datasource="window.contacts" data-ej-fields-text ="name"/>
-
-
-
+ <input id="contacts" data-role="ejmautocomplete" data-ej-watermarktext="Search Contacts" data-ej-datasource="window.contacts" data-ej-fields-text ="name"/>
 
 {% endhighlight %}
-
-
 
 Execute the code and type the necessary query (here “A”) in the AutoComplete textbox, you can see the following output.
 
@@ -109,12 +139,11 @@ Autocomplete textbox enables you to select multiple items from the suggestion li
 
 {% highlight html %}
 
-
 <label>Select Contacts</label>
-     <!-- Autocomplete control -->
+
+<!-- Autocomplete control -->
+	 
 <input id="contacts" data-role="ejmautocomplete" data-ej-watermarktext="Search Contacts" data-ej-datasource="window.contacts" data-ej-fields-text ="name" data-ej-enablemultiselect=true data-ej-delimiterchar=";"/>
-
-
 
 {% endhighlight %}
 
@@ -129,32 +158,22 @@ The data-ej-select attribute enables you to handle AutoComplete selection event,
 
 {% highlight html %}
 
-             <!-- Autocomplete control -->
+<!-- Autocomplete control -->
 
-    <input id="contacts" data-role="ejmautocomplete" data-ej-watermarktext="Search Contacts" data-ej-datasource="window.contacts" data-ej-fields-text="name" data-ej-enablemultiselect="true" data-ej-delimiterchar=";" data-ej-select="onSelect" />
+<input id="contacts" data-role="ejmautocomplete" data-ej-watermarktext="Search Contacts" data-ej-datasource="window.contacts" data-ej-fields-text="name" data-ej-enablemultiselect="true" data-ej-delimiterchar=";" data-ej-select="onSelect" />
 
+<!-- onSelect() function is called on selection of a suggestion item.-->
 
+<!-- Dialog control -->
 
-     <!-- onSelect() function is called on selection of a suggestion item.-->
-
-
-
-     <!-- Dialog control -->
-
-     <div id="dialog" data-role="ejmdialog" data-ej-title="Alert" data-ej-enablemodal=true
+<div id="dialog" data-role="ejmdialog" data-ej-title="Alert" data-ej-enablemodal=true
          data-ej-leftbuttoncaption="OK" data-ej-buttontap="hidedialog">
 
-        <div id="dialogcontent"><!-- Dialog content --></div>
+	<div id="dialogcontent"><!-- Dialog content --></div>
 
-     </div>
-
-
-
-
+</div>
 
 {% endhighlight %}
-
-
 
 Add the following script.
 
@@ -162,31 +181,27 @@ Add the following script.
 
 function onSelect(args) {
 
-            //Actions that are performed on selection
+//Actions that are performed on selection
 
-            $("#dialogcontent").html(args.text + " was selected");
+$("#dialogcontent").html(args.text + " was selected");
 
-            var dialogobj = $("#dialog").data("ejmDialog");
+var dialogobj = $("#dialog").data("ejmDialog");
 
-            dialogobj.open();
+dialogobj.open();
 
-        }
+}
 
-        function hidedialog(e) {
+function hidedialog(e) {
 
-            //Hides dialog
+//Hides dialog
 
-            var dialogobj = $("#dialog").data("ejmDialog");
+var dialogobj = $("#dialog").data("ejmDialog");
 
-            dialogobj.close();
+dialogobj.close();
 
-        } 
-
-
+} 
 
 {% endhighlight %}
-
-
 
 Add the following style
 
@@ -194,19 +209,15 @@ Add the following style
 
 .appview.e-m-windows.e-m-light #content {
 
-        background: none repeat scroll 0 0 #eee;
+	background: none repeat scroll 0 0 #eee;
 
-    }
+}
 
+#content {
 
+	padding: 8px;
 
-    #content {
-
-        padding: 8px;
-
-    }
-
-
+}
 
 {% endhighlight %}
 

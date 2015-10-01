@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Scrollsettings
+title: Customize Scrollsettings | Navigation Drawer | Mobilejs | Syncfusion
 description: customize scrollsettings 
 platform: Mobilejs
 control: Navigation Drawer (Mobile)
@@ -17,31 +17,27 @@ Refer to the following code example.
 
 <div data-role="ejmnavigationdrawer" id="navpane" data-ej-allowscrolling=true data-ej-enablelistview="true" data-ej-listviewsettings-touchend="navListClick" data-ej-scrollsettings-showscrollbars="false">
 
+	<ul>
 
+		<li data-ej-text="Home"
 
-            <ul>
+			id="navhome"></li>
 
-                <li data-ej-text="Home"
+		<li data-ej-text="Profile"
 
-                    id="navhome"></li>
+			id="navprofile"></li>
 
-                <li data-ej-text="Profile"
+		<li data-ej-text="Photos"
 
-                    id="navprofile"></li>
+			id="navphotos"></li>
 
-                <li data-ej-text="Photos"
+		<li data-ej-text="Location"
 
-                    id="navphotos"></li>
+			id="navlocation"></li>
 
-                <li data-ej-text="Location"
+	</ul>
 
-                    id="navlocation"></li>
-
-            </ul>
-
-
-
-        </div>
+</div>
 
 <div id="head" data-role="ejmheader" data-ej-title="NavigationDrawer" data-ej-position="normal"></div>
 
@@ -79,8 +75,6 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-
-
 ## Script Section
 
 You can update the content and close the Navigation Drawer, once the item is selected from the list.
@@ -105,9 +99,4 @@ Refer to the following code example.
 
     }
 
-
-
 {% endhighlight %}
-
-
-

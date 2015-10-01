@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows-Specific-Customization
+title: Windows Specific Customization | Password | Mobilejs | Syncfusion
 description: windows specific customization
 platform: Mobilejs
 control: Password (Mobile)
@@ -17,13 +17,6 @@ Refer to the following code example.
 
 <input id="password_sample" data-role="ejmpassword" data-ej-watermarktext="Password" data-ej-rendermode="windows" data-ej-windows-allowreset="true">
 
-
-
 {% endhighlight %}
 
-
-
 ![](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)
-
-
-

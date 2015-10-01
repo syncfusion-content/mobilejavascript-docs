@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Templating
+title: Templating | Menu | Mobilejs | Syncfusion
 description: templating
 platform: Mobilejs
 control: Menu (Mobile)
@@ -15,35 +15,33 @@ By using the template support, you can customize the appearance of an individual
 
 {% highlight html %}
 
-     <div style="text-align: center;">
+<div style="text-align: center;">
 
-            <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
+	<input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
 
-        </div>
+</div>
 
-      <div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem" data-ej-rendertemplate="true">
+<div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem" data-ej-rendertemplate="true">
 
-        <div style="text-align:center;">
+	<div style="text-align:center;">
 
-           <div><img class="image" src="message.gif" /><span class="text">Message</span></div>
+	   <div><img class="image" src="message.gif" /><span class="text">Message</span></div>
 
-           <div><img class="image" src="mail.gif" /><span class="text">Mail</span></div>
+	   <div><img class="image" src="mail.gif" /><span class="text">Mail</span></div>
 
-           <div><img class="image" src="twitter.gif" /><span class="text">Twitter</span></div>
+	   <div><img class="image" src="twitter.gif" /><span class="text">Twitter</span></div>
 
-           <div><img class="image" src="facebook.gif" /><span class="text">Facebook</span></div>
+	   <div><img class="image" src="facebook.gif" /><span class="text">Facebook</span></div>
 
-        </div>
+	</div>
 
-      </div>
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays the RenderTemplate of Menu.
 
-![1](Templating_images/Templating_img1.png)
-
-
+![](Templating_images/Templating_img1.png)
 
 ## TemplateID
 
@@ -53,7 +51,9 @@ This attribute is used to define the Template ID for the Menu item. Template is 
 
 <div style="text-align: center;">
 
-       <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" /> </div>
+    <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" /> 
+	
+</div>
 
 <div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem">
 
@@ -88,6 +88,3 @@ This attribute is used to define the Template ID for the Menu item. Template is 
 </div>
 
 {% endhighlight %}
-
-
-

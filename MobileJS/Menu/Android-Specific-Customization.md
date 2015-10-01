@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android-Specific-Customization
+title: Android Specific Customization | Menu | Mobilejs | Syncfusion
 description: android specific customization
 platform: Mobilejs
 control: Menu (Mobile)
@@ -24,29 +24,26 @@ The possible values are,
 
 {% highlight html %}
 
-        <div style="text-align: center;">
+<div style="text-align: center;">
 
-            <input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="android" data-ej-text="Menu" />
+	<input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="android" data-ej-text="Menu" />
 
-        </div>
+</div>
 
-        <div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem" data-ej-rendermode="android" data-ej-android-type="contextual">
+<div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem" data-ej-rendermode="android" data-ej-android-type="contextual">
 
-            <ul>
+	<ul>
 
-                <li data-ej-text="Get info"></li>
+		<li data-ej-text="Get info"></li>
 
-                <li data-ej-text="Show in folder"></li>
+		<li data-ej-text="Show in folder"></li>
 
-                <li data-ej-text="Delete"></li>
+		<li data-ej-text="Delete"></li>
 
-            </ul>
+	</ul>
 
 {% endhighlight %}
 
 The following screenshot displays the Android-specific Type:
 
-![Type-Android](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)
-
-
-
+![](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)

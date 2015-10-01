@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Values
+title: Customize Values | Rating | Mobilejs | Syncfusion
 description: customize values
 platform: Mobilejs
 control: Rating (Mobile)
@@ -13,15 +13,12 @@ The data-ej-maxvalue attribute is used to denote the maximum value up to which t
 
 {% highlight html %}
 
-  <div id="rating_sample" data-role="ejmrating" data-ej-minvalue=2 data-ej-maxvalue=6 data-ej-value=4 data-ej-incrementstep=1>
+<div id="rating_sample" data-role="ejmrating" data-ej-minvalue=2 data-ej-maxvalue=6 data-ej-value=4 data-ej-incrementstep=1>
 
-  </div>
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays the output.
 
-![C:/Users/Vignesh Kumar/Desktop/2.png](Customize-Values_images/Customize-Values_img1.png)
-
-
-
+![](Customize-Values_images/Customize-Values_img1.png)

@@ -1,27 +1,19 @@
 ---
 layout: post
-title: ejmNavigationDrawer
+title: ejmNavigationDrawer | API Reference | Mobile JS | Syncfusion
+description: 
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmNavigationDrawer, API, Essential Studio JS Autocomplete (Mobile)
 ---
 
-# Custom Design for Html Navigation Drawer control.
+# ejmNavigationDrawer
 
-
-
-
+Custom Design for Html Navigation Drawer control.
 
 $(element).ejmNavigationDrawer<span class="signature">()</span>
 
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -81,8 +73,7 @@ $("#navpane").ejmNavigationDrawer();
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 * module:jQuery
@@ -113,7 +104,7 @@ Requires
 
 
 
-### allowScrolling<span class="type-signature type boolean">boolean</span>
+### allowScrolling`boolean`
 {:#members:allowscrolling}
 
 
@@ -122,8 +113,7 @@ Requires
 While set as true, enables scrollpanel inside the element.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -132,8 +122,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -206,7 +195,7 @@ $("#navpane").ejmNavigationDrawer ("option", "allowScrolling", false);
 
 
 
-### considerSubPage<span class="type-signature type boolean">boolean</span>
+### considerSubPage`boolean`
 {:#members:considersubpage}
 
 
@@ -215,8 +204,7 @@ $("#navpane").ejmNavigationDrawer ("option", "allowScrolling", false);
 When set as true, the control will render inside the closest subpage.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -225,8 +213,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -299,7 +286,7 @@ $("#navpane").ejmNavigationDrawer ("option", "considerSubPage", false);
 
 
 
-### contentId<span class="type-signature type string">string</span>
+### contentId`string`
 {:#members:contentid}
 
 
@@ -308,8 +295,7 @@ $("#navpane").ejmNavigationDrawer ("option", "considerSubPage", false);
 Specifies the contentId for navigation drawer, where the ajax content need to updated
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -318,8 +304,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -366,7 +351,7 @@ $("#navpane").ejmNavigationDrawer ("option", "contentId", "container");
 
 
 
-### cssclass<span class="type-signature type string">string</span>
+### cssclass`string`
 {:#members:cssclass}
 
 
@@ -375,8 +360,7 @@ $("#navpane").ejmNavigationDrawer ("option", "contentId", "container");
 Sets the root class for NavigationDrawer theme. This cssClass API helps to use custom skinning option for NavigationDrawer control. By defining the root class using this API, we need to include this root class in CSS.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -385,8 +369,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -458,7 +441,7 @@ $("#navpane").ejmNavigationDrawer ("option", "cssClass", "customclass");
 
 
 
-### direction<span class="type-signature type enum">enum</span>
+### direction`enum`
 {:#members:direction}
 
 
@@ -467,8 +450,7 @@ $("#navpane").ejmNavigationDrawer ("option", "cssClass", "customclass");
 Sets the Direction for the control. See Direction
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -477,8 +459,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -550,7 +531,7 @@ $("#navpane").ejNavigationDrawer ("option", "direction", "left");
 
 
 
-### enablelistview<span class="type-signature type boolean">boolean</span>
+### enablelistview`boolean`
 {:#members:enablelistview}
 
 
@@ -559,8 +540,7 @@ $("#navpane").ejNavigationDrawer ("option", "direction", "left");
 Sets the listview to be enabled or not
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -569,8 +549,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -640,7 +619,7 @@ $("#navpane").ejmNavigationDrawer ("option", "enableListView", false);
 
 
 
-### items<span class="type-signature type array">array</span>
+### items`array`
 {:#members:items}
 
 
@@ -649,8 +628,7 @@ $("#navpane").ejmNavigationDrawer ("option", "enableListView", false);
 Specifies the listview items as an array of object.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -659,8 +637,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -730,7 +707,7 @@ $("#navpane").ejmNavigationDrawer ("option", "items", [{text:"Item1"},{text:"Ite
 
 
 
-### listviewsettings<span class="type-signature type object">object</span>
+### listviewsettings`object`
 {:#members:listviewsettings}
 
 
@@ -740,8 +717,7 @@ Sets all the properties of listview to render in navigation drawer
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -811,7 +787,7 @@ $("#navpane").ejmNavigationDrawer ("option", "listViewSettings.width", "200");
 
 
 
-### position<span class="type-signature type enum">enum</span>
+### position`enum`
 {:#members:position}
 
 
@@ -820,8 +796,7 @@ $("#navpane").ejmNavigationDrawer ("option", "listViewSettings.width", "200");
 Specifies position whether it is in fixed or relative to the page. See <a href="global.html#Position">Position</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -830,8 +805,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -901,7 +875,7 @@ $("#navpane").ejmNavigationDrawer ("option", "position", "fixed");
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -910,8 +884,7 @@ $("#navpane").ejmNavigationDrawer ("option", "position", "fixed");
 Changes the rendering mode. See <a href="global.html#RenderMode">RenderMode</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -920,8 +893,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1005,7 +977,7 @@ Used to set scrollpanel related properties to the navigation drawer
 
 
 
-### targetid<span class="type-signature type string">string</span>
+### targetid`string`
 {:#members:targetid}
 
 
@@ -1014,8 +986,7 @@ Used to set scrollpanel related properties to the navigation drawer
 Specifies the targetId for navigation drawer
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1024,8 +995,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1097,7 +1067,7 @@ $("#navpane").ejmNavigationDrawer ("option", "targetId", "sample");
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -1106,8 +1076,7 @@ $("#navpane").ejmNavigationDrawer ("option", "targetId", "sample");
 Changes the Theme of the control
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1116,8 +1085,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1188,7 +1156,7 @@ $("#navpane").ejmNavigationDrawer ("option", "theme", ej.mobile.Theme.Auto);
 
 
 
-### type<span class="type-signature type enum">enum</span>
+### type`enum`
 {:#members:type}
 
 
@@ -1197,8 +1165,7 @@ $("#navpane").ejmNavigationDrawer ("option", "theme", ej.mobile.Theme.Auto);
 Sets the rendering type of the control. See <a href="global.html#Type">Type</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1207,8 +1174,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1278,7 +1244,7 @@ $("#navpane").ejmNavigationDrawer ("option", "type", "overlay");
 
 
 
-### width<span class="type-signature type int">int</span>
+### width`int`
 {:#members:width}
 
 
@@ -1287,8 +1253,7 @@ $("#navpane").ejmNavigationDrawer ("option", "type", "overlay");
 Specifies the width of the control
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1297,8 +1262,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1371,7 +1335,7 @@ $("#navpane").ejmNavigationDrawer ("option", "width", "auto");
 
 
 
-### close<span class="signature">()</span>
+### close`()`
 {:#methods:close}
 
 
@@ -1381,8 +1345,7 @@ To close the navigation drawer control
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1418,7 +1381,7 @@ lsm.close();
 
 
 
-### open<span class="signature">()</span>
+### open`()`
 {:#methods:open}
 
 
@@ -1428,8 +1391,7 @@ To open the navigation drawer control
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1465,7 +1427,7 @@ lsm.open();
 
 
 
-### toggle<span class="signature">()</span>
+### toggle`()`
 {:#methods:toggle}
 
 
@@ -1475,8 +1437,7 @@ To Toggle the navigation drawer control
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1579,8 +1540,7 @@ Event triggers before the control gets closed.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}  
@@ -1709,8 +1669,7 @@ Event triggers when the control open.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1839,8 +1798,7 @@ Event triggers when the Swipe happens.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | Tile | Mobilejs | Syncfusion
 description: getting started 
 platform: Mobilejs
 control: Tile (Mobile)
@@ -23,35 +23,35 @@ Create an HTML file and paste the following template for the mobile layout.
 
 <html>
 
-<head>
+	<head>
 
-    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+		<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
 
-    <title>Tile</title>
+		<title>Tile</title>
 
-    <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+		<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-    <div data-role="appview">
+		<div data-role="appview">
 
-        <!-- Adding Header Control Here -->
+			<!-- Adding Header Control Here -->
 
-        <!-- Adding Tile Control here -->
+			<!-- Adding Tile Control here -->
 
-    </div>
+		</div>
 
-</body>
+	</body>
 
 </html>
 
@@ -64,7 +64,8 @@ Refer to the following code example.
 {% highlight html %}
 
 <div id="header" data-role="ejmheader" data-ej-title="Tile">
-    </div>
+
+</div>
 
 {% endhighlight %}
 
@@ -78,11 +79,11 @@ Refer to the following code example.
 
  <div id="tile" style="margin-top: 45px;">
 
-       <div id="tile1" data-role="ejmtile" data-ej-theme='dark' data-ej-imageurl='setting.png'
+    <div id="tile1" data-role="ejmtile" data-ej-theme='dark' data-ej-imageurl='setting.png'
 
-                        data-ej-imagepath="http://js.syncfusion.com/UG/Mobile/Content/tile" data-ej-text="Settings">
+		data-ej-imagepath="http://js.syncfusion.com/UG/Mobile/Content/tile" data-ej-text="Settings">
 
-                    </div>
+	</div>
 
  </div>
 
@@ -174,7 +175,7 @@ Add the following style to set the background image for the page.
 
 {% highlight css %}
 
-  .e-m-ios7  .defaultsample
+.e-m-ios7 .defaultsample
 
     {
 
@@ -184,15 +185,15 @@ Add the following style to set the background image for the page.
 
     width: 100%;
 
-     position: absolute;
+	position: absolute;
 
-    }
+}
 
 {% endhighlight %}
 
 Run the above code to render the following output. To know more details, refer to this [section](http://docs.syncfusion.com/mobilejs/tile/getting-started).
 
-![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 ## Create a grouped tile in Windows Mode
 
@@ -204,38 +205,24 @@ Refer to the following code example.
 
 if (ej.getRenderMode() == "windows" || ej.getRenderMode() == "flat") {
 
-            $("#tile1").attr({ 'data-ej-tilesize': 'medium', 'data-ej-text':'People', 'data-ej-imageposition': 'fill' });
+	$("#tile1").attr({ 'data-ej-tilesize': 'medium', 'data-ej-text':'People', 'data-ej-imageposition': 'fill' });
 
+	$("#tile2").attr({ 'data-ej-backgroundcolor': ' rgb(208, 75, 43)' });
 
+	$("#tile3").attr({ 'data-ej-livetile-updateinterval': '3500', 'data-ej-livetile-enabled': 'true', 'data-ej-livetile-type': 'flip', 'data-ej-livetile-imageurl': '["clock.png","messaging.png"]', 'data-ej-backgroundcolor': 'rgb(215, 147, 23)' });
 
-            $("#tile2").attr({ 'data-ej-backgroundcolor': ' rgb(208, 75, 43)' });
+	$("#tile4").attr({ 'data-ej-livetile-updateinterval': '3000', 'data-ej-livetile-enabled': 'true', 'data-ej-livetile-type': 'flip', 'data-ej-livetile-imageurl': '["notes.png","camera.png"]', 'data-ej-backgroundcolor': 'rgb(43, 128, 234)' });
 
+	$("#tile5").attr({ 'data-ej-backgroundcolor': 'rgb(94, 58, 179)' });
 
+	$("#tile6").attr({ 'data-ej-tilesize': 'medium', 'data-ej-text': 'Play','data-ej-backgroundcolor': 'rgb(145, 20, 154)' });
 
-            $("#tile3").attr({ 'data-ej-livetile-updateinterval': '3500', 'data-ej-livetile-enabled': 'true', 'data-ej-livetile-type': 'flip', 'data-ej-livetile-imageurl': '["clock.png","messaging.png"]', 'data-ej-backgroundcolor': 'rgb(215, 147, 23)' });
+	$("#tile7").attr({ 'data-ej-tilesize': 'medium', 'data-ej-text': 'Map','data-ej-backgroundcolor': 'rgb(0, 157, 0)' });
 
+	$("#tile8").attr({ 'data-ej-tilesize': 'wide', 'data-ej-text': 'Sports','data-ej-imageposition': 'fill' });
 
+}
 
-            $("#tile4").attr({ 'data-ej-livetile-updateinterval': '3000', 'data-ej-livetile-enabled': 'true', 'data-ej-livetile-type': 'flip', 'data-ej-livetile-imageurl': '["notes.png","camera.png"]', 'data-ej-backgroundcolor': 'rgb(43, 128, 234)' });
-
-
-
-            $("#tile5").attr({ 'data-ej-backgroundcolor': 'rgb(94, 58, 179)' });
-
-
-
-            $("#tile6").attr({ 'data-ej-tilesize': 'medium', 'data-ej-text': 'Play','data-ej-backgroundcolor': 'rgb(145, 20, 154)' });
-
-
-
-            $("#tile7").attr({ 'data-ej-tilesize': 'medium', 'data-ej-text': 'Map','data-ej-backgroundcolor': 'rgb(0, 157, 0)' });
-
-
-
-            $("#tile8").attr({ 'data-ej-tilesize': 'wide', 'data-ej-text': 'Sports','data-ej-imageposition': 'fill' });
-
-        }
-
-        if (ej.getRenderMode() == "android") $('#scrollcontent').find('div[data-role="ejmtile"]').attr({ 'data-ej-theme': 'light' });
+if (ej.getRenderMode() == "android") $('#scrollcontent').find('div[data-role="ejmtile"]').attr({ 'data-ej-theme': 'light' });
 
 {% endhighlight %}

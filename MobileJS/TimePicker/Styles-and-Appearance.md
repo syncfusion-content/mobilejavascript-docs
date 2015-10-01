@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance | TimePicker | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
 control: Accordion (Mobile)

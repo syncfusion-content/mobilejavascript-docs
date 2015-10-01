@@ -1,38 +1,19 @@
 ---
 layout: post
-title: ejmRadioButton
+title: ejmRadioButton | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmRadioButton, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html RadioButton control.
+# ejmRadioButton
 
-
-
-
-
-
-
-
-
+Custom Design for Html RadioButton control.
 
 $(element).ejmRadioButton<span class="signature">()</span>
 
-
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Create radiobutton control in Unobtrusive way.
@@ -53,8 +34,7 @@ Example
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 
@@ -91,7 +71,7 @@ Requires
 
 
 
-### checked<span class="type-signature type boolean">boolean</span>
+### checked`boolean`
 {:#members:checked}
 
 
@@ -106,8 +86,7 @@ Specifies the checked attribute.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -123,8 +102,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -155,7 +133,7 @@ Example
 
 
 
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
 
 
@@ -170,8 +148,7 @@ Sets the root class for RadioButton theme. This cssClass API helps to use custom
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -187,8 +164,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -221,7 +197,7 @@ $("#radbtn").ejmRadioButton ({ cssClass: "customclass" });
 
 
 
-### enabled<span class="type-signature type boolean">boolean</span>
+### enabled`boolean`
 {:#members:enabled}
 
 
@@ -236,8 +212,7 @@ Specifies whether the control is enabled or not.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -253,8 +228,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -285,7 +259,7 @@ Example
 
 
 
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
 
 
@@ -300,8 +274,7 @@ Saves current model value to browser cookies for state maintains. While refreshi
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -317,8 +290,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -348,7 +320,7 @@ Example
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -363,8 +335,7 @@ Changes the rendering mode. See <a href="global.html#RenderMode">RenderMode</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -380,8 +351,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -414,7 +384,7 @@ $("#radbtn").ejmRadioButton ({ renderMode: ej.mobile.RenderMode.Auto });
 
 
 
-### text<span class="type-signature type string">string</span>
+### text`string`
 {:#members:text}
 
 
@@ -429,8 +399,7 @@ Specifies the text content.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -446,8 +415,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -477,7 +445,7 @@ Example
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -492,8 +460,7 @@ Changes the theme. See <a href="global.html#Theme">Theme</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -509,8 +476,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -550,7 +516,7 @@ $(function(){
 
 
 
-### disable<span class="signature">()</span>
+### disable`()`
 {:#methods:disable}
 
 
@@ -566,8 +532,7 @@ To disable the radio button.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -582,7 +547,7 @@ Example
 
 
 
-### enable<span class="signature">()</span>
+### enable`()`
 {:#methods:enable}
 
 
@@ -598,8 +563,7 @@ To enable the radio button
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -690,8 +654,7 @@ Event triggers when the selection in radiobutton is changed.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -791,8 +754,7 @@ Event triggers when the touch end happens in the RadioButton.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -892,8 +854,7 @@ event triggers when the touch start happens in the RadioButton.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

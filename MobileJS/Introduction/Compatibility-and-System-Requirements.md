@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Compatibility--System-Requirements
+title: Compatibility  System Requirements | Introduction | Mobilejs | Syncfusion
 description: compatibility & system requirements
 platform: Mobilejs
 control: Introduction

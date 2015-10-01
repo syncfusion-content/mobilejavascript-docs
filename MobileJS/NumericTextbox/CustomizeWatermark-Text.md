@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CustomizeWatermark-Text
+title: CustomizeWatermark Text | Numeric Textbox | Mobilejs | Syncfusion
 description: customize watermark text
 platform: Mobilejs
 control: Numeric Textbox (Mobile)

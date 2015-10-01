@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | TextArea | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: TextArea (Mobile)
@@ -15,9 +15,6 @@ From the following guidelines, you can create basic Mail sending form by using t
 
 ![](Getting-Started_images/Getting-Started_img1.png)
 
-
-
-
 ### Create the necessary layout 
 
 Create an HTML file and add the following template to the HTML file.
@@ -28,65 +25,63 @@ Create an HTML file and add the following template to the HTML file.
 
 <html>
 
-<head>
+	<head>
 
-    <title>TextArea</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+		<title>TextArea</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
 
-    <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+		<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-<div data-role="ejmheader" id="mailheader" data-ej-title="New Message"></div>
+	<div data-role="ejmheader" id="mailheader" data-ej-title="New Message"></div>
 
-    <div id="mailcontainer" class="sample">
+		<div id="mailcontainer" class="sample">
 
-        <div>
+			<div>
 
-            <span>To</span>
+				<span>To</span>
 
-            <input type="text" id="mailto" data-role="ejmTextArea" />
+				<input type="text" id="mailto" data-role="ejmTextArea" />
 
-            <span>Subject</span>
+				<span>Subject</span>
 
-            <input type="text" id="mailsubject" data-role="ejmTextArea" />
+				<input type="text" id="mailsubject" data-role="ejmTextArea" />
 
-            <span>Message</span>
-
-
-
-            <!--Add TextArea Code example Here-->
+				<span>Message</span>
 
 
 
-            <div class="submit" align="center">
+				<!--Add TextArea Code example Here-->
 
-                <input id="btn" name="mailsend" data-role="ejmbutton" data-ej-text="Send" type="button" />
 
-            </div>
 
-        </div>
+				<div class="submit" align="center">
 
-    </div>
+					<input id="btn" name="mailsend" data-role="ejmbutton" data-ej-text="Send" type="button" />
 
-    <div id="ScrollPanel" data-role="ejmscrollpanel" data-ej-target="mailcontainer"></div>
+				</div>
 
- </body>
+			</div>
+
+		</div>
+
+		<div id="ScrollPanel" data-role="ejmscrollpanel" data-ej-target="mailcontainer"></div>
+
+	 </body>
+	 
 </html>
 
-
-
 {% endhighlight %}
-
-
 
 ### Create TextArea
 
@@ -94,13 +89,9 @@ To render the TextArea control, you can set ejmtextarea to data-role attribute f
 
 {% highlight html %}
 
-
 <!-- TextArea element -->
 
 <textarea id="textarea" data-role="ejmtextarea"></textarea>
-
-
-
 
 {% endhighlight %}
 
@@ -108,19 +99,14 @@ To render the TextArea control, you can set ejmtextarea to data-role attribute f
 
 {% highlight css %}
 
+.sample {
 
+	padding: 10px 20px;
 
-        .sample {
-
-            padding: 10px 20px;
-
-        }
-
-
+}
 
 {% endhighlight %}
 
 Run this code example and you can see the following output.
 
 ![](Getting-Started_images/Getting-Started_img2.png)
-

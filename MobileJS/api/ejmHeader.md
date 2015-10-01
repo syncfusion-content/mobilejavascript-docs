@@ -1,28 +1,20 @@
 ---
 layout: post
-title: ejmHeader
+title: ejmHeader | API Reference | Mobile JS | Syncfusion
+description: 
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmHeader, API, Essential Studio JS Autocomplete (Mobile)
 ---
 
-# Custom Design for Html Header control.
+# ejmHeader
 
-
-
-
+Custom Design for Html Header control.
 
 $(element).ejmHeader<span class="signature">()</span>
 
 
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="header" ></div>
@@ -36,12 +28,7 @@ $("#header").ejmHeader();
 <div id="header" data-role="ejmheader" ></div>
 {% endhighlight %}
 
-
-
-
-Requires
-{:.require}
-
+#### Requires
 
 * module:jQuery
 
@@ -59,36 +46,20 @@ Requires
 
 * module:ej.mobile.button
 
-
 ## Members
-
-
-
 
 ### android
 {:#members:android}
 
-
-
-
 Section for android rendermode specific functionalities.
 
-
-
-
-
-
-### android.backButtonImageClass<span class="type-signature type string">string</span>
+### android.backButtonImageClass`string`
 {:#members:android-backbuttonimageclass}
-
-
-
 
 Specifies the class name in which URL for the back button image will be set.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -96,40 +67,23 @@ Default Value:
 
 
 
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Set the android mode backButtonImageClass property in unobtrusive way.
 <div id="header" data-role="ejmheader" data-ej-rendermode="android" data-ej-showleftbutton="true" data-ej-android-backbuttonimageclass="backimagecssclass" ></div>
  {% endhighlight %}
 
-
-
-
-### android.leftButtonStyle<span class="type-signature type enum">enum</span>
+### android.leftButtonStyle`enum`
 {:#members:android-leftbuttonstyle}
-
-
-
 
 Specifies the style for the left button i.e. back button or normal button button. See AndroidHeaderLeftButtonStyle
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ej.mobile.Button.Android.Style.Back
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -158,30 +112,16 @@ $("#header").ejmHeader({"android":{"leftButtonStyle": "back"}})
 // Set the leftButtonStyle  API
  $("#header").ejmHeader ("option", "android.leftButtonStyle","normal"); {% endhighlight %}
 
-
-
-
-### android.rightButtonStyle<span class="type-signature type enum">enum</span>
+### android.rightButtonStyle`enum`
 {:#members:android-rightbuttonstyle}
-
-
-
 
 Specifies the style for the right button i.e. back button or normal button. See AndroidHeaderRightButtonStyle
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ej.mobile.Button.Android.Style.Back
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -210,30 +150,16 @@ $("#header").ejmHeader({"android":{"rightButtonStyle": "normal"}})
 // Set the rightButtonStyle  API
  $("#header").ejmHeader ("option", "android.rightButtonStyle","normal"); {% endhighlight %}
 
-
-
-
-### android.showLeftButton<span class="type-signature type boolean">boolean</span>
+### android.showLeftButton`boolean`
 {:#members:android-showleftbutton}
-
-
-
 
 Specifies whether to show the android left button or not.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -262,27 +188,17 @@ $("#header").ejmHeader ("option", "android.showLeftButton", true);              
 
 
 
-### android.showRightButton<span class="type-signature type boolean">boolean</span>
+### android.showRightButton`boolean`
 {:#members:android-showrightbutton}
-
-
-
 
 Specifies whether to show the android right button or not.
 
 
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -309,29 +225,16 @@ $("#header").ejmHeader({"android":{ "showRightButton": true }});
 $("#header").ejmHeader ("option", "android.showRightButton", true);                     {% endhighlight %}
 
 
-
-
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
-
-
-
 
 Sets the root class for Header theme. This cssClass API helps to use custom skinning option for Header control. By defining the root class using this API, we need to include this root class in CSS.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ""
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -357,29 +260,16 @@ $("#header").ejmHeader({ cssClass:"customclass" });
 $("#header").ejmHeader ("option", "cssClass", "customclass");            {% endhighlight %}
 
 
-
-
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
-
-
-
 
 Current model value to browser cookies for state maintenance. While refreshing the page, the model value applied from browser cookies retains.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -404,23 +294,13 @@ $("#header").ejmHeader({ enablePersistence:true });
 // Set the enablePersistence API
 $("#header").ejmHeader ("option", "enablePersistence", false);            {% endhighlight %}
 
-
-
-
 ### flat
 {:#members:flat}
 
 
-
-
 Section for flat rendermode specific functionalities.
 
-
-
-
-
-
-### flat.leftButtonStyle<span class="type-signature type enum">enum</span>
+### flat.leftButtonStyle`enum`
 {:#members:flat-leftbuttonstyle}
 
 
@@ -429,18 +309,11 @@ Section for flat rendermode specific functionalities.
 Specifies the style for the flat left button i.e. back button or normal button or header button. See FlatHeaderLeftButtonStyle
 
 
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ej.mobile.Button.Flat.Style.Back
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -472,27 +345,16 @@ $("#header").ejmHeader({"flat":{"leftButtonStyle": "back"}})
 
 
 
-### flat.rightButtonStyle<span class="type-signature type enum">enum</span>
+### flat.rightButtonStyle`enum`
 {:#members:flat-rightbuttonstyle}
-
-
-
 
 Specifies the flat style for the right button i.e. back button or normal button. See FlatHeaderRightButtonStyle
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ej.mobile.Button.Flat.Style.Back
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -522,36 +384,22 @@ $("#header").ejmHeader({"flat":{"rightButtonStyle": "normal"}})
  $("#header").ejmHeader ("option", "flat.rightButtonStyle","normal"); {% endhighlight %}
 
 
-
-
-### flat.showLeftButton<span class="type-signature type boolean">boolean</span>
+### flat.showLeftButton`boolean`
 {:#members:flat-showleftbutton}
-
-
 
 
 Specifies whether to show the flat left button or not.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the flat showLeftButton property in unobtrusive way.
 <div id="header" data-role="ejmheader" data-ej-rendermode="flat" data-ej-flat-showleftbutton=true ></div>
 {% endhighlight %}
-
 
 {% highlight html %} 
 <div id="header"></div>
@@ -562,7 +410,6 @@ $("#header").ejmHeader({ renderMode: "flat" });
 $("#header").ejmHeader({"flat":{ "showLeftButton": true }});
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 //Get or set the showLeftButton, after initialization:
 // Get the showLeftButton API value.            
@@ -570,31 +417,17 @@ $("#header").ejmHeader({"flat":{ "showLeftButton": true }});
 // Set the showLeftButton  API
 $("#header").ejmHeader ("option", "flat.showLeftButton", true);                 {% endhighlight %}
 
-
-
-
-### flat.showRightButton<span class="type-signature type boolean">boolean</span>
+### flat.showRightButton`boolean`
 {:#members:flat-showrightbutton}
-
-
-
 
 Specifies whether to show the flat right button or not.
 
 
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the flat showRightButton property in unobtrusive way.
@@ -619,30 +452,18 @@ $("#header").ejmHeader({"flat":{ "showRightButton": true }});
 // Set the showLeftButton  API
 $("#header").ejmHeader ("option", "flat.showRightButton", true);                        {% endhighlight %}
 
-
-
-
-### hideForUnSupportedDevice<span class="type-signature type boolean">boolean</span>
+### hideForUnSupportedDevice`boolean`
 {:#members:hideforunsupporteddevice}
-
-
 
 
 If this property is set to true, header will be visible for iOS7 rendermode alone.
 
 
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -668,43 +489,22 @@ $("#header").ejmHeader({ hideForUnSupportedDevice: true });
 // Set the hideForUnSupportedDevice  API
 $("#header").ejmHeader ("option", "hideForUnSupportedDevice", "Header");{% endhighlight %}
 
-
-
-
 ### ios7
 {:#members:ios7}
 
-
-
-
 Section for ios7 rendermode specific functionalities.
 
-
-
-
-
-
-### ios7.leftButtonStyle<span class="type-signature type enum">enum</span>
+### ios7.leftButtonStyle`enum`
 {:#members:ios7-leftbuttonstyle}
-
-
-
 
 Specifies the style for the ios7 left button i.e. back button or normal button or header button. See IOS7HeaderLeftButtonStyle
 
 
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ej.mobile.Button.IOS7.Style.Back
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -736,27 +536,18 @@ $("#header").ejmHeader({"ios7":{"leftButtonStyle": "back"}})
 
 
 
-### ios7.rightButtonStyle<span class="type-signature type enum">enum</span>
+### ios7.rightButtonStyle`enum`
 {:#members:ios7-rightbuttonstyle}
-
-
 
 
 Specifies the ios7 style for the right button i.e. back button or normal button. See IOS7HeaderRightButtonStyle
 
 
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ej.mobile.Button.IOS7.Style.Back
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -786,29 +577,17 @@ $("#header").ejmHeader({"ios7":{"rightButtonStyle": "normal"}})
  $("#header").ejmHeader ("option", "ios7.rightButtonStyle","normal"); {% endhighlight %}
 
 
-
-
-### ios7.showLeftButton<span class="type-signature type boolean">boolean</span>
+### ios7.showLeftButton`boolean`
 {:#members:ios7-showleftbutton}
-
-
-
 
 Specifies whether to show the ios7 left button or not.
 
 
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -834,30 +613,17 @@ $("#header").ejmHeader({"ios7":{ "showLeftButton": true }});
 // Set the showLeftButton  API
 $("#header").ejmHeader ("option", "ios7.showLeftButton", true);                 {% endhighlight %}
 
-
-
-
-### ios7.showRightButton<span class="type-signature type boolean">boolean</span>
+### ios7.showRightButton`boolean`
 {:#members:ios7-showrightbutton}
-
-
-
 
 Specifies whether to show the ios7 right button or not.
 
 
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -883,31 +649,17 @@ $("#header").ejmHeader({"ios7":{ "showRightButton": true }});
 // Set the showLeftButton  API
 $("#header").ejmHeader ("option", "ios7.showRightButton", true);                        {% endhighlight %}
 
-
-
-
-### leftButtonCaption<span class="type-signature type string">string</span>
+### leftButtonCaption`string`
 {:#members:leftbuttoncaption}
-
-
-
 
 Specifies the caption of the left button. <a href="ejmHeader.html#showLeftButton">ejmHeader#showLeftButton</a>
 
 
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * Back
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the leftButtonCaption property in unobtrusive way.
@@ -933,29 +685,16 @@ $("#header").ejmHeader({ leftButtonCaption: "Home" });
 $("#header").ejmHeader ("option", "leftButtonCaption", "Home");                 {% endhighlight %}
 
 
-
-
-### leftButtonNavigationUrl<span class="type-signature type string">string</span>
+### leftButtonNavigationUrl`string`
 {:#members:leftbuttonnavigationurl}
-
-
-
 
 Specifies the navigation url, which the page should go while clicking the left button. <a href="ejmHeader.html#showLeftButton">ejmHeader#showLeftButton</a>
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * null
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -981,31 +720,17 @@ $("#header").ejmHeader({ leftButtonNavigationUrl: "" });
 // Set the leftButtonNavigationUrl  API
 $("#header").ejmHeader ("option", "leftButtonNavigationUrl", "Header");{% endhighlight %}
 
-
-
-
-### leftButtonStyle<span class="type-signature type enum">enum</span>
+### leftButtonStyle`enum`
 {:#members:leftbuttonstyle}
-
-
-
 
 Specifies the style for the left button i.e. back button or normal button or header buttton. See <a href="global.html#HeaderLeftButtonStyle">HeaderLeftButtonStyle</a>
 
 
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ej.mobile.Header.HeaderLeftButtonStyle.Back
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the leftButtonStyle property in unobtrusive way.
@@ -1032,31 +757,16 @@ $("#header").ejmHeader({ leftButtonStyle: ej.mobile.Button.IOS7Style.Back });
 // Set the leftButtonStyle  API
 $("#header").ejmHeader ("option", "leftButtonStyle","normal"); {% endhighlight %}
 
-
-
-
-### position<span class="type-signature type enum">enum</span>
+### position`enum`
 {:#members:position}
-
-
-
 
 Specifies whether to keep the header in fixed position. i.e. top or in relative position depends on the other element's position. See <a href="global.html#Position">Position</a>
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ej.mobile.Header.Position.Fixed
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the position property in unobtrusive way.
@@ -1082,30 +792,16 @@ $("#header").ejmHeader({ position: ej.mobile.Header.Position.Fixed });
 // Set the position  API
 $("#header").ejmHeader ("option", "position", ej.mobile.Header.Position.Fixed);                 {% endhighlight %}
 
-
-
-
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
-
-
-
 
 Changes the rendering mode of the header.See <a href="global.html#RenderMode">RenderMode</a>
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * auto
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1132,31 +828,16 @@ $("#header").ejmHeader({ renderMode: ej.mobile.RenderMode.Auto });
 // Set the renderMode  API
 $("#header").ejmHeader ("option", "renderMode", ej.mobile.RenderMode.Auto);                     {% endhighlight %}
 
-
-
-
-### rightButtonCaption<span class="type-signature type string">string</span>
+### rightButtonCaption`string`
 {:#members:rightbuttoncaption}
-
-
-
 
 Specifies the caption of the right button. <a href="ejmHeader.html#showRightButton">ejmHeader#showRightButton</a>
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * Right
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the rightButtonCaption property in unobtrusive way.
@@ -1182,29 +863,16 @@ $("#header").ejmHeader({ rightButtonCaption: "Next" });
 $("#header").ejmHeader ("option", "rightButtonCaption", "Next");                        {% endhighlight %}
 
 
-
-
-### rightButtonNavigationUrl<span class="type-signature type string">string</span>
+### rightButtonNavigationUrl`string`
 {:#members:rightbuttonnavigationurl}
-
-
-
 
 Specifies the navigation url, which the page should go while clicking the right button. <a href="ejmHeader.html#showRightButton">ejmHeader#showRightButton</a>
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * null
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1231,20 +899,12 @@ $("#header").ejmHeader({ rightButtonNavigationUrl: "" });
 $("#header").ejmHeader ("option", "rightButtonNavigationUrl", "Header");{% endhighlight %}
 
 
-
-
-### rightButtonStyle<span class="type-signature type enum">enum</span>
+### rightButtonStyle`enum`
 {:#members:rightbuttonstyle}
-
-
-
 
 Specifies the style for the right button i.e. back button or normal button. See <a href="global.html#HeaderRightButtonStyle">HeaderRightButtonStyle</a> ej.mobile.Header.HeaderRightButtonStyle.Header
 
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1273,29 +933,19 @@ $("#header").ejmHeader({ rightButtonStyle: ej.mobile.Button.IOS7.Style.Header })
 $("#header").ejmHeader ("option", "rightButtonStyle","normal");                         {% endhighlight %}
 
 
-
-
-### showLeftButton<span class="type-signature type boolean">boolean</span>
+### showLeftButton`boolean`
 {:#members:showleftbutton}
-
-
-
 
 Specifies whether to show the left button or not.
 
 
-Default Value:
-{:.param}
-
+#### Default Value
 
 
 * false
 
 
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1323,28 +973,17 @@ $("#header").ejmHeader ("option", "showLeftButton", true);                      
 
 
 
-### showRightButton<span class="type-signature type boolean">boolean</span>
+### showRightButton`boolean`
 {:#members:showrightbutton}
-
-
-
 
 Specifies whether to show the right button or not.
 
 
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the showRightButton property in unobtrusive way.
@@ -1368,31 +1007,16 @@ $("#header").ejmHeader({ showRightButton: true });
 // Set the showRightButton  API
 $("#header").ejmHeader ("option", "showRightButton", true);                     {% endhighlight %}
 
-
-
-
-### showTitle<span class="type-signature type boolean">boolean</span>
+### showTitle`boolean`
 {:#members:showtitle}
-
-
-
 
 Specifies whether to show the title or not. if this property is set to false, title will be hide.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * true
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the showTitle property in unobtrusive way.
@@ -1416,30 +1040,16 @@ $("#header").ejmHeader({ showTitle: false });
 // Set the showTitle  API
 $("#header").ejmHeader ("option", "showTitle", false);                          {% endhighlight %}
 
-
-
-
-### templateId<span class="type-signature type string">string</span>
+### templateId`string`
 {:#members:templateid}
-
-
-
 
 Specifies the id of the element which is to be given as template.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * null
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1447,31 +1057,17 @@ Example
 <div id="header" data-role="ejmheader" data-ej-templateid="headertemplate" ></div>
                         {% endhighlight %}
 
-
-
-
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
-
-
 
 
 Changes the theme of the header. See <a href="global.html#Theme">Theme</a>
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * auto
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the theme property in unobtrusive way.
@@ -1497,30 +1093,16 @@ $("#header").ejmHeader({ theme:  ej.mobile.Theme.Auto });
 // Set the leftButtonCaption  API
 $("#header").ejmHeader ("option", "theme",  ej.mobile.Theme.Auto);                      {% endhighlight %}
 
-
-
-
-### title<span class="type-signature type string">string</span>
+### title`string`
 {:#members:title}
-
-
-
 
 Specifies the title's text.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * Title
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1546,43 +1128,22 @@ $("#header").ejmHeader({ title: "Title" });
 // Set the title  API
 $("#header").ejmHeader ("option", "title", "Header");                   {% endhighlight %}
 
-
-
-
 ### windows
 {:#members:windows}
 
-
-
-
 Section for windows rendermode specific functionalities.
 
-
-
-
-
-
-### windows.enableCustomText<span class="type-signature type boolean">boolean</span>
+### windows.enableCustomText`boolean`
 {:#members:windows-enablecustomtext}
-
-
-
 
 By default windows title's text will be in small case. To override this behavior, set this property to true.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
 
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1590,30 +1151,16 @@ Example
 <div id="header" data-role="ejmheader" data-ej-rendermode="windows" data-ej-windows-enablecustomtext=true data-ej-title="Windows Custom Text" ></div>
  {% endhighlight %}
 
-
-
-
-### windows.leftButtonStyle<span class="type-signature type enum">enum</span>
+### windows.leftButtonStyle`enum`
 {:#members:windows-leftbuttonstyle}
-
-
-
 
 Specifies the style for the windows left button i.e. back button or normal button or header button. See WindowsHeaderLeftButtonStyle
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ej.mobile.Button.Windows.Style.Back
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1642,30 +1189,17 @@ $("#header").ejmHeader({"windows":{"leftButtonStyle": "back"}})
 // Set the leftButtonStyle  API
  $("#header").ejmHeader ("option", "windows.leftButtonStyle","normal"); {% endhighlight %}
 
-
-
-
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
-
-
-
 
 Specifies whether to render the header based on the windowsphone's current theme or not.
 
 
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1674,29 +1208,17 @@ Example
  {% endhighlight %}
 
 
-
-
-### windows.rightButtonStyle<span class="type-signature type enum">enum</span>
+### windows.rightButtonStyle`enum`
 {:#members:windows-rightbuttonstyle}
-
-
-
 
 Specifies the windows style for the right button i.e. back button or normal button. See WindowsHeaderRightButtonStyle
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ej.mobile.Button.Windows.Style.Back
 
 
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1726,29 +1248,16 @@ $("#header").ejmHeader({"windows":{"rightButtonStyle": "normal"}})
  $("#header").ejmHeader ("option", "windows.rightButtonStyle","normal"); {% endhighlight %}
 
 
-
-
-### windows.showLeftButton<span class="type-signature type boolean">boolean</span>
+### windows.showLeftButton`boolean`
 {:#members:windows-showleftbutton}
-
-
-
 
 Specifies whether to show the windows left button or not.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1775,29 +1284,16 @@ $("#header").ejmHeader({"windows":{ "showLeftButton": true }});
 $("#header").ejmHeader ("option", "windows.showLeftButton", true);                      {% endhighlight %}
 
 
-
-
-### windows.showRightButton<span class="type-signature type boolean">boolean</span>
+### windows.showRightButton`boolean`
 {:#members:windows-showrightbutton}
-
-
-
 
 Specifies whether to show the windows right button or not.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1823,26 +1319,14 @@ $("#header").ejmHeader({"windows":{ "showRightButton": true }});
 // Set the showLeftButton  API
 $("#header").ejmHeader ("option", "windows.showRightButton", true);                     {% endhighlight %}
 
-
-
 ## Methods
 
-
-
-
-### getTitle<span class="signature">()</span>
+### getTitle`()`
 {:#methods:gettitle}
-
-
-
 
 To get the header's text
 
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="header" data-role="ejmheader" ></div>
@@ -1869,14 +1353,8 @@ $("#header").ejmHeader("getTitle");
 
 ## Events
 
-
-
-
 ### leftButtonTap
 {:#events:leftbuttontap}
-
-
-
 
 Event triggers when the left button is tapped. <a href="ejmHeader.html#showLeftButton">ejmHeader#showLeftButton</a>
 
@@ -1913,8 +1391,7 @@ Event triggers when the left button is tapped. <a href="ejmHeader.html#showLeftB
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1935,14 +1412,8 @@ $("#header").ejmHeader({showLeftButton:true, leftButtonTap:"test"});
 }
 </script>{% endhighlight %}
 
-
-
-
 ### rightButtonTap
 {:#events:rightbuttontap}
-
-
-
 
 Event triggers when the right button is tapped. <a href="ejmHeader.html#showRightButton">ejmHeader#showRightButton</a>
 
@@ -1979,8 +1450,7 @@ Event triggers when the right button is tapped. <a href="ejmHeader.html#showRigh
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}<div id="header" data-role="ejmheader" data-ej-showrightbutton="true" data-ej-rightbuttontap="onRightButtonTap"></div>
@@ -1998,6 +1468,3 @@ $("#header").ejmHeader({showRightButton:true, rightButtonTap:"test"});
 function test(){ //handle the event 
 }
 </script>                 {% endhighlight %}
-
-
-

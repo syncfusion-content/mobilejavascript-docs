@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | Rotator | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: Rotator (Mobile)

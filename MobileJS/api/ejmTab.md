@@ -1,38 +1,20 @@
 ---
 layout: post
-title: ejmTab
+title: ejmTab | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmTab, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html Tab control.
+# ejmTab
 
-
-
-
-
-
-
-
-
+Custom Design for Html Tab control.
 
 $(element).ejmTab<span class="signature">()</span>
 
 
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="tab" data-role="ejmtab" >
@@ -65,8 +47,7 @@ $("#tab").ejmTab();
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 
@@ -134,7 +115,7 @@ Section for ajaxSettings specific functionalities.
 
 
 
-### ajaxSettings.async<span class="type-signature type boolean">boolean</span>
+### ajaxSettings.async`boolean`
 {:#members:ajaxsettings-async}
 
 
@@ -149,8 +130,7 @@ Specifies the tab ajaxOptions.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -166,8 +146,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -212,7 +191,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", { async: true });            {% endh
 
 
 
-### ajaxSettings.cache<span class="type-signature type boolean">boolean</span>
+### ajaxSettings.cache`boolean`
 {:#members:ajaxsettings-cache}
 
 
@@ -227,8 +206,7 @@ Specifies the tab ajaxOptions.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -244,8 +222,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -290,7 +267,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", { cache: false });            {% end
 
 
 
-### ajaxSettings.contentType<span class="type-signature type string">string</span>
+### ajaxSettings.contentType`string`
 {:#members:ajaxsettings-contenttype}
 
 
@@ -305,8 +282,7 @@ Specifies the tab ajaxOptions.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -322,8 +298,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -368,7 +343,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", { contentType: "html" });           
 
 
 
-### ajaxSettings.data<span class="type-signature type jsonobject">JSONObject</span>
+### ajaxSettings.data`JSONObject`
 {:#members:ajaxsettings-data}
 
 
@@ -383,8 +358,7 @@ Specifies the tab ajaxOptions.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -400,8 +374,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -446,7 +419,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", {data: {}});            {% endhighli
 
 
 
-### ajaxSettings.dataType<span class="type-signature type string">string</span>
+### ajaxSettings.dataType`string`
 {:#members:ajaxsettings-datatype}
 
 
@@ -461,8 +434,7 @@ Specifies the tab ajaxOptions.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -478,8 +450,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -524,7 +495,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", { dataType: "html" });            {%
 
 
 
-### ajaxSettings.type<span class="type-signature type jsonobject">JSONObject</span>
+### ajaxSettings.type`JSONObject`
 {:#members:ajaxsettings-type}
 
 
@@ -539,8 +510,7 @@ Specifies the tab ajaxOptions.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -556,8 +526,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -601,7 +570,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", { type: 'GET'});            {% endhi
 
 
 
-### ajaxSettings.url<span class="type-signature type string">string</span>
+### ajaxSettings.url`string`
 {:#members:ajaxsettings-url}
 
 
@@ -616,8 +585,7 @@ Specifies the tab ajaxOptions.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -633,8 +601,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -679,7 +646,7 @@ $("#tab").ejmTab ("option", "ajaxSettings", { url: "" });            {% endhighl
 
 
 
-### allowScrolling<span class="type-signature type boolean">boolean</span>
+### allowScrolling`boolean`
 {:#members:allowscrolling}
 
 
@@ -694,8 +661,7 @@ Specifies whether enable tab content's scrolling or not.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -711,8 +677,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -802,7 +767,7 @@ Section for android rendermode specific functionalities.
 
 
 
-### android.contentType<span class="type-signature type enum">enum</span>
+### android.contentType`enum`
 {:#members:android-contenttype}
 
 
@@ -817,8 +782,7 @@ Specifies android tab content type tab content.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -834,8 +798,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -903,7 +866,7 @@ $("#tab").ejmTab("option", "android.ContentType", "ej.mobile.Tab.Android.Content
 
 
 
-### android.imageClass<span class="type-signature type string">string</span>
+### android.imageClass`string`
 {:#members:android-imageclass}
 
 
@@ -918,8 +881,7 @@ Specifies class name for image to display in android mode.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -935,8 +897,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -967,7 +928,7 @@ Favourites content here
 
 
 
-### android.position<span class="type-signature type enum">enum</span>
+### android.position`enum`
 {:#members:android-position}
 
 
@@ -982,8 +943,7 @@ Specifies whether to position the tabs in fixed or relative position in the page
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -999,8 +959,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1090,7 +1049,7 @@ Section for badge specific functionalities.
 
 
 
-### badge.enabled<span class="type-signature type boolean">boolean</span>
+### badge.enabled`boolean`
 {:#members:badge-enabled}
 
 
@@ -1105,8 +1064,7 @@ Specifies whether to enable Badge or not.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1122,8 +1080,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1191,7 +1148,7 @@ $("#tab").ejmTab ("option", "badge.enabled", "true");            {% endhighlight
 
 
 
-### badge.maxValue<span class="type-signature type number">number</span>
+### badge.maxValue`number`
 {:#members:badge-maxvalue}
 
 
@@ -1206,8 +1163,7 @@ Specifies the maximum value allowed for a badge.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1223,8 +1179,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1292,7 +1247,7 @@ $("#tab").ejmTab ("option", "badge.maxValue", "100");            {% endhighlight
 
 
 
-### badge.minValue<span class="type-signature type number">number</span>
+### badge.minValue`number`
 {:#members:badge-minvalue}
 
 
@@ -1307,8 +1262,7 @@ Specifies the minimum value allowed for a badge.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1324,8 +1278,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1393,7 +1346,7 @@ $("#tab").ejmTab ("option", "badge.minValue", "10");            {% endhighlight 
 
 
 
-### badge.value<span class="type-signature type number">number</span>
+### badge.value`number`
 {:#members:badge-value}
 
 
@@ -1408,8 +1361,7 @@ Specifies the badge Value.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1425,8 +1377,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1493,7 +1444,7 @@ $("#tab").ejmTab ("option", "badge.value", "2");            {% endhighlight %}
 
 
 
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
 
 
@@ -1508,8 +1459,7 @@ Sets the root class for Tab theme. This cssClass API helps to use custom skinnin
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1525,8 +1475,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1582,7 +1531,7 @@ $("#tab").ejmTab ("option", "cssClass", "customclass");            {% endhighlig
 
 
 
-### enableAjax<span class="type-signature type boolean">boolean</span>
+### enableAjax`boolean`
 {:#members:enableajax}
 
 
@@ -1597,8 +1546,7 @@ Specifies whether Ajax content will be used to load the tab contents.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1614,8 +1562,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1668,7 +1615,7 @@ $("#tab").ejmTab ("option", "enableAjax", "true");            {% endhighlight %}
 
 
 
-### enableCache<span class="type-signature type boolean">boolean</span>
+### enableCache`boolean`
 {:#members:enablecache}
 
 
@@ -1683,8 +1630,7 @@ Specifies whether to enable Caching or not.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1700,8 +1646,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1757,7 +1702,7 @@ $("#tab").ejmTab ("option", "enableCache", "true");            {% endhighlight %
 
 
 
-### enableNativeScrolling<span class="type-signature type boolean">boolean</span>
+### enableNativeScrolling`boolean`
 {:#members:enablenativescrolling}
 
 
@@ -1772,8 +1717,7 @@ Specifies whether enable native scrolling or not.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1789,8 +1733,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1858,7 +1801,7 @@ $("#tab").ejmTab ("option", "enableNativeScrolling", "true");            {% endh
 
 
 
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
 
 
@@ -1873,8 +1816,7 @@ Saves current model value to browser cookies for state maintains. While refreshi
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1890,8 +1832,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1980,7 +1921,7 @@ Section for flat rendermode specific functionalities.
 
 
 
-### flat.position<span class="type-signature type enum">enum</span>
+### flat.position`enum`
 {:#members:flat-position}
 
 
@@ -1995,8 +1936,7 @@ Specifies whether to position the tabs in fixed or relative position in the page
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2012,8 +1952,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2103,7 +2042,7 @@ Section for ios7 rendermode specific functionalities.
 
 
 
-### ios7.imageClass<span class="type-signature type string">string</span>
+### ios7.imageClass`string`
 {:#members:ios7-imageclass}
 
 
@@ -2118,8 +2057,7 @@ Specifies the class for image to display in ios7 mode.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2135,8 +2073,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2189,7 +2126,7 @@ Section for overflow badge specific functionalities.
 
 
 
-### ios7.overflowBadge.enabled<span class="type-signature type boolean">boolean</span>
+### ios7.overflowBadge.enabled`boolean`
 {:#members:ios7-overflowbadge-enabled}
 
 
@@ -2204,8 +2141,7 @@ Specifies whether to enable badge for overflow tab or not.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2221,8 +2157,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2290,7 +2225,7 @@ $("#tab").ejmTab("option", "ios7.overflowBadge.enabled", true); {% endhighlight 
 
 
 
-### ios7.overflowBadge.maxValue<span class="type-signature type number">number</span>
+### ios7.overflowBadge.maxValue`number`
 {:#members:ios7-overflowbadge-maxvalue}
 
 
@@ -2305,8 +2240,7 @@ Specifies the maximum value for overflow batch in ios7 mode.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2322,8 +2256,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2391,7 +2324,7 @@ $("#tab").ejmTab("option", "ios7.overflowBadge.maxValue",100); {% endhighlight %
 
 
 
-### ios7.overflowBadge.minValue<span class="type-signature type number">number</span>
+### ios7.overflowBadge.minValue`number`
 {:#members:ios7-overflowbadge-minvalue}
 
 
@@ -2406,8 +2339,7 @@ Specifies the minimum value for overflow batch in ios7 mode.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2423,8 +2355,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2492,7 +2423,7 @@ $("#tab").ejmTab("option", "ios7.overflowBadge.minValue",10); {% endhighlight %}
 
 
 
-### ios7.overflowBadge.value<span class="type-signature type number">number</span>
+### ios7.overflowBadge.value`number`
 {:#members:ios7-overflowbadge-value}
 
 
@@ -2507,8 +2438,7 @@ Specifies the value for overflow badge in ios7 mode.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2524,8 +2454,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2593,7 +2522,7 @@ $("#tab").ejmTab("option", "ios7.overflowBadge.value",2); {% endhighlight %}
 
 
 
-### prefetchAjaxContent<span class="type-signature type boolean">boolean</span>
+### prefetchAjaxContent`boolean`
 {:#members:prefetchajaxcontent}
 
 
@@ -2608,8 +2537,7 @@ Specifies whether need to prefetch the ajax content or not
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2625,8 +2553,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2682,7 +2609,7 @@ $("#tab").ejmTab ("option", "prefetchAjaxContent", "true");            {% endhig
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -2697,8 +2624,7 @@ Changes the rendering mode. See <a href="global.html#RenderMode">RenderMode</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2714,8 +2640,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2782,7 +2707,7 @@ $("#tab").ejmTab ("option", "renderMode", ej.mobile.RenderMode.Android);        
 
 
 
-### selectedItemIndex<span class="type-signature type number">number</span>
+### selectedItemIndex`number`
 {:#members:selecteditemindex}
 
 
@@ -2797,8 +2722,7 @@ Specifies the Item Index which is selected.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2814,8 +2738,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2882,7 +2805,7 @@ $("#tab").ejmTab ("option", "selectedItemIndex", "1");            {% endhighligh
 
 
 
-### showAjaxPopup<span class="type-signature type boolean">boolean</span>
+### showAjaxPopup`boolean`
 {:#members:showajaxpopup}
 
 
@@ -2897,8 +2820,7 @@ Specifies whether show waiting popup in Ajax content loading or not.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2914,8 +2836,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2971,7 +2892,7 @@ $("#tab").ejmTab ("option", "showAjaxPopup", "false");            {% endhighligh
 
 
 
-### showScrollbars<span class="type-signature type boolean">boolean</span>
+### showScrollbars`boolean`
 {:#members:showscrollbars}
 
 
@@ -2986,8 +2907,7 @@ Specifies whether show the scrollbars or not
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -3003,8 +2923,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3072,7 +2991,7 @@ $("#tab").ejmTab ("option", "showScrollbars", "false");            {% endhighlig
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -3087,8 +3006,7 @@ Changes the theme. See <a href="global.html#Theme">Theme</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -3104,8 +3022,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3196,7 +3113,7 @@ Section for windows rendermode specific functionalities.
 
 
 
-### windows.enableCustomText<span class="type-signature type boolean">boolean</span>
+### windows.enableCustomText`boolean`
 {:#members:windows-enablecustomtext}
 
 
@@ -3211,8 +3128,7 @@ Specifies whether to enable custom text for windows mode or not.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -3228,8 +3144,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3312,8 +3227,7 @@ Specifies whether enable to move the content while swipe move.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -3329,8 +3243,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3398,7 +3311,7 @@ $("#tab").ejmTab("option", "windows.enableTouchMove", "true"); {% endhighlight %
 
 
 
-### windows.position<span class="type-signature type enum">enum</span>
+### windows.position`enum`
 {:#members:windows-position}
 
 
@@ -3413,8 +3326,7 @@ Specifies whether to position the tabs in fixed or relative position in the page
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -3430,8 +3342,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3499,7 +3410,7 @@ $("#tab").ejmTab("option", "windows.position",  ej.mobile.Tab.Windows.Position.F
 
 
 
-### windows.preventContentSwipe<span class="type-signature type boolean">boolean</span>
+### windows.preventContentSwipe`boolean`
 {:#members:windows-preventcontentswipe}
 
 
@@ -3514,8 +3425,7 @@ Specifies whether to prevent swiping geture or not in windows mode.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -3531,8 +3441,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3600,7 +3509,7 @@ $("#tab").ejmTab("option", "windows.preventContentSwipe", "true"); {% endhighlig
 
 
 
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
 
 
@@ -3615,8 +3524,7 @@ Specifies whether to render based on the windowsphone's current accent color and
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -3632,8 +3540,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3708,7 +3615,7 @@ $("#tab").ejmTab("option", "windows.renderDefault", "false"); {% endhighlight %}
 
 
 
-### addItem<span class="signature">()</span>
+### addItem`()`
 {:#methods:additem}
 
 
@@ -3724,8 +3631,7 @@ To add a tab item
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3761,7 +3667,7 @@ $("#tab").ejmTab("addItem","addTab",3);
 
 
 
-### addOverflowItem<span class="signature">()</span>
+### addOverflowItem`()`
 {:#methods:addoverflowitem}
 
 
@@ -3777,8 +3683,7 @@ To add tab item in more option
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3814,7 +3719,7 @@ $("#tab").ejmTab("addOverflowItem","addMoreTab",3);
 
 
 
-### disableContent<span class="signature">()</span>
+### disableContent`()`
 {:#methods:disablecontent}
 
 
@@ -3830,8 +3735,7 @@ To disable the tab item content
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3867,7 +3771,7 @@ $("#tab").ejmTab("disableContent",1);
 
 
 
-### disableItem<span class="signature">()</span>
+### disableItem`()`
 {:#methods:disableitem}
 
 
@@ -3883,8 +3787,7 @@ To disable the tab item
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3920,7 +3823,7 @@ $("#tab").ejmTab("disableItem",1);
 
 
 
-### enableContent<span class="signature">()</span>
+### enableContent`()`
 {:#methods:enablecontent}
 
 
@@ -3936,8 +3839,7 @@ To enable the tab item content
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3973,7 +3875,7 @@ $("#tab").ejmTab("enableContent",1);
 
 
 
-### enableItem<span class="signature">()</span>
+### enableItem`()`
 {:#methods:enableitem}
 
 
@@ -3989,8 +3891,7 @@ To enable the tab item
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4026,7 +3927,7 @@ $("#tab").ejmTab("enableItem",1);
 
 
 
-### getActiveItem<span class="signature">()</span>
+### getActiveItem`()`
 {:#methods:getactiveitem}
 
 
@@ -4042,8 +3943,7 @@ Get the current active item
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4079,7 +3979,7 @@ $("#tab").ejmTab("getActiveItem");
 
 
 
-### getActiveItemText<span class="signature">()</span>
+### getActiveItemText`()`
 {:#methods:getactiveitemtext}
 
 
@@ -4095,8 +3995,7 @@ Get the current active item text
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4132,7 +4031,7 @@ $("#tab").ejmTab("getActiveItemText");
 
 
 
-### getItemsCount<span class="signature">()</span>
+### getItemsCount`()`
 {:#methods:getitemscount}
 
 
@@ -4148,8 +4047,7 @@ To return the tab item count
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4185,7 +4083,7 @@ $("#tab").ejmTab("getItemsCount");
 
 
 
-### getOverflowItemCount<span class="signature">()</span>
+### getOverflowItemCount`()`
 {:#methods:getoverflowitemcount}
 
 
@@ -4201,8 +4099,7 @@ Get the overflow tab item count
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4238,7 +4135,7 @@ $("#tab").ejmTab("getOverflowItemCount");
 
 
 
-### hideBadge<span class="signature">()</span>
+### hideBadge`()`
 {:#methods:hidebadge}
 
 
@@ -4254,8 +4151,7 @@ To hide a badge
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4291,7 +4187,7 @@ $("#tab").ejmTab("hideBadge",1);
 
 
 
-### removeItem<span class="signature">()</span>
+### removeItem`()`
 {:#methods:removeitem}
 
 
@@ -4307,8 +4203,7 @@ To remove tab item
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4344,7 +4239,7 @@ $("#tab").ejmTab("removeItem",1);
 
 
 
-### removeOverflowItem<span class="signature">()</span>
+### removeOverflowItem`()`
 {:#methods:removeoverflowitem}
 
 
@@ -4360,8 +4255,7 @@ To remove tab item in overflow option
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4397,7 +4291,7 @@ $("#tab").ejmTab("removeOverflowItem",1);
 
 
 
-### selectItem<span class="signature">()</span>
+### selectItem`()`
 {:#methods:selectitem}
 
 
@@ -4413,8 +4307,7 @@ To make the tab item to be active
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4450,7 +4343,7 @@ $("#tab").ejmTab("selectItem",1);
 
 
 
-### showBadge<span class="signature">()</span>
+### showBadge`()`
 {:#methods:showbadge}
 
 
@@ -4466,8 +4359,7 @@ To show the tab's badge.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4503,7 +4395,7 @@ $("#tab").ejmTab("showBadge",1);
 
 
 
-### updateBadgeValue<span class="signature">()</span>
+### updateBadgeValue`()`
 {:#methods:updatebadgevalue}
 
 
@@ -4519,8 +4411,7 @@ To update the badge value
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4615,8 +4506,7 @@ Event triggers when the ajaxBeforeLoad happens in the Tab
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -4721,8 +4611,7 @@ Event triggers when the ajaxComplete happens in the tab.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -4852,8 +4741,7 @@ Event triggers when the ajaxError happens in the tab
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -4978,8 +4866,7 @@ Event triggers when the ajaxSuccess happens in the tab
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -5084,8 +4971,7 @@ Event triggers when the load happens in the Tab
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -5201,8 +5087,7 @@ Event triggers when the loadComplete happens in the Tab
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -5333,8 +5218,7 @@ Event triggered after ajax contents are prefetched.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -5443,8 +5327,7 @@ Event triggers when the touchEnd happens in the Tab
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             
@@ -5555,8 +5438,7 @@ Event triggers when the touchStart happens in the Tab
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %}             

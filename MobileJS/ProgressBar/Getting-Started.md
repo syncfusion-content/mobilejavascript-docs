@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | Progress Bar | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: Progress Bar (Mobile)
@@ -15,9 +15,7 @@ In this section, you can learn how to create ProgressBar and how to use it in yo
 
 The Essential JavaScript Mobile Progress Bar is a simple interface to indicate the current progress of an operation, such as uploading a document. In the following guidelines, you will learn about the features in progress bar widget by creating an App Installer.
 
-
-![1](Getting-Started_images/Getting-Started_img1.png)
-
+![](Getting-Started_images/Getting-Started_img1.png)
 
 ## Create the required layout for App Installer
 
@@ -31,23 +29,23 @@ Create an HTML file and paste the following template to it for Progress Bar crea
 
 <html>
 
-<head>
+	<head>
 
-<title>Progressbar</title>
+		<title>Progressbar</title>
 
-<link href="[http://cdn.syncfusion.com/js/mobile/ej.mobile.all-latest.min.css](http://cdn.syncfusion.com/js/mobile/ej.mobile.all-latest.min.css)" rel="stylesheet" />
+		<link href="[http://cdn.syncfusion.com/js/mobile/ej.mobile.all-latest.min.css](http://cdn.syncfusion.com/js/mobile/ej.mobile.all-latest.min.css)" rel="stylesheet" />
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
 
-  <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/js/mobile/ej.mobile.all-latest.min.js](http://cdn.syncfusion.com/js/mobile/ej.mobile.all-latest.min.js)"></script>
+	    <script src="[http://cdn.syncfusion.com/js/mobile/ej.mobile.all-latest.min.js](http://cdn.syncfusion.com/js/mobile/ej.mobile.all-latest.min.js)"></script>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
         <div id="page" data-role="appview">
 
@@ -81,35 +79,25 @@ Create an HTML file and paste the following template to it for Progress Bar crea
 
         <input type="button" data-role="ejmbutton" data-ej-text="Install" id="button" data-ej-touchend="startProgress" /></div>
 
-
-
         <!--Add progressbar Element here-->
-
-
 
         </div></div> 
 
         <!-- ScrollPanel -->
 
- <div data-role="ejmscrollpanel" data-ej-target="content"></div>
+ 		<div data-role="ejmscrollpanel" data-ej-target="content"></div>
 
         </div>
 
-</body>
+	</body>
 
 </html>
 
-
 {% endhighlight %}
-
-
 
 Run the above code to render the following output.
 
-
-
-![2](Getting-Started_images/Getting-Started_img2.png)
-
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 ## Create Progress bar control
@@ -120,55 +108,41 @@ To render the progress bar control, you need to set “data-role” attribute as
 
 <!--Progress bar control -->
 
-        <div style="width: 75%; margin:auto;" >
+<div style="width: 75%; margin:auto;" >
 
-            <div id="progress" data-role="ejmprogress" data-ej-value="73">
+	<div id="progress" data-role="ejmprogress" data-ej-value="73">
 
-            </div>
+	</div>
 
-        </div>
-
-
+</div>
 
 {% endhighlight %}
-
-
 
 Progress bar can be hidden with a desired action on its “hide” API and can be shown with desired action on its “show” API. Refer the below code snippets.
 
-
-
 {% highlight js %}
 
+$(function () {
 
-        $(function () {
+window.progressObject = $("#progress").data("ejmProgress"); // create object for progressbar
 
-            window.progressObject = $("#progress").data("ejmProgress"); // create object for progressbar
+$("#progress").hide();//to hide progressbar at initialize
 
-            $("#progress").hide();//to hide progressbar at initialize
+});
 
-        });
+function startProgress(args) {
 
-        function startProgress(args) {
+$(".e-m-btnwrapper").hide();//to hide button
 
-            $(".e-m-btnwrapper").hide();//to hide button
+$("#progress").show();// to show progressbar
 
-            $("#progress").show();// to show progressbar
-
-            }
-
+}
 
 {% endhighlight %}
 
-
-
 Run this code and you will see the below output while clicking install button.
 
-
-
-![3](Getting-Started_images/Getting-Started_img3.png)
-
-
+![](Getting-Started_images/Getting-Started_img3.png)
 
 ## Customize the text
 
@@ -176,29 +150,21 @@ The default text of progress bar is “downloading”. In our scenario we are in
 
 {% highlight html %}
 
-
-
 <!-- Progressbar control -->
 
-        <div style="width: 75%; margin:auto;" >
+<div style="width: 75%; margin:auto;" >
 
-            <div id="progress" data-role="ejmprogress" data-ej-value="73" data-ej-enablecustomtext=true data-ej-text="Installing...">
+	<div id="progress" data-role="ejmprogress" data-ej-value="73" data-ej-enablecustomtext=true data-ej-text="Installing...">
 
-            </div></div>
-
-
-
-
+	</div>
+	
+</div>
 
 {% endhighlight %}
 
 Run this code and you will see the below output.
 
-
-
-![1](Getting-Started_images/Getting-Started_img4.png)
-
-
+![](Getting-Started_images/Getting-Started_img4.png)
 
 ## Customize the text and value dynamically
 
@@ -206,89 +172,66 @@ The progress bar text and its value can be changed dynamically. In our scenario 
 
 {% highlight html %}
 
-
-
 <!-- Progressbar control -->
 
-        <div style="width: 75%; margin:auto;" >
+<div style="width: 75%; margin:auto;" >
 
-<div id="progress" data-role="ejmprogress"  data-ej-enablecustomtext=true data-ej-text="installing..." > 
+	<div id="progress" data-role="ejmprogress"  data-ej-enablecustomtext=true data-ej-text="installing..." > 
 
           <!-- data-ej-value=”73” is removed here -->
 
- </div>
+	</div>
 
-        </div>
-
-
-
-
+</div>
 
 {% endhighlight %}
-
-
 
 You can use JavaScript “setInterval” function to change its value and text dynamically.
 
-
-
 {% highlight js %}
 
+window.currValue = 0;
 
+$(function () {
 
-        window.currValue = 0;
+	window.progressObject = $("#progress").data("ejmProgress"); // create object for progressbar
 
-        $(function () {
+	$("#progress").hide(); //to hide progressbar at starting
 
-            window.progressObject = $("#progress").data("ejmProgress"); // create object for progressbar
+});
 
-            $("#progress").hide(); //to hide progressbar at starting
+function startProgress(args) {
 
-        });
+	$(".e-m-btnwrapper").hide(); //to hide button
 
-        function startProgress(args) {
+	$("#progress").show(); // to show progressbar
 
-            $(".e-m-btnwrapper").hide(); //to hide button
+	window.timeInterval = setInterval(runProgress, 100); //set time intervel to repeat the process
 
-            $("#progress").show(); // to show progressbar
+}
 
-            window.timeInterval = setInterval(runProgress, 100); //set time intervel to repeat the process
+function runProgress() {
 
-        }
+	progressObject.option("value", window.currValue); //set value for progress
 
-        function runProgress() {
+	var value = currValue++;
 
-            progressObject.option("value", window.currValue); //set value for progress
+	if (value == 100) {
 
-            var value = currValue++;
+		progressObject.option("text", "Completed..."); // change the text when it reaches 100%
 
-            if (value == 100) {
+		clearInterval(window.timeInterval); //to clear time interval
 
-                progressObject.option("text", "Completed..."); // change the text when it reaches 100%
+	}
 
-                clearInterval(window.timeInterval); //to clear time interval
-
-            }
-
-        }
-
-
-
-
+}
 
 {% endhighlight %}
 
-
-
 Run this code and you will see the following output after clicking the install button. This output is taken after the progress bar value reaches 100%. The text of the progress bar is changed in the below output. 
 
-
-
-![4](Getting-Started_images/Getting-Started_img5.png)
-
-
+![](Getting-Started_images/Getting-Started_img5.png)
 
 ## Progress Bar event handling 
 
 From the above steps, you have learnt how to create and customize Essential JavaScript Mobile Progress bar widget with use case samples. You can have more customization properties other than the one used here. To know more about the properties in Mobile Progress bar widget, refer the complete documentation page for Progress bar widget.
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Border-Support
+title: Border Support | MaskEdit | Mobilejs | Syncfusion
 description: border support
 platform: Mobilejs
 control: MaskEdit (Mobile)
@@ -19,4 +19,4 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-![D:/Final Doc/mockup/IMG_0522_iphone5s_spacegrey_portrait.png](Border-Support_images/Border-Support_img1.png)
+![](Border-Support_images/Border-Support_img1.png)

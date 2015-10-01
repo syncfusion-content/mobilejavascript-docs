@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enabled
+title: Enabled | Button | Mobilejs | Syncfusion
 description: enabled
 platform: Mobilejs
 control: Button (Mobile)
@@ -13,10 +13,10 @@ In certain cases, you can disable the Button in your application depending on so
 
 {% highlight html %}
 
- <!--Enables or disables your button-->                
+<!--Enables or disables your button-->                
 
- <input id="sample_button" type="button" data-role="ejmbutton" data-ej-text="button" data-ej-enabled="true" />
+<input id="sample_button" type="button" data-role="ejmbutton" data-ej-text="button" data-ej-enabled="true" />
 
 {% endhighlight %}
 
-![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](Enabled_images/Enabled_img1.png)
+![](Enabled_images/Enabled_img1.png)

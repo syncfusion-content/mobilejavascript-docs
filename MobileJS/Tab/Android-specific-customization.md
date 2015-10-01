@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android-specific-customization
+title: Android specific customization | Tab | Mobilejs | Syncfusion
 description: android specific customization
 platform: Mobilejs
 control: Tab (Mobile)
@@ -226,12 +226,8 @@ The “data-ej-android-position” attribute holds fixed and normal values. Norm
 
 </div>
 
-
-
 {% endhighlight %}
 
 The following screenshot displays the AndroidPosition:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img3.png)
-
-
+![](Android-specific-customization_images/Android-specific-customization_img3.png)

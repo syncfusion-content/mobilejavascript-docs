@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Text-Configuration
+title: Text Configuration | Tile | Mobilejs | Syncfusion
 description: text configuration
 platform: Mobilejs
 control: Tile (Mobile)
@@ -22,16 +22,16 @@ N> TextPosition support is given only to iOS7 and android mode. TextPosition is 
 
 {% highlight html %}
 
-    <div style="margin-top:45px;">
+<div style="margin-top:45px;">
 
-        <div id="head" data-role="ejmheader" data-ej-title="Tileview"></div>
+	<div id="head" data-role="ejmheader" data-ej-title="Tileview"></div>
 
-        <div id="tile" data-role="ejmtile" data-ej-showtext="true" data-ej-imageurl="weather.png" data-ej-imageposition="fill" data-ej-imagepath="../themes/sample/tileview" data-ej-textalignment="center" data-ej-ios7-textposition="outer" data-ej-text="Weather"> </div>
+	<div id="tile" data-role="ejmtile" data-ej-showtext="true" data-ej-imageurl="weather.png" data-ej-imageposition="fill" data-ej-imagepath="../themes/sample/tileview" data-ej-textalignment="center" data-ej-ios7-textposition="outer" data-ej-text="Weather"> </div>
 
-    </div>
+</div>
 
 {% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
-![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/tiletextchanges.png](Text-Configuration_images/Text-Configuration_img1.png)
+![](Text-Configuration_images/Text-Configuration_img1.png)

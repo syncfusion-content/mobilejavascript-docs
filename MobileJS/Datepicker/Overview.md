@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | DatePicker | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: DatePicker (Mobile)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Menu-Dependency-files
+title: Mobile Menu Dependency files | Menu | Mobilejs | Syncfusion
 description: mobile menu dependency files
 platform: Mobilejs
 control: Menu (Mobile)
@@ -55,4 +55,3 @@ It is referred to handle button-related configuration while rendering Menu.</td>
 ej.mobile.scrollpanel.min.js<br>ej.mobile.scrollbar.min.js</td><td>
 It is referred to handle scrollpanel related configuration while rendering Menu.</td></tr>
 </table>
-

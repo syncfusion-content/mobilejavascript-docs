@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configure-date
+title: Configure date | DatePicker | Mobilejs | Syncfusion
 description: configure date
 platform: Mobilejs
 control: DatePicker (Mobile)
@@ -13,20 +13,10 @@ The data-ej-maxdate and data-ej-mindate attributes are used to denote the maximu
 
 {% highlight html %}
 
-
-
 <input id="datepicker" data-role="ejmdatepicker"  data-ej-maxdate="10/10/2020" data-ej-mindate="05/05/2005" data-ej-value="08/21/2014" data-ej-dateformat="MM/dd/yyyy"/>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays the output.
 
 ![](Configure-date_images/Configure-date_img1.png)
-
-

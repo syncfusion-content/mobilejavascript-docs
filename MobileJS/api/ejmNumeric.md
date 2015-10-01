@@ -1,37 +1,19 @@
 ---
 layout: post
-title: ejmNumeric
+title: ejmNumeric | API Reference | Mobile JS | Syncfusion
+description: 
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmNumeric, API, Essential Studio JS Autocomplete (Mobile)
 ---
 
-# Custom Design for Html Editor control.
+# ejmNumeric
 
-
-
-
-
-
-
-
-
+Custom Design for Html Editor control.
 
 $(element).ejmNumeric<span class="signature">()</span>
 
-
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -48,83 +30,36 @@ $("#editor").ejmNumeric();
 </script>{% endhighlight %}
 
 
-
-
-
-
-
-Requires
-{:.require}
-
-
-
+#### Requires
 
 * module:jQuery
 
-
 * module:ej.mobile.application
-
 
 * module:ej.core
 
-
 * module:ej.unobtrusive
-
 
 * module:ej.mobile.core
 
-
 * module:ej.data
-
 
 * module:ej.touch
 
 
-
-
 ## Members
 
-
-
-
-
-
-
-
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
-
-
-
-
-
-
-
 
 Sets the root class for Editor theme. This cssClass API helps to use custom skinning option for Editor control. By defining the root class using this API, we need to include this root class in CSS.
 
 
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ""
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -159,7 +94,7 @@ $("#editor").ejmNumeric ("option", "cssClass", "customclass");
 
 
 
-### decimalPlaces<span class="type-signature type number">number</span>
+### decimalPlaces`number`
 {:#members:decimalplaces}
 
 
@@ -174,8 +109,7 @@ Specifies the decimal places to set the decimal(floating point) numbers.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -191,8 +125,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -228,7 +161,7 @@ $("#editor").ejmNumeric ("option", " ", 2);
 
 
 
-### enabled<span class="type-signature type boolean">boolean</span>
+### enabled`boolean`
 {:#members:enabled}
 
 
@@ -243,8 +176,7 @@ Specifies whether to enable or disable the control.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -260,8 +192,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -296,7 +227,7 @@ $("#editor").ejmNumeric ("option", "enabled", true);
 
 
 
-### enableStrictMode<span class="type-signature type boolean">boolean</span>
+### enableStrictMode`boolean`
 {:#members:enablestrictmode}
 
 
@@ -311,8 +242,7 @@ Specifies whether to restrict entering the values outside the defined range.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -328,8 +258,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -365,7 +294,7 @@ $("#editor").ejmNumeric ("option", "enableStrictMode", true);
 
 
 
-### incrementStep<span class="type-signature type number">number</span>
+### incrementStep`number`
 {:#members:incrementstep}
 
 
@@ -380,8 +309,7 @@ Specifies the step value for incrementation.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -397,8 +325,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -433,7 +360,7 @@ $("#editor").ejmNumeric ("option", "incrementStep", 3);
 
 
 
-### maxValue<span class="type-signature type number">number</span>
+### maxValue`number`
 {:#members:maxvalue}
 
 
@@ -448,8 +375,7 @@ Specify the maximum value of the editor.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -465,8 +391,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -501,7 +426,7 @@ $("#editor").ejmNumeric ("option", "maxValue", 500);
 
 
 
-### minValue<span class="type-signature type number">number</span>
+### minValue`number`
 {:#members:minvalue}
 
 
@@ -516,8 +441,7 @@ Specify the minimum value.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -533,8 +457,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -569,7 +492,7 @@ $("#editor").ejmNumeric ("option", "minValue", 50);
 
 
 
-### name<span class="type-signature type string">string</span>
+### name`string`
 {:#members:name}
 
 
@@ -584,8 +507,7 @@ Specifies the name of the control.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -601,8 +523,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -637,7 +558,7 @@ $("#editor").ejmNumeric ("option", "name", "numeric");
 
 
 
-### readOnly<span class="type-signature type boolean">boolean</span>
+### readOnly`boolean`
 {:#members:readonly}
 
 
@@ -652,8 +573,7 @@ Specifies whether the control is read only to disable typing the value manually 
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -669,8 +589,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -705,7 +624,7 @@ $("#editor").ejmNumeric ("option", "readOnly", true);
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -720,8 +639,7 @@ Specifies the rendering mode of the control. See <a href="global.html#RenderMode
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -737,8 +655,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -773,7 +690,7 @@ $("#editor").ejmNumeric ("option", "renderMode", ej.mobile.RenderMode.Auto);
 
 
 
-### showBorder<span class="type-signature type boolean">boolean</span>
+### showBorder`boolean`
 {:#members:showborder}
 
 
@@ -788,8 +705,7 @@ Specifies whether to show the border in the control.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -805,8 +721,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -842,7 +757,7 @@ $("#editor").ejmNumeric ("option", "showBorder", true);
 
 
 
-### showSpinButton<span class="type-signature type boolean">boolean</span>
+### showSpinButton`boolean`
 {:#members:showspinbutton}
 
 
@@ -857,8 +772,7 @@ Specifies whether to show the spin button for incremention and decremention of t
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -874,8 +788,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -911,7 +824,7 @@ $("#editor").ejmNumeric ("option", "showSpinButton", true);
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -926,8 +839,7 @@ Specifies the theme. See <a href="global.html#Theme">Theme</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -943,8 +855,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -979,7 +890,7 @@ $("#editor").ejmNumeric ("option", "theme", ej.mobile.Theme.Auto);
 
 
 
-### value<span class="type-signature type number">number</span>
+### value`number`
 {:#members:value}
 
 
@@ -994,8 +905,7 @@ Specifies the value of the editor.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1011,8 +921,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1047,7 +956,7 @@ $("#editor").ejmNumeric ("option", "value", 100);
 
 
 
-### watermarkText<span class="type-signature type string">string</span>
+### watermarkText`string`
 {:#members:watermarktext}
 
 
@@ -1062,8 +971,7 @@ Specifies the watermark text of the control.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1079,8 +987,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1137,7 +1044,7 @@ Section for windows mode specific functionalities.
 
 
 
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
 
 
@@ -1152,8 +1059,7 @@ Specifies whether to render control based on the windowsphone's current accent c
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1169,8 +1075,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1212,7 +1117,7 @@ $("#editor").ejmNumeric ("option", "windows.renderDefault", true);
 
 
 
-### disable<span class="signature">()</span>
+### disable`()`
 {:#methods:disable}
 
 
@@ -1228,8 +1133,7 @@ To disable the numeric textbox.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1257,7 +1161,7 @@ $("#editor").ejmNumeric("disable");
 
 
 
-### enable<span class="signature">()</span>
+### enable`()`
 {:#methods:enable}
 
 
@@ -1273,8 +1177,7 @@ To enable the numeric textbox.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1302,7 +1205,7 @@ $("#editor").ejmNumeric("enable");
 
 
 
-### getValue<span class="signature">()</span>
+### getValue`()`
 {:#methods:getvalue}
 
 
@@ -1318,8 +1221,7 @@ To get the current value of the textbox.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1332,30 +1234,12 @@ $("#editor").ejmNumeric("getValue");
 });
 </script>{% endhighlight %}
 
-
-
-
-
-
-
-### setValue<span class="signature">()</span>
+### setValue`()`
 {:#methods:setvalue}
-
-
-
-
-
-
-
 
 Set value of the editor control.
 
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1370,25 +1254,10 @@ $("#editor").ejmNumeric("setValue",50);
 
 
 
-
-
 ## Events
-
-
-
-
-
-
-
 
 ### change
 {:#events:change}
-
-
-
-
-
-
 
 
 Event triggers after the control value gets changed.
@@ -1445,8 +1314,7 @@ Event triggers after the control value gets changed.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1536,8 +1404,7 @@ Event triggers after the control gets focused.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1627,8 +1494,7 @@ Event triggers after the control gets focus out.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

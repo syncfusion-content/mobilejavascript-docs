@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Select-Item
+title: Select Item | Tab | Mobilejs | Syncfusion
 description: select item
 platform: Mobilejs
 control: Tab (Mobile)
@@ -17,17 +17,17 @@ Tab control takes a numeric value given in “data-ej-selecteditemindex” attri
 
 <div data-role="ejmtab" id="tab" data-ej-rendermode="ios7" data-ej-selecteditemindex="1" >
 
-        <ul>
+	<ul>
 
-            <li data-ej-href="#mymusic" data-ej-text='My Music' data-ej-ios7-imageclass="icn-Mymusic"></li>
+		<li data-ej-href="#mymusic" data-ej-text='My Music' data-ej-ios7-imageclass="icn-Mymusic"></li>
 
-            <li data-ej-href="#favorites" data-ej-text='Favorites' data-ej-ios7-imageclass="icn-Favorites"></li>
+		<li data-ej-href="#favorites" data-ej-text='Favorites' data-ej-ios7-imageclass="icn-Favorites"></li>
 
-            <li data-ej-href="#updates" data-ej-text='Updates' data-ej-ios7-imageclass="icn-Updates"></li>
+		<li data-ej-href="#updates" data-ej-text='Updates' data-ej-ios7-imageclass="icn-Updates"></li>
 
-        </ul>
+	</ul>
 
-    </div>
+</div>
 
 <!-- Tab first item -->
 
@@ -75,12 +75,8 @@ Tab control takes a numeric value given in “data-ej-selecteditemindex” attri
 
 </div>
 
-
-
 {% endhighlight %}
 
 The following screenshot displays the Selected Items:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab5.png](Select-Item_images/Select-Item_img1.png)
-
-
+![](Select-Item_images/Select-Item_img1.png)

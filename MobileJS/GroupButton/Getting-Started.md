@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | Group Button | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: Group Button (Mobile)
@@ -15,9 +15,7 @@ This section briefly describes how to create a Group Button and use it in your a
 
 The Essential JavaScript Group Button helps to display multiple buttons that is stacked together in a single line and looks like a navigation component. The following sections help you to create Group Button widget using a Mail App.
 
-![C:/Users/labuser/Desktop/a.png](Getting-Started_images/Getting-Started_img1.png)
-
-
+![](Getting-Started_images/Getting-Started_img1.png)
 
 ### Create Layout 
 
@@ -31,19 +29,19 @@ Create an HTML file and add the following template to the HTML file for Group Bu
 
 <html>
 
-<head>
+	<head>
 
-<title>Group Button</title>
+	<title>Group Button</title>
 
-<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" /> <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>      
+	<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" /> <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>      
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+	<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+	<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
 
-<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+	<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
 
-</head>
+	</head>
 
    <body>
 
@@ -69,9 +67,7 @@ Create an HTML file and add the following template to the HTML file for Group Bu
 
    </body>
 
-       </html>
-
-
+</html>
 
 {% endhighlight %}
 
@@ -81,163 +77,127 @@ To create Group Button control you can set data-role attribute to ejmgroupbutton
 
 {% highlight html %}
 
-                <!—Group Button Control-->
+<!—Group Button Control-->
 
-        <div id="groupbutton" data-role="ejmgroupbutton" data-ej-selecteditemindex=0 >
+<div id="groupbutton" data-role="ejmgroupbutton" data-ej-selecteditemindex=0 >
 
-             <label>
+	<label>
 
-                <input type="radio" name="options">
+		<input type="radio" name="options">
 
-                 All
+		All
 
-             </label>
+    </label>
 
-             <label>
+    <label>
 
-                <input type="radio" name="options">
+        <input type="radio" name="options">
 
-                 Read
+        Read
 
-             </label>
+    </label>
 
-             <label>
+    <label>
 
-                <input type="radio" name="options">
+       <input type="radio" name="options">
 
-                 Unread
+       Unread
 
-             </label>
+    </label>
 
-        </div>
-
-
+</div>
 
 {% endhighlight %}
-
-
 
 Use the following styles for content.
 
 {% highlight css %}
 
+.appview .sample {
 
+  padding-top: 20px;
 
-        .appview .sample {
+  text-align: center;
 
-            padding-top: 20px;
+}
+.appview .cont-bg {
 
-            text-align: center;
+  text-align: left;
 
-        }
+  padding-left: 20px;
 
+  padding-right: 20px;
 
+}
+.appview .templatetext {
 
-        .appview .cont-bg {
+  font-size: 15px;
 
-            text-align: left;
+  font-weight: bolder;
 
-            padding-left: 20px;
+  position: relative;
 
-            padding-right: 20px;
+  top: 10px;
 
-        }
+}
+.appview .designationstyle {
 
+  float: right;
 
+  font-size: 12px;
 
-        .appview .templatetext {
+  padding-top: 10px;
 
-            font-size: 15px;
+  position: relative;
 
-            font-weight: bolder;
+}
+.appview .message-title {
 
-            position: relative;
+  font-weight: bold;
 
-            top: 10px;
+  font-size: 14px;
 
-        }
+  padding-top: 10px;
 
+}
+.appview .aboutstyle {
 
+  font-size: 14px;
 
-        .appview .designationstyle {
+  overflow: hidden;
 
-            float: right;
+  padding-top: 10px;
 
-            font-size: 12px;
+  text-align: justify;
 
-            padding-top: 10px;
+  text-overflow: ellipsis;
 
-            position: relative;
+  white-space: nowrap;
 
-        }
+}
+.appview .border-panel {
 
+  height: 25px;
 
+}
+.appview .content-text {
 
-        .appview .message-title {
+  color: #C0C0C0;
 
-            font-weight: bold;
+  height: 0px;
 
-            font-size: 14px;
+}
+#all, #read, #unread {
 
-            padding-top: 10px;
+  padding-top: 20px;
 
-        }
-
-
-
-        .appview .aboutstyle {
-
-            font-size: 14px;
-
-            overflow: hidden;
-
-            padding-top: 10px;
-
-            text-align: justify;
-
-            text-overflow: ellipsis;
-
-            white-space: nowrap;
-
-        }
-
-
-
-        .appview .border-panel {
-
-            height: 25px;
-
-        }
-
-
-
-        .appview .content-text {
-
-            color: #C0C0C0;
-
-            height: 0px;
-
-        }
-
-
-
-        #all, #read, #unread {
-
-            padding-top: 20px;
-
-        }
-
-
-
-
+}
 
 {% endhighlight %}
 
 Execute this code to render the following output. 
 
-![C:/Users/labuser/Desktop/a.png](Getting-Started_images/Getting-Started_img2.png)
-
-
+![](Getting-Started_images/Getting-Started_img2.png)
 
 ### Handle Events
 
@@ -275,10 +235,6 @@ In the Mail App, while navigating through different buttons the content view is 
 
 <!--Add the Mail Content-->
 
-
-
-
-
 {% endhighlight %}
 
 
@@ -287,21 +243,13 @@ Add the following script to the code
 
 {% highlight js %}
 
-
-
 function onselect(args) {
 
     // Touch End Event Handling
 
 }
 
-
-
-
-
 {% endhighlight %}
-
-
 
 In case, if you are using three options “All”, “Read” and “Unread” to view the mail content, it is done using the Essential JavaScript Mobile Listview control. Refer to the following code to create the listview control and to implement the switching logic through the GroupButton’s “touchEnd” event:
 
@@ -369,19 +317,11 @@ In case, if you are using three options “All”, “Read” and “Unread” t
 
 </div>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 To handle the events, add the following script to the code
 
 {% highlight js %}
-
-
 
     $(function () {//hiding read and unread elements initially
 
@@ -393,16 +333,14 @@ To handle the events, add the following script to the code
 
     //Touch End Event Handling
 
-        function onselect(args) {
+	function onselect(args) {
 
-            $("#all,#read,#unread").hide();
+		$("#all,#read,#unread").hide();
 
-            $("#" + args.text.toLowerCase()).show();
+		$("#" + args.text.toLowerCase()).show();
 
-        }
-
-
-
+	}
+	
     window.dbMailContent =
 
                 [{ "Name": "John Linden", "Title": "Fw:Training", "Message": "All WinRT controls are optimized for touch, supporting common gestures: zooming,panning, selecting, double-tapping, rotating, resizing.", "Time": "20th May", "Flag": "All" },
@@ -417,33 +355,16 @@ To handle the events, add the following script to the code
 
                 { "Name": "John Linden", "Title": "Re:Training", "Message": "With our sophisiticated Direct-Trac support system, built from the ground up to support enterprise customers, you will have a streamlined experience working with our support team.", "Time": "5th May","Flag": "Read" }];
 
-
-
     window.dbAll = ej.DataManager(window.dbMailContent).executeLocal(ej.Query().from(window.dbMailContent).where(ej.Predicate("Flag", ej.FilterOperators.equal, "All")));
 
-
-
     window.dbRead = ej.DataManager(window.dbMailContent).executeLocal(ej.Query().from(window.dbMailContent).where(ej.Predicate("Flag", ej.FilterOperators.equal, "Read")));
-
-
-
-
 
 {% endhighlight %}
 
 Execute this code to render the following output. 
 
-
-
 ![](Getting-Started_images/Getting-Started_img3.png)
-
-
 
 ![](Getting-Started_images/Getting-Started_img4.png)
 
-
-
-![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img5.png)
-
-
-
+![](Getting-Started_images/Getting-Started_img5.png)

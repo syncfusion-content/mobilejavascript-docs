@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance | Accordion | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
 control: Accordion (Mobile)
@@ -67,9 +67,4 @@ This class name is applied for the vertical orientation of the Slider control.
 <td>
 e-m-horizontal               </td><td>
 This class name is applied for the horizontal orientation of the Slider control.</td></tr>
-
 </table>
-
-
-
-

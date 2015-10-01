@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hide-Header
+title: Hide Header | Header and Footer | Mobilejs | Syncfusion
 description: hide header
 platform: Mobilejs
 control: Header and Footer (Mobile)
@@ -13,13 +13,6 @@ In some cases (for example, when tab is used in the application), Header control
 
 {% highlight html %}
 
-
-
-<div id="header_sample" data-role="ejmheader" data-ej-hideforunsupporteddevice=true ></div>
-
-
+<div id="header_sample" data-role="ejmheader" data-ej-hideforunsupporteddevice=true> </div>
 
 {% endhighlight %}
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Grid-Dependencies
+title: Mobile Grid Dependencies | Grid | Mobilejs | Syncfusion
 description: mobile grid dependencies
 platform: Mobilejs
 control: Grid (Mobile)
@@ -56,4 +56,3 @@ ej.mobile.listbox.min.js</td></tr>
 ej.mobile.scrollpanel.min.js</td><td>
 Should be referred when using scrolling is enabled in grid.  </td></tr>
 </table>
-

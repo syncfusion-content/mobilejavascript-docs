@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ajax-Navigation
+title: Ajax Navigation | ListView | Mobilejs | Syncfusion
 description: ajax navigation
 platform: Mobilejs
 control: ListView (Mobile)
@@ -17,9 +17,7 @@ Sample.html
 
 {% highlight html %}
 
-
-
-  <div id="ajaxListBox" data-role="ejmListView" data-ej-showheader="true" data-ej-headertitle="ListView" data-ej-enableajax="true">
+ <div id="ajaxListBox" data-role="ejmListView" data-ej-showheader="true" data-ej-headertitle="ListView" data-ej-enableajax="true">
 
       <ul>
 
@@ -32,42 +30,26 @@ Sample.html
       </ul>
 
   </div>
-
-
-
-
-
+  
 {% endhighlight %}
-
-
 
 Add the following styles to the html
 
 {% highlight css %}
 
+.listrightdiv
 
+{
 
-        .listrightdiv
+	padding:20px;
 
-        {
-
-            padding:20px;
-
-        }
-
-
-
-
+}
 
 {% endhighlight %}
-
-
 
 Load1.html
 
 {% highlight html %}
-
-
 
 <div class="listrightdiv">      
 
@@ -75,25 +57,17 @@ Load1.html
 
       <div class="subtitlestyle">
 
-      A young boy learns that he has extraordinary powers and is not of this Earth.
+		A young boy learns that he has extraordinary powers and is not of this Earth.
 
       </div>
 
 </div>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Load2.html
 
 {% highlight html %}
-
-
 
 <div class="listrightdiv">
 
@@ -107,19 +81,11 @@ Load2.html
 
 </div>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Load3.html
 
 {% highlight html %}
-
-
 
 <div class="listrightdiv">
 
@@ -133,25 +99,13 @@ Load3.html
 
 </div>
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays the Enable Ajax:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img1.png)
+![](Ajax-Navigation_images/Ajax-Navigation_img1.png)
 
-
-
-
-
-
-
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img2.png)
-
-
+![](Ajax-Navigation_images/Ajax-Navigation_img2.png)
 
 N> When the Ajax navigation is only for a specific item, then use this atribute inside item specific configuration. (In JS, use this attribute “data-ej-enableajax” in specific “li” tag in html, while in MVC, set through EnableAjax).
 
@@ -167,13 +121,9 @@ In Ajax method, the ListView widget loads the content with default jQuery settin
 6. URL
 7. Data
 
-
-
 {% highlight html %}
 
 <!--Sample.html -->
-
-
 
 <div id="ajaxListBox" data-role="ejmListView" data-ej-showheader="true" data-ej-headertitle="ListView" data-ej-enableajax="true" data-ej-ajaxsettings-cache=true>
 
@@ -187,25 +137,15 @@ In Ajax method, the ListView widget loads the content with default jQuery settin
 
       </ul>
 
-  </div>
-
-
-
-
+</div>
 
 {% endhighlight %}
 
-
-
 The following screenshots display the Ajax Settings:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img3.png)
+![](Ajax-Navigation_images/Ajax-Navigation_img3.png)
 
-
-
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img4.png)
-
-
+![](Ajax-Navigation_images/Ajax-Navigation_img4.png)
 
 ## EnableCache
 
@@ -213,31 +153,20 @@ data-ej-enablecache attribute is used to prevent loading Ajax content every time
 
 {% highlight html %}
 
-
-
 <!--Sample.html -->
 
+<div id="ajaxListBox" data-role="ejmListView" data-ej-enablecache="true">
 
+		<ul>
 
-   <div id="ajaxListBox" data-role="ejmListView" data-ej-enablecache="true">
+			<li data-ej-text="Man of Steel" data-ej-enableajax="true" data-ej-href="load1.html"></li>
 
-            <ul>
+			<li data-ej-text="World War Z" data-ej-enableajax="true" data-ej-href="load2.html"></li>
 
-                <li data-ej-text="Man of Steel" data-ej-enableajax="true" data-ej-href="load1.html"></li>
+			<li data-ej-text="Monsters University" data-ej-enableajax="true" data-ej-href="load3.html"></li>
 
-                <li data-ej-text="World War Z" data-ej-enableajax="true" data-ej-href="load2.html"></li>
+		</ul>
 
-                <li data-ej-text="Monsters University" data-ej-enableajax="true" data-ej-href="load3.html"></li>
-
-            </ul>
-
-   </div>
-
-
-
-
+</div>
 
 {% endhighlight %}
-
-
-

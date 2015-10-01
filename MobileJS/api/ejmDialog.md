@@ -1,28 +1,19 @@
 ---
 layout: post
-title: ejmDialog
+title: ejmDialog | API Reference | Mobile JS | Syncfusion
+description: 
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmDialog, API, Essential Studio JS Autocomplete (Mobile)
 ---
 
-# Custom Design for Html Dialog control.
+# ejmDialog
 
-
-
-
+Custom Design for Html Dialog control.
 
 $(element).ejmDialog<span class="signature">()</span>
 
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true" data-ej-title="Low Battery" >
@@ -31,12 +22,7 @@ Example
   </div>
 </div>   {% endhighlight %}
 
-
-
-
-Requires
-{:.require}
-
+#### Requires
 
 * module:jQuery
 
@@ -63,31 +49,17 @@ Requires
 
 ## Members
 
-
-
-
-### allowScrolling<span class="type-signature type boolean">boolean</span>
+### allowScrolling`boolean`
 {:#members:allowscrolling}
-
-
-
 
 Specifies whether to allow scrolling behavior for the contents.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * true
 
 
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the allowScrolling property in unobtrusive way.
@@ -96,7 +68,6 @@ Example
 10% of battery remaining
 </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set allowScrolling on initialization. 
@@ -123,30 +94,17 @@ $("#dlg").ejmDialog ("option", "allowScrolling", true);
 </script>{% endhighlight %}
 
 
-
-
-### checkDOMChanges<span class="type-signature type boolean">boolean</span>
+### checkDOMChanges`boolean`
 {:#members:checkdomchanges}
-
-
-
 
 Specifies whether need to refresh scrollpanel rendered in the control when elements are added dynamically.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
 
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the checkDOMChanges property in unobtrusive way.
@@ -155,7 +113,6 @@ Example
 10% of battery remaining
 </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set checkDOMChanges on initialization. 
@@ -171,7 +128,6 @@ $(function(){
 });
 </script> {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog checkDOMChanges, after initialization:
@@ -182,30 +138,16 @@ $("#dlg").ejmDialog ("option", "checkDOMChanges", true);
 </script>{% endhighlight %}
 
 
-
-
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
-
-
-
 
 Sets the root class for Dialog theme. This cssClass API helps to use custom skinning option for Dialog control. By defining the root class using this API, we need to include this root class in CSS.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ""
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the cssClass property in unobtrusive way.
@@ -214,7 +156,6 @@ Example
       10% of battery remaining
   </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set cssClass on initialization. 
@@ -230,7 +171,6 @@ $(function(){
 });
 </script> {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog cssClass, after initialization:
@@ -240,31 +180,16 @@ $(function(){
   $("#dlg").ejmDialog ("option", "cssClass", "customclass");        
 </script>{% endhighlight %}
 
-
-
-
-### enableAnimation<span class="type-signature type boolean">boolean</span>
+### enableAnimation`boolean`
 {:#members:enableanimation}
-
-
-
 
 Enables or Disables animation effect on opening or closing the dialog.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * true
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the enableAnimation property in unobtrusive way.
@@ -273,7 +198,6 @@ Example
 10% of battery remaining
 </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set enableAnimation on initialization. 
@@ -289,7 +213,6 @@ $(function(){
 });
 </script>         {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog enableAnimation, after initialization:
@@ -300,30 +223,16 @@ $("#dlg").ejmDialog ("option", "enableAnimation", true);
 </script>{% endhighlight %}
 
 
-
-
-### enableAutoOpen<span class="type-signature type boolean">boolean</span>
+### enableAutoOpen`boolean`
 {:#members:enableautoopen}
-
-
-
 
 Specifies whether to open the dialog on initial loading.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the enableAutoOpen property in unobtrusive way.
@@ -332,7 +241,6 @@ Example
       10% of battery remaining
   </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set enableAutoOpen on initialization. 
@@ -348,7 +256,6 @@ $(function(){
 });
 </script>                 {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog enableAutoOpen, after initialization:
@@ -358,31 +265,16 @@ $(function(){
   $("#dlg").ejmDialog ("option", "enableAutoOpen", true);   
 </script>{% endhighlight %}
 
-
-
-
-### enableModal<span class="type-signature type boolean">boolean</span>
+### enableModal`boolean`
 {:#members:enablemodal}
-
-
-
 
 Specifies whether to enable modal dialog.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the enableModal property in unobtrusive way.
@@ -417,31 +309,16 @@ $(function(){
 $("#dlg").ejmDialog ("option", "enableModal", true);    
 </script>{% endhighlight %}
 
-
-
-
-### enableNativeScrolling<span class="type-signature type boolean">boolean</span>
+### enableNativeScrolling`boolean`
 {:#members:enablenativescrolling}
-
-
-
 
 Specifies whether to enable device's native scroll behavior when scrolling is allowed.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the enableNativeScrolling property in unobtrusive way.
@@ -450,7 +327,6 @@ Example
 10% of battery remaining
 </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set enableNativeScrolling on initialization. 
@@ -466,7 +342,6 @@ $(function(){
 });
 </script>         {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog enableNativeScrolling, after initialization:
@@ -476,31 +351,16 @@ $(function(){
 $("#dlg").ejmDialog ("option", "enableNativeScrolling", true);   
 </script>{% endhighlight %}
 
-
-
-
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
-
-
-
 
 Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the enablePersistence property in unobtrusive way.
@@ -509,7 +369,6 @@ Example
 10% of battery remaining
 </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set enablePersistence on initialization. 
@@ -525,7 +384,6 @@ $(function(){
 });
 </script>         {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog enablePersistence, after initialization:
@@ -535,31 +393,16 @@ $(function(){
 $("#dlg").ejmDialog ("option", "enablePersistence", true);    
 </script>{% endhighlight %}
 
-
-
-
-### leftButtonCaption<span class="type-signature type string">string</span>
+### leftButtonCaption`string`
 {:#members:leftbuttoncaption}
-
-
-
 
 Specifies the text of left button.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * Cancel
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the leftButtonCaption property in unobtrusive way.
@@ -568,7 +411,6 @@ Example
 10% of battery remaining
 </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set leftButtonCaption on initialization. 
@@ -584,7 +426,6 @@ $(function(){
 });
 </script> {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog leftButtonCaption, after initialization:
@@ -594,31 +435,16 @@ $(function(){
 $("#dlg").ejmDialog ("option", "leftButtonCaption", "Close");          
 </script>{% endhighlight %}
 
-
-
-
-### mode<span class="type-signature type enum">enum</span>
+### mode`enum`
 {:#members:mode}
-
-
-
 
 Specifies the dialog mode to render.See <a href="global.html#Mode">Mode</a>
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * ej.mobile.Rating.Mode.Alert.
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the mode property in unobtrusive way.
@@ -627,7 +453,6 @@ Example
 10% of battery remaining
 </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set mode on initialization. 
@@ -643,7 +468,6 @@ $(function(){
 });
 </script>         {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog mode, after initialization:
@@ -653,31 +477,17 @@ $(function(){
 $("#dlg").ejmDialog ("option", "mode", ej.mobile.Dialog.Mode.Confirm);   
 </script>{% endhighlight %}
 
-
-
-
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
-
-
-
 
 Specifies the rendering mode of the control. See <a href="global.html#RenderMode">RenderMode</a>
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * auto
 
 
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the rendermode property in unobtrusive way.
@@ -686,7 +496,6 @@ Example
 10% of battery remaining
 </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set rendermode on initialization. 
@@ -702,7 +511,6 @@ $(function(){
 });
 </script>                 {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog rendermode, after initialization:
@@ -712,31 +520,16 @@ $(function(){
 $("#dlg").ejmDialog ("option", "renderMode", ej.mobile.RenderMode.Auto);           
 </script>{% endhighlight %}
 
-
-
-
-### rightButtonCaption<span class="type-signature type string">string</span>
+### rightButtonCaption`string`
 {:#members:rightbuttoncaption}
-
-
-
 
 Specifies the text of right button.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * Continue
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the rightButtonCaption property in unobtrusive way.
@@ -745,7 +538,6 @@ Example
 10% of battery remaining
 </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set rightButtonCaption on initialization. 
@@ -761,7 +553,6 @@ $(function(){
 });
 </script>         {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog rightButtonCaption, after initialization:
@@ -771,31 +562,17 @@ $(function(){
 $("#dlg").ejmDialog ("option", "rightButtonCaption", "Ok");  
 </script>{% endhighlight %}
 
-
-
-
-### showButtons<span class="type-signature type boolean">boolean</span>
+### showButtons`boolean`
 {:#members:showbuttons}
-
-
-
 
 Specifies whether to show the buttons in the dialog.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * true
 
 
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the showButtons property in unobtrusive way.
@@ -804,7 +581,6 @@ Example
 10% of battery remaining
 </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set showButtons property on initialization. 
@@ -820,7 +596,6 @@ $(function(){
 });
 </script>         {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog showButtons, after initialization:
@@ -830,31 +605,17 @@ $(function(){
 $("#dlg").ejmDialog ("option", "showButtons", false);     
 </script>{% endhighlight %}
 
-
-
-
-### targetHeight<span class="type-signature type string">string</span>
+### targetHeight`string`
 {:#members:targetheight}
-
-
-
 
 Specifies the target height.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * null
 
 
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the targetHeight property in unobtrusive way.
@@ -863,7 +624,6 @@ Example
 10% of battery remaining
 </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set targetHeight on initialization. 
@@ -879,7 +639,6 @@ $(function(){
 });
 </script>         {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog targetHeight, after initialization:
@@ -889,31 +648,16 @@ $(function(){
 $("#dlg").ejmDialog ("option", "targetHeight", 500);   
 </script>{% endhighlight %}
 
-
-
-
-### templateId<span class="type-signature type string">string</span>
+### templateId`string`
 {:#members:templateid}
-
-
-
 
 Specifies ID of the element contains template contents.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * null
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the templateId property in unobtrusive way.
@@ -922,7 +666,6 @@ Example
 <div id="temp" >
 10% of battery remaining
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set templateId on initialization. 
@@ -937,7 +680,6 @@ $("#dlg").ejmDialog({ enableAutoOpen:true, templateId: "temp" });
 10% of battery remaining
 </div>                    {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog templateId, after initialization:
@@ -947,31 +689,16 @@ $("#dlg").ejmDialog({ enableAutoOpen:true, templateId: "temp" });
 $("#dlg").ejmDialog ("option", "templateId", "temp");       
 </script>{% endhighlight %}
 
-
-
-
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
-
-
-
 
 Specifies the theme.See <a href="global.html#Theme">Theme</a>
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * auto
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the theme property in unobtrusive way.
@@ -980,7 +707,6 @@ Example
 10% of battery remaining
 </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set theme on initialization. 
@@ -996,7 +722,6 @@ $(function(){
 });
 </script>         {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog theme, after initialization:
@@ -1006,31 +731,16 @@ $(function(){
 $("#dlg").ejmDialog ("option", "theme", ej.mobile.Theme.Auto);          
 </script>{% endhighlight %}
 
-
-
-
-### title<span class="type-signature type string">string</span>
+### title`string`
 {:#members:title}
-
-
-
 
 Specifies the title text.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * null
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the title property in unobtrusive way.
@@ -1039,7 +749,6 @@ Example
       10% of battery remaining
   </div>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 // Set title on initialization. 
@@ -1055,7 +764,6 @@ $(function(){
 });
 </script> {% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 //Get or set the Dialog title, after initialization:
@@ -1065,44 +773,21 @@ $(function(){
   $("#dlg").ejmDialog ("option", "title", "Low Battery");        
 </script>{% endhighlight %}
 
-
-
-
 ### windows
 {:#members:windows}
 
-
-
-
 Section for windows mode specific functionalities.
 
-
-
-
-
-
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
-
-
-
 
 Specifies whether to render control based on the windowsphone's current accent color and device theme.
 
-
-Default Value:
-{:.param}
-
-
+#### Default Value
 
 * false
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Set the windows mode renderDefault property in unobtrusive way.
@@ -1111,7 +796,6 @@ Example
 10% of battery remaining
 </div>
 </div>            {% endhighlight %}
-
 
 {% highlight html %} 
 // To set windows mode renderDefault property API value 
@@ -1126,7 +810,6 @@ $(function(){
 });
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 <script>
 // Get or set the windows mode renderDefault API, after initialization:
@@ -1136,26 +819,14 @@ $("#dlg").ejmDialog("option", "windows.renderDefault");
 $("#dlg").ejmDialog("option", "windows.renderDefault", true); 
 </script>{% endhighlight %}
 
-
-
 ## Methods
 
-
-
-
-### close<span class="signature">()</span>
+### close`()`
 {:#methods:close}
-
-
-
 
 To close the dialog.
 
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true">
@@ -1171,7 +842,6 @@ Example
 });
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 <div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true">
 <div>
@@ -1185,22 +855,12 @@ $("#dlg").ejmDialog("close");
 });
 </script>{% endhighlight %}
 
-
-
-
-### isOpened<span class="signature">()</span>
+### isOpened`()`
 {:#methods:isopened}
-
-
-
 
 To check whether the dialog is opened.
 
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true">
@@ -1216,7 +876,6 @@ Example
 });
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 <div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true">
 <div>
@@ -1230,22 +889,12 @@ $("#dlg").ejmDialog("isOpened");
 });
 </script>{% endhighlight %}
 
-
-
-
-### open<span class="signature">()</span>
+### open`()`
 {:#methods:open}
-
-
-
 
 To open the dialog
 
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true">
@@ -1261,7 +910,6 @@ Example
 });
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 <div id="dlg" data-role="ejmdialog" >
 <div>
@@ -1275,18 +923,10 @@ $("#dlg").ejmDialog("open");
 });
 </script>{% endhighlight %}
 
-
-
 ## Events
-
-
-
 
 ### beforeClose
 {:#events:beforeclose}
-
-
-
 
 Event triggers before dialog window get closed.
 
@@ -1339,10 +979,7 @@ Event triggers before dialog window get closed.
 </tbody>
 </table>
 
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //beforeClose event for Dialog
@@ -1357,7 +994,6 @@ $("#dlg").ejmDialog("close");
 }
 function beforeClose(){}
 </script>{% endhighlight %}
-
 
 {% highlight html %} 
 //beforeClose event for Dialog
@@ -1378,14 +1014,8 @@ beforeClose: function (args) {
 });
 </script>{% endhighlight %}
 
-
-
-
 ### buttonTap
 {:#events:buttontap}
-
-
-
 
 Event triggers when tap happens on the button.
 
@@ -1438,10 +1068,7 @@ Event triggers when tap happens on the button.
 </tbody>
 </table>
 
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //buttonTap event for Dialog
@@ -1453,7 +1080,6 @@ Example
 <script> 
 function buttonTap(){}
 </script>{% endhighlight %}
-
 
 {% highlight html %} 
 //buttonTap event for Dialog
@@ -1470,14 +1096,8 @@ function buttonTap(args) { //handle the event
 }
 </script>{% endhighlight %}
 
-
-
-
 ### close
 {:#events:close}
-
-
-
 
 Event triggers after dialog window get closed.
 
@@ -1530,10 +1150,7 @@ Event triggers after dialog window get closed.
 </tbody>
 </table>
 
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Close event for Dialog
@@ -1549,7 +1166,6 @@ $("#dlg").ejmDialog("close");
 }
 function close(){}
 </script>{% endhighlight %}
-
 
 {% highlight html %} 
 //Close event for Dialog
@@ -1568,14 +1184,8 @@ $("#dlg").ejmDialog("close");
 function close() { //handle the event 
 }               {% endhighlight %}
 
-
-
-
 ### open
 {:#events:open}
-
-
-
 
 Event triggers after dialog window get opened.
 
@@ -1628,10 +1238,7 @@ Event triggers after dialog window get opened.
 </tbody>
 </table>
 
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Open event for Dialog
@@ -1651,7 +1258,6 @@ $("#dlg").ejmDialog("open");
        //handle the event
 }
 </script>{% endhighlight %}
-
 
 {% highlight html %} 
 //open event for Dialog
@@ -1674,6 +1280,3 @@ function open(args) {
     //handle the event
   }
 </script> {% endhighlight %}
-
-
-

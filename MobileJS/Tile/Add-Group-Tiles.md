@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Add-Group-Tiles
+title: Add Group Tiles | Tile | Mobilejs | Syncfusion
 description: add group tiles
 platform: Mobilejs
 control: Tile (Mobile)
@@ -148,39 +148,39 @@ Refer to the following code example for the CSS classes.
 
 {% highlight css %}
 
-        .e-m-ios7 .defaultsample {
+.e-m-ios7 .defaultsample {
 
-            background: url("../themes/sample/tileview/ios7/bg.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+	background: url("../themes/sample/tileview/ios7/bg.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
 
-            height: 690px;
+	height: 690px;
 
-            width: 100%;
+	width: 100%;
 
-            position: absolute;
+	position: absolute;
 
-        }
+}
 
-        .e-m-ios7 .e-m-tile.e-m-tile-wrapper-small .e-m-tile-image {
+.e-m-ios7 .e-m-tile.e-m-tile-wrapper-small .e-m-tile-image {
 
-            background-size: 60px 60px;
+	background-size: 60px 60px;
 
-        }
+}
 
-        .e-m-ios7 .e-m-tile
+.e-m-ios7 .e-m-tile
 
-        {
+{
 
-            margin-left:-3px;
+	margin-left:-3px;
 
-        }
+}
 
-        .e-m-windows .group
+.e-m-windows .group
 
-        {
+{
 
-            padding:0 2%;
+	padding:0 2%;
 
-        }
+}
 		
 {% endhighlight %}
 
@@ -188,24 +188,24 @@ Refer to the following code example for the script section.
 
 {% highlight js %}
 
-        if (ej.getRenderMode() == "windows")
+if (ej.getRenderMode() == "windows")
 
-            $($('.group').find('div[data-role="ejmtile"]')).attr({ 'data-ej-backgroundcolor': 'blue' });
+	$($('.group').find('div[data-role="ejmtile"]')).attr({ 'data-ej-backgroundcolor': 'blue' });
 
-        if (ej.getRenderMode() == "android")
+if (ej.getRenderMode() == "android")
 
-            $($('.group').find('div[data-role="ejmtile"]')).attr({ 'data-ej-theme': 'light' });
+	$($('.group').find('div[data-role="ejmtile"]')).attr({ 'data-ej-theme': 'light' });
 
 {% endhighlight %}
 
 
 The following screenshots illustrates the output of the above code.
 
-![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/ios7changes.png](Add-Group-Tiles_images/Add-Group-Tiles_img1.png)
+![](Add-Group-Tiles_images/Add-Group-Tiles_img1.png)
 
-![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/androidchanges.png](Add-Group-Tiles_images/Add-Group-Tiles_img2.png)
+![](Add-Group-Tiles_images/Add-Group-Tiles_img2.png)
 
-![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/windowschange.png](Add-Group-Tiles_images/Add-Group-Tiles_img3.png)
+![](Add-Group-Tiles_images/Add-Group-Tiles_img3.png)
 
 To render small-col-2 Grouped Tile, render the number of Tiles inside a div element with the class ‘small-col-2’ and append that small-col-2 group element to a div with the class ‘column’. Now, append those column inside the main group div element. It is used for windows mode only.
 
@@ -219,37 +219,37 @@ Refer to the following code example.
 
 <div class="group">
 
-                <div class="column">
+		<div class="column">
 
-                    <div id="tile1" data-role="ejmtile" data-ej-text= "People"data-ej-tilesize="medium" data-ej-imageposition="fill" data-ej-imageurl='setting.png' data-ej-imagepath="themes/sample/tileview" data-ej-backgroundcolor="green">
+			<div id="tile1" data-role="ejmtile" data-ej-text= "People"data-ej-tilesize="medium" data-ej-imageposition="fill" data-ej-imageurl='setting.png' data-ej-imagepath="themes/sample/tileview" data-ej-backgroundcolor="green">
 
-                    </div>
+			</div>
 
-                    <div class="small-col-2">
+			<div class="small-col-2">
 
-                        <div id="tile2" data-role="ejmtile" data-ej-imageurl='notes.png' data-ej-imagepath="themes/sample/tileview" data-ej-text="Notes" data-ej-backgroundcolor="rgb(208, 75, 43)">
+				<div id="tile2" data-role="ejmtile" data-ej-imageurl='notes.png' data-ej-imagepath="themes/sample/tileview" data-ej-text="Notes" data-ej-backgroundcolor="rgb(208, 75, 43)">
 
-                        </div>
+				</div>
 
-                        <div id="tile3" data-role="ejmtile" data-ej-imageurl='clock.png' data-ej-imagepath="themes/sample/tileview" data-ej-text="Clock" data-ej-backgroundcolor="rgb(215, 147, 23)">
+				<div id="tile3" data-role="ejmtile" data-ej-imageurl='clock.png' data-ej-imagepath="themes/sample/tileview" data-ej-text="Clock" data-ej-backgroundcolor="rgb(215, 147, 23)">
 
-                        </div>
+				</div>
 
-                        <div id="tile4" data-role="ejmtile" data-ej-imageurl='camera.png' data-ej-imagepath="themes/sample/tileview" data-ej-text="Camera" data-ej-backgroundcolor="rgb(43, 128, 234)">
+				<div id="tile4" data-role="ejmtile" data-ej-imageurl='camera.png' data-ej-imagepath="themes/sample/tileview" data-ej-text="Camera" data-ej-backgroundcolor="rgb(43, 128, 234)">
 
-                        </div>
+				</div>
 
-                        <div id="tile5" data-role="ejmtile" data-ej-imageurl='messaging.png' data-ej-imagepath="themes/sample/tileview" data-ej-text="Messages" data-ej-backgroundcolor="rgb(94, 58, 179)">
+				<div id="tile5" data-role="ejmtile" data-ej-imageurl='messaging.png' data-ej-imagepath="themes/sample/tileview" data-ej-text="Messages" data-ej-backgroundcolor="rgb(94, 58, 179)">
 
-                        </div>
+				</div>
 
-                    </div> 
+			</div> 
 
-                </div> 
+		</div> 
 
-            </div>
+	</div>
 
-     </div>
+</div>
 
 {% endhighlight %}
 

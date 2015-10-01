@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | Tab | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: Tab (Mobile)
@@ -15,6 +15,3 @@ The Essential JavaScript Mobile Tab widget is an interface where lists of items 
 
 * AJAX load: Loads AJAX content in the Tab content panel.
 * Badge support: You can update the Badge value dynamically to show the notifications.
-
-
-

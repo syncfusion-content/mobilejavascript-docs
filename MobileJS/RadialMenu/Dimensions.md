@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dimensions
+title: Dimensions | Radial Menu | Mobilejs | Syncfusion
 description: dimensions
 platform: Mobilejs
 control: Radial Menu (Mobile)
@@ -58,19 +58,15 @@ Refer the following code examples for css class
 
 {% highlight css %}
 
-        .imageclass {
+.imageclass {
 
-            background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/radialSettings.png");
+	background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/radialSettings.png");
 
-            background-position: center;
+	background-position: center;
 
-            background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-        }
-
-
-
-
+}
 
 {% endhighlight %}
 
@@ -78,22 +74,14 @@ Refer the following code examples for script section
 
 {% highlight js %}
 
+function click(e) {
 
+	$("#radialmenu_sample").ejmRadialMenu("menuHide");
 
-        function click(e) {
-
-            $("#radialmenu_sample").ejmRadialMenu("menuHide");
-
-        }
-
+}
 
 {% endhighlight %}
-
-
 
 The following screenshot illustrates the output of the above code.
 
 ![](Dimensions_images/Dimensions_img1.png)
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-header
+title: Customize header | Rotator | Mobilejs | Syncfusion
 description: customize header
 platform: Mobilejs
 control: Rotator (Mobile)
@@ -15,67 +15,60 @@ To show or hide the header in Rotator, you can use data-ej-showheader attribute.
 
 {% highlight html %}
 
-       <div id="page" data-role="appview">
+<div id="page" data-role="appview">
 
-       <div id="rotatordefault" data-role="ejmrotator" data-ej-
+   <div id="rotatordefault" data-role="ejmrotator" data-ej-
 
-              targetid="rotatorcontentdefault" data-ej-showheader="true" data-ej-headertitle="Photo Gallery">
+		  targetid="rotatorcontentdefault" data-ej-showheader="true" data-ej-headertitle="Photo Gallery">
 
-        </div>
+	</div>
 
-    </div>
+</div>
 
-    <div id="rotatorcontentdefault">
+<div id="rotatorcontentdefault">
 
-        <div>
+	<div>
 
-            <div class="photo photo1">
+		<div class="photo photo1">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div>
+	<div>
 
-            <div class="photo photo2">
+		<div class="photo photo2">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div>
+	<div>
 
-            <div class="photo photo3">
+		<div class="photo photo3">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div>
+	<div>
 
-            <div class="photo photo4">
+		<div class="photo photo4">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div>
+	<div>
 
-            <div class="photo photo5">
+		<div class="photo photo5">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-    </div>
-
-    </div>
+</div>
 
 {% endhighlight %}
 
-
-
 ![](Customize-header_images/Customize-header_img1.png)
-
-
-

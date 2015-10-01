@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Dialog-Dependency-files
+title: Mobile Dialog Dependency files | Dialog | Mobilejs | Syncfusion
 description: mobile dialog dependency files
 platform: Mobilejs
 control: Dialog (Mobile)

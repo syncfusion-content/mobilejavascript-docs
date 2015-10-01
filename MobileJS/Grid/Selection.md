@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Selection
+title: Selection | Grid | Mobilejs | Syncfusion
 description: selection
 platform: Mobilejs
 control: Grid (Mobile)
@@ -13,49 +13,35 @@ The Selection attribute is used to highlight a row that you select. By default, 
 
 {% highlight html %}
 
-
-
-<div id="MobileGrid"></div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-        $(function () {
+$(function () {
 
-            $("#MobileGrid").ejmGrid({
+	$("#MobileGrid").ejmGrid({
 
-                // The datasource "window.gridData" is referred from jsondata.min.js
+		// The datasource "window.gridData" is referred from jsondata.min.js
 
-                dataSource: window.gridData,
+		dataSource: window.gridData,
 
-                allowPaging: true,
+		allowPaging: true,
 
-                allowSelection: true
+		allowSelection: true
 
-            });
+	});
 
-        });
-
-
+});
 
 {% endhighlight %}
 
-
-
 Run the above code to render the following output.
 
-![24](Selection_images/Selection_img1.png)
-
-
+![](Selection_images/Selection_img1.png)
 
 ## Get Selected record data
 
@@ -63,90 +49,73 @@ In this section, you can learn how to get selected records from one Grid and als
 
 {% highlight html %}
 
+ <div id="MobileGrid"> </div>
 
+<h2>Selected Record</h2>
 
- <div id="MobileGrid"></div>
-
-    <h2>Selected Record</h2>
-
-    <div id="NewGrid"></div>
-
-
-
-
+<div id="NewGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-        $(function () { // Document is ready.
+$(function () { // Document is ready.
 
-            $("#MobileGrid").ejmGrid({
+	$("#MobileGrid").ejmGrid({
 
-                dataSource: window.gridData,
+		dataSource: window.gridData,
 
-                allowPaging: true,
+		allowPaging: true,
 
-                rowSelected: "onRowSelect",
+		rowSelected: "onRowSelect",
 
-                columns:
+		columns:
 
-            [
+	[
 
-                { field: "OrderID", headerText: "Order ID" },
+		{ field: "OrderID", headerText: "Order ID" },
 
-                { field: "CustomerID", headerText: "Customer ID" },
+		{ field: "CustomerID", headerText: "Customer ID" },
 
-                { field: "EmployeeID", headerText: "Employee ID" },
+		{ field: "EmployeeID", headerText: "Employee ID" },
 
-                { field: "Freight", headerText: "Freight" }
+		{ field: "Freight", headerText: "Freight" }
 
-            ]
+	]
 
-            });
+	});
 
-            $("#NewGrid").ejmGrid({
+	$("#NewGrid").ejmGrid({
 
-                dataSource: window.gridData,
+		dataSource: window.gridData,
 
-                allowPaging: true,
+		allowPaging: true,
 
-                columns:
+		columns:
 
-            [
+	[
 
-                { field: "OrderID", headerText: "Order ID" },
+		{ field: "OrderID", headerText: "Order ID" },
 
-                { field: "CustomerID", headerText: "Customer ID" },
+		{ field: "CustomerID", headerText: "Customer ID" },
 
-                { field: "EmployeeID", headerText: "Employee ID" },
+		{ field: "EmployeeID", headerText: "Employee ID" },
 
-                { field: "Freight", headerText: "Freight" }
+		{ field: "Freight", headerText: "Freight" }
 
-            ]
+	]
 
-            });
+	});
 
-        });
+});
 
-        function onRowSelect(e) {
+function onRowSelect(e) {
 
-            $("#NewGrid").ejmGrid({ dataSource: [e.record] });
+	$("#NewGrid").ejmGrid({ dataSource: [e.record] });
 
-        }
-
-
-
-
+}
 {% endhighlight %}
 
-
-
-![25](Selection_images/Selection_img2.png)
-
-
-
+![](Selection_images/Selection_img2.png)

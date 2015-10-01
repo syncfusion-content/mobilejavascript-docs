@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | Introduction | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: Introduction
@@ -133,5 +133,3 @@ RequireJS</td></tr>
 {{ '[Data-binding](/js/datamanager/data-binding)' | markdownify }}</td><td>
 </td></tr>
 </table>
-
-

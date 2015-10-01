@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-value
+title: Customize value | Slider | Mobilejs | Syncfusion
 description: customize value
 platform: Mobilejs
 control: Slider (Mobile)
@@ -13,13 +13,10 @@ The attribute data-ej-value is used to set the value for the Slider on initializ
 
 {% highlight html %}
 
-        <div id="slider_sample" data-role="ejmslider" data-ej-value="80" data-ej-maxvalue=100 data-ej-minvalue=10 data-ej-incrementstep=10></div>    
+<div id="slider_sample" data-role="ejmslider" data-ej-value="80" data-ej-maxvalue=100 data-ej-minvalue=10 data-ej-incrementstep=10></div>    
 
 {% endhighlight %}
 
 The following screenshot displays the customized Slider Value:
 
-![C:/Users/dineshr/Desktop/val.png](Customize-value_images/Customize-value_img1.png)
-
-
-
+![](Customize-value_images/Customize-value_img1.png)

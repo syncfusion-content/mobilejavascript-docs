@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-menu-item-and-its-images
+title: Customize menu item and its images | Radial Menu | Mobilejs | Syncfusion
 description: customize menu item and its images
 platform: Mobilejs
 control: Radial Menu (Mobile)
@@ -23,23 +23,23 @@ Refer to the following code example.
 
 {% highlight html %}
 
-    <div id="radialmenu_sample" data-role="ejmradialmenu" data-ej-position="rightcenter" data-ej-touchend="click">
+<div id="radialmenu_sample" data-role="ejmradialmenu" data-ej-position="rightcenter" data-ej-touchend="click">
 
-        <ul>
+	<ul>
 
-            <li data-ej-imagename="social.png" data-ej-imagepath=" http://js.syncfusion.com/UG/Mobile/Content/radial"></li>
+		<li data-ej-imagename="social.png" data-ej-imagepath=" http://js.syncfusion.com/UG/Mobile/Content/radial"></li>
 
-            <li data-ej-imagename="music.png" data-ej-imagepath=" http://js.syncfusion.com/UG/Mobile/Content/radial"></li>
+		<li data-ej-imagename="music.png" data-ej-imagepath=" http://js.syncfusion.com/UG/Mobile/Content/radial"></li>
 
-            <li data-ej-imageurl=" http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/light/direction.png"></li>
+		<li data-ej-imageurl=" http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/light/direction.png"></li>
 
-            <li data-ej-imageurl=" http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/light/message.png"></li>
+		<li data-ej-imageurl=" http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/light/message.png"></li>
 
-            <li data-ej-imageurl=" http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/light/browser.png"></li>
+		<li data-ej-imageurl=" http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/light/browser.png"></li>
 
-        </ul>
+	</ul>
 
-    </div>
+</div>
 
 {% endhighlight %}
 
@@ -47,16 +47,10 @@ Refer the following code examples for script section
 
 {% highlight js %}
 
-        function click(e) {
+function click(e) {
 
-            $("#radialmenu_sample").ejmRadialMenu("menuHide");
+	$("#radialmenu_sample").ejmRadialMenu("menuHide");
 
-        }
-
-
-
+}
 
 {% endhighlight %}
-
-
-

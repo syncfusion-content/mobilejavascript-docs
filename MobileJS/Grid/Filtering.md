@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Filtering
+title: Filtering | Grid | Mobilejs | Syncfusion
 description: filtering
 platform: Mobilejs
 control: Grid (Mobile)
@@ -58,47 +58,31 @@ Boolean filter bar works with either true or false.</td></tr>
 
  Refer to the following code example for filter bar
 
-{% highlight html %}
+{% highlight html %} 
 
-
-<div id="MobileGrid"></div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 {% highlight js %}
 
+$(function () {// Document is ready.
 
+	$("#MobileGrid").ejmGrid({
 
-            $(function () {// Document is ready.
+		dataSource: window.gridData,
 
-                $("#MobileGrid").ejmGrid({
+		allowFiltering: true,
 
-                    dataSource: window.gridData,
+	});
 
-                    allowFiltering: true,
-
-                });
-
-            });
-
-
-
+});
 
 {% endhighlight %}
 
-
-
 Run the above code to render the following output.
 
-![18](Filtering_images/Filtering_img1.png)
-
-
+![](Filtering_images/Filtering_img1.png)
 
 ## Filter Operators
 
@@ -141,5 +125,3 @@ ej.FilterOperators.lessThan
 ej.FilterOperators.lessThanOrEqual
 ej.FilterOperators.equal</td></tr>
 </table>
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data-binding
+title: Data binding | Grid | Mobilejs | Syncfusion
 description: data binding
 platform: Mobilejs
 control: Grid (Mobile)
@@ -15,67 +15,51 @@ Mobile Grid data source can be set in client-side through JavaScript. It has ful
 
 {% highlight html %}
 
-
-
-<div id="MobileGrid"></div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-    $(function () {// Document is ready.
+$(function () {// Document is ready.
 
-        // Data for Mobile Grid.
+	// Data for Mobile Grid.
 
-        window.gridData = [
+	window.gridData = [
 
-          { firstName: "John", lastName: "Beckett", email: "john@syncfusion.com" },
+	  { firstName: "John", lastName: "Beckett", email: "john@syncfusion.com" },
 
-          { firstName: "Ben", lastName: "Beckett", email: "ben@syncfusion.com" },
+	  { firstName: "Ben", lastName: "Beckett", email: "ben@syncfusion.com" },
 
-          { firstName: "Andrew", lastName: "Beckett", email: "andrew@syncfusion.com" }
+	  { firstName: "Andrew", lastName: "Beckett", email: "andrew@syncfusion.com" }
 
-        ];
+	];
 
-        $("#MobileGrid").ejmGrid({
+	$("#MobileGrid").ejmGrid({
 
-            dataSource:window.gridData,
+		dataSource:window.gridData,
 
-            columns: [
+		columns: [
 
-                     { field: "firstName",headerText:"First Name" },
+				 { field: "firstName",headerText:"First Name" },
 
-                     { field: "lastName", headerText: "Last Name" },
+				 { field: "lastName", headerText: "Last Name" },
 
-                     { field: "email", headerText: "Email" }
+				 { field: "email", headerText: "Email" }
 
-            ]
+		]
 
-        });
+	});
 
-    });
-
-
-
-
+});
 
 {% endhighlight %}
 
-
-
 Run the above code to render the following output.
 
-![2](Data-binding_images/Data-binding_img1.png)
-
-
+![](Data-binding_images/Data-binding_img1.png)
 
 ## Remote data
 
@@ -85,60 +69,44 @@ oData is standardized protocol for creating and consuming data. You can able to 
 
 {% highlight html %}
 
-
-
-<div id="MobileGrid">
-
-    </div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
+$(function () {// Document is ready.
 
+//oData Adaptor with DataManager 
 
-        $(function () {// Document is ready.
+var data =    
+	ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders");
 
-        //oData Adaptor with DataManager 
+	$("#MobileGrid").ejmGrid({
 
-        var data =    
-            ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders");
+		dataSource: data,
 
-            $("#MobileGrid").ejmGrid({
+		columns: [
 
-                dataSource: data,
+				 { field: "OrderID", headerText: "Order ID" },
 
-                columns: [
+				 { field: "CustomerID", headerText: "Customer ID" },
 
-                         { field: "OrderID", headerText: "Order ID" },
+				 { field: "Freight", headerText: "Freight" }
 
-                         { field: "CustomerID", headerText: "Customer ID" },
+		]
 
-                         { field: "Freight", headerText: "Freight" }
+	});
 
-                ]
-
-            });
-
-        });
-
-
+});
 
 {% endhighlight %}
 
 Run the above code to render the following output.
 
-![3](Data-binding_images/Data-binding_img2.png)
-
-
+![](Data-binding_images/Data-binding_img2.png)
 
 N> For information about DataManager with Mobie Grid check DataAdaptors concept.
 
@@ -148,67 +116,51 @@ Through this load at once technique, you can able to load all remote data from s
 
 {% highlight html %}
 
-
-<div id="MobileGrid">
-
-    </div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-           $(function () {
+   $(function () {
 
-            var data = ej.DataManager({
+	var data = ej.DataManager({
 
-                url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/",
+		url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/",
 
-                offline: true
-
-
-
-            });
-
-            $("#MobileGrid").ejmGrid({
-
-                dataSource: data,
-
-                allowPaging: true,
-
-                columns: [
-
-                         { field: "OrderID", headerText: "Order ID" },
-
-                         { field: "CustomerID", headerText: "Customer ID" },
-
-                         { field: "ShipCity", headerText: "Ship City" }
-
-                ]
-
-            });
-
-        });
+		offline: true
 
 
 
+	});
 
+	$("#MobileGrid").ejmGrid({
 
+		dataSource: data,
+
+		allowPaging: true,
+
+		columns: [
+
+				 { field: "OrderID", headerText: "Order ID" },
+
+				 { field: "CustomerID", headerText: "Customer ID" },
+
+				 { field: "ShipCity", headerText: "Ship City" }
+
+		]
+
+	});
+
+});
 
 {% endhighlight %}
 
 Run the above code to render the following output.
 
-![4](Data-binding_images/Data-binding_img3.png)
-
-
+![](Data-binding_images/Data-binding_img3.png)
 
 ## Cross domain 
 
@@ -216,59 +168,47 @@ ejmGrid can use cross domain data service with help of data manager. Following c
 
 {% highlight html %}
 
-
-<div id="MobileGrid"></div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-        $(function () {// Document is ready.
+$(function () {// Document is ready.
 
-            //DataManger 
+	//DataManger 
 
-            var dataManager = ej.DataManager({
+	var dataManager = ej.DataManager({
 
-                url: "http://mvc.syncfusion.com/UGService/api/Orders",
+		url: "http://mvc.syncfusion.com/UGService/api/Orders",
 
-                crossDomain: true,
+		crossDomain: true,
 
-                offline: true
+		offline: true
 
-            });
-
-
-
-            $("#MobileGrid").ejmGrid({
-
-                allowPaging: true,
-
-                dataSource: dataManager,
-
-                columns: ["OrderID", "CustomerID", "EmployeeID", "ShipCity"]
-
-            });
-
-        });
+	});
 
 
 
+	$("#MobileGrid").ejmGrid({
+
+		allowPaging: true,
+
+		dataSource: dataManager,
+
+		columns: ["OrderID", "CustomerID", "EmployeeID", "ShipCity"]
+
+	});
+
+});
 
 {% endhighlight %}
 
 Run the above code to render the following output.
 
-![6](Data-binding_images/Data-binding_img4.png)
-
-
+![](Data-binding_images/Data-binding_img4.png)
 
 ## Load on demand
 
@@ -276,63 +216,49 @@ Load on demand is a powerful technique that is used to reduce bandwidth size of 
 
 {% highlight html %}
 
-
-<div id="MobileGrid">
-
-    </div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-        $(function () {// Document is ready.
+$(function () {// Document is ready.
 
-            //oData Adaptor with DataManager 
+	//oData Adaptor with DataManager 
 
-            var data = ej.DataManager({
+	var data = ej.DataManager({
 
-                url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/"
+		url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/"
 
-            });
+	});
 
-            $("#MobileGrid").ejmGrid({
+	$("#MobileGrid").ejmGrid({
 
-                dataSource: data,
+		dataSource: data,
 
-                columns: [
+		columns: [
 
-                         { field: "OrderID", headerText: "Order ID" },
+				 { field: "OrderID", headerText: "Order ID" },
 
-                         { field: "CustomerID", headerText: "Customer ID" },
+				 { field: "CustomerID", headerText: "Customer ID" },
 
-                         { field: "ShipCity", headerText: "Ship City" }
+				 { field: "ShipCity", headerText: "Ship City" }
 
-                ],
+		],
 
-                allowPaging:true
+		allowPaging:true
 
-            });
+	});
 
-        });
-
-
-
+});
 
 {% endhighlight %}
 
 Run the above code to render the following output.
 
-![6](Data-binding_images/Data-binding_img5.png)
-
-
+![](Data-binding_images/Data-binding_img5.png)
 
 ## Refresh data source
 
@@ -340,83 +266,67 @@ ejmGrid contains a feature to refresh datasource dynamically after Grid initiali
 
 {% highlight html %}
 
+<div id="MobileGrid"> </div>
 
-
-<div id="MobileGrid"></div>
-
- <input data-role="ejmbutton" data-ej-text="Refresh" data-ej-touchend="RefreshData" />
-
-
-
-
+<input data-role="ejmbutton" data-ej-text="Refresh" data-ej-touchend="RefreshData" />
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
+$(function () {// Document is ready.
 
+	// Data for Mobile Grid.
 
-        $(function () {// Document is ready.
+	window.gridData = [
 
-            // Data for Mobile Grid.
+	  { firstName: "John", lastName: "Beckett", email: "john@syncfusion.com" },
 
-            window.gridData = [
+	  { firstName: "Ben", lastName: "Beckett", email: "ben@syncfusion.com" },
 
-              { firstName: "John", lastName: "Beckett", email: "john@syncfusion.com" },
+	  { firstName: "Andrew", lastName: "Beckett", email: "andrew@syncfusion.com" }
 
-              { firstName: "Ben", lastName: "Beckett", email: "ben@syncfusion.com" },
+	];
 
-              { firstName: "Andrew", lastName: "Beckett", email: "andrew@syncfusion.com" }
+	window.newData = [
 
-            ];
+	  { firstName: "Mike", lastName: "Tiko", email: "mike@syncfusion.com" },
 
-            window.newData = [
+	  { firstName: "Robin", lastName: "Kole", email: "robin@syncfusion.com" },
 
-              { firstName: "Mike", lastName: "Tiko", email: "mike@syncfusion.com" },
+	  { firstName: "Keth", lastName: "Rover", email: "keth@syncfusion.com" }
 
-              { firstName: "Robin", lastName: "Kole", email: "robin@syncfusion.com" },
+	];
 
-              { firstName: "Keth", lastName: "Rover", email: "keth@syncfusion.com" }
+	$("#MobileGrid").ejmGrid({
 
-            ];
+		dataSource: window.gridData,
 
-            $("#MobileGrid").ejmGrid({
+		columns: [
 
-                dataSource: window.gridData,
+				 { field: "firstName", headerText: "First Name" },
 
-                columns: [
+				 { field: "lastName", headerText: "Last Name" },
 
-                         { field: "firstName", headerText: "First Name" },
+				 { field: "email", headerText: "Email" }
 
-                         { field: "lastName", headerText: "Last Name" },
+		]
 
-                         { field: "email", headerText: "Email" }
+	});
 
-                ]
+});
 
-            });
+function RefreshData() {
 
-        });
+	$("#MobileGrid").ejmGrid({ dataSource: newData });
 
-        function RefreshData() {
-
-            $("#MobileGrid").ejmGrid({ dataSource: newData });
-
-        }
-
-
+}
 
 {% endhighlight %}
 
-
-
-![7](Data-binding_images/Data-binding_img6.png)
-
-
+![](Data-binding_images/Data-binding_img6.png)
 
 ## Supported DataTypes
 
@@ -424,27 +334,21 @@ ejmGrid supports data types in JavaScript such as string, number, datetime and B
 
 {% highlight js %}
 
-
-
 $("#MobileGrid").ejmGrid({
 
-            dataSource:window.gridData,
+	dataSource:window.gridData,
 
-            columns: [
+	columns: [
 
-                     { field: "firstName",type:"string" },
+			 { field: "firstName",type:"string" },
 
-                     { field: "lastName", type: "string" },
+			 { field: "lastName", type: "string" },
 
-                     { field: "email" }
+			 { field: "email" }
 
-            ]
+	]
 
-        });
-
-
-
-
+});
 
 {% endhighlight %}
 
@@ -453,7 +357,6 @@ $("#MobileGrid").ejmGrid({
 ejmGrid has support to form Mobile Grid from HTML table. It is flexible to convert from table to Grid with the help of data manager. 
 
 {% highlight html %}
-
 
 <div id="MobileGrid"></div>
 
@@ -575,53 +478,39 @@ ejmGrid has support to form Mobile Grid from HTML table. It is flexible to conve
 
         </tbody>
 
-    </table>
-
-
-
-
+</table>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
+$(function () {// Document is ready.
 
+	$("#MobileGrid").ejmGrid({
 
-        $(function () {// Document is ready.
+		dataSource: ej.DataManager($("#Table1")), // binding table to grid
 
-            $("#MobileGrid").ejmGrid({
+		columns: [
 
-                dataSource: ej.DataManager($("#Table1")), // binding table to grid
+				 { field: "Laptop", headerText: "Laptop Brands" },
 
-                columns: [
+				 { field: "Model", headerText: "Model" },
 
-                         { field: "Laptop", headerText: "Laptop Brands" },
+				 { field: "Price", headerText: "Price", format: " ${0:c}" }
 
-                         { field: "Model", headerText: "Model" },
+		]
 
-                         { field: "Price", headerText: "Price", format: " ${0:c}" }
+	});
 
-                ]
-
-            });
-
-        });
-
-
-
-
+});
 
 {% endhighlight %}
 
 Run the above code to render the following output.
 
-![8](Data-binding_images/Data-binding_img7.png)
-
-
+![](Data-binding_images/Data-binding_img7.png)
 
 ## DataAdaptors
 
@@ -639,69 +528,57 @@ JSON adaptor is powerful way to define JSON data to Grid.  Using this technique 
 
 {% highlight html %}
 
-
-<div id="MobileGrid"></div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-        $(function () {// Document is ready.
+$(function () {// Document is ready.
 
-            window.gridData = [
+	window.gridData = [
 
-                { firstName: "John", lastName: "Beckett", email: "john@syncfusion.com" },
+		{ firstName: "John", lastName: "Beckett", email: "john@syncfusion.com" },
 
-                { firstName: "Ben", lastName: "Beckett", email: "ben@syncfusion.com" },
+		{ firstName: "Ben", lastName: "Beckett", email: "ben@syncfusion.com" },
 
-                { firstName: "Andrew", lastName: "Beckett", email: "andrew@syncfusion.com" }
+		{ firstName: "Andrew", lastName: "Beckett", email: "andrew@syncfusion.com" }
 
-            ];
+	];
 
-            //JSON adaptor with DataManager.
+	//JSON adaptor with DataManager.
 
-            var dataManager = ej.DataManager(window.gridData);
+	var dataManager = ej.DataManager(window.gridData);
 
-            dataManager.insert({ firstName: "Joel", lastName: "Beckett", email: "joel@syncfusion.com" });
-
-
-
-            $("#MobileGrid").ejmGrid({
-
-                dataSource: window.gridData,
-
-                columns: [
-
-                         { field: "firstName", headerText: "First Name" },
-
-                         { field: "lastName", headerText: "Last Name" },
-
-                         { field: "email", headerText: "Email" }
-
-                ]
-
-            });
-
-        });
+	dataManager.insert({ firstName: "Joel", lastName: "Beckett", email: "joel@syncfusion.com" });
 
 
 
+	$("#MobileGrid").ejmGrid({
+
+		dataSource: window.gridData,
+
+		columns: [
+
+				 { field: "firstName", headerText: "First Name" },
+
+				 { field: "lastName", headerText: "Last Name" },
+
+				 { field: "email", headerText: "Email" }
+
+		]
+
+	});
+
+});
 
 {% endhighlight %}
 
 Run the above code to render the following output.
 
-![9](Data-binding_images/Data-binding_img8.png)
-
-
+![](Data-binding_images/Data-binding_img8.png)
 
 ## oData adapter
 
@@ -709,46 +586,34 @@ Now a days oData is most useful technique in consuming data. You can use oData p
 
 {% highlight html %}
 
-
-<div id="MobileGrid"></div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-        $(function () {// Document is ready.
+$(function () {// Document is ready.
 
-            //oData Adaptor with DataManager 
+	//oData Adaptor with DataManager 
 
-            var dataManager = ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Products");
-
-
-
-            $("#MobileGrid").ejmGrid({
-
-                dataSource: dataManager,
-
-                columns: ["ProductID", "ProductName", "UnitPrice"]
-
-            });
-
-        });
+	var dataManager = ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Products");
 
 
+
+	$("#MobileGrid").ejmGrid({
+
+		dataSource: dataManager,
+
+		columns: ["ProductID", "ProductName", "UnitPrice"]
+
+	});
+
+});
 
 {% endhighlight %}
 
 Run the above code to render the following output.
 
-![11](Data-binding_images/Data-binding_img9.png)
-
-
-
+![](Data-binding_images/Data-binding_img9.png)

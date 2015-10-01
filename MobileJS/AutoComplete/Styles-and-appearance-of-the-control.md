@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-appearance-of-the-control
+title: Styles and appearance of the control | AutoComplete| Mobilejs | Syncfusion
 description: styles and appearance of the control
 platform: Mobilejs
 control: AutoComplete (Mobile) 

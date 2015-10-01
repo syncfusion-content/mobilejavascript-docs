@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IOS7-Specific-Customization
+title: IOS7 Specific Customization | Menu | Mobilejs | Syncfusion
 description: ios7 specific customization
 platform: Mobilejs
 control: Menu (Mobile)
@@ -19,33 +19,31 @@ The iOS7 Animate Type Menu comes with the Cancel Button at the bottom. The Cance
 
 {% highlight html %}
 
-        <div style="text-align: center;">
+<div style="text-align: center;">
 
-            <input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7" data-ej-text="Menu" />
+	<input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7" data-ej-text="Menu" />
 
-        </div>
+</div>
 
-        <div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem" data-ej-rendermode="ios7" data-ej-ios7-cancelbuttoncolor="red" data-ej-ios7-cancelbuttontext="Cancel">
+<div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem" data-ej-rendermode="ios7" data-ej-ios7-cancelbuttoncolor="red" data-ej-ios7-cancelbuttontext="Cancel">
 
-            <ul>
+	<ul>
 
-                <li data-ej-text="Get info"></li>
+		<li data-ej-text="Get info"></li>
 
-                <li data-ej-text="Show in folder"></li>
+		<li data-ej-text="Show in folder"></li>
 
-                <li data-ej-text="Delete"></li>
+		<li data-ej-text="Delete"></li>
 
-            </ul>
+	</ul>
 
-        </div>
-
-
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays the Button Customization:
 
-![CancelButtonColor](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)
+![](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)
 
 
 ## Hide Cancel Button	
@@ -54,35 +52,33 @@ You can hide or show the Cancel Button by setting false or true to the data-ej-s
 
 {% highlight html %}
 
-        <div style="text-align: center;">
+<div style="text-align: center;">
 
-            <input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7"
+	<input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7"
 
-                data-ej-text="Menu" />
+		data-ej-text="Menu" />
 
-        </div>
+</div>
 
-        <div id="menu_sample" data-role="ejmmenu" data-ej-rendermode="ios7" data-ej-target="menuitem" data-ej-ios7-type="animate" data-ej-ios7-showcancelbutton="false">
+<div id="menu_sample" data-role="ejmmenu" data-ej-rendermode="ios7" data-ej-target="menuitem" data-ej-ios7-type="animate" data-ej-ios7-showcancelbutton="false">
 
-            <ul>
+	<ul>
 
-                <li data-ej-text="Get info"></li>
+		<li data-ej-text="Get info"></li>
 
-                <li data-ej-text="Show in folder"></li>
+		<li data-ej-text="Show in folder"></li>
 
-                <li data-ej-text="Delete"></li>
+		<li data-ej-text="Delete"></li>
 
-            </ul>
+	</ul>
 
-        </div>
-
-
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays the Show Cancel Button:
 
-![ShowCancelButton](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img2.png)
+![](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img2.png)
 
 
 ## Title	
@@ -91,35 +87,33 @@ When iOS7 Menu is used, it comes up with a Title on the top of the Menu containe
 
 {% highlight html %}
 
-        <div style="text-align: center;">
+<div style="text-align: center;">
 
-            <input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7"
+	<input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7"
 
-                data-ej-text="Menu" />
+		data-ej-text="Menu" />
 
-        </div>
+</div>
 
-        <div id="menu_sample" data-role="ejmmenu" data-ej-rendermode="ios7" data-ej-target="menuitem" data-ej-ios7-type="animate" data-ej-ios7-showtitle="false">
+<div id="menu_sample" data-role="ejmmenu" data-ej-rendermode="ios7" data-ej-target="menuitem" data-ej-ios7-type="animate" data-ej-ios7-showtitle="false">
 
-            <ul>
+	<ul>
 
-                <li data-ej-text="Get info"></li>
+		<li data-ej-text="Get info"></li>
 
-                <li data-ej-text="Show in folder"></li>
+		<li data-ej-text="Show in folder"></li>
 
-                <li data-ej-text="Delete"></li>
+		<li data-ej-text="Delete"></li>
 
-            </ul>
+	</ul>
 
-        </div>
-
-
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays the Title.
 
-![ShowTitle](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img3.png)
+![](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img3.png)
 
 ## Type		
 
@@ -131,33 +125,30 @@ When you click a button or a target element, the Menu is displayed. The appearan
 
 {% highlight html %}
 
-         <div style="text-align: center;">
+ <div style="text-align: center;">
 
-            <input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7"
+	<input id="menuitem" type="button" data-role="ejmbutton" data-ej-rendermode="ios7"
 
-                data-ej-text="Menu" />
+		data-ej-text="Menu" />
 
-        </div>
+</div>
 
-        <div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem" data-ej-rendermode="ios7" data-ej-ios7-type="normal">
+<div id="menu_sample" data-role="ejmmenu" data-ej-target="menuitem" data-ej-rendermode="ios7" data-ej-ios7-type="normal">
 
-            <ul>
+	<ul>
 
-                <li data-ej-text="Get info"></li>
+		<li data-ej-text="Get info"></li>
 
-                <li data-ej-text="Show in folder"></li>
+		<li data-ej-text="Show in folder"></li>
 
-                <li data-ej-text="Delete"></li>
+		<li data-ej-text="Delete"></li>
 
-            </ul>
+	</ul>
 
-        </div>
+</div>
 
 {% endhighlight %}
 
  The following screenshot displays the Type:
 
-![def](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img4.png)
-
-
-
+![](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img4.png)

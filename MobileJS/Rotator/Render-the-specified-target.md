@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Render-the-specified-target
+title: Render the specified target | Rotator | Mobilejs | Syncfusion
 description: render the specified target
 platform: Mobilejs
 control: Rotator (Mobile)
@@ -15,77 +15,68 @@ The data-ej-targetid attribute is used to define the Id of the target element wh
 
 {% highlight html %}
 
-      <div id="page" data-role="appview">
+<div id="page" data-role="appview">
 
-        <!-- header control -->
+	<!-- header control -->
 
-        <div data-role="ejmheader" id="header" data-ej-title="Rotator">
+	<div data-role="ejmheader" id="header" data-ej-title="Rotator">
 
-        </div>   
+	</div>   
 
-        <div id="rotatordefault" data-role="ejmrotator" data-ej-
+	<div id="rotatordefault" data-role="ejmrotator" data-ej-
 
-             targetid="rotatorcontentdefault">
+		 targetid="rotatorcontentdefault">
 
-        </div>
+	</div>
 
-    </div>
+</div>
 
-    <div id="rotatorcontentdefault">
+<div id="rotatorcontentdefault">
 
-        <div>
+	<div>
 
-            <div class="photo photo1">
+		<div class="photo photo1">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div>
+	<div>
 
-            <div class="photo photo2">
+		<div class="photo photo2">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div>
+	<div>
 
-            <div class="photo photo3">
+		<div class="photo photo3">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div>
+	<div>
 
-            <div class="photo photo4">
+		<div class="photo photo4">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-        <div>
+	<div>
 
-            <div class="photo photo5">
+		<div class="photo photo5">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-    </div>
+</div>
 
-    </div>
-
-
+</div>
 
 {% endhighlight %}
 
-
-
 ![](Render-the-specified-target_images/Render-the-specified-target_img1.png)
-
-
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Badge
+title: Customize Badge | Tab | Mobilejs | Syncfusion
 description: customize badge
 platform: Mobilejs
 control: Tab (Mobile)
@@ -23,17 +23,17 @@ The “data-ej-value” attribute is used to set the badge value to a Tab item. 
 
 <div data-role="ejmtab" id="tab" data-ej-rendermode="ios7">
 
-        <ul>
+	<ul>
 
-            <li data-ej-href="#mymusic" data-ej-text='My Music' data-ej-ios7-imageclass="icn-Mymusic"></li>
+		<li data-ej-href="#mymusic" data-ej-text='My Music' data-ej-ios7-imageclass="icn-Mymusic"></li>
 
-            <li data-ej-href="#favorites" data-ej-text='Favorites' data-ej-ios7-imageclass="icn-Favorites"></li>
+		<li data-ej-href="#favorites" data-ej-text='Favorites' data-ej-ios7-imageclass="icn-Favorites"></li>
 
-            <li data-ej-href="#updates" data-ej-text='Updates' data-ej-ios7-imageclass="icn-Updates" data-ej-badge-enabled="true" data-ej-badge-value="2"></li>
+		<li data-ej-href="#updates" data-ej-text='Updates' data-ej-ios7-imageclass="icn-Updates" data-ej-badge-enabled="true" data-ej-badge-value="2"></li>
 
-        </ul>
+	</ul>
 
-    </div>
+</div>
 
 <!-- Tab first item -->
 
@@ -81,8 +81,6 @@ The “data-ej-value” attribute is used to set the badge value to a Tab item. 
 
 </div>
 
-
-
 {% endhighlight %}
 
 The following screenshot displays the Customization of badge:
@@ -96,19 +94,17 @@ The “data-ej-maxvalue” attribute is used to set the maximum badge value to a
 
 {% highlight html %}
 
-
-
 <div data-role="ejmtab" id="tab" data-ej-rendermode="ios7">
 
-        <ul>
+	<ul>
 
-            <li data-ej-href="#mymusic" data-ej-text='My Music' data-ej-ios7-imageclass="icn-Mymusic"></li>
+		<li data-ej-href="#mymusic" data-ej-text='My Music' data-ej-ios7-imageclass="icn-Mymusic"></li>
 
-            <li data-ej-href="#favorites" data-ej-text='Favorites' data-ej-ios7-imageclass="icn-Favorites"></li>
+		<li data-ej-href="#favorites" data-ej-text='Favorites' data-ej-ios7-imageclass="icn-Favorites"></li>
 
-            <li data-ej-href="#updates" data-ej-text='Updates' data-ej-ios7-imageclass="icn-Updates" data-ej-badge-enabled="true" data-ej-badge-value="3" data-ej-badge-maxvalue="2"></li>
+		<li data-ej-href="#updates" data-ej-text='Updates' data-ej-ios7-imageclass="icn-Updates" data-ej-badge-enabled="true" data-ej-badge-value="3" data-ej-badge-maxvalue="2"></li>
 
-        </ul>
+	</ul>
 
 </div>
 
@@ -160,13 +156,8 @@ The “data-ej-maxvalue” attribute is used to set the maximum badge value to a
 
 </div>
 
-
-
 {% endhighlight %}
 
 The following screenshot displays the maxValue
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab3.png](Customize-Badge_images/Customize-Badge_img2.png)
-
-
-
+![](Customize-Badge_images/Customize-Badge_img2.png)

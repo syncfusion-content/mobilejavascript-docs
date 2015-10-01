@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wiring-Events
+title: Wiring Events | Introduction | Mobilejs | Syncfusion
 description: wiring events
 platform: Mobilejs
 control: Introduction
@@ -15,12 +15,9 @@ Whenever the control undergoes some changes or action, it should be notified to 
 
 {% highlight js %}
 
-
-
 $(“jquery-selector”).<ejm-plugin-name>({ eventName : <eventhandler> });
 
 Example:  $("#myDate").ejmDatePicker({ select: function () { // event handler }  });
-
 
 {% endhighlight %}
 
@@ -30,25 +27,18 @@ Example:  $("#myDate").ejmDatePicker({ select: function () { // event handler } 
 
 1. $(“jquery-selector”).<ejm-plugin-name>(“model.eventName”, <eventhandler>);
 
-		Example:  $("#myDate").ejmDatePicker("model.destroy" , function () {
+Example:  $("#myDate").ejmDatePicker("model.destroy" , function () {
 
-            // Event handler
+	// Event handler
 
-         });
+ });
 		 
 2. $(“jquery-selector”).on(“ejm-plugin-nameeventName”, <eventhandler>);
 
-		 Example:  $("#myDate").on("ejmDatePickerdestroy", function () {
+ Example:  $("#myDate").on("ejmDatePickerdestroy", function () {
 
-            // Event handler
+	// Event handler
 
-         }); 
+ }); 
 
 {% endhighlight %}
-   
-
-
-
-
-
-

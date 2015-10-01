@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ImagePosition
+title: ImagePosition | Button | Mobilejs | Syncfusion
 description: imageposition
 platform: Mobilejs
 control: Button (Mobile)
@@ -21,4 +21,4 @@ You can refer to the following code example.
 
 {% endhighlight %}
 
-![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abf8235.PNG](ImagePosition_images/ImagePosition_img1.png)
+![](ImagePosition_images/ImagePosition_img1.png)

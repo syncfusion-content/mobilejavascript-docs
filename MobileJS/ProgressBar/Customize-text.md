@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-text
+title: Customize text | Progress Bar | Mobilejs | Syncfusion
 description: customize text
 platform: Mobilejs
 control: Progress Bar (Mobile)
@@ -19,7 +19,4 @@ The data-ej-enablecustomtext attribute is used to specify the custom text for Pr
 
 Output of enable Customize text:
 
-![C:/Users/Dhinesh R/Desktop/progress.jpg](Customize-text_images/Customize-text_img1.jpeg)
-
-
-
+![](Customize-text_images/Customize-text_img1.jpeg)

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance | Toggle Button | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
-control: Accordion (Mobile)
+control: Toggle Button (Mobile)
 documentation: ug
 ---
 
@@ -51,9 +51,4 @@ This class is applied to onstate <div> element of Toggle Button when control is 
 <td>
 e-m-state-disabled               </td><td>
 This class is applied to disable Toggle Button control.</td></tr>
-
 </table>
-
-
-
-

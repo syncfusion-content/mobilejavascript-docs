@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IOS7-specific-customization
+title: IOS7 specific customization | Tab | Mobilejs | Syncfusion
 description: ios7 specific customization
 platform: Mobilejs
 control: Tab (Mobile)
@@ -19,15 +19,15 @@ The “data-ej-ios7-imageclass” attribute is used to add images to the Tab by 
 
 <div data-role="ejmtab" id="tab" data-ej-rendermode="ios7">
 
-    <ul>
+<ul>
 
-        <li data-ej-href="#mymusic" data-ej-text='My Music' data-ej-ios7-imageclass="icn-Mymusic"></li>
+	<li data-ej-href="#mymusic" data-ej-text='My Music' data-ej-ios7-imageclass="icn-Mymusic"></li>
 
-        <li  data-ej-href="#favorites" data-ej-text='Favorites' data-ej-ios7-imageclass="icn-Favorites"></li> 
+	<li  data-ej-href="#favorites" data-ej-text='Favorites' data-ej-ios7-imageclass="icn-Favorites"></li> 
 
-        <li data-ej-href="#updates" data-ej-text='Updates' data-ej-ios7-imageclass="icn-Updates"></li>  
+	<li data-ej-href="#updates" data-ej-text='Updates' data-ej-ios7-imageclass="icn-Updates"></li>  
 
-    </ul>
+</ul>
 
 </div>
 
@@ -77,97 +77,71 @@ The “data-ej-ios7-imageclass” attribute is used to add images to the Tab by 
 
 </div>
 
-
-
 {% endhighlight %}
 
 To add the images, use the following styles.
 
 {% highlight css %}
 
+.icn-Mymusic {
 
+	background: url('http://js.syncfusion.com/UG/Mobile/Content/mymusic.png') no-repeat center center;
 
-    .icn-Mymusic {
+}
 
-        background: url('http://js.syncfusion.com/UG/Mobile/Content/mymusic.png') no-repeat center center;
+.icn-Updates {
 
-    }
+	background: url('http://js.syncfusion.com/UG/Mobile/Content/updates.png') no-repeat center center;
 
+}
 
+.e-m-tabitem.e-m-state-default .icn-Mymusic {
 
-    .icn-Updates {
+	background: url('http://js.syncfusion.com/UG/Mobile/Content/mymusic-default.png') no-repeat center center;
 
-        background: url('http://js.syncfusion.com/UG/Mobile/Content/updates.png') no-repeat center center;
+}
 
-    }
+.e-m-tabitem.e-m-state-default .icn-Updates {
 
+	background: url('http://js.syncfusion.com/UG/Mobile/Content/updates-default.png') no-repeat center center;
 
+}
 
-    .e-m-tabitem.e-m-state-default .icn-Mymusic {
+.icn-Favorites {
 
-        background: url('http://js.syncfusion.com/UG/Mobile/Content/mymusic-default.png') no-repeat center center;
+	background: url('http://js.syncfusion.com/UG/Mobile/Content/favorites.png') no-repeat center center;
 
-    }
+}
 
+.e-m-tabitem.e-m-state-default .icn-Favorites {
 
+	background: url('http://js.syncfusion.com/UG/Mobile/Content/favorites-default.png') no-repeat center center;
 
-    .e-m-tabitem.e-m-state-default .icn-Updates {
+}
 
-        background: url('http://js.syncfusion.com/UG/Mobile/Content/updates-default.png') no-repeat center center;
+.e-m-tab.e-m-ios7 .e-m-tab-image {
 
-    }
+	width: 26px;
 
+}
 
+.e-m-tab-content .e-m-content {
 
-    .icn-Favorites {
+   padding: 0px;
 
-        background: url('http://js.syncfusion.com/UG/Mobile/Content/favorites.png') no-repeat center center;
+}
 
-    }
+.e-m-lv .e-m-list .e-m-list-text,.e-m-windows.e-m-lv.e-m-mobile .e-m-list-text {
 
+   left:0px;
 
+}
 
-    .e-m-tabitem.e-m-state-default .icn-Favorites {
+.e-m-lv.e-m-android .e-m-list .e-m-list-text {
 
-        background: url('http://js.syncfusion.com/UG/Mobile/Content/favorites-default.png') no-repeat center center;
+   left: 20px;
 
-    }
-
-
-
-    .e-m-tab.e-m-ios7 .e-m-tab-image {
-
-        width: 26px;
-
-    }
-
-
-
-    .e-m-tab-content .e-m-content {
-
-       padding: 0px;
-
-    }
-
-
-
-   .e-m-lv .e-m-list .e-m-list-text,.e-m-windows.e-m-lv.e-m-mobile .e-m-list-text {
-
-       left:0px;
-
-    }
-
-
-
-   .e-m-lv.e-m-android .e-m-list .e-m-list-text {
-
-       left: 20px;
-
-    }
-
-
-
-
+}
 
 {% endhighlight %}
 
@@ -175,9 +149,7 @@ To add the images, use the following styles.
 
 The following screenshot displays imageClass:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/sources/Screen shots/tab2.png](IOS7-specific-customization_images/IOS7-specific-customization_img1.png)
-
-
+![](IOS7-specific-customization_images/IOS7-specific-customization_img1.png)
 
 ## OverflowBadge
 
@@ -195,117 +167,115 @@ The “data-ej-ios7-overflowbadge-value” attribute is used to set the badge va
 
 <div id="tab" data-role="ejmtab" data-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" data-ej-ios7-overflowbadge-value="2">
 
-        <ul>
+	<ul>
 
-            <li data-ej-href="#favorites" data-ej-text='Featured' data-ej-ios7-imageclass="icn-Favorites"></li>
+		<li data-ej-href="#favorites" data-ej-text='Featured' data-ej-ios7-imageclass="icn-Favorites"></li>
 
-            <li data-ej-href="#charts" data-ej-text='Charts' data-ej-ios7-imageclass="icn-Charts"></li>
+		<li data-ej-href="#charts" data-ej-text='Charts' data-ej-ios7-imageclass="icn-Charts"></li>
 
-            <li data-ej-href="#explore" data-ej-text='Explore' data-ej-ios7-imageclass="icn-Explore"></li>
+		<li data-ej-href="#explore" data-ej-text='Explore' data-ej-ios7-imageclass="icn-Explore"></li>
 
-            <li data-ej-href="#music" data-ej-text='Music' data-ej-ios7-imageclass="icn-Mymusic"></li>
+		<li data-ej-href="#music" data-ej-text='Music' data-ej-ios7-imageclass="icn-Mymusic"></li>
 
-            <li data-ej-href="#updates" data-ej-text='Updates' data-ej-ios7-imageclass="icn-Updates"></li>
+		<li data-ej-href="#updates" data-ej-text='Updates' data-ej-ios7-imageclass="icn-Updates"></li>
 
-            <li data-ej-href="#search" data-ej-text='Search' data-ej-ios7-imageclass="icn-Search"></li>
+		<li data-ej-href="#search" data-ej-text='Search' data-ej-ios7-imageclass="icn-Search"></li>
 
-        </ul>
+	</ul>
 
-    </div>
+</div>
 
-        <!-- Tab first item -->
+	<!-- Tab first item -->
 
-        <div data-role="ejmlistview" data-ej-showheader="false" id="favorites">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="favorites">
 
-            <ul>
+		<ul>
 
-                <li data-ej-text="Dark Horse"></li>
+			<li data-ej-text="Dark Horse"></li>
 
-                <li data-ej-text="Roar"></li>
+			<li data-ej-text="Roar"></li>
 
-            </ul>
+		</ul>
 
-        </div>        
+	</div>        
 
-        <!-- Tab second item -->
+	<!-- Tab second item -->
 
-        <div data-role="ejmlistview" data-ej-showheader="false" id="charts">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="charts">
 
-            <ul>
+		<ul>
 
-                <li data-ej-text="Facebook"></li>
+			<li data-ej-text="Facebook"></li>
 
-                <li data-ej-text="Skype"></li>
+			<li data-ej-text="Skype"></li>
 
-                <li data-ej-text="YouTube"></li>
+			<li data-ej-text="YouTube"></li>
 
-            </ul>
+		</ul>
 
-        </div> 
+	</div> 
 
-        <!-- Tab third item -->
+	<!-- Tab third item -->
 
-        <div data-role="ejmlistview" data-ej-showheader="false" id="explore">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="explore">
 
-            <ul>
+		<ul>
 
-                <li data-ej-text="Find your near Location"></li>                
+			<li data-ej-text="Find your near Location"></li>                
 
-            </ul>
+		</ul>
 
-        </div>  
+	</div>  
 
-        <!-- Tab fourth item -->
+	<!-- Tab fourth item -->
 
-        <div data-role="ejmlistview" data-ej-showheader="false" id="music">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="music">
 
-            <ul>
+		<ul>
 
-                <li data-ej-text="Not Afraid"></li>
+			<li data-ej-text="Not Afraid"></li>
 
-                <li data-ej-text="Get Lucky"></li>
+			<li data-ej-text="Get Lucky"></li>
 
-                <li data-ej-text="Roar"></li>
+			<li data-ej-text="Roar"></li>
 
-                <li data-ej-text="Till I Collapse"></li>
+			<li data-ej-text="Till I Collapse"></li>
 
-            </ul>
+		</ul>
 
-        </div>  
+	</div>  
 
-        <!-- Tab fifth item -->            
+	<!-- Tab fifth item -->            
 
-        <div data-role="ejmlistview" data-ej-showheader="false" id="updates">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="updates">
 
-            <ul>
+		<ul>
 
-                <li data-ej-text="New songs available for download"></li>
+			<li data-ej-text="New songs available for download"></li>
 
-                <li data-ej-text="1.2.1 update available"></li>
+			<li data-ej-text="1.2.1 update available"></li>
 
-            </ul>
+		</ul>
 
-        </div> 
+	</div> 
 
-        <!-- Tab sixth item -->  
+	<!-- Tab sixth item -->  
 
-        <div data-role="ejmlistview" data-ej-showheader="false" id="search">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="search">
 
-            <ul>
+		<ul>
 
-                <li data-ej-text="Search content here"></li>                
+			<li data-ej-text="Search content here"></li>                
 
-            </ul>
+		</ul>
 
-        </div>
-
-
+	</div>
 
 {% endhighlight %}
 
 The following screenshot displays the Overflow Badge:
 
- '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-5.png](IOS7-specific-customization_images/IOS7-specific-customization_img2.png)
+![](IOS7-specific-customization_images/IOS7-specific-customization_img2.png)
 
 
 ### MaxValue
@@ -316,116 +286,112 @@ The “data-ej-ios7-overflowbadge-maxvalue” attribute is used to set the maxim
 
 <div id="tab" data-role="ejmtab" data-rendermode="ios7" data-ej-ios7-overflowbadge-enabled="true" data-ej-ios7-overflowbadge-value="2" data-ej-ios7-overflowbadge-maxvalue="1">
 
-        <ul>
+	<ul>
 
-            <li data-ej-href="#favorites" data-ej-text='Featured' data-ej-ios7-imageclass="icn-Favorites"></li>
+		<li data-ej-href="#favorites" data-ej-text='Featured' data-ej-ios7-imageclass="icn-Favorites"></li>
 
-            <li data-ej-href="#charts" data-ej-text='Charts' data-ej-ios7-imageclass="icn-Charts"></li>
+		<li data-ej-href="#charts" data-ej-text='Charts' data-ej-ios7-imageclass="icn-Charts"></li>
 
-            <li data-ej-href="#explore" data-ej-text='Explore' data-ej-ios7-imageclass="icn-Explore"></li>
+		<li data-ej-href="#explore" data-ej-text='Explore' data-ej-ios7-imageclass="icn-Explore"></li>
 
-            <li data-ej-href="#music" data-ej-text='Music' data-ej-ios7-imageclass="icn-Mymusic"></li>
+		<li data-ej-href="#music" data-ej-text='Music' data-ej-ios7-imageclass="icn-Mymusic"></li>
 
-            <li data-ej-href="#updates" data-ej-text='Updates' data-ej-ios7-imageclass="icn-Updates"></li>
+		<li data-ej-href="#updates" data-ej-text='Updates' data-ej-ios7-imageclass="icn-Updates"></li>
 
-            <li data-ej-href="#search" data-ej-text='Search' data-ej-ios7-imageclass="icn-Search"></li>
+		<li data-ej-href="#search" data-ej-text='Search' data-ej-ios7-imageclass="icn-Search"></li>
 
-        </ul>
+	</ul>
 
-    </div>
+</div>
 
-        <!-- Tab first item -->
+	<!-- Tab first item -->
 
-        <div data-role="ejmlistview" data-ej-showheader="false" id="favorites">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="favorites">
 
-            <ul>
+		<ul>
 
-                <li data-ej-text="Dark Horse"></li>
+			<li data-ej-text="Dark Horse"></li>
 
-                <li data-ej-text="Roar"></li>
+			<li data-ej-text="Roar"></li>
 
-            </ul>
+		</ul>
 
-        </div>        
+	</div>        
 
-        <!-- Tab second item -->
+	<!-- Tab second item -->
 
-        <div data-role="ejmlistview" data-ej-showheader="false" id="charts">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="charts">
 
-            <ul>
+		<ul>
 
-                <li data-ej-text="Facebook"></li>
+			<li data-ej-text="Facebook"></li>
 
-                <li data-ej-text="Skype"></li>
+			<li data-ej-text="Skype"></li>
 
-                <li data-ej-text="YouTube"></li>
+			<li data-ej-text="YouTube"></li>
 
-            </ul>
+		</ul>
 
-        </div> 
+	</div> 
 
-        <!-- Tab third item -->
+	<!-- Tab third item -->
 
-        <div data-role="ejmlistview" data-ej-showheader="false" id="explore">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="explore">
 
-            <ul>
+		<ul>
 
-                <li data-ej-text="Find your near Location"></li>                
+			<li data-ej-text="Find your near Location"></li>                
 
-            </ul>
+		</ul>
 
-        </div>  
+	</div>  
 
-        <!-- Tab fourth item -->
+	<!-- Tab fourth item -->
 
-        <div data-role="ejmlistview" data-ej-showheader="false" id="music">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="music">
 
-            <ul>
+		<ul>
 
-                <li data-ej-text="Not Afraid"></li>
+			<li data-ej-text="Not Afraid"></li>
 
-                <li data-ej-text="Get Lucky"></li>
+			<li data-ej-text="Get Lucky"></li>
 
-                <li data-ej-text="Roar"></li>
+			<li data-ej-text="Roar"></li>
 
-                <li data-ej-text="Till I Collapse"></li>
+			<li data-ej-text="Till I Collapse"></li>
 
-            </ul>
+		</ul>
 
-        </div>  
+	</div>  
 
-        <!-- Tab fifth item -->            
+	<!-- Tab fifth item -->            
 
-        <div data-role="ejmlistview" data-ej-showheader="false" id="updates">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="updates">
 
-            <ul>
+		<ul>
 
-                <li data-ej-text="New songs available for download"></li>
+			<li data-ej-text="New songs available for download"></li>
 
-                <li data-ej-text="1.2.1 update available"></li>
+			<li data-ej-text="1.2.1 update available"></li>
 
-            </ul>
+		</ul>
 
-        </div> 
+	</div> 
 
-        <!-- Tab sixth item -->  
+	<!-- Tab sixth item -->  
 
-        <div data-role="ejmlistview" data-ej-showheader="false" id="search">
+	<div data-role="ejmlistview" data-ej-showheader="false" id="search">
 
-            <ul>
+		<ul>
 
-                <li data-ej-text="Search content here"></li>                
+			<li data-ej-text="Search content here"></li>                
 
-            </ul>
+		</ul>
 
-        </div>
-
-
+	</div>
 
 {% endhighlight %}
 
 The following screenshot displays the maxValue:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/images/ios7_10.png](IOS7-specific-customization_images/IOS7-specific-customization_img3.png)
-
-
+![](IOS7-specific-customization_images/IOS7-specific-customization_img3.png)

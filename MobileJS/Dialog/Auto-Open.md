@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Auto-Open
+title: Auto Open | Dialog | Mobilejs | Syncfusion
 description: auto open
 platform: Mobilejs
 control: Dialog (Mobile)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data-Binding
+title: Data Binding | Rotator | Mobilejs | Syncfusion
 description: data binding
 platform: Mobilejs
 control: Rotator (Mobile)
@@ -15,89 +15,78 @@ Using data-ej-databinding attribute you can enable the databinding and data-ej-d
 
 {% highlight html %}
 
-       <div id="page" data-role="appview">
+<div id="page" data-role="appview">
 
-        <!-- header control -->
+<!-- header control -->
 
-        <div data-role="ejmheader" id="header" data-ej-title="Rotator">
+<div data-role="ejmheader" id="header" data-ej-title="Rotator">
 
-        </div>   
+</div>   
 
-        <div id="rotatordefault" data-role="ejmrotator" data-ej-    
+<div id="rotatordefault" data-role="ejmrotator" data-ej-    
 
-                 targetid="rotatorcontentdefault" data-ej-datasource="window.imgdata"  
+		 targetid="rotatorcontentdefault" data-ej-datasource="window.imgdata"  
 
-                  data-ej-databinding="true">
+		  data-ej-databinding="true">
 
-        </div>
+</div>
 
-    </div>
+</div>
 
-    <div id="rotatorcontentdefault">
+<div id="rotatorcontentdefault">
 
-        <div>
+<div>
 
-            <div class="photo {{:imageurl}}">
+	<div class="photo {{:imageurl}}">
 
-            </div>
+	</div>
 
-        </div>
+</div>
 
-    </div>
+</div>
 
-    </div>
-
+</div>
 
 {% endhighlight %}
-
 
 Refer the following code examples for script section.
 
 {% highlight css %}
 
+window.imgdata = [
 
+{
 
+"imageurl": "photo1",
 
+},
 
-        window.imgdata = [
+{
 
-  {
+"imageurl": "photo2",
 
-      "imageurl": "photo1",
+},
 
-  },
+{
 
-  {
+"imageurl": "photo3",
 
-      "imageurl": "photo2",
+},
 
-  },
+{
 
-  {
+"imageurl": "photo4",
 
-      "imageurl": "photo3",
+},
 
-  },
+{
 
-  {
+"imageurl": "photo5",
 
-      "imageurl": "photo4",
+}
 
-  },
-
-  {
-
-      "imageurl": "photo5",
-
-  }
-
-        ];
+];
 
 {% endhighlight %}
 
-
-
 ![](Data-Binding_images/Data-Binding_img1.png)
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time-Settings
+title: Time Settings | TimePicker | Mobilejs | Syncfusion
 description: time settings
 platform: Mobilejs
 control: TimePicker (Mobile)

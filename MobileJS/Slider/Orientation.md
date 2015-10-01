@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Orientation
+title: Orientation | Slider | Mobilejs | Syncfusion
 description: orientation
 platform: Mobilejs
 control: Slider (Mobile)
@@ -14,21 +14,15 @@ It specifies the Orientation in which the Slider is rendered. To change orientat
 The possible values are,
 
 1. Horizontal
+
 2. Vertical
-
-
 
 {% highlight html %}
 
-      <div id="slider_sample" data-role="ejmslider" data-ej-orientation="vertical"> </div>
+<div id="slider_sample" data-role="ejmslider" data-ej-orientation="vertical"> </div>
 
 {% endhighlight %}
-
-
 
 The following screenshot displays the Slider Orientation:
 
 ![](Orientation_images/Orientation_img1.png)
-
-
-

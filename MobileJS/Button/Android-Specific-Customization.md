@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android-Specific-Customization
+title: Android Specific Customization | Button | Mobilejs | Syncfusion
 description: android specific customization
 platform: Mobilejs
 control: Button (Mobile)
@@ -23,16 +23,12 @@ You can refer to the following code examples
 
 <div align="center" style="margin:10px">
 
-        <input type="button" id="sample_button" data-role="ejmbutton" data-ej-text="Normal" data-ej-rendermode="android" data-ej-android-style="normal" /><br /><br />
+	<input type="button" id="sample_button" data-role="ejmbutton" data-ej-text="Normal" data-ej-rendermode="android" data-ej-android-style="normal" /><br /><br />
 
+	<input type="button" id="sample_button1" data-role="ejmbutton" data-ej-text="Small" data-ej-rendermode="android" data-ej-android-style="small" />
 
+	<input type="button" id="sample_button2" data-role="ejmactionlink" data-ej-text="Dialog" data-ej-rendermode="android" data-ej-android-style="dialog" />
 
-        <input type="button" id="sample_button1" data-role="ejmbutton" data-ej-text="Small" data-ej-rendermode="android" data-ej-android-style="small" />
-
-
-
-        <input type="button" id="sample_button2" data-role="ejmactionlink" data-ej-text="Dialog" data-ej-rendermode="android" data-ej-android-style="dialog" />
-
-    </div>
+</div>
 
 {% endhighlight %}

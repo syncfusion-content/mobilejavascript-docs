@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrolling-Configuration
+title: Scrolling-Configuration | SplitPane | Mobilejs | Syncfusion
 description: scrolling configuration
 platform: Mobilejs
 control: SplitPane (Mobile)
@@ -17,45 +17,39 @@ The “data-ej-allowrightpanescrolling” attribute is used to enable/disable th
 
 <div id="splitpane" data-role="ejmsplitpane" data-ej-rightpanescrollsettings-targetwidth="200">
 
-        <div data-ej-layout="pane">
+	<div data-ej-layout="pane">
 
-            <!--Left pane content-->
+		<!--Left pane content-->
 
-            <div id="listview" data-role="ejmlistview" data-ej-touchend="loadContent" data-ej-showheader=false>
+		<div id="listview" data-role="ejmlistview" data-ej-touchend="loadContent" data-ej-showheader=false>
 
-                <ul>
+			<ul>
 
-                    <li data-ej-text="Item1"></li>
+				<li data-ej-text="Item1"></li>
 
-                    <li data-ej-text="Item2"></li>
+				<li data-ej-text="Item2"></li>
 
-                    <li data-ej-text="Item3"></li>
+				<li data-ej-text="Item3"></li>
 
-                    <li data-ej-text="Item4"></li>
+				<li data-ej-text="Item4"></li>
 
-                    <li data-ej-text="Item5"></li>
+				<li data-ej-text="Item5"></li>
 
-                    <li data-ej-text="Item6"></li>
+				<li data-ej-text="Item6"></li>
 
-                </ul>
+			</ul>
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-    </div>
-
-
+</div>
 
 {% endhighlight %}
-
-
 
 Refer to the script section and page content section to load the right pane content of appropriate page created.
 
 Likewise, you can customize all other properties of scrollpanel using this property. Refer to the complete UG of scrollpanel to know its properties.
-
-
 
 ## LeftPane Scroll Settings
 
@@ -65,45 +59,36 @@ The “data-ej-allowleftpanescrolling” attribute is used to enable/disable the
 
 <div id="splitpane" data-role="ejmsplitpane"data-ej-leftpanescrollsettings-targetwidth=320>
 
-        <div data-ej-layout="pane">
+	<div data-ej-layout="pane">
 
-            <!--Left pane content-->
+		<!--Left pane content-->
 
-            <div id="listview" data-role="ejmlistview" data-ej-touchend="loadContent" data-ej-showheader=false>
+		<div id="listview" data-role="ejmlistview" data-ej-touchend="loadContent" data-ej-showheader=false>
 
-                <ul>
+			<ul>
 
-                    <li data-ej-text="Item1"></li>
+				<li data-ej-text="Item1"></li>
 
-                    <li data-ej-text="Item2"></li>
+				<li data-ej-text="Item2"></li>
 
-                    <li data-ej-text="Item3"></li>
+				<li data-ej-text="Item3"></li>
 
-                    <li data-ej-text="Item4"></li>
+				<li data-ej-text="Item4"></li>
 
-                    <li data-ej-text="Item5"></li>
+				<li data-ej-text="Item5"></li>
 
-                    <li data-ej-text="Item6"></li> 
+				<li data-ej-text="Item6"></li> 
 
-                </ul>
+			</ul>
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-    </div>
-
-
+</div>
 
 {% endhighlight %}
-
-
 
 Refer to the script section and page content section to load the right pane content of appropriate page created. 
 
 Likewise, you can customize all other properties of scrollpanel using this property. Refer to the complete UG of scrollpanel to know its properties.
-
-
-
-
-

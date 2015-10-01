@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | Button | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: Button (Mobile)
@@ -15,7 +15,7 @@ From the following guidelines, you can create a Media Player App where you can l
 
 The following screenshot illustrates the functionality of a Button control in Media Player.
 
-![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0534_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 ### Create the necessary layout
 
@@ -33,7 +33,7 @@ Create an HTML file and paste the following template to it for Button creati
 
     <title>Button</title>
 
-   <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)"rel="stylesheet" />
+   	<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)"rel="stylesheet" />
 
 	<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
 
@@ -79,21 +79,21 @@ Add the following styles to add formatting to your page.
 
 {% highlight css %}
 
-       .center {
+.center {
 
-           padding: 20px;
+   padding: 20px;
 
-           top: 20px;
+   top: 20px;
 
-           position: relative;
+   position: relative;
 
-       }
+}
 
-       td {
+td {
 
-           padding: 10px;
+   padding: 10px;
 
-       }
+}
 	   
 {% endhighlight %}
 
@@ -111,10 +111,9 @@ You can add Audio controls in your app by using html audio control. Add the foll
 
      <source src="audio/song.mp3" type="audio/mp3">
 
- </audio>
+</audio>
 
 <br />
-
 <br />
 
 {% endhighlight %}
@@ -139,27 +138,17 @@ Add the following code example below the audio control.
 <table>
 
     <tr>
-
         <td>
-
             <input type="button" id="play" data-role="ejmbutton" />
-
         </td>
 
         <td>
-
             <input type="button" id="pause" data-role="ejmbutton" />
-
-
-
         </td>
 
          <td>
-
             <input type="button" id="save" data-role="ejmbutton" />
-
         </td>
-
     </tr>
 
 </table>
@@ -168,7 +157,7 @@ Add the following code example below the audio control.
 
 Run the above code example to render the following output.
 
-![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0533_iphone5s_spacegrey_landscape.png](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 ### Set text
 
@@ -192,8 +181,6 @@ Now, set text for all the buttons. You can achieve this by using “data-ej-text
 
             <input type="button" id="pause" data-role="ejmbutton" data-ej-text="pause" />
 
-
-
         </td>
 
         <td>
@@ -208,7 +195,7 @@ Now, set text for all the buttons. You can achieve this by using “data-ej-text
 
 {% endhighlight %}
 
-![C:/Users/labuser/Documents/Documentation_Button/Screenshots/IMG_0534_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img4.png)
 
 ### Saving the Audio file
 
@@ -258,8 +245,6 @@ You can achieve this by using “data-ej-touchend” attribute.
 
             <input type="button" id="pause" data-role="ejmbutton" data-ej-text="pause" data-ej-touchend="pause" />
 
-
-
         </td>
 
         <td>
@@ -272,11 +257,7 @@ You can achieve this by using “data-ej-touchend” attribute.
 
 </table>
 
-
-
 {% endhighlight %}
-
-
 
 At this point, you have created all the elements required for a simple Mediaplayer.
 
@@ -288,40 +269,36 @@ Add the following Script to your code.
 
 {% highlight js %}
 
+var v = document.getElementsByTagName("audio")[0];
 
+v.pause();
 
-    var v = document.getElementsByTagName("audio")[0];
+function play() {
 
-    v.pause();
+	v.play();
 
+}
 
+function pause() {
 
-    function play() {
+	v.pause();
 
-        v.play();
+}
 
-    }
+function save() {
 
-    function pause() {
+	App.activePage.find("#alertdlg").ejmDialog("open");
 
-        v.pause();
+}
 
-    }
+function alertClose(args) {
 
-    function save() {
+	App.activePage.find("#alertdlg").ejmDialog("close");
 
-        App.activePage.find("#alertdlg").ejmDialog("open");
-
-    }
-
-    function alertClose(args) {
-
-        App.activePage.find("#alertdlg").ejmDialog("close");
-
-    }
+}
 
 {% endhighlight %}
 
 Run the above code example to render the following output. 
 
-![C:/Users/Dhinesh R/AppData/Roaming/Skype/My Skype Received Files/Screenshots/Screenshots/IMG_0535_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img5.png)
+![](Getting-Started_images/Getting-Started_img5.png)

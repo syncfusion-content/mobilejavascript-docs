@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance | Navigation Drawer | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
 control: Navigation Drawer (Mobile)
@@ -63,5 +63,3 @@ This class is applied to all li elements inside the ListView container.</td></tr
 e-m-list-text</td><td>
 This class is applied to span element inside the ListView items.</td></tr>
 </table>
-
-

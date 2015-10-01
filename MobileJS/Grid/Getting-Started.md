@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | Grid | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: Grid (Mobile)
@@ -15,8 +15,7 @@ In this section, you can learn how to create Grid using JavaScript in mobile app
 
 Essential Grid for Mobile JavaScript is a feature-rich Grid component that can handle large amount of data. It is very easy to use and includes features like data binding, filtering, paging, and sorting. You can make use of the Mobile Grid control to generate complex grid-based reports. In the following guidelines, you will learn about the features in Mobile Grid widget by creating a Sales data grid.
 
-![5](Getting-Started_images/Getting-Started_img1.png)
-
+![](Getting-Started_images/Getting-Started_img1.png)
 
 ## Create the necessary layout 
 
@@ -26,7 +25,7 @@ Essential JavaScript Mobile Grid can be rendered only by specifying the data sou
 
 {% highlight html %}
 
- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 
@@ -78,10 +77,6 @@ Essential JavaScript Mobile Grid can be rendered only by specifying the data sou
 
 </html>
 
-
-
-
-
 {% endhighlight %}
 
 ## Create the Grid
@@ -94,63 +89,45 @@ Refer to the following code example.
 
 <!--Mobile Grid control  -->
 
-                <div id="mobgrid">
-
-                </div>
-
-
-
-
+<div id="mobgrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
+$(function () {
 
+// The datasource "window.gridData" is referred from jsondata.min.js
 
-  $(function () {
+var data = ej.DataManager(window.gridData)
 
-            // The datasource "window.gridData" is referred from jsondata.min.js
+		 .executeLocal(ej.Query().take(50));
 
-            var data = ej.DataManager(window.gridData)
+// Creates Mobile grid
 
-                         .executeLocal(ej.Query().take(50));
+$("#mobgrid").ejmGrid({
 
-            // Creates Mobile grid
+dataSource: data,
 
-            $("#mobgrid").ejmGrid({
+// Configures Columns for Mobile grid
 
-                dataSource: data,
+columns: [
 
-                // Configures Columns for Mobile grid
+   { field: "OrderID", headerText: "Order ID" },
 
-                columns: [
+   { field: "CustomerID", headerText: "Customer ID", width: 130 },
 
-                   { field: "OrderID", headerText: "Order ID" },
+   { field: "Freight", headerText: "Freight" }
 
-                   { field: "CustomerID", headerText: "Customer ID", width: 130 },
-
-                   { field: "Freight", headerText: "Freight" }
-
-                ]});});
-
-
-
-
+]});});
 
 {% endhighlight %}
 
-
-
 Run this code and you can see the following output.
 
-![1](Getting-Started_images/Getting-Started_img2.png)
-
-
+![](Getting-Started_images/Getting-Started_img2.png)
 
 ## Grid with Scrolling
 
@@ -158,47 +135,41 @@ Now, you have to enable scroll support in Grid. Scroll is used to view all the c
 
 {% highlight js %}
 
-        $(function () {
+$(function () {
 
-            // The datasource "window.gridData" is referred from jsondata.min.js
+// The datasource "window.gridData" is referred from jsondata.min.js
 
-            var data = ej.DataManager(window.gridData)
+var data = ej.DataManager(window.gridData)
 
-                         .executeLocal(ej.Query().take(50));
+		 .executeLocal(ej.Query().take(50));
 
-            // Creates Mobile grid
+// Creates Mobile grid
 
-            $("#mobgrid").ejmGrid({
+$("#mobgrid").ejmGrid({
 
-                dataSource: data,
+dataSource: data,
 
-                allowScrolling: true,
+allowScrolling: true,
 
-                scrollSettings: { height: 260 },
+scrollSettings: { height: 260 },
 
-                // Configures Columns for Mobile grid
+// Configures Columns for Mobile grid
 
-                columns: [
+columns: [
 
-                   { field: "OrderID", headerText: "Order ID" },
+   { field: "OrderID", headerText: "Order ID" },
 
-                   { field: "CustomerID", headerText: "Customer ID", width: 130 },
+   { field: "CustomerID", headerText: "Customer ID", width: 130 },
 
-                   { field: "Freight", headerText: "Freight" }
+   { field: "Freight", headerText: "Freight" }
 
-                ]});});
-
-
-
-
+]});});
 
 {% endhighlight %}
 
 Run this code and you can see the following output.
 
-![6](Getting-Started_images/Getting-Started_img3.png)
-
-
+![](Getting-Started_images/Getting-Started_img3.png)
 
 From the above output, it is clear that we can scroll up and down to view the Grid contents. 
 
@@ -208,56 +179,47 @@ Now, enable Paging feature in Grid. This offers complete navigation support to e
 
 {% highlight js %}
 
+$(function () {
+
+// The datasource "window.gridData" is referred from jsondata.min.js
+
+var data = ej.DataManager(window.gridData)
+
+		 .executeLocal(ej.Query().take(50));
 
 
 
-        $(function () {
+// Creates Mobile grid
 
-            // The datasource "window.gridData" is referred from jsondata.min.js
+$("#mobgrid").ejmGrid({
 
-            var data = ej.DataManager(window.gridData)
+dataSource: data,
 
-                         .executeLocal(ej.Query().take(50));
+allowScrolling: true,
 
+scrollSettings: { height: 260 },
 
+allowPaging: true, //Enables Paging for mobile grid
 
-            // Creates Mobile grid
+pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
 
-            $("#mobgrid").ejmGrid({
+// Configures Columns for Mobile grid
 
-                dataSource: data,
+columns: [
 
-                allowScrolling: true,
+   { field: "OrderID", headerText: "Order ID" },
 
-                scrollSettings: { height: 260 },
+   { field: "CustomerID", headerText: "Customer ID", width: 130 },
 
-                allowPaging: true, //Enables Paging for mobile grid
+   { field: "Freight", headerText: "Freight" }
 
-                pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
-
-                // Configures Columns for Mobile grid
-
-                columns: [
-
-                   { field: "OrderID", headerText: "Order ID" },
-
-                   { field: "CustomerID", headerText: "Customer ID", width: 130 },
-
-                   { field: "Freight", headerText: "Freight" }
-
-                ]});});
-
-
-
-
+]});});
 
 {% endhighlight %}
 
 Run this code and you can see the following output.
 
-![2](Getting-Started_images/Getting-Started_img4.png)
-
-
+![](Getting-Started_images/Getting-Started_img4.png)
 
 ## Grid with Filtering
 
@@ -267,58 +229,48 @@ Click the filter icon in column header to make the filtering text box visible. T
 
 {% highlight js %}
 
-        $(function () {
+$(function () {
 
-            var data = ej.DataManager(window.gridData)
-                         .executeLocal(ej.Query().take(50));
+var data = ej.DataManager(window.gridData)
+			 .executeLocal(ej.Query().take(50));
 
-            $("#mobgrid").ejmGrid({
+$("#mobgrid").ejmGrid({
 
-                dataSource: data,
+	dataSource: data,
 
-                allowFiltering: true, //Enables Filtering for Mobile grid
+	allowFiltering: true, //Enables Filtering for Mobile grid
 
-                allowScrolling: true,
+	allowScrolling: true,
 
-                scrollSettings: { height: 260 },
+	scrollSettings: { height: 260 },
 
-                allowPaging: true, //Enables Paging for mobile grid
+	allowPaging: true, //Enables Paging for mobile grid
 
-                pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
-
-
-
-                columns: [
-
-                   { field: "OrderID", headerText: "Order ID" },
-
-                   { field: "CustomerID", headerText: "Customer ID", width: 130 },
-
-                   { field: "Freight", headerText: "Freight" }
-
-                ]});});
+	pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
 
 
 
+	columns: [
 
+	   { field: "OrderID", headerText: "Order ID" },
+
+	   { field: "CustomerID", headerText: "Customer ID", width: 130 },
+
+	   { field: "Freight", headerText: "Freight" }
+
+	]});});
 
 {% endhighlight %}
-
-
 
 N> The filter query is a combination of value and symbols (“<, >, =, etc). For example, you can provide “<10255” in Order ID column. The numeric columns can be filtered by using the symbols ‘<’, ‘>’, ‘=’, ‘<=’, ‘>=’, ‘!’ and the string columns can be filtered by using the symbols “%” (for startswith and endswith) and “*” (contains). Also , you can use “&&” and OR operator to provide multiple conditions in single column.
 
 Run this code and you can see the following output.
 
-![3](Getting-Started_images/Getting-Started_img5.png)
-
-
+![](Getting-Started_images/Getting-Started_img5.png)
 
 In the above output, it is clear that order id filter is selected and the order id filter column is filled with the value 10260. 
 
-![4](Getting-Started_images/Getting-Started_img6.png)
-
-
+![](Getting-Started_images/Getting-Started_img6.png)
 
 ## Sortable Grid columns
 
@@ -326,46 +278,39 @@ Now, enable Sorting feature in Mobile Grid. Mobile Grid columns are sortable. Yo
 
 {% highlight js %}
 
-        $(function () {
+$(function () {
 
-            var data = ej.DataManager(window.gridData)
-                         .executeLocal(ej.Query().take(50));
+var data = ej.DataManager(window.gridData)
+		 .executeLocal(ej.Query().take(50));
 
-            $("#mobgrid").ejmGrid({
+$("#mobgrid").ejmGrid({
 
-                dataSource: data,
+dataSource: data,
 
-                allowFiltering: true, //Enables Filtering for Mobile grid
+allowFiltering: true, //Enables Filtering for Mobile grid
 
-                allowScrolling: true,
+allowScrolling: true,
 
-                scrollSettings: { height: 260 },
+scrollSettings: { height: 260 },
 
-                allowPaging: true, //Enables Paging for mobile grid
+allowPaging: true, //Enables Paging for mobile grid
 
-                pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
+pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
 
-                allowSorting: true, //Enables Sorting for Mobile grid                
+allowSorting: true, //Enables Sorting for Mobile grid                
 
-                columns: [
+columns: [
 
-                     { field: "OrderID", headerText: "Order ID" },
+	 { field: "OrderID", headerText: "Order ID" },
 
-                     { field: "CustomerID", headerText: "Customer ID", width: 130 },
+	 { field: "CustomerID", headerText: "Customer ID", width: 130 },
 
-                     { field: "Freight", headerText: "Freight" }
+	 { field: "Freight", headerText: "Freight" }
 
-                ]}); });
-
-
-
-
+]}); });
 
 {% endhighlight %}
 
 Run this code and you can see the following output.
 
-![5](Getting-Started_images/Getting-Started_img7.png)
-
-
-
+![](Getting-Started_images/Getting-Started_img7.png)

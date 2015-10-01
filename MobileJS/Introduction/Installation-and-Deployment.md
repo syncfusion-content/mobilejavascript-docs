@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installation--Deployment
+title: Installation  Deployment | Introduction | Mobilejs | Syncfusion
 description: installation & deployment
 platform: Mobilejs
 control: Introduction
@@ -25,11 +25,7 @@ For example, whenyou have installed the Essential Studio package within C:\Progr
 
 C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\
 
-
-
 {% endhighlight %}
-
-
 
 You can find the JavaScript mobile Samples from the Samples folder present within the above specified location that includes separate folders for both the web and mobile samples separately.
 
@@ -55,23 +51,18 @@ C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\JavaScript\
 The assets folder comprises of all the minified versions of the external and common Scripts, Stylesheets and TypeScript files under their corresponding folders. It includes 4 sub-folders,
 
 * CSS
+
 * External
+
 * Scripts
+
 * TypeScript
-
-
 
 * The stylesheets required for supporting the theming and styling of the Syncfusion components (both mobile and web) are available in a minified format within the css folder. The css folder is again sub-categorized into mobile and web where all the mobile related css files are present within the mobile folder and all those related to web components are availed within the web folder. 
 
-
-
 * The external folder contains the external dependency files such as jquery, jquery.easing, jsrender, Culture files and other third-party script files.
 
-
-
 * The scripts folder includes all the Syncfusion components UI scripts in the minified format for both web and mobile components. 
-
-
 
 * The TypeScript folder includes the default type-definition file (ej.widgets.all.d.ts) for the purpose of supporting classes, modules, strong-type checking during compile time itself and also provides IntelliSense support within the JavaScript environment.
 
@@ -111,35 +102,18 @@ The steps to download and configure the Syncfusion Nuget Packages in Visual Stud
 
 * Download the Syncfusion Nuget Packages for JavaScript from [here](http://nuget.syncfusion.com/login) and save it in your system. Unzip the downloaded folder and copy the SyncfusionJavaScript.13.1.0.21.nupkg package in it. Create a new folder Nuget Packages in any of the particular location in your system and place the copied file into it.
 
-
-
 * In Visual Studio, navigate to Tools -> Library Package Manager -> Package Manager Settings, the Options pop-up appears on the screen as follows.
+  
+  ![](Installation--Deployment_images/Installation--Deployment_img1.png)
 
+* Select Package Manager -> Package Sources in the above pop-up and click on the 
+  
+  ![](Installation--Deployment_images/Installation--Deployment_img2.png) button to navigate to the location where the above collection of nuget packages are located within the Nuget Packages folder in your system.
 
+  ![](Installation--Deployment_images/Installation--Deployment_img3.png)
 
-![](Installation--Deployment_images/Installation--Deployment_img1.png)
-
-
-
-* Select Package Manager -> Package Sources in the above pop-up and click on the ![](Installation--Deployment_images/Installation--Deployment_img2.png)
-
- button to navigate to the location where the above collection of nuget packages are located within the Nuget Packages folder in your system.
-
-
-
-![](Installation--Deployment_images/Installation--Deployment_img3.png)
-
-
-
-N> The Source textbox in the above image denotes the location of the nuget packages in your machine and the Name section, allows you to provide a unique name that you refer in the package installation section later. 
-
-
+  N> The Source textbox in the above image denotes the location of the nuget packages in your machine and the Name section, allows you to provide a unique name that you refer in the package installation section later. 
 
 * Now click the Add button and the package name is listed in the Available package sources list as displayed in the following screenshot and then Click OK.
 
-
-
 ![](Installation--Deployment_images/Installation--Deployment_img4.png)
-
-
-

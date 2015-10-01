@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS7-and-Windows-Specific-Customization
+title: iOS7 and Windows Specific Customization| SplitPane | Mobilejs | Syncfusion
 description: ios7 and windows specific customization
 platform: Mobilejs
 control: SplitPane (Mobile)
@@ -19,43 +19,37 @@ You can customize the left pane header by using “data-ej-leftheadersettings”
 
 {% highlight html %}
 
-
-
 <div id="splitpane" data-role="ejmsplitpane" data-ej-leftheadersettings-title="Sample Header">
 
-        <div data-ej-layout="pane">
+	<div data-ej-layout="pane">
 
-            <!--Left pane content-->
+		<!--Left pane content-->
 
-            <div id="listview" data-role="ejmlistview" data-ej-touchend="loadContent" data-ej-showheader=false>
+		<div id="listview" data-role="ejmlistview" data-ej-touchend="loadContent" data-ej-showheader=false>
 
-                <ul>
+			<ul>
 
-                    <li data-ej-text="Item1"></li>
+				<li data-ej-text="Item1"></li>
 
-                    <li data-ej-text="Item2"></li>
+				<li data-ej-text="Item2"></li>
 
-                    <li data-ej-text="Item3"></li>
+				<li data-ej-text="Item3"></li>
 
-                    <li data-ej-text="Item4"></li>
+				<li data-ej-text="Item4"></li>
 
-                    <li data-ej-text="Item5"></li>
+				<li data-ej-text="Item5"></li>
 
-                    <li data-ej-text="Item6"></li>         
+				<li data-ej-text="Item6"></li>         
 
-                </ul>
+			</ul>
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-     </div>
-
-
+</div>
 
 {% endhighlight %}
-
-
 
 ## Script Section
 
@@ -63,15 +57,11 @@ While selecting an item from the left pane, the corresponding content in right p
 
 {% highlight js %}
 
-    function loadContent() {
+function loadContent() {
 
-        $("#splitpane").ejmSplitPane("loadContent", "page.html");
+	$("#splitpane").ejmSplitPane("loadContent", "page.html");
 
 }
-
-
-
-
 
 {% endhighlight %}
 
@@ -87,10 +77,7 @@ Page content display
 
 </div>
 
-
-
 {% endhighlight %}
-
 
 The following screenshot illustrates the output for iOS7 and Windows.
 
@@ -98,17 +85,11 @@ The following screenshot illustrates the output for iOS7 and Windows.
 
 ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img1.png)
 
-
-
 ### Windows
 
 ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img2.png)
 
-
-
 Likewise, you can customize all other properties of header. For more reference, check the complete documentation of header. 
-
-
 
 ## RightHeader settings
 
@@ -120,41 +101,35 @@ You can customize the header related features by using “data-ej-rightheaderset
 
 <div id="splitpane" data-role="ejmsplitpane"  data-ej-rightheadersettings-title="Page Header">
 
-        <div data-ej-layout="pane">
+	<div data-ej-layout="pane">
 
-            <!--Left pane content-->
+		<!--Left pane content-->
 
-            <div id="listview" data-role="ejmlistview" data-ej-touchend="loadContent" data-ej-showheader=false>
+		<div id="listview" data-role="ejmlistview" data-ej-touchend="loadContent" data-ej-showheader=false>
 
-                <ul>
+			<ul>
 
-                    <li data-ej-text="Item1"></li>
+				<li data-ej-text="Item1"></li>
 
-                    <li data-ej-text="Item2"></li>
+				<li data-ej-text="Item2"></li>
 
-                    <li data-ej-text="Item3"></li>
+				<li data-ej-text="Item3"></li>
 
-                    <li data-ej-text="Item4"></li>
+				<li data-ej-text="Item4"></li>
 
-                    <li data-ej-text="Item5"></li>
+				<li data-ej-text="Item5"></li>
 
-                    <li data-ej-text="Item6"></li>
+				<li data-ej-text="Item6"></li>
 
-                </ul>
+			</ul>
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-    </div>
-
-
+</div>
 
 {% endhighlight %}
-
-
-
-
 
 Refer to the script section and page content section to load the right pane content of appropriate page created. The following screenshot illustrates the output for iOS7 and Windows.
 
@@ -162,13 +137,8 @@ Refer to the script section and page content section to load the right pane cont
 
 ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img3.png)
 
-
-
 ### Windows
 
-![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML636b64a.PNG](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img4.png)
-
-
+![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img4.png)
 
 Likewise, you can customize all other properties of header. For more reference, check the complete documentation of header.
-

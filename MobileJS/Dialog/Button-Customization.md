@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Button-Customization
+title: Button Customization | Dialog | Mobilejs | Syncfusion
 description: button customization
 platform: Mobilejs
 control: Dialog (Mobile)

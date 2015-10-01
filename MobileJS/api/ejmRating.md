@@ -1,28 +1,19 @@
 ---
 layout: post
-title: ejmRating
+title: ejmRating | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmRating, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html rating control.
+# ejmRating
 
-
-
-
+Custom Design for Html rating control.
 
 $(element).ejmRating<span class="signature">()</span>
 
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="rating" ></div>
@@ -39,8 +30,7 @@ $("#rating").ejmRating();
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 * module:jQuery
@@ -63,7 +53,7 @@ Requires
 
 
 
-### enabled<span class="type-signature type bool">bool</span>
+### enabled`bool`
 {:#members:enabled}
 
 
@@ -72,8 +62,7 @@ Requires
 Specifies whether to enable or disable the control.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -82,8 +71,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -113,7 +101,7 @@ $("#rating").ejmRating ("option", "enabled", true);
 
 
 
-### enablePersistence<span class="type-signature type bool">bool</span>
+### enablePersistence`bool`
 {:#members:enablepersistence}
 
 
@@ -122,8 +110,7 @@ $("#rating").ejmRating ("option", "enabled", true);
 Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -132,8 +119,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -165,7 +151,7 @@ $("#rating").ejmRating ("option", "enablePersistence", false);
 
 
 
-### incrementStep<span class="type-signature type int">int</span>
+### incrementStep`int`
 {:#members:incrementstep}
 
 
@@ -174,8 +160,7 @@ $("#rating").ejmRating ("option", "enablePersistence", false);
 Specifies the step value for incrementation.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -184,8 +169,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -215,7 +199,7 @@ $("#rating").ejmRating ("option", "incrementStep", 1);
 
 
 
-### maxValue<span class="type-signature type int">int</span>
+### maxValue`int`
 {:#members:maxvalue}
 
 
@@ -224,8 +208,7 @@ $("#rating").ejmRating ("option", "incrementStep", 1);
 Specifies the maximum value.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -234,8 +217,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -265,7 +247,7 @@ $("#rating").ejmRating ("option", "maxValue", 5);
 
 
 
-### minValue<span class="type-signature type int">int</span>
+### minValue`int`
 {:#members:minvalue}
 
 
@@ -274,8 +256,7 @@ $("#rating").ejmRating ("option", "maxValue", 5);
 Specifies the minimum value.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -284,8 +265,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -315,7 +295,7 @@ $("#rating").ejmRating ("option", "minValue", 0);
 
 
 
-### orientation<span class="type-signature type enum">enum</span>
+### orientation`enum`
 {:#members:orientation}
 
 
@@ -324,8 +304,7 @@ $("#rating").ejmRating ("option", "minValue", 0);
 Specifies whether the orientation is horizontal or vertical. See <a href="global.html#Orientation">Orientation</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -334,8 +313,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -367,7 +345,7 @@ $("#rating").ejmRating ("option", "orientation", ej.mobile.Rating.Orientation.Ho
 
 
 
-### precision<span class="type-signature type enum">enum</span>
+### precision`enum`
 {:#members:precision}
 
 
@@ -376,8 +354,7 @@ $("#rating").ejmRating ("option", "orientation", ej.mobile.Rating.Orientation.Ho
 Specifies the precision value. See <a href="global.html#Precision">Precision</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -386,8 +363,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -419,7 +395,7 @@ $("#rating").ejmRating ("option", "precision", ej.mobile.Rating.Precision.Full);
 
 
 
-### readOnly<span class="type-signature type bool">bool</span>
+### readOnly`bool`
 {:#members:readonly}
 
 
@@ -428,8 +404,7 @@ $("#rating").ejmRating ("option", "precision", ej.mobile.Rating.Precision.Full);
 Specifies whether the control is read only.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -438,8 +413,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -469,7 +443,7 @@ $("#rating").ejmRating ("option", "readOnly", false);
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -478,8 +452,7 @@ $("#rating").ejmRating ("option", "readOnly", false);
 Specifies the rendering mode of the control. See <a href="global.html#RenderMode">RenderMode</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -488,8 +461,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -521,7 +493,7 @@ $("#rating").ejmRating ("option", "renderMode", ej.mobile.RenderMode.Auto);
 
 
 
-### shape<span class="type-signature type enum">enum</span>
+### shape`enum`
 {:#members:shape}
 
 
@@ -530,8 +502,7 @@ $("#rating").ejmRating ("option", "renderMode", ej.mobile.RenderMode.Auto);
 Specifies the shape. See <a href="global.html#Shape">Shape</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -540,8 +511,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -573,7 +543,7 @@ $("#rating").ejmRating ("option", "shape", ej.mobile.Rating.Shape.Star);
 
 
 
-### shapeHeight<span class="type-signature type int">int</span>
+### shapeHeight`int`
 {:#members:shapeheight}
 
 
@@ -582,8 +552,7 @@ $("#rating").ejmRating ("option", "shape", ej.mobile.Rating.Shape.Star);
 Specifies the shape height.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -592,8 +561,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -623,7 +591,7 @@ $("#rating").ejmRating ("option", "shapeHeight", 25);
 
 
 
-### shapeWidth<span class="type-signature type int">int</span>
+### shapeWidth`int`
 {:#members:shapewidth}
 
 
@@ -632,8 +600,7 @@ $("#rating").ejmRating ("option", "shapeHeight", 25);
 Specifies the shape width.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -642,8 +609,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -673,7 +639,7 @@ $("#rating").ejmRating ("option", "shapeWidth", 25);
 
 
 
-### spaceBetweenShapes<span class="type-signature type int">int</span>
+### spaceBetweenShapes`int`
 {:#members:spacebetweenshapes}
 
 
@@ -682,8 +648,7 @@ $("#rating").ejmRating ("option", "shapeWidth", 25);
 Specifies the space between shapes.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -692,8 +657,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -723,7 +687,7 @@ $("#rating").ejmRating ("option", "spaceBetweenShapes", 15);
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -732,8 +696,7 @@ $("#rating").ejmRating ("option", "spaceBetweenShapes", 15);
 Specifies the theme. See <a href="global.html#Theme">Theme</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -742,8 +705,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -775,7 +737,7 @@ $("#rating").ejmRating ("option", "theme", ej.mobile.Theme.Auto);
 
 
 
-### value<span class="type-signature type int">int</span>
+### value`int`
 {:#members:value}
 
 
@@ -784,8 +746,7 @@ $("#rating").ejmRating ("option", "theme", ej.mobile.Theme.Auto);
 Specifies the current value.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -794,8 +755,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -829,7 +789,7 @@ $("#rating").ejmRating ("option", "value", 1);
 
 
 
-### disable<span class="signature">()</span>
+### disable`()`
 {:#methods:disable}
 
 
@@ -839,8 +799,7 @@ To disable the rating.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -867,7 +826,7 @@ $("#rating").ejmRating("disable");
 
 
 
-### enable<span class="signature">()</span>
+### enable`()`
 {:#methods:enable}
 
 
@@ -877,8 +836,7 @@ To enable the rating.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -905,7 +863,7 @@ $("#rating").ejmRating("enable");
 
 
 
-### getValue<span class="signature">()</span>
+### getValue`()`
 {:#methods:getvalue}
 
 
@@ -915,8 +873,7 @@ To get the current value.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -940,7 +897,7 @@ $("#rating").ejmRating("getValue");
 
 
 
-### hide<span class="signature">()</span>
+### hide`()`
 {:#methods:hide}
 
 
@@ -950,8 +907,7 @@ To hide the rating.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -978,7 +934,7 @@ $("#rating").ejmRating("hide");
 
 
 
-### reset<span class="signature">()</span>
+### reset`()`
 {:#methods:reset}
 
 
@@ -988,8 +944,7 @@ To reset the value.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1013,7 +968,7 @@ $("#rating").ejmRating("reset");
 
 
 
-### setValue<span class="signature">()</span>
+### setValue`()`
 {:#methods:setvalue}
 
 
@@ -1023,8 +978,7 @@ To set the value.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1048,7 +1002,7 @@ $("#rating").ejmRating("setValue",3);
 
 
 
-### show<span class="signature">()</span>
+### show`()`
 {:#methods:show}
 
 
@@ -1058,8 +1012,7 @@ To show the rating.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1148,8 +1101,7 @@ Event triggers when the value changed.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1232,8 +1184,7 @@ Event triggers when touch happens on the control.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1316,8 +1267,7 @@ Event triggers when touch move happens on the control.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

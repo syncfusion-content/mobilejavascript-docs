@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Checked-Status
+title: Checked Status | Checkbox | Mobilejs | Syncfusion
 description: checked status
 platform: Mobilejs
 control: Checkbox (Mobile)
@@ -17,73 +17,68 @@ In the HTML page, add the following input elements to configure Checkbox widget.
 
 {% highlight html %}
 
-    <table id="main">
+<table id="main">
 
-        <tr>
+	<tr>
 
-            <td>
+		<td>
 
-                <input data-role="ejmcheckbox" type="checkbox" id="Checkbox1" data-ej-text="Google" data-ej-checked="true" />
+		  <input data-role="ejmcheckbox" type="checkbox" id="Checkbox1" data-ej-text="Google" data-ej-checked="true" />
 
-            </td>
+		</td>
 
-        </tr>
+	</tr>
 
-        <tr>
+	<tr>
 
-            <td>
+		<td>
 
-                <input data-role="ejmcheckbox" type="checkbox" id="Checkbox2" data-ej-text="Yahoo" data-ej-checked="true" />
+		  <input data-role="ejmcheckbox" type="checkbox" id="Checkbox2" data-ej-text="Yahoo" data-ej-checked="true" />
 
-            </td>
+		</td>
 
-        <tr />
+	<tr />
 
-        <tr>
+	<tr>
 
-            <td>
+		<td>
 
-                <input data-role="ejmcheckbox" type="checkbox" id="Checkbox3" data-ej-text="Bing" data-ej-checked="false" />
+		  <input data-role="ejmcheckbox" type="checkbox" id="Checkbox3" data-ej-text="Bing" data-ej-checked="false" />
 
-            </td>
+		</td>
 
-        <tr />
+	<tr />
 
-        <tr>
+	<tr>
 
-            <td>
+		<td>
 
-                <input data-role="ejmcheckbox" type="checkbox" id="Checkbox4" data-ej-text="Wikipedia" data-ej-checked="true" />
+		  <input data-role="ejmcheckbox" type="checkbox" id="Checkbox4" data-ej-text="Wikipedia" data-ej-checked="true" />
 
-            </td>
+		</td>
 
-        <tr />
+	<tr />
 
-        <tr>
+	<tr>
 
-            <td>
+		<td>
 
-                <input data-role="ejmcheckbox" type="checkbox" id="Checkbox5" data-ej-text="Amazon" />
+		  <input data-role="ejmcheckbox" type="checkbox" id="Checkbox5" data-ej-text="Amazon" />
 
-            </td>
+		</td>
 
-        <tr />
+	<tr />
 
-        <tr>
+	<tr>
 
-            <td>
+		<td>
 
-                <input data-role="ejmcheckbox" type="checkbox" id="Checkbox6" data-ej-text="Twitter" />
+		  <input data-role="ejmcheckbox" type="checkbox" id="Checkbox6" data-ej-text="Twitter" />
 
-            </td>
+		</td>
 
-        <tr />
+	<tr />
 
-    </table>
-
-
+</table>
 
 {% endhighlight %}
-
-
-

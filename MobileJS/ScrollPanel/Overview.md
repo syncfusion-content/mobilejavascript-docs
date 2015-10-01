@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | Scroll Panel | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: Scroll Panel (Mobile)

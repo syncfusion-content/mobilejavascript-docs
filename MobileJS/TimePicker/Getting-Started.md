@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | TimePicker | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: TimePicker (Mobile)
@@ -13,7 +13,7 @@ The Essential Mobile JavaScript TimePicker provides support to display the TimeP
 
 The following screenshot illustrates the functionality of TimePicker.
 
-![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 ## Create the necessary layout
 
@@ -23,103 +23,103 @@ Create an HTML file and add the following code example to it.
 
 {% highlight html %}
 
- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 
-<head>
+	<head>
 
-<title> TimePicker </title>
+		<title> TimePicker </title>
 
-<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)"rel="stylesheet" />
+		<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)"rel="stylesheet" />
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>                
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
 
-<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"> </script>
+		<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"> </script>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-    <div data-role="appview">
+	    <div data-role="appview">
 
-        <!-- header control -->
+	        <!-- header control -->
 
-        <div data-role="ejmheader" id="menuitems" data-ej-theme="light" data-ej-position="normal"
+	        <div data-role="ejmheader" id="menuitems" data-ej-theme="light" data-ej-position="normal"
 
-            data-ej-title="Hotel Reservation">
+	            data-ej-title="Hotel Reservation">
 
-        </div>
+	        </div>
 
-        <div align="center" >
+	        <div align="center" >
 
-            <table>
+	            <table>
 
-            <tr>
+	            <tr>
 
-                <td class="tdclass">Date</td>
+	                <td class="tdclass">Date</td>
 
-                <td class="innerclass">
+	                <td class="innerclass">
 
-                    <span class="innerdp">
+	                    <span class="innerdp">
 
-         <!-- create datepicker to select booking date -->
+	         <!-- create datepicker to select booking date -->
 
-                        <input id="entryDate" data-role="ejmdatepicker" />
+	                        <input id="entryDate" data-role="ejmdatepicker" />
 
-                    </span>
+	                    </span>
 
-                </td>
+	                </td>
 
-             </tr>
+	             </tr>
 
-             <tr>
+	             <tr>
 
-                <td class="tdclass">In Time</td>
+	                <td class="tdclass">In Time</td>
 
-                <td class="innerclass">
+	                <td class="innerclass">
 
-                    <span class="innerdp">
+	                    <span class="innerdp">
 
-        <!-- Add InTime Timepicker element here -->
+	        <!-- Add InTime Timepicker element here -->
 
-                    </span>
+	                    </span>
 
-                </td>
+	                </td>
 
-             </tr>
+	             </tr>
 
-             <tr>
+	             <tr>
 
-                <td class="tdclass">Out Time </td>
+	                <td class="tdclass">Out Time </td>
 
-                <td class="innerclass">
+	                <td class="innerclass">
 
-                    <span class="innerdp">
+	                    <span class="innerdp">
 
-        <!-- Add OutTime Timepicker element here -->
+	        <!-- Add OutTime Timepicker element here -->
 
-                    </span>
+	                    </span>
 
-                </td>
+	                </td>
 
-             </tr>
+	             </tr>
 
-        </table>
+	        </table>
 
-         <!-- button to confirm the reservation -->
+	         <!-- button to confirm the reservation -->
 
-        <input type="button" data-role="ejmbutton" data-ej-text="Book Now" data-ej-rendermode="auto" id="btnbook" data-ej-touchend="displayConfirmation"/>
+	        <input type="button" data-role="ejmbutton" data-ej-text="Book Now" data-ej-rendermode="auto" id="btnbook" data-ej-touchend="displayConfirmation"/>
 
-         </div>
+	         </div>
 
-    </div>
+	    </div>
 
-</body>
+	</body>
 
 </html>
 
@@ -129,37 +129,27 @@ Add the following styles to display the TimePicker’s input element.
 
 {% highlight css %}
 
-        .tdclass {
+.tdclass {
+    width: 100px;
+}
 
-            width: 100px;       
+td {
+    padding: 8px;
+}
 
-                 }
+Table {
+    margin: 10px;
+}
 
-                   td      {
-
-            padding: 8px;       
-
-                 }
-
-
-
-        Table   {
-
-            margin: 10px;
-
-                }
-
-        .innerclass {
-
-            width: 300px;       
-
-                 } 
+.innerclass {
+    width: 300px;
+}
 
 {% endhighlight %}
 
 Execute the above code to render the following output.
 
-![C:/Users/Bharathi/Desktop/timepickerscreensecond.png](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 ## Create TimePicker
 
@@ -167,19 +157,19 @@ To render the TimePicker control set data-role attribute to ejmtimepicker to the
 
 {% highlight html %}
 
-  <!-- InTime Timepicker element -->
+<!-- InTime Timepicker element -->
 
-         <input id="startTime" data-role="ejmtimepicker" />
+<input id="startTime" data-role="ejmtimepicker" />
 
-  <!-- OutTime Timepicker element -->
+<!-- OutTime Timepicker element -->
 
-         <input id="endTime" data-role="ejmtimepicker" />
+<input id="endTime" data-role="ejmtimepicker" />
 
 {% endhighlight %}
 
 Execute the above code example and focus on InTime or OutTime TimePicker element to render the following output.
 
-![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 ## Set the hour format
 
@@ -189,17 +179,17 @@ The TimePicker widget supports both 12 hour and 24 hour time format. The default
 
  <!-- InTime Timepicker element -->
 
-         <input id="startTime" data-ej-hourformat="twentyfour" data-role="ejmtimepicker"/>
+<input id="startTime" data-ej-hourformat="twentyfour" data-role="ejmtimepicker"/>
 
   <!-- OutTime Timepicker element -->
 
-         <input id="endTime" data-ej-hourformat="twentyfour" data-role="ejmtimepicker"/>
+<input id="endTime" data-ej-hourformat="twentyfour" data-role="ejmtimepicker"/>
 
 {% endhighlight %}
 
 Execute the above code example and focus on InTime or OutTime TimePicker element to render the following output.
 
-![C:/Users/Bharathi/Desktop/Untitled.png](Getting-Started_images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img4.png)
 
 Refer to the following code example to display a conformation message on clicking the book button handled by the button touch end event.
 
@@ -207,9 +197,9 @@ Refer to the following code example to display a conformation message on clickin
 
 <div id="alertdlg" data-role="ejmdialog" data-ej-title="Booking Confirmation" data-ej-mode="alert" data-ej-leftbuttoncaption="OK" data-ej-enablemodal=true data-ej-enableautoopen=false data-ej-buttontap="alertClose">
 
-            <div>Hotel reserved for specified time</div>
+    <div>Hotel reserved for specified time</div>
 
-        </div>
+</div>
 		
 {% endhighlight %}
 
@@ -217,20 +207,20 @@ Add the following code example
 
 {% highlight js %}
 
-            function alertClose() {
+function alertClose() {
 
-                $("#alertdlg").ejmDialog("close");    //to close dialog
+	$("#alertdlg").ejmDialog("close");    //to close dialog
 
-            }
+}
 
-            function displayConfirmation(args) {
+function displayConfirmation(args) {
 
-                App.activePage.find("#alertdlg").ejmDialog("open");  //to open dialog
+	App.activePage.find("#alertdlg").ejmDialog("open");  //to open dialog
 
-            }
+}
 
 {% endhighlight %}
 
 Execute the above code and click the Book Now button to render the conformation message as illustrated in the following screenshot.
 
-![C:/Users/Bharathi/Desktop/timepickerscreen2.png](Getting-Started_images/Getting-Started_img5.png)
+![](Getting-Started_images/Getting-Started_img5.png)

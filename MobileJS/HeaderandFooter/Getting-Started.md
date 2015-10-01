@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | Header and Footer | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: Header and Footer (Mobile)
@@ -15,9 +15,7 @@ In this section you will learn how to create Header and Footer in your Mobile ap
 
 The Essential JavaScript Mobile Header widget is placed at the top of the page. It usually contains page title and optional buttons positioned to the left and right for navigation or actions. Header position can be fixed according to the user. The Essential JavaScript mobile Footer widget is same structure as header at the bottom of the page. In the following guidelines, you will learn about features in mobile Header and Footer widget by creating a web page.
 
-![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)
-
-
+![](Getting-Started_images/Getting-Started_img1.png)
 
 ### Create the required layout
 
@@ -26,59 +24,61 @@ Header and Footer controls will be rendered based on the default values for all 
 1. Create an HTML file and paste the following template to it for Photo Gallery App creation.
 
    ~~~ html
-   <!DOCTYPE html>
-   <html>
-   <head>
-   <title>Header and Footer</title>
-   <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
-   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
-   <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
-   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
-   <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
-   </head>
-   <body>
-   <div id="page" data-role="appview">
-   <!-- Adds Header Elements Here -->
-   <div id="content">
-   <div>
-   <!-- Adds web page content Here -->
-   <div class="companydetails"></div>
-   Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning.NET components and controls are designed to meet your evolving’ development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight.At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies.
-   </div>
-   </div>
-   <!-- ScrollPanel -->
-   <div data-role="ejmscrollpanel" data-ej-target="content"></div>
-   <!-- Dialog -->
-   <div id="dialog" data-role="ejmdialog" data-ej-title="Event" data-ej-leftbuttoncaption="Ok" data-ej-buttontap="dlgclose" data-ej-enablemodal="true">
-   <div id="dlgcontent"></div>
-   </div>
-   <!-- Adds Footer Elements Here -->
-   </div>
-   </body></html>
-   ~~~
-   {:.prettyprint}
+   
+	   <!DOCTYPE html>
+	   <html>
+		   <head>
+			   <title>Header and Footer</title>
+			   <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+			   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
+			   <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+			   <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+			   <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+		   </head>
+		   <body>
+			   <div id="page" data-role="appview">
+					<!-- Adds Header Elements Here -->
+					<div id="content">
+						<div>
+							<!-- Adds web page content Here -->
+							<div class="companydetails"></div>
+								Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning.NET components and controls are designed to meet your evolving’ development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight.At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies.
+							</div>
+						</div>
+						<!-- ScrollPanel -->
+						<div data-role="ejmscrollpanel" data-ej-target="content"></div>
+						<!-- Dialog -->
+						<div id="dialog" data-role="ejmdialog" data-ej-title="Event" data-ej-leftbuttoncaption="Ok" data-ej-buttontap="dlgclose" data-ej-enablemodal="true">
+						<div id="dlgcontent"></div>
+					</div>
+					<!-- Adds Footer Elements Here -->
+			   </div>
+		   </body>
+	   </html>
+	   
+   ~~~   
 
 2. Use the following styles to add web page content element.
 
    ~~~ css
-   .companydetails {
-   margin: auto;
-   width: 150px;
-   height: 150px;
-   background: url(http://js.syncfusion.com/UG/Mobile/Content/syncfusion.png) center / 150px 150px;
-   }
-   #content{
-   padding:0 10px;
-   text-align: justify;
-   } 
    
-   ~~~
-   {:.prettyprint}
+	   .companydetails {
+	   margin: auto;
+	   width: 150px;
+	   height: 150px;
+	   background: url(http://js.syncfusion.com/UG/Mobile/Content/syncfusion.png) center / 150px 150px;
+	   }
+	   
+	   #content{
+	   padding:0 10px;
+	   text-align: justify;
+	   } 
    
-   Run this code and you can see the following output. 
+   ~~~   
+   
+Run this code and you can see the following output. 
 
-   ![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img2.png)
-
+![](Getting-Started_images/Getting-Started_img2.png)
 
 ### Create the Header Control
 
@@ -86,16 +86,13 @@ To render the Header control, you have to set “data-role” attribute to “ej
 
 {% highlight html %}
 
-<div id="header"  data-role="ejmheader" data-ej-title="Syncfusion"></div>
-
-
+<div id="header"  data-role="ejmheader" data-ej-title="Syncfusion"> </div>
 
 {% endhighlight %}
 
 Run this code and you can see the following output. 
 
-![C:/Users/ApoorvahR/Desktop/3.png](Getting-Started_images/Getting-Started_img3.png)
-
+![](Getting-Started_images/Getting-Started_img3.png)
 
 ### Add Header buttons
 
@@ -105,16 +102,11 @@ To enable the Header buttons, you need to set “data-ej-showleftbutton” and �
 
 <div id="header"  data-role="ejmheader" data-ej-title="Syncfusion" data-ej-showleftbutton="true" data-ej-leftbuttoncaption="Back" data-ej-showrightbutton="true" data-ej-rightbuttoncaption="Next"></div> 
 
-
-
 {% endhighlight %}
-
-
 
 Run this code and you can see the following output. 
 
-![C:/Users/ApoorvahR/Desktop/4.png](Getting-Started_images/Getting-Started_img4.png)
-
+![](Getting-Started_images/Getting-Started_img4.png)
 
 ### Handle Header buttons events
 
@@ -124,49 +116,33 @@ Refer to the following code example.
 
 {% highlight html %}
 
-
-
 <div id="header" data-role="ejmheader" data-ej-title="Syncfusion" data-ej-showleftbutton="true" data-ej-leftbuttoncaption="Back" data-ej-showrightbutton="true" data-ej-rightbuttoncaption="Next" data-ej-leftbuttontap="buttonclicked" data-ej-rightbuttontap="buttonclicked"></div>
 
-
-
-
-
 {% endhighlight %}
-
-
 
 Add the following script to the code.
 
 {% highlight js %}
 
-
-
 //Adding script for header buttons events
 
-    function buttonclicked(args) {
+function buttonclicked(args) {
 
 $("#dlgcontent").html(args.text + " was selected");
 
-      $("#dialog").ejmDialog("open");
+  $("#dialog").ejmDialog("open");
 
-    }
-
-
-
-     function dlgclose() {
-
-       $("#dialog").ejmDialog("close");
-
-     }
+}
 
 
 
+ function dlgclose() {
 
+   $("#dialog").ejmDialog("close");
+
+ }
 
 {% endhighlight %}
-
-
 
 Run this code and you can see the following output. 
 
@@ -176,11 +152,7 @@ To render the Footer control, you need to set data-role attribute to ejmfooter t
 
 {% highlight html %}
 
-
-
 <div id="footer"  data-role="ejmfooter" data-ej-title="Copyrights 2001-2014"></div>
-
-
 
 {% endhighlight %}
 
@@ -191,15 +163,11 @@ Run this code and you can see the following output.
 <td>
 {{'![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 
-{{ '_Header left button event_' | markdownify }}</td><td>
+Header left button event</td><td>
 
 {{'![](Getting-Started_images/Getting-Started_img6.png)'| markdownify }}
 
-{{ '_Header right button event_' | markdownify }}</td></tr>
+Header right button event</td></tr>
 </table>
 
-![C:/Users/ApoorvahR/Desktop/7.png](Getting-Started_images/Getting-Started_img7.png)
-
-
-
-
+![](Getting-Started_images/Getting-Started_img7.png)

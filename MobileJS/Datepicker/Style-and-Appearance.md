@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Style-and-Appearance
+title: Style and Appearance | DatePicker | Mobilejs | Syncfusion
 description: style and appearance
 platform: Mobilejs
 control: DatePicker (Mobile)

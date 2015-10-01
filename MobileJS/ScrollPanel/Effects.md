@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Effects
+title: Effects | Scroll Panel | Mobilejs | Syncfusion
 description: effects
 platform: Mobilejs
 control: Scroll Panel (Mobile)
@@ -17,21 +17,19 @@ The “data-ej-bouncetime” attribute specifies the reset timing of the content
 
 {% highlight html %}
 
-    <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
+<div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
-    <div id="maincontent" style="padding:10px">
+<div id="maincontent" style="padding:10px">
 
-        <div id="content">
+	<div id="content">
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.<br />
+		Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.<br />
 
-        </div>
+	</div>
 
-    </div>
+</div>
 
-
-
-    <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablebounce="true" data-ej-bouncetime=”200” />
+<div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablebounce="true" data-ej-bouncetime=”200” />
 
 {% endhighlight %}
 
@@ -42,21 +40,19 @@ The “data-ej-enablefade” is a boolean attribute used to enable or disable th
 
 {% highlight html %}
 
-    <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
+<div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
-    <div id="maincontent" style="padding:10px">
+<div id="maincontent" style="padding:10px">
 
-        <div id="content">
+	<div id="content">
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.<br />
+		Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.<br />
 
-        </div>
+	</div>
 
-    </div>
+</div>
 
-
-
-    <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-enablefade="false" />
+<div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-enablefade="false" />
 
 {% endhighlight %}
 
@@ -67,19 +63,19 @@ The “data-ej-enableshrink” is a boolean attribute that lets you to specify w
 
 {% highlight html %}
 
-    <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
+<div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
-    <div id="maincontent" style="padding:10px">
+<div id="maincontent" style="padding:10px">
 
-        <div>
+	<div>
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
+		Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
-        </div>
+	</div>
 
-    </div>
+</div>
 
-    <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enableshrink="true" data-ej-enablenativescrolling="false" />
+<div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enableshrink="true" data-ej-enablenativescrolling="false" />
 
 {% endhighlight %}
 
@@ -89,27 +85,20 @@ The “data-ej-enableshrink” is a boolean attribute that lets you to specify w
 
 The “data-ej-enabletransform” attribute lets you specify whether to use transform method (animation) for scrolling or not. The “data-ej-enabletransition” attribute lets you specify whether to use transition method (animation) for scrolling or not. 
 
-
-
 {% highlight html %}
 
-    <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
+<div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
-    <div id="maincontent" style="padding:10px">
+<div id="maincontent" style="padding:10px">
 
-        <div>
+	<div>
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
+		Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
-        </div>
+	</div>
 
-    </div>
+</div>
 
-
-
-    <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enabletransform="true" data-ej-enabletransition="true" data-ej-enablenativescrolling="false" />
+<div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enabletransform="true" data-ej-enabletransition="true" data-ej-enablenativescrolling="false" />
 
 {% endhighlight %}
-
-
-

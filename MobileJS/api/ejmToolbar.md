@@ -1,28 +1,19 @@
 ---
 layout: post
-title: ejmToolbar
+title: ejmToolbar | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmToolbar, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html toolbar control.
+# ejmToolbar
 
-
-
-
+Custom Design for Html toolbar control.
 
 $(element).ejmToolbar<span class="signature">()</span>
 
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="toolbar" >
@@ -50,8 +41,7 @@ $("#toolbar").ejmToolbar();
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 * module:jQuery
@@ -93,7 +83,7 @@ Section for android rendermode specific functionalities.
 
 
 
-### android.enableSplitView<span class="type-signature type boolean">boolean</span>
+### android.enableSplitView`boolean`
 {:#members:android-enablesplitview}
 
 
@@ -102,8 +92,7 @@ Section for android rendermode specific functionalities.
 Specifies the android mode split View mode is enabled or not.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -112,8 +101,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -155,7 +143,7 @@ $("#toolbar").ejmToolbar("option", "android.enableSplitView", false);
 
 
 
-### android.position<span class="type-signature type boolean">boolean</span>
+### android.position`boolean`
 {:#members:android-position}
 
 
@@ -164,8 +152,7 @@ $("#toolbar").ejmToolbar("option", "android.enableSplitView", false);
 Specifies the android mode position.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -174,8 +161,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -217,7 +203,7 @@ $("#toolbar").ejmToolbar("option", "android.position", false);
 
 
 
-### android.showBackNavigator<span class="type-signature type boolean">boolean</span>
+### android.showBackNavigator`boolean`
 {:#members:android-showbacknavigator}
 
 
@@ -226,8 +212,7 @@ $("#toolbar").ejmToolbar("option", "android.position", false);
 Specifies the android mode Back icon is shown or not.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -236,8 +221,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -279,7 +263,7 @@ $("#toolbar").ejmToolbar("option", "android.showBackNavigator", false);
 
 
 
-### android.showEllipsis<span class="type-signature type bool">bool</span>
+### android.showEllipsis`bool`
 {:#members:android-showellipsis}
 
 
@@ -288,8 +272,7 @@ $("#toolbar").ejmToolbar("option", "android.showBackNavigator", false);
 Specifies the android mode Ellipsis icon is shown or not.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -298,8 +281,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -341,7 +323,7 @@ $("#toolbar").ejmToolbar("option", "android.showEllipsis", false);
 
 
 
-### android.showTitleIcon<span class="type-signature type boolean">boolean</span>
+### android.showTitleIcon`boolean`
 {:#members:android-showtitleicon}
 
 
@@ -350,8 +332,7 @@ $("#toolbar").ejmToolbar("option", "android.showEllipsis", false);
 Specifies the android mode Title Icon will be shown or not.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -360,8 +341,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -403,7 +383,7 @@ $("#toolbar").ejmToolbar("option", "android.showTitleIcon", false);
 
 
 
-### android.title<span class="type-signature type string">string</span>
+### android.title`string`
 {:#members:android-title}
 
 
@@ -412,8 +392,7 @@ $("#toolbar").ejmToolbar("option", "android.showTitleIcon", false);
 Specifies the android mode toolbar's title.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -422,8 +401,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -465,7 +443,7 @@ $("#toolbar").ejmToolbar("option", "android.title", "Title");
 
 
 
-### android.titleIconUrl<span class="type-signature type string">string</span>
+### android.titleIconUrl`string`
 {:#members:android-titleiconurl}
 
 
@@ -474,8 +452,7 @@ $("#toolbar").ejmToolbar("option", "android.title", "Title");
 Specifies the android mode title icon path or location.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -484,8 +461,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -527,7 +503,7 @@ $("#toolbar").ejmToolbar("option", "android.titleIconUrl", "enter title Icon url
 
 
 
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
 
 
@@ -536,8 +512,7 @@ $("#toolbar").ejmToolbar("option", "android.titleIconUrl", "enter title Icon url
 Sets the root class for Toolbar theme. This cssClass API helps to use custom skinning option for Toolbar control. By defining the root class using this API, we need to include this root class in CSS.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -546,8 +521,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -590,7 +564,7 @@ $("#toolbar").ejmToolbar ("option", "cssClass", "customclass");
 
 
 
-### enabled<span class="type-signature type bool">bool</span>
+### enabled`bool`
 {:#members:enabled}
 
 
@@ -599,8 +573,7 @@ $("#toolbar").ejmToolbar ("option", "cssClass", "customclass");
 Specifies whether the control is enabled or not.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -609,8 +582,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -651,7 +623,7 @@ $("#toolbar").ejmToolbar ("option", "enabled", true);
 
 
 
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
 
 
@@ -660,8 +632,7 @@ $("#toolbar").ejmToolbar ("option", "enabled", true);
 Current model value to browser cookies for state maintains. While refresh the Header control page retains the model value apply from browser cookies.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -670,8 +641,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -725,7 +695,7 @@ Section for Flat rendermode specific functionalities.
 
 
 
-### flat.position<span class="type-signature type boolean">boolean</span>
+### flat.position`boolean`
 {:#members:flat-position}
 
 
@@ -734,8 +704,7 @@ Section for Flat rendermode specific functionalities.
 Specifies the flat mode position.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -744,8 +713,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -787,7 +755,7 @@ $("#toolbar").ejmToolbar("option", "flat.position", false);
 
 
 
-### hide<span class="type-signature type bool">bool</span>
+### hide`bool`
 {:#members:hide}
 
 
@@ -796,8 +764,7 @@ $("#toolbar").ejmToolbar("option", "flat.position", false);
 Specifies whether the control is in hidden state or not.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -806,8 +773,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -861,7 +827,7 @@ Section for ios7 rendermode specific functionalities.
 
 
 
-### ios7.position<span class="type-signature type boolean">boolean</span>
+### ios7.position`boolean`
 {:#members:ios7-position}
 
 
@@ -870,8 +836,7 @@ Section for ios7 rendermode specific functionalities.
 Specifies the ios7 mode position.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -880,8 +845,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -923,7 +887,7 @@ $("#toolbar").ejmToolbar("option", "ios7.position", false);
 
 
 
-### position<span class="type-signature type enum">enum</span>
+### position`enum`
 {:#members:position}
 
 
@@ -932,8 +896,7 @@ $("#toolbar").ejmToolbar("option", "ios7.position", false);
 Specifies position whether it is in fixed or relative to the page. See <a href="global.html#Position">Position</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -942,8 +905,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -986,7 +948,7 @@ $("#toolbar").ejmToolbar ("option", "position", ej.mobile.Position.Fixed);
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -995,8 +957,7 @@ $("#toolbar").ejmToolbar ("option", "position", ej.mobile.Position.Fixed);
 Changes the rendering mode. See <a href="global.html#RenderMode">RenderMode</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1005,8 +966,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1049,7 +1009,7 @@ $("#toolbar").ejmToolbar ("option", "renderMode", ej.mobile.RenderMode.Auto);
 
 
 
-### templateId<span class="type-signature type string">string</span>
+### templateId`string`
 {:#members:templateid}
 
 
@@ -1058,8 +1018,7 @@ $("#toolbar").ejmToolbar ("option", "renderMode", ej.mobile.RenderMode.Auto);
 Specifies the Toolbar template Id.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1068,8 +1027,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1112,7 +1070,7 @@ $("#toolbar").ejmToolbar ("option", "templateId", "sample");
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -1121,8 +1079,7 @@ $("#toolbar").ejmToolbar ("option", "templateId", "sample");
 Changes the theme. See <a href="global.html#Theme">Theme</a>
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1131,8 +1088,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1188,7 +1144,7 @@ Section for windows rendermode specific functionalities.
 
 
 
-### windows.position<span class="type-signature type boolean">boolean</span>
+### windows.position`boolean`
 {:#members:windows-position}
 
 
@@ -1197,8 +1153,7 @@ Section for windows rendermode specific functionalities.
 Specifies the Windows mode position.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1207,8 +1162,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1250,7 +1204,7 @@ $("#toolbar").ejmToolbar("option", "windows.position", false);
 
 
 
-### windows.renderDefault<span class="type-signature type bool">bool</span>
+### windows.renderDefault`bool`
 {:#members:windows-renderdefault}
 
 
@@ -1259,8 +1213,7 @@ $("#toolbar").ejmToolbar("option", "windows.position", false);
 Specifies whether to render the toolbar based on the windowsphone's current accent color and theme.
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1269,8 +1222,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1316,7 +1268,7 @@ $("#toolbar").ejmToolbar("option", "windows.renderDefault", false);
 
 
 
-### addItem<span class="signature">()</span>
+### addItem`()`
 {:#methods:additem}
 
 
@@ -1326,8 +1278,7 @@ To add new item to the toolbar
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1348,7 +1299,7 @@ toolbar.addItem("paste");
 
 
 
-### disableItem<span class="signature">()</span>
+### disableItem`()`
 {:#methods:disableitem}
 
 
@@ -1358,8 +1309,7 @@ To disable particular toolbar item by name
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1380,7 +1330,7 @@ toolbar.disableItem("add");
 
 
 
-### enableItem<span class="signature">()</span>
+### enableItem`()`
 {:#methods:enableitem}
 
 
@@ -1390,8 +1340,7 @@ To enable particular toolbar item by name
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1412,7 +1361,7 @@ toolbar.enableItem("add");
 
 
 
-### hideEllipsis<span class="signature">()</span>
+### hideEllipsis`()`
 {:#methods:hideellipsis}
 
 
@@ -1422,8 +1371,7 @@ To hide ellipsis for android mode toolbar
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1444,7 +1392,7 @@ toolbar.hideEllipsis();
 
 
 
-### hideItem<span class="signature">()</span>
+### hideItem`()`
 {:#methods:hideitem}
 
 
@@ -1454,8 +1402,7 @@ To hide particular toolbar item by name
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1476,7 +1423,7 @@ toolbar.hideItem("add");
 
 
 
-### hideMenu<span class="signature">()</span>
+### hideMenu`()`
 {:#methods:hidemenu}
 
 
@@ -1486,8 +1433,7 @@ To hide the overflow menu in android
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1508,7 +1454,7 @@ toolbar.hideMenu();
 
 
 
-### removeItem<span class="signature">()</span>
+### removeItem`()`
 {:#methods:removeitem}
 
 
@@ -1518,8 +1464,7 @@ To remove the toolbar icons by it's index
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1540,7 +1485,7 @@ toolbar.removeItem(1);
 
 
 
-### showEllipsis<span class="signature">()</span>
+### showEllipsis`()`
 {:#methods:showellipsis}
 
 
@@ -1550,8 +1495,7 @@ To show ellipsis for android mode toolbar
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1572,7 +1516,7 @@ toolbar.showEllipsis();
 
 
 
-### showItem<span class="signature">()</span>
+### showItem`()`
 {:#methods:showitem}
 
 
@@ -1582,8 +1526,7 @@ To show particular toolbar item by name
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1604,7 +1547,7 @@ toolbar.showItem("add");
 
 
 
-### showMenu<span class="signature">()</span>
+### showMenu`()`
 {:#methods:showmenu}
 
 
@@ -1614,8 +1557,7 @@ To show the overflow menu in android
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1703,8 +1645,7 @@ Event triggers when the touch end happens.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1804,8 +1745,7 @@ Event triggers when the touch start happens.
 </table>
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1838,6 +1778,3 @@ $("#toolbar").ejmToolbar({
 }
 });       
 </script>{% endhighlight %}
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-dimensions
+title: Customize dimensions | Progress Bar | Mobilejs | Syncfusion
 description: customize dimensions
 platform: Mobilejs
 control: Progress Bar (Mobile)
@@ -19,7 +19,4 @@ By setting an integer value to data-ej-height attribute, you can change the heig
 
 Output of Customize value:
 
-![F:/Progrimg/ios7_phone - Copy (2).png](Customize-dimensions_images/Customize-dimensions_img1.png)
-
-
-
+![](Customize-dimensions_images/Customize-dimensions_img1.png)

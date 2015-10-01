@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-DatePicker-Dependency-files
+title: Mobile DatePicker Dependency files | DatePicker | Mobilejs | Syncfusion
 description: mobile datepicker dependency files
 platform: Mobilejs
 control: DatePicker (Mobile)

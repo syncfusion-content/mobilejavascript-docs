@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paging
+title: Paging | Grid | Mobilejs | Syncfusion
 description: paging
 platform: Mobilejs
 control: Grid (Mobile)
@@ -22,45 +22,33 @@ Refer to the following code example for Grid with default options.
 
 {% highlight html %}
 
-
-
-<div id="MobileGrid"></div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the following script section.
 
 {% highlight js %}
 
-        $(function () {
+$(function () {
 
-            $("#MobileGrid").ejmGrid({
+	$("#MobileGrid").ejmGrid({
 
-                // The datasource "window.gridData" is referred from jsondata.min.js
+		// The datasource "window.gridData" is referred from jsondata.min.js
 
-                dataSource: window.gridData,
+		dataSource: window.gridData,
 
-                allowPaging: true 
+		allowPaging: true 
 
-            });
+	});
 
-        });
-
-
+});
 
 {% endhighlight %}
 
 Run the above code to render the following output.
 
-![C:/Users/ARAVIND/AppData/Local/Microsoft/Windows/INetCache/Content.Word/19.png](Paging_images/Paging_img1.png)
-
-
+![](Paging_images/Paging_img1.png)
 
 ## Pager Types
 
@@ -73,61 +61,46 @@ In this section, you can learn how the pager types differ in Mobile Grid control
 
 {% highlight html %}
 
-
-<div id="MobileGrid"></div>
-
-
-
-
+<div id="MobileGrid"> </div>
 
 {% endhighlight %}
-
-
 
 Refer to the lfollowing script section.
 
 {% highlight js %}
 
+$(function () { // Document is ready.
 
+	$("#MobileGrid").ejmGrid({
 
-        $(function () { // Document is ready.
+		// The datasource "window.gridData" is referred from jsondata.min.js
 
-            $("#MobileGrid").ejmGrid({
+		dataSource: window.gridData,
 
-                // The datasource "window.gridData" is referred from jsondata.min.js
+		allowPaging: true,
 
-                dataSource: window.gridData,
+		pageSettings: { type: "scrollable" },
 
-                allowPaging: true,
+		columns:
 
-                pageSettings: { type: "scrollable" },
+	[
 
-                columns:
+		{ field: "OrderID", headerText: "Order ID" },
 
-            [
+		{ field: "CustomerID", headerText: "Customer ID" },
 
-                { field: "OrderID", headerText: "Order ID" },
+		{ field: "EmployeeID", headerText: "Employee ID" },
 
-                { field: "CustomerID", headerText: "Customer ID" },
+		{ field: "Freight", headerText: "Freight" }
 
-                { field: "EmployeeID", headerText: "Employee ID" },
+	]
 
-                { field: "Freight", headerText: "Freight" }
+	});
 
-            ]
-
-            });
-
-        });
-
-
-
+});
 
 {% endhighlight %}
 
 Run the above code to render the following output.
 
-![20](Paging_images/Paging_img2.png)
-
-
-
+![](Paging_images/Paging_img2.png)

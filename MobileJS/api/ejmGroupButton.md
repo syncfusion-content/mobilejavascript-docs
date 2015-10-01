@@ -1,38 +1,19 @@
 ---
 layout: post
-title: ejmGroupButton
+title: ejmGroupButton | API Reference | Mobile JS | Syncfusion
+description: 
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmGroupButton, API, Essential Studio JS Autocomplete (Mobile)
 ---
 
-# Custom Design for Html GroupButton control.
+# ejmGroupButton
 
-
-
-
-
-
-
-
-
+Custom Design for Html GroupButton control.
 
 $(element).ejmGroupButton<span class="signature">()</span>
 
-
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Render groupbutton control by default with button behavior in unobtrusive way
@@ -41,7 +22,6 @@ Example
 <button>ipod</button>
 </div>
 {% endhighlight %}
-
 
 {% highlight html %} 
 //Render groupbutton control by default with button behavior in obtrusive way
@@ -109,84 +89,34 @@ $("#grpbtn").ejmGroupButton();
 $("#grpbtn").ejmGroupButton();
 </script >{% endhighlight %}
 
-
-
-
-
-
-
-Requires
-{:.require}
-
-
-
+#### Requires
 
 * module:jQuery
 
-
 * module:ej.mobile.application
-
 
 * module:ej.core
 
-
 * module:ej.unobtrusive
-
 
 * module:ej.mobile.core
 
-
 * module:ej.data
-
 
 * module:ej.touch
 
-
-
-
 ## Members
 
-
-
-
-
-
-
-
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`>string`
 {:#members:cssclass}
-
-
-
-
-
-
-
 
 Sets the root class for GroupButton theme. This cssClass API helps to use custom skinning option for GroupButton control. By defining the root class using this API, we need to include this root class in CSS.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ""
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -226,45 +156,17 @@ $("#grpbtn").ejmGroupButton ({ cssClass: "customclass" });
   $("#grpbtn").ejmGroupButton ("option", "cssClass", "customclass");{% endhighlight %}
 
 
-
-
-
-
-
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
-
-
-
-
-
-
-
 
 Current model value to browser cookies for state maintenance. While refreshing the page, the model value applied from browser cookies retains.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
 
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -277,7 +179,6 @@ Example
 <input type="radio"/>ipod
 </label>
 </div>{% endhighlight %}
-
 
 {% highlight html %} 
 //Set the enablePersistence property in obtrusive way. 
@@ -303,46 +204,17 @@ $("#grpbtn").ejmGroupButton ({ enablePersistence: true });
 // Set the enablePersistence API
   $("#grpbtn").ejmGroupButton ("option", "enablePersistence", true);{% endhighlight %}
 
-
-
-
-
-
-
-### imageclass<span class="type-signature type string">string</span>
+### imageclass`string`
 {:#members:imageclass}
-
-
-
-
-
-
 
 
 Specifies the groupbutton imageclass.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * null
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -356,46 +228,17 @@ Example
 </label>
 </div>                {% endhighlight %}
 
-
-
-
-
-
-
-### imageurl<span class="type-signature type string">string</span>
+### imageurl`string`
 {:#members:imageurl}
-
-
-
-
-
-
 
 
 Specifies the groupbutton imageurl.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * null
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -409,47 +252,17 @@ Example
 </label>
 </div>{% endhighlight %}
 
-
-
-
-
-
-
-### items<span class="type-signature type string">string</span>
+### items`string`
 {:#members:items}
-
-
-
-
-
-
-
 
 Specifies the groupbutton items in angular JS.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
+#### Default Value
 
 
 * null
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Set the items imageurl property in obtrusive way.
@@ -459,46 +272,16 @@ Example
 $("#group-button").ejmGroupButton({ items: [{ imageUrl: "style" }, { imageUrl: "image" }});
 </script>{% endhighlight %}
 
-
-
-
-
-
-
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
-
-
-
-
-
-
-
 
 Changes the rendering mode of the groupbutton. See <a href="global.html#RenderMode">RenderMode</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * auto
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -531,7 +314,6 @@ $("#grpbtn").ejmGroupButton ({ renderMode: ej.mobile.RenderMode.Auto });
 </script>
 {% endhighlight %}
 
-
 {% highlight html %} 
 // Get or set the rendermode, after initialization:
 // Get the renderMode API value.                
@@ -539,47 +321,18 @@ $("#grpbtn").ejmGroupButton ({ renderMode: ej.mobile.RenderMode.Auto });
 // Set the renderMode API
 $("#grpbtn").ejmGroupButton ("option", "renderMode", ej.mobile.RenderMode.Auto);            {% endhighlight %}
 
-
-
-
-
-
-
-### selectedItemIndex<span class="type-signature type number">number</span>
+### selectedItemIndex`number`
 {:#members:selecteditemindex}
-
-
-
-
-
-
 
 
 Specifies the item which one is to be selected initially.
 
 
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * -1
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the selectedItemIndex property in unobtrusive way.
@@ -609,46 +362,17 @@ $("#grpbtn").ejmGroupButton ({ selectedItemIndex: 1 });
 </script>
 {% endhighlight %}
 
-
-
-
-
-
-
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
-
-
-
-
-
-
-
 
 Changes the theme of the groupbutton. See <a href="global.html#Theme">Theme</a>
 
 
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * auto
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -689,68 +413,25 @@ $("#grpbtn").ejmGroupButton ({ theme: ej.mobile.Theme.Auto });
 // Set the theme API
   $("#grpbtn").ejmGroupButton ("option", "theme", ej.mobile.Theme.Auto);{% endhighlight %}
 
-
-
-
-
-
-
 ### windows
 {:#members:windows}
-
-
-
-
-
-
-
 
 Section for windows rendermode specific functionalities.
 
 
 
-
-
-
-
-
-
-
-
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
-
-
-
-
-
-
-
 
 Specifies whether to render the groupbutton based on the windowsphone's current accent color and device theme.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
+#### Default Value
 
 
 * false
 
 
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -788,38 +469,15 @@ $("#grpbtn").ejmGroupButton("option", "windows.renderDefault");
 // Set the windows mode renderDefault value 
 $("#grpbtn").ejmGroupButton("option", "windows.renderDefault", false); {% endhighlight %}
 
-
-
-
-
 ## Methods
 
-
-
-
-
-
-
-
-### destroy<span class="signature">()</span>
+### destroy`()`
 {:#methods:destroy}
-
-
-
-
-
-
-
 
 destroy the GroupButton widget all events bound using this._on will be unbind automatically and bring the control to pre-init state.
 
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="grpbtn" >
@@ -851,27 +509,11 @@ grpObj.destroy();
 $("#grpbtn").ejmGroupButton("destroy"); 
 </script>{% endhighlight %}
 
-
-
-
-
 ## Events
-
-
-
-
-
-
 
 
 ### touchEnd
 {:#events:touchend}
-
-
-
-
-
-
 
 
 Event triggers when the touchend happens in the groupbutton
@@ -925,12 +567,7 @@ Event triggers when the touchend happens in the groupbutton
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Define the touchend event in unobtrusive way.
@@ -947,7 +584,6 @@ Example
 function touchend(args){ //handle the event 
 }
 </script>{% endhighlight %}
-
 
 {% highlight html %} 
 // Define the touchend event in obtrusive way.
@@ -967,20 +603,8 @@ touchEnd: function (args) { //handle the event
 </script>{% endhighlight %}
 
 
-
-
-
-
-
 ### touchStart
 {:#events:touchstart}
-
-
-
-
-
-
-
 
 Event triggers when the touchstart happens in the groupbutton
 
@@ -1033,12 +657,7 @@ Event triggers when the touchstart happens in the groupbutton
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 // Define the touchStart event in unobtrusive way.
@@ -1074,7 +693,3 @@ touchStart: function (args) { //handle the event
 });     
 </script>
 {% endhighlight %}
-
-
-
-

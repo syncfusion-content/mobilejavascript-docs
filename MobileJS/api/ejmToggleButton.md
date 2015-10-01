@@ -1,37 +1,20 @@
 ---
 layout: post
-title: ejmToggleButton
+title: ejmToggleButton | API Reference | Mobile JS | Syncfusion
+description:
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmToggleButton, API, Essential Studio JS Autocomplete (Mobile) 
 ---
 
-# Custom Design for Html ToggleButton control.
+# ejmToggleButton
 
-
-
-
-
-
-
-
-
+Custom Design for Html ToggleButton control.
 
 $(element).ejmToggleButton<span class="signature">()</span>
 
 
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -52,8 +35,7 @@ $("#togglebutton").ejmToggleButton();
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 
@@ -90,7 +72,7 @@ Requires
 
 
 
-### animate<span class="type-signature type boolean">boolean</span>
+### animate`boolean`
 {:#members:animate}
 
 
@@ -105,8 +87,7 @@ Specifies the transition effect for state change.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -122,8 +103,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -156,7 +136,7 @@ $("#togglebutton").ejmToggleButton ("option", "animate", true);
 
 
 
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
 
 
@@ -171,8 +151,7 @@ Sets the root class for ToggleButton theme. This cssClass API helps to use custo
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -188,8 +167,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -222,7 +200,7 @@ $("#togglebutton").ejmToggleButton ("option", "cssClass", "customclass");
 
 
 
-### enabled<span class="type-signature type boolean">boolean</span>
+### enabled`boolean`
 {:#members:enabled}
 
 
@@ -237,8 +215,7 @@ Specifies whether to enable or disable the control.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -254,8 +231,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -288,7 +264,7 @@ $("#togglebutton").ejmToggleButton ("option", "enabled", true);
 
 
 
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
 
 
@@ -303,8 +279,7 @@ Specifies to maintain the current model value to browser cookies for state maint
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -320,8 +295,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -354,7 +328,7 @@ $("#togglebutton").ejmToggleButton ("option", "enablePersistence", false);
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -369,8 +343,7 @@ Specifies the rendering mode of the control. See <a href="global.html#RenderMode
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -386,8 +359,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -422,7 +394,7 @@ $("#togglebutton").ejmToggleButton ("option", "renderMode", ej.mobile.RenderMode
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -437,8 +409,7 @@ Specifies the theme. See <a href="global.html#Theme">Theme</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -454,8 +425,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -490,7 +460,7 @@ $("#togglebutton").ejmToggleButton ("option", "theme", ej.mobile.Theme.Auto);
 
 
 
-### toggleState<span class="type-signature type boolean">boolean</span>
+### toggleState`boolean`
 {:#members:togglestate}
 
 
@@ -505,8 +475,7 @@ Specifies whether state is on or off.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -522,8 +491,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -578,7 +546,7 @@ Section for windows mode specific functionalities.
 
 
 
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
 
 
@@ -593,8 +561,7 @@ Specifies whether to render control based on the windowsphone's current accent c
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -610,8 +577,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -651,7 +617,7 @@ $("#togglebutton").ejmToggleButton("option", "windows.renderDefault", false);
 
 
 
-### disable<span class="signature">()</span>
+### disable`()`
 {:#methods:disable}
 
 
@@ -667,8 +633,7 @@ To disable the togglebutton.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -697,7 +662,7 @@ $("#togglebutton").ejmToggleButton("disable");
 
 
 
-### enable<span class="signature">()</span>
+### enable`()`
 {:#methods:enable}
 
 
@@ -713,8 +678,7 @@ To enable the togglebutton.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -814,8 +778,7 @@ Event triggers when the state change occurs.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -907,8 +870,7 @@ Event triggers when touch end happens on the control.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1000,8 +962,7 @@ Event triggers when touch start happens on the control.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 

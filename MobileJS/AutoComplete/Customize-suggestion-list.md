@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-suggestion-list
+title: Customize suggestion list | AutoComplete| Mobilejs | Syncfusion
 description: customize suggestion list
 platform: Mobilejs
 control: AutoComplete (Mobile) 
@@ -17,17 +17,11 @@ The data-ej-itemscount attribute specifies the number of items to be displayed i
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-itemscount=2 data-ej-datasource="window.datasrc" data-ej-fields-text="name" />         
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays items count:
 
 ![](Customize-suggestion-list_images/Customize-suggestion-list_img1.png)
-
-
 
 ## FilterType
 
@@ -42,8 +36,6 @@ By default, the value for the attribute is “contains”.
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-filtertype="startswith" data-ej-fields-text="name" />
 
-
-
 {% endhighlight %}
 
 
@@ -55,8 +47,6 @@ The data-ej-enabledistinct attribute is used to hide or show the duplicate items
 {% highlight html %}
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-enabledistinct=true data-ej-datasource="window.datasrc"  data-ej-fields-text="name" />
-
-
 
 {% endhighlight %}
 
@@ -70,11 +60,7 @@ The data-ej-allowscrolling attribute defines whether to allow the scrolling func
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-allowscrolling=false data-ej-datasource="window.datasrc" data-ej-fields-text="name" /> 
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays the output:
 
@@ -90,17 +76,11 @@ The possible values are,
 1. Ascending
 2. Descending
 
-
-
 {% highlight html %}
 
- <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-sortorder="descending" data-ej-allowsorting=true data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
-
-
+<input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-sortorder="descending" data-ej-allowsorting=true data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
 {% endhighlight %}
-
-
 
 The following screenshot displays sorting:
 
@@ -113,20 +93,12 @@ The data-ej-showemptyresulttext attribute is used to show or hide the suggestion
 
 The data-ej-emptyresulttext attribute is used to customize the text that is displayed when no results appear in the suggestion list. By default, the value is “No Suggestions”.
 
-
-
 {% highlight html %}
 
 <input id="autocomplete_sample" data-role="ejmautocomplete" data-ej-showemptyresulttext="true" data-ej-emptyresulttext="No Values available" data-ej-datasource="window.datasrc" data-ej-fields-text="name" /> 
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays empty result
 
 ![](Customize-suggestion-list_images/Customize-suggestion-list_img4.png)
-
-

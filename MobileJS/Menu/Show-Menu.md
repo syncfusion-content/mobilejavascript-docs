@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Show-Menu
+title: Show Menu | Menu | Mobilejs | Syncfusion
 description: show menu 
 platform: Mobilejs
 control: Menu (Mobile)
@@ -13,33 +13,28 @@ The Menu is shown by tap or taphold action on the target element and by setting 
 
 {% highlight html %}
 
-        <div style="text-align: center;">
+<div style="text-align: center;">
 
-            <input id="menutarget" type="button" data-role="ejmbutton" data-ej-text="Menu" />
+	<input id="menutarget" type="button" data-role="ejmbutton" data-ej-text="Menu" />
 
-        </div>
+</div>
 
-        <div id="menu_sample" data-role="ejmmenu" data-ej-target="menutarget" data-ej-showon="tap">
+<div id="menu_sample" data-role="ejmmenu" data-ej-target="menutarget" data-ej-showon="tap">
 
-            <ul>
+	<ul>
 
-                <li data-ej-text="Get info"></li>
+		<li data-ej-text="Get info"></li>
 
-                <li data-ej-text="Show in folder"></li>
+		<li data-ej-text="Show in folder"></li>
 
-                <li data-ej-text="Delete"></li>
+		<li data-ej-text="Delete"></li>
 
-            </ul>
+	</ul>
 
-        </div>
-
-
+</div>
 
 {% endhighlight %}
 
 The following screenshot displays the Show Menu:
 
-![ShowOn](Show-Menu_images/Show-Menu_img1.png)
-
-
-
+![](Show-Menu_images/Show-Menu_img1.png)

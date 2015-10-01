@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Accordion-dependency-files
+title: Mobile Accordion dependency files | SplitPane | Mobilejs | Syncfusion
 description: mobile accordion dependency files
 platform: Mobilejs
 control: Accordion (Mobile)
@@ -11,8 +11,7 @@ documentation: ug
 
 This section deals with the dependency files for SplitPane control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When this file is used, you can skip this section. Otherwise, refer to the following script files to render the SplitPane control.
 
-Script files
-
+_Script files_
 
 <table>
 <tr>
@@ -77,7 +76,4 @@ It is referred to handle button related configuration rendered in header, while 
 ej.mobile.listview.min.js
 </td><td>
 It is referred to handle ListView related configuration, while rendering SplitPane control.</td></tr>
-
 </table>
-
-

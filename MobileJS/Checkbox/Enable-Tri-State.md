@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enable-Tri-State
+title: Enable Tri State | Checkbox | Mobilejs | Syncfusion
 description: enable tri-state
 platform: Mobilejs
 control: Checkbox (Mobile)
@@ -15,74 +15,62 @@ When you enable Tri-state, then the Checkbox includes the indeterminate state. T
 
 In the HTML page, add the following input elements to render the Checkbox with Tri-state options.
 
-
-
 {% highlight html %}
 
-    <div data-role="ejmheader" data-ej-title="CheckBox"></div>
+<div data-role="ejmheader" data-ej-title="CheckBox">
 
-    <div align="center" style="padding-top:100px">
+</div>
 
-        <div>
+<div align="center" style="padding-top:100px">
 
-            <b> Favorite Mobile</b>
+  <div>
 
-        </div>
+    <b> Favorite Mobile</b>
 
-        <br />
+  </div>
 
-        <table border="0" cellpadding="6">
+  <br />
 
-            <tr>
+  <table border="0" cellpadding="6">
 
-                <td width="100px">
+  	<tr>
+		
+		<td width="100px">
 
-                    <input id="apple" name="chkbox" data-role="ejmcheckbox" data-ej-text="Apple" data-ej-checkstate="indeterminate" data-ej-enabletristate="true"/>
+        	<input id="apple" name="chkbox" data-role="ejmcheckbox" data-ej-text="Apple" data-ej-checkstate="indeterminate" data-ej-enabletristate="true"/>
 
-                </td>
+        </td>
 
+        <td width="100px">
 
+            <input id="android" name="chkbox" data-role="ejmcheckbox" data-ej-text="Android" data-ej-checkstate="check" data-ej-enabletristate="true"/>
 
-                <td width="100px">
+        </td>
 
-                    <input id="android" name="chkbox" data-role="ejmcheckbox" data-ej-text="Android" data-ej-checkstate="check" data-ej-enabletristate="true"/>
+    </tr>
 
-                </td>
+    <tr>
 
-            </tr>
+       <td width="100px">
 
-            <tr>
+           <input id="windows" name="chkbox" data-role="ejmcheckbox" data-ej-text="Windows" data-ej-checkstate="indeterminate" data-ej-enabletristate="true" />
 
-                <td width="100px">
+       </td>
 
-                    <input id="windows" name="chkbox" data-role="ejmcheckbox" data-ej-text="Windows" data-ej-checkstate="indeterminate" data-ej-enabletristate="true" />
+       <td width="100px">
 
-                </td>
+           <input id="Bberry" name="chkbox" data-role="ejmcheckbox" data-ej-text="BlackBerry" />
 
+       </td>
 
+    </tr>
 
-                <td width="100px">
+  </table>
 
-                    <input id="Bberry" name="chkbox" data-role="ejmcheckbox" data-ej-text="BlackBerry" />
-
-                </td>
-
-            </tr>
-
-        </table>
-
-    </div>
-
-
-
-
+</div>
 
 {% endhighlight %}
-
-
 
 Execute the above code example to render the following output.
 
 ![](Enable-Tri-State_images/Enable-Tri-State_img1.png)
-
-

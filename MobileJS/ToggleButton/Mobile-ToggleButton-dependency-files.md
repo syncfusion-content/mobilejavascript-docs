@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Mobile-Accordion-dependency-files
+title: Mobile Accordion dependency files | Toggle Button | Mobilejs | Syncfusion
 description: mobile accordion dependency files
 platform: Mobilejs
-control: Accordion (Mobile)
+control: Toggle Button (Mobile)
 documentation: ug
 ---
 
@@ -11,7 +11,7 @@ documentation: ug
 
 This section deals with the dependency files for Toggle Button control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not using, then you can refer the following mentioned script files to render the Toggle Button control.
 
-Script files
+_Script files_
 
 <table>
 <tr>
@@ -46,7 +46,4 @@ It is referred for touch events support.</td></tr>
 <td>
 ej.mobile.togglebutton.min.js</td><td>
 It is referred to handle Toggle Button control and used while rendering Toggle Button control.</td></tr>
-
 </table>
-
-

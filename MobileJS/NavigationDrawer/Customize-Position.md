@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Position
+title: Customize Position | Navigation Drawer | Mobilejs | Syncfusion
 description: customize position
 platform: Mobilejs
 control: Navigation Drawer (Mobile)
@@ -17,29 +17,27 @@ Refer to the following code examples.
 
 <div data-role="ejmnavigationdrawer" id="navpane"  data-ej-position="normal" data-ej-enablelistview="true" data-ej-listviewsettings-touchend="navListClick">
 
+	<ul>
 
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/home.png" data-ej-text="Home"
 
-                <ul>
+			id="navhome"></li>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/home.png" data-ej-text="Home"
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/profile.png" data-ej-text="Profile"
 
-                id="navhome"></li>
+			id="navprofile"></li>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/profile.png" data-ej-text="Profile"
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/photo.png" data-ej-text="Photos"
 
-                id="navprofile"></li>
+			id="navphotos"></li>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/photo.png" data-ej-text="Photos"
+		<li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/locations.png" data-ej-text="Location"
 
-                id="navphotos"></li>
+			id="navlocation"></li>
 
-            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/drawer/locations.png" data-ej-text="Location"
+	</ul>            
 
-                id="navlocation"></li>
-
-        </ul>            
-
-        </div>   
+</div>   
 
 <div id="head" data-role="ejmheader" data-ej-title="NavigationDrawer" data-ej-position="normal"></div>  
 
@@ -49,8 +47,6 @@ Refer to the following code examples.
 
                     The Home screen allows you to choose the specific content type displayed.
 
-
-
             </div>
 
             <div id="Profile" style="display: none">
@@ -59,15 +55,11 @@ Refer to the following code examples.
 
             </div>
 
-
-
             <div id="Photos" style="display: none">
 
                 The Photos page content is displayed.
 
             </div>
-
-
 
             <div id="Location" style="display: none">
 
@@ -79,7 +71,4 @@ Refer to the following code examples.
 
 {% endhighlight %}
 
-
-
 Refer to the script section to update the page content while clicking the item in the drawer.
-

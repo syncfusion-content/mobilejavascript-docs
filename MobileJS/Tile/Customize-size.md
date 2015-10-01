@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-size
+title: Customize size | Tile | Mobilejs | Syncfusion
 description: customize size
 platform: Mobilejs
 control: Tile (Mobile)
@@ -24,11 +24,11 @@ Refer to the following code example.
 
 <div style="margin-top:45px;">
 
-<div id="head" data-role="ejmheader" data-ej-title="Tileview"></div>
+	<div id="head" data-role="ejmheader" data-ej-title="Tileview"></div>
 
-<div id="tile" data-role="ejmtile" data-ej-imageurl="map.png" data-ej-imagepath="themes/sample/tileview" data-ej-text="map" data-ej-tilesize="medium" data-ej-imageposition = "fill" > 
+	<div id="tile" data-role="ejmtile" data-ej-imageurl="map.png" data-ej-imagepath="themes/sample/tileview" data-ej-text="map" data-ej-tilesize="medium" data-ej-imageposition = "fill" > 
 
-</div>
+	</div>
 
 </div>
 

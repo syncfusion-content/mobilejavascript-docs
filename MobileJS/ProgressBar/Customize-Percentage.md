@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Percentage
+title: Customize Percentage | Progress Bar | Mobilejs | Syncfusion
 description: customize percentage
 platform: Mobilejs
 control: Progress Bar (Mobile)
@@ -19,9 +19,4 @@ The data-ej-percentage attribute is used to specify the ProgressBar value in per
 
 Output of Percentage:
 
-![F:/Progrimg/ios7_phone - Copy (4).png](Customize-Percentage_images/Customize-Percentage_img1.png)
-
-
-
-
-
+![](Customize-Percentage_images/Customize-Percentage_img1.png)

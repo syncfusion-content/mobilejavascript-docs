@@ -1,38 +1,19 @@
 ---
 layout: post
-title: ejmListView
+title: ejmListView | API Reference | Mobile JS | Syncfusion
+description: 
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmListView, API, Essential Studio JS Autocomplete (Mobile)
 ---
 
-# Custom Design for Html ListView control.
+# ejmListView
 
-
-
-
-
-
-
-
-
+Custom Design for Html ListView control.
 
 $(element).ejmListView<span class="signature">()</span>
 
-
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set listbox in unobtrusive way.
@@ -79,8 +60,7 @@ $("#lb").ejmListView();
 
 
 
-Requires
-{:.require}
+#### Requires
 
 
 
@@ -138,7 +118,7 @@ Requires
 
 
 
-### adjustFixedPosition<span class="type-signature type boolean">boolean</span>
+### adjustFixedPosition`boolean`
 {:#members:adjustfixedposition}
 
 
@@ -153,8 +133,7 @@ Specifies whether need to adjust the scrolling content height for fixed position
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -170,8 +149,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -230,7 +208,7 @@ $("#lb").ejmListView ("option", "adjustFixedPosition", true);
 
 
 
-### ajaxSettings<span class="type-signature type jsonobject">JSONObject</span>
+### ajaxSettings`JSONObject`
 {:#members:ajaxsettings}
 
 
@@ -246,8 +224,7 @@ Specifies the settings option for ajax request.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -298,7 +275,7 @@ $("#lb").ejmListView ("option", "ajaxSettings", { type: 'GET',cache: false,async
 
 
 
-### allowScrolling<span class="type-signature type boolean">boolean</span>
+### allowScrolling`boolean`
 {:#members:allowscrolling}
 
 
@@ -313,8 +290,7 @@ Specifies whether to allow scrolling behavior for the contents.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -330,8 +306,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -390,7 +365,7 @@ $("#lb").ejmListView ("option", "allowScrolling", true);
 
 
 
-### autoAdjustHeight<span class="type-signature type boolean">boolean</span>
+### autoAdjustHeight`boolean`
 {:#members:autoadjustheight}
 
 
@@ -405,8 +380,7 @@ Specifies whether to set the height of the content automatically.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -422,8 +396,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -482,7 +455,7 @@ $("#lb").ejmListView ("option", "autoAdjustHeight", true);
 
 
 
-### autoAdjustScrollHeight<span class="type-signature type boolean">boolean</span>
+### autoAdjustScrollHeight`boolean`
 {:#members:autoadjustscrollheight}
 
 
@@ -497,8 +470,7 @@ Specifies whether to set the height as scroll height of the content automaticall
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -514,8 +486,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -574,7 +545,7 @@ $("#lb").ejmListView ("option", "autoAdjustScrollHeight", true);
 
 
 
-### checkDOMChanges<span class="type-signature type boolean">boolean</span>
+### checkDOMChanges`boolean`
 {:#members:checkdomchanges}
 
 
@@ -589,8 +560,7 @@ Specifies whether need to refresh scrollpanel rendered in the control when eleme
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -606,8 +576,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -666,7 +635,7 @@ $("#lb").ejmListView ("option", "checkDOMChanges", true);
 
 
 
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string``
 {:#members:cssclass}
 
 
@@ -681,8 +650,7 @@ Sets the root class for ListView theme. This cssClass API helps to use custom sk
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -698,8 +666,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -758,7 +725,7 @@ $("#lb").ejmListView ("option", "cssClass", "customclass");
 
 
 
-### dataSource<span class="type-signature type jsonarray">JSONArray</span>
+### dataSource`JSONArray`
 {:#members:datasource}
 
 
@@ -773,8 +740,7 @@ Specifies the datasource is enabled.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -790,8 +756,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -844,7 +809,7 @@ $("#lb").ejmListView ("option", "dataSource", true);
 
 
 
-### enableAjax<span class="type-signature type boolean">boolean</span>
+### enableAjax`boolean`
 {:#members:enableajax}
 
 
@@ -859,8 +824,7 @@ Specifies whether to load ajax content while selecting item.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -876,8 +840,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -922,7 +885,7 @@ $("#lb").ejmListView ("option", "enableAjax", true);
 
 
 
-### enableCache<span class="type-signature type boolean">boolean</span>
+### enableCache`boolean`
 {:#members:enablecache}
 
 
@@ -937,8 +900,7 @@ Specifies whether to enable caching the content.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -954,8 +916,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1000,7 +961,7 @@ $("#lb").ejmListView ("option", "enableCache", true);
 
 
 
-### enableCheckMark<span class="type-signature type boolean">boolean</span>
+### enableCheckMark`boolean`
 {:#members:enablecheckmark}
 
 
@@ -1015,8 +976,7 @@ Specifies whether to enable check mark for the item.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1032,8 +992,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1092,7 +1051,7 @@ $("#lb").ejmListView ("option", "enableCheckMark", true);
 
 
 
-### enableFiltering<span class="type-signature type boolean">boolean</span>
+### enableFiltering`boolean`
 {:#members:enablefiltering}
 
 
@@ -1107,8 +1066,7 @@ Specifies whether to enable the filtering feature to filter the item.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1124,8 +1082,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1184,7 +1141,7 @@ $("#lb").ejmListView ("option", "enableFiltering", true);
 
 
 
-### enableGroupList<span class="type-signature type boolean">boolean</span>
+### enableGroupList`boolean`
 {:#members:enablegrouplist}
 
 
@@ -1199,8 +1156,7 @@ Specifies whether to group the list item.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1216,8 +1172,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1284,7 +1239,7 @@ $("#lb").ejmListView ("option", "enableGroupList", true);
 
 
 
-### enableNativeScrolling<span class="type-signature type boolean">boolean</span>
+### enableNativeScrolling`boolean`
 {:#members:enablenativescrolling}
 
 
@@ -1299,8 +1254,7 @@ Specifies whether to enable device's native scroll behavior when scrolling is al
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1316,8 +1270,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1376,7 +1329,7 @@ $("#lb").ejmListView ("option", "enableNativeScrolling", true);
 
 
 
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
 
 
@@ -1391,25 +1344,12 @@ Specifies to maintain the current model value to browser cookies for state maint
 
 
 
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
 
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1468,7 +1408,7 @@ $("#lb").ejmListView ("option", "enablePersistence", true);
 
 
 
-### fieldSettings<span class="type-signature type jsonarray">JSONArray</span>
+### fieldSettings`JSONArray`
 {:#members:fieldsettings}
 
 
@@ -1484,8 +1424,7 @@ Specifies the field settings to map the datasource.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1554,7 +1493,7 @@ $("#lb").ejmListView ("option", "fieldSettings", true);
 
 
 
-### headerBackButtonText<span class="type-signature type string">string</span>
+### headerBackButtonText`string`
 {:#members:headerbackbuttontext}
 
 
@@ -1569,8 +1508,7 @@ Specifies the text of the back button in the header.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1586,8 +1524,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1646,7 +1583,7 @@ $("#lb").ejmListView ("option", "headerBackButtonText", "Back");
 
 
 
-### headerTitle<span class="type-signature type string">string</span>
+### headerTitle`string`
 {:#members:headertitle}
 
 
@@ -1661,8 +1598,7 @@ Specifies the title of the header.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1678,8 +1614,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1738,7 +1673,7 @@ $("#lb").ejmListView ("option", "headerTitle", "Title");
 
 
 
-### height<span class="type-signature type number">number</span>
+### height`number`
 {:#members:height}
 
 
@@ -1753,8 +1688,7 @@ Specifies the height of the ListView.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1770,8 +1704,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1823,7 +1756,7 @@ $("#lb").ejmListView ("option", "height", 300);{% endhighlight %}
 
 
 
-### hideHeaderForUnsupportedDevice<span class="type-signature type boolean">boolean</span>
+### hideHeaderForUnsupportedDevice`boolean`
 {:#members:hideheaderforunsupporteddevice}
 
 
@@ -1838,8 +1771,7 @@ Specifies whether to hide the header for unsupported device.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1855,8 +1787,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1915,7 +1846,7 @@ $("#lb").ejmListView ("option", "hideHeaderForUnsupportedDevice", true);
 
 
 
-### ios7.inline<span class="type-signature type boolean">boolean</span>
+### ios7.inline`boolean`
 {:#members:ios7-inline}
 
 
@@ -1930,8 +1861,7 @@ Specifies whether to show the control with inline style in ios7 mode.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -1947,8 +1877,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2007,7 +1936,7 @@ $("#lb").ejmListView ("option", "ios7.inline", true);
 
 
 
-### items<span class="type-signature type jsonarray">JSONarray</span>
+### items`JSONarray`
 {:#members:items}
 
 
@@ -2022,8 +1951,7 @@ Specifies the model values of list as an array of object.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2039,8 +1967,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2096,7 +2023,7 @@ $("#lb").ejmListView ("option", "items", "window.dbitem");
 
 
 
-### persistSelection<span class="type-signature type boolean">boolean</span>
+### persistSelection`boolean`
 {:#members:persistselection}
 
 
@@ -2111,8 +2038,7 @@ Specifies whether to retain the selection of the item.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2128,8 +2054,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2188,7 +2113,7 @@ $("#lb").ejmListView ("option", "persistSelection", true);
 
 
 
-### preventSelection<span class="type-signature type boolean">boolean</span>
+### preventSelection`boolean`
 {:#members:preventselection}
 
 
@@ -2203,8 +2128,7 @@ Specifies whether to prevent the selection of the item.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2220,8 +2144,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2280,7 +2203,7 @@ $("#lb").ejmListView ("option", "preventSelection", true);
 
 
 
-### query<span class="type-signature type ej.query">ej.Query</span>
+### query`ej.Query`
 {:#members:query}
 
 
@@ -2295,8 +2218,7 @@ Specifies the query to execute with the datasource.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2312,8 +2234,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2361,7 +2282,7 @@ $("#lb").ejmListView ("option", "query", true);
 
 
 
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
 
 
@@ -2376,8 +2297,7 @@ Specifies the rendering mode of the control. See <a href="global.html#RenderMode
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2393,8 +2313,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2453,7 +2372,7 @@ $("#lb").ejmListView ("option", "renderMode", "auto");
 
 
 
-### renderTemplate<span class="type-signature type boolean">boolean</span>
+### renderTemplate`boolean`
 {:#members:rendertemplate}
 
 
@@ -2468,8 +2387,7 @@ Specifies whether need to render the control with the template contents.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2485,8 +2403,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2514,7 +2431,7 @@ Example
 
 
 
-### selectedItemIndex<span class="type-signature type number">number</span>
+### selectedItemIndex`number`
 {:#members:selecteditemindex}
 
 
@@ -2529,8 +2446,7 @@ Specifies the selectedItemIndex of the ListView.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2546,8 +2462,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2599,7 +2514,7 @@ $("#lb").ejmListView ("option", "selectedItemIndex", 2);{% endhighlight %}
 
 
 
-### showHeader<span class="type-signature type boolean">boolean</span>
+### showHeader`boolean`
 {:#members:showheader}
 
 
@@ -2614,8 +2529,7 @@ Specifies whether to show the header.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2631,8 +2545,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2691,7 +2604,7 @@ $("#lb").ejmListView ("option", "showHeader", true);
 
 
 
-### showHeaderBackButton<span class="type-signature type boolean">boolean</span>
+### showHeaderBackButton`boolean`
 {:#members:showheaderbackbutton}
 
 
@@ -2706,8 +2619,7 @@ Specifies whether to show the back button in the header.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2723,8 +2635,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2783,7 +2694,7 @@ $("#lb").ejmListView ("option", "showHeaderBackButton", true);
 
 
 
-### showScrollbars<span class="type-signature type boolean">boolean</span>
+### showScrollbars`boolean`
 {:#members:showscrollbars}
 
 
@@ -2798,8 +2709,7 @@ Specifies whether need to show the scroll bars when scrolling is allowed.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2815,8 +2725,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2875,7 +2784,7 @@ $("#lb").ejmListView ("option", "showScrollbars", true);
 
 
 
-### templateId<span class="type-signature type boolean">boolean</span>
+### templateId`boolean`
 {:#members:templateid}
 
 
@@ -2890,8 +2799,7 @@ Specifies ID of the element contains template contents.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2907,8 +2815,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2936,7 +2843,7 @@ Example
 
 
 
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
 
 
@@ -2951,8 +2858,7 @@ Specifies the theme. See <a href="global.html#Theme">Theme</a>
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -2968,8 +2874,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3028,7 +2933,7 @@ $("#lb").ejmListView ("option", "theme", "auto");
 
 
 
-### transition<span class="type-signature type string">string</span>
+### transition`string`
 {:#members:transition}
 
 
@@ -3043,8 +2948,7 @@ Specifies the transition effect while navigation happens.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -3060,8 +2964,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3120,7 +3023,7 @@ $("#lb").ejmListView ("option", "transition", "slide");
 
 
 
-### width<span class="type-signature type number">number</span>
+### width`number`
 {:#members:width}
 
 
@@ -3135,8 +3038,7 @@ Specifies the width of the ListView.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -3152,8 +3054,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3227,7 +3128,7 @@ Section for windows mode specific functionalities.
 
 
 
-### windows.enableCustomText<span class="type-signature type boolean">boolean</span>
+### windows.enableCustomText`boolean`
 {:#members:windows-enablecustomtext}
 
 
@@ -3242,8 +3143,7 @@ By default windows title's text will be in small case. To override this behavior
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -3259,8 +3159,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3319,7 +3218,7 @@ $("#lb").ejmListView ("option", "windows.enableHeaderCustomText", true);
 
 
 
-### windows.preventSkew<span class="type-signature type boolean">boolean</span>
+### windows.preventSkew`boolean`
 {:#members:windows-preventskew}
 
 
@@ -3334,8 +3233,7 @@ Specifies whether to prevent skewing behavior in windows mode.
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -3351,8 +3249,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3411,7 +3308,7 @@ $("#lb").ejmListView ("option", "windows.preventSkew", true);
 
 
 
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
 
 
@@ -3426,8 +3323,7 @@ Specifies whether to render control based on the windowsphone's current accent c
 
 
 
-Default Value:
-{:.param}
+#### Default Value
 
 
 
@@ -3443,8 +3339,7 @@ Default Value:
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3510,7 +3405,7 @@ $("#lb").ejmListView ("option", "windows.renderDefault", true);
 
 
 
-### addItem<span class="signature">()</span>
+### addItem`()`
 {:#methods:additem}
 
 
@@ -3526,8 +3421,7 @@ To add item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3558,7 +3452,7 @@ $("#lb").ejmListView("addItem",$("&amp;ltli data-ej-text='Comic / Cartoon'></li>
 
 
 
-### checkAllItem<span class="signature">()</span>
+### checkAllItem`()`
 {:#methods:checkallitem}
 
 
@@ -3574,8 +3468,7 @@ To check all the items.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3606,7 +3499,7 @@ $("#lb").ejmListView("checkAllItem");
 
 
 
-### checkItem<span class="signature">()</span>
+### checkItem`()`
 {:#methods:checkitem}
 
 
@@ -3622,8 +3515,7 @@ To check item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3654,7 +3546,7 @@ $("#lb").ejmListView("checkItem",2);
 
 
 
-### clear<span class="signature">()</span>
+### clear`()`
 {:#methods:clear}
 
 
@@ -3670,8 +3562,7 @@ To clear all the list item in the control before updating with new datasource.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3706,7 +3597,7 @@ function touchend(){
 
 
 
-### deActive<span class="signature">()</span>
+### deActive`()`
 {:#methods:deactive}
 
 
@@ -3722,8 +3613,7 @@ To make the item in the given index to be default state.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3755,7 +3645,7 @@ $("#lb").ejmListView("deActive",2);
 
 
 
-### disableItem<span class="signature">()</span>
+### disableItem`()`
 {:#methods:disableitem}
 
 
@@ -3771,8 +3661,7 @@ To disable item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3803,7 +3692,7 @@ $("#lb").ejmListView("disableItem",2);
 
 
 
-### enableItem<span class="signature">()</span>
+### enableItem`()`
 {:#methods:enableitem}
 
 
@@ -3819,8 +3708,7 @@ To enable item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3851,7 +3739,7 @@ $("#lb").ejmListView("enableItem",2);
 
 
 
-### getActiveItem<span class="signature">()</span>
+### getActiveItem`()`
 {:#methods:getactiveitem}
 
 
@@ -3867,8 +3755,7 @@ To get the active item.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3899,7 +3786,7 @@ $("#lb").ejmListView("getActiveItem");
 
 
 
-### getActiveItemText<span class="signature">()</span>
+### getActiveItemText`()`
 {:#methods:getactiveitemtext}
 
 
@@ -3915,8 +3802,7 @@ To get the text of the active item.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3947,7 +3833,7 @@ $("#lb").ejmListView("getActiveItemText");
 
 
 
-### getCheckedItems<span class="signature">()</span>
+### getCheckedItems`()`
 {:#methods:getcheckeditems}
 
 
@@ -3963,8 +3849,7 @@ To get all the checked items.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -3995,7 +3880,7 @@ $("#lb").ejmListView("getCheckedItems");
 
 
 
-### getCheckedItemsText<span class="signature">()</span>
+### getCheckedItemsText`()`
 {:#methods:getcheckeditemstext}
 
 
@@ -4011,8 +3896,7 @@ To get the text of all the checked items.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4043,7 +3927,7 @@ $("#lb").ejmListView("getCheckedItemsText");
 
 
 
-### getItemsCount<span class="signature">()</span>
+### getItemsCount`()`
 {:#methods:getitemscount}
 
 
@@ -4059,8 +3943,7 @@ To get the total item count.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4091,7 +3974,7 @@ $("#lb").ejmListView("getItemsCount");
 
 
 
-### getItemText<span class="signature">()</span>
+### getItemText`()`
 {:#methods:getitemtext}
 
 
@@ -4107,8 +3990,7 @@ To get the text of the item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4139,7 +4021,7 @@ $("#lb").ejmListView("getItemText",2);
 
 
 
-### hasChild<span class="signature">()</span>
+### hasChild`()`
 {:#methods:haschild}
 
 
@@ -4155,8 +4037,7 @@ To check whether the item in the given index has child item.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4187,7 +4068,7 @@ $("#lb").ejmListView("hasChild",2);
 
 
 
-### hide<span class="signature">()</span>
+### hide`()`
 {:#methods:hide}
 
 
@@ -4203,8 +4084,7 @@ To hide the list.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4235,7 +4115,7 @@ $("#lb").ejmListView("hide");
 
 
 
-### hideItem<span class="signature">()</span>
+### hideItem`()`
 {:#methods:hideitem}
 
 
@@ -4251,8 +4131,7 @@ To hide item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4283,7 +4162,7 @@ $("#lb").ejmListView("hideItem",2);
 
 
 
-### isChecked<span class="signature">()</span>
+### isChecked`()`
 {:#methods:ischecked}
 
 
@@ -4299,8 +4178,7 @@ To check whether item in the given index is checked.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4331,7 +4209,7 @@ $("#lb").ejmListView("isChecked",2);
 
 
 
-### loadAjaxContent<span class="signature">()</span>
+### loadAjaxContent`()`
 {:#methods:loadajaxcontent}
 
 
@@ -4347,8 +4225,7 @@ To load the ajax content while selecting the item.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4372,7 +4249,7 @@ $("#lb").ejmListView("loadAjaxContent","load1.html");
 
 
 
-### removeCheckMark<span class="signature">()</span>
+### removeCheckMark`()`
 {:#methods:removecheckmark}
 
 
@@ -4388,8 +4265,7 @@ To remove the check mark either for specific item in the given index or for all 
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4421,7 +4297,7 @@ $("#lb").ejmListView("removeCheckMark",2);
 
 
 
-### removeItem<span class="signature">()</span>
+### removeItem`()`
 {:#methods:removeitem}
 
 
@@ -4437,8 +4313,7 @@ To remove item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4469,7 +4344,7 @@ $("#lb").ejmListView("removeItem",3);
 
 
 
-### selectItem<span class="signature">()</span>
+### selectItem`()`
 {:#methods:selectitem}
 
 
@@ -4485,8 +4360,7 @@ To select item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4518,7 +4392,7 @@ $("#lb").ejmListView("selectItem",2);
 
 
 
-### setActive<span class="signature">()</span>
+### setActive`()`
 {:#methods:setactive}
 
 
@@ -4534,8 +4408,7 @@ To make the item in the given index to be active state.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4567,7 +4440,7 @@ $("#lb").ejmListView("setActive",2);
 
 
 
-### show<span class="signature">()</span>
+### show`()`
 {:#methods:show}
 
 
@@ -4583,8 +4456,7 @@ To show the list.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4615,7 +4487,7 @@ $("#lb").ejmListView("show");
 
 
 
-### showItem<span class="signature">()</span>
+### showItem`()`
 {:#methods:showitem}
 
 
@@ -4631,8 +4503,7 @@ To show item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4663,7 +4534,7 @@ $("#lb").ejmListView("showItem",2);
 
 
 
-### unCheckAllItem<span class="signature">()</span>
+### unCheckAllItem`()`
 {:#methods:uncheckallitem}
 
 
@@ -4679,8 +4550,7 @@ To uncheck all the items.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4711,7 +4581,7 @@ $("#lb").ejmListView("unCheckAllItem");
 
 
 
-### unCheckItem<span class="signature">()</span>
+### unCheckItem`()`
 {:#methods:uncheckitem}
 
 
@@ -4727,8 +4597,7 @@ To uncheck item in the given index.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4830,8 +4699,7 @@ Event triggers before the ajax request happens.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -4928,8 +4796,7 @@ Event triggers after the ajax content loaded completely.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -5051,8 +4918,7 @@ Event triggers when the ajax request failed.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -5174,8 +5040,7 @@ Event triggers after the ajax content loaded successfully.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -5277,8 +5142,7 @@ Event triggers when touch end happens on the back button in the header.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -5387,8 +5251,7 @@ Event triggers before the items loaded.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -5499,8 +5362,7 @@ Event triggers after the items loaded.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -5646,8 +5508,7 @@ Event triggers when touch end happens on the item.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -5793,8 +5654,7 @@ Event triggers when touch start happens on the item.
 
 
 
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -5839,7 +5699,3 @@ $("#lb").ejmListView({
         });         
 });
 </script>{% endhighlight %}
-
-
-
-

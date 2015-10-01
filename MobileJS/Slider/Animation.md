@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Animation
+title: Animation | Slider | Mobilejs | Syncfusion
 description: animation
 platform: Mobilejs
 control: Slider (Mobile)
@@ -13,9 +13,6 @@ The data-ej-enableanimation attribute is used to enable or disable the Animation
 
 {% highlight html %}
 
-            <div id="slider_sample" data-role="ejmslider" data-ej-enableanimation=true data-ej-animationspeed=1000 ></div>    
+<div id="slider_sample" data-role="ejmslider" data-ej-enableanimation=true data-ej-animationspeed=1000 ></div>    
 
 {% endhighlight %}
-
-
-

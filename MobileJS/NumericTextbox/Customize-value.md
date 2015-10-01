@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-value
+title: Customize value | Numeric Textbox | Mobilejs | Syncfusion
 description: customize value
 platform: Mobilejs
 control: Numeric Textbox (Mobile)
@@ -19,7 +19,7 @@ The current value of the Numeric Textbox can be specified by using the Value�
 
 The following screenshot displays the output.
 
-![]](Customize-value_images/Customize-value_img1.png)
+![](Customize-value_images/Customize-value_img1.png)
 
 The DecimalPlaces property makes you restrict the decimal places to set the decimal (floating point) numbers.
 

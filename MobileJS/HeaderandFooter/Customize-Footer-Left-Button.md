@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Footer-Left-Button
+title: Customize Footer Left Button | Header and Footer | Mobilejs | Syncfusion
 description: customize footer left button
 platform: Mobilejs
 control: Header and Footer (Mobile)
@@ -17,17 +17,11 @@ In Footer control, you can view the previous page by using the data-ej-showleftb
 
 <div id="footer_sample" data-role="ejmfooter" data-ej-showleftbutton=true ></div>
 
-
-
 {% endhighlight %}
 
 The following screenshot displays the output.
 
 ![](Customize-Footer-Left-Button_images/Customize-Footer-Left-Button_img1.png)
-
-
-
-
 
 ## LeftButtonCaption
 
@@ -35,23 +29,13 @@ To specify the caption (text) for Footer left button, set data-ej-leftbuttoncapt
 
 {% highlight html %}
 
-
-
 <div id="footer_sample" data-role="ejmfooter" data-ej-showleftbutton="true" data-ej-leftbuttoncaption="Home" ></div>    
 
-
-
 {% endhighlight %}
-
-
 
 The following screenshot displays the output.
 
 ![](Customize-Footer-Left-Button_images/Customize-Footer-Left-Button_img2.png)
-
-
-
-
 
 ## LeftButtonNavigationURL
 
@@ -59,13 +43,6 @@ Specifies the navigation URL to go to the page when the Left Button is clicked.
 
 {% highlight html %}
 
-
-
 <div id="footer_sample" data-role="ejmfooter" data-ej-showleftbutton="true" data-ej-leftbuttonnavigationurl="" ></div>      
 
-
-
 {% endhighlight %}
-
-
-

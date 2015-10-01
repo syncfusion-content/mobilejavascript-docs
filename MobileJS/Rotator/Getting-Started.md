@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | Rotator | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: Rotator (Mobile)
@@ -15,7 +15,7 @@ In this section, you can learn how to create Rotator for your mobile app.
 
 The Essential JavaScript Mobile Rotator widget is a container (that holds many items) with that you can navigate next and previous items through swipe gestures. Each item in rotator can hold any HTML content. In the following guideline, you can learn the features in mobile rotator widget by creating a Photo Gallery App.
 
-![C:/Users/labuser/AppData/Local/Temp/SNAGHTML1f8cc07.PNG](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 ## Create the required layout
@@ -30,45 +30,45 @@ Create an HTML file and paste the following template to it for Photo Gallery App
 
 <html>
 
-<head>
+	<head>
 
-    <title>Rotator</title>
+		<title>Rotator</title>
 
-    <link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+		<link href="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
 
-    <script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
+		<script src="[http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/13.1.0.21/js/mobile/ej.mobile.all.min.js)"></script>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-    <div id="page" data-role="appview">
+		<div id="page" data-role="appview">
 
-        <!-- header control -->
+			<!-- header control -->
 
-        <div data-role="ejmheader" id="header" data-ej-position="fixed" data-ej-title="Photo Gallery">
+			<div data-role="ejmheader" id="header" data-ej-position="fixed" data-ej-title="Photo Gallery">
 
-        </div>
+			</div>
 
-        <div id="content">
+			<div id="content">
 
-            <div>
+				<div>
 
-                <!--Add Rotator Element here-->
+					<!--Add Rotator Element here-->
 
-            </div>
+				</div>
 
-        </div>
+			</div>
 
-    </div>
+		</div>
 
-</body>
+	</body>
 
 </html>
 
@@ -80,124 +80,111 @@ To render the Rotator control, set “data-role” attribute to “ejmrotator”
 
 {% highlight html %}
 
- <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent">
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent">
 
- </div>    
+</div>    
 
 <div id="rotatorcontent">
 
-        <div><!—  child 1 -->
+	<div><!—  child 1 -->
 
-            <div class="photo photo1">
+		<div class="photo photo1">
 
-            </div>
+		</div>
 
-        </div><div><!—  child 2 -->
+	</div><div><!—  child 2 -->
 
-            <div class="photo photo2">
+		<div class="photo photo2">
 
-            </div>
+		</div>
 
-        </div><div><!—  child 3 -->
+	</div><div><!—  child 3 -->
 
-            <div class="photo photo3">
+		<div class="photo photo3">
 
-            </div>
+		</div>
 
-        </div><div><!—  child 4 -->
+	</div><div><!—  child 4 -->
 
-            <div class="photo photo4">
+		<div class="photo photo4">
 
-            </div>
+		</div>
 
-        </div><div><!—  child 5 -->
+	</div><div><!—  child 5 -->
 
-            <div class="photo photo5">
+		<div class="photo photo5">
 
-            </div>
+		</div>
 
-        </div>
+	</div>
 
-    </div>	
+</div>	
 
 {% endhighlight %}
-
-
 
 Use the following styles to style the Rotator items.
 
-
-
 {% highlight css %}
 
-        .photo {
+.photo {
 
-            background-position: center center;
+	background-position: center center;
 
-            background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-            height: 100%;
+	height: 100%;
 
-            width: 100%;
+	width: 100%;
 
-            background-size:contain;
+	background-size:contain;
 
-        }
+}
 
+.photo1 {
 
-        .photo1 {
+	background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/tablet.jpg);
 
-            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/tablet.jpg);
+}
 
-        }
+.photo2 {
 
-        .photo2 {
+	background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/rose.jpg);
 
-            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/rose.jpg);
+}
 
-        }
+.photo3 {
 
+	background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/green.jpg);
 
+}
 
-        .photo3 {
+.photo4 {
 
-            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/green.jpg);
+	background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/nature.jpg);
 
-        }
+}
 
+.photo5 {
 
-        .photo4 {
+	background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/snowfall.jpg);
 
-            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/nature.jpg);
+}
 
-        }
+#content{
 
+   height:500px;
 
+   width:300px;
 
-        .photo5 {
+   margin:auto;
 
-            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/snowfall.jpg);
-
-        }
-
-     #content{
-
-       height:500px;
-
-       width:300px;
-
-       margin:auto;
-
-        }   
+}   
 
 {% endhighlight %}
-
-
 
 Run this code to render the following output. For more details, refer "Common Getting started” section.
 
 ![](Getting-Started_images/Getting-Started_img2.png)
-
 
 
 ## Hide the Pager
@@ -213,21 +200,10 @@ You can see in the above image, the pager is to indicate the item that is curren
 
 {% endhighlight %}
 
-
-
 Run this to render the following output. For more details, refer "Common Getting Started" section. 
-
-
 
 ![](Getting-Started_images/Getting-Started_img3.png)
 
-
-
 By swiping left and right, you can view next images from the Photo Gallery.
 
-
-
 ![](Getting-Started_images/Getting-Started_img4.png)
-
-
-

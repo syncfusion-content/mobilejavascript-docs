@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Scrollpanel-dependencies
+title: Mobile Scrollpanel dependencies | Scroll Panel | Mobilejs | Syncfusion
 description: mobile scrollpanel dependencies
 platform: Mobilejs
 control: Scroll Panel (Mobile)
@@ -51,5 +51,3 @@ It is referred for initializing scrollbars.</td></tr>
 ej.mobile.scrollpanel.min.js</td><td>
 It is referred when using mobile ScrollPanel control.</td></tr>
 </table>
-
-

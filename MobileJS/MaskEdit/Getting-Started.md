@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started | MaskEdit | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: MaskEdit (Mobile)
@@ -13,7 +13,7 @@ documentation: ug
 
 Essential JavaScript Mobile MaskEdit control allows you to enter input with standard format. From the following guidelines, you can learn how to create a MaskEdit control for adding a contact.
 
-![C:/Users/Vignesh Kumar/Desktop/screen.png](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 ### Create the layout
 
@@ -141,4 +141,4 @@ Create an HTML file and add the following template to it.
 
 Run the code and get the following output.
 
-![C:/Users/Vignesh Kumar/Desktop/screen.png](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)

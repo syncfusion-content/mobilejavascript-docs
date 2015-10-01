@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | Accordion | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: Accordion (Mobile)

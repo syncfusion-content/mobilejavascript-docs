@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview
+title: Overview | Slider | Mobilejs | Syncfusion
 description: overview
 platform: Mobilejs
 control: Slider (Mobile)
@@ -16,6 +16,3 @@ The Essential JavaScript Mobile Slider widget provides support to select a value
 * Orientation: Slider control is displayed in horizontal or vertical direction.
 * Animation: Supports for handle movement with animation.
 * Range Slider: Selects a range of values.
-
-
-

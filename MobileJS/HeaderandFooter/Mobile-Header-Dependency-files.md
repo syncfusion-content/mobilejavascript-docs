@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Header-Dependency-files
+title: Mobile Header Dependency files | Header and Footer | Mobilejs | Syncfusion
 description: mobile-header-dependency-files
 platform: Mobilejs
 control: Header and Footer (Mobile)

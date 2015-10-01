@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Footer-Right-Button
+title: Customize Footer Right Button | Header and Footer | Mobilejs | Syncfusion
 description: customize footer right button
 platform: Mobilejs
 control: Header and Footer (Mobile)
@@ -15,21 +15,13 @@ In Footer control, you can view the next page by using the ShowRightButton. You 
 
 {% highlight html %}
 
-
-
-    <div id="footer_sample" data-role="ejmfooter" data-ej-showrightbutton=true ></div>  
-
-
+<div id="footer_sample" data-role="ejmfooter" data-ej-showrightbutton=true ></div>  
 
 {% endhighlight %}
 
 The following screenshot displays the output.
 
-{{ '![](Customize-Footer-Right-Button_images/Customize-Footer-Right-Button_img1.png)' | markdownify }}
-
-
-
-
+![](Customize-Footer-Right-Button_images/Customize-Footer-Right-Button_img1.png)
 
 ## RightButtonCaption
 
@@ -37,11 +29,7 @@ To specify the caption (text) for Footer Right Button, set data-ej-rightbuttonca
 
 {% highlight html %}
 
-
-
 <div id="footer_sample" data-role="ejmfooter" data-ej-showrightbutton="true" data-ej-rightbuttoncaption="Next" ></div>
-
-
 
 {% endhighlight %}
 
@@ -49,23 +37,12 @@ The following screenshot displays the output.
 
 ![](Customize-Footer-Right-Button_images/Customize-Footer-Right-Button_img2.png)
 
-
-
-
-
 ## RightButtonNavigationURL
 
 Specifies the URL to which the page should be navigated when the Right Button is clicked.
 
 {% highlight html %}
 
-
-
 <div id="footer_sample" data-role="ejmfooter" data-ej-showrightbutton="true" data-ej-rightbuttonnavigationurl="" ></div>
 
-
-
 {% endhighlight %}
-
-
-

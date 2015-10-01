@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows-specific-customization
+title: Windows specific customization | Tab | Mobilejs | Syncfusion
 description: windows specific customization
 platform: Mobilejs
 control: Tab (Mobile)
@@ -77,14 +77,11 @@ In the Windows phone, by default the Tab title's text is in the lower case irres
 
 </div>
 
-
-
 {% endhighlight %}
 
 The following screenshot displays window specific customization: 
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab6.png](Windows-specific-customization_images/Windows-specific-customization_img1.png)
-
+![](Windows-specific-customization_images/Windows-specific-customization_img1.png)
 
 ## Position
 
@@ -152,13 +149,8 @@ The “data-ej-windows-position” attribute holds fixed and normal values. Norm
 
 </div>
 
-
-
 {% endhighlight %}
 
 The following screenshot displays the Window Specific Customization Position.
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab7.png](Windows-specific-customization_images/Windows-specific-customization_img2.png)
-
-
-
+![](Windows-specific-customization_images/Windows-specific-customization_img2.png)

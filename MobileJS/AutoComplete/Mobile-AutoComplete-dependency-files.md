@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-AutoComplete-dependency-files
+title: Mobile AutoComplete dependency files | AutoComplete| Mobilejs | Syncfusion
 description: mobile autocomplete dependency files
 platform: Mobilejs
 control: AutoComplete (Mobile) 

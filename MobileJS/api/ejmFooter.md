@@ -1,38 +1,19 @@
 ---
 layout: post
-title: ejmFooter
+title: ejmFooter | API Reference | Mobile JS | Syncfusion
+description: 
 documentation: API
 platform: Mobilejs
-metaname: 
-metacontent: 
+keywords: ejmFooter, API, Essential Studio JS Autocomplete (Mobile)
 ---
 
-# Custom Design for Html Footer control.
+# ejmFooter
 
-
-
-
-
-
-
-
-
+Custom Design for Html Footer control.
 
 $(element).ejmFooter<span class="signature">()</span>
 
-
-
-
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="footer" ></div>
@@ -46,116 +27,46 @@ $("#footer").ejmFooter();
 <div id="footer" data-role="ejmfooter" ></div>
 {% endhighlight %}
 
-
-
-
-
-
-
-Requires
-{:.require}
-
-
-
+#### Requires
 
 * module:jQuery
 
-
 * module:ej.mobile.application
-
 
 * module:ej.core
 
-
 * module:ej.unobtrusive
-
 
 * module:ej.mobile.core
 
-
 * module:ej.data
-
 
 * module:ej.touch
 
-
 * module:ej.mobile.button
 
-
-
-
 ## Members
-
-
-
-
-
-
-
 
 ### android
 {:#members:android}
 
-
-
-
-
-
-
-
 Section for android rendermode specific functionalities.
 
-
-
-
-
-
-
-
-
-
-
-### android.leftButtonStyle<span class="type-signature type enum">enum</span>
+### android.leftButtonStyle`enum`
 {:#members:android-leftbuttonstyle}
-
-
-
-
-
-
-
 
 Specifies the style for the left button i.e. back button or normal button button. See AndroidFooterLeftButtonStyle
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Button.Android.Style.Back
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the android leftButtonStyle property in unobtrusive way.
 <div id="footer" data-role="ejmfooter" data-ej-rendermode="android" data-ej-showleftbutton="true" data-ej-android-leftbuttonstyle="back" ></div>
 {% endhighlight %}
-
 
 {% highlight html %} 
 <div id="footer"></div>
@@ -169,7 +80,6 @@ $("#footer").ejmFooter({"android":{"leftButtonStyle": "back"}})
 });
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 //Get or set the android leftButtonStyle, after initialization:
 // Get the android leftButtonStyle API value.           
@@ -177,53 +87,21 @@ $("#footer").ejmFooter({"android":{"leftButtonStyle": "back"}})
 // Set the leftButtonStyle  API
  $("#footer").ejmFooter ("option", "android.leftButtonStyle","normal"); {% endhighlight %}
 
-
-
-
-
-
-
-### android.rightButtonStyle<span class="type-signature type enum">enum</span>
+### android.rightButtonStyle`enum`
 {:#members:android-rightbuttonstyle}
-
-
-
-
-
-
-
 
 Specifies the style for the right button i.e. back button or normal button. See AndroidFooterRightButtonStyle
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Button.Android.Style.Back
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the android rightButtonStyle property in unobtrusive way.
 <div id="footer" data-role="ejmfooter" data-ej-rendermode="android" data-ej-showrightbutton="true" data-ej-android-rightbuttonstyle="normal" ></div>
 {% endhighlight %}
-
 
 {% highlight html %} 
 <div id="footer"></div>
@@ -237,7 +115,6 @@ $("#footer").ejmFooter({"android":{"rightButtonStyle": "normal"}})
 }); 
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 //Get or set the android rightButtonStyle, after initialization:
 // Get the android rightButtonStyle API value.          
@@ -245,53 +122,21 @@ $("#footer").ejmFooter({"android":{"rightButtonStyle": "normal"}})
 // Set the rightButtonStyle  API
  $("#footer").ejmFooter ("option", "android.rightButtonStyle","normal"); {% endhighlight %}
 
-
-
-
-
-
-
-### android.showLeftButton<span class="type-signature type boolean">boolean</span>
+### android.showLeftButton`boolean`
 {:#members:android-showleftbutton}
-
-
-
-
-
-
-
 
 Specifies whether to show the android left button or not.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the android showLeftButton property in unobtrusive way.
 <div id="footer" data-role="ejmfooter" data-ej-rendermode="android" data-ej-android-showleftbutton=true ></div>
 {% endhighlight %}
-
 
 {% highlight html %} 
 <div id="footer"></div>
@@ -302,7 +147,6 @@ $("#footer").ejmFooter({ renderMode: ej.mobile.RenderMode.Android });
 $("#footer").ejmFooter({"android":{ "showRightButton": true }});        
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 //Get or set the showLeftButton, after initialization:
 // Get the showLeftButton API value.            
@@ -310,47 +154,16 @@ $("#footer").ejmFooter({"android":{ "showRightButton": true }});
 // Set the showLeftButton  API
 $("#footer").ejmFooter ("option", "android.showLeftButton", true);                      {% endhighlight %}
 
-
-
-
-
-
-
-### android.showRightButton<span class="type-signature type boolean">boolean</span>
+### android.showRightButton`boolean`
 {:#members:android-showrightbutton}
-
-
-
-
-
-
-
 
 Specifies whether to show the android right button or not.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the android showRightButton property in unobtrusive way.
@@ -375,47 +188,17 @@ $("#footer").ejmFooter({"android":{ "showRightButton": true }});
 // Set the showLeftButton  API
 $("#footer").ejmFooter ("option", "android.showRightButton", true);                     {% endhighlight %}
 
-
-
-
-
-
-
-### cssClass<span class="type-signature type string">string</span>
+### cssClass`string`
 {:#members:cssclass}
-
-
-
-
-
-
-
 
 Sets the root class for Footer theme. This cssClass API helps to use custom skinning option for Footer control. By defining the root class using this API, we need to include this root class in CSS.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
+#### Default Value
 
 
 * ""
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the cssClass property in unobtrusive way.
@@ -440,46 +223,17 @@ $("#footer").ejmFooter({ cssClass: "customclass" });
 $("#footer").ejmFooter ("option", "cssClass", "customclass");                   {% endhighlight %}
 
 
-
-
-
-
-
-### enablePersistence<span class="type-signature type boolean">boolean</span>
+### enablePersistence`boolean`
 {:#members:enablepersistence}
-
-
-
-
-
-
-
 
 Current model value to browser cookies for state maintenance. While refreshing the page, the model value applied from browser cookies retains.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
 
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the enablePersistence property in unobtrusive way.
@@ -503,69 +257,22 @@ $("#footer").ejmFooter({ enablePersistence: true });
 //Set the enablePersistence API
 $("#footer").ejmFooter ("option", "enablePersistence", true);                   {% endhighlight %}
 
-
-
-
-
-
-
 ### flat
 {:#members:flat}
 
-
-
-
-
-
-
-
 Section for flat rendermode specific functionalities.
 
-
-
-
-
-
-
-
-
-
-
-### flat.leftButtonStyle<span class="type-signature type enum">enum</span>
+### flat.leftButtonStyle`enum`
 {:#members:flat-leftbuttonstyle}
-
-
-
-
-
-
-
 
 Specifies the style for the flat left button i.e. back button or normal button or footer button. See FlatFooterLeftButtonStyle
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Button.Flat.Style.Back
 
 
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the flat leftButtonStyle property in unobtrusive way.
@@ -593,47 +300,17 @@ $("#footer").ejmFooter({"flat":{"leftButtonStyle": "back"}})
 // Set the leftButtonStyle  API
  $("#footer").ejmFooter ("option", "flat.leftButtonStyle","normal");                 {% endhighlight %}
 
-
-
-
-
-
-
-### flat.rightButtonStyle<span class="type-signature type enum">enum</span>
+### flat.rightButtonStyle`enum`
 {:#members:flat-rightbuttonstyle}
-
-
-
-
-
-
-
 
 Specifies the flat style for the right button i.e. back button or normal button. See FlatFooterRightButtonStyle
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Button.Flat.Style.Back
 
 
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the flat rightButtonStyle property in unobtrusive way.
@@ -662,46 +339,17 @@ $("#footer").ejmFooter({"flat":{"rightButtonStyle": "normal"}})
  $("#footer").ejmFooter ("option", "flat.rightButtonStyle","normal"); {% endhighlight %}
 
 
-
-
-
-
-
-### flat.showLeftButton<span class="type-signature type boolean">boolean</span>
+### flat.showLeftButton`boolean`
 {:#members:flat-showleftbutton}
-
-
-
-
-
-
-
 
 Specifies whether to show the flat left button or not.
 
 
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the flat showLeftButton property in unobtrusive way.
@@ -726,46 +374,17 @@ $("#footer").ejmFooter({"flat":{ "showLeftButton": true }});
 // Set the showLeftButton  API
 $("#footer").ejmFooter ("option", "flat.showLeftButton", true);                 {% endhighlight %}
 
-
-
-
-
-
-
-### flat.showRightButton<span class="type-signature type boolean">boolean</span>
+### flat.showRightButton`boolean`
 {:#members:flat-showrightbutton}
-
-
-
-
-
-
 
 
 Specifies whether to show the flat right button or not.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -792,46 +411,16 @@ $("#footer").ejmFooter({"flat":{ "showRightButton": true }});
 $("#footer").ejmFooter ("option", "flat.showRightButton", true);                        {% endhighlight %}
 
 
-
-
-
-
-
-### hideForUnSupportedDevice<span class="type-signature type boolean">boolean</span>
+### hideForUnSupportedDevice`boolean`
 {:#members:hideforunsupporteddevice}
-
-
-
-
-
-
-
 
 If this property is set to true, footer will be visible for iOS7 rendermode alone.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the hideForUnSupportedDevice property in unobtrusive way.
@@ -857,67 +446,26 @@ $("#footer").ejmFooter({ hideForUnSupportedDevice: true });
 $("#footer").ejmFooter ("option", "hideForUnSupportedDevice", "footer");            {% endhighlight %}
 
 
-
-
-
-
-
 ### ios7
 {:#members:ios7}
-
-
-
-
-
-
 
 
 Section for ios7 rendermode specific functionalities.
 
 
-
-
-
-
-
-
-
-
-
-### ios7.leftButtonStyle<span class="type-signature type enum">enum</span>
+### ios7.leftButtonStyle`enum`
 {:#members:ios7-leftbuttonstyle}
-
-
-
-
-
-
 
 
 Specifies the style for the ios7 left button i.e. back button or normal button or footer button. See IOS7FooterLeftButtonStyle
 
 
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Button.IOS7.Style.Back
 
 
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -947,45 +495,17 @@ $("#footer").ejmFooter({"ios7":{"leftButtonStyle": "back"}})
  $("#footer").ejmFooter ("option", "ios7.leftButtonStyle","normal"); {% endhighlight %}
 
 
-
-
-
-
-
-### ios7.rightButtonStyle<span class="type-signature type enum">enum</span>
+### ios7.rightButtonStyle`enum`
 {:#members:ios7-rightbuttonstyle}
-
-
-
-
-
-
-
 
 Specifies the ios7 style for the right button i.e. back button or normal button. See IOS7FooterRightButtonStyle
 
 
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Button.IOS7.Style.Back
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1015,45 +535,17 @@ $("#footer").ejmFooter({"ios7":{"rightButtonStyle": "normal"}})
  $("#footer").ejmFooter ("option", "ios7.rightButtonStyle","normal"); {% endhighlight %}
 
 
-
-
-
-
-
-### ios7.showLeftButton<span class="type-signature type boolean">boolean</span>
+### ios7.showLeftButton`boolean`
 {:#members:ios7-showleftbutton}
-
-
-
-
-
-
 
 
 Specifies whether to show the ios7 left button or not.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1080,52 +572,22 @@ $("#footer").ejmFooter({"ios7":{ "showLeftButton": true }});
 $("#footer").ejmFooter ("option", "ios7.showLeftButton", true);                 {% endhighlight %}
 
 
-
-
-
-
-
-### ios7.showRightButton<span class="type-signature type boolean">boolean</span>
+### ios7.showRightButton`boolean`
 {:#members:ios7-showrightbutton}
-
-
-
-
-
-
 
 
 Specifies whether to show the ios7 right button or not.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the ios7 showRightButton property in unobtrusive way.
 <div id="footer" data-role="ejmfooter" data-ej-rendermode="ios7" data-ej-ios7-showrightbutton=true ></div>
 {% endhighlight %}
-
 
 {% highlight html %} 
 <div id="footer"></div>
@@ -1144,47 +606,17 @@ $("#footer").ejmFooter({"flat":{ "showRightButton": true }});
 // Set the showLeftButton  API
 $("#footer").ejmFooter ("option", "ios7.showRightButton", true);                        {% endhighlight %}
 
-
-
-
-
-
-
-### leftButtonCaption<span class="type-signature type string">string</span>
+### leftButtonCaption`string`
 {:#members:leftbuttoncaption}
-
-
-
-
-
-
 
 
 Specifies the caption for the left button. <a href="ejmFooter.html#showLeftButton">ejmFooter#showLeftButton</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * Back
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the leftButtonCaption property in unobtrusive way.
@@ -1210,46 +642,17 @@ $("#footer").ejmFooter({ leftButtonCaption: "Home" });
 $("#footer").ejmFooter ("option", "leftButtonCaption", "Home");                 {% endhighlight %}
 
 
-
-
-
-
-
-### leftButtonNavigationUrl<span class="type-signature type string">string</span>
+### leftButtonNavigationUrl`string`
 {:#members:leftbuttonnavigationurl}
-
-
-
-
-
-
-
 
 Specifies the navigation url, which the page should go while clicking the left button. <a href="ejmFooter.html#showLeftButton">ejmFooter#showLeftButton</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
+#### Default Value
 
 
 * null
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the leftButtonNavigationUrl property in unobtrusive way.
@@ -1266,7 +669,6 @@ $("#footer").ejmFooter({ leftButtonNavigationUrl: "" });
 });
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 //Get or set the leftButtonNavigationUrl, after initialization:
 // Get the leftButtonNavigationUrl API value.           
@@ -1275,46 +677,16 @@ $("#footer").ejmFooter({ leftButtonNavigationUrl: "" });
 $("#footer").ejmFooter ("option", "leftButtonNavigationUrl", "footer");            {% endhighlight %}
 
 
-
-
-
-
-
-### leftButtonStyle<span class="type-signature type enum">enum</span>
+### leftButtonStyle`enum`
 {:#members:leftbuttonstyle}
-
-
-
-
-
-
-
 
 Specifies the style for the left button i.e. back button or normal button or header buttton. See <a href="global.html#FooterLeftButtonStyle">FooterLeftButtonStyle</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Footer.FooterLeftButtonStyle.Back
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the leftButtonStyle property in unobtrusive way.
@@ -1341,46 +713,17 @@ $("#footer").ejmFooter({ leftButtonStyle: ej.mobile.Button.IOS7Style.Back });
 // Set the leftButtonStyle  API
 $("#footer").ejmFooter ("option", "leftButtonStyle","normal"); {% endhighlight %}
 
-
-
-
-
-
-
-### position<span class="type-signature type enum">enum</span>
+### position`enum`
 {:#members:position}
-
-
-
-
-
-
-
 
 Specifies whether to keep the footer in fixed position i.e. bottom or in relative position depends on the other element's position. See <a href="global.html#Position">Position</a>
 
 
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Footer.Position.Fixed
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1408,46 +751,16 @@ $("#footer").ejmFooter({ position: ej.mobile.Footer.Position.Fixed });
 $("#footer").ejmFooter ("option", "position", ej.mobile.Footer.Position.Fixed);                 {% endhighlight %}
 
 
-
-
-
-
-
-### renderMode<span class="type-signature type enum">enum</span>
+### renderMode`enum`
 {:#members:rendermode}
-
-
-
-
-
-
-
 
 Changes the rendering mode of the footer. See <a href="global.html#RenderMode">RenderMode</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * auto
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the renderMode property in unobtrusive way.
@@ -1473,46 +786,16 @@ $("#footer").ejmFooter({ renderMode: ej.mobile.RenderMode.Auto });
 //Set the renderMode API
 $("#footer").ejmFooter ("option", "renderMode", ej.mobile.RenderMode.Auto);                     {% endhighlight %}
 
-
-
-
-
-
-
-### rightButtonCaption<span class="type-signature type string">string</span>
+### rightButtonCaption`string`
 {:#members:rightbuttoncaption}
-
-
-
-
-
-
-
 
 Specifies the caption for the right button. <a href="ejmFooter.html#showRightButton">ejmFooter#showRightButton</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * Right
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1538,47 +821,16 @@ $("#footer").ejmFooter({ rightButtonCaption: "Next" });
 //Set the rightButtonCaption API
 $("#footer").ejmFooter ("option", "rightButtonCaption", "Next");                        {% endhighlight %}
 
-
-
-
-
-
-
-### rightButtonNavigationUrl<span class="type-signature type string">string</span>
+### rightButtonNavigationUrl`string`
 {:#members:rightbuttonnavigationurl}
-
-
-
-
-
-
-
 
 Specifies the navigation url, which the page should go while clicking the right button. <a href="ejmFooter.html#showRightButton">ejmFooter#showRightButton</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * null
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the rightButtonNavigationUrl property in unobtrusive way.
@@ -1603,31 +855,13 @@ $("#footer").ejmFooter({ rightButtonNavigationUrl: "" });
 // Set the rightButtonNavigationUrl  API
 $("#footer").ejmFooter ("option", "rightButtonNavigationUrl", "footer");{% endhighlight %}
 
-
-
-
-
-
-
-### rightButtonStyle<span class="type-signature type enum">enum</span>
+### rightButtonStyle`enum`
 {:#members:rightbuttonstyle}
-
-
-
-
-
-
 
 
 Specifies the style for the right button i.e. back button or normal button. See <a href="global.html#FooterRightButtonStyle">FooterRightButtonStyle</a> ej.mobile.Footer.FooterRightButtonStyle.Footer
 
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the rightButtonStyle property in unobtrusive way.
@@ -1654,47 +888,16 @@ $("#footer").ejmFooter({ rightButtonStyle: ej.mobile.Button.IOS7.Style.Footer })
 // Set the rightButtonStyle  API
 $("#footer").ejmFooter ("option", "rightButtonStyle","normal");                         {% endhighlight %}
 
-
-
-
-
-
-
-### showLeftButton<span class="type-signature type boolean">boolean</span>
+### showLeftButton`boolean`
 {:#members:showleftbutton}
-
-
-
-
-
-
-
 
 Specifies whether to show the left button or not.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the showLeftButton property in unobtrusive way.
@@ -1718,46 +921,19 @@ $("#footer").ejmFooter({ showLeftButton: true });
 //Set the showLeftButton API
 $("#footer").ejmFooter ("option", "showLeftButton", "true");                    {% endhighlight %}
 
-
-
-
-
-
-
-### showRightButton<span class="type-signature type boolean">boolean</span>
+### showRightButton`boolean`
 {:#members:showrightbutton}
-
-
-
-
-
-
 
 
 Specifies whether to show the right button or not.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
+#### Default Value
 
 
 * false
 
 
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1783,46 +959,16 @@ $("#footer").ejmFooter({ showRightButton: true });
 $("#footer").ejmFooter ("option", "showRightButton", true);                     {% endhighlight %}
 
 
-
-
-
-
-
-### showTitle<span class="type-signature type boolean">boolean</span>
+### showTitle`boolean`
 {:#members:showtitle}
-
-
-
-
-
-
-
 
 Specifies whether to show the title or not. if this property is set to false, title will be hide.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * true
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the showTitle property in unobtrusive way.
@@ -1847,92 +993,33 @@ $("#footer").ejmFooter({ showTitle: false });
 $("#footer").ejmFooter ("option", "showTitle", false);                          {% endhighlight %}
 
 
-
-
-
-
-
-### templateId<span class="type-signature type string">string</span>
+### templateId`string`
 {:#members:templateid}
-
-
-
-
-
-
 
 
 Specifies the id of the element which is to be given as template.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * null
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the templateId property in unobtrusive way.
 <div id="footer" data-role="ejmfooter" data-ej-templateid="footertemplate" ></div>
                         {% endhighlight %}
 
-
-
-
-
-
-
-### theme<span class="type-signature type enum">enum</span>
+### theme`enum`
 {:#members:theme}
-
-
-
-
-
-
-
 
 Changes the theme of the footer. See <a href="global.html#Theme">Theme</a>
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * auto
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -1960,46 +1047,18 @@ $("#footer").ejmFooter({ theme: ej.mobile.Theme.Auto  });
 $("#footer").ejmFooter ("option", "theme", ej.mobile.Theme.Auto );                      {% endhighlight %}
 
 
-
-
-
-
-
-### title<span class="type-signature type string">string</span>
+### title`string`
 {:#members:title}
-
-
-
-
-
-
-
 
 Specifies the title's text.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
+#### Default Value
 
 
 * Title
 
 
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the title property in unobtrusive way.
@@ -2023,69 +1082,22 @@ $("#footer").ejmFooter({ title: "Title" });
 //Set the title API
 $("#footer").ejmFooter ("option", "title", "Footer");                   {% endhighlight %}
 
-
-
-
-
-
-
 ### windows
 {:#members:windows}
 
-
-
-
-
-
-
-
 Section for windows rendermode specific functionalities.
 
-
-
-
-
-
-
-
-
-
-
-### windows.leftButtonStyle<span class="type-signature type enum">enum</span>
+### windows.leftButtonStyle`enum`
 {:#members:windows-leftbuttonstyle}
-
-
-
-
-
-
-
 
 Specifies the style for the windows left button i.e. back button or normal button or footer button. See WindowsFooterLeftButtonStyle
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Button.Windows.Style.Back
 
 
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the windows leftButtonStyle property in unobtrusive way.
@@ -2113,93 +1125,34 @@ $("#footer").ejmFooter({"windows":{"leftButtonStyle": "back"}})
 // Set the leftButtonStyle  API
  $("#footer").ejmFooter ("option", "windows.leftButtonStyle","normal"); {% endhighlight %}
 
-
-
-
-
-
-
-### windows.renderDefault<span class="type-signature type boolean">boolean</span>
+### windows.renderDefault`boolean`
 {:#members:windows-renderdefault}
-
-
-
-
-
-
 
 
 Specifies whether to render the footer based on the windowsphone's current theme or not
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the windows mode renderDefault property in unobtrusive way.
 <div id="footer" data-role="ejmfooter" data-ej-rendermode="windows" data-ej-windows-renderdefault=true ></div>
  {% endhighlight %}
 
-
-
-
-
-
-
-### windows.rightButtonStyle<span class="type-signature type enum">enum</span>
+### windows.rightButtonStyle`enum`
 {:#members:windows-rightbuttonstyle}
-
-
-
-
-
-
 
 
 Specifies the windows style for the right button i.e. back button or normal button. See WindowsFooterRightButtonStyle
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * ej.mobile.Button.Windows.Style.Back
 
-
-
-
-
-
-
-
-Example
-{:.example}
+#### Example
 
 
 {% highlight html %} 
@@ -2228,47 +1181,16 @@ $("#footer").ejmFooter({"windows":{"rightButtonStyle": "normal"}})
 // Set the rightButtonStyle  API
  $("#footer").ejmFooter ("option", "windows.rightButtonStyle","normal"); {% endhighlight %}
 
-
-
-
-
-
-
-### windows.showLeftButton<span class="type-signature type boolean">boolean</span>
+### windows.showLeftButton`boolean`
 {:#members:windows-showleftbutton}
-
-
-
-
-
-
-
 
 Specifies whether to show the windows left button or not.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the windows showLeftButton property in unobtrusive way.
@@ -2293,47 +1215,16 @@ $("#footer").ejmFooter({"windows":{ "showLeftButton": true }});
 // Set the showLeftButton  API
 $("#footer").ejmFooter ("option", "windows.showLeftButton", true);                      {% endhighlight %}
 
-
-
-
-
-
-
-### windows.showRightButton<span class="type-signature type boolean">boolean</span>
+### windows.showRightButton`boolean`
 {:#members:windows-showrightbutton}
-
-
-
-
-
-
-
 
 Specifies whether to show the windows right button or not.
 
-
-
-
-Default Value:
-{:.param}
-
-
-
-
-
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 //Set the windows showRightButton property in unobtrusive way.
@@ -2358,38 +1249,14 @@ $("#footer").ejmFooter({"windows":{ "showRightButton": true }});
 // Set the showLeftButton  API
 $("#footer").ejmFooter ("option", "windows.showRightButton", true);                     {% endhighlight %}
 
-
-
-
-
 ## Methods
 
-
-
-
-
-
-
-
-### getTitle<span class="signature">()</span>
+### getTitle`()`
 {:#methods:gettitle}
-
-
-
-
-
-
-
 
 To get the footer's text
 
-
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="footer" data-role="ejmfooter" ></div>
@@ -2412,28 +1279,10 @@ $("#footer").ejmFooter("getTitle");
 });
 </script>{% endhighlight %}
 
-
-
-
-
 ## Events
-
-
-
-
-
-
-
 
 ### leftButtonTap
 {:#events:leftbuttontap}
-
-
-
-
-
-
-
 
 Event triggers when the left button is tapped. <a href="ejmFooter.html#showLeftButton">ejmFooter#showLeftButton</a>
 
@@ -2469,12 +1318,7 @@ Event triggers when the left button is tapped. <a href="ejmFooter.html#showLeftB
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="footer" data-role="ejmfooter" data-ej-showleftbutton="true" data-ej-leftbuttontap="onLeftButtonTap"></div>
@@ -2484,7 +1328,6 @@ function onLeftButtonTap(args){ //handle the event
 }
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 <div id="footer"></div>
 <script>
@@ -2492,23 +1335,11 @@ $("#footer").ejmFooter({showLeftButton:true, leftButtonTap:"test"});
 //LeftButtonTap event for footer
   function test() { //handle the event 
 }
-</script>                 {% endhighlight %}
-
-
-
-
-
-
+</script>                 
+{% endhighlight %}
 
 ### rightButtonTap
 {:#events:rightbuttontap}
-
-
-
-
-
-
-
 
 Event triggers when the right button is tapped. <a href="ejmFooter.html#showRightButton">ejmFooter#showRightButton</a>
 
@@ -2544,12 +1375,7 @@ Event triggers when the right button is tapped. <a href="ejmFooter.html#showRigh
 </tbody>
 </table>
 
-
-
-
-Example
-{:.example}
-
+#### Example
 
 {% highlight html %} 
 <div id="footer" data-role="ejmfooter" data-ej-showrightbutton="true" data-ej-rightbuttontap="onRightButtonTap"></div>
@@ -2559,7 +1385,6 @@ function onRightButtonTap(args){ //handle the event
 }
 </script>{% endhighlight %}
 
-
 {% highlight html %} 
 <div id="footer"></div>
 <script>
@@ -2568,7 +1393,3 @@ $("#footer").ejmFooter({showRightButton:true, rightButtonTap:"test"});
   function test() { //handle the event 
 }
 </script>                 {% endhighlight %}
-
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Image-Configuration
+title: Image Configuration | Tile | Mobilejs | Syncfusion
 description: image configuration
 platform: Mobilejs
 control: Tile (Mobile)
@@ -35,16 +35,17 @@ N> Both data-ej-imagepath and data-ej-imageurl attribute can be set when you wan
 
 <div style="margin-top:45px;">
 
-<div id="head" data-role="ejmheader" data-ej-title="Tileview"></div>
+	<div id="head" data-role="ejmheader" data-ej-title="Tileview"></div>
 
-<div id="tile" data-role="ejmtile" data-ej-imageposition="fill" data-ej-text="Weather" data-ej-backgroundcolor="#ae12ae" data-ej-imageurl="Weather_1.png" data-ej-imagepath="../themes/sample/tileview"> </div></div>
+	<div id="tile" data-role="ejmtile" data-ej-imageposition="fill" data-ej-text="Weather" data-ej-backgroundcolor="#ae12ae" data-ej-imageurl="Weather_1.png" data-ej-imagepath="../themes/sample/tileview"> </div>
+	
+</div>
 
 {% endhighlight %}
 
-
 The following screenshot displays the output of the above code.
 
-![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/imagepositionchange.png](Image-Configuration_images/Image-Configuration_img1.png)
+![](Image-Configuration_images/Image-Configuration_img1.png)
 
 Also you can give images for each Tile through CSS classes by using the “data-ej-imageclass” attribute. You can define your desired styles in the specified class.
 
@@ -54,9 +55,9 @@ Refer to the following code example.
 
 <div style="margin-top:45px;">
 
-<div id="head" data-role="ejmheader" data-ej-title="Tileview"></div>
+	<div id="head" data-role="ejmheader" data-ej-title="Tileview"></div>
 
-<div id="tile" data-role="ejmtile" data-ej-imageclass="picture" data-ej-text="people"> </div>
+	<div id="tile" data-role="ejmtile" data-ej-imageclass="picture" data-ej-text="people"> </div>
 
 </div>
 
@@ -66,18 +67,18 @@ Refer to the following code example for CSS classes.
 
 {% highlight css %}
 
-        .picture {
+.picture {
 
-            background-image: url("../themes/sample/tileview/windows/calculator.png");
+	background-image: url("../themes/sample/tileview/windows/calculator.png");
 
-            background-color: #ae12ae;
+	background-color: #ae12ae;
 
-            background-size: 40px 40px;
+	background-size: 40px 40px;
 
-        }
+}
 
 {% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
-![C:/Users/labuser/Desktop/ImagClass.png](Image-Configuration_images/Image-Configuration_img2.png)
+![](Image-Configuration_images/Image-Configuration_img2.png)

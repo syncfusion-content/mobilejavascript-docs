@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-dimensions
+title: Customize dimensions | Scroll Panel | Mobilejs | Syncfusion
 description: customize dimensions
 platform: Mobilejs
 control: Scroll Panel (Mobile)
@@ -15,31 +15,25 @@ The “data-ej-scrollheight” and “data-ej-scrollwidth” attributes allow yo
 
 {% highlight html %}
 
-    <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
+<div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
-    <div id="maincontent" style="padding:10px">
+<div id="maincontent" style="padding:10px">
 
-        <div>
+	<div>
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
+		Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
-        </div>
+	</div>
 
-    </div>
+</div>
 
-
-
-    <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-scrollheight="300" />
+<div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-scrollheight="300" />
 
 {% endhighlight %}
 
 The following screenshot displays the scroll height:
 
-
-
 ![](Customize-dimensions_images/Customize-dimensions_img1.png)
-
-
 
 ## Auto adjust scroll height
 
@@ -49,31 +43,27 @@ The “data-ej-adjustfixedposition” is a boolean attribute that lets you adjus
 
 <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
-    <div id="maincontent" style="padding:10px">
+<div id="maincontent" style="padding:10px">
 
-        <div>
+	<div>
 
-            <!--Scroll Content Here-->
+		<!--Scroll Content Here-->
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
-
-
-
-        </div>
-
-    </div> 
+		Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
 
 
-        <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-adjustfixedposition="true" data-ej-enablenativescrolling="false" />
+	</div>
+
+</div> 
+
+<div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-adjustfixedposition="true" data-ej-enablenativescrolling="false" />
 
 {% endhighlight %}
 
 The following screenshot displays the auto adjust scroll height:
 
-![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Customize-dimensions_images/Customize-dimensions_img2.png)
-
-
+![](Customize-dimensions_images/Customize-dimensions_img2.png)
 
 ## Auto height
 
@@ -81,25 +71,21 @@ When the “data-ej-autoadjustheight” attribute is set to true, it sets the he
 
 {% highlight html %}
 
+<div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
+<div id="maincontent" style="padding:10px">
 
-    <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
+	<div>
 
-    <div id="maincontent" style="padding:10px">
+		<!--Scroll Content Here-->
 
-        <div>
+		Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
-            <!--Scroll Content Here-->
+	</div>
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
+</div>
 
-        </div>
-
-    </div>
-
-    <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-autoadjustheight="true" />
-
-
+<div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-enablenativescrolling="false" data-ej-autoadjustheight="true" />
 
 {% endhighlight %}
 
@@ -109,25 +95,18 @@ The “data-ej-targetheight” and “data-ej-targetwidth” attributes are used
 
 {% highlight html %}
 
+<div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
 
+<div id="maincontent" style="padding:10px">
 
-    <div data-role="ejmheader" data-ej-title="ScrollPanel"></div>
+	<div>
 
-    <div id="maincontent" style="padding:10px">
+		Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
-        <div>
+	</div>
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
+</div>
 
-        </div>
-
-    </div>
-
-    <div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-targetheight="300" data-ej-enablenativescrolling="false" />	
-
-
+<div id="sample_scrollpanel" data-role="ejmscrollpanel" data-ej-target="maincontent" data-ej-targetheight="300" data-ej-enablenativescrolling="false" />	
 
 {% endhighlight %}
-
-
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance | Group Button | Mobilejs | Syncfusion
 description: styles and appearance
 platform: Mobilejs
 control: Accordion (Mobile)
@@ -10,11 +10,12 @@ documentation: ug
 # Styles and Appearance
 
 Styles and Appearance of Group Button work based on CSS class. You need a style sheet to apply styles to Group Button control that is, ej.mobile.all.min.css.
+
 ## Customize styles
 
 To change the color or design of Group Button control’s appearance, you can override default styles of Group Button control by using its class names. The following are specific class names you can use to modify styles and appearance in Group Button.
 
-Class names
+_Class names_
 
 <table>
 <tr>
@@ -45,9 +46,4 @@ This class is applied to label element of other Group Button items except active
 <td>
 e-m-corner-right                   </td><td>
 This class is applied to label element of rightmost Group Button item.</td></tr>
-
 </table>
-
-
-
-

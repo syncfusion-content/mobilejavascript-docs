@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ContentType
+title: ContentType | Button | Mobilejs | Syncfusion
 description: contenttype
 platform: Mobilejs
 control: Button (Mobile)
@@ -21,10 +21,10 @@ You can refer to the following code example.
 
 {% highlight html %}
 
-  <!--specify the button content-type-->               
+<!--specify the button content-type-->               
 
-  <input id="sample_button" type="button" data-role="ejmbutton" data-ej-text="button" data-ej-contenttype="text" />
+<input id="sample_button" type="button" data-role="ejmbutton" data-ej-text="button" data-ej-contenttype="text" />
  
 {% endhighlight %}
 
-![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1022c115.PNG](ContentType_images/ContentType_img1.png)
+![](ContentType_images/ContentType_img1.png)
