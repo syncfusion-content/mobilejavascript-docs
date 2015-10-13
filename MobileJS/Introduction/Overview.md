@@ -70,13 +70,13 @@ Editors</td><td>
 {{ '[GroupButton](/js/groupbutton)' | markdownify }}</td></tr>
 <tr>
 <td>
-{{ '[Radiobutton](h/js/radiobutton)' | markdownify }}</td><td>
+{{ '[Radiobutton](/js/radiobutton)' | markdownify }}</td><td>
 Textbox</td><td colspan = "2">
 {{ '[ToggleButton](/js/togglebutton)' | markdownify }}</td></tr>
 <tr>
 <td rowspan = "4">
 Navigation</td><td>
-{{ '[Accordion](/ja/accordion)' | markdownify }}</td><td colspan = "2">
+{{ '[Accordion](/js/accordion)' | markdownify }}</td><td colspan = "2">
 {{ '[Menu](/js/menu)' | markdownify }}</td><td>
 </td></tr>
 <tr>
