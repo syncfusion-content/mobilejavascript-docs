@@ -696,33 +696,7 @@ $("#mobilegrid").ejmGrid ({
 </script>                                 {% endhighlight %}
 
 
-### scrollSettings.width`string`
-{:#members:scrollsettings-width}
 
-Specifies the width for the Grid content.
-
-#### Default Value
-
-* auto
-
-
-#### Example
-
-
-{% highlight html %} 
-<div  id="mobilegrid" ></div>
-<script>
-$(document).ready(function(){
-var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
-$("#mobilegrid").ejmGrid ({ 
-                allowScrolling:true,
-                scrollSettings: { width: "auto" },dataSource:data,columns: [
-                         { field: "OrderID", headerText: "Order ID" },
-                         { field: "CustomerID", headerText: "Customer ID" },
-                         { field: "Freight", headerText: "Freight" }
-                 ] });  
-                 });               
-</script>                                         {% endhighlight %}
 
 ### selectedRowIndex`number`
 {:#members:selectedrowindex}
