@@ -9,7 +9,7 @@ keywords: ejmGrid, API, Essential Studio JS Autocomplete (Mobile)
 
 # ejmGrid
 
-The grid can be easily configured to the DOM element, such as div. you can create a grid with a highly customizable look and feel.
+The Grid can be easily configured to the DOM element, div. You can create a Grid with a highly customizable look and feel.
 
 $(element).ejmGrid<span class="signature">(options)</span>
 
@@ -85,7 +85,7 @@ $("#mobilegrid").ejmGrid({ dataSource:data,columns: [
 ### allowFiltering`boolean`
 {:#members:allowfiltering}
 
-Specifies whether to enable the filtering for the columns . It helps to filter the desired records in Grid columns.
+Specifies whether to enable filtering for the columns. It allows to filter the desired records in Grid columns.
 
 
 #### Default Value
@@ -113,7 +113,7 @@ $("#mobilegrid").ejmGrid ({ allowFiltering: false,dataSource:data,columns: [
 ### allowPaging`boolean`
 {:#members:allowpaging}
 
-Specifies whether to enable the Grid pager feature
+Specifies whether to enable the pager feature in Grid.
 
 #### Default Value
 
@@ -162,7 +162,7 @@ $("#mobilegrid").ejmGrid ({ allowScrolling: false,dataSource:data,columns: [
 ### allowSelection`boolean`
 {:#members:allowselection}
 
-Specifies whether to enable the grid row selection.
+Specifies whether to enable the Grid row selection.
 
 #### Default Value
 
@@ -187,7 +187,7 @@ $("#mobilegrid").ejmGrid ({ allowSelection: false,dataSource:data,columns: [
 {:#members:allowsorting}
 
 
-Enable or disable the sorting behavior for the Grid and we can able to sort the Grid columns in Ascending or Decending Order.
+Enables or disables the sorting behavior for Grid and you can sort the Grid columns in ascending or decending order.
 
 #### Example
 
@@ -207,7 +207,7 @@ $("#mobilegrid").ejmGrid ({ allowSorting: false,dataSource:data,columns: [
 ### caption`string`
 {:#members:caption}
 
-Set the caption for the grid
+Sets the caption for the Grid.
 
 #### Default Value
 
@@ -231,7 +231,7 @@ $("#mobilegrid").ejmGrid ({ caption: "caption", showCaption: true,dataSource:dat
 ### columns`array`
 {:#members:columns}
 
-It is used to define which columns can be bound to grid
+It is used to define the columns that can be bound to Grid.
 
 #### Default Value
 
@@ -254,7 +254,7 @@ $("#mobilegrid").ejGrid({ dataSource:data,columns: [
 ### cssClass`string`
 {:#members:cssclass}
 
-Specifies the CSS class to grid to achieve custom theme.
+Specifies the CSS class to Grid to achieve custom theme.
 
 
 #### Default Value
@@ -279,7 +279,7 @@ $("#mobilegrid").ejmGrid ({ cssClass: "Customclass",dataSource:data,columns: [
 ### dataSource`data`
 {:#members:datasource}
 
-Specifies the data source for the grid
+Specifies the data source for Grid.
 
 #### Default Value
 
@@ -304,7 +304,7 @@ $("#mobilegrid").ejmGrid ({ dataSource:data,columns: [
 ### enablePersistence`boolean`
 {:#members:enablepersistence}
 
-Specifies whether to enable the state maintenance in grid.
+Specifies whether to enable the state maintenance in Grid.
 
 #### Default Value
 
@@ -329,13 +329,13 @@ $("#mobilegrid").ejmGrid ({ enablePersistence: false,dataSource:data,columns: [
 ### filterSettings
 {:#members:filtersettings}
 
-This property is used to customize the filtering behavior of the grid.
+To customize the filtering behavior of the Grid.
 
 ### filterSettings.filterBarMode`enum`
 {:#members:filtersettings-filterbarmode}
 
 
-Set the filter bar mode option in the grid. Accepted filterBarModes are "immediate" and "onenter". See <a href="global.html#FilterBarMode">FilterBarMode</a>
+Sets the filter bar mode option in the Grid. The accepted filterBarModes are "immediate" and "onenter". See <a href="global.html#FilterBarMode">FilterBarMode</a>
 
 #### Default Value
 
@@ -362,7 +362,7 @@ $("#mobilegrid").ejmGrid ({
 ### filterSettings.filteredColumns`object`
 {:#members:filtersettings-filteredcolumns}
 
-Get filtered columns details programmatically after filtering.
+Gets filtered column details programmatically after filtering.
 
 #### Default Value
 
@@ -389,7 +389,7 @@ $("#mobilegrid").ejmGrid ({
 ### filterSettings.interval`number`
 {:#members:filtersettings-interval}
 
-Specifies the filter interval (in milliseconds) when filterbar mode is set to Immediate.
+Specifies the filter interval in milliseconds when filterbar mode is set to Immediate.
 
 #### Default Value
 
@@ -415,12 +415,12 @@ $("#mobilegrid").ejmGrid ({
 ### pageSettings
 {:#members:pagesettings}
 
-This property is used to modify pager default configuration.
+This property is used to modify the default pager configuration.
 
 ### pageSettings.currentPage`number`
 {:#members:pagesettings-currentpage}
 
-This is used to define which page to display currently.
+This is used to define the page that has to be displayed currently.
 
 #### Default Value
 
@@ -447,7 +447,7 @@ $("#mobilegrid").ejmGrid ({
 ### pageSettings.display`enum`
 {:#members:pagesettings-display}
 
-Used to define the pager position which can be fixed or normal. See <a href="global.html#PagerDisplay">PagerDisplay</a>
+Defines the pager position that can be fixed or normal. See <a href="global.html#PagerDisplay">PagerDisplay</a>
 
 #### Default Value
 
@@ -474,7 +474,7 @@ $("#mobilegrid").ejmGrid ({
 ### pageSettings.pageSize`number`
 {:#members:pagesettings-pagesize}
 
-This is used to define the number of records displayed per page.
+Defines the number of records displayed per page.
 
 #### Default Value
 
@@ -504,7 +504,7 @@ $("#mobilegrid").ejmGrid ({
 {:#members:pagesettings-totalrecordscount}
 
 
-It holds the total records count available in the grid.
+It holds the total records count available in the Grid.
 
 #### Default Value
 
@@ -528,7 +528,7 @@ $("#print").text("TotalRecordsCount: " + value);
 ### pageSettings.type`enum`
 {:#members:pagesettings-type}
 
-Used to define the pager type which can be scrollable or normal. See <a href="global.html#PagerType">PagerType</a>
+Defines the pager type, scrollable or normal. See <a href="global.html#PagerType">PagerType</a>
 
 #### Default Value
 
@@ -556,7 +556,7 @@ $("#mobilegrid").ejmGrid ({
 {:#members:rendermode}
 
 
-Changes the rendering mode of the grid. It can be auto, ios7, android, windows or flat. See <a href="global.html#RenderMode">RenderMode</a>
+Changes the rendering mode of the Grid. It can be auto, ios7, android, windows or flat. See <a href="global.html#RenderMode">RenderMode</a>
 
 
 #### Default Value
@@ -582,7 +582,7 @@ $("#mobilegrid").ejmGrid ({ renderMode: ej.mobile.RenderMode.Auto,dataSource:dat
 {:#members:scrollsettings}
 
 
-Used to enable grid column and row scrolling
+Used to enable Grid column and row scrolling.
 
 ### scrollSettings.enableColumnScrolling`boolean`
 {:#members:scrollsettings-enablecolumnscrolling}
@@ -696,33 +696,7 @@ $("#mobilegrid").ejmGrid ({
 </script>                                 {% endhighlight %}
 
 
-### scrollSettings.width`string`
-{:#members:scrollsettings-width}
 
-Specifies the width for the Grid content.
-
-#### Default Value
-
-* auto
-
-
-#### Example
-
-
-{% highlight html %} 
-<div  id="mobilegrid" ></div>
-<script>
-$(document).ready(function(){
-var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
-$("#mobilegrid").ejmGrid ({ 
-                allowScrolling:true,
-                scrollSettings: { width: "auto" },dataSource:data,columns: [
-                         { field: "OrderID", headerText: "Order ID" },
-                         { field: "CustomerID", headerText: "Customer ID" },
-                         { field: "Freight", headerText: "Freight" }
-                 ] });  
-                 });               
-</script>                                         {% endhighlight %}
 
 ### selectedRowIndex`number`
 {:#members:selectedrowindex}
@@ -762,7 +736,7 @@ This property is used to modify sorting default configuration.
 ### sortSettings.allowMultiSorting`boolean`
 {:#members:sortsettings-allowmultisorting}
 
-Enable or disable the multi sorting behavior of grid.
+Enable or disable the multi sorting behavior of Grid.
 
 #### Default Value
 
@@ -789,7 +763,7 @@ $("#mobilegrid").ejmGrid ({
 ### sortSettings.sortedColumns`object`
 {:#members:sortsettings-sortedcolumns}
 
-To define which column can be sorted and also to define the sort direction
+To define the column that can be sorted and also to define the sort direction.
 
 #### Default Value
 
@@ -840,7 +814,7 @@ $("#mobilegrid").ejmGrid ({ theme: ej.mobile.Theme.Auto,dataSource:data,columns:
 
 ### transition`string`
 
-Specifies the transition type when navigation happens while interacting with grid.
+Specifies the transition type when navigation happens while interacting with Grid.
 
 #### Default Value
 
@@ -869,7 +843,7 @@ $("#mobilegrid").ejmGrid ({ transition: "slide",dataSource:data,columns: [
 ### getColumnByField`()`
 {:#methods:getcolumnbyfield}
 
-To get column by field
+To get column by field.
 
 #### Example
 
@@ -895,7 +869,7 @@ $("#mobilegrid").ejGrid("getColumnByField", "OrderID");
 {:#methods:getcolumnbyheadertext}
 
 
-To get column by header text
+To get column by header text.
 
 #### Example
 
@@ -919,7 +893,7 @@ $("#mobilegrid").ejmGrid("getColumnByHeaderText", "Order ID");
 ### getColumnByIndex`()`
 {:#methods:getcolumnbyindex}
 
-To get column by index
+To get column by index.
 
 
 #### Example
@@ -946,7 +920,7 @@ $("#mobilegrid").ejmGrid("getColumnByIndex",1);
 {:#methods:getcolumnfieldnames}
 
 
-To get column field names
+To get column field names.
 
 #### Example
 
@@ -970,7 +944,7 @@ $("#mobilegrid").ejmGrid("getColumnFieldNames");
 ### getColumnIndexByField`()`
 {:#methods:getcolumnindexbyfield}
 
-To get column index by field
+To get column index by field.
 
 #### Example
 
@@ -995,7 +969,7 @@ $("#mobilegrid").ejmGrid("getColumnIndexByField","OrderID");
 ### getColumnMemberByIndex`()`
 {:#methods:getcolumnmemberbyindex}
 
-To get column member by index
+To get column member by index.
 
 #### Example
 
@@ -1020,7 +994,7 @@ $("#mobilegrid").ejmGrid("getColumnMemberByIndex",1);
 ### hideColumns`()`
 {:#methods:hidecolumns}
 
-To hide the specified column
+To hide the specified column.
 
 
 #### Example
@@ -1046,7 +1020,7 @@ $("#mobilegrid").ejmGrid("hideColumns","Order ID");
 {:#methods:refreshcontent}
 
 
-It is used to refresh the grid contents
+It is used to refresh the Grid contents.
 
 <table class="params">
 <thead>
@@ -1060,7 +1034,7 @@ It is used to refresh the grid contents
 <tr>
 <td class="name">{% highlight html %}[requestType].{% endhighlight %}</td>
 <td class="type"><span class="param-type">enum</span></td>
-<td class="description last">The request type can be refresh, paging, sorting, filtering. If no parameter is passed, the request type will be refresh</td>
+<td class="description last">The request type can be refresh, paging, sorting, filtering. If no parameter is passed, the request type is refresh</td>
 </tr>
 </tbody>
 </table>
@@ -1087,7 +1061,7 @@ $("#mobilegrid").ejmGrid("refreshContent");
 {:#methods:scrollrefresh}
 
 
-To refersh grid scrollpanel
+To refersh Grid scrollpanel.
 
 
 #### Example
@@ -1112,7 +1086,7 @@ $("#mobilegrid").ejmGrid("scrollRefresh");
 ### showColumns`()`
 {:#methods:showcolumns}
 
-To show the specified column
+To show the specified column.
 
 #### Example
 
@@ -1137,7 +1111,7 @@ $("#mobilegrid").ejmGrid("showColumns","Order ID");
 ### actionBegin
 {:#events:actionbegin}
 
-Triggered for every grid action before its starts.
+Triggered for every Grid action before it starts.
 
 <table class="params">
 <thead>
@@ -1151,7 +1125,7 @@ Triggered for every grid action before its starts.
 <tr>
 <td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from grid
+<td class="description last">Event parameters from Grid
 <table class="params">
 <thead>
 <tr>
@@ -1164,27 +1138,27 @@ Triggered for every grid action before its starts.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
+<td class="description last">Set to true when the event has to be cancelled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the grid model</td>
+<td class="description last">Returns the Grid model.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
+<td class="description last">Returns the name of the event.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current element</td>
+<td class="description last">Returns the current element.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}requestType{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">Returns request type</td>
+<td class="description last">Returns request type.</td>
 </tr>
 </tbody>
 </table>
@@ -1213,7 +1187,7 @@ function actionBegin(args) { //handle the event }
 ### actionComplete
 {:#events:actioncomplete}
 
-Event triggers when grid data loading action succeeds.
+Event triggers when loading action of Grid data succeeds.
 
 <table class="params">
 <thead>
@@ -1227,7 +1201,7 @@ Event triggers when grid data loading action succeeds.
 <tr>
 <td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from grid
+<td class="description last">Event parameters from Grid
 <table class="params">
 <thead>
 <tr>
@@ -1240,27 +1214,27 @@ Event triggers when grid data loading action succeeds.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
+<td class="description last">Set to true when the event has to be cancelled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the grid model</td>
+<td class="description last">Returns the Grid model.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
+<td class="description last">Returns the name of the event.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current element</td>
+<td class="description last">Returns the current element.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}requestType{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">Returns request type</td>
+<td class="description last">Returns request type.</td>
 </tr>
 </tbody>
 </table>
@@ -1289,7 +1263,7 @@ function actionComplete(args) { //handle the event }
 ### actionFailure
 {:#events:actionfailure}
 
-Event triggers when grid data loading action fails.
+Event triggers when loading action of Grid data fails.
 
 <table class="params">
 <thead>
@@ -1303,7 +1277,7 @@ Event triggers when grid data loading action fails.
 <tr>
 <td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from grid
+<td class="description last">Event parameters from Grid
 <table class="params">
 <thead>
 <tr>
@@ -1316,27 +1290,27 @@ Event triggers when grid data loading action fails.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
+<td class="description last">Set to true when the event has to be cancelled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the grid model</td>
+<td class="description last">Returns the Grid model.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
+<td class="description last">Returns the name of the event.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current element</td>
+<td class="description last">Returns the current element.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}requestType{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">Returns request type</td>
+<td class="description last">Returns request type.</td>
 </tr>
 </tbody>
 </table>
@@ -1364,7 +1338,7 @@ function actionFailure(args) { //handle the event }
 ### actionSuccess
 {:#events:actionsuccess}
 
-Triggered for every grid action success.
+Triggered for every Grid action success.
 
 <table class="params">
 <thead>
@@ -1378,7 +1352,7 @@ Triggered for every grid action success.
 <tr>
 <td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from grid
+<td class="description last">Event parameters from Grid
 <table class="params">
 <thead>
 <tr>
@@ -1391,27 +1365,27 @@ Triggered for every grid action success.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
+<td class="description last">Set to true when the event has to be cancelled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the grid model</td>
+<td class="description last">Returns the Grid model.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
+<td class="description last">Returns the name of the event.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current element</td>
+<td class="description last">Returns the current element.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}requestType{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">Returns request type</td>
+<td class="description last">Returns request type.</td>
 </tr>
 </tbody>
 </table>
@@ -1441,7 +1415,7 @@ function actionSuccess(args) { //handle the event }
 ### load
 {:#events:load}
 
-Triggered for every grid load.
+Triggered for every Grid load.
 
 <table class="params">
 <thead>
@@ -1455,7 +1429,7 @@ Triggered for every grid load.
 <tr>
 <td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from grid
+<td class="description last">Event parameters from Grid
 <table class="params">
 <thead>
 <tr>
@@ -1468,27 +1442,27 @@ Triggered for every grid load.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
+<td class="description last">Set to true when the event has to be cancelled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the grid model</td>
+<td class="description last">Returns the Grid model.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
+<td class="description last">Returns the name of the event.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current element</td>
+<td class="description last">Returns the current element.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}requestType{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">Returns request type</td>
+<td class="description last">Returns request type.</td>
 </tr>
 </tbody>
 </table>
@@ -1516,7 +1490,7 @@ function load(args) { //handle the event }
 ### modelChange
 {:#events:modelchange}
 
-Triggered every time while a model value changed.
+Triggered every time when a model value changes.
 
 <table class="params">
 <thead>
@@ -1530,7 +1504,7 @@ Triggered every time while a model value changed.
 <tr>
 <td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from grid
+<td class="description last">Event parameters from Grid
 <table class="params">
 <thead>
 <tr>
@@ -1543,27 +1517,27 @@ Triggered every time while a model value changed.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
+<td class="description last">Set to true when the event has to be cancelled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the grid model</td>
+<td class="description last">Returns the Grid model.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
+<td class="description last">Returns the name of the event.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current grid row</td>
+<td class="description last">Returns the current Grid row.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}options{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the changed model values</td>
+<td class="description last">Returns the changed model values.</td>
 </tr>
 </tbody>
 </table>
@@ -1607,7 +1581,7 @@ Triggered every time a request is made to access particular cell information, el
 <tr>
 <td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from grid
+<td class="description last">Event parameters from Grid
 <table class="params">
 <thead>
 <tr>
@@ -1620,32 +1594,32 @@ Triggered every time a request is made to access particular cell information, el
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
+<td class="description last">Set to true when the event has to be cancelled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the grid model</td>
+<td class="description last">Returns the Grid model.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
+<td class="description last">Returns the name of the event.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current cell</td>
+<td class="description last">Returns the current cell.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}data{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current data</td>
+<td class="description last">Returns the current data.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}text{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current cell Html content</td>
+<td class="description last">Returns the current cell HTML content.</td>
 </tr>
 </tbody>
 </table>
@@ -1690,7 +1664,7 @@ Triggered every time a request is made to access row information, element and da
 <tr>
 <td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from grid
+<td class="description last">Event parameters from Grid
 <table class="params">
 <thead>
 <tr>
@@ -1703,27 +1677,27 @@ Triggered every time a request is made to access row information, element and da
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
+<td class="description last">Set to true when the event has to be cancelled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the grid model</td>
+<td class="description last">Returns the Grid model.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
+<td class="description last">Returns the name of the event.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current grid row</td>
+<td class="description last">Returns the current Grid row.td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}data{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current data</td>
+<td class="description last">Returns the current data.</td>
 </tr>
 </tbody>
 </table>
@@ -1768,7 +1742,7 @@ Triggered after the row is selected.
 <tr>
 <td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from grid
+<td class="description last">Event parameters from Grid
 <table class="params">
 <thead>
 <tr>
@@ -1781,42 +1755,42 @@ Triggered after the row is selected.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
+<td class="description last">Set to true when the event has to be cancelled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the grid model</td>
+<td class="description last">Returns the Grid model.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
+<td class="description last">Returns the name of the event.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current element</td>
+<td class="description last">Returns the current element.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}rowIndex{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
-<td class="description last">returns the current row index</td>
+<td class="description last">Returns the current row index.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}row{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
-<td class="description last">returns the current row</td>
+<td class="description last">Returns the current row.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}cell{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
-<td class="description last">returns the current data cell</td>
+<td class="description last">Returns the current data cell.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}data{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
-<td class="description last">returns the current data record</td>
+<td class="description last">Returns the current data record.</td>
 </tr>
 </tbody>
 </table>
@@ -1848,7 +1822,7 @@ function rowSelected(args) { //handle the event }
 ### rowSelecting
 {:#events:rowselecting}
 
-Triggered before the row is going to be selected.
+Triggered before the row is to be selected.
 
 <table class="params">
 <thead>
@@ -1862,7 +1836,7 @@ Triggered before the row is going to be selected.
 <tr>
 <td class="name">{% highlight html %}argument{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from grid
+<td class="description last">Event parameters from Grid
 <table class="params">
 <thead>
 <tr>
@@ -1875,42 +1849,42 @@ Triggered before the row is going to be selected.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
+<td class="description last">Set to true when the event has to be cancelled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the grid model</td>
+<td class="description last">Returns the Grid model.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}type{% endhighlight %}</td>
 <td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
+<td class="description last">Returns the name of the event.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}element{% endhighlight %}</td>
 <td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current element</td>
+<td class="description last">Returns the current element.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}rowIndex{% endhighlight %}</td>
 <td class="type"><span class="param-type">number</span></td>
-<td class="description last">returns the current row index</td>
+<td class="description last">Returns the current row index.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}row{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
-<td class="description last">returns the current row</td>
+<td class="description last">Returns the current row.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}cell{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
-<td class="description last">returns the current data cell</td>
+<td class="description last">Returns the current data cell.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}data{% endhighlight %}</td>
 <td class="type"><span class="param-type">object</span></td>
-<td class="description last">returns the current data record</td>
+<td class="description last">Returns the current data record.</td>
 </tr>
 </tbody>
 </table>
