@@ -89,7 +89,7 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-Run the above code to render the following output. To know more details, refer to this [section](http://docs.syncfusion.com/ug/js/default.htm)
+Run the above code to render the following output. To know more details, refer to this [section](http://help.syncfusion.com/ug/js/default.htm)
 
 ![C:/Users/durga/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)
 
@@ -191,7 +191,7 @@ Add the following style to set the background image for the page.
 
 {% endhighlight %}
 
-Run the above code to render the following output. To know more details, refer to this [section](http://docs.syncfusion.com/mobilejs/tile/getting-started).
+Run the above code to render the following output. To know more details, refer to this [section](http://help.syncfusion.com/mobilejs/tile/getting-started).
 
 ![](Getting-Started_images/Getting-Started_img3.png)
 
