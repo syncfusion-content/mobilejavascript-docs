@@ -102,7 +102,7 @@ Notification</td><td>
 <tr>
 <td>
 Layout</td><td>
-{{ '[Dialog](/js/dialog)' | markdownify }}{{ '[SplitPane](http://docs.syncfusion.com/js/splitter)' | markdownify }}</td><td colspan = "2">
+{{ '[Dialog](/js/dialog)' | markdownify }}{{ '[SplitPane](http://help.syncfusion.com/js/splitter)' | markdownify }}</td><td colspan = "2">
 {{ '[ListView](/js/listview)' | markdownify }}</td><td>
 {{ '[TileView](/js/tile)' | markdownify }}</td></tr>
 </table>
