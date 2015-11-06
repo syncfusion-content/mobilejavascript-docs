@@ -70,13 +70,13 @@ Editors</td><td>
 {{ '[GroupButton](/js/groupbutton)' | markdownify }}</td></tr>
 <tr>
 <td>
-{{ '[Radiobutton](h/js/radiobutton)' | markdownify }}</td><td>
+{{ '[Radiobutton](/js/radiobutton)' | markdownify }}</td><td>
 Textbox</td><td colspan = "2">
 {{ '[ToggleButton](/js/togglebutton)' | markdownify }}</td></tr>
 <tr>
 <td rowspan = "4">
 Navigation</td><td>
-{{ '[Accordion](/ja/accordion)' | markdownify }}</td><td colspan = "2">
+{{ '[Accordion](/js/accordion)' | markdownify }}</td><td colspan = "2">
 {{ '[Menu](/js/menu)' | markdownify }}</td><td>
 </td></tr>
 <tr>
@@ -102,7 +102,7 @@ Notification</td><td>
 <tr>
 <td>
 Layout</td><td>
-{{ '[Dialog](/js/dialog)' | markdownify }}{{ '[SplitPane](http://docs.syncfusion.com/js/splitter)' | markdownify }}</td><td colspan = "2">
+{{ '[Dialog](/js/dialog)' | markdownify }}{{ '[SplitPane](http://help.syncfusion.com/js/splitter)' | markdownify }}</td><td colspan = "2">
 {{ '[ListView](/js/listview)' | markdownify }}</td><td>
 {{ '[TileView](/js/tile)' | markdownify }}</td></tr>
 </table>
