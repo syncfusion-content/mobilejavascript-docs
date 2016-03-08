@@ -131,7 +131,7 @@ Run this code and you can see the following output.
 
 ## Grid with Scrolling
 
-Now, you have to enable scroll support in Grid. Scroll is used to view all the content present in the Grid when the screen size is smaller than the Grid content. For that, you have to set allowScrolling attribute as true. This enables the scrollpanel in the Grid.  Use scrollSettings attribute to set scroll panel properties. Here scrollpanel height has been set by using height attribute. 
+Now, you have to enable scroll support in Grid. Scroll is used to view all the content present in the Grid when the screen size is smaller than the Grid content. For that, you have to set allowScrolling attribute as true. This enables the scroll panel in the Grid.  Use scrollSettings attribute to set scroll panel properties. Here scroll panel height has been set by using height attribute. 
 
 {% highlight js %}
 

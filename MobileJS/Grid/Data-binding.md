@@ -108,7 +108,7 @@ Run the above code to render the following output.
 
 ![](Data-binding_images/Data-binding_img2.png)
 
-N> For information about DataManager with Mobie Grid check DataAdaptors concept.
+N> For information about DataManager with Mobile Grid check DataAdaptors concept.
 
 ### Load at once
 
@@ -330,7 +330,7 @@ function RefreshData() {
 
 ## Supported DataTypes
 
-ejmGrid supports data types in JavaScript such as string, number, datetime and Boolean. By default, ejmGrid reads datatypes from Mobile Grid dataSource. Grid uses these DataTypes for filtering and other operations. You can also customize these DataTypes through column attribute type. It overrides default data type reading. For example refer to the following code.
+ejmGrid supports data types in JavaScript such as string, number, datetime and Boolean. By default, ejmGrid reads data types from Mobile Grid dataSource. Grid uses these DataTypes for filtering and other operations. You can also customize these DataTypes through column attribute type. It overrides default data type reading. For example refer to the following code.
 
 {% highlight js %}
 

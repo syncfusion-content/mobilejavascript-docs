@@ -187,7 +187,7 @@ $("#mobilegrid").ejmGrid ({ allowSelection: false,dataSource:data,columns: [
 {:#members:allowsorting}
 
 
-Enables or disables the sorting behavior for Grid and you can sort the Grid columns in ascending or decending order.
+Enables or disables the sorting behavior for Grid and you can sort the Grid columns in ascending or descending order.
 
 #### Example
 
@@ -1061,7 +1061,7 @@ $("#mobilegrid").ejmGrid("refreshContent");
 {:#methods:scrollrefresh}
 
 
-To refersh Grid scrollpanel.
+To refresh Grid scroll panel.
 
 
 #### Example
@@ -1138,7 +1138,7 @@ Triggered for every Grid action before it starts.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">Set to true when the event has to be cancelled, else false.</td>
+<td class="description last">Set to true when the event has to be canceled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
@@ -1214,7 +1214,7 @@ Event triggers when loading action of Grid data succeeds.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">Set to true when the event has to be cancelled, else false.</td>
+<td class="description last">Set to true when the event has to be canceled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
@@ -1290,7 +1290,7 @@ Event triggers when loading action of Grid data fails.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">Set to true when the event has to be cancelled, else false.</td>
+<td class="description last">Set to true when the event has to be canceled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
@@ -1365,7 +1365,7 @@ Triggered for every Grid action success.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">Set to true when the event has to be cancelled, else false.</td>
+<td class="description last">Set to true when the event has to be canceled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
@@ -1442,7 +1442,7 @@ Triggered for every Grid load.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">Set to true when the event has to be cancelled, else false.</td>
+<td class="description last">Set to true when the event has to be canceled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
@@ -1517,7 +1517,7 @@ Triggered every time when a model value changes.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">Set to true when the event has to be cancelled, else false.</td>
+<td class="description last">Set to true when the event has to be canceled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
@@ -1594,7 +1594,7 @@ Triggered every time a request is made to access particular cell information, el
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">Set to true when the event has to be cancelled, else false.</td>
+<td class="description last">Set to true when the event has to be canceled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
@@ -1677,7 +1677,7 @@ Triggered every time a request is made to access row information, element and da
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">Set to true when the event has to be cancelled, else false.</td>
+<td class="description last">Set to true when the event has to be canceled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
@@ -1755,7 +1755,7 @@ Triggered after the row is selected.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">Set to true when the event has to be cancelled, else false.</td>
+<td class="description last">Set to true when the event has to be canceled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
@@ -1849,7 +1849,7 @@ Triggered before the row is to be selected.
 <tr>
 <td class="name">{% highlight html %}cancel{% endhighlight %}</td>
 <td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">Set to true when the event has to be cancelled, else false.</td>
+<td class="description last">Set to true when the event has to be canceled, else false.</td>
 </tr>
 <tr>
 <td class="name">{% highlight html %}model{% endhighlight %}</td>
