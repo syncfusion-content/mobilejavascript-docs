@@ -65,7 +65,7 @@ In this section, you can learn how the pager types differ in Mobile Grid control
 
 {% endhighlight %}
 
-Refer to the lfollowing script section.
+Refer to the following script section.
 
 {% highlight js %}
 

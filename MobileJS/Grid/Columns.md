@@ -9,11 +9,11 @@ documentation: ug
 
 # Columns
 
-Colums is a key feature in Grid to define schema in control based on datasource. It is useful to map field to datasource values.
+Columns is a key feature in Grid to define schema in control based on datasource. It is useful to map field to datasource values.
 
 ## Formatting
 
-Formatting is used to convert data values to human readable formats using specific culture settings. In Mobil Grid, you can use format attribute to format particular columns, for more refrence about globalize.js you can refer to the link ([https://github.com/jquery/globalize](https://github.com/jquery/globalize)). Refer to the following code to use formatting in Grid.
+Formatting is used to convert data values to human readable formats using specific culture settings. In Mobil Grid, you can use format attribute to format particular columns, for more reference about globalize.js you can refer to the link ([https://github.com/jquery/globalize](https://github.com/jquery/globalize)). Refer to the following code to use formatting in Grid.
 
 {% highlight html %}
 
