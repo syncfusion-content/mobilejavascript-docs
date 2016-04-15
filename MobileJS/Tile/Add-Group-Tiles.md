@@ -186,7 +186,7 @@ Refer to the following code example for the CSS classes.
 
 Refer to the following code example for the script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 if (ej.getRenderMode() == "windows")
 

@@ -388,7 +388,7 @@ Run the above code example to render the following output.
 
 To dynamically update the badge value whenever a new update is added, use the following code example.
 
-{% highlight js %}
+{% highlight javascript %}
 
 //Updates the _Badge value_
 

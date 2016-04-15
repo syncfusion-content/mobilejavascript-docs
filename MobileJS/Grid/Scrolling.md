@@ -21,7 +21,7 @@ Scrolling is an important feature in Mobile Grid. It makes Grid more compatible 
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () { // Document is ready.
 
@@ -69,7 +69,7 @@ Column scrolling is powerful technique in ejmGrid. It makes Grid more compatible
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () { // Document is ready.
 

@@ -64,7 +64,7 @@ Boolean filter bar works with either true or false.</td></tr>
 
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {// Document is ready.
 

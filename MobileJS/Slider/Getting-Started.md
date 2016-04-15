@@ -207,7 +207,7 @@ In this scenario, when you change the Slider value, the corresponding values are
 
 From the Slider’s getValue API, you can get the present value of both the Slider handles, anytime. Add the following code example to the <script> tag. 
 
-{% highlight js %}
+{% highlight javascript %}
 
 //to display the slider value in span element (label) at initialize
 
@@ -253,7 +253,7 @@ Execute the above code to render the following output.
 
 In this scenario, a dialog is displayed to provide information about the search when Submit is clicked. Add the following code to the <script> tag.
 
-{% highlight js %}
+{% highlight javascript %}
 
 //to open dialog
 

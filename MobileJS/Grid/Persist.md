@@ -19,7 +19,7 @@ This section explains you on how to maintain Grid state. Refer to the following 
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 	$(function () {// Document is ready. 
 

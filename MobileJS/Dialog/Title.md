@@ -45,7 +45,7 @@ The data-ej-title attribute is used to set the title text of the Dialog box.
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 

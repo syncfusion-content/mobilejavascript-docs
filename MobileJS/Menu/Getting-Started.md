@@ -199,7 +199,7 @@ You can add functionalities for each Menu item by using its touchend handler by 
 
 Add the following code example.
 
-{% highlight js %}
+{% highlight javascript %}
 
 //object declaration
 

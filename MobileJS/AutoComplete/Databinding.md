@@ -21,7 +21,7 @@ The data-ej-datasource attribute is used to provide the suggestion list to the A
 
 Add the Following script.
 
-{% highlight js %}
+{% highlight javascript %}
 
 window.datasrc = [
 

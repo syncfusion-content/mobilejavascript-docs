@@ -51,7 +51,7 @@ The Alert Dialog mode is used to communicate an Alert message.
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 
@@ -113,7 +113,7 @@ The Confirm Dialog box attribute is mostly used to take the user's consent on an
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 
@@ -177,7 +177,7 @@ The Normal Mode Dialog box attribute is used to display the message in sub scree
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 
@@ -241,7 +241,7 @@ The FullView Dialog box attribute is used to display messages on full screen and
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 

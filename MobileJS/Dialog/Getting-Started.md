@@ -153,7 +153,7 @@ You can click the next button present in the header to display the Dialog. The c
 
 Add the following code example to the <body> tag.
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 
@@ -267,7 +267,7 @@ To close the alert Dialog, click OK. This is achieved by triggering the buttonta
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 //Add script for closeDialog
 

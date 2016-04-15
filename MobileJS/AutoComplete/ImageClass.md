@@ -19,7 +19,7 @@ The data-ej-imageclass attribute is used to map the specific field name of the g
 
 Add the following script
 
-{% highlight js %}
+{% highlight javascript %}
 
 var datacont = [
 

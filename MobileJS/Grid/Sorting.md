@@ -19,7 +19,7 @@ Sorting is a basic technique in ejmGrid. It helps you in viewing grid records th
 
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -67,7 +67,7 @@ ejmGrid also has support to sort more than one column known as Multi sorting. To
 
 Refer to the following code example.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {
 

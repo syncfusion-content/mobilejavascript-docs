@@ -19,7 +19,7 @@ By enabling “allowColumnSelector”, you can hide the columns dynamically when
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {
 

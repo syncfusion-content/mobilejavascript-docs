@@ -131,7 +131,7 @@ Refer the following code examples for css class
 
 Refer the following code examples for script section
 
-{% highlight js %}
+{% highlight javascript %}
 
 function click(e) {
 

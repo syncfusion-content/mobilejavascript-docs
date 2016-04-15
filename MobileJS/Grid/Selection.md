@@ -19,7 +19,7 @@ The Selection attribute is used to highlight a row that you select. By default, 
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -59,7 +59,7 @@ In this section, you can learn how to get selected records from one Grid and als
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () { // Document is ready.
 

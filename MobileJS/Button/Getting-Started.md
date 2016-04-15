@@ -267,7 +267,7 @@ You can achieve this by using the following Script.
 
 Add the following Script to your code.
 
-{% highlight js %}
+{% highlight javascript %}
 
 var v = document.getElementsByTagName("audio")[0];
 

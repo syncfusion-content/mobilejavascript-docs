@@ -45,7 +45,7 @@ The data-ej-enablemodal attribute enables the Modal Dialog that blocks you from 
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 

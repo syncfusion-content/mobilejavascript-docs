@@ -177,7 +177,7 @@ The data-ej-select attribute enables you to handle AutoComplete selection event,
 
 Add the following script.
 
-{% highlight js %}
+{% highlight javascript %}
 
 function onSelect(args) {
 

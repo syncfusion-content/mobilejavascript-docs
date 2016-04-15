@@ -137,7 +137,7 @@ In a real-time ticket booking scenario, the booking is open for a limited number
 
 The following script helps you to set the mindate and maxdate.
 
-{% highlight js %}
+{% highlight javascript %}
 
 var curDate = new Date();// Mention the current date.
 
@@ -209,7 +209,7 @@ The following code example explains how to set an event to process the Min and M
 
 Select event is handled by the validateMinDateForReturn function as follows.
 
-{% highlight js %}
+{% highlight javascript %}
 
 function validateMinDateForReturn (args) {
 

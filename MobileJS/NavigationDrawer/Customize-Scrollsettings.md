@@ -81,7 +81,7 @@ You can update the content and close the Navigation Drawer, once the item is sel
 
 Refer to the following code example.
 
-{% highlight js %}
+{% highlight javascript %}
 
     function navListClick(args) //To Handle the touch end event
 

@@ -320,7 +320,7 @@ While clicking the navigation options it loads appropriate content into the curr
 
 Add the following code example to display the first listitem content while rendering.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {
 
