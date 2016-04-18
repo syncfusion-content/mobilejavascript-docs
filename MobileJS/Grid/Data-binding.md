@@ -21,7 +21,7 @@ Mobile Grid data source can be set in client-side through JavaScript. It has ful
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {// Document is ready.
 
@@ -75,7 +75,7 @@ oData is standardized protocol for creating and consuming data. You can able to 
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {// Document is ready.
 
@@ -122,7 +122,7 @@ Through this load at once technique, you can able to load all remote data from s
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
    $(function () {
 
@@ -174,7 +174,7 @@ ejmGrid can use cross domain data service with help of data manager. Following c
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {// Document is ready.
 
@@ -222,7 +222,7 @@ Load on demand is a powerful technique that is used to reduce bandwidth size of 
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {// Document is ready.
 
@@ -274,7 +274,7 @@ ejmGrid contains a feature to refresh datasource dynamically after Grid initiali
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {// Document is ready.
 
@@ -332,7 +332,7 @@ function RefreshData() {
 
 ejmGrid supports data types in JavaScript such as string, number, datetime and Boolean. By default, ejmGrid reads data types from Mobile Grid dataSource. Grid uses these DataTypes for filtering and other operations. You can also customize these DataTypes through column attribute type. It overrides default data type reading. For example refer to the following code.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $("#MobileGrid").ejmGrid({
 
@@ -484,7 +484,7 @@ ejmGrid has support to form Mobile Grid from HTML table. It is flexible to conve
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {// Document is ready.
 
@@ -534,7 +534,7 @@ JSON adaptor is powerful way to define JSON data to Grid.  Using this technique 
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {// Document is ready.
 
@@ -592,7 +592,7 @@ Now a days oData is most useful technique in consuming data. You can use oData p
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {// Document is ready.
 

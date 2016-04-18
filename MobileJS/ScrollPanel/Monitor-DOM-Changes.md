@@ -33,7 +33,7 @@ The “data-ej-checkdomchanges” attribute lets you specify whether or not to r
 
 Refer the following code examples for script section
 
-{% highlight js %}
+{% highlight javascript %}
 
 function touchstart() {
 

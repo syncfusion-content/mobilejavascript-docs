@@ -205,7 +205,7 @@ Refer to the following code example to display a conformation message on clickin
 
 Add the following code example
 
-{% highlight js %}
+{% highlight javascript %}
 
 function alertClose() {
 

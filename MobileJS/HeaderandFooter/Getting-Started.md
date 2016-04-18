@@ -122,7 +122,7 @@ Refer to the following code example.
 
 Add the following script to the code.
 
-{% highlight js %}
+{% highlight javascript %}
 
 //Adding script for header buttons events
 

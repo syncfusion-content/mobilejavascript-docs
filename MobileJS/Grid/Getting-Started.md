@@ -95,7 +95,7 @@ Refer to the following code example.
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -133,7 +133,7 @@ Run this code and you can see the following output.
 
 Now, you have to enable scroll support in Grid. Scroll is used to view all the content present in the Grid when the screen size is smaller than the Grid content. For that, you have to set allowScrolling attribute as true. This enables the scroll panel in the Grid.  Use scrollSettings attribute to set scroll panel properties. Here scroll panel height has been set by using height attribute. 
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -177,7 +177,7 @@ From the above output, it is clear that we can scroll up and down to view the Gr
 
 Now, enable Paging feature in Grid. This offers complete navigation support to easily switch between the pages. This can be achieved by using the pager bar available at the bottom of the Mobile Grid control. To enable paging, use allowPaging attribute of Grid as shown below.  Pager can be scrolled horizontally if its width exceeds the target window. The pageSize attribute describes the number of records to be displayed in single Grid page.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -227,7 +227,7 @@ Now, enable Filtering feature in Mobile Grid. A filter facilitates the extractio
 
 Click the filter icon in column header to make the filtering text box visible. Then enter search content to filter your Mobile Grid data.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -276,7 +276,7 @@ In the above output, it is clear that order id filter is selected and the order 
 
 Now, enable Sorting feature in Mobile Grid. Mobile Grid columns are sortable. You can sort column data either in ascending or descending order. To enable sorting, use AllowSorting attribute of Grid as shown below. Click the column header to sort the Grid columns. The down arrow indicates that the column is sorted in ascending order and up arrow indicates that the column is sorted in descending order. If there is no arrow, it means the sorting is cleared.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {
 

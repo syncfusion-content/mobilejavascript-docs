@@ -201,7 +201,7 @@ In the windows mode scenario, you require different size of the live Tiles. To r
 
 Refer to the following code example.
 
-{% highlight js %}
+{% highlight javascript %}
 
 if (ej.getRenderMode() == "windows" || ej.getRenderMode() == "flat") {
 

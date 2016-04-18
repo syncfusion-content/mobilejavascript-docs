@@ -23,7 +23,7 @@ Formatting is used to convert data values to human readable formats using specif
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () { // Document is ready.
 
@@ -75,7 +75,7 @@ In ejmGrid, you can use allowSorting and allowFiltering to control Mobile Grid a
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () { // Document is ready.
 
@@ -125,7 +125,7 @@ The Columns are automatically generated from the datasource and you no need to s
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {// Document is ready.
 

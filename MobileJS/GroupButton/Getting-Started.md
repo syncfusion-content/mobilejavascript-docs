@@ -241,7 +241,7 @@ In the Mail App, while navigating through different buttons the content view is 
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 function onselect(args) {
 
@@ -321,7 +321,7 @@ In case, if you are using three options “All”, “Read” and “Unread” t
 
 To handle the events, add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
     $(function () {//hiding read and unread elements initially
 

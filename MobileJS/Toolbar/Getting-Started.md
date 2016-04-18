@@ -189,7 +189,7 @@ You can provide functionalities for each Toolbar items and this can be achieved 
 
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(document).ready(function (args) {
 

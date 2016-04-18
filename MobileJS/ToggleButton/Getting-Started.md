@@ -136,7 +136,7 @@ Add the code example to the Toggle <div>.
 
 Add the following script code to the <body> tag to show the Dialog when you change the Toggle state.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function (args) {
 

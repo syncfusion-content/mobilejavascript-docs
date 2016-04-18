@@ -155,7 +155,7 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 // data source for listbox with right pane’s url for each item
 
@@ -217,7 +217,7 @@ When you click the left pane list item, you can view the content that is specifi
 
 Refer to the following code example.
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 // data source for listbox with right pane’s url for each item

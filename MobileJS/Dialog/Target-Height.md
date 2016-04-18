@@ -45,7 +45,7 @@ documentation: ug
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 

@@ -59,7 +59,7 @@ The data-ej-allowscrolling attribute is used to enable scrollingbehavior for the
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 
@@ -123,7 +123,7 @@ The data-ej-checkdomchanges attribute is used to refresh the scroll panel render
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 
@@ -185,7 +185,7 @@ The data-ej-enablenativescrolling attribute is used to enable native (built-in b
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 

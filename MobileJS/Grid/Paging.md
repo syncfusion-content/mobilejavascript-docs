@@ -28,7 +28,7 @@ Refer to the following code example for Grid with default options.
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -67,7 +67,7 @@ In this section, you can learn how the pager types differ in Mobile Grid control
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () { // Document is ready.
 

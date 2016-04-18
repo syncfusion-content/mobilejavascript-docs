@@ -51,7 +51,7 @@ The data-ej-templateid attribute is used to define the ID of the template elemen
 
 Add the following script to the code
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 

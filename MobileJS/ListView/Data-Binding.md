@@ -23,7 +23,7 @@ Essential Studio mobile JS ListView provides support for Data Binding. data-ej-d
 
 To include datasource, add the following script.
 
-{% highlight js %}
+{% highlight javascript %}
 
 window.dbitem =
 
@@ -89,7 +89,7 @@ In Remote Data Binding, the data is retrieved from a particular URL unlike the l
 
 To include datasource, add the following script.
 
-{% highlight js %}
+{% highlight javascript %}
 
 // DataManager creation.
 
@@ -136,7 +136,7 @@ In DB, you can define the desired class name or styles for the list item through
 
 To include datasource, add the following script.
 
-{% highlight js %}
+{% highlight javascript %}
 
 window.dbitem =
 
@@ -227,7 +227,7 @@ This feature in the ListView is used to fetch data from the DataSource before li
 
 To include datasource, add the following script.
 
-{% highlight js %}
+{% highlight javascript %}
 
 // DataManager creation.
 

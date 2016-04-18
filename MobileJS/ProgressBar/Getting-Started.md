@@ -120,7 +120,7 @@ To render the progress bar control, you need to set “data-role” attribute as
 
 Progress bar can be hidden with a desired action on its “hide” API and can be shown with desired action on its “show” API. Refer the below code snippets.
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -188,7 +188,7 @@ The progress bar text and its value can be changed dynamically. In our scenario 
 
 You can use JavaScript “setInterval” function to change its value and text dynamically.
 
-{% highlight js %}
+{% highlight javascript %}
 
 window.currValue = 0;
 

@@ -45,7 +45,7 @@ Refer to the following code example.
 
 Refer the following code examples for script section
 
-{% highlight js %}
+{% highlight javascript %}
 
 function click(e) {
 

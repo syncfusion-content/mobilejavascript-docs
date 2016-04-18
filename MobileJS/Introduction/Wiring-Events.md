@@ -13,7 +13,7 @@ Whenever the control undergoes some changes or action, it should be notified to 
 
 ## During Initialization
 
-{% highlight js %}
+{% highlight javascript %}
 
 $(“jquery-selector”).<ejm-plugin-name>({ eventName : <eventhandler> });
 
@@ -23,7 +23,7 @@ Example:  $("#myDate").ejmDatePicker({ select: function () { // event handler } 
 
 ## After initialization
 
-{% highlight js %}
+{% highlight javascript %}
 
 1. $(“jquery-selector”).<ejm-plugin-name>(“model.eventName”, <eventhandler>);
 
