@@ -1,32 +1,68 @@
 ---
 layout: post
 title: ejmDialog | API Reference | Mobile JS | Syncfusion
-description: 
-documentation: API
+description:  Methods, members, events available in ejmDialog
 platform: Mobilejs
-keywords: ejmDialog, API, Essential Studio JS Autocomplete (Mobile)
+control: ejmDialog
+documentation: API
+keywords: ejmDialog, API, Essential Studio JS Dialog (Mobile)
 ---
 
 # ejmDialog
 
+The Essential JavaScript Mobile Dialog widget is an overlay positioned within the page and it displays a message such as supplementary content like images or text, and interactive content like forms. It contains a title, a content area and buttons for user interaction.
+
 Custom Design for Html Dialog control.
 
-$(element).ejmDialog<span class="signature">()</span>
+$(element).ejmDialog()
 
 #### Example
 
-{% highlight html %} 
-<div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true" data-ej-title="Low Battery" >
-  <div>
-      10% of battery remaining
-  </div>
-</div>   {% endhighlight %}
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+    <script>
+        $("#alertdialog").ejmDialog();
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+{% endhighlight %}
 
 #### Requires
 
 * module:jQuery
-
-* module:ej.mobile.application
 
 * module:ej.core
 
@@ -38,150 +74,193 @@ $(element).ejmDialog<span class="signature">()</span>
 
 * module:ej.touch
 
-* module:ej.mobile.button
-
-* module:ej.mobile.header
-
 * module:ej.mobile.scrollbar
 
 * module:ej.mobile.scrollpanel
 
-
 ## Members
 
-### allowScrolling`boolean`
-{:#members:allowscrolling}
+### allowScrolling `boolean`
+{:#members:allowScrolling} 
 
-Specifies whether to allow scrolling behavior for the contents.
-
-#### Default Value
-
-* true
-
-
-#### Example
-
-{% highlight html %} 
-//Set the allowScrolling property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-allowscrolling="true" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
-
-{% highlight html %} 
-// Set allowScrolling on initialization. 
-//To set allowScrolling API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, allowScrolling: true });
-});
-</script>         {% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set the Dialog allowScrolling, after initialization:
-// Get the allowScrolling API value.    
- $("#dlg").ejmDialog ("option", "allowScrolling");                      
-// Set the allowScrolling API
-$("#dlg").ejmDialog ("option", "allowScrolling", true);       
-</script>{% endhighlight %}
-
-
-### checkDOMChanges`boolean`
-{:#members:checkdomchanges}
-
-Specifies whether need to refresh scrollpanel rendered in the control when elements are added dynamically.
+Specifies whether to allow scrolling behavior for the contents. If this property set as true, ejmDialog will render scrollpanel automatically if the contents exceeds the content area.
 
 #### Default Value
 
 * false
 
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-height="200px" data-ej-allowscrolling="true">
+        <div>
+            Syncfusion is the enterprise technology partner of choice for software development, delivering a broad range of web, mobile, and desktop controls coupled with a service-oriented approach throughout the entire application lifecycle. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications. Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 12,000 customers, including large financial institutions, Fortune 100 companies, and global IT consultancies.
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            Syncfusion is the enterprise technology partner of choice for software development, delivering a broad range of web, mobile, and desktop controls coupled with a service-oriented approach throughout the entire application lifecycle. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications. Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 12,000 customers, including large financial institutions, Fortune 100 companies, and global IT consultancies.
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ height: "200px", allowScrolling: true });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### closeOndocumentTap `boolean`
+{:#members:closeOndocumentTap} 
+
+Specifies whether the dialog close while click on the document. If it is set as false, user need to handle dialog close manually. 
+
+#### Default Value
+
+* false
 
 #### Example
 
-{% highlight html %} 
-//Set the checkDOMChanges property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-checkdomchanges="true" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
-
-{% highlight html %} 
-// Set checkDOMChanges on initialization. 
-//To set checkDOMChanges API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, checkDOMChanges: true });
-});
-</script> {% endhighlight %}
-
-{% highlight html %} 
-<script>
-//Get or set the Dialog checkDOMChanges, after initialization:
-// Get the checkDOMChanges API value.   
- $("#dlg").ejmDialog ("option", "checkDOMChanges");                     
-// Set the checkDOMChanges API
-$("#dlg").ejmDialog ("option", "checkDOMChanges", true); 
-</script>{% endhighlight %}
+{% highlight html %}
 
 
-### cssClass`string`
-{:#members:cssclass}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-closeondocumenttap="true" >
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ closeOndocumentTap: true });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### cssClass `string`
+{:#members:cssClass} 
 
 Sets the root class for Dialog theme. This cssClass API helps to use custom skinning option for Dialog control. By defining the root class using this API, we need to include this root class in CSS.
 
 #### Default Value
 
-* ""
+* ””
 
 #### Example
 
-{% highlight html %} 
-//Set the cssClass property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-enableautoopen= "true" data-ej-cssclass="customclass" >
-  <div>
-      10% of battery remaining
-  </div>
-</div>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-// Set cssClass on initialization. 
-  //To set cssClass API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, cssClass: "customclass" });
-});
-</script> {% endhighlight %}
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog cssClass, after initialization:
-  // Get the cssClass API value.
-  $("#dlg").ejmDialog ("option", "cssClass");                   
-  // Set the cssClass API
-  $("#dlg").ejmDialog ("option", "cssClass", "customclass");        
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-cssclass="customclass" >
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
 
-### enableAnimation`boolean`
-{:#members:enableanimation}
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+    <style>
+        .customclass .e-m-dlg-content *{
+            color: red;
+        }
+    </style>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ cssClass: "customclass" });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+    <style>
+        .customclass .e-m-dlg-content *{
+            color: red;
+        }
+    </style>
+
+
+
+{% endhighlight %}
+
+### enableAnimation `boolean`
+{:#members:enableAnimation} 
 
 Enables or Disables animation effect on opening or closing the dialog.
 
@@ -191,40 +270,53 @@ Enables or Disables animation effect on opening or closing the dialog.
 
 #### Example
 
-{% highlight html %} 
-//Set the enableAnimation property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-enableanimation="false" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
-
-{% highlight html %} 
-// Set enableAnimation on initialization. 
-//To set enableAnimation API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAnimation: false });
-});
-</script>         {% endhighlight %}
-
-{% highlight html %} 
-<script>
-//Get or set the Dialog enableAnimation, after initialization:
-// Get the enableAnimation API value.   
- $("#dlg").ejmDialog ("option", "enableAnimation");                     
-// Set the enableAnimation API
-$("#dlg").ejmDialog ("option", "enableAnimation", true);    
-</script>{% endhighlight %}
+{% highlight html %}
 
 
-### enableAutoOpen`boolean`
-{:#members:enableautoopen}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-enableanimation="false">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ enableAnimation: false });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### enableAutoOpen `boolean`
+{:#members:enableAutoOpen} 
 
 Specifies whether to open the dialog on initial loading.
 
@@ -234,41 +326,113 @@ Specifies whether to open the dialog on initial loading.
 
 #### Example
 
-{% highlight html %} 
-//Set the enableAutoOpen property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true" >
-  <div>
-      10% of battery remaining
-  </div>
-</div>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-// Set enableAutoOpen on initialization. 
-  //To set enableAutoOpen API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true });
-});
-</script>                 {% endhighlight %}
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog enableAutoOpen, after initialization:
-  // Get the enableAutoOpen API value.  
-  $("#dlg").ejmDialog ("option", "enableAutoOpen");                     
-  // Set the enableAutoOpen API
-  $("#dlg").ejmDialog ("option", "enableAutoOpen", true);   
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-enableautoopen="true">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
 
-### enableModal`boolean`
-{:#members:enablemodal}
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
 
-Specifies whether to enable modal dialog.
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ enableAutoOpen: true });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### enableModal `boolean`
+{:#members:enableModal} 
+
+Specifies whether to enable modal for the dialog or not.
+
+#### Default Value
+
+* true
+
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-enablemodal="false">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ enableModal: false });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+### enableNativeScrolling `boolean`
+{:#members:enableNativeScrolling} 
+
+Specifies whether to enable device’s native scroll behavior when scrolling is allowed.
+
+N> To achieve this behavior, the [allowScrolling] property should be set as true.
 
 #### Default Value
 
@@ -276,83 +440,53 @@ Specifies whether to enable modal dialog.
 
 #### Example
 
-{% highlight html %} 
-//Set the enableModal property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-enableModal="true" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-// Set enableModal property on initialization. 
-  //To set enableModal API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, enableModal: true });
-});
-</script>         {% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-height="200px" data-ej-allowscrolling="true" data-ej-enablenativescrolling="true">
+        <div>
+            Syncfusion is the enterprise technology partner of choice for software development, delivering a broad range of web, mobile, and desktop controls coupled with a service-oriented approach throughout the entire application lifecycle. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications. Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 12,000 customers, including large financial institutions, Fortune 100 companies, and global IT consultancies.
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog enableModal, after initialization:
-// Get the enableModal API value.
- $("#dlg").ejmDialog ("option", "enableModal");                 
-// Set the enableModal API
-$("#dlg").ejmDialog ("option", "enableModal", true);    
-</script>{% endhighlight %}
 
-### enableNativeScrolling`boolean`
-{:#members:enablenativescrolling}
+{% endhighlight %}
 
-Specifies whether to enable device's native scroll behavior when scrolling is allowed.
 
-#### Default Value
 
-* false
+{% highlight html %}
 
-#### Example
 
-{% highlight html %} 
-//Set the enableNativeScrolling property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-enablenativescrolling="true" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            Syncfusion is the enterprise technology partner of choice for software development, delivering a broad range of web, mobile, and desktop controls coupled with a service-oriented approach throughout the entire application lifecycle. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications. Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 12,000 customers, including large financial institutions, Fortune 100 companies, and global IT consultancies.
+        </div>
+    </div>
 
-{% highlight html %} 
-// Set enableNativeScrolling on initialization. 
-//To set enableNativeScrolling API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, enableNativeScrolling: true });
-});
-</script>         {% endhighlight %}
+    <script>
+        $("#alertdialog").ejmDialog({ allowScrolling: true, height: "200px", enableNativeScrolling: true });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog enableNativeScrolling, after initialization:
-// Get the enableNativeScrolling API value.
- $("#dlg").ejmDialog ("option", "enableNativeScrolling");                       
-// Set the enableNativeScrolling API
-$("#dlg").ejmDialog ("option", "enableNativeScrolling", true);   
-</script>{% endhighlight %}
 
-### enablePersistence`boolean`
-{:#members:enablepersistence}
+
+{% endhighlight %}
+
+### enablePersistence `boolean`
+{:#members:enablePersistence} 
 
 Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
 
@@ -362,41 +496,111 @@ Specifies to maintain the current model value to browser cookies for state maint
 
 #### Example
 
-{% highlight html %} 
-//Set the enablePersistence property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-enablepersistence="true" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-// Set enablePersistence on initialization. 
-//To set enablePersistence API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, enablePersistence: true });
-});
-</script>         {% endhighlight %}
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog enablePersistence, after initialization:
-// Get the enablePersistence API value. 
- $("#dlg").ejmDialog ("option", "enablePersistence");                   
-// Set the enablePersistence API
-$("#dlg").ejmDialog ("option", "enablePersistence", true);    
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-enablepersistence="true">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
 
-### leftButtonCaption`string`
-{:#members:leftbuttoncaption}
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
 
-Specifies the text of left button.
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ enablePersistence: true });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### height `string`
+{:#members:height} 
+
+Specifies the height of dialog content.
+
+#### Default Value
+
+* true
+
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-height="200px">
+        <div>
+            Syncfusion is the enterprise technology partner of choice for software development, delivering a broad range of web, mobile, and desktop controls coupled with a service-oriented approach throughout the entire application lifecycle. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications. Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 12,000 customers, including large financial institutions, Fortune 100 companies, and global IT consultancies.
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            Syncfusion is the enterprise technology partner of choice for software development, delivering a broad range of web, mobile, and desktop controls coupled with a service-oriented approach throughout the entire application lifecycle. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications. Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 12,000 customers, including large financial institutions, Fortune 100 companies, and global IT consultancies.
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ height: "200px" });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### leftButtonCaption `string`
+{:#members:leftButtonCaption} 
+
+Specifies the text of left button. For alert mode dialog, this property specifies the alert button text.
 
 #### Default Value
 
@@ -404,252 +608,392 @@ Specifies the text of left button.
 
 #### Example
 
-{% highlight html %} 
-//Set the leftButtonCaption property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-leftbuttoncaption="Close" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-// Set leftButtonCaption on initialization. 
-//To set leftButtonCaption API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, leftButtonCaption: "Close" });
-});
-</script> {% endhighlight %}
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog leftButtonCaption, after initialization:
-// Get the leftButtonCaption API value.
- $("#dlg").ejmDialog ("option", "leftButtonCaption");                   
-// Set the leftButtonCaption API
-$("#dlg").ejmDialog ("option", "leftButtonCaption", "Close");          
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-leftbuttoncaption="Done">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
 
-### mode`enum`
-{:#members:mode}
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
 
-Specifies the dialog mode to render.See <a href="global.html#Mode">Mode</a>
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ leftButtonCaption: "Done" });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### locale `string`
+{:#members:locale} 
+
+Specifies the localization to adopt the required language. In Dialog control title, left and right button captions are given localization support.
 
 #### Default Value
 
-* ej.mobile.Rating.Mode.Alert.
+* “en-US”
 
 #### Example
 
-{% highlight html %} 
-//Set the mode property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-mode="confirm" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-// Set mode on initialization. 
-//To set mode API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, mode: ej.mobile.Dialog.Mode.Confirm });
-});
-</script>         {% endhighlight %}
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog mode, after initialization:
-// Get the mode API value.      
- $("#dlg").ejmDialog ("option", "mode");                        
-// Set the mode API
-$("#dlg").ejmDialog ("option", "mode", ej.mobile.Dialog.Mode.Confirm);   
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-locale="zh-CN">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
 
-### renderMode`enum`
-{:#members:rendermode}
+    <script>
+        ej.mobile.Dialog.Locale['zh-CN'] = {
+            title: "标题",
+            leftButtonCaption: "取消",
+            rightButtonCaption: "继续"
+        };
 
-Specifies the rendering mode of the control. See <a href="global.html#RenderMode">RenderMode</a>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        ej.mobile.Dialog.Locale['zh-CN'] = {
+            title: "标题",
+            leftButtonCaption: "取消",
+            rightButtonCaption: "继续"
+        };
+
+        $("#alertdialog").ejmDialog({ locale: "zh-CN" });
+
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### mode `enum`
+{:#members:mode} 
+
+Specifies the dialog mode to render. i.e. alert mode or confirm mode.See [DialogMode](http://help.syncfusion.com/mobilejs/api/global#DialogMode)
+
+#### Default Value
+
+* “alert”
+
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-mode="confirm">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ mode: "confirm" });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### renderMode `enum`
+{:#members:renderMode} 
+
+Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
 
 #### Default Value
 
 * auto
 
-
 #### Example
 
-{% highlight html %} 
-//Set the rendermode property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-rendermode="auto" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-// Set rendermode on initialization. 
-//To set rendermode API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, renderMode: ej.mobile.RenderMode.Auto });
-});
-</script>                 {% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-rendermode="android">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog rendermode, after initialization:
-// Get the rendermode API value.        
- $("#dlg").ejmDialog ("option", "renderMode");                  
-// Set the renderMode API
-$("#dlg").ejmDialog ("option", "renderMode", ej.mobile.RenderMode.Auto);           
-</script>{% endhighlight %}
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
 
-### rightButtonCaption`string`
-{:#members:rightbuttoncaption}
 
-Specifies the text of right button.
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+    <script>
+        $("#alertdialog").ejmDialog({ renderMode: "android" });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+{% endhighlight %}
+
+### rightButtonCaption `string`
+{:#members:rightButtonCaption} 
+
+Specifies the text of right button for confirm mode dialog.
+
+N> [rightButtonCaption] property only works for confirm mode dialog. For confirm mode dialog, set the property [mode] to “confirm”.
 
 #### Default Value
 
-* Continue
+* continue
 
 #### Example
 
-{% highlight html %} 
-//Set the rightButtonCaption property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-mode="confirm" data-ej-rightbuttoncaption="Ok" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-// Set rightButtonCaption on initialization. 
-//To set rightButtonCaption API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, mode:"confirm", rightButtonCaption: "Ok" });
-});
-</script>         {% endhighlight %}
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog rightButtonCaption, after initialization:
-// Get the rightButtonCaption API value.        
- $("#dlg").ejmDialog ("option", "rightButtonCaption");                  
-// Set the rightButtonCaption API
-$("#dlg").ejmDialog ("option", "rightButtonCaption", "Ok");  
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-mode="confirm" data-ej-rightbuttoncaption="Ok">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
 
-### showButtons`boolean`
-{:#members:showbuttons}
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
 
-Specifies whether to show the buttons in the dialog.
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ mode: "confirm", rightButtonCaption: "Ok" });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### showButtons `boolean`
+{:#members:showButtons} 
+
+Specifies whether to show the buttons in the dialog or not.
 
 #### Default Value
 
 * true
 
-
 #### Example
 
-{% highlight html %} 
-//Set the showButtons property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-showbuttons="true" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-// Set showButtons property on initialization. 
-  //To set showButtons API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, showButtons: false });
-});
-</script>         {% endhighlight %}
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog showButtons, after initialization:
-// Get the showButtons API value.       
- $("#dlg").ejmDialog ("option", "showButtons");                 
-// Set the showButtons API
-$("#dlg").ejmDialog ("option", "showButtons", false);     
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-showbuttons="false">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
 
-### targetHeight`string`
-{:#members:targetheight}
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
 
-Specifies the target height.
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+    <script>
+        $("#alertdialog").ejmDialog({ showButtons: false });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+{% endhighlight %}
+
+### showHeader `boolean`
+{:#members:showHeader} 
+
+Specifies whether to show the header in the dialog or not.
 
 #### Default Value
 
-* null
-
+* true
 
 #### Example
 
-{% highlight html %} 
-//Set the targetHeight property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-targetheight="500" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-// Set targetHeight on initialization. 
-//To set targetHeight API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, targetHeight: 500 });
-});
-</script>         {% endhighlight %}
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog targetHeight, after initialization:
-// Get the targetHeight API value.      
- $("#dlg").ejmDialog ("option", "targetHeight");                        
-// Set the targetHeight API
-$("#dlg").ejmDialog ("option", "targetHeight", 500);   
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-showheader="false">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
 
-### templateId`string`
-{:#members:templateid}
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+    <script>
+        $("#alertdialog").ejmDialog({ showHeader: false });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+{% endhighlight %}
+
+### templateId `string`
+{:#members:templateId} 
 
 Specifies ID of the element contains template contents.
 
@@ -659,80 +1003,60 @@ Specifies ID of the element contains template contents.
 
 #### Example
 
-{% highlight html %} 
-//Set the templateId property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-templateid="temp" data-ej-enableautoopen="true" >
-</div>
-<div id="temp" >
-10% of battery remaining
-</div>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-// Set templateId on initialization. 
-//To set templateId API value '
-<div id="dlg" >
-<script>
-$(function(){
-$("#dlg").ejmDialog({ enableAutoOpen:true, templateId: "temp" });
-});
-</script> 
-<div id="temp" >
-10% of battery remaining
-</div>                    {% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-templateid="dlgcontent">
+    </div>
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog templateId, after initialization:
-// Get the templateId API value.        
- $("#dlg").ejmDialog ("option", "templateId");                  
-// Set the templateId API
-$("#dlg").ejmDialog ("option", "templateId", "temp");       
-</script>{% endhighlight %}
+    <script id="dlgcontent" type="text/ng-template">
+        <div>
+            10% of battery remaining
+        </div>
+    </script>
 
-### theme`enum`
-{:#members:theme}
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
 
-Specifies the theme.See <a href="global.html#Theme">Theme</a>
 
-#### Default Value
 
-* auto
+{% endhighlight %}
 
-#### Example
 
-{% highlight html %} 
-//Set the theme property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-theme="auto" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>{% endhighlight %}
 
-{% highlight html %} 
-// Set theme on initialization. 
-//To set theme API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, theme: ej.mobile.Theme.Auto });
-});
-</script>         {% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog theme, after initialization:
-// Get the theme API value.
- $("#dlg").ejmDialog ("option", "theme");                       
-// Set the theme API
-$("#dlg").ejmDialog ("option", "theme", ej.mobile.Theme.Auto);          
-</script>{% endhighlight %}
 
-### title`string`
-{:#members:title}
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+    </div>
+
+    <script id="dlgcontent" type="text/ng-template">
+        <div>
+            10% of battery remaining
+        </div>
+    </script>
+
+    <script>
+        $(function () {
+            $("#alertdialog").ejmDialog({ templateId: "dlgcontent" });
+        });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### title `string`
+{:#members:title} 
 
 Specifies the title text.
 
@@ -742,541 +1066,622 @@ Specifies the title text.
 
 #### Example
 
-{% highlight html %} 
-//Set the title property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-title="Low Battery" data-ej-enableautoopen="true" >
-  <div>
-      10% of battery remaining
-  </div>
-</div>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-// Set title on initialization. 
-  //To set title API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ enableAutoOpen: true, title: "Low Battery" });
-});
-</script> {% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-title="Warning">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
 
-{% highlight html %} 
-<script>
-//Get or set the Dialog title, after initialization:
-  // Get the title API value.
-  $("#dlg").ejmDialog ("option", "title");                      
-  // Set the title API
-  $("#dlg").ejmDialog ("option", "title", "Low Battery");        
-</script>{% endhighlight %}
 
-### windows
-{:#members:windows}
 
-Section for windows mode specific functionalities.
+{% endhighlight %}
 
-### windows.renderDefault`boolean`
-{:#members:windows-renderdefault}
 
-Specifies whether to render control based on the windowsphone's current accent color and device theme.
+
+{% highlight html %}
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+    <script>
+        $("#alertdialog").ejmDialog({ title: "Warning" });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+{% endhighlight %}
+
+### width `string`
+{:#members:width} 
+
+Specifies the width of dialog content.
 
 #### Default Value
 
-* false
+* true
 
 #### Example
 
-{% highlight html %} 
-// Set the windows mode renderDefault property in unobtrusive way.
-<div id="dlg" data-role="ejmdialog" data-ej-rendermode="windows" data-ej-windows-renderDefault=true data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>            {% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-// To set windows mode renderDefault property API value 
-<div id="dlg">
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script>
-$(function(){
-  $("#dlg").ejmDialog({ renderMode:"windows", enableAutoOpen: true, windows:{renderDefault: true}});
-});
-</script>{% endhighlight %}
 
-{% highlight html %} 
-<script>
-// Get or set the windows mode renderDefault API, after initialization:
-// Get the windows mode renderDefault value  
-$("#dlg").ejmDialog("option", "windows.renderDefault");   
-// Set the windows mode renderDefault value 
-$("#dlg").ejmDialog("option", "windows.renderDefault", true); 
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-width="400px">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ width: "400px" });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
 
 ## Methods
 
-### close`()`
-{:#methods:close}
+### close()
+{:#methods:close} 
 
 To close the dialog.
 
 #### Example
 
-{% highlight html %} 
-<div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true">
-<div>
-10% of battery remaining
-</div>
-</div>
-<script>
-// To check whether the dialog is opened or not
-  $(function(){
-  var dialog = $("#dlg").data("ejmDialog");
-  dialog.close(); 
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-<div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true">
-<div>
-10% of battery remaining
-</div>
-</div>
-// To close dialog control
-<script>
-$(function(){
-$("#dlg").ejmDialog("close");
-});
-</script>{% endhighlight %}
 
-### isOpened`()`
-{:#methods:isopened}
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-leftbuttoncaption="Close Dialog" data-ej-buttontap="close">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
 
-To check whether the dialog is opened.
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+        function close() {
+            $("#alertdialog").ejmDialog("close");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+### disableButton()
+{:#methods:disableButton} 
+
+To disable buttons in dialog control. It accepts a string parameter to denote which button should be disable. i.e. “left” or “right”. If no parameters passed, then this method will disable all buttons in dialog.
 
 #### Example
 
-{% highlight html %} 
-<div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true">
-<div>
-10% of battery remaining
-</div>
-</div>
-<script>
-// To check whether the dialog is opened or not
-  $(function(){
-  var dialog = $("#dlg").data("ejmDialog");
-  dialog.isOpened(); 
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-<div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true">
-<div>
-10% of battery remaining
-</div>
-</div>
-// To check whether the dialog is opened or not
-<script>
-$(function(){
-$("#dlg").ejmDialog("isOpened");
-});
-</script>{% endhighlight %}
 
-### open`()`
-{:#methods:open}
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog">
+        <div>
+            10% of battery remaining
+            <input data-role="ejmbutton" type="button" data-ej-text="Disable Button" data-ej-touchend="disable" />
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+        function disable() {
+            $("#alertdialog").ejmDialog("disableButton");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### enableButton()
+{:#methods:enableButton} 
+
+To enable the disabled button in dialog control. It accepts a string parameter to denote which button should be enable. i.e. “left” or “right”. If no parameters passed, then this method will enable all disabled buttons in dialog.
+
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog">
+        <div>
+            10% of battery remaining
+            <input data-role="ejmbutton" type="button" data-ej-text="Disable Button" data-ej-touchend="disable" />
+            <input data-role="ejmbutton" type="button" data-ej-text="Enable Button" data-ej-touchend="enable" />
+        </div>
+    </div>
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+        function disable() {
+            $("#alertdialog").ejmDialog("disableButton");
+        }
+        function enable() {
+            $("#alertdialog").ejmDialog("enableButton");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+### open()
+{:#methods:open} 
 
 To open the dialog
 
 #### Example
 
-{% highlight html %} 
-<div id="dlg" data-role="ejmdialog" data-ej-enableautoopen="true">
-<div>
-10% of battery remaining
-</div>
-</div>
-<script>
-// To check whether the dialog is opened or not
-  $(function(){
-  var dialog = $("#dlg").data("ejmDialog");
-  dialog.open(); 
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-<div id="dlg" data-role="ejmdialog" >
-<div>
-10% of battery remaining
-</div>
-</div>
-// To open dialog control
-<script>
-$(function(){
-$("#dlg").ejmDialog("open");
-});
-</script>{% endhighlight %}
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
 
 ## Events
 
 ### beforeClose
-{:#events:beforeclose}
+{:#events:beforeClose} 
 
 Event triggers before dialog window get closed.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from dialog.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from dialog.<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}title{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the title of the dialog.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+title</td><td>
+string</td><td>
+Returns the title of the dialog.</td></tr>
 </table>
 
+
+</td></tr>
+</table>
 #### Example
 
-{% highlight html %} 
-//beforeClose event for Dialog
-<div id="dlg" data-role="ejmdialog" data-ej-beforeclose="beforeClose" data-ej-buttontap="alertClose" data-ej-enableautoopen="true" >
- <div>
-     10% of battery remaining
- </div>
-</div>
-<script> 
-function alertClose(){
-$("#dlg").ejmDialog("close");
-}
-function beforeClose(){}
-</script>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-//beforeClose event for Dialog
-<div id="dlg" > 
-<div>
-   10% of battery remaining
- </div>
-</div>
-<script> 
-$("#dlg").ejmDialog({
-enableAutoOpen: true,
-buttonTap: function (args) {
-   $("#dlg").ejmDialog("close");
-},
-beforeClose: function (args) {
-   //handle the event 
-}
-});
-</script>{% endhighlight %}
+
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-leftbuttoncaption="Close Dialog" data-ej-buttontap="closeDialog" data-ej-beforeclose="beforeClose">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+        function closeDialog() {
+            $("#alertdialog").ejmDialog("close");
+        }
+        function beforeClose(args) {
+            //handle the event
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ leftButtonCaption: "Close Dialog", buttonTap: "closeDialog", beforeClose: "beforeClose" });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+        function closeDialog() {
+            $("#alertdialog").ejmDialog("close");
+        }
+        function beforeClose(args) {
+            //handle the event
+        }
+    </script>
+
+
+
+{% endhighlight %}
 
 ### buttonTap
-{:#events:buttontap}
+{:#events:buttonTap} 
 
 Event triggers when tap happens on the button.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from dialog.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from dialog.<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}text{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the text of the button.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+text</td><td>
+Object</td><td>
+Returns the text of the button.</td></tr>
 </table>
 
+
+</td></tr>
+</table>
 #### Example
 
-{% highlight html %} 
-//buttonTap event for Dialog
-<div id="dlg" data-role="ejmdialog" data-ej-buttontap="buttonTap" data-ej-enableautoopen=true >
-  <div>
-      10% of battery remaining
-  </div>
-</div>
-<script> 
-function buttonTap(){}
-</script>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-//buttonTap event for Dialog
-<div id="dlg">
-<div>
-  10% of battery remaining
-</div>
-</div>
-<script>
-$(function () {
-$("#dlg").ejmDialog({ enableAutoOpen: true, buttonTap: "buttonTap" });
-});
-function buttonTap(args) { //handle the event
-}
-</script>{% endhighlight %}
+
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-leftbuttoncaption="Close Dialog" data-ej-buttontap="closeDialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+        function closeDialog() {
+            //handle the event
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ buttonTap: "closeDialog" });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+        function closeDialog() {
+            //handle the event
+        }
+    </script>
+
+
+
+{% endhighlight %}
 
 ### close
-{:#events:close}
+{:#events:close} 
 
 Event triggers after dialog window get closed.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from dialog.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from dialog.<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}title{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the title of the dialog.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+title</td><td>
+string</td><td>
+Returns the title of the dialog.</td></tr>
 </table>
 
+
+</td></tr>
+</table>
 #### Example
 
-{% highlight html %} 
-//Close event for Dialog
-<div id="dlg" data-role="ejmdialog" data-ej-close="close" data-ej-buttontap="buttontap" data-ej-enableautoopen="true" >
-<div>
-10% of battery remaining
-</div>
-</div>
-<script> 
-function buttontap(args)
-{
-$("#dlg").ejmDialog("close");
-}
-function close(){}
-</script>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-//Close event for Dialog
-<div id="dlg">
-<div>
-10% of battery remaining
-</div>
-</div>
-<script> 
-$(function(){
-$("#dlg").ejmDialog({ enableAutoOpen : true , buttonTap:"buttonTap" , close:"close" });
-});
-function buttonTap(args) { 
-$("#dlg").ejmDialog("close");
-} 
-function close() { //handle the event 
-}               {% endhighlight %}
+
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-leftbuttoncaption="Close Dialog" data-ej-buttontap="closeDialog" data-ej-close="close">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+        function closeDialog() {
+            $("#alertdialog").ejmDialog("close");
+        }
+        function close(args) {
+            //handle the event
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ leftButtonCaption: "Close Dialog", buttonTap: "closeDialog", close: "close" });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+        function closeDialog() {
+            $("#alertdialog").ejmDialog("close");
+        }
+        function close(args) {
+            //handle the event
+        }
+    </script>
+
+
+
+{% endhighlight %}
 
 ### open
-{:#events:open}
+{:#events:open} 
 
 Event triggers after dialog window get opened.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from dialog.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from dialog.<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}title{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the title of the dialog.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+title</td><td>
+string</td><td>
+Returns the title of the dialog.</td></tr>
 </table>
 
+
+</td></tr>
+</table>
 #### Example
 
-{% highlight html %} 
-//Open event for Dialog
-<div > 
-<input data-role="ejmbutton" id="btn" data-ej-text="Click here to open dialog" data-ej-enableautoopen="true" data-ej-touchend="openDlg">
-</div>
-<div id="dlg" data-role="ejmdialog" data-ej-open="open" >
-<div>
-    10% of battery remaining
-  </div>
-</div>
-<script> 
-function openDlg(args) {
-$("#dlg").ejmDialog("open");
-}
-  function open(args) {
-       //handle the event
-}
-</script>{% endhighlight %}
+{% highlight html %}
 
-{% highlight html %} 
-//open event for Dialog
-<div> 
-  <input data-role="ejmbutton" id="btn" data-ej-text="Click here to open dialog" data-ej-enableautoopen="true" data-ej-touchend="openDlg"> 
- </div> 
-<div id="dlg"> 
-<div> 
-10% of battery remaining
-</div> 
-</div> 
-<script> 
-$(function () {
-$("#dlg").ejmDialog({ open: "open" });
-});
-function openDlg(args) {
-$("#dlg").ejmDialog("open");
-}
-function open(args) {
-    //handle the event
-  }
-</script> {% endhighlight %}
+
+    <!-- Unobtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog" data-role="ejmdialog" data-ej-open="open">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+        function open(args) {
+            //handle the event
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <input data-role="ejmbutton" type="button" data-ej-text="Open Dialog" data-ej-touchend="openAlertDialog" />
+    <div id="alertdialog">
+        <div>
+            10% of battery remaining
+        </div>
+    </div>
+
+    <script>
+        $("#alertdialog").ejmDialog({ open: "open" });
+        function openAlertDialog() {
+            $("#alertdialog").ejmDialog("open");
+        }
+        function open(args) {
+            //handle the event
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
