@@ -1,1669 +1,1012 @@
----
 layout: post
 title: ejmSlider | API Reference | Mobile JS | Syncfusion
-description:
-documentation: API
+description:  Methods, members, events available in ejmSlider
 platform: Mobilejs
-keywords: ejmSlider, API, Essential Studio JS Autocomplete (Mobile) 
----
+control: ejmSlider
+documentation: API
+keywords: ejmSlider, API, Essential Studio JS Slider (Mobile) 
 
 # ejmSlider
 
-Custom Design for Html slider control.
+The Essential JavaScript Mobile Slider widget provides support to select a value from a particular range as well as a range of value. 
 
-$(element).ejmSlider<span class="signature">()</span>
+Custom Design for Html slider control:
+
+$(element).ejmSlider()
+
 
 #### Example
 
-{% highlight html %} 
-<div id="slider" ></div>
-<script> 
-// Create slider  
-$("#slider").ejmSlider(); 
-</script>{% endhighlight %}
+{% highlight html %}
+
+<!-- Unobtrusive way of rendering -->
+<div id="slider" data-role="ejmslider"></div>
 
 
-{% highlight html %} 
-<div id="slider" data-role="ejmslider" ></div>
 {% endhighlight %}
 
 
 
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+<div id="slider"></div>
+    <script>
+        // Create slider
+        $(function () {
+            $("#slider").ejmSlider();
+        });
+    </script>
 
 
-
+{% endhighlight %}
 
 #### Requires
 
-
-
-
 * module:jQuery
-
 
 * module:ej.mobile.application
 
-
 * module:ej.core
-
 
 * module:ej.unobtrusive
 
-
 * module:ej.mobile.core
 
-
 * module:ej.data
-
 
 * module:ej.touch
 
 
 
-
 ## Members
 
-
-
-
-
-
-
-
-### animationSpeed`int`
+### animationSpeed `Int`
 {:#members:animationspeed}
-
-
-
-
-
-
-
 
 Specifies the animation speed when animation is enabled.
 
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * 400
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the animationSpeed property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-animationSpeed=100 ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-animationspeed=1000 data-ej-enableanimation=true></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set slider animationSpeed on initialization. 
-//To set animationSpeed API value 
-<div id="slider" ></div>
-<script>
-$("#slider").ejmSlider ({ animationSpeed: 400 });               
-</script>{% endhighlight %}
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        $(function () {
+            $("#slider").ejmSlider({ enableAnimation: true, animationSpeed: 1000 });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the slider animationSpeed, after initialization:
-// Get the animationSpeed API value.            
- $("#slider").ejmSlider ("option", "animationSpeed");                   
-// Set the animationSpeed API
-$("#slider").ejmSlider ("option", "animationSpeed", 400);  
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
-
-
-
-
-### enableAnimation`bool`
+### enableAnimation `Boolean`
 {:#members:enableanimation}
-
-
-
-
-
-
-
 
 Specifies whether to enable animation.
 
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * false
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the enableanimation property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-enableanimation=true ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-enableanimation=true></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set slider enableanimation on initialization. 
-//To set enableAnimation API value 
-<div id="slider" ></div>
-<script>
-$("#slider").ejmSlider ({ enableAnimation: false });    
-</script>{% endhighlight %}
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        $(function () {
+            $("#slider").ejmSlider({ enableAnimation: false });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the slider enableAnimation, after initialization:
-// Get the enableAnimation API value.           
- $("#slider").ejmSlider ("option", "enableAnimation");                  
-// Set the enableAnimation API
-$("#slider").ejmSlider ("option", "enableAnimation", false);  
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
-
-
-
-
-### enabled`bool`
+### enabled `Boolean`
 {:#members:enabled}
-
-
-
-
-
-
-
 
 Specifies whether to enable or disable the control.
 
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * true
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the enabled property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-enabled=true ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-enabled=false></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set slider enabled on initialization. 
-//To set enabled API value 
-<div id="slider" ></div>
-<script>
-$("#slider").ejmSlider ({ enabled: false });    
-</script>{% endhighlight %}
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        $(function () {
+            $("#slider").ejmSlider({ enabled: false });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the slider enabled, after initialization:
-// Get the enabled API value.           
- $("#slider").ejmSlider ("option", "enabled");                  
-// Set the enabled API
-$("#slider").ejmSlider ("option", "enabled", true); 
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
-
-
-
-
-### enablePersistence`bool`
+### enablePersistence `Boolean`
 {:#members:enablepersistence}
-
-
-
-
-
-
-
 
 Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
 
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * false
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the enablePersistence property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-enablePersistence=false ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-enablepersistence=false></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set slider enablePersistence on initialization. 
-//To set persist API value 
-<div id="slider" ></div>
-<script>
-$("#slider").ejmSlider ({ enablePersistence: false });  
-</script>{% endhighlight %}
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        $(function () {
+            $("#slider").ejmSlider({ enablePersistence: false });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the slider enablePersistence, after initialization:
-// Get the enablePersistence API value.         
- $("#slider").ejmSlider ("option", "enablePersistence");                        
-// Set the enablePersistence API
-$("#slider").ejmSlider ("option", "enablePersistence", false);  
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
-
-
-
-
-### enableRange`bool`
+### enableRange `Boolean`
 {:#members:enablerange}
-
-
-
-
-
-
-
 
 Specifies whether to enable range slider.
 
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * false
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the enableRange property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-enablerange=false ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-enablerange=true></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-<div id="slider" ></div>
-<script>
-// Set slider enableRange on initialization. 
-//To set enableRange API value 
-$("#slider").ejmSlider ({ enableRange: false });        
-</script>{% endhighlight %}
+
+{% highlight html %}
+
+    <!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        // Set slider enableRange on initialization.
+        //To set enableRange API value
+        $(function () {
+            $("#slider").ejmSlider({ enableRange: true });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the slider enableRange, after initialization:
-// Get the enableRange API value.               
- $("#slider").ejmSlider ("option", "enableRange");                      
-// Set the enableRange API
-$("#slider").ejmSlider ("option", "enableRange", false);
-</script>{% endhighlight %}
-
+{% endhighlight %}
 
 
 
-
-
-
-### incrementStep`int`
+### incrementStep `Int`
 {:#members:incrementstep}
 
+Specifies the step value for increment. 
 
-
-
-
-
-
-
-Specifies the step value for incrementation.
-
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * 1
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the incrementStep property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-incrementstep=1 ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-incrementstep=1></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-<div id="slider" ></div>
-<script>
-// Set slider incrementStep on initialization. 
-//To set incrementStep API value 
-$("#slider").ejmSlider ({ incrementStep: 1 });
-</script>{% endhighlight %}
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        // Set slider incrementStep on initialization.
+        //To set incrementStep API value
+        $(function () {
+            $("#slider").ejmSlider({ incrementStep: 1 });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the slider incrementStep, after initialization:
-// Get the incrementStep API value.             
- $("#slider").ejmSlider ("option", "incrementStep");                    
-// Set the incrementStep API
-$("#slider").ejmSlider ("option", "incrementStep", 1);      
-</script>{% endhighlight %}
-
-
-
-
+{% endhighlight %}
 
 
 
 ### ios7
 {:#members:ios7}
 
-
-
-
-
-
-
-
 Section for ios7 mode specific functionalities.
 
+### ios7.thumbStyle `Enum`
+{:#members:ios7.thumbstyle}
 
+Specifies the thumb style in ios7 mode. See[ThumbStyle](http://help.syncfusion.com/mobilejs/api/global.html)
 
-
-
-
-
-
-
-
-
-### ios7.thumbStyle`enum`
-{:#members:ios7-thumbstyle}
-
-
-
-
-
-
-
-
-Specifies the thumb style in ios7 mode. See <a href="global.html#ThumbStyle">ThumbStyle</a>
-
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * ej.mobile.Slider.ThumbStyle.Normal.
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-// Set the ios7 mode thumbStyle property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-rendermode="ios7" data-ej-ios7-thumbstyle="normal" ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-rendermode="ios7" data-ej-ios7-thumbstyle="small"></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// To set ios7 mode thumbStyle property API value 
-<div id="slider" ></div>
-<script>
-$("#slider").ejmSlider({renderMode:"ios7", ios7:{thumbStyle: ej.mobile.Slider.ThumbStyle.Small}});   
-</script>{% endhighlight %}
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        $(function () {
+            $("#slider").ejmSlider({ renderMode: "ios7", ios7: { thumbStyle: ej.mobile.Slider.ThumbStyle.Small } });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script> 
-// Get or set the ios7 mode thumbStyle API, after initialization:
-// Get the ios7 mode thumb style value  
-$("#slider").ejmSlider("option", "ios7.thumbStyle");   
-// Set the ios7 mode thumbStyle value 
-$("#slider").ejmSlider("option", "ios7.thumbStyle", ej.mobile.Slider.ThumbStyle.Normal); 
-</script> {% endhighlight %}
+{% endhighlight %}
 
 
 
-
-
-
-
-### maxValue`int`
+### maxValue `Int`
 {:#members:maxvalue}
-
-
-
-
-
-
-
 
 Specifies the maximum value.
 
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * 100
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the maxValue property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-maxValue=100 ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-maxvalue=100></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set slider maxValue on initialization. 
-//To set maxValue API value 
-<div id="slider" ></div>
-<script>
-$("#slider").ejmSlider ({ maxValue: 100 });     
-</script>                 {% endhighlight %}
+
+{% highlight html %}
+
+   <!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        $(function () {
+            $("#slider").ejmSlider({ maxValue: 100 });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the slider maxValue, after initialization:
-// Get the maxValue API value.          
- $("#slider").ejmSlider ("option", "maxValue");                 
-// Set the maxValue API
-$("#slider").ejmSlider ("option", "maxValue", 100);    
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
-
-
-
-
-### minValue`int`
+### minValue `Int`
 {:#members:minvalue}
-
-
-
-
-
-
-
 
 Specifies the minimum value.
 
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * 0
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the minValue property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-minValue=0 ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-minvalue=0></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set slider minValue on initialization. 
-//To set minValue API value 
-<div id="slider" ></div>
-<script>
-$("#slider").ejmSlider ({ minValue: 0 });       
-</script>{% endhighlight %}
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        $(function () {
+            $("#slider").ejmSlider({ minValue: 0 });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the slider minValue, after initialization:
-// Get the minValue API value.          
- $("#slider").ejmSlider ("option", "minValue");                 
-// Set the minValue API
-$("#slider").ejmSlider ("option", "minValue", 0);     
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
-
-
-
-
-
-### orientation`enum`
+### orientation `Enum`
 {:#members:orientation}
 
+Specifies whether the orientation is horizontal or vertical. See[Orientation](http://help.syncfusion.com/mobilejs/api/global.html)
 
-
-
-
-
-
-
-Specifies whether the orientation is horizontal or vertical. See <a href="global.html#Orientation">Orientation</a>
-
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * ej.mobile.Slider.Orientation.Horizontal.
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the orientation property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-orientation="horizontal" ></div>
+  <!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-orientation="vertical"></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set slider orientation on initialization. 
-//To set orientation API value 
-<div id="slider" ></div>
-<script>
-$("#slider").ejmSlider ({ orientation: ej.mobile.Slider.Orientation.Vertical });                        
-</script>{% endhighlight %}
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        $(function () {
+            $("#slider").ejmSlider({ orientation: ej.mobile.Slider.Orientation.Vertical });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the slider orientation, after initialization:
-// Get the orientation API value.               
- $("#slider").ejmSlider ("option", "orientation");                      
-// Set the orientation API
-$("#slider").ejmSlider ("option", "orientation", ej.mobile.Slider.Orientation.Horizontal);  
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
-
-
-
-
-### readOnly`bool`
+### readOnly `Boolean`
 {:#members:readonly}
-
-
-
-
-
-
-
 
 Specifies whether the control is read only.
 
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * false
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the readOnly property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-readOnly=true ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-readonly=true></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set slider readOnly on initialization. 
-//To set readOnly API value 
-<div id="slider" ></div>
-<script>
-$("#slider").ejmSlider ({ readOnly: false });           
-</script>{% endhighlight %}
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        $(function () {
+            $("#slider").ejmSlider({ readOnly: true });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the slider readOnly, after initialization:
-// Get the readOnly API value.          
- $("#slider").ejmSlider ("option", "readOnly");                 
-// Set the readOnly API
-$("#slider").ejmSlider ("option", "readOnly", false);    
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
-
-
-
-
-### renderMode`enum`
+### renderMode `Enum`
 {:#members:rendermode}
 
+Specifies the rendering mode of the control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
-
-
-
-
-
-
-Specifies the rendering mode of the control. See <a href="global.html#RenderMode">RenderMode</a>
-
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * auto
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the renderMode property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-rendermode="auto" ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-rendermode="auto"></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set slider rendermode on initialization. 
-//To set renderMode API value 
-<div id="slider" ></div>
-<script>
-$(function(){
-$("#slider").ejmSlider ({ renderMode: ej.mobile.RenderMode.Android });  
-});
-</script>{% endhighlight %}
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <div id="slider"></div>	
+    <script>
+        $(function () {
+            $("#slider").ejmSlider({ renderMode: ej.mobile.RenderMode.Android });
+        });
+    </script>
 
 
-{% highlight html %}<script> 
-//Get or set the slider rendermode, after initialization:
-// Get the renderMode API value.                
- $("#slider").ejmSlider ("option", "renderMode");                       
-// Set the renderMode API
-$("#slider").ejmSlider ("option", "renderMode", ej.mobile.RenderMode.Android);      
-</script> {% endhighlight %}
-
-
-
-
-
-
-
-### theme`enum`
-{:#members:theme}
-
-
-
-
-
-
-
-
-Specifies the theme. See <a href="global.html#Theme">Theme</a>
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* auto
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the theme property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-theme="auto" ></div>
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set slider theme on initialization. 
-//To set theme API value 
-<div id="slider" ></div>
-<script>
-$(function(){
-$("#slider").ejmSlider ({ theme: ej.mobile.Theme.Dark });               
-});
-</script>                 {% endhighlight %}
 
-
-{% highlight html %} 
-<script>
-//Get or set the slider theme, after initialization:
-// Get the theme API value.             
- $("#slider").ejmSlider ("option", "theme");                    
-// Set the theme API
-$("#slider").ejmSlider ("option", "theme", ej.mobile.Theme.Dark);        
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### value`int`
+### value `Int`
 {:#members:value}
-
-
-
-
-
-
-
 
 Specifies the current value.
 
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * 0
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the value property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-value=0 ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-value=30></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set slider value on initialization. 
-//To set value API value 
-<div id="slider" ></div>
-<script>
-$("#slider").ejmSlider ({ value: 50 }); 
-</script>{% endhighlight %}
+
+{% highlight html %}
+
+  <!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        $(function () {
+            $("#slider").ejmSlider({ value: 50 });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the slider value, after initialization:
-// Get the value API value.             
- $("#slider").ejmSlider ("option", "value");                    
-// Set the value API
-$("#slider").ejmSlider ("option", "value", 0);         
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
-
-
-
-
-### values`int[]`
+### values `Int[]`
 {:#members:values}
-
-
-
-
-
-
-
 
 Specifies the values when range slider is enabled.
 
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * [20,80]
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the values property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-enablerange=true data-ej-values=[20,80] ></div>
+<!-- Unobtrusive way of rendering -->
+    <div id="slider" data-role="ejmslider" data-ej-enablerange=true data-ej-values=[20,80]></div>
+
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set slider values on initialization. 
-//To set values API value
-<div id="slider" ></div>
-<script>
-$(function(){
-$("#slider").ejmSlider ({ enableRange: true,  values: [20,80] });
-});
-</script>                 {% endhighlight %}
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <div id="slider"></div>
+    <script>
+        $(function () {
+            $("#slider").ejmSlider({ enableRange: true, values: [20, 80] });
+        });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the slider values, after initialization:
-// Get the values API value.            
- $("#slider").ejmSlider ("option", "values");                   
-// Set the values API
-$("#slider").ejmSlider ("option", "values", [20,80]);  
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### windows
-{:#members:windows}
-
-
-
-
-
-
-
-
-Section for windows mode specific functionalities.
-
-
-
-
-
-
-
-
-
-
-
-### windows.renderDefault`boolean`
-{:#members:windows-renderdefault}
-
-
-
-
-
-
-
-
-Specifies whether to render control based on the windowsphone's current accent color and device theme.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-// Set the windows mode renderDefault property in unobtrusive way.
-<div id="slider" data-role="ejmslider" data-ej-rendermode="windows" data-ej-windows-renderDefault=false ></div>
 {% endhighlight %}
-
-
-{% highlight html %} 
-<div id="slider" ></div>
-<script>
-// To set windows mode renderDefault property API value 
-$("#slider").ejmSlider({ renderMode:"windows", windows:{renderDefault: false}});   
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script> 
-// Get or set the windows mode renderDefault API, after initialization:
-// Get the windows mode renderDefault value  
-$("#slider").ejmSlider("option", "windows.renderDefault");   
-// Set the windows mode renderDefault value 
-$("#slider").ejmSlider("option", "windows.renderDefault", false); 
-</script> {% endhighlight %}
-
-
 
 
 
 ## Methods
 
-
-
-
-
-
-
-
-### getValue`()`
+### getValue()
 {:#methods:getvalue}
-
-
-
-
-
-
-
 
 To get the current value.
 
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-<div id="slider" data-role="ejmslider" ></div>
-<script>
-// Create slider
-$(function(){
-var slider = $("#slider").data("ejmSlider");
-slider.getValue(); // returns the slider's current value
-});
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
 <div id="slider"></div>
-<script>
-// get the slider's current value
-$("#slider").ejmSlider();       
-$(function(){
-$("#slider").ejmSlider("getValue");     
-});
-</script>{% endhighlight %}
+    <script>
+        // get the slider's current value        
+        $(function () {
+            $("#slider").ejmSlider();
+            $("#slider").ejmSlider("getValue");
+        });
+    </script>
 
 
+{% endhighlight %}
 
 
 
 ## Events
 
-
-
-
-
-
-
-
 ### change
 {:#events:change}
 
-
-
-
-
-
-
-
 Event triggers when the value changed.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from slider.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from slider.<table><br><tr><br><th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}value{% endhighlight %}</td>
-<td class="type"><span class="param-type">int</span></td>
-<td class="description last">returns the current value of the control.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+value</td><td>
+int</td><td>
+returns the current value of the control.</td></tr>
 </table>
 
 
-
-
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Unobtrusive way of rendering -->
 <div id="slider" data-role="ejmslider" data-ej-change="onChange"></div>
-<script> 
-// Change event for slider  
-function onChange(args){ //handle the event
-}
-</script>{% endhighlight %}
+    <script>
+        // Change event for slider
+        function onChange(args) { //handle the event            
+        }
+    </script>
 
 
-{% highlight html %} 
-<div id="slider" ></div>
-<script>
-//change event for slider
-$("#slider").ejmSlider({
-  change: function (args) { //handle the event 
-}
-});        
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
+{% highlight html %}
 
+<!-- Obtrusive way of rendering -->
+<div id="slider"></div>
+    <script>
+        //change event for slider
+        $(function () {
+            $("#slider").ejmSlider({
+                change: function (args) { //handle the event                    
+                }
+            });
+        });
+    </script>
+
+
+{% endhighlight %}
 
 
 
 ### load
 {:#events:load}
 
-
-
-
-
-
-
-
 Event triggers before the control get loaded.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Descrip</b><b>tion</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from slider.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from slider.<table><br><tr><br><th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
+<td>
+value</td><td>
+int</td><td>
+returns the current value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}value{% endhighlight %}</td>
-<td class="type"><span class="param-type">int</span></td>
-<td class="description last">returns the current value of the control.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}values{% endhighlight %}</td>
-<td class="type"><span class="param-type">int[]</span></td>
-<td class="description last">returns the current range values of the control when range slider feature is enabled.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+values</td><td>
+int[]</td><td>
+returns the current range values of the control when range slider feature is enabled.</td></tr>
 </table>
 
 
-
-
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-<div id="slider" data-role="ejmslider" data-ej-load="onLoad" ></div>
-<script> 
-// Load event for slider  
-function onLoad(args){ //handle the event
-}
-</script>{% endhighlight %}
+<!-- Unobtrusive way of rendering -->
+<div id="slider" data-role="ejmslider" data-ej-load="onLoad"></div>
+    <script>
+        // Load event for slider
+        function onLoad(args) { //handle the event            
+        }
+    </script>
 
 
-{% highlight html %} 
-<div id="slider" ></div>
-<script>
-//Load event for slider
-$("#slider").ejmSlider({
-  load: function (args) { //handle the event 
-}
-});    
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
+{% highlight html %}
 
+<!-- Obtrusive way of rendering -->
+<div id="slider"></div>
+    <script>
+        //Load event for slider
+        $(function () {
+            $("#slider").ejmSlider({
+                load: function (args) { //handle the event
+                }
+            });
+        });
+    </script>
+
+
+{% endhighlight %}
 
 
 
 ### slide
 {:#events:slide}
 
-
-
-
-
-
-
-
 Event triggers when touch move happens on the control.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from slider.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from slider.<table><br><tr><br><th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
+<td>
+value</td><td>
+int</td><td>
+Returns the current value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}value{% endhighlight %}</td>
-<td class="type"><span class="param-type">int</span></td>
-<td class="description last">returns the current value of the control.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}values{% endhighlight %}</td>
-<td class="type"><span class="param-type">int[]</span></td>
-<td class="description last">returns the current range values of the control when range slider feature is enabled.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+values</td><td>
+int[]</td><td>
+Returns the current range values of the control when range slider feature is enabled.</td></tr>
 </table>
 
 
-
-
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Unobtrusive way of rendering -->
 <div id="slider" data-role="ejmslider" data-ej-slide="onslide"></div>
-<script> 
-// slide event for slider  
-function onslide(args){ //handle the event
-}
-</script>{% endhighlight %}
+    <script>
+        // slide event for slider
+        function onslide(args) { //handle the event            
+        }
+    </script>
 
 
-{% highlight html %} 
-<div id="slider" ></div>
-<script>
-//Slide event for slider
-$("#slider").ejmSlider({
-  slide: function (args) { //handle the event 
-}
-});   
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
+{% highlight html %}
 
+<!-- Obtrusive way of rendering -->
+<div id="slider"></div>
+    <script>
+        //Slide event for slider
+        $(function () {
+            $("#slider").ejmSlider({
+                slide: function (args) { //handle the event                    
+                }
+            });
+        });
+    </script>
+
+
+{% endhighlight %}
 
 
 
 ### touchEnd
 {:#events:touchend}
 
-
-
-
-
-
-
-
 Event triggers when touch end happens on the control.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from slider.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from slider.<table><br><tr><br><th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+If the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}value{% endhighlight %}</td>
-<td class="type"><span class="param-type">int</span></td>
-<td class="description last">returns the current value of the control.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+value</td><td>
+int</td><td>
+Returns the current value of the control.</td></tr>
 </table>
 
 
-
-
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-<div id="slider" data-role="ejmslider" data-ej-touchEnd="onStop"></div>
-<script> 
-// touchEnd event for slider  
-function onStop(args){ //handle the event
-}
-</script>{% endhighlight %}
+<!-- Unobtrusive way of rendering -->
+<div id="slider" data-role="ejmslider" data-ej-touchend="onStop"></div>
+    <script>
+        // touchEnd event for slider
+        function onStop(args) { //handle the event
+        }
+    </script>
 
 
-{% highlight html %} 
-<div id="slider" ></div>
-<script>
-//touchEnd event for slider
-$("#slider").ejmSlider({
-  touchEnd: function (args) { //handle the event 
-}
-});           
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
+{% highlight html %}
 
+<!-- Obtrusive way of rendering -->
+<div id="slider"></div>
+    <script>
+        //touchEnd event for slider
+        $(function () {
+            $("#slider").ejmSlider({
+                touchEnd: function (args) { //handle the event               
+                }
+            });
+        });
+    </script>
+
+
+{% endhighlight %}
 
 
 
 ### touchStart
 {:#events:touchstart}
 
-
-
-
-
-
-
-
 Event triggers when touch start happens on the control.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from slider.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from slider.<table><br><tr><br><th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+If the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}value{% endhighlight %}</td>
-<td class="type"><span class="param-type">int</span></td>
-<td class="description last">returns the current value of the control.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+value</td><td>
+int</td><td>
+Returns the current value of the control.</td></tr>
 </table>
 
 
-
-
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-<div id="slider" data-role="ejmslider" data-ej-touchStart="onStart"></div>
-<script> 
-// touchStart event for slider  
-function onStart(args){ //handle the event
-}
-</script>{% endhighlight %}
+<!-- Unobtrusive way of rendering -->
+<div id="slider" data-role="ejmslider" data-ej-touchstart="onStart"></div>
+    <script>
+        // touchStart event for slider
+        function onStart(args) { //handle the event
+        }
+    </script>
 
 
-{% highlight html %} 
-<div id="slider" ></div>
-<script>
-//touchStart event for slider
-$("#slider").ejmSlider({
-  touchStart: function (args) { //handle the event 
-}
-});  
-</script>{% endhighlight %}
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+<div id="slider"></div>
+    <script>
+        //touchStart event for slider
+        $(function () {
+            $("#slider").ejmSlider({
+                touchStart: function (args) { //handle the event                    
+                }
+            });
+        });
+    </script>
+
+
+{% endhighlight %}
 
 
 

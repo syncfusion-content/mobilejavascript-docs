@@ -1,883 +1,654 @@
----
 layout: post
 title: ejmRadioButton | API Reference | Mobile JS | Syncfusion
-description:
-documentation: API
+description:  Methods, members, events available in ejmRadioButton
 platform: Mobilejs
-keywords: ejmRadioButton, API, Essential Studio JS Autocomplete (Mobile) 
----
+control: ejmRadioButton
+documentation: API
+keywords: ejmRadioButton, API, Essential Studio JS RadioButton (Mobile) 
 
 # ejmRadioButton
 
-Custom Design for Html RadioButton control.
 
-$(element).ejmRadioButton<span class="signature">()</span>
+The Essential JavaScript Mobile RadioButton control allows you to choose an option to perform an action. This control allows you to select true/false. 
+
+Custom Design for HTML RadioButton control.
+
+$(element).ejmRadioButton()
 
 #### Example
 
-{% highlight html %} 
-// Create radiobutton control in Unobtrusive way.
+{% highlight html %}
+
+<!-- Unobtrusive way of rendering -->
 <input type="radio" id="radbtn" data-role="ejmradiobutton" />
+
 {% endhighlight %}
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Obtrusive way of rendering -->
 <input type="radio" id="radbtn" />
-<script> 
-  // Create RadioButton  
-  $("#radbtn").ejmRadioButton(); 
-</script>{% endhighlight %}
+<script>
+$("#radbtn").ejmRadioButton();
+</script>
 
 
-
-
-
-
+{% endhighlight %}
 
 #### Requires
 
-
-
-
 * module:jQuery
-
-
-* module:ej.mobile.application
-
 
 * module:ej.core
 
-
 * module:ej.unobtrusive
-
 
 * module:ej.mobile.core
 
-
 * module:ej.data
-
 
 * module:ej.touch
 
-
-
-
 ## Members
 
-
-
-
-
-
-
-
-### checked`boolean`
+### checked `Boolean`
 {:#members:checked}
 
+Specifies whether to check the control.
 
-
-
-
-
-
-
-Specifies the checked attribute.
-
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * false
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the checked property in Unobtrusive way.
-<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-checked=false />
+<!-- Unobtrusive way of rendering -->
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-checked=true />
+
 {% endhighlight %}
 
+{% highlight html %}
 
-{% highlight html %} 
-// To set checked API value during initialization  
-<input type="radio" id="radbtn"/>
+<!-- Obtrusive way of rendering -->
+<input type="radio" id="radbtn" />
 <script>
- $("#radbtn").ejmRadioButton({ checked:  true });                                       
-</script>{% endhighlight %}
+$("#radbtn").ejmRadioButton({ checked: true });
+</script>
 
+{% endhighlight %}
 
-{% highlight html %} 
-// Get or set the checked API, after initialization:
- //Gets the checked value  
- $("#radbtn").ejmRadioButton("option", "checked");
-                  
- //Sets the checked value 
- $("#radbtn").ejmRadioButton("option", "checked",  false );  {% endhighlight %}
-
-
-
-
-
-
-
-### cssClass`string`
+### cssClass `String`
 {:#members:cssclass}
-
-
-
-
-
-
-
 
 Sets the root class for RadioButton theme. This cssClass API helps to use custom skinning option for RadioButton control. By defining the root class using this API, we need to include this root class in CSS.
 
+#### Default Value:
 
-
-
-#### Default Value
-
-
-
-
-
-
-* ""
-
-
-
-
-
-
-
+* ””
 
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-// Set the cssClass property in Unobtrusive way.
+<!-- Unobtrusive way of rendering -->
 <input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-cssclass="customclass" />
+
 {% endhighlight %}
 
+{% highlight html %}
 
-{% highlight html %} 
-// Set RadioButton cssClass on initialization. 
-// To set renderMode API value 
-<input type="radio" id="radbtn"/>
+<!-- Obtrusive way of rendering -->
+<input type="radio" id="radbtn" />
 <script>
-$(function() {
-$("#radbtn").ejmRadioButton ({ cssClass: "customclass" });              
-});
-</script>{% endhighlight %}
+// To set cssClass API value
+$("#radbtn").ejmRadioButton({ cssClass: "customclass" });
+</script>
 
+{% endhighlight %}
 
-{% highlight html %} 
-// Get or set the cssClass property, after initialization:
-  // Gets the cssClass API value.               
-  $("#radbtn").ejmRadioButton ("option", "cssClass");                   
-  // Sets the cssClass API
-  $("#radbtn").ejmRadioButton ("option", "cssClass", "customclass"); {% endhighlight %}
-
-
-
-
-
-
-
-### enabled`boolean`
+### enabled `Boolean`
 {:#members:enabled}
 
+Specifies whether to enable or disable the control.
 
-
-
-
-
-
-
-Specifies whether the control is enabled or not.
-
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * true
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the enabled property in Unobtrusive way.
-<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-enabled=true />
+<!-- Unobtrusive way of rendering -->
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-enabled=false />
+
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Enabled RadioButton on initialization. 
-  // To set width API value 
-<input type="radio" id="radbtn"/>
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+<input type="radio" id="radbtn" />
 <script>
-        $("#radbtn").ejmRadioButton ({ enabled: true });                        
-</script>{% endhighlight %}
+// To set enabled API value
+$("#radbtn").ejmRadioButton({ enabled: false });
+</script>
 
-
-{% highlight html %} 
-// Get or set the enabled state, after initialization:
-  // Gets the Enabled API value.                
-        $("#radbtn").ejmRadioButton ("option", "enabled");                      
-  // Sets the Enabled API
-        $("#radbtn").ejmRadioButton ("option", "enabled", true);{% endhighlight %}
-
-
-
-
-
-
-
-### enablePersistence`boolean`
+{% endhighlight %}
+### enablePersistence `Boolean`
 {:#members:enablepersistence}
 
+Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
 
-
-
-
-
-
-
-Saves current model value to browser cookies for state maintains. While refreshing the page retains the model value apply from browser cookies.
-
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * false
 
+#### Example
 
+{% highlight html %}
 
+<!-- Unobtrusive way of rendering -->
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-enablepersistence=true />
 
+{% endhighlight %}
 
+{% highlight html %}
 
+<!-- Obtrusive way of rendering -->
+<input type="radio" id="radbtn" />
+<script>
+$("#radbtn").ejmRadioButton({ enablePersistence: true });
+</script>
 
+{% endhighlight %}
+
+### enableRippleEffect `Boolean`
+{:#members:enablerippleeffect}
+
+Specifies the ripple effect for the RadioButton control. By default in android mode its value is true and other rendermode we need to set as true.
+
+#### Default Value:
+
+* ej.isAndroid()?true:false
 
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-// Set the enablePersistence property in Unobtrusive way.
-<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-enablepersistence=true />
+<!-- Unobtrusive way of rendering -->
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-enablerippleeffect=true />
+
 {% endhighlight %}
 
+{% highlight html %}
 
-{% highlight html %} 
-// To set enablePersistence API value 
-<input type="radio" id="radbtn"/>
+<!-- Obtrusive way of rendering -->
+<input type="radio" id="radbtn" />
 <script>
-  $("#radbtn").ejmRadioButton({ enablePersistence: true});               
-</script>{% endhighlight %}
+$("#radbtn").ejmRadioButton({ enableRippleEffect: true });
+</script>
 
+{% endhighlight %}
 
-{% highlight html %} 
-// Get or set the enablePersistence API, after initialization:
-  // Gets the enablePersistence value  
-  $("#radbtn").ejmRadioButton("option", "enablePersistence");                   
-  // Sets the enablePersistence value 
-  $("#radbtn").ejmRadioButton("option", "enablePersistence", true ); {% endhighlight %}
-
-
-
-
-
-
-
-### renderMode`enum`
+### renderMode `Enum`
 {:#members:rendermode}
 
+Specifies the rendering mode of the control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
-
-
-
-
-
-
-Changes the rendering mode. See <a href="global.html#RenderMode">RenderMode</a>
-
-
-
-
-#### Default Value
-
-
-
-
-
+#### Default Value:
 
 * auto
 
-
-
-
-
-
-
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-// Set the renderMode property in Unobtrusive way.
+<!-- Unobtrusive way of rendering -->
 <input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-rendermode="auto" />
+
 {% endhighlight %}
 
+{% highlight html %}
 
-{% highlight html %} 
-// Set RadioButton rendermode on initialization. 
-// To set renderMode API value 
-<input type="radio" id="radbtn"/>
+<!-- Obtrusive way of rendering -->
+<input type="radio" id="radbtn" />
 <script>
-$(function() {
-$("#radbtn").ejmRadioButton ({ renderMode: ej.mobile.RenderMode.Auto });                
-});
-</script>{% endhighlight %}
+// To set renderMode API value
+$("#radbtn").ejmRadioButton({ renderMode: ej.mobile.RenderMode.Auto });
+</script>
 
-
-{% highlight html %} 
-// Get or set the renderMode property, after initialization:
-  // Gets the renderMode API value.             
-  $("#radbtn").ejmRadioButton ("option", "renderMode");                 
-  // Sets the renderMode API
-  $("#radbtn").ejmRadioButton ("option", "renderMode", ej.mobile.RenderMode.Auto); {% endhighlight %}
-
-
-
-
-
-
-
-### text`string`
-{:#members:text}
-
-
-
-
-
-
-
-
-Specifies the text content.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* ""
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-// Set the text property in Unobtrusive way.
-<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-text="RadioButton" />
 {% endhighlight %}
-
-
-{% highlight html %} 
-// To set text API value 
-<input type="radio" id="radbtn"/>
-<script>
-  $("#radbtn").ejmRadioButton({ text: "Hello World"});           
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-// Get or set the text API, after initialization:
-  // Gets the text value  
-  $("#radbtn").ejmRadioButton("option", "text");                        
-  // Sets the text value 
-  $("#radbtn").ejmRadioButton("option", "text", "Hello World" ); {% endhighlight %}
-
-
-
-
-
-
-
-### theme`enum`
-{:#members:theme}
-
-
-
-
-
-
-
-
-Changes the theme. See <a href="global.html#Theme">Theme</a>
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* auto
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the theme property in Unobtrusive way.
-<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-theme="auto" />
-{% endhighlight %}
-
-
-{% highlight html %} 
-// Set theme property on initialization. 
-  // To set theme API value 
-<input type="radio" id="radbtn"/>
-<script>
-$(function(){
-  $("#radbtn").ejmRadioButton ({ theme: ej.mobile.Theme.Auto });                        
-});
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-// Get or set the theme API value, after initialization:
-  // Gets the theme API value.          
-  $("#radbtn").ejmRadioButton ("option", "theme");                      
-  // Sets the theme API
-  $("#radbtn").ejmRadioButton ("option", "theme", ej.mobile.Theme.Auto);{% endhighlight %}
-
-
-
-
 
 ## Methods
 
-
-
-
-
-
-
-
-### disable`()`
+### disable()
 {:#methods:disable}
 
-
-
-
-
-
-
-
-To disable the radio button.
-
-
-
-
+To disable the radiobutton.
 
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-<input type="radio" id="radbtn" data-role="ejmradiobutton" />
+<input type="radio" id="radbtn" />
 <script>
-        $("#radbtn").ejmRadioButton ("disable");                        
-</script>{% endhighlight %}
+// get the radiobutton current state
+$("#radbtn").ejmRadioButton();
+$("#radbtn").ejmRadioButton("disable");
+</script>
 
+{% endhighlight %}
 
-
-
-
-
-
-### enable`()`
+### enable()
 {:#methods:enable}
 
-
-
-
-
-
-
-
-To enable the radio button
-
-
-
-
+To enable the radiobutton.
 
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-<input type="radio" id="radbtn" data-role="ejmradiobutton" />
+<input type="radio" id="radbtn" />
 <script>
-        $("#radbtn").ejmRadioButton ("enable");                 
-</script>{% endhighlight %}
+$("#radbtn").ejmRadioButton();
+$("#radbtn").ejmRadioButton("enable");
+</script>
 
+{% endhighlight %}
 
+### isChecked()
+{:#methods:ischecked}
 
+To check whether the radio button is checked or not.
 
+#### Example
+
+{% highlight html %}
+
+<input type="radio" id="radbtn" />
+<script>
+// get the radiobutton current state
+$("#radbtn").ejmRadioButton();
+$("#radbtn").ejmRadioButton("isChecked");
+</script>
+
+{% endhighlight %}
 
 ## Events
 
+### beforeChange
+{:#events:beforechange}
 
+Event triggers before the RadioButton state is changed.
 
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from RadioButton.<table><br><tr><br><th><br><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
+<tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
+<tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
+<tr>
+<td>
+value</td><td>
+string</td><td>
+Returns the current element associated value.</td></tr>
+<tr>
+<td>
+isChecked</td><td>
+boolean</td><td>
+Returns the status of the control.</td></tr>
+<tr>
+<td>
+controlType</td><td>
+string</td><td>
+Returns the name of the controltype</td></tr>
+<tr>
+<td>
+element</td><td>
+Object</td><td>
+Returns the current radiobutton element</td></tr>
+</table>
 
+</td></tr>
+</table>
+#### Example  
 
+{% highlight html %}
 
+<!-- Unobtrusive way of rendering -->
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-beforechange="onBeforeChange" />
+<script>
+// before change event for radiobutton
+function onBeforeChange(args) {
+//handle the event            
+}
+</script>
 
+{% endhighlight %}
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+<input type="radio" id="radbtn" data-role="ejmradiobutton" />
+// before change event for radiobutton
+<script>
+$("#radbtn").ejmRadioButton({
+beforeChange: function (args) {
+//handle the event                
+}
+});
+</script>
+
+{% endhighlight %}
 
 ### change
 {:#events:change}
 
+Event triggers when the RadioButton state is changed.
 
-
-
-
-
-
-
-Event triggers when the selection in radiobutton is changed.
-
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from RadioButton
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from RadioButton.<table><br><tr><br><th><br><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the RadioButton model</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns the name of the event</td>
-</tr>
+<td>
+value</td><td>
+string</td><td>
+returns the current element associated value.</td></tr>
 <tr>
-<td class="name">{% highlight html %}value{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns the current element associated value</td>
-</tr>
+<td>
+isChecked</td><td>
+boolean</td><td>
+returns the status of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}isChecked{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns the status of the element</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+controlType</td><td>
+string</td><td>
+returns the name of the controltype</td></tr>
+<tr>
+<td>
+element</td><td>
+Object</td><td>
+return the current radiobutton element</td></tr>
 </table>
 
-
-
-
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-// Define the change event in Unobtrusive way.
-<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-change="change" />
-<script> 
-// change event for RadioButton            
-function change(args){ 
-//handle the event here
+<!-- Unobtrusive way of rendering -->
+<input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-change="onChange" />
+<script>
+// change event for radiobutton
+function onChange(args) {
+//handle the event
 }
-</script>{% endhighlight %}
+</script>
+
+{% endhighlight %}
 
 
-{% highlight html %} 
-// change event for RadioButton
-<input type="radio" id="radbtn" data-role="ejmradiobutton"/>
-<script> 
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+<input type="radio" id="radbtn" data-role="ejmradiobutton" />
+// change event for radiobutton
+<script>
 $("#radbtn").ejmRadioButton({
- change: function (args) { 
-      //handle the event 
-  }
-});     
-</script> {% endhighlight %}
+change: function (args) {
+//handle the event
+}
+});
+</script>
 
-
-
-
-
+{% endhighlight %}
 
 
 ### touchEnd
 {:#events:touchend}
 
+Event triggers when touch end happens on the control.
 
-
-
-
-
-
-
-Event triggers when the touch end happens in the RadioButton.
-
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from RadioButton
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from RadioButton.<table><br><tr><br><th><br><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the RadioButton model</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns the name of the event</td>
-</tr>
+<td>
+value</td><td>
+boolean</td><td>
+Returns the current element associated value.</td></tr>
 <tr>
-<td class="name">{% highlight html %}value{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns the current element associated value</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}isChecked{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns the status of the element</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+isChecked</td><td>
+boolean</td><td>
+Returns the status of the control.</td></tr>
 </table>
 
-
-
-
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-// Define the touchend event in Unobtrusive way.
+<!-- Unobtrusive way of rendering -->
 <input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-touchend="touchend" />
-<script> 
-// touchEnd event for RadioButton            
-function touchend(args){ 
-//handle the event here
+<script>
+// touchEnd event for radiobutton
+function touchend(args) {
+//handle the event
 }
-</script>{% endhighlight %}
+</script>
+
+{% endhighlight %}
 
 
-{% highlight html %} 
-// touchEnd event for RadioButton
-<input type="radio" id="radbtn" data-role="ejmradiobutton"/>
-<script> 
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+<input type="radio" id="radbtn" data-role="ejmradiobutton" />
+// touchEnd event for radiobutton
+<script>
 $("#radbtn").ejmRadioButton({
-  touchEnd: function (args) { 
-      //handle the event 
-  }
-});     
-</script> {% endhighlight %}
+touchEnd: function (args) {
+//handle the event
+}
+});
+</script>
 
-
-
-
-
-
+{% endhighlight %}
 
 ### touchStart
 {:#events:touchstart}
 
+Event triggers when touch start happens on the control.
 
-
-
-
-
-
-
-event triggers when the touch start happens in the RadioButton.
-
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from RadioButton
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from Radiobutton.<table><br><tr><br><th><br><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the RadioButton model</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns the name of the event</td>
-</tr>
+<td>
+value</td><td>
+string</td><td>
+Returns the current element associated value.</td></tr>
 <tr>
-<td class="name">{% highlight html %}value{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns the current element associated value</td>
-</tr>
+<td>
+isChecked</td><td>
+boolean</td><td>
+Returns the status of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}isChecked{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns the status of the element</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+controlType</td><td>
+string</td><td>
+Returns the name of the controltype</td></tr>
+<tr>
+<td>
+element</td><td>
+Object</td><td>
+Return the current radiobutton element</td></tr>
 </table>
 
-
-
-
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-// Define the touchstart event in Unobtrusive way.
+<!-- Unobtrusive way of rendering -->
 <input type="radio" id="radbtn" data-role="ejmradiobutton" data-ej-touchstart="touchstart" />
-<script> 
-  // touchStart event for RadioButton 
-  function touchstart(args){ 
-      //handle the event 
-  }
-</script>{% endhighlight %}
+<script>
+// touchStart event for radiobutton
+function touchstart(args) {
+//handle the event
+}
+</script>
+
+{% endhighlight %}
 
 
-{% highlight html %} 
-// touchStart event for RadioButton
-<input type="radio" id="radbtn" data-role="ejmradiobutton"/>
-<script> 
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+<input type="radio" id="radbtn" data-role="ejmradiobutton" />
+// touchStart event for radiobutton
+<script>
 $("#radbtn").ejmRadioButton({
-  touchStart: function (args) { 
-        //handle the event 
-  }
-});           
-</script> {% endhighlight %}
+touchStart: function (args) {
+//handle the event
+}
+});
+</script>
+
+
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

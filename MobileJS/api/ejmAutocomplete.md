@@ -1,49 +1,46 @@
----
 layout: post
 title: ejmAutocomplete | API Reference | Mobile JS | Syncfusion
-description: 
-documentation: API
+description:  Methods, members, events available in ejmAutocomplete
 platform: Mobilejs
-keywords: ejmAutocomplete, API, Essential Studio JS Autocomplete (Mobile)
----
+control: ejmAutocomplete
+documentation: API
+keywords: ejmAutocomplete, API, Essential Studio JS AutoComplete (Mobile) 
+
 
 # ejmAutocomplete
+The Essential JavaScript Mobile AutoComplete widget is a text box control that provides a list of suggestions based on a user’s query.  
 
-Custom Design for Html Autocomplete control.
+Custom Design for HTML AutoComplete control.
 
-$(element).ejmAutocomplete<span class="signature">()</span>
+$(element).ejmAutocomplete()
 
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
-// Create the autocomplete control in unobtrusive way.
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />    
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-field="name" />
 
 {% endhighlight %}
 
-{% highlight html %} 
 
-// Create autocomplete on initialization.
 
-<input id="autocomplete" />
+{% highlight html %}
 
-<script> 
+  <!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        // Create autocomplete
+        $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-// Create autocomplete  
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name" }); 
-
-</script>
 
 {% endhighlight %}
 
 #### Requires
 
 * module:jQuery
-
-* module:ej.mobile.application
 
 * module:ej.core
 
@@ -55,1554 +52,969 @@ $("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name" }
 
 * module:ej.mobile.scrollpanel
 
-* module:ej.mobile.menu
-
 * module:ej.data
 
 * module:ej.touch
 
+
+
 ## Members
 
-### allowScrolling `boolean`
-{:#members:allowscrolling}
-
-Specifies whether to be allow the scrolling in suggestion list.
-
-
-#### Default Value
-
-* true
-
-#### Example
-
-
-{% highlight html %} 
-
-//Set the allowScrolling property in unobtrusive way.
-
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-allowscrolling=true data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the allowScrolling on initialization. 
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set allowscrolling API value 
-
-$("#autocomplete").ejmAutocomplete ({ allowScrolling:true, dataSource:"window.datasrc", field:"name" });                        
-
-</script>
-
-{% endhighlight %}
-
-
-{% highlight html %} 
-
-//Get or set the  allowScrolling, after initialization:
-
-// Get the allowScrolling API value. 
-           
-$("#autocomplete").ejmAutocomplete ("option", "allowScrolling"); 
- 
-// Set the allowScrolling API
-
-$("#autocomplete").ejmAutocomplete ("option", "allowScrolling", true);
-
-{% endhighlight %}
-
-### allowSorting`boolean`
+### allowSorting `Boolean`
 {:#members:allowsorting}
 
 Specifies the whether allowSorting to be allowed or not in suggestion list on initialization
 
-#### Default Value
+#### Default Value: 
 
 * true
 
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-allowsorting=true data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-//Set the allowSorting property in unobtrusive way.
-
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-allowsorting=true data-ej-datasource="window.datasrc" data-ej-field="name" />
 
 {% endhighlight %}
 
 
-{% highlight html %} 
 
-// Set the allowSorting on initialization. 
+{% highlight html %}
 
-<input id="autocomplete" />
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the allowSorting API value
+        $("#autocomplete").ejmAutocomplete({ allowSorting: true, dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-<script> 
-
-//To set the allowSorting API value 
-
-$("#autocomplete").ejmAutocomplete ({ allowSorting:true, dataSource:"window.datasrc", field:"name" });                  
-
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
 
-//Get or set the allowSorting, after initialization:
-
-// Get the allowSorting API value. 
-             
- $("#autocomplete").ejmAutocomplete ("option", "allowSorting");
- 
-// Set the allowSorting API
-
-$("#autocomplete").ejmAutocomplete ("option", "allowSorting", true);
-            
-{% endhighlight %}
-
-### caseSensitiveSearch`boolean`
+### caseSensitiveSearch `Boolean`
 {:#members:casesensitivesearch}
 
 Specifies whether to search key is case sensitive or not on initialization.
 
-#### Default Value
+#### Default Value: 
 
 * false
 
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
-//Set the caseSensitiveSearch property in unobtrusive way.
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-casesensitivesearch=true data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-casesensitivesearch=false data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the caseSensitiveSearch on initialization. 
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set the caseSensitiveSearch API value 
-
-$("#autocomplete").ejmAutocomplete ({ caseSensitiveSearch:false, dataSource:"window.datasrc", field:"name" });                  
-
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
 
-//Get or set the caseSensitiveSearch, after initialization:
 
-// Get the caseSensitiveSearch API value.
-               
- $("#autocomplete").ejmAutocomplete ("option", "caseSensitiveSearch");    
- 
-// Set the caseSensitiveSearch API
+{% highlight html %}
 
-$("#autocomplete").ejmAutocomplete ("option", "caseSensitiveSearch", false);            
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the caseSensitiveSearch API value
+        $("#autocomplete").ejmAutocomplete({ caseSensitiveSearch: true, dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
+
 
 {% endhighlight %}
 
-### cssClass`string`
+
+
+### cssClass `String`
 {:#members:cssclass}
 
 Sets the root class for AutoComplete theme. This cssClass API helps to use custom skinning option for AutoComplete control. By defining the root class using this API, we need to include this root class in CSS.
 
-#### Default Value
+#### Default Value: 
 
-* ""
+* ””
 
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
-//Set the cssClass property in unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-cssclass="customclass" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-cssclass="customclass" data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the cssClass on initialization. 
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set the cssClass API value 
-
-$("#autocomplete").ejmAutocomplete ({ cssClass:"customclass", dataSource:"window.datasrc", field:"name" });                     
-
-</script>
 
 {% endhighlight %}
+
 
 
 {% highlight html %}
- 
-//Get or set the cssClass, after initialization:
 
-// Get the cssClass API value.
-          
-$("#autocomplete").ejmAutocomplete ("option", "cssClass");    
-                  
-// Set the cssClass API
+  <!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the cssClass API value
+        $("#autocomplete").ejmAutocomplete({ cssClass: "customclass", dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-$("#autocomplete").ejmAutocomplete ("option", "cssClass", "customclass");            
 
 {% endhighlight %}
 
-### dataSource`data`
+
+### dataSource `data`
 {:#members:datasource}
 
 Specifies the datasource for items.
 
-#### Default Value
+#### Default Value: 
 
-* null
+* []
 
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
-//Set the dataSource property in unobtrusive way.
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />    
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-field="name" />
+
 {% endhighlight %}
 
 
-{% highlight html %} 
 
-// Set the dataSource on initialization. 
+{% highlight html %}
 
-<input id="autocomplete" />
+  <!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        // Create autocomplete
+        $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-<script> 
-
-//To set the dataSource API value 
-
-$("#autocomplete").ejmAutocomplete ({ dataSource:"window.datasrc", field:"name" });                     
-
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
 
-//Get or set the dataSource, after initialization:
 
-// Get the dataSource API value.
-                
- $("#autocomplete").ejmAutocomplete ("option", "dataSource"); 
- 
-// Set the dataSource API
-
-$("#autocomplete").ejmAutocomplete ("option", "dataSource", "window.datasrc");
-
-{% endhighlight %}
-
-### delimiterChar`string`
+### delimiterChar `String`
 {:#members:delimiterchar}
 
 Specifies the delimiterChar string for Multivalue mode that separates two items.
 
-#### Default Value
+#### Default Value: 
 
-* ","
+* ”,”
 
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
-//Set the delimiterChar property in unobtrusive way.
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-enablemultiselect="true" data-ej-delimiterchar="-" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-enablemultiselect="true" data-ej-delimiterchar="," data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the delimiterChar on initialization. 
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set the delimiterChar API value 
-
-$("#autocomplete").ejmAutocomplete ({ enableMultiSelect:true, delimiterChar:",", dataSource:"window.datasrc", field:"name"  });                 
-
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
 
-//Get or set the delimiterChar, after initialization:
 
-// Get the delimiterChar API value.
-             
- $("#autocomplete").ejmAutocomplete ("option", "delimiterChar"); 
- 
-// Set the delimiterChar API
+{% highlight html %}
 
-$("#autocomplete").ejmAutocomplete ("option", "delimiterChar", ",");
+  <!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        // Create autocomplete
+        $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", enableMultiSelect: true, delimiterChar: "-", fields: { text: "name" } });
+    </script>
+
 
 {% endhighlight %}
 
-### emptyResultText`string`
+### emptyResultText `String`
 {:#members:emptyresulttext}
 
 Specifies the text that to be displayed while there is no suggestion for AutoComplete search key
 
-#### Default Value
+#### Default Value: 
 
-* "No suggestions"
+* “No suggestions”
 
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
-//Set the emptyResultText property in unobtrusive way.
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-emptyresulttext="No suggestions" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-emptyresulttext="No suggestions" data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the emptyResultText on initialization. 
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set the emptyResultText API value 
-
-$("#autocomplete").ejmAutocomplete ({ emptyResultText:"No suggestions", dataSource:"window.datasrc", field:"name" });                   
-
-</script>
 
 {% endhighlight %}
 
 
-{% highlight html %} 
 
-//Get or set the  emptyResultText, after initialization:
+{% highlight html %}
 
-// Get the emptyResultText API value.   
-        
- $("#autocomplete").ejmAutocomplete ("option", "emptyResultText");
- 
-// Set the emptyResultText API
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the emptyResultText API value
+        $("#autocomplete").ejmAutocomplete({ emptyResultText: "No suggestions", dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-$("#autocomplete").ejmAutocomplete ("option", "emptyResultText", "No suggestions");
-            
+
 {% endhighlight %}
 
-### enableAutoFill`boolean`
+
+### enableAutoFill `Boolean`
 {:#members:enableautofill}
 
 Specifies whether to auto fill option by which we can select and show up the first search result in textbox on initialization.
 
-#### Default Value
+#### Default Value: 
 
 * false
 
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
-//Set the enableAutoFill property in unobtrusive way.
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-enableautofill=true data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-enableautofill=false data-ej-datasource="window.datasrc" data-ej-field="name" />
 
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the enableAutoFill on initialization.
- 
-<input id="autocomplete" />
-
-<script> 
-
-//To set the enableAutoFill API value
- 
-$("#autocomplete").ejmAutocomplete ({ enableAutoFill:false, dataSource:"window.datasrc", field:"name" });                       
-
-</script>
 
 {% endhighlight %}
 
-
-{% highlight html %} 
-
-//Get or set the enableAutoFill, after initialization:
-
-// Get the enableAutoFill API value. 
-           
- $("#autocomplete").ejmAutocomplete ("option", "enableAutoFill");
- 
-// Set the enableAutoFill API
-
-$("#autocomplete").ejmAutocomplete ("option", "enableAutoFill", false);
-
-{% endhighlight %}
-
-### enableCheckbox`boolean`
-{:#members:enablecheckbox}
-
-Specifies whether to show checkbox in suggestion item list in Multivalue mode.
-
-#### Default Value
-
-* true
-
-#### Example
-
-{% highlight html %} 
-
-//Set the enableCheckbox property in unobtrusive way.
-
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-multivalue=true data-ej-enablecheckbox=true data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
 
 
 {% highlight html %}
- 
-// Set the enableCheckbox on initialization. 
 
-<input id="autocomplete" />
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the enableAutoFill API value
+        $("#autocomplete").ejmAutocomplete({ enableAutoFill: true, dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-<script> 
-
-//To set the enableCheckbox API value 
-
-$("#autocomplete").ejmAutocomplete ({ enableCheckbox:true, dataSource:"window.datasrc", field:"name" });                        
-
-</script>
 
 {% endhighlight %}
 
 
-{% highlight html %} 
-
-//Get or set the autocomplete enableCheckbox, after initialization:
-
-// Get the enableCheckbox API value.  
-         
- $("#autocomplete").ejmAutocomplete ("option", "enableCheckbox"); 
- 
-// Set the enableCheckbox API
-
-$("#autocomplete").ejmAutocomplete ("option", "enableCheckbox", true);            
-
-{% endhighlight %}
-
-### enabled`boolean`
+### enabled `Boolean`
 {:#members:enabled}
-
 
 Specifies whether to enable the autoComplete on initialization.
 
-
-#### Default Value
+#### Default Value: 
 
 * true
 
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
-//Set the enabled property in unobtrusive way.
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-enabled=false data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-enabled=true data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the enabled on initialization.
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set the enabled API value 
-
-$("#autocomplete").ejmAutocomplete ({ enabled:true, dataSource:"window.datasrc", field:"name" });                       
-
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
 
-//Get or set the  enabled, after initialization:
 
-// Get the enabled API value.
-           
- $("#autocomplete").ejmAutocomplete ("option", "enabled");   
- 
-// Set the enabled API
+{% highlight html %}
 
-$("#autocomplete").ejmAutocomplete ("option", "enabled", true);           
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the enabled API value
+        $("#autocomplete").ejmAutocomplete({ enabled: false, dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
+
 
 {% endhighlight %}
 
-### enableDistinct`boolean`
+
+
+### enableDistinct `Boolean`
 {:#members:enabledistinct}
 
 Specifies whether the duplicate results to be shown or not in search results
 
-#### Default Value
+#### Default Value: 
 
 * false
 
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
-//Set the enableDistinct property in unobtrusive way.
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-enabledistinct=true data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-enabledistinct=false data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the enableDistinct on initialization. 
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set the enableDistinct API value 
-
-$("#autocomplete").ejmAutocomplete ({ enableDistinct:false, dataSource:"window.datasrc", field:"name" });                       
-
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
 
-//Get or set the enableDistinct, after initialization:
 
-// Get the enableDistinct API value.
-            
- $("#autocomplete").ejmAutocomplete ("option", "enableDistinct");
- 
-// Set the enableDistinct API
+{% highlight html %}
 
-$("#autocomplete").ejmAutocomplete ("option", "enableDistinct", false);            
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the enableDistinct API value
+        $("#autocomplete").ejmAutocomplete({ enableDistinct: false, dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
+
 
 {% endhighlight %}
 
-### enableMultiSelect`boolean`
+
+### enableMultiSelect `Boolean`
 {:#members:enablemultiselect}
 
 Specifies whether to accept multiple values or not.
 
-
-#### Default Value
+#### Default Value: 
 
 * false
 
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+    <!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-enablemultiselect=true data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-//Set the enableMultiSelect property in unobtrusive way.
-
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-enablemultiselect=false data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the enableMultiSelect on initialization.
- 
-<input id="autocomplete" />
-
-<script> 
-
-//To set the enableMultiSelect API value
- 
-$("#autocomplete").ejmAutocomplete ({ enableMultiSelect:false, dataSource:"window.datasrc", field:"name" });                    
-
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
 
-//Get or set the enableMultiSelect, after initialization:
 
-// Get the enableMultiSelect API value.
-         
- $("#autocomplete").ejmAutocomplete ("option", "enableMultiSelect"); 
- 
-// Set the enableMultiSelect API
+{% highlight html %}
 
-$("#autocomplete").ejmAutocomplete ("option", "enableMultiSelect", false);            
+    <!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the enableMultiSelect API value
+        $("#autocomplete").ejmAutocomplete({ enableMultiSelect: true, dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
+
 
 {% endhighlight %}
 
-### enablePersistence`boolean`
+### enablePersistence `Boolean`
 {:#members:enablepersistence}
 
 Current model value to browser cookies for state maintains. While refresh the Autocomplete control page retains the model value apply from browser cookies.
 
-#### Default Value
+#### Default Value: 
 
 * false
 
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-enablepersistence=false data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-//Set the enablePersistence property in unobtrusive way.
-
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-enablepersistence=false data-ej-datasource="window.datasrc" data-ej-field="name" />
 
 {% endhighlight %}
 
-{% highlight html %} 
-
-// Set the enablePersistence on initialization. 
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set the enablePersistence API value 
-
-$("#autocomplete").ejmAutocomplete ({ enablePersistence:false, dataSource:"window.datasrc", field:"name" });                    
-</script>{% endhighlight %}
 
 
 {% highlight html %}
- 
-//Get or set the enablePersistence, after initialization:
 
-// Get the persist API value.    
-       
- $("#autocomplete").ejmAutocomplete ("option", "enablePersistence"); 
- 
-// Set the persist API
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the enablePersistence API value
+        $("#autocomplete").ejmAutocomplete({ enablePersistence: false, dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-$("#autocomplete").ejmAutocomplete ("option", "enablePersistence", false);            
 
 {% endhighlight %}
 
 
-### field`string`
-{:#members:field}
+### fields
+{:#members:fields}
 
 Specifies the datasource text field that to be queried by search key on initialization.
 
-#### Default Value
 
-* "text"
+### fields.image `String`
+{:#members:fields.image}
+
+Specifies the field’s image.
+
+#### Default Value: 
+
+* null.
 
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-fields-image="image" data-ej-fields-text="name" />
 
-//Set the field property in unobtrusive way.
-
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-field="name" />
 
 {% endhighlight %}
+
 
 
 {% highlight html %}
- 
-// Set the field on initialization.
- 
-<input id="autocomplete" />
 
-<script> 
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the enablePersistence API value
+        $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name", image: "image" } });
+    </script>
 
-//To set the field API value 
-
-$("#autocomplete").ejmAutocomplete ({ dataSource:"window.datasrc", field:"name" });   
-                  
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
+### fields.key `String`
+{:#members:fields.key}
 
-//Get or set the field, after initialization:
+Specifies the field’s key.
 
-// Get the field API value.
-             
- $("#autocomplete").ejmAutocomplete ("option", "field"); 
- 
-// Set the field API
+#### Default Value: 
 
-$("#autocomplete").ejmAutocomplete ("option", "field", "name"); 
+* null.
+
+#### Example
+
+{% highlight html %}
+
+<!-- Unobtrusive way of rendering -->
+<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-fields-key="key" data-ej-fields-text="name" />
+
 
 {% endhighlight %}
 
-### filterType`enum`
+
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the enablePersistence API value
+        $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name", key: "key" } });
+    </script>
+
+
+{% endhighlight %}
+
+
+### fields.text `String`
+{:#members:fields.text}
+
+Specifies the field’s text.
+
+#### Default Value: 
+
+* null.
+
+#### Example
+
+{% highlight html %}
+
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+  <!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the enablePersistence API value
+        $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
+
+
+{% endhighlight %}
+
+
+### filterType `Enum`
 {:#members:filtertype}
 
-Specifies the type of the filter by which the filtering occurs.See <a href="global.html#FilterType">FilterType</a>
+Specifies the type of the filter by which the filtering occurs. See[FilterType](http://help.syncfusion.com/mobilejs/api/global.html)
 
-#### Default Value
+#### Default Value: 
 
-* contains
-
-#### Example
-
-
-{% highlight html %} 
-
-//Set the filterType property in unobtrusive way.
-
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-filtertype="contains" data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-
-{% highlight html %}
- 
-// Set the filterType on initialization.
- 
-<input id="autocomplete" />
-
-<script> 
-
-//To set the filterType API value
- 
-$("#autocomplete").ejmAutocomplete ({ filterType:"ej.mobile.Autocomplete.FilterType.Contains", dataSource:"window.datasrc", field:"name" });                    
-
-</script>
-
-{% endhighlight %}
-
-{% highlight html %}
- 
-//Get or set the filterType, after initialization:
-
-// Get the filterType API value.
-                
- $("#autocomplete").ejmAutocomplete ("option", "filterType");
- 
-// Set the filterType API
-
-$("#autocomplete").ejmAutocomplete ("option", "filterType", ej.mobile.Autocomplete.FilterType.Contains);            
-
-{% endhighlight %}
-
-### imageClass`string`
-{:#members:imageclass}
-
-Specifies the autocomplete image field of the datasource as Class
-
-#### Default Value
-
-* null
+* startswith
 
 #### Example
 
 {% highlight html %}
- 
-//Set the imageClass property in unobtrusive way.
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-imageclass="image" data-ej-field="name" />
+    <!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-filtertype="contains" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the imageClass on initialization
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set the imageClass API value
- 
-$("#autocomplete").ejmAutocomplete ({ imageClass:"image", dataSource:"window.datasrc", field:"name" });                 
-
-</script>
 
 {% endhighlight %}
 
-{% highlight html %}
- 
-//Get or set the imageClass, after initialization:
-
-// Get the imageClass API value.
-                
- $("#autocomplete").ejmAutocomplete ("option", "imageClass");
- 
-// Set the imageClass API
-
-$("#autocomplete").ejmAutocomplete ("option", "imageClass", "image");            
-
-{% endhighlight %}
-
-### imageField`string`
-{:#members:imagefield}
-
-Specifies the datasource image field as URL.
-
-#### Default Value
-
-* null
-
-#### Example
-
-{% highlight html %} 
-
-//Set the imageField property in unobtrusive way.
-
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-imagefield="image" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %}
- 
-// Set the imageField on initialization. 
-
-<input id="autocomplete" />
-
-<script>
- 
-//To set the imageField API value
- 
-$("#autocomplete").ejmAutocomplete ({ imageField:"image", dataSource:"window.datasrc", field:"name" });                 
-
-</script>
-
-{% endhighlight %}
 
 
 {% highlight html %}
 
-//Get or set the imageField, after initialization:
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the filterType API value
+        $("#autocomplete").ejmAutocomplete({ filterType: "contains", dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-// Get the imageField API value.
-                
- $("#autocomplete").ejmAutocomplete ("option", "imageField");
- 
-// Set the imageField API
-
-$("#autocomplete").ejmAutocomplete ("option", "imageField", "image");            
 
 {% endhighlight %}
 
 
-### itemsCount`number`
+
+### itemsCount `Number`
 {:#members:itemscount}
-
 
 Specifies the number of items shown in the suggestion list.
 
-#### Default Value
+#### Default Value: 
 
-* 5
-
-#### Example
-
-{% highlight html %}
- 
-//Set the itemsCount property in unobtrusive way.
-
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-itemscount=5 data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the itemsCount on initialization.
- 
-<input id="autocomplete" />
-
-<script>
- 
-//To set the itemsCount API value
- 
-$("#autocomplete").ejmAutocomplete ({ itemsCount:5, dataSource:"window.datasrc", field:"name" });                       
-
-</script>
-
-{% endhighlight %}
-
-{% highlight html %}
- 
-//Get or set the itemsCount, after initialization:
-
-// Get the itemsCount API value. 
-               
- $("#autocomplete").ejmAutocomplete ("option", "itemsCount");
- 
-// Set the itemsCount API
-
-$("#autocomplete").ejmAutocomplete ("option", "itemsCount", 5);            
-
-{% endhighlight %}
-
-
-### mapper`string`
-{:#members:mapper}
-
-
-Specifies the remote url that to be used as a datasource for autocomplete
-
-#### Default Value
-
-* null
+* 0
 
 #### Example
 
 {% highlight html %}
- 
-//Set the mapper property in unobtrusive way.
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-mapper="http://mvc.syncfusion.com/Services/Northwnd.svc/Suppliers" data-ej-datasource="window.datasrc" data-ej-field="ContactName" />
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-itemscount=5 data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
+
 
 {% endhighlight %}
 
+
+
 {% highlight html %}
 
-// Set the mapper on initialization.
- 
+<!-- Obtrusive way of rendering -->
 <input id="autocomplete" />
+    <script>
+        //To set the itemsCount API value
+        $("#autocomplete").ejmAutocomplete({ itemsCount: 5, dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-<script>
- 
-//To set the mapper API value 
-
-$("#autocomplete").ejmAutocomplete ({ mapper: "http://mvc.syncfusion.com/Services/Northwnd.svc/Suppliers", dataSource:"window.datasrc", field:"ContactName" });                 
-
-</script>
 
 {% endhighlight %}
+
+
+### locale `String`
+{:#members:locale}
+
+Change the AutoComplete text format based on given culture.
+
+#### Default Value: 
+
+* “en-US”
+
+#### Example
 
 {% highlight html %}
- 
-//Get or set the mapper, after initialization:
 
-// Get the mapper API value.
-            
- $("#autocomplete").ejmAutocomplete ("option", "mapper");
- 
-// Set the mapper API
+    <!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-locale="en-US" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-$("#autocomplete").ejmAutocomplete ("option", "mapper", "http://mvc.syncfusion.com/Services/Northwnd.svc/Suppliers");            
 
 {% endhighlight %}
 
-### minCharacter`number`
+
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the mode API value
+        $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name" }, locale: "en-US" });
+    </script>
+
+
+{% endhighlight %}
+
+
+### minCharacter `Number`
 {:#members:mincharacter}
 
-Specifies the minimum search key length after which only autocomplete querying the datasource
+Specifies the minimum search key length, which only AutoComplete queries from the datasource.
 
-#### Default Value
+#### Default Value: 
 
 * 1
 
-
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-mincharacter=2 data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-//Set the minCharacter property in unobtrusive way.
-
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-mincharacter=1 data-ej-datasource="window.datasrc" data-ej-field="name" />
 
 {% endhighlight %}
 
 
-{% highlight html %} 
 
-// Set the minCharacter on initialization.
- 
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
 <input id="autocomplete" />
+    <script>
+        //To set the minCharacter API value
+        $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name" }, minCharacter: 2 });
+    </script>
 
-<script> 
-
-//To set the minCharacter API value
- 
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name",minCharacter:2 });                       
-
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
 
-//Get or set the minCharacter, after initialization:
 
-// Get the minCharacter API value.              
- 
- $("#autocomplete").ejmAutocomplete ("option", "minCharacter");                 
-
- // Set the minCharacter API
-
- $("#autocomplete").ejmAutocomplete ("option", "minCharacter", 1);            
- 
-{% endhighlight %}
-
-### mode`enum`
+### mode `Enum`
 {:#members:mode}
 
-Specifies the AutoComplete mode. See <a href="global.html#Mode">Mode</a>
+Specifies the AutoComplete mode. See[Mode](http://help.syncfusion.com/mobilejs/api/global.html)
 
-#### Default Value
+#### Default Value: 
 
 * default
 
 #### Example
 
-
 {% highlight html %}
- 
-//Set the mode property in unobtrusive way.
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-mode="default" data-ej-datasource="window.datasrc" data-ej-field="name" />
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-mode="search" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
+
 
 {% endhighlight %}
 
-{% highlight html %} 
-// Set the mode on initialization.
- 
+
+
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
 <input id="autocomplete" />
+    <script>
+        //To set the mode API value
+        $("#autocomplete").ejmAutocomplete({ mode: "search", dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-<script>
- 
-//To set the mode API value 
-
-$("#autocomplete").ejmAutocomplete ({ mode:ej.mobile.Autocomplete.Mode.Default, dataSource:"window.datasrc", field:"name" });                   
-
-</script>
 
 {% endhighlight %}
+
+
+### popupHeight `String`
+{:#members:popupheight}
+
+Specifies the AutoComplete popup height.
+
+#### Default Value: 
+
+* “164px”
+
+#### Example
+
+{% highlight html %}
+
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-popupheight="100px" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
+
+
+{% endhighlight %}
+
 
 
 {% highlight html %}
 
-//Get or set the mode, after initialization:
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the mode API value
+        $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name" }, popupHeight: "100px" });
+    </script>
 
-// Get the mode API value. 
-             
- $("#autocomplete").ejmAutocomplete ("option", "mode");
- 
-// Set the mode API
-
-$("#autocomplete").ejmAutocomplete ("option", "mode", ej.mobile.Autocomplete.Mode.Default);            
 
 {% endhighlight %}
 
-### renderMode`enum`
+
+
+### popupWidth `String`
+{:#members:popupwidth}
+
+Specifies the AutoComplete popup width.
+
+#### Default Value: 
+
+* “auto”
+
+#### Example
+
+{% highlight html %}
+
+<!-- Unobtrusive way of rendering -->
+   <input id="autocomplete" data-role="ejmautocomplete" data-ej-popupwidth="500px" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+   <!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the mode API value
+        $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name" }, popupWidth: "500px" });
+    </script>
+
+
+{% endhighlight %}
+
+
+
+### renderMode `Enum`
 {:#members:rendermode}
 
-Changes the rendering mode of the autocomplete . See <a href="global.html#RenderMode">RenderMode</a>
+Changes the rendering mode of the autocomplete. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global)
 
-
-#### Default Value
+#### Default Value: 
 
 * auto
 
 #### Example
 
 {% highlight html %}
- 
-//Set the renderMode property in unobtrusive way.
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-rendermode="auto" data-ej-datasource="window.datasrc" data-ej-field="name" />
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-rendermode="auto" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
+
 
 {% endhighlight %}
+
 
 
 {% highlight html %}
- 
-// Set the renderMode on initialization. 
 
-<input id="autocomplete" />
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the renderMode API value
+        $("#autocomplete").ejmAutocomplete({ renderMode: ej.mobile.RenderMode.Auto, dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-<script>
- 
-//To set the renderMode API value 
-
-$("#autocomplete").ejmAutocomplete ({ renderMode: ej.mobile.RenderMode.Auto, dataSource:"window.datasrc", field:"name" });                      
-
-</script>
 
 {% endhighlight %}
 
-
-{% highlight html %} 
-
-//Get or set the  renderMode, after initialization:
-
-// Get the renderMode API value.
-                
- $("#autocomplete").ejmAutocomplete ("option", "renderMode");
- 
-// Set the renderMode API
-
-$("#autocomplete").ejmAutocomplete ("option", "renderMode", ej.mobile.RenderMode.Auto);
-
-{% endhighlight %}
-
-### showEmptyResultText`boolean`
+### showEmptyResultText `Boolean`
 {:#members:showemptyresulttext}
 
 Specifies the search result to be shown or not while there is no suggestion for AutoComplete search key
 
-#### Default Value
+#### Default Value: 
 
 * true
 
-
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
-//Set the showEmptyResultText property in unobtrusive way.
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-showemptyresulttext=false data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-showemptyresulttext=true data-ej-datasource="window.datasrc" data-ej-field="name" />
 
 {% endhighlight %}
 
-
-{% highlight html %} 
-
-// Set the showEmptyResultText on initialization. 
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set the showEmptyResultText API value 
-
-$("#autocomplete").ejmAutocomplete ({ showEmptyResultText:true, dataSource:"window.datasrc", field:"name" });                   
-
-</script>
-
-{% endhighlight %}
 
 
 {% highlight html %}
- 
-//Get or set the showEmptyResultText, after initialization:
 
-// Get the showEmptyResultText API value.
-               
- $("#autocomplete").ejmAutocomplete ("option", "showEmptyResultText"); 
- 
-// Set the showEmptyResultText API
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the showEmptyResultText API value
+        $("#autocomplete").ejmAutocomplete({ showEmptyResultText: false, dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-$("#autocomplete").ejmAutocomplete ("option", "showEmptyResultText", true);            
 
 {% endhighlight %}
 
-### sortOrder`enum`
+
+
+
+### sortOrder `Enum`
 {:#members:sortorder}
 
+Specifies the suggestion list sorting order. See[SortOrder](http://help.syncfusion.com/mobilejs/api/global.html)
 
-Specifies the suggestion list sorting order. See <a href="global.html#SortOrder">SortOrder</a>
-
-#### Default Value
+#### Default Value: 
 
 * ascending
 
 #### Example
 
 {% highlight html %}
- 
-//Set the sortOrder property in unobtrusive way.
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-sortorder="ascending" data-ej-datasource="window.datasrc" data-ej-field="name" />
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-sortorder="descending" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
+
 
 {% endhighlight %}
+
 
 
 {% highlight html %}
- 
-// Set the sortOrder on initialization. 
 
-<input id="autocomplete" />
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the sortOrder API value
+        $("#autocomplete").ejmAutocomplete({ sortOrder: "Descending", dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-<script>
- 
-//To set the sortOrder API value
- 
-$("#autocomplete").ejmAutocomplete ({ sortOrder:ej.mobile.SortOrder.Ascending, dataSource:"window.datasrc", field:"name" });                    
-
-</script>
 
 {% endhighlight %}
 
 
-{% highlight html %} 
-
-//Get or set the sortOrder, after initialization:
-
-// Get the sortOrder API value.
-         
- $("#autocomplete").ejmAutocomplete ("option", "sortOrder");
- 
-// Set the sortOrder API
-
-$("#autocomplete").ejmAutocomplete ("option", "sortOrder", ej.mobile.SortOrder.Ascending);            
-
-{% endhighlight %}
-
-### templateId`string`
+### templateId `String`
 {:#members:templateid}
 
 Specifies the template id for items.
 
-#### Default Value
+#### Default Value: 
 
-* null
-
-
-#### Example
-
-
-{% highlight html %}
- 
-//Set the templateId property in unobtrusive way.
-
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-templateId="template" data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the templateId on initialization. 
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set the templateId API value 
-
-$("#autocomplete").ejmAutocomplete ({ templateId:"template", dataSource:"window.datasrc", field:"name" });                      
-
-</script>
-
-{% endhighlight %}
-
-{% highlight html %}
- 
-//Get or set the templateId, after initialization:
-
-// Get the templateId API value.
-                
- $("#autocomplete").ejmAutocomplete ("option", "templateId");
- 
-// Set the templateId API
-
-$("#autocomplete").ejmAutocomplete ("option", "templateId", "template");            
-
-{% endhighlight %}
-
-
-### theme`enum`
-{:#members:theme}
-
-Changes the theme of the autocomplete . See <a href="global.html#Theme">Theme</a>
-
-#### Default Value
-
-* auto
+* “”
 
 #### Example
 
 {% highlight html %}
 
-//Set the theme property in unobtrusive way.
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-templateid="template" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-theme="auto" data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %} 
-
-// Set the theme on initialization. 
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set the theme API value 
-
-$("#autocomplete").ejmAutocomplete ({ theme: ej.mobile.Theme.Auto, dataSource:"window.datasrc", field:"name" });                        
-
-</script>
 
 {% endhighlight %}
 
 
-{% highlight html %} 
-//Get or set the autocomplete theme, after initialization:
 
-// Get the theme API value.
-             
- $("#autocomplete").ejmAutocomplete ("option", "theme");
- 
-// Set the theme API
+{% highlight html %}
 
-$("#autocomplete").ejmAutocomplete ("option", "theme", ej.mobile.Theme.Auto);            
+   <!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />
+    <script>
+        //To set the templateId API value
+        $("#autocomplete").ejmAutocomplete({ templateId: "template", dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
+
 
 {% endhighlight %}
 
-### value`string`
+
+### value `String`
 {:#members:value}
 
 Specifies the textbox value on initialization
 
-#### Default Value
+#### Default Value: 
 
-* ""
+* ””
 
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
-//Set the value property in unobtrusive way.
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-value="Text" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-value="Text" data-ej-datasource="window.datasrc" data-ej-field="name" />
 
 {% endhighlight %}
 
 
+
 {% highlight html %}
- 
-// Set the value on initialization.
- 
+
+<!-- Obtrusive way of rendering -->
 <input id="autocomplete" />
+    <script>
+        //To set the value API value
+        $("#autocomplete").ejmAutocomplete({ value: "Text", dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-<script> 
-
-//To set the value API value 
-
-$("#autocomplete").ejmAutocomplete ({ value:"Text", dataSource:"window.datasrc", field:"name" });                       
-
-</script>
 
 {% endhighlight %}
 
 
-{% highlight html %}
-
-//Get or set the value, after initialization:
-
-// Get the value API value.  
-           
- $("#autocomplete").ejmAutocomplete ("option", "value");
- 
-// Set the value API
-
-$("#autocomplete").ejmAutocomplete ("option", "value", "Text");            
-
-{% endhighlight %}
-
-
-### watermarkText`string`
+### watermarkText `String`
 {:#members:watermarktext}
 
 Specifies the autocomplete watermark text that to be shown on autocomplete text box when it is empty
 
+#### Default Value: 
 
-#### Default Value
-
-
-
-* "Search"
-
-
-
+* null
 
 #### Example
 
-
 {% highlight html %}
- 
-//Set the watermarkText property in unobtrusive way.
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-watermarktext="Search" data-ej-datasource="window.datasrc" data-ej-field="name" />
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-watermarktext="Search" data-ej-datasource="window.datasrc" data-ej-fields-text="name" />
+
 
 {% endhighlight %}
 
-
-{% highlight html %}
- 
-// Set the watermarkText on initialization.
-
-<input id="autocomplete" />
-
-<script> 
-
-//To set the watermarkText API value 
-
-$("#autocomplete").ejmAutocomplete ({ watermarkText: "Search", dataSource:"window.datasrc", field:"name" });                    
-
-</script>
-
-{% endhighlight %}
 
 
 {% highlight html %}
- 
-//Get or set the watermarkText, after initialization:
 
-// Get the watermarkText API value. 
-            
- $("#autocomplete").ejmAutocomplete ("option", "watermarkText");
- 
-// Set the watermarkText API
+<!-- Obtrusive way of rendering -->
+    <input id="autocomplete" />	
+    <script>
+        //To set the watermarkText API value
+        $("#autocomplete").ejmAutocomplete({ watermarkText: "Search", dataSource: "window.datasrc", fields: { text: "name" } });
+    </script>
 
-$("#autocomplete").ejmAutocomplete ("option", "watermarkText", "Search");            
 
 {% endhighlight %}
 
-
-### windows
-{:#members:windows}
-
-
-Section for windows rendermode specific functionalities.
-
-
-### windows.renderDefault`boolean`
-{:#members:windows-renderdefault}
-
-Specifies whether to render the autocomplete based on the windowsphone's current accent color and device theme
-
-#### Default Value
-
-* false
-
-
-#### Example
-
-
-{% highlight html %} 
-
-// Set the windows mode renderDefault property in unobtrusive way.
-
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-rendermode="windows" data-ej-windows-renderdefault=true data-ej-datasource="window.datasrc" data-ej-field="name" />
-
-{% endhighlight %}
-
-{% highlight html %} 
-
-// To set the windows mode renderDefault property API value 
-
-<input id="autocomplete" />
-
-<script>
- 
-//To set the windows mode renderDefault API value
- 
-$("#autocomplete").ejmAutocomplete({renderMode:"windows", windows:{ renderDefault: true }, dataSource:"window.datasrc", field:"name" });   
-
-</script>
-
-{% endhighlight %}
-
-
-{% highlight html %} 
-
-// Get or set the windows mode renderDefault API, after initialization:
-
-// Get the windows mode renderDefault value  
-
-$("#autocomplete").ejmAutocomplete("option", "windows.renderDefault");
-   
-// Set the windows mode renderDefault value 
-
-$("#autocomplete").ejmAutocomplete("option", "renderMode", "windows"); 
-
-$("#autocomplete").ejmAutocomplete("option", "windows.renderDefault", true); 
-
-{% endhighlight %}
 
 
 ## Methods
 
-### clearText`()`
+### clearText()
 {:#methods:cleartext}
-
 
 Clears the selected items in AutoComplete
 
 #### Example
 
-
-{% highlight html %} 
-
-<input id="autocomplete" />
-
-<script>
-
-$(function(){
-
-// Create the autocomplete
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name" });
-
-var auto = $("#autocomplete").data("ejmAutocomplete");
-
-auto.clearText(); 
-
-// Get the value of autocomplete});
-
-</script>
-
-{% endhighlight %}
-
-
 {% highlight html %}
- 
+
 <input id="autocomplete" />
+    <script>
+        $(function () {
+            // Clears text of autocomplete
+            $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name" } });
+            $("#autocomplete").ejmAutocomplete("clearText");
+        });
+    </script>
 
-<script>
-
-$(function(){
-
-// Clears text of autocomplete
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name" });
-
-$("#autocomplete").ejmAutocomplete("clearText");});
-
-</script>
 
 {% endhighlight %}
 
-### disable`()`
+### disable()
 {:#methods:disable}
 
 To disable AutoComplete
@@ -1610,383 +1022,261 @@ To disable AutoComplete
 #### Example
 
 {% highlight html %}
- 
+
 <input id="autocomplete" />
+    <script>
+        $(function () {
+            // Disable autocomplete
+            $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name" } });
+            $("#autocomplete").ejmAutocomplete("disable");
+        });
+    </script>
 
-<script>
-
-$(function(){
-
-// Create the autocomplete
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name" });
-
-var auto = $("#autocomplete").data("ejmAutocomplete");
-
-auto.disable(); // Disables the autocomplete});
-
-</script>
-
-{% endhighlight %}
-
-{% highlight html %}
- 
-<input id="autocomplete" />
-
-<script>
-
-$(function(){
-
-	// Disable autocomplete
-	
-	$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name" });
-	
-	$("#autocomplete").ejmAutocomplete("disable");});
-
-</script>
 
 {% endhighlight %}
 
 
-### enable`()`
+### enable()
 {:#methods:enable}
 
 To enable AutoComplete
 
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
-<input id="autocomplete"/>
+<input id="autocomplete" />
+    <script>
+        $(function () {
+            // Enable the autocomplete
+            $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name" } });
+            $("#autocomplete").ejmAutocomplete("enable");
+        });
+    </script>
 
-<script>
-
-$(function(){
-
-// Create the autocomplete
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name" });
-
-var auto = $("#autocomplete").data("ejmAutocomplete");
-
-auto.enable(); // Enables the autocomplete});
-
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
 
-<input id="autocomplete"/>
 
-<script>
 
-$(function(){
-
-// Enable the autocomplete
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name" });
-
-$("#autocomplete").ejmAutocomplete("enable");});
-
-</script>
-
-{% endhighlight %}
-
-### getSelectedItems`()`
+### getSelectedItems()
 {:#methods:getselecteditems}
 
 To get the list of items selected in AutoComplete
 
 #### Example
 
-{% highlight html %} 
-
-<input id="autocomplete" />
-
-<script>
-
-$(function(){
-
-// Create the autocomplete
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name" });
-
-var auto = $("#autocomplete").data("ejmAutocomplete");
-
-auto.getSelectedItems(); 
-
-// Get the value of autocomplete
-
-});
-
-</script>
-
-{% endhighlight %}
-
 {% highlight html %}
- 
+
 <input id="autocomplete" />
+    <script>
+        $(function () {
+            // GetSelectedItems of  autocomplete
+            $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name" } });
+            $("#autocomplete").ejmAutocomplete("getSelectedItems");
+        });
+    </script>
 
-<script>
-
-$(function(){
-
-// GetSelectedItems of  autocomplete
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name" });
-
-$("#autocomplete").ejmAutocomplete("getSelectedItems");});
-
-</script>
 
 {% endhighlight %}
 
-### getValue`()`
+
+### getValue()
 {:#methods:getvalue}
 
 To get the value of AutoComplete
 
 #### Example
 
-{% highlight html %} 
+{% highlight html %}
 
 <input id="autocomplete" />
+    <script>
+        $(function () {
+            // Getvalue of  autocomplete
+            $("#autocomplete").ejmAutocomplete({ dataSource: "window.datasrc", fields: { text: "name" } });
+            $("#autocomplete").ejmAutocomplete("getValue");
+        });
+    </script>
 
-<script>
-
-$(function(){
-
-// Create the autocomplete
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name" });
-
-var auto = $("#autocomplete").data("ejmAutocomplete");
-
-auto.getValue(); // Get the value of autocomplete});
-
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
-
-<input id="autocomplete" />
-
-<script>
-
-$(function(){
-
-// Getvalue of  autocomplete
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name" });
-
-$("#autocomplete").ejmAutocomplete("getValue");});
-
-</script>
-
-{% endhighlight %}
 
 ## Events
+
+
 
 ### change
 {:#events:change}
 
 Event triggers when the AutoComplete text box content changed.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from autocomplete
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from autocomplete<table><br><tr><br><th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
-</tr>
+<td>
+model</td><td>
+string</td><td>
+Returns the autocomplete model</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the autocomplete model</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
-</tr>
+<td>
+data</td><td>
+Object</td><td>
+Returns the current selected data</td></tr>
 <tr>
-<td class="name">{% highlight html %}element{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current element</td>
-</tr>
+<td>
+index</td><td>
+int</td><td>
+Returns the selecteditem index</td></tr>
 <tr>
-<td class="name">{% highlight html %}currentText{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the current item text</td>
-</tr>
+<td>
+text</td><td>
+string</td><td>
+Returns the current item text</td></tr>
 <tr>
-<td class="name">{% highlight html %}isChecked{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns whether the current item is checked or not</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}checkedItemsText{% endhighlight %}</td>
-<td class="type"><span class="param-type">object</span></td>
-<td class="description last">returns all checked item's text</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+isChecked</td><td>
+boolean</td><td>
+Returns whether the current item is checked or not</td></tr>
 </table>
 
 
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Unobtrusive way of rendering -->
+  <input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-fields-text="name" data-ej-change="onChange" />
+    <script>
+        // change event for autocomplete
+        function onChange(args) {
+            //handle the event
+        }
+    </script>
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-field="name" data-ej-change="onChange" />
-
-<script>
- 
-// change event for autocomplete  
-
-function onChange(args){ 
-
-//handle the event
-
-}
-</script>
 
 {% endhighlight %}
+
+
 
 {% highlight html %}
- 
-//change event for autocomplete
 
+<!-- Obtrusive way of rendering -->
 <input id="autocomplete" />
+    <script>
+        $("#autocomplete").ejmAutocomplete({
+            dataSource: "window.datasrc", fields: { text: "name" },
+            change: function (args) {
+                //handle the event
+            }
+        });
+    </script>
 
-<script> 
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name",
-
-  change: function (args) {
-  
-//handle the event 
-
-}});           
-
-</script>
 
 {% endhighlight %}
+
 
 ### focusIn
 {:#events:focusin}
 
-
 Event triggers when focused in to the Autocomplete text box
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from autocomplete
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from autocomplete<table><br><tr><br><th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
-</tr>
+<td>
+model</td><td>
+string</td><td>
+Returns the autocomplete model</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the autocomplete model</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+isInteraction</td><td>
+boolean</td><td>
+if the autocomplete textbox is interacted return true; otherwise return false</td></tr>
 </table>
 
 
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Unobtrusive way of rendering -->
+<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-fields-text="name" data-ej-focusin="onfocusIn" />
+    <script>
+        // focusIn event for autocomplete
+        function onfocusIn(args) {
+            //handle the event
+        }
+    </script>
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-field="name" data-ej-focusin="onfocusIn" />
-
-<script> 
-
-// focusIn event for autocomplete
- 
-function onfocusIn(args){ 
-
-//handle the event
-
-}
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
 
-//focusIn event for autocomplete
 
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
 <input id="autocomplete" />
+    <script>
+        $("#autocomplete").ejmAutocomplete({
+            dataSource: "window.datasrc", fields: { text: "name" },
+            focusIn: function (args) {
+                //handle the event
+            }
+        });
+    </script>
 
-<script> 
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name",
- 
- focusIn: function (args) { 
- 
-//handle the event 
-
-}});          
- 
-</script>
 
 {% endhighlight %}
 
@@ -1994,410 +1284,379 @@ $("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name",
 ### focusOut
 {:#events:focusout}
 
-
-
-
 Event triggers when focused out from the Autocomplete text box
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from autocomplete
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from autocomplete<table><br><tr><br><th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
-</tr>
+<td>
+model</td><td>
+string</td><td>
+Returns the autocomplete model</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the autocomplete model</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+isInteraction</td><td>
+boolean</td><td>
+if the autocomplete textbox is interacted return true; otherwise return false</td></tr>
 </table>
 
 
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Unobtrusive way of rendering -->
+<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-fields-text="name" data-ej-focusout="onfocusOut" />
+    <script>
+        // focusOut event for autocomplete
+        function onfocusOut(args) {
+            //handle the event
+        }
+    </script>
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-field="name" data-ej-focusout="onfocusOut" />
-
-<script> 
-
-// focusOut event for autocomplete  
-
-function onfocusOut(args){
- 
-//handle the event
-
-}
-</script>
 
 {% endhighlight %}
 
-{% highlight html %} 
 
-//focusOut event for autocomplete
 
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
 <input id="autocomplete" />
+    <script>
+        $("#autocomplete").ejmAutocomplete({
+            dataSource: "window.datasrc", fields: { text: "name" },
+            focusOut: function (args) {
+                //handle the event
+            }
+        });
+    </script>
 
-<script> 
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name",
-  
-  focusOut: function (args) { 
-  
-//handle the event 
-
-}});           
-
-</script>
 
 {% endhighlight %}
+
 
 ### keyPress
 {:#events:keypress}
 
 Event triggers when pressed a key
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from autocomplete
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from autocomplete<table><br><tr><br><th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
-</tr>
+<td>
+model</td><td>
+string</td><td>
+Returns the autocomplete model</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the autocomplete model</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+isInteraction</td><td>
+boolean</td><td>
+if the autocomplete textbox is interacted return true; otherwise return false</td></tr>
 </table>
 
 
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Unobtrusive way of rendering -->
+    <input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-fields-text="name" data-ej-keypress="onkeyPress" />
+    <script>
+        // keyPress event for autocomplete
+        function onkeyPress(args) {
+            //handle the event
+        }
+    </script>
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-field="name" data-ej-keypress="onkeyPress" />
-
-<script> 
-
-// keyPress event for autocomplete  
-
-function onkeyPress(args){ 
-
-//handle the event
-
-}
-
-</script>
 
 {% endhighlight %}
 
 
-{% highlight html %} 
 
-//keyPress event for autocomplete
+{% highlight html %}
 
+<!-- Obtrusive way of rendering -->
 <input id="autocomplete" />
+    <script>
+        $("#autocomplete").ejmAutocomplete({
+            dataSource: "window.datasrc", fields: { text: "name" },
+            keyPress: function (args) {
+                //handle the event
+            }
+        });
+    </script>
 
-<script> 
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name",
-
-  keyPress: function (args) { 
-  
-//handle the event 
-
-}});         
-  
-</script>
 
 {% endhighlight %}
+
 
 ### select
 {:#events:select}
 
+Event triggers when we select an element from AutoComplete suggestion list.
 
-Event triggers when we select a element from AutoComplete suggestion list.
-
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from autocomplete
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from autocomplete<table><br><tr><br><th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
-</tr>
+<td>
+model</td><td>
+string</td><td>
+Returns the autocomplete model</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the autocomplete model</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
-</tr>
+<td>
+element</td><td>
+Object</td><td>
+Returns the current element</td></tr>
 <tr>
-<td class="name">{% highlight html %}element{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current element</td>
-</tr>
+<td>
+text</td><td>
+string</td><td>
+Returns the current item text</td></tr>
 <tr>
-<td class="name">{% highlight html %}currentText{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the current item text</td>
-</tr>
+<td>
+isChecked</td><td>
+boolean</td><td>
+Returns whether the current item is checked or not</td></tr>
 <tr>
-<td class="name">{% highlight html %}isChecked{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns whether the current item is checked or not</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}checkedItemsText{% endhighlight %}</td>
-<td class="type"><span class="param-type">object</span></td>
-<td class="description last">returns all checked item's text</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+isSelected</td><td>
+boolean</td><td>
+Returns any item is selected or not</td></tr>
 </table>
 
 
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Unobtrusive way of rendering -->
+<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-fields-text="name" data-ej-select="onSelect" />
+    <script>
+        // select event for autocomplete
+        function onSelect(args) {
+            //handle the event
+        }
+    </script>
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-field="name" data-ej-select="onSelect" />
-
-<script>
- 
-// select event for autocomplete  
-
-function onSelect(args){ 
-
-//handle the event
-
-}
-</script>
 
 {% endhighlight %}
+
 
 
 {% highlight html %}
- 
-//select event for autocomplete
 
+<!-- Obtrusive way of rendering -->
 <input id="autocomplete" />
+    <script>
+        $("#autocomplete").ejmAutocomplete({
+            dataSource: "window.datasrc", fields: { text: "name" },
+            select: function (args) {
+                //handle the event                
+            }
+        });
+    </script>
 
-<script> 
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name",
-
-  select: function (args) { 
-  
-//handle the event 
-
-}});           
-
-</script>
 
 {% endhighlight %}
+
+
+
 
 
 ### touchEnd
 {:#events:touchend}
 
-
 Event triggers when the touch end happens in the AutoComplete suggestion list.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from autocomplete
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from autocomplete<table><br><tr><br><th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">if the event should be canceled; otherwise, false.</td>
-</tr>
+<td>
+model</td><td>
+string</td><td>
+Returns the autocomplete model</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the autocomplete model</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event</td>
-</tr>
+<td>
+data</td><td>
+Object</td><td>
+Returns the selected object</td></tr>
 <tr>
-<td class="name">{% highlight html %}element{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the current element</td>
-</tr>
+<td>
+text</td><td>
+string</td><td>
+Returns the current item text</td></tr>
 <tr>
-<td class="name">{% highlight html %}currentText{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the current item text</td>
-</tr>
+<td>
+isChecked</td><td>
+boolean</td><td>
+Returns whether the current item is checked or not</td></tr>
 <tr>
-<td class="name">{% highlight html %}isChecked{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns whether the current item is checked or not</td>
-</tr>
+<td>
+isSelected</td><td>
+boolean</td><td>
+Returns any item is selected or not</td></tr>
 <tr>
-<td class="name">{% highlight html %}checkedItemsText{% endhighlight %}</td>
-<td class="type"><span class="param-type">object</span></td>
-<td class="description last">returns all checked item's text</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+isInteraction</td><td>
+boolean</td><td>
+if the autocomplete textbox is interacted return true; otherwise return false</td></tr>
 </table>
 
 
+</td></tr>
+</table>
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
+<!-- Unobtrusive way of rendering -->
+<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-fields-text="name" data-ej-touchend="onTouchEnd" />
+    <script>
+        // touchEnd event for autocomplete
+        function onTouchEnd(args) {
+            //handle the event
+        }
+    </script>
 
-<input id="autocomplete" data-role="ejmautocomplete" data-ej-datasource="window.datasrc" data-ej-field="name" data-ej-touchend="onTouchEnd" />
-
-<script> 
-
-// touchEnd event for autocomplete
-  
-function onTouchEnd(args){
-
-//handle the event
-
-}
-</script>
 
 {% endhighlight %}
 
 
-{% highlight html %} 
 
-//touchEnd event for autocomplete
+{% highlight html %}
 
+<!-- Obtrusive way of rendering -->
 <input id="autocomplete" />
+    <script>
+        $("#autocomplete").ejmAutocomplete({
+            dataSource: "window.datasrc", fields: { text: "name" },
+            touchEnd: function (args) {
+                //handle the event
+            }
+        });
+    </script>
 
-<script> 
-
-$("#autocomplete").ejmAutocomplete({ dataSource:"window.datasrc", field:"name",
-  
-  touchEnd: function (args) { 
-  
-//handle the event
- 
-}
-
-});           
-</script>
 
 {% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
