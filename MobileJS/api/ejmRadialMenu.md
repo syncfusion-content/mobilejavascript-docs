@@ -934,6 +934,49 @@ To enable a set of radialmenu items by array of indices
 
 
 
+### hide()
+
+To hide the radialmenu with its target. You can’t access radialmenu after this method called.
+
+Example
+
+{% highlight html %}
+
+
+    <div>
+        <br />
+        <p>
+            Syncfusion is the enterprise technology partner of choice for Windows development
+        </p>
+        <br />
+        <button data-role="ejmbutton" data-ej-touchend="hide">Hide Radial Menu</button>
+    </div>
+    <div id="defaultradialmenu" data-role="ejmradialmenu">
+        <ul>
+            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
+                data-ej-windows-text="social"></li>
+            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
+                data-ej-windows-text="music"></li>
+            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
+                data-ej-windows-text="direction"></li>
+            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
+                data-ej-windows-text="message"></li>
+            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
+                data-ej-windows-text="browser"></li>
+        </ul>
+    </div>
+
+    <script>
+        function hide() {
+            $("#defaultradialmenu").ejmRadialMenu("hide");
+        }
+    </script>
+
+
+{% endhighlight %}
+
+
+
 ### hideBadge()
 {:#methods:hideBadge} 
 
