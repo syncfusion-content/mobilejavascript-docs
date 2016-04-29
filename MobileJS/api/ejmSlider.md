@@ -1,4 +1,4 @@
-layout: post
+﻿layout: post
 title: ejmSlider | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmSlider
 platform: Mobilejs

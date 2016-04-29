@@ -1,4 +1,4 @@
-layout: post
+﻿layout: post
 title: ejmCheckBox | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmCheckBox
 platform: Mobilejs
