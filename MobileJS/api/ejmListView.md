@@ -1,60 +1,74 @@
 ---
 layout: post
 title: ejmListView | API Reference | Mobile JS | Syncfusion
-description: 
-documentation: API
+description:  Methods, members, events available in ejmListView
 platform: Mobilejs
-keywords: ejmListView, API, Essential Studio JS Autocomplete (Mobile)
+control: ejmListView
+documentation: API
+keywords: ejmListView, API, Essential Studio JS ListView (Mobile)
 ---
 
 # ejmListView
 
-Custom Design for Html ListView control.
+The Essential JavaScript Mobile ListView widget builds interactive list view interface. This control allows you to select an item from a list-like interface and display a set of data items in different layouts or views. Lists are used for displaying data, data navigation, result lists, and data entry.                                            
 
-$(element).ejmListView<span class="signature">()</span>
+Custom Design for HTML ListView control.
+
+$(element).ejmListView()
+
+
 
 #### Example
 
-{% highlight html %} 
-//Set listbox in unobtrusive way.
-<div id="lb" data-role="ejmlistview">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set listbox in obtrusive way.
-<div id="lb">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script> 
-// Create ListView
-$("#lb").ejmListView(); 
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
 
 
+
+{% endhighlight %}
+
+
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView();
+    </script>
+
+
+
+{% endhighlight %}
 
 
 
@@ -62,5640 +76,3322 @@ $("#lb").ejmListView();
 
 #### Requires
 
-
-
-
 * module:jQuery
-
-
-* module:ej.mobile.application
-
 
 * module:ej.core
 
-
 * module:ej.unobtrusive
 
+* module: ej.globalize
 
 * module:ej.mobile.core
 
-
 * module:ej.data
-
 
 * module:ej.touch
 
-
-* module:ej.mobile.checkbox
-
-
-* module:ej.mobile.button
-
-
-* module:ej.mobile.header
-
-
-* module:ej.mobile.scrollbar
-
-
-* module:ej.mobile.scrollpanel
-
-
-* module:ej.mobile.textbox
-
-
-* module:ej.listviewbase
-
-
-
-
 ## Members
 
+### allowSelection `boolean`
+{:#members:allowSelection} 
 
-
-
-
-
-
-
-### adjustFixedPosition`boolean`
-{:#members:adjustfixedposition}
-
-
-
-
-
-
-
-
-Specifies whether need to adjust the scrolling content height for fixed position elements with the height of the control, when scrolling is allowed.
-
-
-
+Specifies whether the items are selectable or not.
 
 #### Default Value
-
-
-
-
-
 
 * true
 
-
-
-
-
-
-
-
 #### Example
 
-
-{% highlight html %} 
-//Set the adjustFixedPosition property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-adjustFixedPosition="true">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the adjustFixedPosition property in obtrusive way.
-<div id="lb">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>            
-// Set adjustFixedPosition on initialization. 
-//To set adjustFixedPosition API value 
-<script>
-$("#lb").ejmListView ({ adjustFixedPosition: true });
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-allowselection="false">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
 
 
-{% highlight html %} 
-<script>
-//Get or set adjustFixedPosition, after initialization:
-// Get the adjustFixedPosition API value.               
- $("#lb").ejmListView ("option", "adjustFixedPosition");                        
-// Set the adjustFixedPosition API
-$("#lb").ejmListView ("option", "adjustFixedPosition", true);     
-</script>       {% endhighlight %}
+{% endhighlight %}
 
 
 
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ allowSelection: false });
+    </script>
 
 
 
-
-### ajaxSettings`JSONObject`
-{:#members:ajaxsettings}
+{% endhighlight %}
 
 
 
+### checkedIndices `numberarray`
+{:#members:checkedIndices} 
 
+Specifies which items will be checked initially. This property works only for check list feature.
 
-
-
-
-Specifies the settings option for ajax request.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set ajaxSettings in unobtrusive way
-<div id="lb" data-role="ejmlistview" data-ej-ajaxsettings-type="GET" data-ej-ajaxsettings-cache=false data-ej-ajaxsettings-async=true
-data-ej-ajaxsettings-datatype="html" data-ej-ajaxsettings-contenttype="html" >
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
-        </ul>
-</div>          {% endhighlight %}
-
-
-{% highlight html %} 
-//Set ajaxSettings in obtrusive way
-<div id="lb" >
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
-        </ul>
-</div>
-// Set Tab ajaxSettings on initialization. 
-//To set ajaxSettings API value 
-<script>
-$("#lb").ejmListView({ ajaxSettings: { type: 'GET',
-  cache: false,
-  async: true,
-  dataType: "html",
-  contentType: "html"
-  } });         
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set the ListView ajaxSettings, after initialization:
-// Get the ajaxSettings API value.
-$("#lb").ejmListView ("option", "ajaxSettings");                        
-// Set the ajaxSettings API
-$("#lb").ejmListView ("option", "ajaxSettings", { type: 'GET',cache: false,async: true,dataType: "html",contentType: "html",url: "",data: {}});        
-</script>    {% endhighlight %}
-
-
-
-
-
-
-
-### allowScrolling`boolean`
-{:#members:allowscrolling}
-
-
-
-
-
-
-
-
-Specifies whether to allow scrolling behavior for the contents.
-
-
-
+N> To use this property, [enableChecklist] property must be set as “true”.
 
 #### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the allowScrolling property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-allowScrolling="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>            {% endhighlight %}
-
-
-{% highlight html %} 
-//Set the allowScrolling property in obtrusive way.
-<div id="lb">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>            
-// Set allowScrolling on initialization. 
-//To set allowScrolling API value 
-<script>
-$("#lb").ejmListView ({ allowScrolling: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  allowScrolling, after initialization:
-// Get the allowScrolling API value.            
-$("#lb").ejmListView ("option", "allowScrolling");                      
-// Set the allowScrolling API
-$("#lb").ejmListView ("option", "allowScrolling", true);  
-</script>          {% endhighlight %}
-
-
-
-
-
-
-
-### autoAdjustHeight`boolean`
-{:#members:autoadjustheight}
-
-
-
-
-
-
-
-
-Specifies whether to set the height of the content automatically.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* true
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the autoAdjustScrollHeight property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-autoAdjustHeight="true">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the autoAdjustHeight property in obtrusive way.
-<div id="lb">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set autoAdjustHeight on initialization. 
-//To set autoAdjustHeight API value 
-$("#lb").ejmListView ({ autoAdjustHeight: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  autoAdjustHeight, after initialization:
-// Get the autoAdjustHeight API value.          
- $("#lb").ejmListView ("option", "autoAdjustHeight");                   
-// Set the autoAdjustHeight API
-$("#lb").ejmListView ("option", "autoAdjustHeight", true);
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### autoAdjustScrollHeight`boolean`
-{:#members:autoadjustscrollheight}
-
-
-
-
-
-
-
-
-Specifies whether to set the height as scroll height of the content automatically.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* true
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the autoAdjustScrollHeight property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-autoAdjustScrollHeight="true">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the autoAdjustScrollHeight property in obtrusive way.
-<div id="lb">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set autoAdjustScrollHeight on initialization. 
-//To set autoAdjustScrollHeight API value 
-$("#lb").ejmListView ({ autoAdjustScrollHeight: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  autoAdjustScrollHeight, after initialization:
-// Get the autoAdjustScrollHeight API value.            
- $("#lb").ejmListView ("option", "autoAdjustScrollHeight");                     
-// Set the autoAdjustScrollHeight API
-$("#lb").ejmListView ("option", "autoAdjustScrollHeight", true);
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### checkDOMChanges`boolean`
-{:#members:checkdomchanges}
-
-
-
-
-
-
-
-
-Specifies whether need to refresh scrollpanel rendered in the control when elements are added dynamically.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the checkDOMChanges property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-checkdomchanges=true>
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the checkDOMChanges property in obtrusive way.
-<div id="lb">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-//Set the checkDOMChanges property on initialization. 
-//To set checkDOMChanges API value
-$("#lb").ejmListView ({ checkDOMChanges: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  checkDOMChanges, after initialization:
-// Get the checkDOMChanges API value.           
-$("#lb").ejmListView ("option", "checkDOMChanges");                     
-// Set the checkDOMChanges API
-$("#lb").ejmListView ("option", "checkDOMChanges", true);
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### cssClass`string``
-{:#members:cssclass}
-
-
-
-
-
-
-
-
-Sets the root class for ListView theme. This cssClass API helps to use custom skinning option for ListView control. By defining the root class using this API, we need to include this root class in CSS.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* ""
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the cssClass property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-cssclass="customclass">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the cssClass property in obtrusive way.
-<div id="lb" >
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set cssClass on initialization. 
-//To set cssClass API value 
-$("#lb").ejmListView ({ cssClass: "customclass" });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  cssClass, after initialization:
-// Get the cssClass API value.          
- $("#lb").ejmListView ("option", "cssClass");                   
-// Set the cssClass API
-$("#lb").ejmListView ("option", "cssClass", "customclass");
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### dataSource`JSONArray`
-{:#members:datasource}
-
-
-
-
-
-
-
-
-Specifies the datasource is enabled.
-
-
-
-
-#### Default Value
-
-
-
-
-
 
 * []
 
 
 
-
-
-
-
-
 #### Example
 
-
-{% highlight html %} 
-//Set the dataSource property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-datasource="window.dbitem">
-</div>           
-<script>
-window.dbitem =
-[   { "text": "Hot Singles"},
-    { "text": "Rising Artists"},
-    { "text": "Live Music" },
-    { "text": "Best of 2013 So Far"},
-    { "text": "100 Albums - $5 Each"},
-    { "text": "Hip-Hop and R&amp;B Sale"},
-    { "text": "CD Deals"}];
-</script> {% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the dataSource property in obtrusive way.
-<div id="lb" >
-</div>           
-<script>
-$(function(){
-$("#lb").ejmListView({dataSource:window.dbitem});
-});
-window.dbitem =
-[   { "text": "Hot Singles"},
-    { "text": "Rising Artists"},
-    { "text": "Live Music" },
-    { "text": "Best of 2013 So Far"},
-    { "text": "100 Albums - $5 Each"},
-    { "text": "Hip-Hop and R&amp;B Sale"},
-    { "text": "CD Deals"}];
-</script>  {% endhighlight %}
-
-
-{% highlight html %}       
-<script>
-//Get or set  dataSource, after initialization:
-// Get the dataSource API value.                
-$("#lb").ejmListView ("option", "dataSource");                  
-// Set the dataSource API
-$("#lb").ejmListView ("option", "dataSource", true);   
-</script>                     {% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-enableChecklist="true" data-ej-checkedindices="[2,3]">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
 
 
 
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ enableChecklist: true, checkedIndices: [2, 3] });
+    </script>
+
+
+
+{% endhighlight %}
+
+
+### cssClass `string`
+{:#members:cssClass} 
+
+Sets the root class for ListView. This cssClass API helps to use custom skinning option for ListView control. By defining the root class using this API, we need to include this root class in CSS.
+
+Default Value
+
+* ””
+
+Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-cssclass="customclass">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <style>
+        .customclass .e-m-lv-content{
+            color: red !important;
+        }
+    </style>
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ cssClass: "customclass" });
+    </script>
+
+    <style>
+        .customclass .e-m-lv-content{
+            color: red !important;
+        }
+    </style>
+
+
+{% endhighlight %}
 
 
 
 
-### enableAjax`boolean`
-{:#members:enableajax}
 
+### dataSource `jsonarray`
+{:#members:dataSource} 
 
+Specifies the data source for list rendering. In Listview, list items can be given as datasource which consists of JSON array.
 
-
-
-
-
-
-Specifies whether to load ajax content while selecting item.
-
-
-
+N> To render list view with JSON array, the property [fields.text] should be set to map the list item text.
 
 #### Default Value
 
-
-
-
-
-
-* false
-
-
-
-
-
+* []
 
 
 
 #### Example
 
-
-{% highlight html %} 
-//Set the enableAjax property in unobtrusive way.
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %}  
-//Set the enableAjax property in obtrusive way.
-<div id="lb">
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" ></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" ></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" ></li>
-        </ul>
-</div>
-<script>
-// Set enableAjax on initialization. 
-//To set enableAjax API value
-$("#lb").ejmListView ({ enableAjax: true });
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.dbitem" data-ej-fields-text="text"></ul>
+
+    <script>
+    window.dbitem =
+    [{ "text": "Hot Singles" },
+        { "text": "Rising Artists" },
+        { "text": "Live Music" },
+        { "text": "Best of 2013 So Far" },
+        { "text": "100 Albums - $5 Each" },
+        { "text": "Hip-Hop and R&amp;B Sale" },
+        { "text": "CD Deals" }];
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set  enableAjax, after initialization:
-// Get the enableAjax API value.                
-$("#lb").ejmListView ("option", "enableAjax");                  
-// Set the enableAjax API
-$("#lb").ejmListView ("option", "enableAjax", true);
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+
+    <script>
+        window.dbitem =
+        [{ "text": "Hot Singles" },
+            { "text": "Rising Artists" },
+            { "text": "Live Music" },
+            { "text": "Best of 2013 So Far" },
+            { "text": "100 Albums - $5 Each" },
+            { "text": "Hip-Hop and R&amp;B Sale" },
+            { "text": "CD Deals" }];
+
+        $("#listview").ejmListView({ dataSource: window.dbitem, fields: { text: "text" } });
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### deleteMode `enum`
+{:#members:deleteMode} 
 
-### enableCache`boolean`
-{:#members:enablecache}
-
-
-
-
-
-
-
-
-Specifies whether to enable caching the content.
-
-
-
+This property enables delete option for each list item when swipe left happens to the list item. See [DeleteMode](http://help.syncfusion.com/mobilejs/api/global.html).
 
 #### Default Value
 
-
-
-
-
-
-* false
-
-
-
-
-
-
-
+* “none”
 
 #### Example
 
-
-{% highlight html %} 
-//Set the enableCache property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-enableCache="true">
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true" data-ej-enableCache="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true" data-ej-enableCache="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true" data-ej-enableCache="true"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the enableCache property in obtrusive way.
-<div id="lb" >
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true" ></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true" ></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true" ></li>
-        </ul>
-</div>
-<script>
-// Set enableCache on initialization. 
-//To set enableCache API value 
-$("#lb").ejmListView ({ enableCache: true });
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-deletemode="swipe">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
 
 
-{% highlight html %} 
-<script>
-//Get or set  enableCache, after initialization:
-// Get the enableCache API value.               
-$("#lb").ejmListView ("option", "enableCache");                 
-// Set the enableCache API
-$("#lb").ejmListView ("option", "enableCache", true);
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ deleteMode: "swipe"});
+    </script>
 
 
 
-
-### enableCheckMark`boolean`
-{:#members:enablecheckmark}
+{% endhighlight %}
 
 
 
-
-
-
-
+### enableChecklist `boolean`
+{:#members:enableChecklist} 
 
 Specifies whether to enable check mark for the item.
 
-
-
-
 #### Default Value
-
-
-
-
-
 
 * false
 
-
-
-
-
-
-
-
 #### Example
 
-
-{% highlight html %} 
-//Set the enableCheckMark property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the enableCheckMark property in obtrusive way.
-<div id="lb">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set enableCheckMark on initialization. 
-//To set enableCheckMark API value 
-$("#lb").ejmListView ({ enableCheckMark: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set the ListView enableCheckMark, after initialization:
-// Get the enableCheckMark API value.           
-$("#lb").ejmListView ("option", "enableCheckMark");                     
-// Set the enableCheckMark API
-$("#lb").ejmListView ("option", "enableCheckMark", true);    
-</script>        {% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-enableChecklist="true">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
 
 
 
+{% endhighlight %}
 
 
 
-
-### enableFiltering`boolean`
-{:#members:enablefiltering}
+{% highlight html %}
 
 
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ enableChecklist: true });
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
-Specifies whether to enable the filtering feature to filter the item.
+### enabled `boolean`
+{:#members:enabled} 
 
-
-
+Specifies whether the control is enabled or disabled.
 
 #### Default Value
 
-
-
-
-
-
-* false
-
-
-
-
-
-
-
+* true
 
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the enableFiltering property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-enableFiltering="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
 
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-enabled="false">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
 
-{% highlight html %} 
-//Set the enableFiltering property in obtrusive way.
-<div id="lb">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set enableFiltering on initialization. 
-//To set enableFiltering API value 
-$("#lb").ejmListView ({ enableFiltering: true });
-</script>{% endhighlight %}
 
 
-{% highlight html %} 
-<script>
-//Get or set the ListView enableFiltering, after initialization:
-// Get the enableFiltering API value.           
-$("#lb").ejmListView ("option", "enableFiltering");                     
-// Set the enableFiltering API
-$("#lb").ejmListView ("option", "enableFiltering", true);    
-</script>        {% endhighlight %}
+{% endhighlight %}
 
 
 
+{% highlight html %}
 
 
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
 
+    <script>
+        $("#listview").ejmListView({ enabled: false });
+    </script>
 
-### enableGroupList`boolean`
-{:#members:enablegrouplist}
 
 
+{% endhighlight %}
 
 
 
+### enablePersistence `boolean`
+{:#members:enablePersistence} 
 
-
-
-Specifies whether to group the list item.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the enableGroupList property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-enableGroupList="true">
-        <ul data-ej-grouplisttitle="Network">
-                <li data-ej-text="Airplane Mode"></li>
-                <li data-ej-text="Wi-Fi"></li>
-                <li data-ej-text="Notifications"></li>
-                <li data-ej-text="Location Services"></li>
-        </ul>
-        <ul data-ej-grouplisttitle="Apps">
-                <li data-ej-text="Sound"></li>
-                <li data-ej-text="Brightness"></li>
-                <li data-ej-text="Wallpaper"></li>
-        </ul>
-        <ul data-ej-grouplisttitle="Settings">
-                <li data-ej-text="General"></li>
-                <li data-ej-text="Brightness"></li>
-                <li data-ej-text="Wallpaper"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the enableGroupList property in obtrusive way.
-<div id="lb">
-        <ul data-ej-grouplisttitle="Network">
-                <li data-ej-text="Airplane Mode"></li>
-                <li data-ej-text="Wi-Fi"></li>
-                <li data-ej-text="Notifications"></li>
-                <li data-ej-text="Location Services"></li>
-        </ul>
-        <ul data-ej-grouplisttitle="Apps">
-                <li data-ej-text="Sound"></li>
-                <li data-ej-text="Brightness"></li>
-                <li data-ej-text="Wallpaper"></li>
-        </ul>
-        <ul data-ej-grouplisttitle="Settings">
-                <li data-ej-text="General"></li>
-                <li data-ej-text="Brightness"></li>
-                <li data-ej-text="Wallpaper"></li>
-        </ul>
-</div>
-<script>
-// Set enableGroupList on initialization. 
-//To set enableGroupList API value 
-$("#lb").ejmListView ({ enableGroupList: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  enableGroupList, after initialization:
-// Get the enableGroupList API value.           
- $("#lb").ejmListView ("option", "enableGroupList");                    
-// Set the enableGroupList API
-$("#lb").ejmListView ("option", "enableGroupList", true);
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### enableNativeScrolling`boolean`
-{:#members:enablenativescrolling}
-
-
-
-
-
-
-
-
-Specifies whether to enable device's native scroll behavior when scrolling is allowed.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the enableNativeScrolling property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-enableNativeScrolling="true">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the enableNativeScrolling property in obtrusive way.
-<div id="lb">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set enableNativeScrolling on initialization. 
-//To set enableNativeScrolling API value 
-$("#lb").ejmListView ({ enableNativeScrolling: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  enableNativeScrolling, after initialization:
-// Get the enableNativeScrolling API value.             
- $("#lb").ejmListView ("option", "enableNativeScrolling");                      
-// Set the enableNativeScrolling API
-$("#lb").ejmListView ("option", "enableNativeScrolling", true); 
-</script>           {% endhighlight %}
-
-
-
-
-
-
-
-### enablePersistence`boolean`
-{:#members:enablepersistence}
-
-
-
-
-
-
-
-
-Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
-
-
-
+Current model value to browser cookies for state maintains. While refresh the ListView control page retains the model value apply from browser cookies.
 
 #### Default Value
 
 * false
 
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-enablepersistence="true">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+
+
+{% endhighlight %}
+
+
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ enablePersistence: true });
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+
+
+
+
+### enableRippleEffect `boolean`
+{:#members:enableRippleEffect} 
+
+Specifies whether to enable or disable ripple effect.
+
+#### Default Value
+
+* false
 
 #### Example
 
-
-{% highlight html %} 
-//Set the enablePersistence property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-enablepersistence=true >
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the enablePersistence property in obtrusive way.
-<div id="lb">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set enablePersistence on initialization. 
-//To set enablePersistence API value 
-$("#lb").ejmListView ({ enablePersistence: true });
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-enablerippleeffect="true">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
 
 
-{% highlight html %} 
-<script>
-//Get or set  enablePersistence, after initialization:
-// Get the enablePersistence API value.         
- $("#lb").ejmListView ("option", "enablePersistence");                  
-// Set the enablePersistence API
-$("#lb").ejmListView ("option", "enablePersistence", true);
-</script>{% endhighlight %}
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ enableRippleEffect: true });
+    </script>
+
+
+
+{% endhighlight %}
 
 
 
 
-
-
-
-### fieldSettings`JSONArray`
-{:#members:fieldsettings}
-
-
-
-
-
-
-
+### fields
+{:#members:fields} 
 
 Specifies the field settings to map the datasource.
 
 
 
 
+### fields.allowSelection `boolean`
+{:#members:fieldsallowSelection} 
 
-#### Example
-
-
-{% highlight html %} 
-//Set the fieldSettings property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-fieldSettings="window.musicFields" data-ej-datasource="window.dbitem" >
-</div>           
-<script>
-window.dbitem =
-[{ "Texts": "Discover Music", "PrimaryKeys": "1" },
-    { "Texts": "Hot Singles", "ParentPrimaryKeyss": "1" },
-    { "Texts": "Rising Artists", "PrimaryKeyss": null, "ParentPrimaryKeyss": "1" },
-    { "Texts": "Live Music", "ParentPrimaryKeyss": "1" },
-    { "Texts": "Best of 2013 So Far", "ParentPrimaryKeyss": "1" },
-{ "Texts": "Sales and Events", "PrimaryKeys": "2" },
-    { "Texts": "100 Albums - $5 Each", "ParentPrimaryKeyss": "2" },
-    { "Texts": "Hip-Hop and R&amp;B Sale", "ParentPrimaryKeyss": "2" },
-    { "Texts": "CD Deals", "ParentPrimaryKeyss": "2" }];
-window.musicFields = {
-"href": "Hrefs",
-"text": "Texts",
-"primaryKey": "PrimaryKeys",
-"parentPrimaryKey": "ParentPrimaryKeyss"
-};
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the fieldSettings property in obtrusive way.
-<div id="lb" >
-</div>           
-<script>
-window.dbitem =
-[{ "Texts": "Discover Music", "PrimaryKeys": "1" },
-    { "Texts": "Hot Singles", "ParentPrimaryKeyss": "1" },
-    { "Texts": "Rising Artists", "PrimaryKeyss": null, "ParentPrimaryKeyss": "1" },
-    { "Texts": "Live Music", "ParentPrimaryKeyss": "1" },
-    { "Texts": "Best of 2013 So Far", "ParentPrimaryKeyss": "1" },
-{ "Texts": "Sales and Events", "PrimaryKeys": "2" },
-    { "Texts": "100 Albums - $5 Each", "ParentPrimaryKeyss": "2" },
-    { "Texts": "Hip-Hop and R&amp;B Sale", "ParentPrimaryKeyss": "2" },
-    { "Texts": "CD Deals", "ParentPrimaryKeyss": "2" }];
-window.musicFields = {
-"href": "Hrefs",
-"text": "Texts",
-"primaryKey": "PrimaryKeys",
-"parentPrimaryKey": "ParentPrimaryKeyss"
-};
-$(function(){
-$("#lb").ejmListView({fieldSettings:"window.musicFields",dataSource:"window.dbitem"});
-});
-</script>{% endhighlight %}
-
-
-{% highlight html %}         
-<script>
-//Get or set  fieldSettings, after initialization:
-// Get the fieldSettings API value.             
-$("#lb").ejmListView ("option", "fieldSettings");                       
-// Set the fieldSettings API
-$("#lb").ejmListView ("option", "fieldSettings", true); 
-</script> {% endhighlight %}
-
-
-
-
-
-
-
-### headerBackButtonText`string`
-{:#members:headerbackbuttontext}
-
-
-
-
-
-
-
-
-Specifies the text of the back button in the header.
-
-
-
+Specifies whether the individual item is selectable or not.
 
 #### Default Value
-
-
-
-
-
 
 * null
 
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.dbitem" data-ej-fields-text="text" data-ej-fields-allowselection="selection"></ul>
+
+    <script>
+        window.dbitem =
+            [{ "text": "Hot Singles", selection: false },
+                { "text": "Rising Artists" },
+                { "text": "Live Music", selection: false },
+                { "text": "Best of 2013 So Far", selection: false },
+                { "text": "100 Albums - $5 Each" },
+                { "text": "Hip-Hop and R&amp;B Sale" },
+                { "text": "CD Deals" }];
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+    <script>
+        window.dbitem =
+            [{ "text": "Hot Singles", selection: false },
+                { "text": "Rising Artists" },
+                { "text": "Live Music", selection: false },
+                { "text": "Best of 2013 So Far", selection: false },
+                { "text": "100 Albums - $5 Each" },
+                { "text": "Hip-Hop and R&amp;B Sale" },
+                { "text": "CD Deals" }];
+    </script>
+
+    <script>
+        $("#listview").ejmListView({ dataSource: window.dbitem, fields: { text: "text", allowSelection: "selection" } });
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+### fields.badge `jsonobject`
+{:#members:fieldsbadge} 
+
+Maps badge field from the data source. Used to set value and maxValue for each item.
 
 #### Example
 
-
-{% highlight html %} 
-//Set the headerBackButtonText property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true" data-ej-headerBackButtonText="Back">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the headerBackButtonText property in obtrusive way.
-<div id="lb" >
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set headerBackButtonText on initialization. 
-//To set headerBackButtonText API value 
-$("#lb").ejmListView ({ showHeader: true,showHeaderBackButton:true,headerBackButtonText: "Back" });
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.dbitem" data-ej-fields-text="text" data-ej-fields-badge-value="badgevalue" data-ej-fields-badge-maxvalue="badgemaxvalue"></ul>
 
-
-{% highlight html %} 
-<script>
-//Get or set  headerBackButtonText, after initialization:
-// Get the headerBackButtonText API value.              
- $("#lb").ejmListView ("option", "headerBackButtonText");                       
-// Set the headerBackButtonText API
-$("#lb").ejmListView ("option", "headerBackButtonText", "Back");
-</script>{% endhighlight %}
+    <script>
+        window.dbitem =
+            [{ "text": "Hot Singles", "badgevalue": 23 },
+                { "text": "Rising Artists" },
+                { "text": "Live Music", "badgevalue": 88 },
+                { "text": "Best of 2013 So Far", "badgevalue": 123, "badgemaxvalue": 88 },
+                { "text": "100 Albums - $5 Each" },
+                { "text": "Hip-Hop and R&amp;B Sale" },
+                { "text": "CD Deals" }];
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
-
-### headerTitle`string`
-{:#members:headertitle}
+{% highlight html %}
 
 
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+    <script>
+        window.dbitem =
+            [{ "text": "Hot Singles", "badgevalue": 23 },
+                { "text": "Rising Artists" },
+                { "text": "Live Music", "badgevalue": 88 },
+                { "text": "Best of 2013 So Far", "badgevalue": 123, "badgemaxvalue": 88 },
+                { "text": "100 Albums - $5 Each" },
+                { "text": "Hip-Hop and R&amp;B Sale" },
+                { "text": "CD Deals" }];
+
+        $("#listview").ejmListView({ dataSource: window.dbitem, fields: { text: "text", badge: { value: "badgevalue", maxValue: "badgemaxvalue" } } });
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
-Specifies the title of the header.
+### fields.checkBy `string`
+{:#members:fieldscheckBy} 
 
-
-
+Maps the check status for each item in list initially. This is an optional property used only for check list.
 
 #### Default Value
-
-
-
-
-
-
-* Title
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the headerTitle property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-headerTitle="Title">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the headerTitle property in obtrusive way.
-<div id="lb" >
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set headerTitle on initialization. 
-//To set headerTitle API value 
-$("#lb").ejmListView ({ headerTitle: "Title" });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  headerTitle, after initialization:
-// Get the headerTitle API value.               
- $("#lb").ejmListView ("option", "headerTitle");                        
-// Set the headerTitle API
-$("#lb").ejmListView ("option", "headerTitle", "Title");
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### height`number`
-{:#members:height}
-
-
-
-
-
-
-
-
-Specifies the height of the ListView.
-
-
-
-
-#### Default Value
-
-
-
-
-
 
 * null
 
-
-
-
-
-
-
-
 #### Example
 
-
-{% highlight html %} 
-//Set the height property in Unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-height="300">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the height property in Obtrusive way.
-<div id="lb" >
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-// Set ListView height on initialization. 
-//To set height API value 
-$("#lb").ejmListView ({ height: 300 });
-//Get or set the ListView height, after initialization:
-// Gets the height API value.           
- $("#lb").ejmListView ("option", "height");                     
-// Sets the height API
-$("#lb").ejmListView ("option", "height", 300);{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-enablechecklist="true" data-ej-datasource="window.dbitem" data-ej-fields-text="text" data-ej-fields-checkby="check"></ul>
+
+    <script>
+    window.dbitem =
+        [{ 'text': 'Hot Singles', 'check': true },
+            { 'text': 'Rising Artists' },
+            { 'text': 'Live Music', 'check': true },
+            { 'text': 'Best of 2013 So Far', 'check': true },
+            { 'text': '100 Albums - $5 Each' },
+            { 'text': 'Hip-Hop and R&amp;B Sale' },
+            { 'text': 'CD Deals' }];
+    </script>
+
+
+{% endhighlight %}
 
 
 
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+    <script>
+        window.dbitem =
+        [{ 'text': 'Hot Singles', 'check': true },
+            { 'text': 'Rising Artists' },
+            { 'text': 'Live Music', 'check': true },
+            { 'text': 'Best of 2013 So Far', 'check': true },
+            { 'text': '100 Albums - $5 Each' },
+            { 'text': 'Hip-Hop and R&amp;B Sale' },
+            { 'text': 'CD Deals' }];
+    </script>
+
+    <script>
+        $("#listview").ejmListView({ enableCheckList: true, dataSource: window.dbitem, fields: { text: "text", checkBy: "check" } });
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### fields.enabled `boolean`
+{:#members:fieldsenabled} 
 
-### hideHeaderForUnsupportedDevice`boolean`
-{:#members:hideheaderforunsupporteddevice}
-
-
-
-
-
-
-
-
-Specifies whether to hide the header for unsupported device.
-
-
-
+Maps enabled field from the data source. This property ensures whether the item is enabled or disabled initially.
 
 #### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the hideHeaderForUnsupportedDevice property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-hideHeaderForUnsupportedDevice="true">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the hideHeaderForUnsupportedDevice property in obtrusive way.
-<div id="lb">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set hideHeaderForUnsupportedDevice on initialization. 
-//To set hideHeaderForUnsupportedDevice API value 
-$("#lb").ejmListView ({ hideHeaderForUnsupportedDevice: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  hideHeaderForUnsupportedDevice, after initialization:
-// Get the hideHeaderForUnsupportedDevice API value.            
- $("#lb").ejmListView ("option", "hideHeaderForUnsupportedDevice");                     
-// Set the hideHeaderForUnsupportedDevice API
-$("#lb").ejmListView ("option", "hideHeaderForUnsupportedDevice", true);
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### ios7.inline`boolean`
-{:#members:ios7-inline}
-
-
-
-
-
-
-
-
-Specifies whether to show the control with inline style in ios7 mode.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the inline property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-rendermode="ios7" data-ej-ios7-inline="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the inline property in obtrusive way.
-<div id="lb">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Setinline on initialization. 
-//To set inline API value 
-$("#lb").ejmListView ({ renderMode:"ios7", ios7:{inline: true} });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  inline, after initialization:
-// Get the inline API value.            
-$("#lb").ejmListView ("option", "ios7.inline");                 
-// Set the inline API
-$("#lb").ejmListView ("option", "ios7.inline", true);
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### items`JSONarray`
-{:#members:items}
-
-
-
-
-
-
-
-
-Specifies the model values of list as an array of object.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* []
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the items property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-items="window.dbitem"e>
-</div>
-<script>
-window.dbitem =
-[{ "text": "Discover Music", "primaryKey": "1" },
-    { "text": "Hot Singles", "parentPrimaryKey": "1" },
-    { "text": "Rising Artists", "parentPrimaryKey": "1" },
-    { "text": "Live Music", "parentPrimaryKey": "1" },
-    { "text": "Best of 2013 So Far", "parentPrimaryKey": "1" },
-{ "text": "Sales and Events", "primaryKey": "2" },
-    { "text": "100 Albums - $5 Each", "parentPrimaryKey": "2" },
-    { "text": "Hip-Hop and R&amp;B Sale", "parentPrimaryKey": "2" },
-    { "text": "CD Deals", "parentPrimaryKey": "2" }];
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the items property in obtrusive way.
-<div id="lb">
-</div>
-<script>
-window.dbitem = [{ "text": "Discover Music", "primaryKey": "1" },
-    { "text": "Hot Singles", "parentPrimaryKey": "1" },
-    { "text": "Rising Artists", "parentPrimaryKey": "1" },
-    { "text": "Live Music", "parentPrimaryKey": "1" },
-    { "text": "Best of 2013 So Far", "parentPrimaryKey": "1" },
-{ "text": "Sales and Events", "primaryKey": "2" },
-    { "text": "100 Albums - $5 Each", "parentPrimaryKey": "2" },
-    { "text": "Hip-Hop and R&amp;B Sale", "parentPrimaryKey": "2" },
-    { "text": "CD Deals", "parentPrimaryKey": "2" }];
-//Set the items property on initialization. 
-//To set items API value
-$("#lb").ejmListView ({ items: "window.dbitem" });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set items, after initialization:
-// Get the items API value.             
-$("#lb").ejmListView ("option", "items");                       
-// Set the items API
-$("#lb").ejmListView ("option", "items", "window.dbitem");
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### persistSelection`boolean`
-{:#members:persistselection}
-
-
-
-
-
-
-
-
-Specifies whether to retain the selection of the item.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the persistSelection property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-persistSelection="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the persistSelection property in obtrusive way.
-<div id="lb">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set persistSelection on initialization. 
-//To set persistSelection API value 
-$("#lb").ejmListView ({ persistSelection: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set the ListView persistSelection, after initialization:
-// Get the persistSelection API value.          
-$("#lb").ejmListView ("option", "persistSelection");                    
-// Set the persistSelection API
-$("#lb").ejmListView ("option", "persistSelection", true);
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### preventSelection`boolean`
-{:#members:preventselection}
-
-
-
-
-
-
-
-
-Specifies whether to prevent the selection of the item.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the preventSelection property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-preventSelection="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the preventSelection property in obtrusive way.
-<div id="lb">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set preventSelection on initialization. 
-//To set preventSelection API value 
-$("#lb").ejmListView ({ preventSelection: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set the ListView preventSelection, after initialization:
-// Get the preventSelection API value.          
-$("#lb").ejmListView ("option", "preventSelection");                    
-// Set the preventSelection API
-$("#lb").ejmListView ("option", "preventSelection", true);
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### query`ej.Query`
-{:#members:query}
-
-
-
-
-
-
-
-
-Specifies the query to execute with the datasource.
-
-
-
-
-#### Default Value
-
-
-
-
-
 
 * null
 
-
-
-
-
-
-
-
 #### Example
 
-
-{% highlight html %} 
-//Set the query property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-fieldSettings="window.dbitem" data-ej-datasource="window.datasource" 
-data-ej-query="ej.Query().from('Orders').select('ShipCity').take(5)">
-</div>            
-<script>            
-                // DataManager creation
-                window.datasource = ej.DataManager({
-        url: "http://mvc.syncfusion.com/Services/Northwnd.svc/"
-                });
-                window.dbitem = { "text": "ShipCity" };            
-</script>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the query property in obtrusive way.
-<div id="lb" >
-</div>            
-<script>            
-                // DataManager creation
-                window.datasource = ej.DataManager({
-        url: "http://mvc.syncfusion.com/Services/Northwnd.svc/"
-                });
-                window.dbitem = { "text": "ShipCity" };   
-$(function(){
-$("#lb").ejmListView({fieldSettings:"window.dbitem",dataSource:"window.datasource",query:"ej.Query().from('Orders').select('ShipCity').take(5)"});
-});         
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.dbitem" data-ej-fields-text="text" data-ej-fields-enabled="enabled"></ul>
 
+    <script>
+        window.dbitem =
+            [{ "text": "Hot Singles", enabled: false },
+                { "text": "Rising Artists" },
+                { "text": "Live Music", enabled: false },
+                { "text": "Best of 2013 So Far", enabled: false },
+                { "text": "100 Albums - $5 Each" },
+                { "text": "Hip-Hop and R&amp;B Sale" },
+                { "text": "CD Deals" }];
 
-{% highlight html %}        
-<script>  
-//Get or set  query, after initialization:
-// Get the query API value.             
-$("#lb").ejmListView ("option", "query");                       
-// Set the query API
-$("#lb").ejmListView ("option", "query", true);  
-</script>{% endhighlight %}
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
-
-### renderMode`enum`
-{:#members:rendermode}
+{% highlight html %}
 
 
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+    <script>
+        window.dbitem =
+            [{ "text": "Hot Singles", enabled: false },
+                { "text": "Rising Artists" },
+                { "text": "Live Music", enabled: false },
+                { "text": "Best of 2013 So Far", enabled: false },
+                { "text": "100 Albums - $5 Each" },
+                { "text": "Hip-Hop and R&amp;B Sale" },
+                { "text": "CD Deals" }];
+
+    </script>
+
+    <script>
+        $("#listview").ejmListView({ dataSource: window.dbitem, fields: { text: "text", enabled: "enabled" } });
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
-Specifies the rendering mode of the control. See <a href="global.html#RenderMode">RenderMode</a>
+### fields.groupBy `string`
+{:#members:fieldsgroupBy} 
 
-
-
+Maps the group name in which each list item belongs to in list. This is an optional property used only for grouped list.
 
 #### Default Value
 
-
-
-
-
-
-* auto
-
-
-
-
-
-
-
+* null
 
 #### Example
 
-
-{% highlight html %} 
-//Set the renderMode property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-renderMode="auto">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the renderMode property in obtrusive way.
-<div id="lb">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set renderMode on initialization. 
-//To set renderMode API value 
-$("#lb").ejmListView ({ renderMode: "auto" });
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.dbitem" data-ej-fields-text="text" data-ej-fields-groupby="group"></ul>
 
-
-{% highlight html %} 
-<script>
-//Get or set  renderMode, after initialization:
-// Get the renderMode API value.                
-$("#lb").ejmListView ("option", "renderMode");                  
-// Set the renderMode API
-$("#lb").ejmListView ("option", "renderMode", "auto");
-</script>{% endhighlight %}
+    <script>
+        window.dbitem =
+        [{ "text": "Hot Singles", "group": "Likes" },
+            { "text": "Rising Artists", "group": "Likes" },
+            { "text": "Live Music", "group": "Likes" },
+            { "text": "Best of 2013 So Far", "group": "Dislikes" },
+            { "text": "100 Albums - $5 Each", "group": "Likes" },
+            { "text": "Hip-Hop and R&amp;B Sale", "group": "Dislikes" },
+            { "text": "CD Deals", "group": "Dislikes" }];
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
-
-### renderTemplate`boolean`
-{:#members:rendertemplate}
+{% highlight html %}
 
 
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+
+    <script>
+        window.dbitem =
+        [{ "text": "Hot Singles", "group": "Likes" },
+            { "text": "Rising Artists", "group": "Likes" },
+            { "text": "Live Music", "group": "Likes" },
+            { "text": "Best of 2013 So Far", "group": "Dislikes" },
+            { "text": "100 Albums - $5 Each", "group": "Likes" },
+            { "text": "Hip-Hop and R&amp;B Sale", "group": "Dislikes" },
+            { "text": "CD Deals", "group": "Dislikes" }];
+
+        $("#listview").ejmListView({ dataSource: window.dbitem, fields: { text: "text", groupBy: "group" } });
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### fields.href `string`
+{:#members:fieldshref} 
 
-
-
-Specifies whether need to render the control with the template contents.
-
-
-
+Maps href field from the data source. href is set to the navigation URL of each item.
 
 #### Default Value
 
-
-
-
-
-
-* false
-
-
-
-
-
-
-
+* null
 
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-//Set the renderTemplate property in unobtrusive way.
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-rendertemplate=true data-ej-templateid="target1"></li>
-                <li data-ej-rendertemplate=true data-ej-templateid="target2"></li>
-                <li data-ej-rendertemplate=true data-ej-templateid="target3"></li>
-        </ul>
-</div>
-<div id="target1">
-        <div> Template1 </div>
-</div>
-<div id="target2">
-        <div> Template2 </div>
-</div>
-<div id="target3">
-        <div> Template3 </div>
-</div>            {% endhighlight %}
+
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.dbitem" data-ej-fields-text="text" data-ej-fields-href="href"></ul>
+
+    <script>
+        window.dbitem =
+            [{ "text": "Hot Singles", href: "inner.html" },
+                { "text": "Rising Artists" },
+                { "text": "Live Music", href: "inner2.html" },
+                { "text": "Best of 2013 So Far", href: "inner3.html" },
+                { "text": "100 Albums - $5 Each" },
+                { "text": "Hip-Hop and R&amp;B Sale" },
+                { "text": "CD Deals" }];
+
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
-
-### selectedItemIndex`number`
-{:#members:selecteditemindex}
+{% highlight html %}
 
 
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+    <script>
+        window.dbitem =
+            [{ "text": "Hot Singles", href: "inner.html" },
+                { "text": "Rising Artists" },
+                { "text": "Live Music", href: "inner2.html" },
+                { "text": "Best of 2013 So Far", href: "inner3.html" },
+                { "text": "100 Albums - $5 Each" },
+                { "text": "Hip-Hop and R&amp;B Sale" },
+                { "text": "CD Deals" }];
+
+    </script>
+
+    <script>
+        $("#listview").ejmListView({ dataSource: window.dbitem, fields: { text: "text", href: "href" } });
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
-Specifies the selectedItemIndex of the ListView.
+### fields.image `string`
+{:#members:fieldsimage} 
 
-
-
+Maps image field from the data source. Image given by the image will be rendered at the left of list text.
 
 #### Default Value
 
+* null
+
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.listData" data-ej-fields-text="text" data-ej-fields-image="image" ></ul>
+    <script>
+        window.listData = [{ text: "Australia", image: "Australia.png" },
+                           { text: "Brazil", image: "Brazil.png" },
+                           { text: "China", image: "china.png" },
+                           { text: "India", image: "India.png" },
+                           { text: "Spain", image: "Spain.png" }];
+    </script>
 
 
 
+{% endhighlight %}
 
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+    <script>
+        window.listData = [{ text: "Australia", image: "Australia.png" },
+                           { text: "Brazil", image: "Brazil.png" },
+                           { text: "China", image: "china.png" },
+                           { text: "India", image: "India.png" },
+                           { text: "Spain", image: "Spain.png" }];
+
+        $("#listview").ejmListView({ dataSource: window.listData, fields: { text: "text", image: "image" } });
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+### fields.text `string`
+{:#members:fieldstext} 
+
+Maps text field from the data source. This is a required property while rendering the list from data source. 
+
+N> Since field mapping depends on data source, the [dataSource] property must be set with a JSON data.
+
+#### Default Value
+
+* null
+
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.dbitem" data-ej-fields-text="text"></ul>
+
+    <script>
+    window.dbitem =
+    [{ "text": "Hot Singles" },
+        { "text": "Rising Artists" },
+        { "text": "Live Music" },
+        { "text": "Best of 2013 So Far" },
+        { "text": "100 Albums - $5 Each" },
+        { "text": "Hip-Hop and R&amp;B Sale" },
+        { "text": "CD Deals" }];
+    </script>
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+
+    <script>
+        window.dbitem =
+        [{ "text": "Hot Singles" },
+            { "text": "Rising Artists" },
+            { "text": "Live Music" },
+            { "text": "Best of 2013 So Far" },
+            { "text": "100 Albums - $5 Each" },
+            { "text": "Hip-Hop and R&amp;B Sale" },
+            { "text": "CD Deals" }];
+
+        $("#listview").ejmListView({ dataSource: window.dbitem, fields: { text: "text" } });
+    </script>
+
+
+{% endhighlight %}
+
+
+
+### fields.value `string`
+{:#members:fieldsvalue} 
+
+Maps the value for each option from the data source. This is an optional property. 
+
+#### Default Value
+
+* null
+
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.dbitem" data-ej-fields-text="text" data-ej-fields-value="text"></ul>
+
+    <script>
+    window.dbitem =
+    [{ "text": "Hot Singles" },
+        { "text": "Rising Artists" },
+        { "text": "Live Music" },
+        { "text": "Best of 2013 So Far" },
+        { "text": "100 Albums - $5 Each" },
+        { "text": "Hip-Hop and R&amp;B Sale" },
+        { "text": "CD Deals" }];
+    </script>
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+
+    <script>
+        window.dbitem =
+        [{ "text": "Hot Singles" },
+            { "text": "Rising Artists" },
+            { "text": "Live Music" },
+            { "text": "Best of 2013 So Far" },
+            { "text": "100 Albums - $5 Each" },
+            { "text": "Hip-Hop and R&amp;B Sale" },
+            { "text": "CD Deals" }];
+
+        $("#listview").ejmListView({ dataSource: window.dbitem, fields: { text: "text", value: "text" } });
+    </script>
+
+
+{% endhighlight %}
+
+
+
+### itemsCount `number`
+{:#members:itemsCount} 
+
+Specifies how many items need to render initially from remote data source. 
+
+N> This property works based on remote data source, hence the [dataSource] and [fields.text] properties should be set properly while rendering.
+
+#### Default Value
 
 * 0
 
-
-
-
-
-
-
-
 #### Example
 
-
-{% highlight html %} 
-//Set the selectedItemIndex property in Unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-selectedItemIndex="2">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the selectedItemIndex property in Obtrusive way.
-<div id="lb" >
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-// Set ListView selectedItemIndex on initialization. 
-//To set selectedItemIndex API value 
-$("#lb").ejmListView ({ selectedItemIndex: 2 });
-//Get or set the ListView selectedItemIndex, after initialization:
-// Gets the selectedItemIndex API value.                
- $("#lb").ejmListView ("option", "selectedItemIndex");                  
-// Sets the selectedItemIndex API
-$("#lb").ejmListView ("option", "selectedItemIndex", 2);{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.listData" data-ej-fields-text="ContactName" data-ej-query="ej.Query()" data-ej-itemscount="8"></ul>
+
+    <script>
+        window.listData = ej.DataManager({
+            url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Suppliers"
+        });
+    </script>
+
+
+{% endhighlight %}
 
 
 
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+
+    <script>
+        window.listData = ej.DataManager({
+            url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Suppliers"
+        });
+
+        $("#listview").ejmListView({ dataSource: window.listData, fields: { text: "ContactName" }, query: "ej.Query()", itemsCount: 8 });
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### items `jsonarray`
+{:#members:items} 
 
-### showHeader`boolean`
-{:#members:showheader}
-
-
-
-
-
-
-
-
-Specifies whether to show the header.
-
-
-
+Specifies the list items as an array of JSON objects.
 
 #### Default Value
 
+* []
+
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-items="[{ 'text': 'Hot Singles' }, { 'text': 'Rising Artists' }, { 'text': 'Live Music' }, { 'text': 'Best of 2013 So Far' }, { 'text': '100 Albums - $5 Each' }, { 'text': 'Hip-Hop and R&amp;B Sale' }, { 'text': 'CD Deals' }]"></ul>
 
 
 
+{% endhighlight %}
 
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+
+    <script>
+        $("#listview").ejmListView({ items: [{ 'text': 'Hot Singles' }, { 'text': 'Rising Artists' }, { 'text': 'Live Music' }, { 'text': 'Best of 2013 So Far' }, { 'text': '100 Albums - $5 Each' }, { 'text': 'Hip-Hop and R&amp;B Sale' }, { 'text': 'CD Deals' }] });
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+### persistSelection `boolean`
+{:#members:persistSelection} 
+
+Specifies whether to retain the selection of the item.
+
+#### Default Value
 
 * false
 
-
-
-
-
-
-
-
 #### Example
 
-
-{% highlight html %} 
-//Set the showHeader property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-showHeader="true">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the showHeader property in obtrusive way.
-<div id="lb">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set showHeader on initialization. 
-//To set showHeader API value 
-$("#lb").ejmListView ({ showHeader: true });
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-persistselection="true">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
 
 
-{% highlight html %} 
-<script>
-//Get or set  showHeader, after initialization:
-// Get the showHeader API value.                
- $("#lb").ejmListView ("option", "showHeader");                 
-// Set the showHeader API
-$("#lb").ejmListView ("option", "showHeader", true);  
-</script>          {% endhighlight %}
+{% endhighlight %}
 
 
 
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ persistSelection: true });
+    </script>
 
 
 
-
-### showHeaderBackButton`boolean`
-{:#members:showheaderbackbutton}
+{% endhighlight %}
 
 
 
+### query `string`
+{:#members:query} 
 
-
-
-
-
-Specifies whether to show the back button in the header.
-
-
-
+This property used to filter data from remote data source.
 
 #### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the showHeaderBackButton property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the showHeaderBackButton property in obtrusive way.
-<div id="lb">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set showHeaderBackButton on initialization. 
-//To set showHeaderBackButton API value 
-$("#lb").ejmListView ({ showHeaderBackButton: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  showHeaderBackButton, after initialization:
-// Get the showHeaderBackButton API value.              
- $("#lb").ejmListView ("option", "showHeaderBackButton");                       
-// Set the showHeaderBackButton API
-$("#lb").ejmListView ("option", "showHeaderBackButton", true);   
-</script>         {% endhighlight %}
-
-
-
-
-
-
-
-### showScrollbars`boolean`
-{:#members:showscrollbars}
-
-
-
-
-
-
-
-
-Specifies whether need to show the scroll bars when scrolling is allowed.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* true
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the showScrollbars property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-showScrollbars="true">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the showScrollbars property in obtrusive way.
-<div id="lb">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set showScrollbars on initialization. 
-//To set showScrollbars API value 
-$("#lb").ejmListView ({ showScrollbars: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  showScrollbars, after initialization:
-// Get the showScrollbars API value.            
- $("#lb").ejmListView ("option", "showScrollbars");                     
-// Set the showScrollbars API
-$("#lb").ejmListView ("option", "showScrollbars", true); 
-</script>           {% endhighlight %}
-
-
-
-
-
-
-
-### templateId`boolean`
-{:#members:templateid}
-
-
-
-
-
-
-
-
-Specifies ID of the element contains template contents.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the templateId property in unobtrusive way.
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-rendertemplate=true data-ej-templateid="target1"></li>
-                <li data-ej-rendertemplate=true data-ej-templateid="target2"></li>
-                <li data-ej-rendertemplate=true data-ej-templateid="target3"></li>
-        </ul>
-</div>
-<div id="target1">
-        <div> Template1 </div>
-</div>
-<div id="target2">
-        <div> Template2 </div>
-</div>
-<div id="target3">
-        <div> Template3 </div>
-</div>{% endhighlight %}
-
-
-
-
-
-
-
-### theme`enum`
-{:#members:theme}
-
-
-
-
-
-
-
-
-Specifies the theme. See <a href="global.html#Theme">Theme</a>
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* auto
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the theme property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-theme="auto">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the theme property in obtrusive way.
-<div id="lb">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set theme on initialization. 
-//To set theme API value 
-$("#lb").ejmListView ({ theme: "auto" });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  theme, after initialization:
-// Get the theme API value.             
-$("#lb").ejmListView ("option", "theme");                       
-// Set the theme API
-$("#lb").ejmListView ("option", "theme", "auto");
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### transition`string`
-{:#members:transition}
-
-
-
-
-
-
-
-
-Specifies the transition effect while navigation happens.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* none
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the transition property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-transition="slide">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the transition property in obtrusive way.
-<div id="lb">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set transition on initialization. 
-//To set transition API value 
-$("#lb").ejmListView ({ transition: "slide" });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set the ListView transition, after initialization:
-// Get the transition API value.                
-$("#lb").ejmListView ("option", "transition");                  
-// Set the transition API
-$("#lb").ejmListView ("option", "transition", "slide");
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### width`number`
-{:#members:width}
-
-
-
-
-
-
-
-
-Specifies the width of the ListView.
-
-
-
-
-#### Default Value
-
-
-
-
-
 
 * null
 
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.listData" data-ej-fields-text="ContactName" data-ej-query="ej.Query().take(10)"></ul>
+
+    <script>
+        window.listData = ej.DataManager({
+            url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Suppliers"
+        });
+    </script>
+
+
+{% endhighlight %}
 
 
 
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+
+    <script>
+        window.listData = ej.DataManager({
+            url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Suppliers"
+        });
+
+        $("#listview").ejmListView({ dataSource: window.listData, fields: { text: "ContactName" }, query: "ej.Query().take(10)" });
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### renderMode `enum`
+{:#members:renderMode} 
+
+Specifies the rendering mode of the control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global.html)
+
+#### Default Value
+
+* auto
 
 #### Example
 
-
-{% highlight html %} 
-//Set the width property in Unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-width="200">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the width property in Obtrusive way.
-<div id="lb" >
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-// Set ListView width on initialization. 
-//To set width API value 
-$("#lb").ejmListView ({ width: 200 });
-//Get or set the ListView width, after initialization:
-// Gets the width API value.            
- $("#lb").ejmListView ("option", "width");                      
-// Sets the width API
-$("#lb").ejmListView ("option", "width", 200);{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-rendermode="android">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+
+{% endhighlight %}
 
 
 
+{% highlight html %}
 
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ renderMode: "android" });
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+### selectedIndex `number`
+{:#members:selectedIndex} 
+
+Specifies which item to be selected initially for the ListView.
+
+N> To show the selected item as active, [persistSelection] property must be set as true.
+
+#### Default Value
+
+* null
+
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-persistselection="true" data-ej-selectedindex="2">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ selectedIndex: 2, persistSelection: true  });
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+### templateId `boolean`
+{:#members:templateId} 
+
+Specifies ID of the element contains template contents.
+
+N> For ListView template rendering, jsrender.js script required.
+
+#### Default Value
+
+* false
+
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <ul data-role="ejmlistview" data-ej-datasource="window.listData" data-ej-templateid="templatecontent">
+    </ul>    
+
+    <script id="templatecontent" type="text/x-jsrender">
+        <div class="contentdiv">
+            <span class="name">{{>Name}}</span> <span class="designation">{{>Designation}}</span>
+        </div>
+    </script>
+
+    <script type="text/javascript">
+        window.listData =
+        [{ "Name": "Brooke", "Designation": "HR Assistant" },
+        { "Name": "Claire", "Designation": "HR Manager" },
+        { "Name": "Erik", "Designation": "Training Specialist" },
+        { "Name": "Grace", "Designation": "Development Manager" },
+        { "Name": "Jacob", "Designation": "Recruitment Manager" }];
+    </script> 
+
+    <style>
+        .name {
+            margin-left: 15px;
+        }
+
+        .designation {
+            font-size: 13px;
+            float: right;
+            margin-right: 15px;
+        }
+    </style>
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview"></ul>
+
+    <script id="templatecontent" type="text/x-jsrender">
+        <div class="contentdiv">
+            <span class="name">{{>Name}}</span> <span class="designation">{{>Designation}}</span>
+        </div>
+    </script>
+
+    <script type="text/javascript">
+        window.listData =
+        [{ "Name": "Brooke", "Designation": "HR Assistant" },
+        { "Name": "Claire", "Designation": "HR Manager" },
+        { "Name": "Erik", "Designation": "Training Specialist" },
+        { "Name": "Grace", "Designation": "Development Manager" },
+        { "Name": "Jacob", "Designation": "Recruitment Manager" }];
+
+        $("#listview").ejmListView({ dataSource: window.listData, templateId: "templatecontent"  });
+
+    </script> 
+
+    <style>
+        .name {
+            margin-left: 15px;
+        }
+
+        .designation {
+            font-size: 13px;
+            float: right;
+            margin-right: 15px;
+        }
+    </style>
+
+
+
+{% endhighlight %}
 
 
 
 ### windows
-{:#members:windows}
-
-
-
-
-
-
-
+{:#members:windows} 
 
 Section for windows mode specific functionalities.
 
-
-
-
-
-
-
-
-
-
-
-### windows.enableCustomText`boolean`
-{:#members:windows-enablecustomtext}
-
-
-
-
-
-
-
-
-By default windows title's text will be in small case. To override this behavior, set this property to true.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-// Set the windows mode enableCustomText property for header in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-windows-enableheadercustomtext="true">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-// Set the windows mode enableCustomText property for header in obtrusive way.
-<div id="lb">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set enableCustomText on initialization. 
-//To set enableHeaderCustomText API value 
-$("#lb").ejmListView ({ windows:{ enableHeaderCustomText: true });
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  enableHeaderCustomText, after initialization:
-// Get the enableHeaderCustomText API value.            
- $("#lb").ejmListView ("option", "windows.enableHeaderCustomText");                     
-// Set the enableHeaderCustomText API
-$("#lb").ejmListView ("option", "windows.enableHeaderCustomText", true);  
-</script>          {% endhighlight %}
-
-
-
-
-
-
-
-### windows.preventSkew`boolean`
-{:#members:windows-preventskew}
-
-
-
-
-
-
-
+### windows.preventSkew `boolean`
+{:#members:windowspreventSkew} 
 
 Specifies whether to prevent skewing behavior in windows mode.
 
-
-
-
 #### Default Value
-
-
-
-
-
 
 * false
 
-
-
-
-
-
-
-
 #### Example
 
-
-{% highlight html %} 
-//Set the preventSkew property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-rendermode="windows" data-ej-windows-preventSkew="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//Set the preventSkew property in obtrusive way.
-<div id="lb" >
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set preventSkew on initialization. 
-//To set preventSkew API value
-$("#lb").ejmListView ({ windows:{preventSkew: true} });
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-rendermode="windows" data-ej-windows-preventskew="true">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
 
 
-{% highlight html %} 
-<script>
-//Get or set  preventSkew, after initialization:
-// Get the preventSkew API value.               
-$("#lb").ejmListView ("option", "windows.preventSkew");                 
-// Set the preventSkew API
-$("#lb").ejmListView ("option", "windows.preventSkew", true);
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ renderMode: "windows", windows: { preventSkew: true } });
+    </script>
 
 
 
-
-### windows.renderDefault`boolean`
-{:#members:windows-renderdefault}
-
-
-
-
-
-
-
-
-Specifies whether to render control based on the windowsphone's current accent color and device theme.
-
-
-
-
-#### Default Value
-
-
-
-
-
-
-* false
-
-
-
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the renderDefault property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-rendermode="windows" data-ej-windows-renderDefault="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//Set the renderDefault property in obtrusive way.
-<div id="lb">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Set renderDefault on initialization. 
-//To set renderDefault API value 
-$("#lb").ejmListView ({ renderMode:"windows", windows:{renderDefault: true} });                
-</script>{% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set  renderDefault, after initialization:
-// Get the renderDefault API value.             
-$("#lb").ejmListView ("option", "windows.renderDefault");                       
-// Set the renderDefault API
-$("#lb").ejmListView ("option", "windows.renderDefault", true);
-</script>{% endhighlight %}
-
-
+{% endhighlight %}
 
 
 
 ## Methods
 
-
-
-
-
-
-
-
-### addItem`()`
-{:#methods:additem}
-
-
-
-
-
-
-
+### addItem()
+{:#methods:addItem} 
 
 To add item in the given index.
 
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Add item at index 2" data-ej-touchend="add" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function add() {
+            $("#listview").ejmListView("addItem", "New Item", 2);
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### append()
+{:#methods:append} 
+
+To append new items with existing items.
 
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call addItem method.
-$(document).ready(function(){
-$("#lb").ejmListView("addItem",$("&amp;ltli data-ej-text='Comic / Cartoon'></li>"),2);
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
 
+    <script>
+        window.listData = [{ name: "Charlotte Cooper" }, { name: "Shelley Burke" },
+                    { name: "Regina Murphy" }, { name: "Yoshi Nagase" }, { name: "Antonio del Valle Saavedra" }]
+        window.listNewData = [{ name: "Charlotte Cooper" }, { name: "Shelley Burke" },
+                    { name: "Regina Murphy" }, { name: "Yoshi Nagase" }, { name: "Antonio del Valle Saavedra" },
+                    { name: "Mayumi Ohno" }, { name: "Ian Devling" }]
+    </script>
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Append" data-ej-touchend="append" />
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.listData" data-ej-fields-text="name" data-ej-itemscount="3"></ul>
+
+    <script>
+        function append() {
+            $("#listview").ejmListView("append", window.listNewData);
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### checkAll()
+{:#methods:checkAll} 
 
-
-### checkAllItem`()`
-{:#methods:checkallitem}
-
-
-
-
-
-
-
-
-To check all the items.
-
-
-
-
+To check all items in the ListView.
 
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call checkAllItem method.
-$(document).ready(function(){
-$("#lb").ejmListView("checkAllItem");
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
 
+    <input data-role="ejmbutton" type="button" data-ej-text="Check all items" data-ej-touchend="check" />
+    <ul id="listview" data-role="ejmlistview" data-ej-enablechecklist="true">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function check() {
+            $("#listview").ejmListView("checkAll");
+        }
+    </script>
 
 
+{% endhighlight %}
 
 
 
-### checkItem`()`
-{:#methods:checkitem}
-
-
-
-
-
-
-
+### checkItemsByIndex()
+{:#methods:checkItemsByIndex} 
 
 To check item in the given index.
 
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Check item at index 2" data-ej-touchend="check" />
+    <ul id="listview" data-role="ejmlistview" data-ej-enablechecklist="true" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function check() {
+            $("#listview").ejmListView("checkItemsByIndex", 2);
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### checkItemsByIndices()
+{:#methods:checkItemsByIndices} 
+
+To check items in the given array of indices.
 
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call checkItem method.
-$(document).ready(function(){
-$("#lb").ejmListView("checkItem",2);
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
 
+    <input data-role="ejmbutton" type="button" data-ej-text="Check items at indices 2,3" data-ej-touchend="check" />
+    <ul id="listview" data-role="ejmlistview" data-ej-enablechecklist="true">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function check() {
+            $("#listview").ejmListView("checkItemsByIndices", [2,3]);
+        }
+    </script>
 
 
+{% endhighlight %}
 
 
 
-### clear`()`
-{:#methods:clear}
+### deleteItemByIndex()
+{:#methods:deleteItemByIndex} 
 
-
-
-
-
-
-
-
-To clear all the list item in the control before updating with new datasource.
-
-
-
-
+To delete an item in the given index.
 
 #### Example
 
+{% highlight html %}
 
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview" data-ej-datasource="window.dbitem1" >
-</div>  
-<input id="button" type="button" data-role="ejmbutton" data-ej-text="Clear" data-ej-touchend="touchend" />
-         
-<script>
-window.dbitem1 =
-[   { "text": "Hot Singles"},
-    { "text": "Rising Artists"},
-    { "text": "Live Music" },
-    { "text": "Best of 2013 So Far"},
-    { "text": "100 Albums - $5 Each"},
-    { "text": "Hip-Hop and R&amp;B Sale"},
-    { "text": "CD Deals"}];
-window.dbitem2 =
-[   { "text": "Music"},
-    { "text": "Videos"},
-    { "text": "Games" },
-    { "text": "Chat"},
-    { "text": "Others"}];
-function touchend(){
-    $('#lb').ejmListView("clear");
-    $("#lb").ejmListView({dataSource:"window.dbitem2"});
-}
-</script>  {% endhighlight %}
 
+    <input data-role="ejmbutton" type="button" data-ej-text="Delete item at index 2" data-ej-touchend="deleteItem" />
+    <ul id="listview" data-role="ejmlistview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function deleteItem() {
+            var index = $("#listview").ejmListView("deleteItemByIndex", 2);
+            alert("Received index is: '" + index + "'");
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### deleteItemByText()
+{:#methods:deleteItemByText} 
 
-
-
-### deActive`()`
-{:#methods:deactive}
-
-
-
-
-
-
-
-
-To make the item in the given index to be default state.
-
-
-
-
+To delete an item which having the text same as given string.
 
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call deActive method.
-$(document).ready(function(){
-$("#lb").ejListView({persistSelection:true});
-$("#lb").ejmListView("deActive",2);
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
 
+    <input data-role="ejmbutton" type="button" data-ej-text="Delete item with text ‘Abstract’" data-ej-touchend="deleteItem" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function deleteItem() {
+            $("#listview").ejmListView("deleteItemByText", "Abstract");
+        }
+    </script>
 
+
+{% endhighlight %}
 
 
 
+### deselectItem()
+{:#methods:deselectItem} 
 
-### disableItem`()`
-{:#methods:disableitem}
+To deselect the item which is already selected.
+
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Deselect item" data-ej-touchend="deselect" />
+    <ul id="listview" data-role="ejmlistview" data-ej-selectedindex="2" data-ej-persistselection="true">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function deselect() {
+            $("#listview").ejmListView("deselectItem");
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### disable()
+{:#methods:disable} 
+
+To disable the ListView control.
+
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Disable ListView" data-ej-touchend="disable" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function disable() {
+            $("#listview").ejmListView("disable");
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### disableAll()
+{:#methods:disableAll} 
 
+To disable all items in the ListView.
+
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Disable all items" data-ej-touchend="disable" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function disable() {
+            $("#listview").ejmListView("disableAll");
+        }
+    </script>
+
+
+{% endhighlight %}
+
+
+
+### disableItemByIndex()
+{:#methods:disableItemByIndex} 
 
 To disable item in the given index.
 
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Disable item at index 2" data-ej-touchend="disable" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function disable() {
+            $("#listview").ejmListView("disableItemByIndex", 2);
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### disableItemsByIndices()
+{:#methods:disableItemsByIndices} 
+
+To disable items in the given array of indices.
 
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call disableItem method.
-$(document).ready(function(){
-$("#lb").ejmListView("disableItem",2);
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
 
+    <input data-role="ejmbutton" type="button" data-ej-text="Disable items at indices 2,3" data-ej-touchend="disable" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function disable() {
+            $("#listview").ejmListView("disableItemsByIndices", [2,3]);
+        }
+    </script>
 
 
+{% endhighlight %}
 
 
 
-### enableItem`()`
-{:#methods:enableitem}
+### enable()
+{:#methods:enable} 
+
+To enable the ListView control.
+
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Enable ListView" data-ej-touchend="enable" />
+    <ul id="listview" data-role="ejmlistview" data-ej-enabled="false">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function enable() {
+            $("#listview").ejmListView("enable");
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### enableAll()
+{:#methods:enableAll} 
+
+To enable all items in the ListView.
+
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Enable all items" data-ej-touchend="enable" />
+    <ul id="listview" data-role="ejmlistview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        $(function () {
+            $("#listview").ejmListView("disableAll");
+        });
+        function enable() {
+            $("#listview").ejmListView("enableAll");
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
-
+### enableItemByIndex()
+{:#methods:enableItemByIndex} 
 
 To enable item in the given index.
 
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Enable item at index 2" data-ej-touchend="enable" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums" data-ej-enabled="false" ></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function enable() {
+            $("#listview").ejmListView("enableItemByIndex", 2);
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### enableItemsByIndices()
+{:#methods:enableItemsByIndices} 
+
+To enable items in the given array of indices.
 
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call enableItem method.
-$(document).ready(function(){
-$("#lb").ejmListView("enableItem",2);
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
 
+    <input data-role="ejmbutton" type="button" data-ej-text="Enable items at indices 2,3" data-ej-touchend="enable" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums" data-ej-enabled="false"></li>
+        <li data-ej-text="Creative Acrylic" data-ej-enabled="false"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function enable() {
+            $("#listview").ejmListView("enableItemsByIndices", [2,3]);
+        }
+    </script>
 
 
+{% endhighlight %}
 
 
 
-### getActiveItem`()`
-{:#methods:getactiveitem}
+### getIndexByText()
+{:#methods:getIndexByText} 
 
-
-
-
-
-
-
-
-To get the active item.
-
-
-
-
+To get the index of item which having same text as given string.
 
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call getActiveItem method.
-$(document).ready(function(){
-$("#lb").ejmListView("getActiveItem");
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
 
+    <input data-role="ejmbutton" type="button" data-ej-text="Get index of item with text ‘Abstract’" data-ej-touchend="get" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function get() {
+            var index = $("#listview").ejmListView("getIndexByText", "Abstract");
+            alert("Received index is: '" + index + "'");
+        }
+    </script>
 
 
-
-
-
-### getActiveItemText`()`
-{:#methods:getactiveitemtext}
+{% endhighlight %}
 
 
 
+### getItemByIndex()
+{:#methods:getItemByIndex} 
 
-
-
-
-
-To get the text of the active item.
-
-
-
-
+To get the item in the given index.
 
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call getActiveItemText method.
-$(document).ready(function(){
-$("#lb").ejmListView("getActiveItemText");
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
 
+    <input data-role="ejmbutton" type="button" data-ej-text="Get item at index 2" data-ej-touchend="get" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function get() {
+            var item = $("#listview").ejmListView("getItemByIndex", 2);
+            alert("Received item is: '" + $(item).text() + "'");
+        }
+    </script>
 
 
-
-
-
-### getCheckedItems`()`
-{:#methods:getcheckeditems}
+{% endhighlight %}
 
 
 
+### getItemByText()
+{:#methods:getItemByText} 
 
-
-
-
-
-To get all the checked items.
-
-
-
-
+To get the item which having same text as given string.
 
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call getCheckedItems method.
-$(document).ready(function(){
-$("#lb").ejmListView("getCheckedItems");
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
 
+    <input data-role="ejmbutton" type="button" data-ej-text="Get item with text ‘Abstract’" data-ej-touchend="get" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function get() {
+            var item = $("#listview").ejmListView("getItemByText", "Abstract");
+            alert("Received item is: '" + $(item).text() + "'");
+        }
+    </script>
 
 
-
-
-
-### getCheckedItemsText`()`
-{:#methods:getcheckeditemstext}
+{% endhighlight %}
 
 
 
-
-
-
-
-
-To get the text of all the checked items.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call getCheckedItemsText method.
-$(document).ready(function(){
-$("#lb").ejmListView("getCheckedItemsText");
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### getItemsCount`()`
-{:#methods:getitemscount}
-
-
-
-
-
-
-
-
-To get the total item count.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call getItemsCount method.
-$(document).ready(function(){
-$("#lb").ejmListView("getItemsCount");
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### getItemText`()`
-{:#methods:getitemtext}
-
-
-
-
-
-
-
+### getTextByIndex()
+{:#methods:getTextByIndex} 
 
 To get the text of the item in the given index.
 
-
-
-
-
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call getItemText method.
-$(document).ready(function(){
-$("#lb").ejmListView("getItemText",2);
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### hasChild`()`
-{:#methods:haschild}
-
-
-
-
-
-
-
-
-To check whether the item in the given index has child item.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call hasChild method.
-$(document).ready(function(){
-$("#lb").ejmListView("hasChild",2);
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### hide`()`
-{:#methods:hide}
-
-
-
-
-
-
-
-
-To hide the list.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call hide method.
-$(document).ready(function(){
-$("#lb").ejmListView("hide");
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### hideItem`()`
-{:#methods:hideitem}
-
-
-
-
-
-
-
-
-To hide item in the given index.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call hideItem method.
-$(document).ready(function(){
-$("#lb").ejmListView("hideItem",2);
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### isChecked`()`
-{:#methods:ischecked}
-
-
-
-
-
-
-
-
-To check whether item in the given index is checked.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call isChecked method.
-$(document).ready(function(){
-$("#lb").ejmListView("isChecked",2);
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### loadAjaxContent`()`
-{:#methods:loadajaxcontent}
-
-
-
-
-
-
-
-
-To load the ajax content while selecting the item.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableAjax="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableAjax="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableAjax="true"></li>
-        </ul>
-</div>
-<script>
-// Call enableAjax method.
-$(document).ready(function(){
-$("#lb").ejmListView("loadAjaxContent","load1.html");
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### removeCheckMark`()`
-{:#methods:removecheckmark}
-
-
-
-
-
-
-
-
-To remove the check mark either for specific item in the given index or for all items.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call removeCheckMark method.
-$(document).ready(function(){
-$("#lb").ejListView({enableCheckMark:true});
-$("#lb").ejmListView("removeCheckMark",2);
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### removeItem`()`
-{:#methods:removeitem}
-
-
-
-
-
-
-
-
-To remove item in the given index.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call removeItem method.
-$(document).ready(function(){
-$("#lb").ejmListView("removeItem",3);
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### selectItem`()`
-{:#methods:selectitem}
-
-
-
-
-
-
-
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Get 2nd item’s Text" data-ej-touchend="get" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function get() {
+            var text = $("#listview").ejmListView("getTextByIndex", 2);
+            alert("Received text is: '" + text + "'");
+        }
+    </script>
+
+
+{% endhighlight %}
+
+
+
+### selectItemByIndex()
+{:#methods:selectItemByIndex} 
 
 To select item in the given index.
 
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Select item at index 2" data-ej-touchend="select" />
+    <ul id="listview" data-role="ejmlistview" data-ej-persistselection="true" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function select() {
+            $("#listview").ejmListView("selectItemByIndex", 2);
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### setBadge()
+{:#methods:setBadge} 
+
+To set badge value for an item.
 
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call selectItem method.
-$(document).ready(function(){
-$("#lb").ejListView({enableCheckMark:true});
-$("#lb").ejmListView("selectItem",2);
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
 
+    <input data-role="ejmbutton" type="button" data-ej-text="Set badge value for item at index 2" data-ej-touchend="set" />
+    <ul id="listview" data-role="ejmlistview" >
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function set() {
+            $("#listview").ejmListView("setBadge", 2, 33);
+        }
+    </script>
 
+
+{% endhighlight %}
 
 
 
+### uncheckAll()
+{:#methods:uncheckAll} 
 
-### setActive`()`
-{:#methods:setactive}
-
-
-
-
-
-
-
-
-To make the item in the given index to be active state.
-
-
-
-
+To uncheck all items in the ListView.
 
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call setActive method.
-$(document).ready(function(){
-$("#lb").ejmListView({persistSelection:true});
-$("#lb").ejmListView("setActive",2);
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### show`()`
-{:#methods:show}
-
-
-
-
-
-
-
-
-To show the list.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call show method.
-$(document).ready(function(){
-$("#lb").ejmListView("show");
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### showItem`()`
-{:#methods:showitem}
-
-
-
-
-
-
-
-
-To show item in the given index.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call showItem method.
-$(document).ready(function(){
-$("#lb").ejmListView("showItem",2);
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### unCheckAllItem`()`
-{:#methods:uncheckallitem}
-
-
-
-
-
-
-
-
-To uncheck all the items.
-
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview" data-ej-enablecheckmark="true">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call unCheckAllItem method.
-$(document).ready(function(){
-$("#lb").ejmListView("unCheckAllItem");
-});
-</script>{% endhighlight %}
-
-
-
-
-
-
-
-### unCheckItem`()`
-{:#methods:uncheckitem}
-
-
-
-
-
-
-
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Uncheck all items" data-ej-touchend="uncheck" />
+    <ul id="listview" data-role="ejmlistview" data-ej-enablechecklist="true">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        $(function () {
+            $("#listview").ejmListView("checkAll");
+        });
+        function uncheck() {
+            $("#listview").ejmListView("uncheckAll");
+        }
+    </script>
+
+
+{% endhighlight %}
+
+
+
+### uncheckItemsByIndex()
+{:#methods:uncheckItemsByIndex} 
 
 To uncheck item in the given index.
 
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Uncheck item at index 2" data-ej-touchend="uncheck" />
+    <ul id="listview" data-role="ejmlistview" data-ej-enablechecklist="true">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums" data-ej-checkby="true"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        function uncheck() {
+            $("#listview").ejmListView("uncheckItemsByIndex", 2);
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
+### uncheckItemsByIndices()
+{:#methods:uncheckItemsByIndices} 
+
+To uncheck items in the given array of indices.
 
 #### Example
 
-
-{% highlight html %} 
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-// Call unCheckItem method.
-$(document).ready(function(){
-$("#lb").ejmListView("unCheckItem",2);
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
 
+    <input data-role="ejmbutton" type="button" data-ej-text="Uncheck items at indices 2,3" data-ej-touchend="uncheck" />
+    <ul id="listview" data-role="ejmlistview" data-ej-enablechecklist="true">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+    <script>
+        $(function () {
+            $("#listview").ejmListView("checkItemsByIndices", [2,3]);
+        });
+        function uncheck() {
+            $("#listview").ejmListView("uncheckItemsByIndices", [2, 3]);
+        }
+    </script>
+
+
+{% endhighlight %}
 
 
 
 ## Events
 
+### actionComplete
+{:#events:actionComplete} 
 
+Event triggers after the AJAX content loaded completely.
 
-
-
-
-
-
-### ajaxBeforeLoad
-{:#events:ajaxbeforeload}
-
-
-
-
-
-
-
-
-Event triggers before the ajax request happens.
-
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from listview.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from ListView.<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}ajaxData{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the ajax settings.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 </table>
 
 
-
-
+</td></tr>
+</table>
 #### Example
 
-
-{% highlight html %} 
-//Set the ajaxBeforeLoad property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-ajaxBeforeLoad="ajaxBeforeLoad">
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//ajaxBeforeLoad event for ListView
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
-        </ul>
-</div>
-<script>
-$(document).ready(function(){
-$("#lb").ejmListView({
-        ajaxBeforeLoad: function (args) { //handle the event 
-}
-        });           
-});
-</script>{% endhighlight %}
+    <script>
+        window.listData = ej.DataManager({
+            url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Suppliers"
+        });
+    </script>
+
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.listData" data-ej-fields-text="ContactName" data-ej-itemscount="5" data-ej-actioncomplete="complete"></ul>
+
+    <script>
+        function complete(args) {
+            //handle the event
+        }
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
+### actionFailure
+{:#events:actionFailure} 
 
-### ajaxComplete
-{:#events:ajaxcomplete}
+Event triggers when the AJAX request failed.
 
-
-
-
-
-
-
-
-Event triggers after the ajax content loaded completely.
-
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from listview.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from ListView.<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+errorThrown</td><td>
+Object</td><td>
+Returns the error thrown in the AJAX post.</td></tr>
+<tr>
+<td>
+textStatus</td><td>
+Object</td><td>
+Returns the status.</td></tr>
+<tr>
+<td>
+item</td><td>
+object</td><td>
+Returns the current list item.</td></tr>
+<tr>
+<td>
+text</td><td>
+string</td><td>
+Returns the current item text.</td></tr>
+<tr>
+<td>
+index</td><td>
+number</td><td>
+Returns the current item index.</td></tr>
 </table>
 
 
-
-
+</td></tr>
+</table>
 #### Example
 
-
-{% highlight html %} 
-//Set the ajaxComplete property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-ajaxComplete="ajaxComplete">
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//ajaxComplete event for ListView
-<div id="lb" data-role="ejmlistview" >
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
-        </ul>
-</div>
-<script>
-$(document).ready(function(){
-$("#lb").ejmListView({
-        ajaxComplete: function (args) { //handle the event 
-}
-        });         
-});
-</script>{% endhighlight %}
+{% highlight html %}
 
 
 
+    <script>
+        window.listData = ej.DataManager({
+            url: "http://mvc.syncfusion.com/Services/North.svc/Suppliers"
+        });
+    </script>
+
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.listData" data-ej-fields-text="ContactName" data-ej-itemscount="5" data-ej-actionfailure="failure"></ul>
+
+    <script>
+        function failure(args) {
+            //handle the event
+        }
+    </script>
 
 
 
-
-### ajaxError
-{:#events:ajaxerror}
+{% endhighlight %}
 
 
 
+### actionSuccess
+{:#events:actionSuccess} 
 
+Event triggers after the AJAX content loaded successfully.
 
-
-
-
-Event triggers when the ajax request failed.
-
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from listview.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from ListView.<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}errorThrown{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the error thrown in the ajax post.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}textStatus{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the status.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}item{% endhighlight %}</td>
-<td class="type"><span class="param-type">object</span></td>
-<td class="description last">returns the curent list item.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}text{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the current item text.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}index{% endhighlight %}</td>
-<td class="type"><span class="param-type">number</span></td>
-<td class="description last">returns the current item index.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 </table>
 
 
-
-
+</td></tr>
+</table>
 #### Example
 
-
-{% highlight html %} 
-//Set the ajaxError property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-ajaxError="ajaxError">
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//ajaxError event for ListView
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
-        </ul>
-</div>
-<script>
-$(document).ready(function(){
-$("#lb").ejmListView({
-        ajaxError: function (args) { //handle the event 
-}
-        });         
-});
-</script>{% endhighlight %}
+    <script>
+        window.listData = ej.DataManager({
+            url: "http://mvc.syncfusion.com/Services/Northwnd.svc/Suppliers"
+        });
+    </script>
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Append" data-ej-touchend="append" />
+    <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.listData" data-ej-fields-text="ContactName" data-ej-itemscount="5" data-ej-actionsuccess="success"></ul>
+
+    <script>
+        function append() {
+            $("#listview").ejmListView("append", window.listData);
+        }
+        function success(args) {
+            //handle the event
+        }
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
+### afterDelete
+{:#events:afterDelete} 
 
-### ajaxSuccess
-{:#events:ajaxsuccess}
+Event triggers after an item deleted in ListView.
 
-
-
-
-
-
-
-
-Event triggers after the ajax content loaded successfully.
-
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from listview.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from ListView.<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
+<td>
+item</td><td>
+object</td><td>
+Returns the current list item.</td></tr>
 <tr>
-<td class="name">{% highlight html %}content{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the ajax current content.</td>
-</tr>
+<td>
+text</td><td>
+string</td><td>
+Returns the current item text.</td></tr>
 <tr>
-<td class="name">{% highlight html %}item{% endhighlight %}</td>
-<td class="type"><span class="param-type">object</span></td>
-<td class="description last">returns the curent list item.</td>
-</tr>
+<td>
+index</td><td>
+number</td><td>
+Returns the current item index.</td></tr>
 <tr>
-<td class="name">{% highlight html %}text{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the current item text.</td>
-</tr>
+<td>
+isChecked</td><td>
+boolean</td><td>
+Returns the current item is checked or not.</td></tr>
 <tr>
-<td class="name">{% highlight html %}index{% endhighlight %}</td>
-<td class="type"><span class="param-type">number</span></td>
-<td class="description last">returns the current item index.</td>
-</tr>
+<td>
+isInteraction</td><td>
+boolean</td><td>
+Returns the current item is intractable or not.</td></tr>
 <tr>
-<td class="name">{% highlight html %}url{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the current url of the ajax post.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+isSelected</td><td>
+boolean</td><td>
+Returns the current item is selected or not.</td></tr>
 </table>
 
 
-
-
+</td></tr>
+</table>
 #### Example
 
-
-{% highlight html %} 
-//Set the ajaxSuccess property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-ajaxSuccess="ajaxSuccess">
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//ajaxSuccess event for ListView
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Man of Steel" data-ej-href="load1.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="World War Z" data-ej-href="load2.html" data-ej-enableajax="true"></li>
-                <li data-ej-text="Monsters University" data-ej-href="load3.html" data-ej-enableajax="true"></li>
-        </ul>
-</div>
-<script>
-$(document).ready(function(){
-$("#lb").ejmListView({
-        ajaxSuccess: function (args) { //handle the event 
-}
-        });         
-});
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-deletemode="swipe" data-ej-afterdelete="afterdelete">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        function afterdelete(args) {
+            //handle the event
+        }
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
-
-### headerBackButtonTap
-{:#events:headerbackbuttontap}
+{% highlight html %}
 
 
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ deleteMode: "swipe", afterDelete: "afterdelete" });
+        function afterdelete(args) {
+            //handle the event
+        }
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
-Event triggers when touch end happens on the back button in the header.
+### beforeDelete
+{:#events:beforeDelete} 
 
-<table class="params">
-<thead>
+Event triggers before an item deleted in ListView.
+
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from listbox.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from ListView.<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
+<td>
+item</td><td>
+object</td><td>
+Returns the current list item.</td></tr>
 <tr>
-<td class="name">{% highlight html %}text{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the text of the button.</td>
-</tr>
-</tbody>
+<td>
+text</td><td>
+string</td><td>
+Returns the current item text.</td></tr>
+<tr>
+<td>
+index</td><td>
+number</td><td>
+Returns the current item index.</td></tr>
+<tr>
+<td>
+isChecked</td><td>
+boolean</td><td>
+Returns the current item is checked or not.</td></tr>
+<tr>
+<td>
+isInteraction</td><td>
+boolean</td><td>
+Returns the current item is intractable or not.</td></tr>
+<tr>
+<td>
+isSelected</td><td>
+boolean</td><td>
+Returns the current item is selected or not.</td></tr>
 </table>
-</td>
-</tr>
-</tbody>
+
+
+</td></tr>
 </table>
-
-
-
-
 #### Example
 
-
-{% highlight html %} 
-// Set the headerBackButtonTap property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true" data-ej-headerBackButtonTap="headerBackButtonTap">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//headerBackButtonTap event for ListView
-<div id="lb" data-role="ejmlistview" data-ej-showHeaderBackButton="true">
-         <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-$("#lb").ejmListView({
-        headerBackButtonTap: function (args) { //handle the event 
-}
-        });         
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-deletemode="swipe" data-ej-beforedelete="beforedelete">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        function beforedelete(args) {
+            //handle the event
+        }
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
-
-### load
-{:#events:load}
+{% highlight html %}
 
 
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ deleteMode: "swipe", beforeDelete: "beforedelete" });
+        function beforedelete(args) {
+            //handle the event
+        }
+    </script>
 
 
 
+{% endhighlight %}
 
 
+### select
+{:#events:select} 
 
-Event triggers before the items loaded.
+Event triggers after an item selected in ListView.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from listview.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from ListView.<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
-</tbody>
+<td>
+item</td><td>
+object</td><td>
+Returns the curent list item.</td></tr>
+<tr>
+<td>
+text</td><td>
+string</td><td>
+Returns the current item text.</td></tr>
+<tr>
+<td>
+index</td><td>
+number</td><td>
+Returns the current item index.</td></tr>
+<tr>
+<td>
+isChecked</td><td>
+boolean</td><td>
+Returns the current item is checked or not.</td></tr>
+<tr>
+<td>
+isInteraction</td><td>
+boolean</td><td>
+returns the current item is intractable or not.</td></tr>
+<tr>
+<td>
+isSelected</td><td>
+boolean</td><td>
+Returns the current item is selected or not.</td></tr>
 </table>
-</td>
-</tr>
-</tbody>
+
+
+</td></tr>
 </table>
-
-
-
-
 #### Example
 
-
-{% highlight html %} 
-//Set the load property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-load="load">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//load event for ListView
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-$(document).ready(function(){
-$("#lb").ejmListView({
-        load: function (args) { //handle the event 
-}
-        });         
-});
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-select="select">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        function select(args) {
+            //handle the event
+        }
+    </script>
 
 
 
+{% endhighlight %}
 
 
 
-
-### loadComplete
-{:#events:loadcomplete}
+{% highlight html %}
 
 
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
 
-
-
-
-
-
-Event triggers after the items loaded.
-
-<table class="params">
-<thead>
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from listview.
-<table class="params">
-<thead>
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
+    <script>
+        $("#listview").ejmListView({ select: "select" });
+        function select(args) {
+            //handle the event
+        }
+    </script>
 
 
 
-
-#### Example
-
-
-{% highlight html %} 
-//Set the loadComplete property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-loadComplete="loadComplete">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
-
-
-{% highlight html %} 
-//loadComplete event for ListView
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-$(document).ready(function(){
-$("#lb").ejmListView({
-        loadComplete: function (args) { //handle the event 
-}
-        });         
-});
-</script>{% endhighlight %}
-
-
-
-
+{% endhighlight %}
 
 
 
 ### touchEnd
-{:#events:touchend}
-
-
-
-
-
-
-
+{:#events:touchStart} 
 
 Event triggers when touch end happens on the item.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from listbox.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from ListView.<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
+<td>
+item</td><td>
+object</td><td>
+Returns the current list item.</td></tr>
 <tr>
-<td class="name">{% highlight html %}hasChild{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">If the child element exist return true; otherwise, false.</td>
-</tr>
+<td>
+text</td><td>
+string</td><td>
+returns the current item text.</td></tr>
 <tr>
-<td class="name">{% highlight html %}item{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the current list item.</td>
-</tr>
+<td>
+index</td><td>
+number</td><td>
+Returns the current item index.</td></tr>
 <tr>
-<td class="name">{% highlight html %}text{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the current text of item.</td>
-</tr>
+<td>
+isChecked</td><td>
+boolean</td><td>
+Returns the current item is checked or not.</td></tr>
 <tr>
-<td class="name">{% highlight html %}index{% endhighlight %}</td>
-<td class="type"><span class="param-type">number</span></td>
-<td class="description last">returns the current Index of the item.</td>
-</tr>
+<td>
+isInteraction</td><td>
+boolean</td><td>
+Returns the current item is intractable or not.</td></tr>
 <tr>
-<td class="name">{% highlight html %}isChecked{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">If checked return true; otherwise, false.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}checkedItems{% endhighlight %}</td>
-<td class="type"><span class="param-type">number</span></td>
-<td class="description last">returns the list of checked items.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}checkedItemsText{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the current checked item text.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+isSelected</td><td>
+boolean</td><td>
+Returns the current item is selected or not.</td></tr>
 </table>
 
 
-
-
+</td></tr>
+</table>
 #### Example
 
-
-{% highlight html %} 
-//Set the touchEnd property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-touchEnd="touchEnd">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//touchEnd event for ListView
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-$(document).ready(function(){
-$("#lb").ejmListView({
-        touchEnd: function (args) { //handle the event 
-}
-        });    
-});
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-touchend="touchend">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        function touchend(args) {
+            //handle the event
+        }
+    </script>
 
 
 
+{% endhighlight %}
 
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ touchEnd: "touchend" });
+        function touchend(args) {
+            //handle the event
+        }
+    </script>
+
+
+
+{% endhighlight %}
 
 
 
 ### touchStart
-{:#events:touchstart}
-
-
-
-
-
-
-
+{:#events:touchStart} 
 
 Event triggers when touch start happens on the item.
 
-<table class="params">
-<thead>
+<table>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from listbox.
-<table class="params">
-<thead>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from ListView.<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
+<td>
+cancel</td><td>
+boolean</td><td>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
-</tr>
+<td>
+type</td><td>
+string</td><td>
+Returns the name of the event.</td></tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
-</tr>
+<td>
+model</td><td>
+Object</td><td>
+Returns the model value of the control.</td></tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
-</tr>
+<td>
+item</td><td>
+object</td><td>
+Returns the current list item.</td></tr>
 <tr>
-<td class="name">{% highlight html %}hasChild{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">If the child element exist return true; otherwise, false.</td>
-</tr>
+<td>
+text</td><td>
+string</td><td>
+Returns the current item text.</td></tr>
 <tr>
-<td class="name">{% highlight html %}item{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the current list item.</td>
-</tr>
+<td>
+index</td><td>
+number</td><td>
+Returns the current item index.</td></tr>
 <tr>
-<td class="name">{% highlight html %}text{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the current text of item.</td>
-</tr>
+<td>
+isChecked</td><td>
+boolean</td><td>
+Returns the current item is checked or not.</td></tr>
 <tr>
-<td class="name">{% highlight html %}index{% endhighlight %}</td>
-<td class="type"><span class="param-type">number</span></td>
-<td class="description last">returns the current Index of the item.</td>
-</tr>
+<td>
+isInteraction</td><td>
+boolean</td><td>
+Returns the current item is intractable or not.</td></tr>
 <tr>
-<td class="name">{% highlight html %}isChecked{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">If checked return true; otherwise, false.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}checkedItems{% endhighlight %}</td>
-<td class="type"><span class="param-type">number</span></td>
-<td class="description last">returns the list of checked items.</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}checkedItemsText{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the current checked item text.</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<td>
+isSelected</td><td>
+boolean</td><td>
+Returns the current item is selected or not.</td></tr>
 </table>
 
 
-
-
+</td></tr>
+</table>
 #### Example
 
-
-{% highlight html %} 
-//Set the touchStart property in unobtrusive way.
-<div id="lb" data-role="ejmlistview" data-ej-touchStart="touchStart">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>{% endhighlight %}
+{% highlight html %}
 
 
-{% highlight html %} 
-//touchStart event for ListView
-<div id="lb" data-role="ejmlistview">
-        <ul>
-                <li data-ej-text="Artwork"></li>
-                <li data-ej-text="Abstract"></li>
-                <li data-ej-text="2 Acrylic Mediums"></li>
-                <li data-ej-text="Creative Acrylic"></li>
-                <li data-ej-text="Modern Painting"></li>
-                <li data-ej-text="Canvas Art"></li>
-                <li data-ej-text="Black white"></li>
-                <li data-ej-text="Children"></li>
-                <li data-ej-text="Preschool Crafts"></li>
-                <li data-ej-text="School-age Crafts"></li>
-        </ul>
-</div>
-<script>
-$(document).ready(function(){
-$("#lb").ejmListView({
-        touchStart: function (args) { //handle the event 
-}
-        });         
-});
-</script>{% endhighlight %}
+    <!-- Unobtrusive way of rendering -->
+    <ul id="listview" data-role="ejmlistview" data-ej-touchstart="touchstart">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        function touchstart(args) {
+            //handle the event
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <ul id="listview">
+        <li data-ej-text="Artwork"></li>
+        <li data-ej-text="Abstract"></li>
+        <li data-ej-text="2 Acrylic Mediums"></li>
+        <li data-ej-text="Creative Acrylic"></li>
+        <li data-ej-text="Modern Painting"></li>
+        <li data-ej-text="Canvas Art"></li>
+        <li data-ej-text="Black white"></li>
+        <li data-ej-text="Children"></li>
+        <li data-ej-text="Preschool Crafts"></li>
+        <li data-ej-text="School-age Crafts"></li>
+    </ul>
+
+    <script>
+        $("#listview").ejmListView({ touchStart: "touchstart" });
+        function touchstart(args) {
+            //handle the event
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
