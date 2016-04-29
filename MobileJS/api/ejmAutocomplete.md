@@ -1,4 +1,4 @@
-layout: post
+﻿layout: post
 title: ejmAutocomplete | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmAutocomplete
 platform: Mobilejs

@@ -1,4 +1,4 @@
-layout: post
+﻿layout: post
 title: ejmAccordion | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmAccordion
 platform: Mobilejs

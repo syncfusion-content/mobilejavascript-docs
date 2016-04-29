@@ -1,4 +1,4 @@
-layout: post
+﻿layout: post
 title: ejmRotator | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmRotator
 platform: Mobilejs

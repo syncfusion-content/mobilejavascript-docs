@@ -1,4 +1,4 @@
-layout: post
+﻿layout: post
 title: ejmProgress | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmProgress
 platform: Mobilejs
