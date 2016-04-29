@@ -1,4 +1,4 @@
-layout: post
+﻿layout: post
 title: ejmRadioButton | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmRadioButton
 platform: Mobilejs

@@ -1,4 +1,4 @@
-layout: post
+﻿layout: post
 title: ejmDatePicker | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmDatePicker
 platform: Mobilejs
