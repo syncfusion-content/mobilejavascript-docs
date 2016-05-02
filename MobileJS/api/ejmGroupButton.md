@@ -442,6 +442,105 @@ Specifies the item which one is to be selected initially.
 
 ## Events
 
+
+### select
+{:#events:select}
+
+Event triggers when the select happens in the group button
+
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+argument</td><td>
+Object</td><td>
+Event parameters from group button<table><br><tr><br><th><b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+cancel</td><td>
+boolean</td><td>
+If the event should be canceled; otherwise, false.</td></tr>
+<tr>
+<td>
+model</td><td>
+boolean</td><td>
+Returns the group button model</td></tr>
+<tr>
+<td>
+type</td><td>
+boolean</td><td>
+Returns the name of the event</td></tr>
+<tr>
+<td>
+text</td><td>
+boolean</td><td>
+Returns the current button text</td></tr>
+</table>
+
+
+</td></tr>
+</table>
+#### Example
+
+{% highlight html %}
+
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="grpbtn" data-role="ejmgroupbutton" data-ej-select="select">
+        <label>
+            <input type="radio" name="options">
+            iPod
+        </label>
+        <label>
+            <input type="radio" name="options">
+            iPad
+        </label>
+    </div>
+
+    <script>
+        function select(args) { //handle the event
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+{% highlight html %}
+
+
+    <!-- Obtrusive way of rendering -->
+    <div id="grpbtn">
+        <label>
+            <input type="radio" name="options">
+            iPod
+        </label>
+        <label>
+            <input type="radio" name="options">
+            iPad
+        </label>
+    </div>
+
+    <script>
+        $("#grpbtn").ejmGroupButton({ select: "select" });
+        function select(args) { //handle the event
+        }
+    </script>
+
+
+
+
+{% endhighlight %}
+
+
 ### touchEnd
 {:#events:touchEnd}
 
