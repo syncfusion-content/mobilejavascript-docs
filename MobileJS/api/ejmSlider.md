@@ -1,10 +1,12 @@
-﻿layout: post
+---
+layout: post
 title: ejmSlider | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmSlider
 platform: Mobilejs
 control: ejmSlider
 documentation: API
 keywords: ejmSlider, API, Essential Studio JS Slider (Mobile) 
+---
 
 # ejmSlider
 
@@ -289,7 +291,7 @@ Section for ios7 mode specific functionalities.
 ### ios7.thumbStyle `Enum`
 {:#members:ios7.thumbstyle}
 
-Specifies the thumb style in ios7 mode. See[ThumbStyle](http://help.syncfusion.com/mobilejs/api/global.html)
+Specifies the thumb style in ios7 mode. See[ThumbStyle](http://help.syncfusion.com/mobilejs/api/global#members:thumbstyle)
 
 #### Default Value:
 
@@ -396,7 +398,7 @@ Specifies the minimum value.
 ### orientation `Enum`
 {:#members:orientation}
 
-Specifies whether the orientation is horizontal or vertical. See[Orientation](http://help.syncfusion.com/mobilejs/api/global.html)
+Specifies whether the orientation is horizontal or vertical. See[Orientation](http://help.syncfusion.com/mobilejs/api/global#members:orientation)
 
 #### Default Value:
 

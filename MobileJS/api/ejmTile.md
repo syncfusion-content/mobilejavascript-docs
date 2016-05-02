@@ -1,10 +1,12 @@
-﻿layout: post
+---
+layout: post
 title: ejmTile | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmTile
 platform: Mobilejs
 control: ejmTile
 documentation: API
 keywords: ejmTile, API, Essential Studio JS Tile (Mobile) 
+---
 
 # ejmTile
 

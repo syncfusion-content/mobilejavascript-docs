@@ -1,10 +1,12 @@
-﻿layout: post
+---
+layout: post
 title: ejmMenu | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmMenu
 platform: Mobilejs
 control: ejmMenu
 documentation: API
 keywords: ejmMenu, API, Essential Studio JS Menu (Mobile) 
+---
 
 # ejmMenu
 
@@ -998,7 +1000,7 @@ Specifies to show the popover menu arrow.
 ### showOn `String`
 {:#members:showon}
 
-Specifies in which action need to show the menu. See[ShowOn](http://help.syncfusion.com/mobilejs/api/global.html)
+Specifies in which action need to show the menu. See[ShowOn](http://help.syncfusion.com/mobilejs/api/global#members:showon)
 
 #### Default Value:
 

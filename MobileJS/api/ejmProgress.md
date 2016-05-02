@@ -1,10 +1,12 @@
-﻿layout: post
+---
+layout: post
 title: ejmProgress | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmProgress
 platform: Mobilejs
 control: ejmProgress
 documentation: API
 keywords: ejmProgress, API, Essential Studio JS Progressbar (Mobile) 
+---
 
 
 # ejmProgress
@@ -321,7 +323,7 @@ Specifies the minimum value.
 ### orientation `Enum`
 {:#members:orientation}
 
-Specifies the orientation whether it is horizontal or vertical. See[Orientation](http://help.syncfusion.com/mobilejs/api/global.html)
+Specifies the orientation whether it is horizontal or vertical. See[Orientation](http://help.syncfusion.com/mobilejs/api/global#members:orientation)
 
 #### Default Value:
 

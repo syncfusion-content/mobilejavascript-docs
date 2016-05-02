@@ -1,10 +1,12 @@
-﻿layout: post
+---
+layout: post
 title: ejmCheckBox | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmCheckBox
 platform: Mobilejs
 control: ejmCheckBox
 documentation: API
 keywords: ejmCheckBox, API, Essential Studio JS CheckBox (Mobile)
+---
 
 # ejmCheckBox
 
