@@ -1,10 +1,12 @@
-﻿layout: post
+---
+layout: post
 title: ejmRadioButton | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmRadioButton
 platform: Mobilejs
 control: ejmRadioButton
 documentation: API
 keywords: ejmRadioButton, API, Essential Studio JS RadioButton (Mobile) 
+---
 
 # ejmRadioButton
 

@@ -1,10 +1,12 @@
-﻿layout: post
+---
+layout: post
 title: ejmAccordion | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmAccordion
 platform: Mobilejs
 control: ejmAccordion
 documentation: API
 keywords: ejmAccordion, API, Essential Studio JS Accordion (Mobile) 
+---
 
 
 # ejmAccordion
@@ -1174,7 +1176,7 @@ Specifies whether to fetch the Ajax content initially.
 
 
 
-### renderModw `Enum`
+### renderMode `Enum`
 {:#members:rendermode}
 
 Changes the rendering mode of the accordion. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)

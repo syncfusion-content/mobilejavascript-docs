@@ -1,10 +1,12 @@
-﻿layout: post
+---
+layout: post
 title: ejmScrollPanel | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmScrollPanel
 platform: Mobilejs
 control: ejmScrollPanel
 documentation: API
 keywords: ejmScrollPanel, API, Essential Studio JS Scrollpanel (Mobile) 
+---
 
 #ejmScrollPanel
 

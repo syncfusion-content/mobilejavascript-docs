@@ -1,11 +1,12 @@
-﻿layout: post
+---
+layout: post
 title: ejmAutocomplete | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmAutocomplete
 platform: Mobilejs
 control: ejmAutocomplete
 documentation: API
 keywords: ejmAutocomplete, API, Essential Studio JS AutoComplete (Mobile) 
-
+---
 
 # ejmAutocomplete
 The Essential JavaScript Mobile AutoComplete widget is a text box control that provides a list of suggestions based on a user’s query.  
@@ -546,7 +547,7 @@ Specifies the field’s text.
 ### filterType `Enum`
 {:#members:filtertype}
 
-Specifies the type of the filter by which the filtering occurs. See[FilterType](http://help.syncfusion.com/mobilejs/api/global.html)
+Specifies the type of the filter by which the filtering occurs. See[FilterType](http://help.syncfusion.com/mobilejs/api/global#members:filtertype)
 
 #### Default Value: 
 
@@ -684,7 +685,7 @@ Specifies the minimum search key length, which only AutoComplete queries from th
 ### mode `Enum`
 {:#members:mode}
 
-Specifies the AutoComplete mode. See[Mode](http://help.syncfusion.com/mobilejs/api/global.html)
+Specifies the AutoComplete mode. See[Mode](http://help.syncfusion.com/mobilejs/api/global#members:mode)
 
 #### Default Value: 
 
@@ -788,7 +789,7 @@ Specifies the AutoComplete popup width.
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Changes the rendering mode of the autocomplete. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global)
+Changes the rendering mode of the autocomplete. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 #### Default Value: 
 
@@ -857,7 +858,7 @@ Specifies the search result to be shown or not while there is no suggestion for 
 ### sortOrder `Enum`
 {:#members:sortorder}
 
-Specifies the suggestion list sorting order. See[SortOrder](http://help.syncfusion.com/mobilejs/api/global.html)
+Specifies the suggestion list sorting order. See[SortOrder](http://help.syncfusion.com/mobilejs/api/global#members:sortorder)
 
 #### Default Value: 
 
