@@ -1,10 +1,12 @@
-﻿layout: post
+---
+layout: post
 title: ejmTimePicker | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmTimePicker
 platform: Mobilejs
 control: ejmTimePicker
 documentation: API
 keywords: ejmTimePicker, API, Essential Studio JS TimePicker (Mobile) 
+---
 
 # ejmTimePicker
 

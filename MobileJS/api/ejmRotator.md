@@ -1,10 +1,12 @@
-﻿layout: post
+---
+layout: post
 title: ejmRotator | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmRotator
 platform: Mobilejs
 control: ejmRotator
 documentation: API
 keywords: ejmRotator, API, Essential Studio JS Rotator (Mobile) 
+---
 
 # ejmRotator
 

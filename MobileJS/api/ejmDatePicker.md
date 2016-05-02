@@ -1,10 +1,12 @@
-﻿layout: post
+---
+layout: post
 title: ejmDatePicker | API Reference | Mobile JS | Syncfusion
 description:  Methods, members, events available in ejmDatePicker
 platform: Mobilejs
 control: ejmDatePicker
 documentation: API
 keywords: ejmDatePicker, API, Essential Studio JS DatePicker (Mobile) 
+---
 
 # ejmDatePicker
 

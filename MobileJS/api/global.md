@@ -207,10 +207,10 @@ Used to display filter results after enter key is pressed</td></tr>
 </table>
 
 
-### NavBarIconAlignment
-{:#members:NavBarIconAlignment}
+### FilterType
+{:#members:FilterType}
 
-Enum for iconAlignment of ejmNavigationBar
+Enum for Autocomplete FilterType
 
 #### Properties:
 
@@ -223,16 +223,73 @@ Enum for iconAlignment of ejmNavigationBar
 <b>Description</b></th></tr>
 <tr>
 <td>
-Split</td><td>
+StartsWith</td><td>
 string</td><td>
-split</td><td>
-To align toolbar icons as split type</td></tr>
+startswith</td><td>
+To specify the type of filter</td></tr>
 <tr>
 <td>
-Grouped</td><td>
+Contains</td><td>
 string</td><td>
-grouped</td><td>
-To align toolbar icons as grouped</td></tr>
+contains</td><td>
+To specify the type of filter</td></tr>
+</table>
+
+### NavBarMode
+{:#members:NavBarMode}
+
+Enum for mode of ejmNavigationBar
+
+#### Properties:
+
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Default</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+Header</td><td>
+string</td><td>
+header</td><td>
+To render navigation bar as header or footer</td></tr>
+<tr>
+<td>
+Toolbar</td><td>
+string</td><td>
+toolbar</td><td>
+To render navigation bar as toolbar</td></tr>
+</table>
+
+
+### Mode
+{:#members:Mode}
+
+Enum for AutoComplete Mode
+
+#### Properties:
+
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Default</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+Search</td><td>
+string</td><td>
+search</td><td>
+Specifies the autocomplete mode</td></tr>
+<tr>
+<td>
+Default</td><td>
+string</td><td>
+default</td><td>
+Specifies the autocomplete mode</td></tr>
 </table>
 
 
@@ -326,6 +383,35 @@ Right</td><td>
 string</td><td>
 right</td><td>
 To align navigation bar title from right</td></tr>
+</table>
+
+
+### Orientation
+{:#members:Orientation}
+
+Enum for Orientation
+
+#### Properties:
+
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Default</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+Horizontal</td><td>
+string</td><td>
+horizontal</td><td>
+Change the contol Orientation to Horizontal</td></tr>
+<tr>
+<td>
+Vertical</td><td>
+string</td><td>
+vertical</td><td>
+Change the control Orientation to Vertical</td></tr>
 </table>
 
 
@@ -547,6 +633,64 @@ Flat RenderMode</td></tr>
 </table>
 
 
+### ShowOn
+{:#members:ShowOn}
+
+Enum for Menu ShowOn
+
+#### Properties:
+
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Default</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+Tap</td><td>
+string</td><td>
+tap</td><td>
+Tap to open the menu</td></tr>
+<tr>
+<td>
+TapHold</td><td>
+string</td><td>
+taphold</td><td>
+TapHold to open the menu</td></tr>
+</table>
+
+
+### SortOrder
+{:#members:SortOrder}
+
+Enum for Autocomplete SortOrder
+
+#### Properties:
+
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Default</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+Ascending</td><td>
+string</td><td>
+ascending</td><td>
+To display the suggestion result in Ascending order </td></tr>
+<tr>
+<td>
+Descending</td><td>
+string</td><td>
+descending</td><td>
+To display the suggestion result in Descending order</td></tr>
+</table>
+
+
 ### Theme
 {:#members:Theme}
 
@@ -579,6 +723,35 @@ Light</td><td>
 string</td><td>
 light</td><td>
 Light RenderMode</td></tr>
+</table>
+
+
+### ThumbStyle
+{:#members:ThumbStyle}
+
+Enum for ThumbStyle in Slider
+
+#### Properties:
+
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Default</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+Normal</td><td>
+string</td><td>
+normal</td><td>
+Change the thumbstyle to Normal</td></tr>
+<tr>
+<td>
+Small</td><td>
+string</td><td>
+small</td><td>
+Change the thumbstyle to Small</td></tr>
 </table>
 
 
