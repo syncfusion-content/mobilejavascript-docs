@@ -9,6 +9,43 @@ metacontent:
 
 ## Members
 
+### BorderStyle
+{:#members:BorderStyle}
+
+Enum for BorderStyle of Editor
+
+#### Properties:
+
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Default</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+Box</td><td>
+string</td><td>
+box</td><td>
+Box Type Editor</td></tr>
+<tr>
+<td>
+Line</td><td>
+string</td><td>
+line</td><td>
+Line type Editor</td></tr>
+<tr>
+<td>
+None</td><td>
+string</td><td>
+none</td><td>
+Without border type Editor</td></tr>
+</table>
+
+
+
+
 ### ButtonContentType
 {:#members:ButtonContentType}
 
@@ -689,6 +726,54 @@ string</td><td>
 descending</td><td>
 To display the suggestion result in Descending order</td></tr>
 </table>
+
+
+### TextBoxType
+{:#members:TextBoxType}
+
+Enum for TextBoxType 
+
+#### Properties:
+
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Default</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+Number</td><td>
+string</td><td>
+number</td><td>
+Textbox Number type</td></tr>
+<tr>
+<td>
+Text</td><td>
+string</td><td>
+text</td><td>
+Textbox Text type</td></tr>
+<tr>
+<td>
+Password</td><td>
+string</td><td>
+password</td><td>
+Textbox Password type</td></tr>
+<tr>
+<td>
+Tel</td><td>
+string</td><td>
+tel</td><td>
+Textbox Tel type</td></tr>
+<tr>
+<td>
+Email</td><td>
+string</td><td>
+email</td><td>
+Textbox Email type</td></tr>
+</table>
+
 
 
 ### Theme
