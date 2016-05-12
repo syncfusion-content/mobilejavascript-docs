@@ -12,7 +12,7 @@ keywords: ejmDialog, API, Essential Studio JS Dialog (Mobile)
 
 The Essential JavaScript Mobile Dialog widget is an overlay positioned within the page and it displays a message such as supplementary content like images or text, and interactive content like forms. It contains a title, a content area and buttons for user interaction.
 
-Custom Design for Html Dialog control.
+Custom Design for HTML Dialog control.
 
 $(element).ejmDialog()
 
@@ -81,7 +81,7 @@ $(element).ejmDialog()
 ## Members
 
 ### allowScrolling `boolean`
-{:#members:allowScrolling} 
+{:#members:allowscrolling} 
 
 Specifies whether to allow scrolling behavior for the contents. If this property set as true, ejmDialog will render scrollpanel automatically if the contents exceeds the content area.
 
@@ -137,9 +137,9 @@ Specifies whether to allow scrolling behavior for the contents. If this property
 {% endhighlight %}
 
 ### closeOndocumentTap `boolean`
-{:#members:closeOndocumentTap} 
+{:#members:closeondocumenttap} 
 
-Specifies whether the dialog close while click on the document. If it is set as false, user need to handle dialog close manually. 
+Specifies whether the Dialog close while click on the document. If it is set as false, user need to handle Dialog close manually. 
 
 #### Default Value
 
@@ -193,7 +193,7 @@ Specifies whether the dialog close while click on the document. If it is set as 
 {% endhighlight %}
 
 ### cssClass `string`
-{:#members:cssClass} 
+{:#members:cssclass} 
 
 Sets the root class for Dialog theme. This cssClass API helps to use custom skinning option for Dialog control. By defining the root class using this API, we need to include this root class in CSS.
 
@@ -260,9 +260,9 @@ Sets the root class for Dialog theme. This cssClass API helps to use custom skin
 {% endhighlight %}
 
 ### enableAnimation `boolean`
-{:#members:enableAnimation} 
+{:#members:enableanimation} 
 
-Enables or Disables animation effect on opening or closing the dialog.
+Enables or Disables animation effect on opening or closing the Dialog.
 
 #### Default Value
 
@@ -316,9 +316,9 @@ Enables or Disables animation effect on opening or closing the dialog.
 {% endhighlight %}
 
 ### enableAutoOpen `boolean`
-{:#members:enableAutoOpen} 
+{:#members:enableautoopen} 
 
-Specifies whether to open the dialog on initial loading.
+Specifies whether to open the Dialog on initial loading.
 
 #### Default Value
 
@@ -372,9 +372,9 @@ Specifies whether to open the dialog on initial loading.
 {% endhighlight %}
 
 ### enableModal `boolean`
-{:#members:enableModal} 
+{:#members:enablemodal} 
 
-Specifies whether to enable modal for the dialog or not.
+Specifies whether to enable modal for the Dialog or not.
 
 #### Default Value
 
@@ -428,11 +428,11 @@ Specifies whether to enable modal for the dialog or not.
 
 
 ### enableNativeScrolling `boolean`
-{:#members:enableNativeScrolling} 
+{:#members:enablenativescrolling} 
 
 Specifies whether to enable device’s native scroll behavior when scrolling is allowed.
 
-N> To achieve this behavior, the [allowScrolling] property should be set as true.
+N> To achieve this behavior, the allowScrolling property should be set as true.
 
 #### Default Value
 
@@ -486,7 +486,7 @@ N> To achieve this behavior, the [allowScrolling] property should be set as true
 {% endhighlight %}
 
 ### enablePersistence `boolean`
-{:#members:enablePersistence} 
+{:#members:enablepersistence} 
 
 Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
 
@@ -544,7 +544,7 @@ Specifies to maintain the current model value to browser cookies for state maint
 ### height `string`
 {:#members:height} 
 
-Specifies the height of dialog content.
+Specifies the height of Dialog content.
 
 #### Default Value
 
@@ -598,9 +598,9 @@ Specifies the height of dialog content.
 {% endhighlight %}
 
 ### leftButtonCaption `string`
-{:#members:leftButtonCaption} 
+{:#members:leftbuttoncaption} 
 
-Specifies the text of left button. For alert mode dialog, this property specifies the alert button text.
+Specifies the text of left button. For alert mode Dialog, this property specifies the alert button text.
 
 #### Default Value
 
@@ -725,7 +725,7 @@ Specifies the localization to adopt the required language. In Dialog control tit
 ### mode `enum`
 {:#members:mode} 
 
-Specifies the dialog mode to render. i.e. alert mode or confirm mode.See [DialogMode](http://help.syncfusion.com/mobilejs/api/global#DialogMode)
+Specifies the Dialog mode to render. i.e. alert mode or confirm mode. See [DialogMode](http://help.syncfusion.com/mobilejs/api/global#DialogMode)
 
 #### Default Value
 
@@ -778,7 +778,7 @@ Specifies the dialog mode to render. i.e. alert mode or confirm mode.See [Dialo
 {% endhighlight %}
 
 ### renderMode `enum`
-{:#members:renderMode} 
+{:#members:rendermode} 
 
 Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
 
@@ -830,11 +830,11 @@ Specifies the rendering mode of the control. See [RenderMode](http://help.syncf
 {% endhighlight %}
 
 ### rightButtonCaption `string`
-{:#members:rightButtonCaption} 
+{:#members:rightbuttoncaption} 
 
-Specifies the text of right button for confirm mode dialog.
+Specifies the text of right button for confirm mode Dialog.
 
-N> [rightButtonCaption] property only works for confirm mode dialog. For confirm mode dialog, set the property [mode] to “confirm”.
+N> rightButtonCaption property only works for confirm mode Dialog. For confirm mode Dialog, set the property mode to “confirm”.
 
 #### Default Value
 
@@ -888,9 +888,9 @@ N> [rightButtonCaption] property only works for confirm mode dialog. For confirm
 {% endhighlight %}
 
 ### showButtons `boolean`
-{:#members:showButtons} 
+{:#members:showbuttons} 
 
-Specifies whether to show the buttons in the dialog or not.
+Specifies whether to show the buttons in the Dialog or not.
 
 #### Default Value
 
@@ -941,9 +941,9 @@ Specifies whether to show the buttons in the dialog or not.
 {% endhighlight %}
 
 ### showHeader `boolean`
-{:#members:showHeader} 
+{:#members:showheader} 
 
-Specifies whether to show the header in the dialog or not.
+Specifies whether to show the header in the Dialog or not.
 
 #### Default Value
 
@@ -993,7 +993,7 @@ Specifies whether to show the header in the dialog or not.
 {% endhighlight %}
 
 ### templateId `string`
-{:#members:templateId} 
+{:#members:templateid} 
 
 Specifies ID of the element contains template contents.
 
@@ -1109,7 +1109,7 @@ Specifies the title text.
 ### width `string`
 {:#members:width} 
 
-Specifies the width of dialog content.
+Specifies the width of Dialog content.
 
 #### Default Value
 
@@ -1167,7 +1167,7 @@ Specifies the width of dialog content.
 ### close()
 {:#methods:close} 
 
-To close the dialog.
+To close the Dialog.
 
 #### Example
 
@@ -1196,9 +1196,9 @@ To close the dialog.
 
 
 ### disableButton()
-{:#methods:disableButton} 
+{:#methods:disablebutton} 
 
-To disable buttons in dialog control. It accepts a string parameter to denote which button should be disable. i.e. “left” or “right”. If no parameters passed, then this method will disable all buttons in dialog.
+To disable buttons in Dialog control. It accepts a string parameter to denote which button should be disable. i.e. “left” or “right”. If no parameters passed, then this method will disable all buttons in Dialog.
 
 #### Example
 
@@ -1227,9 +1227,9 @@ To disable buttons in dialog control. It accepts a string parameter to denote wh
 {% endhighlight %}
 
 ### enableButton()
-{:#methods:enableButton} 
+{:#methods:enablebutton} 
 
-To enable the disabled button in dialog control. It accepts a string parameter to denote which button should be enable. i.e. “left” or “right”. If no parameters passed, then this method will enable all disabled buttons in dialog.
+To enable the disabled button in Dialog control. It accepts a string parameter to denote which button should be enable. i.e. “left” or “right”. If no parameters passed, then this method will enable all disabled buttons in Dialog.
 
 #### Example
 
@@ -1263,7 +1263,7 @@ To enable the disabled button in dialog control. It accepts a string parameter t
 ### open()
 {:#methods:open} 
 
-To open the dialog
+To open the Dialog
 
 #### Example
 
@@ -1291,9 +1291,9 @@ To open the dialog
 ## Events
 
 ### beforeClose
-{:#events:beforeClose} 
+{:#events:beforeclose} 
 
-Event triggers before dialog window get closed.
+Event triggers before Dialog window get closed.
 
 <table>
 <tr>
@@ -1305,7 +1305,7 @@ Event triggers before dialog window get closed.
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from dialog.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from Dialog.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -1327,7 +1327,7 @@ Returns the model value of the control.</td></tr>
 <td>
 title</td><td>
 string</td><td>
-Returns the title of the dialog.</td></tr>
+Returns the title of the Dialog.</td></tr>
 </table>
 
 
@@ -1392,7 +1392,7 @@ Returns the title of the dialog.</td></tr>
 {% endhighlight %}
 
 ### buttonTap
-{:#events:buttonTap} 
+{:#events:buttontap} 
 
 Event triggers when tap happens on the button.
 
@@ -1406,7 +1406,7 @@ Event triggers when tap happens on the button.
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from dialog.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from Dialog.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -1490,7 +1490,7 @@ Returns the text of the button.</td></tr>
 ### close
 {:#events:close} 
 
-Event triggers after dialog window get closed.
+Event triggers after Dialog window get closed.
 
 <table>
 <tr>
@@ -1502,7 +1502,7 @@ Event triggers after dialog window get closed.
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from dialog.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from Dialog.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -1524,7 +1524,7 @@ Returns the model value of the control.</td></tr>
 <td>
 title</td><td>
 string</td><td>
-Returns the title of the dialog.</td></tr>
+Returns the title of the Dialog.</td></tr>
 </table>
 
 
@@ -1592,7 +1592,7 @@ Returns the title of the dialog.</td></tr>
 ### open
 {:#events:open} 
 
-Event triggers after dialog window get opened.
+Event triggers after Dialog window get opened.
 
 <table>
 <tr>
@@ -1604,7 +1604,7 @@ Event triggers after dialog window get opened.
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from dialog.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from Dialog.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -1626,7 +1626,7 @@ Returns the model value of the control.</td></tr>
 <td>
 title</td><td>
 string</td><td>
-Returns the title of the dialog.</td></tr>
+Returns the title of the Dialog.</td></tr>
 </table>
 
 

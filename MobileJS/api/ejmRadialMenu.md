@@ -10,7 +10,7 @@ keywords: ejmRadialMenu, API, Essential Studio JS RadialMenu (Mobile)
 
 # ejmRadialMenu
 
-Essential JavaScript Mobile Radial Menu control is a context that represent the menu items in a circular order with a center button element in it.
+Essential JavaScript Mobile RadialMenu control is a context that represent the menu items in a circular order with a center button element in it.
 
 Custom Design for HTML RadialMenu control.
 
@@ -86,7 +86,7 @@ $(element).ejmRadialMenu()
 
 
 
-N> Provide proper image path to get images in items of radial menu.
+N> Provide proper image path to get images in items of RadialMenu.
 
 #### Requires
 
@@ -106,9 +106,9 @@ N> Provide proper image path to get images in items of radial menu.
 ## Members
 
 ### backImageClass `string`
-{:#members:backImageClass} 
+{:#members:backimageclass} 
 
-Renders the back button Image for Radial using class.
+Renders the back button Image for center radial using class.
 
 #### Default Value
 
@@ -201,7 +201,7 @@ Renders the back button Image for Radial using class.
 
 
 ### cssClass `string`
-{:#members:cssClass} 
+{:#members:cssclass} 
 
 Sets the root class for RadialMenu theme. This cssClass API helps to use custom skinning option for RadialMenu control. By defining the root class using this API, we need to include this root class in CSS.
 
@@ -294,9 +294,9 @@ Sets the root class for RadialMenu theme. This cssClass API helps to use custom 
 
 
 ### enableAnimation `boolean`
-{:#members:enableAnimation} 
+{:#members:enableanimation} 
 
-To enable Animation for Radial Menu.
+To enable Animation for RadialMenu.
 
 #### Default Value
 
@@ -375,9 +375,9 @@ To enable Animation for Radial Menu.
 
 
 ### imageClass `string`
-{:#members:imageClass} 
+{:#members:imageclass} 
 
-Renders the image for Radial using Class.
+Renders the image for center radial using Class.
 
 #### Default Value
 
@@ -458,7 +458,7 @@ Renders the image for Radial using Class.
 ### items `objectarray`
 {:#members:items} 
 
-Renders the Radial menu using datasource which contains array of items.
+Renders the RadialMenu using datasource which contains array of items.
 
 #### Default Value
 
@@ -672,7 +672,7 @@ Specifies the radius of the radialmenu control.
 
 
 ### renderMode `enum`
-{:#members:renderMode} 
+{:#members:rendermode} 
 
 Changes the rendering mode. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
 
@@ -755,7 +755,7 @@ Changes the rendering mode. See [RenderMode](http://help.syncfusion.com/mobilej
 
 
 ### disableItemByIndex()
-{:#methods:disableItemByIndex} 
+{:#methods:disableitembyindex} 
 
 To disable an item of radialmenu by its index
 
@@ -800,7 +800,7 @@ To disable an item of radialmenu by its index
 
 
 ### disableItemsByIndices()
-{:#methods:disableItemsByIndices} 
+{:#methods:disableitemsbyindices} 
 
 To disable a set of radialmenu items by array of indices
 
@@ -845,7 +845,7 @@ To disable a set of radialmenu items by array of indices
 
 
 ### enableItemByIndex()
-{:#methods:enableItemByIndex} 
+{:#methods:enableitembyindex} 
 
 To enable a radialmenu item by its index
 
@@ -890,7 +890,7 @@ To enable a radialmenu item by its index
 
 
 ### enableItemsByIndices()
-{:#methods:enableItemsByIndices} 
+{:#methods:enableitemsbyindices} 
 
 To enable a set of radialmenu items by array of indices
 
@@ -949,7 +949,7 @@ Example
             Syncfusion is the enterprise technology partner of choice for Windows development
         </p>
         <br />
-        <button data-role="ejmbutton" data-ej-touchend="hide">Hide Radial Menu</button>
+        <button data-role="ejmbutton" data-ej-touchend="hide">Hide RadialMenu</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
@@ -978,7 +978,7 @@ Example
 
 
 ### hideBadge()
-{:#methods:hideBadge} 
+{:#methods:hidebadge} 
 
 To hide the radialmenu item’s badge by its index
 
@@ -1023,7 +1023,7 @@ To hide the radialmenu item’s badge by its index
 
 
 ### hideMenu()
-{:#methods:hideMenu} 
+{:#methods:hidemenu} 
 
 To hide the radialmenu when the target clicked
 
@@ -1083,7 +1083,7 @@ To Show the radialmenu
             Syncfusion is the enterprise technology partner of choice for Windows development
         </p>
         <br />
-        <button data-role="ejmbutton" data-ej-touchend="show">Show Radial Menu</button>
+        <button data-role="ejmbutton" data-ej-touchend="show">Show RadialMenu</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
@@ -1113,7 +1113,7 @@ To Show the radialmenu
 
 
 ### showBadge()
-{:#methods:showBadge} 
+{:#methods:showbadge} 
 
 To show the radialmenu item’s badge by its index
 
@@ -1164,7 +1164,7 @@ N> You can show only the already hidden badge by “hideBadge()” method.
 
 
 ### showMenu()
-{:#methods:showMenu} 
+{:#methods:showmenu} 
 
 To Show the radialmenu when the target clicked
 
@@ -1209,7 +1209,7 @@ To Show the radialmenu when the target clicked
 
 
 ### updateBadgeValue()
-{:#methods:updateBadgeValue} 
+{:#methods:updatebadgevalue} 
 
 To update badge the radialmenu item. Parameters must be passed are: 1. index of item, 2. new value
 
@@ -1257,7 +1257,7 @@ To update badge the radialmenu item. Parameters must be passed are: 1. index of 
 ### close
 {:#events:close} 
 
-Event triggers while radial menu closing.
+Event triggers while RadialMenu closing.
 
 <table>
 <tr>
@@ -1281,17 +1281,17 @@ if the event should be canceled; otherwise, false.</td></tr>
 <td>
 model</td><td>
 Object</td><td>
-returns the Radialmenu model</td></tr>
+Returns the Radialmenu model</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event</td></tr>
+Returns the name of the event</td></tr>
 <tr>
 <td>
 currentObj</td><td>
 object</td><td>
-returns the instance of current control</td></tr>
+Returns the instance of current control</td></tr>
 </table>
 
 
@@ -1379,7 +1379,7 @@ returns the instance of current control</td></tr>
 ### open
 {:#events:open} 
 
-Event triggers while radial menu opening.
+Event triggers while RadialMenu opening.
 
 <table>
 <tr>
@@ -1403,17 +1403,17 @@ if the event should be canceled; otherwise, false.</td></tr>
 <td>
 model</td><td>
 Object</td><td>
-returns the Radialmenu model</td></tr>
+Returns the Radialmenu model</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event</td></tr>
+Returns the name of the event</td></tr>
 <tr>
 <td>
 currentObj</td><td>
 object</td><td>
-returns the instance of current control</td></tr>
+Returns the instance of current control</td></tr>
 </table>
 
 
@@ -1503,7 +1503,7 @@ returns the instance of current control</td></tr>
 
 [deprecated] Event triggers when we select an item.
 
-N> Since this event deprecated, use [touch] event.
+N> Since this event deprecated, use touch event.
 
 <table>
 <tr>
@@ -1527,22 +1527,22 @@ if the event should be canceled; otherwise, false.</td></tr>
 <td>
 model</td><td>
 Object</td><td>
-returns the Radialmenu model</td></tr>
+Returns the Radialmenu model</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event</td></tr>
+Returns the name of the event</td></tr>
 <tr>
 <td>
 childIndex</td><td>
 number</td><td>
-returns the index of selected child item</td></tr>
+Returns the index of selected child item</td></tr>
 <tr>
 <td>
 index</td><td>
 number</td><td>
-returns the index of selected item</td></tr>
+Returns the index of selected item</td></tr>
 </table>
 
 
@@ -1669,22 +1669,22 @@ if the event should be canceled; otherwise, false.</td></tr>
 <td>
 model</td><td>
 Object</td><td>
-returns the Radialmenu model</td></tr>
+Returns the Radialmenu model</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event</td></tr>
+Returns the name of the event</td></tr>
 <tr>
 <td>
 index </td><td>
 number</td><td>
-returns the index of selected item </td></tr>
+Returns the index of selected item </td></tr>
 <tr>
 <td>
 childIndex</td><td>
 number</td><td>
-returns the index of selected child item</td></tr>
+Returns the index of selected child item</td></tr>
 </table>
 
 

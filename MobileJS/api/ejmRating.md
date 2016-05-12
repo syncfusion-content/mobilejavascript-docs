@@ -4,38 +4,41 @@ title: ejmRating | API Reference | Mobile JS | Syncfusion
 description:
 documentation: API
 platform: Mobilejs
-keywords: ejmRating, API, Essential Studio JS Autocomplete (Mobile) 
+keywords: ejmRating, API, Essential Studio JS Rating (Mobile) 
 ---
 
 # ejmRating
 
-Custom Design for Html rating control.
+The Essential JavaScript Mobile Rating control lets you quickly set a value by selecting a number of symbols from a group.
 
-$(element).ejmRating<span class="signature">()</span>
+Custom Design for HTML Rating control.
+
+$(element).ejmRating();
 
 #### Example
 
-{% highlight html %} 
-<div id="rating" ></div>
-<script> 
-// Create rating control 
-$("#rating").ejmRating(); 
-</script>{% endhighlight %}
+{% highlight html %}
 
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating"></div>
 
-{% highlight html %} 
-<div id="rating" data-role="ejmrating" ></div>
 {% endhighlight %}
 
+{% highlight html %} 
 
+    <!-- Obtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating();
+    </script>
+    
+{% endhighlight %}
 
 
 #### Requires
 
 
 * module:jQuery
-
-* module:ej.mobile.application
 
 * module:ej.core
 
@@ -51,9 +54,7 @@ $("#rating").ejmRating();
 ## Members
 
 
-
-
-### enabled`bool`
+### enabled `boolean`
 {:#members:enabled}
 
 
@@ -75,33 +76,27 @@ Specifies whether to enable or disable the control.
 
 
 {% highlight html %} 
-//Set the enabled property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-enabled=true ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-enabled="false"></div>
+    
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set enabled on initialization. 
-<div id="rating"></div>
-<script>
-//To set enabled API value 
-$("#rating").ejmRating ({ enabled: true });                     
-</script>{% endhighlight %}
+
+    <!-- Obtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ enabled: false });
+    </script>
 
 
-{% highlight html %} 
-<script>
-//Get or set the rating enabled, after initialization:
-// Get the enabled API value.           
- $("#rating").ejmRating ("option", "enabled");                  
-// Set the enabled API
-$("#rating").ejmRating ("option", "enabled", true); 
-</script>{% endhighlight %}
+{% endhighlight %}
 
 
 
-
-### enablePersistence`bool`
+### enablePersistence `boolean`
 {:#members:enablepersistence}
 
 
@@ -123,35 +118,25 @@ Specifies to maintain the current model value to browser cookies for state maint
 
 
 {% highlight html %} 
-//Set the enablePersistence property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-enablePersistence=false ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-enablepersistence="true"></div>
+    
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set enablePersistence on initialization. 
-<div id="rating"></div>
-<script>
-//To set enablePersistence API value 
-$(function(){
-$("#rating").ejmRating({enablePersistence:false});
-});
-</script>{% endhighlight %}
+
+    <!-- Obtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ enablePersistence: true });
+    </script>
+
+{% endhighlight %}
 
 
-{% highlight html %} 
-<script>
-//Get or set the rating enablePersistence, after initialization:
-// Get the enablePersistence API value.         
- $("#rating").ejmRating ("option", "enablePersistence");                        
-// Set the enablePersistence API
-$("#rating").ejmRating ("option", "enablePersistence", false);   
-</script>{% endhighlight %}
-
-
-
-
-### incrementStep`int`
+### incrementStep `int`
 {:#members:incrementstep}
 
 
@@ -173,39 +158,31 @@ Specifies the step value for incrementation.
 
 
 {% highlight html %} 
-//Set the incrementStep property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-incrementstep=1 ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-incrementstep="1"></div>
+
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set incrementStep on initialization. 
-<div id="rating"></div>
-<script>
-//To set incrementStep API value
-$("#rating").ejmRating ({ incrementStep: 1 });  
-</script>                         {% endhighlight %}
+
+    <!-- Obtrusive way of rendering --> 
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ incrementStep: 1 });
+    </script>
+                           
+{% endhighlight %}
 
 
-{% highlight html %} 
-<script>
-//Get or set the rating incrementStep, after initialization:
-// Get the incrementStep API value.             
- $("#rating").ejmRating ("option", "incrementStep");                    
-// Set the incrementStep API
-$("#rating").ejmRating ("option", "incrementStep", 1);      
-</script>{% endhighlight %}
-
-
-
-
-### maxValue`int`
+### maxValue `int`
 {:#members:maxvalue}
 
 
 
 
-Specifies the maximum value.
+Specifies the maximum value of Rating.
 
 
 #### Default Value
@@ -221,33 +198,25 @@ Specifies the maximum value.
 
 
 {% highlight html %} 
-//Set the maxValue property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-maxvalue=5 ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-maxvalue="7"></div>
+    
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set rating maxValue on initialization. 
-<div id="rating"></div>
-<script>
-//To set maximum API value
-$("#rating").ejmRating ({ maxValue: 5 });       
-</script>{% endhighlight %}
+
+    <!-- Obtrusive way of rendering --> 
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ maxValue: 7 });
+    </script> 
+    
+{% endhighlight %}
 
 
-{% highlight html %} 
-<script>
-//Get or set the rating maxValue, after initialization:
-// Get the maximum API value.           
- $("#rating").ejmRating ("option", "maxValue");                 
-// Set the maximum value API
-$("#rating").ejmRating ("option", "maxValue", 5);    
-</script>{% endhighlight %}
-
-
-
-
-### minValue`int`
+### minValue `int`
 {:#members:minvalue}
 
 
@@ -268,47 +237,40 @@ Specifies the minimum value.
 #### Example
 
 
-{% highlight html %} 
-//Set the minValue property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-minvalue=0 ></div>
+{% highlight html %}
+ 
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-minvalue="4"></div>
+    
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set rating minValue on initialization. 
-<div id="rating"></div>
-<script>
-//To set minimum API value 
-$("#rating").ejmRating ({ minValue: 0 });               
-</script>                 {% endhighlight %}
 
-
-{% highlight html %} 
-<script>
-//Get or set the rating minValue, after initialization:
-// Get the minimum API value.           
- $("#rating").ejmRating ("option", "minValue");                 
-// Set the minValue API
-$("#rating").ejmRating ("option", "minValue", 0);   
-</script>{% endhighlight %}
+    <!-- Obtrusive way of rendering --> 
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ minValue: 4 });
+    </script> 
+                 
+{% endhighlight %}
 
 
 
-
-### orientation`enum`
+### orientation `enum`
 {:#members:orientation}
 
 
 
 
-Specifies whether the orientation is horizontal or vertical. See <a href="global.html#Orientation">Orientation</a>
+Specifies whether the orientation is horizontal or vertical. See [Orientation](http://help.syncfusion.com/mobilejs/api/global#RatingOrientation)
 
 
 #### Default Value
 
 
 
-* ej.mobile.Rating.Orientation.Horizontal.
+* "horizontal"
 
 
 
@@ -317,48 +279,39 @@ Specifies whether the orientation is horizontal or vertical. See <a href="global
 
 
 {% highlight html %} 
-//Set the orientation property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-orientation="horizontal" ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-orientation="vertical"></div>
+
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set orientation on initialization. 
-<div id="rating"></div>
-<script>
-//To set orientation API value 
-$(function(){
-$("#rating").ejmRating ({ orientation: ej.mobile.Rating.Orientation.Horizontal });
-});
-</script>                 {% endhighlight %}
 
-
-{% highlight html %} 
-<script>
-//Get or set the rating orientation, after initialization:
-// Get the orientation API value.               
- $("#rating").ejmRating ("option", "orientation");                      
-// Set the orientation API
-$("#rating").ejmRating ("option", "orientation", ej.mobile.Rating.Orientation.Horizontal);     
-</script>{% endhighlight %}
+    <!-- Obtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ orientation: "vertical" });
+    </script>
+    
+{% endhighlight %}
 
 
 
-
-### precision`enum`
+### precision `enum`
 {:#members:precision}
 
 
 
 
-Specifies the precision value. See <a href="global.html#Precision">Precision</a>
+Specifies the precision value. See [Precision](http://help.syncfusion.com/mobilejs/api/global#RatingPrecision)
 
 
 #### Default Value
 
 
 
-* ej.mobile.Rating.Precision.Full.
+* "full"
 
 
 
@@ -367,35 +320,26 @@ Specifies the precision value. See <a href="global.html#Precision">Precision</a>
 
 
 {% highlight html %} 
-//Set the precision property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-precision="full" ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-precision="half"></div>
+
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set precision on initialization. 
-//To set precision API value 
-<div id="rating"></div>
-<script>
-$(function(){
-$("#rating").ejmRating ({ precision: ej.mobile.Rating.Precision.Full });                
-});
-</script>                 {% endhighlight %}
 
-
-{% highlight html %} 
-<script>
-//Get or set the rating precision, after initialization:
-// Get the precision API value.         
- $("#rating").ejmRating ("option", "precision");                        
-// Set the precision API
-$("#rating").ejmRating ("option", "precision", ej.mobile.Rating.Precision.Full);  
-</script>{% endhighlight %}
+    <!-- Obtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ precision: "half" });
+    </script>  
+            
+{% endhighlight %}
 
 
 
-
-### readOnly`bool`
+### readOnly `boolean`
 {:#members:readonly}
 
 
@@ -417,46 +361,38 @@ Specifies whether the control is read only.
 
 
 {% highlight html %} 
-//Set the read only property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-readonly=false ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-readonly="true" ></div>
+    
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set read only on initialization. 
-<div id="rating"></div>
-<script>
-//To set read only API value 
-$("#rating").ejmRating ({ readOnly: false });                   
-</script>{% endhighlight %}
+
+    <!-- Obtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ readOnly: true });
+    </script>
+    
+{% endhighlight %}
 
 
-{% highlight html %} 
-<script>
-//Get or set the rating read only, after initialization:
-// Get the read only API value.         
- $("#rating").ejmRating ("option", "readOnly");                 
-// Set the read only API
-$("#rating").ejmRating ("option", "readOnly", false);      
-</script>{% endhighlight %}
-
-
-
-
-### renderMode`enum`
+### renderMode `enum`
 {:#members:rendermode}
 
 
 
 
-Specifies the rendering mode of the control. See <a href="global.html#RenderMode">RenderMode</a>
+Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
 
 
 #### Default Value
 
 
 
-* auto
+* "auto"
 
 
 
@@ -465,48 +401,39 @@ Specifies the rendering mode of the control. See <a href="global.html#RenderMode
 
 
 {% highlight html %} 
-//Set the renderMode property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-rendermode="auto" ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-rendermode="android"></div>
+    
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set rendermode on initialization. 
-<div id="rating"></div>
-<script>
-//To set renderMode API value 
-$(function(){
-$("#rating").ejmRating ({ renderMode: ej.mobile.RenderMode.Auto });     
-});
-</script>                 {% endhighlight %}
 
-
-{% highlight html %} 
-<script>
-//Get or set the rating rendermode, after initialization:
-// Get the renderMode API value.                
- $("#rating").ejmRating ("option", "renderMode");                       
-// Set the renderMode API
-$("#rating").ejmRating ("option", "renderMode", ej.mobile.RenderMode.Auto);   
-</script>{% endhighlight %}
+    <!-- Obtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ renderMode: "android" });
+    </script>
+    
+{% endhighlight %}
 
 
 
-
-### shape`enum`
+### shape `enum`
 {:#members:shape}
 
 
 
 
-Specifies the shape. See <a href="global.html#Shape">Shape</a>
+Specifies the shape. See [Shape](http://help.syncfusion.com/mobilejs/api/global#RatingShape)
 
 
 #### Default Value
 
 
 
-* ej.mobile.Rating.Shape.Star.
+* "star"
 
 
 
@@ -515,35 +442,25 @@ Specifies the shape. See <a href="global.html#Shape">Shape</a>
 
 
 {% highlight html %} 
-//Set the shape property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-shape="star" ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-shape="circle"></div>
+
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set shape on initialization. 
-<div id="rating"></div>
-<script>
-//To set shape API value 
-$(function(){
-$("#rating").ejmRating ({ shape: ej.mobile.Rating.Shape.Star });
-});
-</script>                 {% endhighlight %}
+
+    <!-- Obtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ shape: "circle" });
+    </script>
+    
+{% endhighlight %}
 
 
-{% highlight html %} 
-<script>
-//Get or set the rating shape, after initialization:
-// Get the shape API value.             
- $("#rating").ejmRating ("option", "shape");                    
-// Set the shape API
-$("#rating").ejmRating ("option", "shape", ej.mobile.Rating.Shape.Star);          
-</script>{% endhighlight %}
-
-
-
-
-### shapeHeight`int`
+### shapeHeight `int`
 {:#members:shapeheight}
 
 
@@ -565,33 +482,25 @@ Specifies the shape height.
 
 
 {% highlight html %} 
-//Set the shape height property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-shapeheight=25 ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-shapeheight="40" ></div>
+    
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set shape height on initialization. 
-<div id="rating"></div>
-<script>
-//To set shape height API value 
-$("#rating").ejmRating ({ shapeHeight: 25 });   
-</script>                 {% endhighlight %}
+
+    <!-- Obtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ shapeHeight: 40 });
+    </script>
+      
+{% endhighlight %}
 
 
-{% highlight html %} 
-<script>
-//Get or set the rating shape height, after initialization:
-// Get the shape height API value.              
- $("#rating").ejmRating ("option", "shapeHeight");                      
-// Set the shape height API
-$("#rating").ejmRating ("option", "shapeHeight", 25);  
-</script>{% endhighlight %}
-
-
-
-
-### shapeWidth`int`
+### shapeWidth `int`
 {:#members:shapewidth}
 
 
@@ -613,33 +522,25 @@ Specifies the shape width.
 
 
 {% highlight html %} 
-//Set the shape width property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-shapewidth=25 ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-shapewidth="40" ></div>
+    
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set shape width on initialization. 
-<div id="rating"></div>
-<script>
-//To set shape width API value 
-$("#rating").ejmRating ({ shapeWidth: 25 });    
-</script>                 {% endhighlight %}
+
+    <!-- Obtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ shapeWidth: 40 });
+    </script>    
+                
+{% endhighlight %}
 
 
-{% highlight html %} 
-<script>
-//Get or set the rating shape width, after initialization:
-// Get the shape width API value.               
- $("#rating").ejmRating ("option", "shapeWidth");                       
-// Set the shape width API
-$("#rating").ejmRating ("option", "shapeWidth", 25);       
-</script>{% endhighlight %}
-
-
-
-
-### spaceBetweenShapes`int`
+### spaceBetweenShapes `int`
 {:#members:spacebetweenshapes}
 
 
@@ -661,83 +562,26 @@ Specifies the space between shapes.
 
 
 {% highlight html %} 
-//Set the space between shapes property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-spacebetweenshapes=15 ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-spacebetweenshapes="40" ></div>
+    
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set space between shapes on initialization. 
-<div id="rating"></div>
-<script>
-//To set space between shapes API value 
-$("#rating").ejmRating ({ spaceBetweenShapes: 15 });            
-</script>                 {% endhighlight %}
-
-
-{% highlight html %} 
-<script>
-//Get or set the rating space between shapes, after initialization:
-// Get the space between shapes API value.              
- $("#rating").ejmRating ("option", "spaceBetweenShapes");                       
-// Set the space between shapes API
-$("#rating").ejmRating ("option", "spaceBetweenShapes", 15);            
-</script>{% endhighlight %}
-
-
-
-
-### theme`enum`
-{:#members:theme}
-
-
-
-
-Specifies the theme. See <a href="global.html#Theme">Theme</a>
-
-
-#### Default Value
-
-
-
-* auto
-
-
-
-
-#### Example
-
-
-{% highlight html %} 
-//Set the theme property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-theme="auto" ></div>
+    
+    <!-- Obtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({ spaceBetweenShapes: 40 });
+    </script>     
+                
 {% endhighlight %}
 
 
-{% highlight html %} 
-// Set theme on initialization. 
-<div id="rating"></div>
-<script>
-//To set theme API value 
-$(function(){
-$("#rating").ejmRating ({ theme: ej.mobile.Theme.Auto });               
-});
-</script>                 {% endhighlight %}
 
-
-{% highlight html %} 
-<script>
-//Get or set the rating theme, after initialization:
-// Get the theme API value.             
- $("#rating").ejmRating ("option", "theme");                    
-// Set the theme API
-$("#rating").ejmRating ("option", "theme", ej.mobile.Theme.Auto);            
-</script>{% endhighlight %}
-
-
-
-
-### value`int`
+### value `int`
 {:#members:value}
 
 
@@ -759,28 +603,23 @@ Specifies the current value.
 
 
 {% highlight html %} 
-//Set the current value property in unobtrusive way.
-<div id="rating" data-role="ejmrating" data-ej-value=1 ></div>
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-value="2"></div>
+    
 {% endhighlight %}
 
 
 {% highlight html %} 
-// Set rating current value on initialization. 
-<div id="rating"></div>
-<script>
-//To set current value API value 
-$("#rating").ejmRating ({ value: 1 });          
-</script>                         {% endhighlight %}
 
+    <!-- Obtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
 
-{% highlight html %} 
-<script>
-//Get or set the rating current value, after initialization:
-// Get the current value API value.             
- $("#rating").ejmRating ("option", "value");                    
-// Set the current value API
-$("#rating").ejmRating ("option", "value", 1);   
-</script>{% endhighlight %}
+        $("#rating").ejmRating({ value: 2 });
+    </script>
+                     
+{% endhighlight %}
 
 
 
@@ -789,13 +628,13 @@ $("#rating").ejmRating ("option", "value", 1);
 
 
 
-### disable`()`
+### disable()
 {:#methods:disable}
 
 
 
 
-To disable the rating.
+To disable the Rating.
 
 
 
@@ -803,30 +642,21 @@ To disable the rating.
 
 
 {% highlight html %} 
-<div id="rating" data-role="ejmrating" ></div>
-<script>
-$(function(){
-// To get the instance of the rating control
-var rating = $("#rating").data("ejmRating");
-rating.disable(); // it will disable the rating control
-});
-</script>{% endhighlight %}
 
+    <input data-role="ejmbutton" type="button" data-ej-text="Disable" data-ej-touchend="disable" /><br />
+    <div id="rating" data-role="ejmrating"></div>
 
-{% highlight html %} 
-<div id="rating" ></div>
-<script>
-$("#rating").ejmRating();       
-$(function(){
-// To disable the Rating control
-$("#rating").ejmRating("disable");
-});   
-</script>{% endhighlight %}
+    <script>
+        function disable() {
+            $("#rating").ejmRating("disable");
+        }
+    </script>
+
+{% endhighlight %}
 
 
 
-
-### enable`()`
+### enable()
 {:#methods:enable}
 
 
@@ -840,30 +670,25 @@ To enable the rating.
 
 
 {% highlight html %} 
-<div id="rating" data-role="ejmrating" ></div>
-<script>
-$(function(){
-// To get the instance of the rating control
-var rating = $("#rating").data("ejmRating");
-rating.enable(); // it will enable the rating control
-});
-</script>{% endhighlight %}
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Disable" data-ej-touchend="disable" />
+    <input data-role="ejmbutton" type="button" data-ej-text="Enable" data-ej-touchend="enable" /><br />
+        
+    <div id="rating" data-role="ejmrating"></div>
+
+    <script>
+        function disable() {
+            $("#rating").ejmRating("disable");
+        }
+        function enable() {
+            $("#rating").ejmRating("enable");
+        }        
+    </script>
+
+{% endhighlight %}
 
 
-{% highlight html %} 
-<div id="rating" ></div>
-<script>
-$("#rating").ejmRating();       
-$(function(){
-// To enable the Rating control
-$("#rating").ejmRating("enable");
-});   
-</script>{% endhighlight %}
-
-
-
-
-### getValue`()`
+### getValue()
 {:#methods:getvalue}
 
 
@@ -877,33 +702,28 @@ To get the current value.
 
 
 {% highlight html %} 
-<div id="rating" data-role="ejmrating"></div>
-<script>
-$(function(){
-// To get the instance of rating control
-var rating = $("#rating").data("ejmRating");
-rating.getValue(); // it will return the current value of rating
-});
-</script>{% endhighlight %}
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Get Value" data-ej-touchend="get" /><br />
+
+    <div id="rating" data-role="ejmrating"></div>
+
+    <script>
+        function get() {
+            var value = $("#rating").ejmRating("getValue");
+            alert("Current value is: " + value);
+        }
+    </script>
+
+{% endhighlight %}
 
 
-{% highlight html %} 
-<div id="rating"></div>
-<script>
-// To get the current value of Rating control
-$("#rating").ejmRating("getValue");     
-</script>{% endhighlight %}
-
-
-
-
-### hide`()`
+### hide()
 {:#methods:hide}
 
 
 
 
-To hide the rating.
+To hide the Rating.
 
 
 
@@ -911,30 +731,22 @@ To hide the rating.
 
 
 {% highlight html %} 
-<div id="rating" data-role="ejmrating" ></div>
-<script>
-$(function(){
-// To get the instance of the rating control
-var rating = $("#rating").data("ejmRating");
-rating.hide(); // it will hide the rating control
-});
-</script>{% endhighlight %}
+
+    
+    <input data-role="ejmbutton" type="button" data-ej-text="Hide" data-ej-touchend="hide" /><br />
+        
+    <div id="rating" data-role="ejmrating"></div>
+
+    <script>
+        function hide() {
+            $("#rating").ejmRating("hide");
+        }
+    </script>
+
+{% endhighlight %}
 
 
-{% highlight html %} 
-<div id="rating" ></div>
-<script>
-$("#rating").ejmRating();       
-$(function(){
-// To hide the Rating control
-$("#rating").ejmRating("hide"); 
-});
-</script>{% endhighlight %}
-
-
-
-
-### reset`()`
+### reset()
 {:#methods:reset}
 
 
@@ -948,27 +760,21 @@ To reset the value.
 
 
 {% highlight html %} 
-<div id="rating" data-role="ejmrating"></div>
-<script>
-$(function(){
-// To get the instance of rating control
-var rating = $("#rating").data("ejmRating");
-rating.reset(); // it will reset the value of rating
-});
-</script>{% endhighlight %}
 
+    
+    <input data-role="ejmbutton" type="button" data-ej-text="Reset" data-ej-touchend="reset" /><br />
+        
+    <div id="rating" data-role="ejmrating"></div>
 
-{% highlight html %} 
-<div id="rating"></div>
-<script>
-// To reset value of Rating control
-$("#rating").ejmRating("reset");        
-</script>{% endhighlight %}
+    <script>
+        function reset() {
+            $("#rating").ejmRating("reset");
+        }
+    </script>
 
+{% endhighlight %}
 
-
-
-### setValue`()`
+### setValue()
 {:#methods:setvalue}
 
 
@@ -982,33 +788,28 @@ To set the value.
 
 
 {% highlight html %} 
-<div id="rating" data-role="ejmrating"></div>
-<script>
-$(function(){
-// To get the instance of rating control
-var rating = $("#rating").data("ejmRating");
-rating.setValue(3); // it will set the value of rating
-});
-</script>{% endhighlight %}
+
+    
+    <input data-role="ejmbutton" type="button" data-ej-text="Set Value" data-ej-touchend="set" /><br />
+        
+    <div id="rating" data-role="ejmrating"></div>
+
+    <script>
+        function set() {
+            $("#rating").ejmRating("setValue", 2);
+        }
+    </script>
+
+{% endhighlight %}
 
 
-{% highlight html %} 
-<div id="rating"></div>
-<script>
-// To set the value of Rating control
-$("#rating").ejmRating("setValue",3);   
-</script>{% endhighlight %}
-
-
-
-
-### show`()`
+### show()
 {:#methods:show}
 
 
 
 
-To show the rating.
+To show the Rating.
 
 
 
@@ -1016,27 +817,23 @@ To show the rating.
 
 
 {% highlight html %} 
-<div id="rating" data-role="ejmrating" ></div>
-<script>
-$(function(){
-// To get the instance of the rating control
-var rating = $("#rating").data("ejmRating");
-rating.show(); // it will show the rating control
-});
-</script>{% endhighlight %}
 
+    
+    <input data-role="ejmbutton" type="button" data-ej-text="Hide" data-ej-touchend="hide" />
+    <input data-role="ejmbutton" type="button" data-ej-text="Show" data-ej-touchend="show" /><br />
+            
+    <div id="rating" data-role="ejmrating"></div>
 
-{% highlight html %} 
-<div id="rating" ></div>
-<script>
-$("#rating").ejmRating();       
-$(function(){
-// To show the Rating control
-$("#rating").ejmRating("show");
-});   
-</script>{% endhighlight %}
+    <script>
+        function hide() {
+            $("#rating").ejmRating("hide");
+        }            
+        function show() {
+            $("#rating").ejmRating("show");
+        }
+    </script>
 
-
+{% endhighlight %}
 
 ## Events
 
@@ -1051,47 +848,47 @@ $("#rating").ejmRating("show");
 
 Event triggers when the value changed.
 
-<table class="params">
+<table>
 <thead>
 <tr>
 <th>Name</th>
 <th>Type</th>
-<th class="last">Description</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from rating.
-<table class="params">
+<td>argument</td>
+<td>Object</span></td>
+<td>Event parameters from Rating.
+<table>
 <thead>
 <tr>
 <th>Name</th>
 <th>Type</th>
-<th class="last">Description</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
+<td>cancel</td>
+<td>boolean</span></td>
+<td>returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
+<td>type</td>
+<td>string</span></td>
+<td>returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
+<td>model</td>
+<td>Object</span></td>
+<td>returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name">{% highlight html %}value{% endhighlight %}</td>
-<td class="type"><span class="param-type">int</span></td>
-<td class="description last">returns the current element associated value.</td>
+<td>value</td>
+<td>int</span></td>
+<td>returns the current element associated value.</td>
 </tr>
 </tbody>
 </table>
@@ -1105,23 +902,31 @@ Event triggers when the value changed.
 
 
 {% highlight html %} 
-<div id="rating" data-role="ejmrating" data-ej-change="onChange"></div>
-<script> 
-// change event for Rating  
-function onChange(args){ //handle the event
-}
-</script>{% endhighlight %}
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-change="onChange"></div>
+    <script>
+        function onChange(args) {
+            //handle the event
+        }
+    </script> 
+
+{% endhighlight %}
 
 
 {% highlight html %} 
-<div id="rating"></div>
-<script>
-//change event for Rating
-$("#rating").ejmRating({
-  change: function (args) { //handle the event 
-}
-});           
-</script>{% endhighlight %}
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({
+            change: function (args) {
+                //handle the event
+            }
+        });
+    </script>
+
+{% endhighlight %}
 
 
 
@@ -1134,47 +939,47 @@ $("#rating").ejmRating({
 
 Event triggers when touch happens on the control.
 
-<table class="params">
+<table>
 <thead>
 <tr>
 <th>Name</th>
 <th>Type</th>
-<th class="last">Description</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from rating.
-<table class="params">
+<td>argument</td>
+<td>Object</span></td>
+<td>Event parameters from Rating.
+<table>
 <thead>
 <tr>
 <th>Name</th>
 <th>Type</th>
-<th class="last">Description</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
+<td>cancel</td>
+<td>boolean</span></td>
+<td>returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
+<td>type</td>
+<td>string</span></td>
+<td>returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
+<td>model</td>
+<td>Object</span></td>
+<td>returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name">{% highlight html %}value{% endhighlight %}</td>
-<td class="type"><span class="param-type">int</span></td>
-<td class="description last">returns the current element associated value.</td>
+<td>value</td>
+<td>int</span></td>
+<td>returns the current element associated value.</td>
 </tr>
 </tbody>
 </table>
@@ -1188,25 +993,31 @@ Event triggers when touch happens on the control.
 
 
 {% highlight html %} 
-<div id="rating" data-role="ejmrating" data-ej-tap="onTap"></div>
-<script> 
-// Change event for Rating  
-function onTap(args){ //handle the event
-}
-</script>{% endhighlight %}
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-tap="ontap"></div>
+    <script>
+        function ontap(args) {
+            //handle the event
+        }
+    </script> 
+
+{% endhighlight %}
 
 
 {% highlight html %} 
-<div id="rating"></div>
-<script> 
-//Change event for Rating
-$("#rating").ejmRating({
- tap: function (args) { //handle the event 
-}
-});     
-</script>                 {% endhighlight %}
 
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({
+            tap: function (args) {
+                //handle the event
+            }
+        });
+    </script>
 
+{% endhighlight %}
 
 
 ### touchMove
@@ -1217,47 +1028,47 @@ $("#rating").ejmRating({
 
 Event triggers when touch move happens on the control.
 
-<table class="params">
+<table>
 <thead>
 <tr>
 <th>Name</th>
 <th>Type</th>
-<th class="last">Description</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="name">{% highlight html %}argument{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">Event parameters from rating.
-<table class="params">
+<td>argument</td>
+<td>Object</span></td>
+<td>Event parameters from Rating.
+<table>
 <thead>
 <tr>
 <th>Name</th>
 <th>Type</th>
-<th class="last">Description</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="name">{% highlight html %}cancel{% endhighlight %}</td>
-<td class="type"><span class="param-type">boolean</span></td>
-<td class="description last">returns true if the event should be cancelled; otherwise, false.</td>
+<td>cancel</td>
+<td>boolean</span></td>
+<td>returns true if the event should be cancelled; otherwise, false.</td>
 </tr>
 <tr>
-<td class="name">{% highlight html %}type{% endhighlight %}</td>
-<td class="type"><span class="param-type">string</span></td>
-<td class="description last">returns the name of the event.</td>
+<td>type</td>
+<td>string</span></td>
+<td>returns the name of the event.</td>
 </tr>
 <tr>
-<td class="name">{% highlight html %}model{% endhighlight %}</td>
-<td class="type"><span class="param-type">Object</span></td>
-<td class="description last">returns the model value of the control.</td>
+<td>model</td>
+<td>Object</span></td>
+<td>returns the model value of the control.</td>
 </tr>
 <tr>
-<td class="name">{% highlight html %}value{% endhighlight %}</td>
-<td class="type"><span class="param-type">int</span></td>
-<td class="description last">returns the current element associated value.</td>
+<td>value</td>
+<td>int</span></td>
+<td>returns the current element associated value.</td>
 </tr>
 </tbody>
 </table>
@@ -1271,23 +1082,31 @@ Event triggers when touch move happens on the control.
 
 
 {% highlight html %} 
-<div id="rating" data-role="ejmrating" data-ej-touchmove="ontouchMove"></div>
-<script> 
-// Change event for Rating  
-function ontouchMove(args){ //handle the event
-}
-</script>{% endhighlight %}
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating" data-role="ejmrating" data-ej-touchmove="ontouchmove"></div>
+    <script>
+        function ontouchmove(args) {
+            //handle the event
+        }
+    </script> 
+
+{% endhighlight %}
 
 
 {% highlight html %} 
-<div id="rating"></div>
-<script>
-//change event for Rating
-$("#rating").ejmRating({
-  touchMove: function (args) { //handle the event 
-}
-});           
-</script>{% endhighlight %}
+
+    <!-- Unobtrusive way of rendering -->
+    <div id="rating"></div>
+    <script>
+        $("#rating").ejmRating({
+            touchmove: function (args) {
+                //handle the event
+            }
+        });
+    </script>
+
+{% endhighlight %}
 
 
 

@@ -10,9 +10,9 @@ keywords: ejmGroupButton, API, Essential Studio JS GroupButton (Mobile)
 
 # ejmGroupButton
 
-The Essential JavaScript Mobile Group Button widget helps to display multiple buttons that stack together in a single line and appear as a navigation component.
+The Essential JavaScript Mobile GroupButton widget helps to display multiple buttons that stack together in a single line and appear as a navigation component.
 
-Custom Design for Html Group Button control.
+Custom Design for HTML GroupButton control.
 
 $(element).ejmGroupButton()
 
@@ -159,9 +159,9 @@ $(element).ejmGroupButton()
 ## Members
 
 ### cssClass `string`
-{:#members:cssClass} 
+{:#members:cssclass} 
 
-Sets the root class for Group Button theme. This cssClass API helps to use custom skinning option for Group Button control. By defining the root class using this API, we need to include this root class in CSS.
+Sets the root class for GroupButton theme. This cssClass API helps to use custom skinning option for GroupButton control. By defining the root class using this API, we need to include this root class in CSS.
 
 #### Default Value
 
@@ -228,7 +228,7 @@ Sets the root class for Group Button theme. This cssClass API helps to use custo
 
 
 ### enablePersistence `boolean`
-{:#members:enablePersistence}
+{:#members:enablepersistence}
  
 Current model value to browser cookies for state maintenance. While refreshing the page, the model value applied from browser cookies retains.
 
@@ -287,7 +287,7 @@ Current model value to browser cookies for state maintenance. While refreshing t
 ### items `string`
 {:#members:items}
 
-Renders the Group button using data source which contains array of items.
+Renders the GroupButton using data source which contains array of items.
 
 #### Default Value
 
@@ -325,9 +325,9 @@ Renders the Group button using data source which contains array of items.
 
 
 ### renderMode `enum`
-{:#members:renderMode}
+{:#members:rendermode}
 
-Changes the rendering mode of the group button. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
+Changes the rendering mode of the GroupButton. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
 
 #### Default Value
 
@@ -383,7 +383,7 @@ Changes the rendering mode of the group button. See [RenderMode](http://help.sy
 
 
 ### selectedItemIndex `number`
-{:#members:selectedItemIndex}
+{:#members:selecteditemindex}
 
 Specifies the item which one is to be selected initially.
 
@@ -446,7 +446,7 @@ Specifies the item which one is to be selected initially.
 ### select
 {:#events:select}
 
-Event triggers when the select happens in the group button
+Event triggers when the select happens in the GroupButton
 
 <table>
 <tr>
@@ -458,7 +458,7 @@ Event triggers when the select happens in the group button
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from group button<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from GroupButton<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -470,7 +470,7 @@ If the event should be canceled; otherwise, false.</td></tr>
 <td>
 model</td><td>
 boolean</td><td>
-Returns the group button model</td></tr>
+Returns the GroupButton model</td></tr>
 <tr>
 <td>
 type</td><td>
@@ -542,9 +542,9 @@ Returns the current button text</td></tr>
 
 
 ### touchEnd
-{:#events:touchEnd}
+{:#events:touchend}
 
-Event triggers when the touchend happens in the group button
+Event triggers when the touchend happens in the GroupButton
 
 <table>
 <tr>
@@ -556,7 +556,7 @@ Event triggers when the touchend happens in the group button
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from group button<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from GroupButton<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -568,7 +568,7 @@ If the event should be canceled; otherwise, false.</td></tr>
 <td>
 model</td><td>
 boolean</td><td>
-Returns the group button model</td></tr>
+Returns the GroupButton model</td></tr>
 <tr>
 <td>
 type</td><td>
@@ -641,9 +641,9 @@ Returns the selected button text</td></tr>
 
 
 ### touchStart
-{:#events:touchStart}
+{:#events:touchstart}
 
-Event triggers when the touchstart happens in the group button
+Event triggers when the touchstart happens in the GroupButton
 
 <table>
 <tr>
@@ -655,7 +655,7 @@ Event triggers when the touchstart happens in the group button
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from group button<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from GroupButton<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -667,7 +667,7 @@ If the event should be canceled; otherwise, false.</td></tr>
 <td>
 model</td><td>
 boolean</td><td>
-Returns the group button model</td></tr>
+Returns the GroupButton model</td></tr>
 <tr>
 <td>
 type</td><td>

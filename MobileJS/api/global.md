@@ -840,3 +840,125 @@ Change the thumbstyle to Small</td></tr>
 </table>
 
 
+### RatingPrecision
+{:#members:ratingprecision}
+
+Enum for ejmRating Precision 
+
+#### Properties:
+
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Default</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+Full</td><td>
+string</td><td>
+full</td><td>
+Full precision</td></tr>
+<tr>
+<td>
+Half</td><td>
+string</td><td>
+half</td><td>
+Half precision</td></tr>
+<tr>
+<td>
+Exact</td><td>
+string</td><td>
+exact</td><td>
+Exact precision</td></tr>
+</table>
+
+
+### RatingShape
+{:#members:ratingshape}
+
+Enum for ejmRating Shape 
+
+#### Properties:
+
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Default</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+Star</td><td>
+string</td><td>
+star</td><td>
+Star shape</td></tr>
+<tr>
+<td>
+Circle</td><td>
+string</td><td>
+circle</td><td>
+Circle shape</td></tr>
+<tr>
+<td>
+Diamond</td><td>
+string</td><td>
+diamond</td><td>
+Diamond shape</td></tr>
+<tr>
+<td>
+Heart</td><td>
+string</td><td>
+heart</td><td>
+Heart shape</td></tr>
+<tr>
+<td>
+Pentagon</td><td>
+string</td><td>
+pentagon</td><td>
+Pentagon shape</td></tr>
+<tr>
+<td>
+Square</td><td>
+string</td><td>
+square</td><td>
+Square shape</td></tr>
+<tr>
+<td>
+Triangle</td><td>
+string</td><td>
+triangle</td><td>
+Triangle shape</td></tr>
+</table>
+
+
+### RatingOrientation
+{:#members:ratingorientation}
+
+Enum for ejmRating Orientation 
+
+#### Properties:
+
+<table>
+<tr>
+<th>
+<b>Name</b></th><th>
+<b>Type</b></th><th>
+<b>Default</b></th><th>
+<b>Description</b></th></tr>
+<tr>
+<td>
+Horizontal</td><td>
+string</td><td>
+horizontal</td><td>
+Horizontal orientation</td></tr>
+<tr>
+<td>
+Vertical</td><td>
+string</td><td>
+vertical</td><td>
+Vertical orientation</td></tr>
+</table>
+
