@@ -12,7 +12,7 @@ keywords: ejmNavigationBar, API, Essential Studio JS NavigationBar (Mobile)
 
 The Essential JavaScript Mobile NavigationBar widget is a navigation element positioned at the top or bottom of the page, which consists of header, footer and toolbars. Header and footer consists of left and right buttons for page navigation, and toolbar consists of set of icons to support page actions.
 
-Custom Design for Html NavigationBar control.
+Custom Design for HTML NavigationBar control.
 
 $(element).ejmNavigationBar()
 
@@ -82,7 +82,7 @@ $(element).ejmNavigationBar()
 
 
 
-N> To get navigation bar with left button or right buttons, render buttons inside the navigation bar tags as follows.
+N> To get NavigationBar with left button or right buttons, render buttons inside the NavigationBar element as follows.
 
 {% highlight html %}
 
@@ -165,12 +165,12 @@ N> To get navigation bar with left button or right buttons, render buttons insid
 
 Section for android mode specific functionalities.
 
-N> Android specific properties works only in android mode. To achieve android specific properties, [rendeMode] property should be set as “android”.
+N> Android specific properties works only in android mode. To achieve android specific properties, rendeMode property should be set as “android”.
 
 ### android.position `enum`
-{:#members:androidposition}
+{:#members:android-position}
 
-Specifies the position of navigation bar in android rendering mode. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#NavBarPosition)
+Specifies the position of NavigationBar in android rendering mode. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#NavBarPosition)
 
 #### Default Value
 
@@ -214,7 +214,7 @@ Specifies the position of navigation bar in android rendering mode. i.e. top or 
 Section for badge specific properties.
 
 ### badge.maxValue `number`
-{:#members:badgemaxValue}
+{:#members:badge-maxvalue}
 
 Specifies maximum badge value which a navigation toolbar item can accept. If badge value is set a value greater than this maxValue, then the max value will be appeared with a plus sign.
 
@@ -269,7 +269,7 @@ Specifies maximum badge value which a navigation toolbar item can accept. If bad
 
 
 ### cssClass `string`
-{:#members:cssClass}
+{:#members:cssclass}
 
 Sets the root class for NavigationBar theme. This cssClass API helps to use custom skinning option for NavigationBar control. By defining the root class using this API, we need to include this root class in CSS.
 
@@ -322,7 +322,7 @@ Sets the root class for NavigationBar theme. This cssClass API helps to use cust
 
 
 ### enablePersistence `boolean`
-{:#members:enablePersistence}
+{:#members:enablepersistence}
 
 Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
 
@@ -362,7 +362,7 @@ Specifies to maintain the current model value to browser cookies for state maint
 
 
 ### enableRippleEffect `boolean`
-{:#members:enableRippleEffect}
+{:#members:enableripplerffect}
 
 Specifies whether to enable ripple effect on toolbar item click or not.
 
@@ -419,13 +419,13 @@ Specifies whether to enable ripple effect on toolbar item click or not.
 
 Section for flat mode specific functionalities. 
 
-N> Flat specific properties works only in flat mode. To achieve flat specific properties, [renderMode] property should be set as “flat”.
+N> Flat specific properties works only in flat mode. To achieve flat specific properties, renderMode property should be set as “flat”.
 
 
 ### flat.position `enum`
-{:#members:flatposition}
+{:#members:flat-position}
 
-Specifies the position of navigation bar in flat rendering mode. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#NavBarPosition)
+Specifies the position of NavigationBar in flat rendering mode. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#NavBarPosition)
 
 #### Default Value
 
@@ -464,11 +464,11 @@ Specifies the position of navigation bar in flat rendering mode. i.e. top or bot
 
 
 ### iconAlignment `enum`
-{:#members:iconAlignment}
+{:#members:iconalignment}
 
 It is used to align icons in a specific manner. In split alignment, icons will take 100% of page width and badge of icons will be appeared on right side of icons. In grouped alignment, icons will take some specific with and will render middle of the page, and the badge of icons will be appeared on top right of icons. See [NavBarIconAlignment](http://help.syncfusion.com/mobilejs/api/global#NavBarIconAlignment)
 
-N> This is a toolbar specific property. It works only when the [mode] property set as “toolbar” and icons of toolbar defined in sample.
+N> This is a toolbar specific property. It works only when the mode property set as “toolbar” and icons of toolbar defined in sample.
 
 #### Default Value
 
@@ -525,13 +525,13 @@ N> This is a toolbar specific property. It works only when the [mode] property s
 
 Section for ios7 mode specific functionalities. 
 
-N> Ios7 specific properties works only in ios7 mode. To achieve ios7 specific properties, [rendeMode] property should be set as “ios7”.
+N> Ios7 specific properties works only in ios7 mode. To achieve ios7 specific properties, rendeMode property should be set as “ios7”.
 
 
 ### ios7.position `enum`
-{:#members:ios7position}
+{:#members:ios7-position}
 
-Specifies the position of navigation bar in ios7 rendering mode. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#NavBarPosition)
+Specifies the position of NavigationBar in ios7 rendering mode. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#NavBarPosition)
 
 #### Default Value
 
@@ -570,9 +570,9 @@ Specifies the position of navigation bar in ios7 rendering mode. i.e. top or bot
 
 
 ### isRelative `boolean`
-{:#members:isRelative}
+{:#members:isrelative}
 
-Specifies whether the navigation bar render with relative position or not. By default the navigation bar renders with absolute positioning (on the top of the page or bottom of the page if position “bottom”).
+Specifies whether the NavigationBar render with relative position or not. By default the NavigationBar renders with absolute positioning (on the top of the page or bottom of the page if position “bottom”).
 
 #### Default Value
 
@@ -619,9 +619,9 @@ Specifies whether the navigation bar render with relative position or not. By de
 ### items `jsonarray`
 {:#members:items}
 
-Specifies the toolbar items in navigation bar. Toolbar icons can be rendered using datasource instead of HTML ul li tags. 
+Specifies the toolbar items in NavigationBar. Toolbar icons can be rendered using datasource instead of HTML ul li tags. 
 
-N> This property is a toolbar specific. Toolbar items can be given as array of objects. To achieve this, [mode] property must be set as “toolbar”
+N> This property is a toolbar specific. Toolbar items can be given as array of objects. To achieve this, mode property must be set as “toolbar”
 
 #### Default Value
 
@@ -716,7 +716,7 @@ Specifies the localization to adopt the required language.
 ### mode `enum`
 {:#members:mode}
 
-Specifies the mode of navigation bar. If the value of this property is “toolbar”, then the navigation bar will act as toolbar otherwise header. (Or footer if position is bottom). See [NavBarMode](http://help.syncfusion.com/mobilejs/api/global#NavBarMode)
+Specifies the mode of NavigationBar. If the value of this property is “toolbar”, then the NavigationBar will act as toolbar otherwise header. (Or footer if position is bottom). See [NavBarMode](http://help.syncfusion.com/mobilejs/api/global#NavBarMode)
 
 #### Default Value
 
@@ -771,7 +771,7 @@ Specifies the mode of navigation bar. If the value of this property is “toolba
 ### position `enum`
 {:#members:position}
 
-Specifies the position of navigation bar. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#NavBarPosition)
+Specifies the position of NavigationBar. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#NavBarPosition)
 
 #### Default Value
 
@@ -810,7 +810,7 @@ Specifies the position of navigation bar. i.e. top or bottom. See [NavBarPositi
 
 
 ### renderMode `enum`
-{:#members:renderMode}
+{:#members:rendermode}
 
 Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
 
@@ -905,9 +905,9 @@ Specifies ID of the element contains template contents.
 
 
 ### titleAlignment `enum`
-{:#members:titleAlignment}
+{:#members:titlealignment}
 
-Specifies the title alignment of the navigation bar header or footer. See [NavBarTitleAlignment](http://help.syncfusion.com/mobilejs/api/global#NavBarTitleAlignment)
+Specifies the title alignment of the NavigationBar. See [NavBarTitleAlignment](http://help.syncfusion.com/mobilejs/api/global#NavBarTitleAlignment)
 
 #### Default Value
 
@@ -948,9 +948,9 @@ Specifies the title alignment of the navigation bar header or footer. See [NavB
 ### title `string`
 {:#members:title}
 
-Specifies the title of the navigation bar header or footer. If this value is not set the header will render without title span.
+Specifies the title of the NavigationBar. If this value is not set the header will render without title span.
 
-N> For toolbar mode bottom positioned navigation bar, the title will not be shown.
+N> For toolbar mode bottom positioned NavigationBar, the title will not be shown.
 
 #### Default Value
 
@@ -993,12 +993,12 @@ N> For toolbar mode bottom positioned navigation bar, the title will not be show
 
 Section for windows mode specific functionalities. 
 
-N> Windows specific properties works only in windows mode. To achieve windows specific properties, [rendeMode] property should be set as “windows”.
+N> Windows specific properties works only in windows mode. To achieve windows specific properties, rendeMode property should be set as “windows”.
 
 ### windows.position `enum`
-{:#members:windowsposition}
+{:#members:windows-position}
 
-Specifies the position of navigation bar in windows rendering mode. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#NavBarPosition)
+Specifies the position of NavigationBar in windows rendering mode. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#NavBarPosition)
 
 #### Default Value
 
@@ -1039,7 +1039,7 @@ Specifies the position of navigation bar in windows rendering mode. i.e. top or 
 ## Methods
 
 ### addItem()
-{:#methods:addItem}
+{:#methods:additem}
 
 To add an item to the toolbar. This method accepts two arguments. First one is a string which denotes the item to be added. Second one is index of the new item and it is optional.
 
@@ -1072,7 +1072,7 @@ To add an item to the toolbar. This method accepts two arguments. First one is a
 
 
 ### disableItem()
-{:#methods:disableItem}
+{:#methods:disableitem}
 
 To disable an item in the toolbar which mentioned by index parameter.
 
@@ -1106,7 +1106,7 @@ To disable an item in the toolbar which mentioned by index parameter.
 
 
 ### enableItem()
-{:#methods:enableItem}
+{:#methods:enableitem}
 
 To enable an item in the toolbar which mentioned by index parameter.
 
@@ -1146,9 +1146,9 @@ N> To achieve this, the item should be disabled using disableItem method.
 
 
 ### getTitle()
-{:#methods:getTitle}
+{:#methods:gettitle}
 
-To get title of the navigation bar.
+To get title of the NavigationBar.
 
 #### Example
 
@@ -1174,7 +1174,7 @@ To get title of the navigation bar.
 ### hide()
 {:#methods:hide}
 
-To hide the navigation bar.
+To hide the NavigationBar.
 
 #### Example
 
@@ -1204,7 +1204,7 @@ To hide the navigation bar.
 
 
 ### hideItem()
-{:#methods:hideItem}
+{:#methods:hideitem}
 
 To hide an item in the toolbar which mentioned by index parameter.
 
@@ -1237,7 +1237,7 @@ To hide an item in the toolbar which mentioned by index parameter.
 
 
 ### removeItem()
-{:#methods:removeItem}
+{:#methods:removeitem}
 
 To remove an item in the toolbar which mentioned by index parameter.
 
@@ -1273,7 +1273,7 @@ To remove an item in the toolbar which mentioned by index parameter.
 ### show()
 {:#methods:show}
 
-To show the hidden navigation bar by hide() method.
+To show the hidden NavigationBar by hide() method.
 
 #### Example
 
@@ -1307,7 +1307,7 @@ To show the hidden navigation bar by hide() method.
 
 
 ### showItem()
-{:#methods:showItem}
+{:#methods:showitem}
 
 To show an item in the toolbar which mentioned by index parameter. 
 
@@ -1350,7 +1350,7 @@ N> To achieve this, the item must be hidden using hideItem method.
 ## Events
 
 ### ellipsisTouchEnd
-{:#events:ellipsisTouchEnd}
+{:#events:ellipsisetouchend}
 
 Event triggers when touch end happens on the ellipsis icon.
 
@@ -1366,7 +1366,7 @@ N> Ellipsis icon will be shown automatically while the toolbar items excess the 
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from navigation bar.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from NavigationBar.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -1454,7 +1454,7 @@ Returns the ellipsis element object on which the touch end event happens.</td></
 
 
 ### ellipsisTouchStart
-{:#events:ellipsisTouchStart}
+{:#events:ellipsistouchstart}
 
 Event triggers when touch start happens on the ellipsis icon.
 
@@ -1470,7 +1470,7 @@ N> Ellipsis icon will be shown automatically while the toolbar items excess the 
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from navigation bar.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from NavigationBar.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -1558,7 +1558,7 @@ Returns the ellipsis element object on which the touch start event happens.</td>
 
 
 ### touchEnd
-{:#events:touchEnd}
+{:#events:touchend}
 
 Event triggers when touch end happens on the toolbar items.
 
@@ -1572,7 +1572,7 @@ Event triggers when touch end happens on the toolbar items.
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from navigation bar.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from NavigationBar.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -1668,7 +1668,7 @@ Returns the index of the item on which the touch end event happens.</td></tr>
 
 
 ### touchStart
-{:#events:touchStart}
+{:#events:touchstart}
 
 Event triggers when touch start happens on the toolbar items.
 
@@ -1682,7 +1682,7 @@ Event triggers when touch start happens on the toolbar items.
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from navigation bar.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from NavigationBar.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>

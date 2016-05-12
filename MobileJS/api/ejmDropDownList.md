@@ -12,7 +12,7 @@ keywords: ejmDropDownList, API, Essential Studio JS DropDownList (Mobile)
 
 The Essential JavaScript Mobile DropDownList widget is a text box control that provides a list of options on focus and allows you to pick one option.
 
-Custom Design for HTML NavigationBar control.
+Custom Design for HTML DropDownList control.
 
 $(element).ejmDropDownList()
 
@@ -74,8 +74,6 @@ $(element).ejmDropDownList()
 
 * module:ej.touch
 
-* module:ej.listviewbase
-
 * module:ej.mobile.listview
 
 * module:ej.mobile.scrollpanel
@@ -85,11 +83,11 @@ $(element).ejmDropDownList()
 ## Members
 
 ### allowVirtualScrolling `boolean`
-{:#members:allowVirtualScrolling}
+{:#members:allowvirtualscrolling}
 
 The Virtual Scrolling feature is used to display a large amount of records in the DropDownList, that is when scroll end happens, an AJAX request is sent to fetch some amount of data from the server dynamically. To achieve this scenario with DropDownList, set the allowVirtualScrolling to true. You can set the itemsCount property that represents the number of items to be fetched from the server on every AJAX request. 
 
-N> To achieve virtual scrolling, [dataSource], [fields.text] and [itemsCount] properties should be set properly.
+N> To achieve virtual scrolling, dataSource, fields.text and itemsCount properties should be set properly.
 
 #### Default Value
 
@@ -137,9 +135,9 @@ N> To achieve virtual scrolling, [dataSource], [fields.text] and [itemsCount] pr
 
 
 ### cssClass `string`
-{:#members:cssClass}
+{:#members:cssclass}
 
-Sets the root class for DropdownList. This cssClass API helps to use custom skinning option for DropdownList control. By defining the root class using this API, we need to include this root class in CSS.
+Sets the root class for DropDownList. This cssClass API helps to use custom skinning option for DropDownList control. By defining the root class using this API, we need to include this root class in CSS.
 
 #### Default Value
 
@@ -202,9 +200,9 @@ Sets the root class for DropdownList. This cssClass API helps to use custom skin
 
 
 ### dataSource `jsonarray`
-{:#members:dataSource}
+{:#members:datasource}
 
-Specifies the data source for dropdown list rendering. In Dropdownlist, options can be given as data source of JSON array.
+Specifies the data source for DropDownList rendering. In DropDownList, options can be given as data source of JSON array.
 
 #### Default Value:
 
@@ -255,11 +253,11 @@ Specifies the data source for dropdown list rendering. In Dropdownlist, options 
 
 
 ### delimiterChar `string`
-{:#members:delimiterChar}
+{:#members:delimiterchar}
 
 Specifies the separator character for multi selection mode which separates two items. 
 
-N> This property works only for multi selection mode, hence the property [enableMultiSelect] should be set as true.
+N> This property works only for multi selection mode, hence the property enableMultiSelect should be set as true.
 
 #### Default Value
 
@@ -312,7 +310,7 @@ N> This property works only for multi selection mode, hence the property [enable
 ### enabled `boolean`
 {:#members:enabled}
 
-Specifies whether to enable the dropdown list on initialization.
+Specifies whether to enable the DropDownList on initialization.
 
 #### Default Value
 
@@ -363,9 +361,9 @@ Specifies whether to enable the dropdown list on initialization.
 
 
 ### enableMultiSelect `boolean`
-{:#members:enableMultiSelect}
+{:#members:enablemultiselect}
 
-Specifies multi select dropdown list. You can select multiple options by enabling this property.
+Specifies multi select DropDownList. You can select multiple options by enabling this property.
 
 #### Default Value
 
@@ -416,7 +414,7 @@ Specifies multi select dropdown list. You can select multiple options by enablin
 
 
 ### enablePersisitence `boolean`
-{:#members:enablePersisitence}
+{:#members:enablepersisitence}
 
 Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
 
@@ -473,9 +471,9 @@ Specifies to maintain the current model value to browser cookies for state maint
 Section for fields specific properties
 
 ### fields.checkBy `boolean`
-{:#members:fieldscheckBy}
+{:#members:fields-checkby}
 
-Maps the check status for each option in dropdown list initially. This is an optional property used only for multiselection dropdown list.
+Maps the check status for each option in DropDownList initially. This is an optional property used only for multiselection DropDownList.
 
 #### Default Value
 
@@ -527,9 +525,9 @@ Maps the check status for each option in dropdown list initially. This is an opt
 
 
 ### fields.groupBy `string`
-{:#members:fieldsgroupBy}
+{:#members:fields-groupby}
 
-Maps the group name in which each option belongs to in dropdown list. This is an optional property used only for grouped dropdown list.
+Maps the group name in which each option belongs to in DropDownList. This is an optional property used only for grouped DropDownList.
 
 #### Default Value
 
@@ -579,11 +577,11 @@ Maps the group name in which each option belongs to in dropdown list. This is an
 
 
 ### fields.image `string`
-{:#members:fieldsimage}
+{:#members:fields-image}
 
-Maps text field from the data source. This is a required property while rendering the dropdown list from data source. 
+Maps text field from the data source. This is a required property while rendering the DropDownList from data source. 
 
-N> Since field mapping depends on data source, the [dataSource] property must be set with a JSON data.
+N> Since field mapping depends on data source, the dataSource property must be set with a JSON data.
 
 #### Default Value
 
@@ -634,11 +632,11 @@ N> Since field mapping depends on data source, the [dataSource] property must be
 
 
 ### fields.text `string`
-{:#members:fieldstext}
+{:#members:fields-text}
 
-Maps text field from the data source. This is a required property while rendering the dropdown list from data source. 
+Maps text field from the data source. This is a required property while rendering the DropDownList from data source. 
 
-N> Since field mapping depends on data source, the [dataSource] property must be set with a JSON data.
+N> Since field mapping depends on data source, the dataSource property must be set with a JSON data.
 
 #### Default Value
 
@@ -690,7 +688,7 @@ N> Since field mapping depends on data source, the [dataSource] property must be
 
 
 ### fields.value `string`
-{:#members:fieldsvalue}
+{:#members:fields-value}
 
 Maps the value for each option from the data source. This is an optional property. 
 
@@ -744,11 +742,11 @@ Maps the value for each option from the data source. This is an optional propert
 
 
 ### itemsCount `number`
-{:#members:itemsCount}
+{:#members:itemscount}
 
 Specifies how many items need to render initially from remote data source. You can set the itemsCount property that represents the number of items to be fetched from the server on every AJAX request in virtual scrolling feature.
 
-N> This property works based on remote data source, hence the [dataSource] and [fields.text] properties should be set properly while rendering.
+N> This property works based on remote data source, hence the dataSource and fields.text properties should be set properly while rendering.
 
 #### Default Value
 
@@ -796,7 +794,7 @@ N> This property works based on remote data source, hence the [dataSource] and [
 ### locale `string`
 {:#members:locale}
 
-Specifies the localization to adopt the required language. In Dropdown list control, localization support given for watermarkText property.
+Specifies the localization to adopt the required language. In DropDownList control, localization support given for watermarkText property.
 
 #### Default Value
 
@@ -857,7 +855,7 @@ Specifies the localization to adopt the required language. In Dropdown list cont
 
 
 ### popupHeight `string`
-{:#members:popupHeight}
+{:#members:popupheight}
 
 Specifies the height of the options list.
 
@@ -914,7 +912,7 @@ Specifies the height of the options list.
 
 
 ### popupWidth `string`
-{:#members:popupWidth}
+{:#members:popupwidth}
 
 Specifies the width of the options list.
 
@@ -1015,9 +1013,9 @@ This property used to filter data from remote data source.
 
 
 ### readOnly `boolean`
-{:#members:readOnly}
+{:#members:readonly}
 
-Specifies whether the dropdown list to be rendered without interaction. If this set as true, you can’t focus the dropdown list textbox. 
+Specifies whether the DropDownList to be rendered without interaction. If this set as true, you can’t focus the DropDownList textbox. 
 
 #### Default Value
 
@@ -1068,7 +1066,7 @@ Specifies whether the dropdown list to be rendered without interaction. If this 
 
 
 ### renderMode `enum`
-{:#members:renderMode}
+{:#members:rendermode}
 
 Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
 
@@ -1121,7 +1119,7 @@ Specifies the rendering mode of the control. See [RenderMode](http://help.syncf
 
 
 ### selectedItemIndex `number`
-{:#members:selectedItemIndex}
+{:#members:selecteditemindex}
 
 Specifies the Item Index which is selected initially. If the value -1 means, no item selected initially.
 
@@ -1174,9 +1172,9 @@ Specifies the Item Index which is selected initially. If the value -1 means, no 
 
 
 ### targetId `string`
-{:#members:targetId}
+{:#members:targetid}
 
-Specifies the target element which consists the list of options to render dropdownlist. Unless data source type rendering, dropdown list needs this property must.
+Specifies the target element which consists the list of options to render DropDownList. Unless data source type rendering, DropDownList needs this property must.
 
 #### Default Value
 
@@ -1227,11 +1225,11 @@ Specifies the target element which consists the list of options to render dropdo
 
 
 ### templateId `string`
-{:#members:templateId}
+{:#members:templateid}
 
 Specifies ID of the element contains template contents of options.
 
-N> For dropdown list template rendering, jsrender.js file reference needed.
+N> For DropDownList template rendering, jsrender.js file reference needed.
 
 #### Default Value
 
@@ -1321,9 +1319,9 @@ N> For dropdown list template rendering, jsrender.js file reference needed.
 
 
 ### watermarkText `string`
-{:#members:watermarkText}
+{:#members:watermarktext}
 
-Specifies the dropdown list watermark text that to be shown on dropdown text box when it is empty
+Specifies the DropDownList watermark text that to be shown on DropDownList textbox when it is empty
 
 #### Default Value
 
@@ -1375,10 +1373,44 @@ Specifies the dropdown list watermark text that to be shown on dropdown text box
 
 ## Methods
 
-### getValue()
-{:#methods:getValue}
 
-To get the current selected values from dropdown textbox.
+### getSelectedItemValue()
+{:#methods:getselecteditemvalue}
+
+To get the values of currently selected item/items in DropDownList.
+
+#### Example
+
+{% highlight html %}
+
+
+    <input data-role="ejmbutton" type="button" data-ej-text="Get Value" data-ej-touchend="getvalue" />
+    <input id="dd_default" data-role="ejmdropdownlist" data-ej-targetid="targetEle" />
+
+    <ul id="targetEle">
+        <li data-ej-text="Google"></li>
+        <li data-ej-text="Bing"></li>
+        <li data-ej-text="Yahoo"></li>
+        <li data-ej-text="Ask"></li>
+    </ul>
+
+    <script>
+        function getvalue() {
+            var str = $("#dd_default").ejmDropDownList("getSelectedItemValue");
+            alert("Currently selected value is: " + str);
+        }
+    </script>
+
+
+
+{% endhighlight %}
+
+
+
+### getValue()
+{:#methods:getvalue}
+
+To get the current selected values from DropDownList textbox.
 
 #### Example
 
@@ -1409,7 +1441,7 @@ To get the current selected values from dropdown textbox.
 
 
 ### hidePopup()
-{:#methods:hidePopup}
+{:#methods:hidepopup}
 
 To hide options list pop up.
 
@@ -1441,7 +1473,7 @@ To hide options list pop up.
 
 
 ### selectItemByIndex()
-{:#methods:selectItemByIndex}
+{:#methods:selectitembyindex}
 
 To select an option by its index.
 
@@ -1473,9 +1505,9 @@ To select an option by its index.
 
 
 ### selectItemByIndices()
-{:#methods:selectItemByIndices}
+{:#methods:selectitembyindices}
 
-To select multiple option by its index array. This method works only for multi selection dropdown. So enableMultiSelect property should be set as true.
+To select multiple option by its index array. This method works only for multi selection DropDownList. So enableMultiSelect property should be set as true.
 
 #### Example
 
@@ -1505,7 +1537,7 @@ To select multiple option by its index array. This method works only for multi s
 
 
 ### showPopup()
-{:#methods:showPopup}
+{:#methods:showpopup}
 
 To show options list pop up.
 
@@ -1537,9 +1569,9 @@ To show options list pop up.
 
 
 ### unselectItemByIndex()
-{:#methods:unselectItemByIndex}
+{:#methods:unselectitembyindex}
 
-To unselect an option by its index. This method works only for multi selection dropdown. So enableMultiSelect property should be set as true.
+To unselect an option by its index. This method works only for multi selection DropDownList. So enableMultiSelect property should be set as true.
 
 #### Example
 
@@ -1573,9 +1605,9 @@ To unselect an option by its index. This method works only for multi selection d
 
 
 ### unselectItemByIndices()
-{:#methods:unselectItemByIndices}
+{:#methods:unselectitembyindices}
 
-To unselect multiple option by its index array. This method works only for multi selection dropdown. So enableMultiSelect property should be set as true.
+To unselect multiple option by its index array. This method works only for multi selection DropDownList. So enableMultiSelect property should be set as true.
 
 #### Example
 
@@ -1610,7 +1642,7 @@ To unselect multiple option by its index array. This method works only for multi
 ## Events
 
 ### actionComplete
-{:#events:actionComplete}
+{:#events:actioncomplete}
 
 Event triggers when Ajax request succeeded and completed the processing of remote data source.
 
@@ -1624,19 +1656,19 @@ Event triggers when Ajax request succeeded and completed the processing of remot
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from dropdown list.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from DropDownList.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
 <td>
 cancel</td><td>
 boolean</td><td>
-returns true if the event should be cancelled; otherwise, false.</td></tr>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event.</td></tr>
+Returns the name of the event.</td></tr>
 <tr>
 <td>
 model</td><td>
@@ -1722,7 +1754,7 @@ Returns the requested data</td></tr>
 
 
 ### actionFailure
-{:#events:actionFailure}
+{:#events:actionfailure}
 
 Event triggers when Ajax request failed for remote binding data source.
 
@@ -1736,7 +1768,7 @@ Event triggers when Ajax request failed for remote binding data source.
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from dropdown list.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from DropDownList.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -1758,7 +1790,7 @@ Returns the model value of the control.</td></tr>
 <td>
 error</td><td>
 object</td><td>
-Returns object which contains ajax error information</td></tr>
+Returns object which contains AJAX error information</td></tr>
 <tr>
 <td>
 query</td><td>
@@ -1818,7 +1850,7 @@ Returns the query for data retrieval</td></tr>
 
 
 ### actionSuccess
-{:#events:actionSuccess}
+{:#events:actionsuccess}
 
 Event triggers when Ajax request succeeded for remote binding data source.
 
@@ -1832,7 +1864,7 @@ Event triggers when Ajax request succeeded for remote binding data source.
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from dropdown list.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from DropDownList.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -1905,7 +1937,7 @@ Returns the model value of the control.</td></tr>
 ### change
 {:#events:change}
 
-Event triggers when newly selected option updated to the dropdown textbox.
+Event triggers when newly selected option updated to the DropDownList textbox.
 
 <table>
 <tr>
@@ -1917,7 +1949,7 @@ Event triggers when newly selected option updated to the dropdown textbox.
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from dropdown list.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from DropDownList.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -1994,9 +2026,9 @@ Returns the model value of the control.</td></tr>
 
 
 ### focusIn
-{:#events:focusIn}
+{:#events:focusin}
 
-Event triggers when focus in happens on the dropdown textbox.
+Event triggers when focus in happens on the DropDownList textbox.
 
 <table>
 <tr>
@@ -2008,7 +2040,7 @@ Event triggers when focus in happens on the dropdown textbox.
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from dropdown list.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from DropDownList.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -2085,9 +2117,9 @@ Returns the model value of the control.</td></tr>
 
 
 ### focusOut
-{:#events:focusOut}
+{:#events:focusout}
 
-Event triggers when focus out happens on the dropdown textbox.
+Event triggers when focus out happens on the DropDownList textbox.
 
 <table>
 <tr>
@@ -2099,7 +2131,7 @@ Event triggers when focus out happens on the dropdown textbox.
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from dropdown list.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from DropDownList.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>
@@ -2178,7 +2210,7 @@ Returns the model value of the control.</td></tr>
 ### select
 {:#events:select}
 
-Event triggers when an option selected from the options list but not updated to the dropdown textbox.
+Event triggers when an option selected from the options list but not updated to the DropDownList textbox.
 
 <table>
 <tr>
@@ -2190,7 +2222,7 @@ Event triggers when an option selected from the options list but not updated to 
 <td>
 argument</td><td>
 Object</td><td>
-Event parameters from dropdown list.<table><br><tr><br><th><b>Name</b></th><th>
+Event parameters from DropDownList.<table><br><tr><br><th><b>Name</b></th><th>
 <b>Type</b></th><th>
 <b>Description</b></th></tr>
 <tr>

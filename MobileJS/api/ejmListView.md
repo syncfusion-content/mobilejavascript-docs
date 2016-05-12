@@ -10,7 +10,7 @@ keywords: ejmListView, API, Essential Studio JS ListView (Mobile)
 
 # ejmListView
 
-The Essential JavaScript Mobile ListView widget builds interactive list view interface. This control allows you to select an item from a list-like interface and display a set of data items in different layouts or views. Lists are used for displaying data, data navigation, result lists, and data entry.                                            
+The Essential JavaScript Mobile ListView widget builds interactive ListView interface. This control allows you to select an item from a list-like interface and display a set of data items in different layouts or views. Lists are used for displaying data, data navigation, result lists, and data entry.                                            
 
 Custom Design for HTML ListView control.
 
@@ -93,7 +93,7 @@ $(element).ejmListView()
 ## Members
 
 ### allowSelection `boolean`
-{:#members:allowSelection} 
+{:#members:allowselection} 
 
 Specifies whether the items are selectable or not.
 
@@ -153,11 +153,11 @@ Specifies whether the items are selectable or not.
 
 
 ### checkedIndices `numberarray`
-{:#members:checkedIndices} 
+{:#members:checkedindices} 
 
 Specifies which items will be checked initially. This property works only for check list feature.
 
-N> To use this property, [enableChecklist] property must be set as “true”.
+N> To use this property, enableChecklist property must be set as “true”.
 
 #### Default Value
 
@@ -217,7 +217,7 @@ N> To use this property, [enableChecklist] property must be set as “true”.
 
 
 ### cssClass `string`
-{:#members:cssClass} 
+{:#members:cssclass} 
 
 Sets the root class for ListView. This cssClass API helps to use custom skinning option for ListView control. By defining the root class using this API, we need to include this root class in CSS.
 
@@ -290,11 +290,11 @@ Example
 
 
 ### dataSource `jsonarray`
-{:#members:dataSource} 
+{:#members:datasource} 
 
-Specifies the data source for list rendering. In Listview, list items can be given as datasource which consists of JSON array.
+Specifies the data source for ListView rendering. In Listview, ListView items can be given as datasource which consists of JSON array.
 
-N> To render list view with JSON array, the property [fields.text] should be set to map the list item text.
+N> To render ListView with JSON array, the property fields.text should be set to map the ListView item's text.
 
 #### Default Value
 
@@ -351,9 +351,9 @@ N> To render list view with JSON array, the property [fields.text] should be set
 
 
 ### deleteMode `enum`
-{:#members:deleteMode} 
+{:#members:deletemode} 
 
-This property enables delete option for each list item when swipe left happens to the list item. See [DeleteMode](http://help.syncfusion.com/mobilejs/api/global.html).
+This property enables delete option for each ListView item when swipe left happens to the ListView item. See [DeleteMode](http://help.syncfusion.com/mobilejs/api/global.html).
 
 #### Default Value
 
@@ -411,7 +411,7 @@ This property enables delete option for each list item when swipe left happens t
 
 
 ### enableChecklist `boolean`
-{:#members:enableChecklist} 
+{:#members:enablechecklist} 
 
 Specifies whether to enable check mark for the item.
 
@@ -533,7 +533,7 @@ Specifies whether the control is enabled or disabled.
 
 
 ### enablePersistence `boolean`
-{:#members:enablePersistence} 
+{:#members:enablepersistence} 
 
 Current model value to browser cookies for state maintains. While refresh the ListView control page retains the model value apply from browser cookies.
 
@@ -600,7 +600,7 @@ Current model value to browser cookies for state maintains. While refresh the Li
 
 
 ### enableRippleEffect `boolean`
-{:#members:enableRippleEffect} 
+{:#members:enablerippleeffect} 
 
 Specifies whether to enable or disable ripple effect.
 
@@ -670,7 +670,7 @@ Specifies the field settings to map the datasource.
 
 
 ### fields.allowSelection `boolean`
-{:#members:fieldsallowSelection} 
+{:#members:fields-allowselection} 
 
 Specifies whether the individual item is selectable or not.
 
@@ -730,7 +730,7 @@ Specifies whether the individual item is selectable or not.
 
 
 ### fields.badge `jsonobject`
-{:#members:fieldsbadge} 
+{:#members:fields-badge} 
 
 Maps badge field from the data source. Used to set value and maxValue for each item.
 
@@ -784,9 +784,9 @@ Maps badge field from the data source. Used to set value and maxValue for each i
 
 
 ### fields.checkBy `string`
-{:#members:fieldscheckBy} 
+{:#members:fields-checkby} 
 
-Maps the check status for each item in list initially. This is an optional property used only for check list.
+Maps the check status for each item in ListView initially. This is an optional property used only for check list.
 
 #### Default Value
 
@@ -842,7 +842,7 @@ Maps the check status for each item in list initially. This is an optional prope
 
 
 ### fields.enabled `boolean`
-{:#members:fieldsenabled} 
+{:#members:fields-enabled} 
 
 Maps enabled field from the data source. This property ensures whether the item is enabled or disabled initially.
 
@@ -904,9 +904,9 @@ Maps enabled field from the data source. This property ensures whether the item 
 
 
 ### fields.groupBy `string`
-{:#members:fieldsgroupBy} 
+{:#members:fields-groupby} 
 
-Maps the group name in which each list item belongs to in list. This is an optional property used only for grouped list.
+Maps the group name in which each ListView item belongs to in ListView. This is an optional property used only for grouped list.
 
 #### Default Value
 
@@ -962,7 +962,7 @@ Maps the group name in which each list item belongs to in list. This is an optio
 
 
 ### fields.href `string`
-{:#members:fieldshref} 
+{:#members:fields-href} 
 
 Maps href field from the data source. href is set to the navigation URL of each item.
 
@@ -1024,9 +1024,9 @@ Maps href field from the data source. href is set to the navigation URL of each 
 
 
 ### fields.image `string`
-{:#members:fieldsimage} 
+{:#members:fields-image} 
 
-Maps image field from the data source. Image given by the image will be rendered at the left of list text.
+Maps image field from the data source. Image given by the image will be rendered at the left of ListView item's text.
 
 #### Default Value
 
@@ -1075,11 +1075,11 @@ Maps image field from the data source. Image given by the image will be rendered
 
 
 ### fields.text `string`
-{:#members:fieldstext} 
+{:#members:fields-text} 
 
-Maps text field from the data source. This is a required property while rendering the list from data source. 
+Maps text field from the data source. This is a required property while rendering the ListView from data source. 
 
-N> Since field mapping depends on data source, the [dataSource] property must be set with a JSON data.
+N> Since field mapping depends on data source, the dataSource property must be set with a JSON data.
 
 #### Default Value
 
@@ -1134,7 +1134,7 @@ N> Since field mapping depends on data source, the [dataSource] property must be
 
 
 ### fields.value `string`
-{:#members:fieldsvalue} 
+{:#members:fields-value} 
 
 Maps the value for each option from the data source. This is an optional property. 
 
@@ -1191,11 +1191,11 @@ Maps the value for each option from the data source. This is an optional propert
 
 
 ### itemsCount `number`
-{:#members:itemsCount} 
+{:#members:itemscount} 
 
 Specifies how many items need to render initially from remote data source. 
 
-N> This property works based on remote data source, hence the [dataSource] and [fields.text] properties should be set properly while rendering.
+N> This property works based on remote data source, hence the dataSource and fields.text properties should be set properly while rendering.
 
 #### Default Value
 
@@ -1242,7 +1242,7 @@ N> This property works based on remote data source, hence the [dataSource] and [
 ### items `jsonarray`
 {:#members:items} 
 
-Specifies the list items as an array of JSON objects.
+Specifies the ListView items as an array of JSON objects.
 
 #### Default Value
 
@@ -1279,7 +1279,7 @@ Specifies the list items as an array of JSON objects.
 
 
 ### persistSelection `boolean`
-{:#members:persistSelection} 
+{:#members:persistselection} 
 
 Specifies whether to retain the selection of the item.
 
@@ -1386,9 +1386,9 @@ This property used to filter data from remote data source.
 
 
 ### renderMode `enum`
-{:#members:renderMode} 
+{:#members:rendermode} 
 
-Specifies the rendering mode of the control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global.html)
+Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global.html)
 
 #### Default Value
 
@@ -1446,11 +1446,11 @@ Specifies the rendering mode of the control. See[RenderMode](http://help.syncfus
 
 
 ### selectedIndex `number`
-{:#members:selectedIndex} 
+{:#members:selectedindex} 
 
 Specifies which item to be selected initially for the ListView.
 
-N> To show the selected item as active, [persistSelection] property must be set as true.
+N> To show the selected item as active, persistSelection property must be set as true.
 
 #### Default Value
 
@@ -1508,7 +1508,7 @@ N> To show the selected item as active, [persistSelection] property must be set 
 
 
 ### templateId `boolean`
-{:#members:templateId} 
+{:#members:templateid} 
 
 Specifies ID of the element contains template contents.
 
@@ -1607,7 +1607,7 @@ N> For ListView template rendering, jsrender.js script required.
 Section for windows mode specific functionalities.
 
 ### windows.preventSkew `boolean`
-{:#members:windowspreventSkew} 
+{:#members:windows-preventskew} 
 
 Specifies whether to prevent skewing behavior in windows mode.
 
@@ -1669,7 +1669,7 @@ Specifies whether to prevent skewing behavior in windows mode.
 ## Methods
 
 ### addItem()
-{:#methods:addItem} 
+{:#methods:additem} 
 
 To add item in the given index.
 
@@ -1735,7 +1735,7 @@ To append new items with existing items.
 
 
 ### checkAll()
-{:#methods:checkAll} 
+{:#methods:checkall} 
 
 To check all items in the ListView.
 
@@ -1769,7 +1769,7 @@ To check all items in the ListView.
 
 
 ### checkItemsByIndex()
-{:#methods:checkItemsByIndex} 
+{:#methods:checkitemsbyindex} 
 
 To check item in the given index.
 
@@ -1803,7 +1803,7 @@ To check item in the given index.
 
 
 ### checkItemsByIndices()
-{:#methods:checkItemsByIndices} 
+{:#methods:checkitemsbyindices} 
 
 To check items in the given array of indices.
 
@@ -1837,7 +1837,7 @@ To check items in the given array of indices.
 
 
 ### deleteItemByIndex()
-{:#methods:deleteItemByIndex} 
+{:#methods:deleteitembyindex} 
 
 To delete an item in the given index.
 
@@ -1872,7 +1872,7 @@ To delete an item in the given index.
 
 
 ### deleteItemByText()
-{:#methods:deleteItemByText} 
+{:#methods:deleteitembytext} 
 
 To delete an item which having the text same as given string.
 
@@ -1906,7 +1906,7 @@ To delete an item which having the text same as given string.
 
 
 ### deselectItem()
-{:#methods:deselectItem} 
+{:#methods:deselectitem} 
 
 To deselect the item which is already selected.
 
@@ -1974,7 +1974,7 @@ To disable the ListView control.
 
 
 ### disableAll()
-{:#methods:disableAll} 
+{:#methods:disableall} 
 
 To disable all items in the ListView.
 
@@ -2008,7 +2008,7 @@ To disable all items in the ListView.
 
 
 ### disableItemByIndex()
-{:#methods:disableItemByIndex} 
+{:#methods:disableitembyindex} 
 
 To disable item in the given index.
 
@@ -2042,7 +2042,7 @@ To disable item in the given index.
 
 
 ### disableItemsByIndices()
-{:#methods:disableItemsByIndices} 
+{:#methods:disableitemsbyindices} 
 
 To disable items in the given array of indices.
 
@@ -2110,7 +2110,7 @@ To enable the ListView control.
 
 
 ### enableAll()
-{:#methods:enableAll} 
+{:#methods:enableall} 
 
 To enable all items in the ListView.
 
@@ -2147,7 +2147,7 @@ To enable all items in the ListView.
 
 
 ### enableItemByIndex()
-{:#methods:enableItemByIndex} 
+{:#methods:enableitembyindex} 
 
 To enable item in the given index.
 
@@ -2181,7 +2181,7 @@ To enable item in the given index.
 
 
 ### enableItemsByIndices()
-{:#methods:enableItemsByIndices} 
+{:#methods:enableitemsbyindices} 
 
 To enable items in the given array of indices.
 
@@ -2215,7 +2215,7 @@ To enable items in the given array of indices.
 
 
 ### getIndexByText()
-{:#methods:getIndexByText} 
+{:#methods:getindexbytext} 
 
 To get the index of item which having same text as given string.
 
@@ -2250,7 +2250,7 @@ To get the index of item which having same text as given string.
 
 
 ### getItemByIndex()
-{:#methods:getItemByIndex} 
+{:#methods:getitembyindex} 
 
 To get the item in the given index.
 
@@ -2285,7 +2285,7 @@ To get the item in the given index.
 
 
 ### getItemByText()
-{:#methods:getItemByText} 
+{:#methods:getitembytext} 
 
 To get the item which having same text as given string.
 
@@ -2320,7 +2320,7 @@ To get the item which having same text as given string.
 
 
 ### getTextByIndex()
-{:#methods:getTextByIndex} 
+{:#methods:gettextbyindex} 
 
 To get the text of the item in the given index.
 
@@ -2355,7 +2355,7 @@ To get the text of the item in the given index.
 
 
 ### selectItemByIndex()
-{:#methods:selectItemByIndex} 
+{:#methods:selectitembyindex} 
 
 To select item in the given index.
 
@@ -2389,7 +2389,7 @@ To select item in the given index.
 
 
 ### setBadge()
-{:#methods:setBadge} 
+{:#methods:setbadge} 
 
 To set badge value for an item.
 
@@ -2423,7 +2423,7 @@ To set badge value for an item.
 
 
 ### uncheckAll()
-{:#methods:uncheckAll} 
+{:#methods:uncheckall} 
 
 To uncheck all items in the ListView.
 
@@ -2460,7 +2460,7 @@ To uncheck all items in the ListView.
 
 
 ### uncheckItemsByIndex()
-{:#methods:uncheckItemsByIndex} 
+{:#methods:uncheckitemsbyindex} 
 
 To uncheck item in the given index.
 
@@ -2494,7 +2494,7 @@ To uncheck item in the given index.
 
 
 ### uncheckItemsByIndices()
-{:#methods:uncheckItemsByIndices} 
+{:#methods:uncheckitemsbyindices} 
 
 To uncheck items in the given array of indices.
 
@@ -2533,7 +2533,7 @@ To uncheck items in the given array of indices.
 ## Events
 
 ### actionComplete
-{:#events:actionComplete} 
+{:#events:actioncomplete} 
 
 Event triggers after the AJAX content loaded completely.
 
@@ -2596,7 +2596,7 @@ Returns the model value of the control.</td></tr>
 
 
 ### actionFailure
-{:#events:actionFailure} 
+{:#events:actionfailure} 
 
 Event triggers when the AJAX request failed.
 
@@ -2642,7 +2642,7 @@ Returns the status.</td></tr>
 <td>
 item</td><td>
 object</td><td>
-Returns the current list item.</td></tr>
+Returns the current ListView item.</td></tr>
 <tr>
 <td>
 text</td><td>
@@ -2685,7 +2685,7 @@ Returns the current item index.</td></tr>
 
 
 ### actionSuccess
-{:#events:actionSuccess} 
+{:#events:actionsuccess} 
 
 Event triggers after the AJAX content loaded successfully.
 
@@ -2752,7 +2752,7 @@ Returns the model value of the control.</td></tr>
 
 
 ### afterDelete
-{:#events:afterDelete} 
+{:#events:afterdelete} 
 
 Event triggers after an item deleted in ListView.
 
@@ -2788,7 +2788,7 @@ Returns the model value of the control.</td></tr>
 <td>
 item</td><td>
 object</td><td>
-Returns the current list item.</td></tr>
+Returns the current ListView item.</td></tr>
 <tr>
 <td>
 text</td><td>
@@ -2881,7 +2881,7 @@ Returns the current item is selected or not.</td></tr>
 
 
 ### beforeDelete
-{:#events:beforeDelete} 
+{:#events:beforedelete} 
 
 Event triggers before an item deleted in ListView.
 
@@ -2917,7 +2917,7 @@ Returns the model value of the control.</td></tr>
 <td>
 item</td><td>
 object</td><td>
-Returns the current list item.</td></tr>
+Returns the current ListView item.</td></tr>
 <tr>
 <td>
 text</td><td>
@@ -3045,7 +3045,7 @@ Returns the model value of the control.</td></tr>
 <td>
 item</td><td>
 object</td><td>
-Returns the curent list item.</td></tr>
+Returns the curent ListView item.</td></tr>
 <tr>
 <td>
 text</td><td>
@@ -3065,7 +3065,7 @@ Returns the current item is checked or not.</td></tr>
 <td>
 isInteraction</td><td>
 boolean</td><td>
-returns the current item is intractable or not.</td></tr>
+Returns the current item is intractable or not.</td></tr>
 <tr>
 <td>
 isSelected</td><td>
@@ -3138,7 +3138,7 @@ Returns the current item is selected or not.</td></tr>
 
 
 ### touchEnd
-{:#events:touchStart} 
+{:#events:touchend} 
 
 Event triggers when touch end happens on the item.
 
@@ -3174,12 +3174,12 @@ Returns the model value of the control.</td></tr>
 <td>
 item</td><td>
 object</td><td>
-Returns the current list item.</td></tr>
+Returns the current ListView item.</td></tr>
 <tr>
 <td>
 text</td><td>
 string</td><td>
-returns the current item text.</td></tr>
+Returns the current item text.</td></tr>
 <tr>
 <td>
 index</td><td>
@@ -3267,7 +3267,7 @@ Returns the current item is selected or not.</td></tr>
 
 
 ### touchStart
-{:#events:touchStart} 
+{:#events:touchstart} 
 
 Event triggers when touch start happens on the item.
 
@@ -3303,7 +3303,7 @@ Returns the model value of the control.</td></tr>
 <td>
 item</td><td>
 object</td><td>
-Returns the current list item.</td></tr>
+Returns the current ListView item.</td></tr>
 <tr>
 <td>
 text</td><td>

@@ -10,7 +10,7 @@ keywords: ejmButton, API, Essential Studio JS Button (Mobile)
 
 # ejmButton
 
-Custom Design for Html Button control.
+Custom Design for HTML Button control.
 
 $(element).ejmButton();
 
@@ -20,7 +20,7 @@ $(element).ejmButton();
 
 {% highlight html %}
 
-// Create the button control in unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
     <input id="button" type="button" data-role="ejmbutton" />
 
 
@@ -30,8 +30,8 @@ $(element).ejmButton();
 
 {% highlight html %}
 
-// Create the button control in obtrusive way.
- <input id="button" type="button" />
+    <!-- Obtrusive way of rendering -->
+    <input id="button" type="button" />
 
     <script>
 
@@ -47,7 +47,7 @@ $(element).ejmButton();
 
 {% highlight html %}
 
-// Create the actionlink control in unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
     <a id="button" data-role="ejmactionlink" ></a>
 
 
@@ -57,8 +57,8 @@ $(element).ejmButton();
 
 {% highlight html %}
 
-// Create the actionlink control in obtrusive way.
- <a id="button"></a>
+    <!-- Obtrusive way of rendering -->
+    <a id="button"></a>
 
     <script>
 
@@ -88,9 +88,9 @@ $(element).ejmButton();
 Section for color specific functionalities.
 
 ### color.border `string`
-{:#members:colorborder} 
+{:#members:color-border} 
 
-Specifies the color border to button outer border.
+Specifies the color border to Button outer border.
 
 #### Default value
 
@@ -100,7 +100,7 @@ Specifies the color border to button outer border.
 
 {% highlight html %}
 
-    //Set the color border property in Unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
     <input id="button" type="button" data-role="ejmbutton" data-ej-color-border="red" />
 
 
@@ -110,9 +110,9 @@ Specifies the color border to button outer border.
 
 {% highlight html %}
 
-//Set the color border property on initialization 
+    <!-- Obtrusive way of rendering -->
 
-<input id="button" type="button" />
+    <input id="button" type="button" />
     <script>
         $("#button").ejmButton({ color: { border: "red" } })
     </script>
@@ -121,9 +121,9 @@ Specifies the color border to button outer border.
 {% endhighlight %}
 
 ### color.fill `string`
-{:#members:colorfill} 
+{:#members:color-fill} 
 
-Specifies the color fill to button background color.
+Specifies the color fill to Button background color.
 
 #### Default value
 
@@ -133,8 +133,8 @@ Specifies the color fill to button background color.
 
 {% highlight html %}
 
-    //Set the color fill property in Unobtrusive way
-<input id="button" type="button" data-role="ejmbutton" data-ej-color-fill="red" />
+    <!-- Unobtrusive way of rendering -->
+    <input id="button" type="button" data-role="ejmbutton" data-ej-color-fill="red" />
 
 
 {% endhighlight %}
@@ -143,8 +143,8 @@ Specifies the color fill to button background color.
 
 {% highlight html %}
 
-//Set the color fill property on initialization 
-   <input id="button" type="button" />
+    <!-- Obtrusive way of rendering --> 
+    <input id="button" type="button" />
     <script>
         $("#button").ejmButton({ color: { fill: "red" } })
     </script>
@@ -153,9 +153,9 @@ Specifies the color fill to button background color.
 {% endhighlight %}
 
 ### color.text `string`
-{:#members:colortext} 
+{:#members:color-text} 
 
-Specifies the color text to button text
+Specifies the color text to Button text
 
 #### Default value
 
@@ -165,7 +165,7 @@ Specifies the color text to button text
 
 {% highlight html %}
 
-    //Set the color text property in Unobtrusive way
+    <!-- Unobtrusive way of rendering -->
     <input id="button" type="button" data-role="ejmbutton" data-ej-color-text="red" />
 
 
@@ -175,8 +175,8 @@ Specifies the color text to button text
 
 {% highlight html %}
 
-//Set the color text property on initialization
-<input id="button" type="button" />
+    <!-- Obtrusive way of rendering -->
+    <input id="button" type="button" />
 
     <script>
         $("#button").ejmButton({ color: { text: "red" } })
@@ -186,7 +186,7 @@ Specifies the color text to button text
 {% endhighlight %}
 
 ### contentType `enum`
-{:#members:contentType} 
+{:#members:contenttype} 
 
 Specifies the contentType of the Button. See [ButtonContentType](http://help.syncfusion.com/mobilejs/api/global#ButtonContentType)
 
@@ -201,8 +201,8 @@ Specifies the contentType of the Button. See [ButtonContentType](http://help.syn
 {% highlight html %}
 
 
-//Set the contentType property in unobtrusive way.
-<button id="button1" type="button" data-role="ejmbutton" data-ej-contenttype="image" data-ej-imageclass="e-m-icon-settings"></button>
+    <!-- Unobtrusive way of rendering -->
+    <button id="button1" type="button" data-role="ejmbutton" data-ej-contenttype="image" data-ej-imageclass="e-m-icon-settings"></button>
 
 
 
@@ -212,13 +212,11 @@ Specifies the contentType of the Button. See [ButtonContentType](http://help.syn
 
 {% highlight html %}
 
-    // Set the contentType on initialization.
-
-<button id="button1" type="button"></button>
+    <!-- Obtrusive way of rendering -->
+    <button id="button1" type="button"></button>
 
     <script>
 
-        // Create Button
         $("#button1").ejmButton({ contentType: ej.mobile.Button.ContentType.Image, imageClass: "e-m-icon-settings" });
 
     </script>
@@ -228,7 +226,7 @@ Specifies the contentType of the Button. See [ButtonContentType](http://help.syn
 {% endhighlight %}
 
 ### cssClass `string`
-{:#members:cssClass} 
+{:#members:cssclass} 
 
 The root class for the Button widget to customize the existing theme
 
@@ -240,7 +238,7 @@ The root class for the Button widget to customize the existing theme
 
 {% highlight html %}
 
-//Set the cssClass property in Unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
     <style>
         .customize {
             width: 300px;
@@ -255,7 +253,7 @@ The root class for the Button widget to customize the existing theme
 
 {% highlight html %}
 
-//Set the cssClass property on initialization 
+    <!-- Obtrusive way of rendering --> 
 
     <style>
         .customize {
@@ -283,7 +281,7 @@ Specifies whether to enable or disable the control.
 
 {% highlight html %}
 
-    //Set the enabled property in Unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
     <input id="button" type="button" data-role="ejmbutton" data-ej-enabled="false" />
 
 
@@ -295,7 +293,7 @@ Specifies whether to enable or disable the control.
 
 {% highlight html %}
 
-   //Set the enabled property on initialization 
+    <!-- Obtrusive way of rendering -->
 
     <input id="button" type="button"/>
     <script>
@@ -307,7 +305,7 @@ Specifies whether to enable or disable the control.
 {% endhighlight %}
 
 ### enablePersistence `boolean`
-{:#members:enablePersistence} 
+{:#members:enablepersistence} 
 
 Allows the current model values to be saved in local storage or browser cookies for state maintenance when it is set to true. While refreshing the page, it retains the model value from browser cookies or local storage.
 
@@ -323,7 +321,7 @@ N> [Local storage](http://www.w3schools.com/html/html5_webstorage.asp) is suppor
 
 {% highlight html %}
 
-    //Set the enablePersistence property in Unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
 
     <input id="button" type="button" data-role="ejmbutton" data-ej-enablepersistence="true" />
 
@@ -334,7 +332,7 @@ N> [Local storage](http://www.w3schools.com/html/html5_webstorage.asp) is suppor
 
 {% highlight html %}
 
-   //Set the enablePersistence property on initialization.
+    <!-- Obtrusive way of rendering -->
 
     <input type="button" id="button" />
 
@@ -348,7 +346,7 @@ N> [Local storage](http://www.w3schools.com/html/html5_webstorage.asp) is suppor
 {% endhighlight %}
 
 ### enableRippleEffect `boolean`
-{:#members:enableRippleEffect} 
+{:#members:enablerippleeffect} 
 
 Specifies whether to enable or disable ripple effect.
 
@@ -360,9 +358,9 @@ Specifies whether to enable or disable ripple effect.
 
 {% highlight html %}
 
-   //Set the enableRippleEffect property on initialization 
+   <!-- Unobtrusive way of rendering -->
 
-<div style="width:auto;height:auto;position:absolute;">
+    <div style="width:auto;height:auto;position:absolute;">
         <input id="button" type="button" data-role="ejmbutton" data-ej-enablerippleeffect="true" />
     </div>
 
@@ -375,7 +373,7 @@ Specifies whether to enable or disable ripple effect.
 
 {% highlight html %}
 
-//Set the enableRippleEffect property in Unobtrusive way.
+    <!-- Obtrusive way of rendering -->
 
     <div style="width:auto;height:auto;position:absolute;">
         <input id="button" type="button" />
@@ -391,7 +389,7 @@ Specifies whether to enable or disable ripple effect.
 ### href `string`
 {:#members:href} 
 
-Specifies the href of action link button
+Specifies the href of action link Button
 
 N> This property is only applicable to ejmActionLink
 
@@ -404,7 +402,7 @@ N> This property is only applicable to ejmActionLink
 {% highlight html %}
 
 
-//Set the href property in Unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
     <a id="button" data-role="ejmactionlink" data-ej-text="MicroSoft" data-ej-href="https://www.microsoft.com"></a>
 
 
@@ -415,7 +413,7 @@ N> This property is only applicable to ejmActionLink
 
 {% highlight html %}
 
-  //Set the href property on initialization.
+    <!-- Obtrusive way of rendering -->
     <a id="button"></a>
 
     <script>
@@ -426,11 +424,11 @@ N> This property is only applicable to ejmActionLink
 {% endhighlight %}
 
 ### imageClass `string`
-{:#members:imageClass} 
+{:#members:imageclass} 
 
 Specifies the css class of image.
 
-N> This property is only applicable when button control is render with HTML button tag.
+N> This property is only applicable when Button control is render with HTML button tag.
 
 #### Default value
 
@@ -440,7 +438,7 @@ N> This property is only applicable when button control is render with HTML butt
 
 {% highlight html %}
 
-    //Set the imageClass property in Unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
     <button id="button" data-role="ejmbutton" data-ej-contenttype="image" data-ej-imageclass="e-m-icon-settings"></button>
 
 
@@ -450,7 +448,7 @@ N> This property is only applicable when button control is render with HTML butt
 
 {% highlight html %}
 
-  //Set the imageClass property on initialization.
+    <!-- Obtrusive way of rendering -->
 
     <button id="button"></button>
 
@@ -462,12 +460,12 @@ N> This property is only applicable when button control is render with HTML butt
 {% endhighlight %}
 
 ### imagePosition `enum`
-{:#members:imagePosition} 
+{:#members:imageposition} 
 
 Specifies the position of image. See [ButtonImagePosition](http://help.syncfusion.com/mobilejs/api/global#ButtonImagePosition)
 
 
-N> This property is only applicable when render the button control with HTML button tag and [contentType] property set as “both”
+N> This property is only applicable when render the Button control with HTML button tag and contentType property set as “both”
 
 #### Default value
 
@@ -478,9 +476,9 @@ N> This property is only applicable when render the button control with HTML but
 {% highlight html %}
 
 
-//Set the imagePosition property in Unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
 
-<style>
+    <style>
         .chat {
             background-image: url(chat.png);
         }
@@ -495,7 +493,7 @@ N> This property is only applicable when render the button control with HTML but
 
 {% highlight html %}
 
-  //Set the imagePosition property on initialization.
+    <!-- Obtrusive way of rendering -->
     <style>
         .chat {
             background-image: url(chat.png);
@@ -514,7 +512,7 @@ N> This property is only applicable when render the button control with HTML but
 ### locale `string`
 {:#members:locale} 
 
-Set the localization culture for button Widget.
+Set the localization culture for Button Widget.
 
 #### Default value
 
@@ -524,7 +522,7 @@ Set the localization culture for button Widget.
 
 {% highlight html %}
 
-    //Set the locale property in Unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
     <input id="button" type="button" data-role="ejmbutton" data-ej-locale="en-US" />
 
 
@@ -534,7 +532,7 @@ Set the localization culture for button Widget.
 
 {% highlight html %}
 
-//Set the locale property on initialization 
+    <!-- Obtrusive way of rendering -->
 
     <input id="button" type="button" />
     <script>
@@ -546,7 +544,7 @@ Set the localization culture for button Widget.
 {% endhighlight %}
 
 ### renderMode `enum`
-{:#members:renderMode} 
+{:#members:rendermode} 
 
 Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
 
@@ -558,7 +556,7 @@ Specifies the rendering mode of the control. See [RenderMode](http://help.syncfu
 
 {% highlight html %}
 
-    //Set the renderMode property in Unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
     <input id="button" type="button" />
     <script>
 
@@ -572,15 +570,15 @@ Specifies the rendering mode of the control. See [RenderMode](http://help.syncfu
 
 {% highlight html %}
 
-   //Set the renderMode property on initialization 
+    <!-- Obtrusive way of rendering -->
 
- <input id="button" type="button" data-role="ejmbutton" data-ej-rendermode="android" />
+    <input id="button" type="button" data-role="ejmbutton" data-ej-rendermode="android" />
 
 
 {% endhighlight %}
 
 ### showBorder `boolean`
-{:#members:showBorder} 
+{:#members:showborder} 
 
 Displays the Button with outer border.
 
@@ -592,7 +590,7 @@ Displays the Button with outer border.
 
 {% highlight html %}
 
-   //Set the showBorder property in Unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
     <input id="button" type="button" data-role="ejmbutton" data-ej-showborder="false" />
 
 
@@ -602,8 +600,8 @@ Displays the Button with outer border.
 
 {% highlight html %}
 
-  //Set the showBorder property on initialization
-<input id="button" type="button" />
+    <!-- Obtrusive way of rendering -->
+    <input id="button" type="button" />
 
     <script>
 
@@ -627,7 +625,7 @@ Specifies the style of the control. See [ButtonStyle](http://help.syncfusion.com
 
 {% highlight html %}
 
-//Set the style property in Unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
     <input id="button" type="button" />
     <script>
         $("#button").ejmButton({ style: "large" })
@@ -640,7 +638,7 @@ Specifies the style of the control. See [ButtonStyle](http://help.syncfusion.com
 
 {% highlight html %}
 
-//Set the style property on initialization
+    <!-- Obtrusive way of rendering -->
     <input id="button" type="button" data-role="ejmbutton" data-ej-style="large" />
 
 
@@ -649,7 +647,7 @@ Specifies the style of the control. See [ButtonStyle](http://help.syncfusion.com
 ### text `string`
 {:#members:text} 
 
-Specifies the text to button
+Specifies the text to Button
 
 #### Default value
 
@@ -660,7 +658,7 @@ Specifies the text to button
 {% highlight html %}
 
 
-    //Set the text property in Unobtrusive way.
+    <!-- Unobtrusive way of rendering -->
     <input id="button" type="button" data-role="ejmbutton" data-ej-text="Download"/>
 
 
@@ -670,7 +668,7 @@ Specifies the text to button
 
 {% highlight html %}
 
-//Set the text property on initialization 
+    <!-- Obtrusive way of rendering -->
 
     <input id="button" type="button" />
     <script>
@@ -692,7 +690,7 @@ To disable the button.
 
 {% highlight html %}
 
-<input id="button" type="button" data-role="ejmbutton" />
+    <input id="button" type="button" data-role="ejmbutton" />
 
     <script>
 
@@ -700,7 +698,7 @@ To disable the button.
 
             var button = $("#button").data("ejmButton");
 
-            button.disable(); // Disables the toggle button
+            button.disable(); 
 
         });
 
@@ -713,13 +711,13 @@ To disable the button.
 
 {% highlight html %}
 
-<input id="button" type="button" data-role="ejmbutton" />
+        <input id="button" type="button" data-role="ejmbutton" />
 
     <script>
 
         $(function () {
 
-            var button = $("#button").ejmButton("disable"); // Disabled the button
+            var button = $("#button").ejmButton("disable"); 
 
         });
 
@@ -733,7 +731,7 @@ To disable the button.
 ### enable()
 {:#methods:enable}
 
-To enable the button.
+To enable the Button.
 
 #### Example
 
@@ -741,7 +739,7 @@ To enable the button.
 
 {% highlight html %}
 
-<input id="button" type="button" data-role="ejmbutton"  />
+    <input id="button" type="button" data-role="ejmbutton"  />
 
     <script>
 
@@ -749,7 +747,7 @@ To enable the button.
 
             var button = $("#button").data("ejmButton");
 
-            button.enable(); // Enabled the button
+            button.enable(); 
 
         });
 
@@ -762,13 +760,14 @@ To enable the button.
 
 {% highlight html %}
 
-<input id="button" type="button" data-role="ejmbutton" />
+    
+    <input id="button" type="button" data-role="ejmbutton" />
 
     <script>
 
         $(function () {
 
-            var button = $("#button").ejmButton("enable"); // Enabled the button
+            var button = $("#button").ejmButton("enable"); 
 
         });
 
@@ -780,7 +779,7 @@ To enable the button.
 ## Events
 
 ### touchEnd
-{:#events:touchEnd}
+{:#events:touchend}
 
 Event triggers when touch end happens on the control.
 
@@ -806,7 +805,7 @@ If the event should be canceled; otherwise, false.</td></tr>
 <td>
 model</td><td>
 object</td><td>
-Returns the button model. Returns the button model.</td></tr>
+Returns the Button model.</td></tr>
 <tr>
 <td>
 type</td><td>
@@ -816,7 +815,7 @@ string</td><td>
 <td>
 status</td><td>
 boolean</td><td>
-Returns the button state.</td></tr>
+Returns the Button state.</td></tr>
 </table>
 
 
@@ -828,13 +827,11 @@ Returns the button state.</td></tr>
 
 {% highlight html %}
 
-//Bind the touchEnd event using Unobtrusive way.
-
+    <!-- Unobtrusive way of rendering -->
     <input id="button" type="button" data-role="ejmbutton" data-ej-touchend="touchend" />
 
     <script>
-
-        // touchEnd event for Button
+        
         function touchend(args) {
             //handle the event
         }
@@ -848,11 +845,10 @@ Returns the button state.</td></tr>
 
 {% highlight html %}
 
-<input id="button" type="button" />
+    <!-- Obtrusive way of rendering -->
+    <input id="button" type="button" />
 
     <script>
-
-        // touchEnd event for button
 
         $("#button").ejmButton({
 
@@ -868,7 +864,7 @@ Returns the button state.</td></tr>
 {% endhighlight %}
 
 ### touchStart
-{:#events:touchStart}
+{:#events:touchstart}
 
 Event triggers when touch start happens on the control.
 
@@ -894,7 +890,7 @@ If the event should be canceled; otherwise, false.</td></tr>
 <td>
 model</td><td>
 object</td><td>
-Returns the button model. Returns the button model.</td></tr>
+Returns the Button model.</td></tr>
 <tr>
 <td>
 type</td><td>
@@ -904,7 +900,7 @@ string</td><td>
 <td>
 status</td><td>
 boolean</td><td>
-Returns the button state.</td></tr>
+Returns the Button state.</td></tr>
 </table>
 
 
@@ -916,19 +912,13 @@ Returns the button state.</td></tr>
 
 {% highlight html %}
 
-//Bind the touchStart event using Unobtrusive way.
-
+    <!-- Unobtrusive way of rendering -->
     <input id="button" type="button" data-role="ejmbutton" data-ej-touchstart="touchstart" />
-
     <script>
-
-        // touchStart event for Button
         function touchstart(args) {
             //handle the event
         }
-
     </script>
-
 
 {% endhighlight %}
 
@@ -938,11 +928,10 @@ Returns the button state.</td></tr>
 
 {% highlight html %}
 
-<input id="button" type="button" />
+    <!-- Obtrusive way of rendering -->
+    <input id="button" type="button" />
 
     <script>
-
-        // touchEnd event for button
 
         $("#button").ejmButton({
 
