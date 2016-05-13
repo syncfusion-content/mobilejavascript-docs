@@ -151,7 +151,7 @@ Changes the background color of Tile.
 Section for badge specific functionalities.
 
 ### badge.enabled `Boolean`
-{:#members:badge.enabled}
+{:#members:badge-enabled}
 
 Specifies whether to enable badge or not.
 
@@ -191,7 +191,7 @@ Specifies whether to enable badge or not.
 
 
 ### badge.maxValue `Number`
-{:#members:badge.maxvalue}
+{:#members:badge-maxvalue}
 
 Specifies maximum value for tile badge.
 
@@ -231,7 +231,7 @@ Specifies maximum value for tile badge.
 
 
 ### badge.minValue `Number`
-{:#members:badge.minvalue}
+{:#members:badge-minvalue}
 
 Specifies minimum value for tile badge.
 
@@ -271,7 +271,7 @@ Specifies minimum value for tile badge.
 
 
 ### badge.position `Enum`
-{:#members:badge.position}
+{:#members:badge-position}
 
 Sets the tile badge position.
 
@@ -311,7 +311,7 @@ Sets the tile badge position.
 
 
 ### badge.text `String`
-{:#members:badge.text}
+{:#members:badge-text}
 
 Specifies text instead of number for tile badge.
 
@@ -351,7 +351,7 @@ Specifies text instead of number for tile badge.
 
 
 ### badge.value `Number`
-{:#members:badge.value}
+{:#members:badge-value}
 
 Sets value for tile badge.
 
@@ -396,7 +396,7 @@ Sets value for tile badge.
 Section for live tile specific functionalities.
 
 ### caption.alignment `String`
-{:#members:caption.alignment}
+{:#members:caption-alignment}
 
 Specifies the caption alignment. See CaptionAlignment
 
@@ -439,7 +439,7 @@ Specifies the caption alignment. See CaptionAlignment
 
 
 ### caption.enabled `Boolean`
-{:#members:caption.enabled}
+{:#members:caption-enabled}
 
 Specifies whether to enable caption or not.
 
@@ -483,7 +483,7 @@ Specifies whether to enable caption or not.
 
 
 ### caption.icon `String`
-{:#members:caption.icon}
+{:#members:caption-icon}
 
 Specifies the caption icon.
 
@@ -526,7 +526,7 @@ Specifies the caption icon.
 
 
 ### caption.position `Enum`
-{:#members:caption.position}
+{:#members:caption-position}
 
 Specifies the caption position. See CaptionPosition
 
@@ -569,7 +569,7 @@ Specifies the caption position. See CaptionPosition
 
 
 ### caption.text `String`
-{:#members:caption.text}
+{:#members:caption-text}
 
 Specifies whether to enable caption or not.
 
@@ -934,7 +934,7 @@ Section for live tile specific functionalities.
 
 
 ### liveTile.enabled `Boolean`
-{:#members:livetile.enabled}
+{:#members:livetile-enabled}
 
 Specifies whether to enable live tile or not.
 
@@ -978,7 +978,7 @@ Specifies whether to enable live tile or not.
 
 
 ### liveTile.imageClass `String`
-{:#members:livetile.imageclass}
+{:#members:livetile-imageclass}
 
 Specifies the live tile images in CSS classes.
 
@@ -1039,7 +1039,7 @@ Specifies the live tile images in CSS classes.
 
 
 ### liveTile.imageTemplateId `String`
-{:#members:livetile.imagetemplateid}
+{:#members:livetile-imagetemplateid}
 
 Specifies live Tile images in templates.
 
@@ -1089,7 +1089,7 @@ Specifies live Tile images in templates.
 
 
 ### liveTile.imageUrl `String`
-{:#members:livetile.imageurl}
+{:#members:livetile-imageurl}
 
 Specifies the live tile image URL.
 
@@ -1133,7 +1133,7 @@ Specifies the live tile image URL.
 
 
 ### liveTile.text `String`
-{:#members:livetile.text}
+{:#members:livetile-text}
 
 Specifies whether the live tile text.
 
@@ -1179,7 +1179,7 @@ Specifies whether the live tile text.
 
 
 ### liveTile.type `Enum`
-{:#members:livetile.type}
+{:#members:livetile-type}
 
 Specifies the live tile type. See liveTile.type
 
@@ -1224,7 +1224,7 @@ Specifies the live tile type. See liveTile.type
 
 
 ### liveTile.updateInterval `Int`
-{:#members:livetile.updateinterval}
+{:#members:livetile-updateinterval}
 
 Specifies time interval between two successive live tile animation.
 

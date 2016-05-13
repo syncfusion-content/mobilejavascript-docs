@@ -147,7 +147,7 @@ Specifies the cancelbutton.
 N>Cancel button is shown only for Actionsheet type
 
 ### cancelButton.color `String`
-{:#members:cancelbutton.color}
+{:#members:cancelbutton-color}
 
 Specifies the color of the cancel button text.
 
@@ -203,7 +203,7 @@ Specifies the color of the cancel button text.
 
 
 ### cancelButton.show `Boolean`
-{:#members:cancelbutton.show}
+{:#members:cancelbutton-show}
 
 Specifies to show the cancelbutton.
 
@@ -259,7 +259,7 @@ Specifies to show the cancelbutton.
 
 
 ### cancelButton.text `String`
-{:#members:cancelbutton.text}
+{:#members:cancelbutton-text}
 
 Specifies to customize the cancel button text.
 
@@ -559,7 +559,7 @@ Specifies the ripple effect for the menu control. By default in android mode its
 Specifies the fields.
 
 ### fields.color `String`
-{:#members:fields.color}
+{:#members:fields-color}
 
 Specifies color of the field’s text.
 
@@ -601,7 +601,7 @@ Specifies color of the field’s text.
 {% endhighlight %}
 
 ### fields.href `String`
-{:#members:fields.href}
+{:#members:fields-href}
 
 Specifies href of the fields.
 
@@ -650,7 +650,7 @@ Specifies href of the fields.
 
 
 ### fields.text `String`
-{:#members:fields.text}
+{:#members:fields-text}
 
 Specifies the field’s text.
 
@@ -2213,17 +2213,17 @@ Event parameters from menu.<table><br><tr><br><th>
 <td>
 cancel</td><td>
 boolean</td><td>
-returns true if the event should be cancelled; otherwise, false.</td></tr>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event.</td></tr>
+Returns the name of the event.</td></tr>
 <tr>
 <td>
 model</td><td>
 Object</td><td>
-returns the model value of the control.</td></tr>
+Returns the model value of the control.</td></tr>
 </table>
 
 
@@ -2417,27 +2417,27 @@ Event parameters from menu.<table><br><tr><br><th>
 <td>
 cancel</td><td>
 boolean</td><td>
-returns true if the event should be cancelled; otherwise, false.</td></tr>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event.</td></tr>
+Returns the name of the event.</td></tr>
 <tr>
 <td>
 model</td><td>
 Object</td><td>
-returns the model value of the control.</td></tr>
+Returns the model value of the control.</td></tr>
 <tr>
 <td>
 item</td><td>
 Object</td><td>
-returns the current menu list element</td></tr>
+Returns the current menu list element</td></tr>
 <tr>
 <td>
 text</td><td>
 string</td><td>
-returns the current menu list element associated text</td></tr>
+Returns the current menu list element associated text</td></tr>
 </table>
 
 

@@ -75,9 +75,7 @@ $(element).ejmRadialMenu()
     </div>
 
     <script>
-        $(function () {
-            $("#defaultradialmenu").ejmRadialMenu();
-        });
+        $("#defaultradialmenu").ejmRadialMenu();
     </script>
 
 
@@ -189,9 +187,7 @@ Renders the back button Image for center radial using class.
     </div>
 
     <script>
-        $(function () {
-            $("#defaultradialmenu").ejmRadialMenu({ backImageClass: "e-m-icon-backward" }); 
-        });
+        $("#defaultradialmenu").ejmRadialMenu({ backImageClass: "e-m-icon-backward" }); 
     </script>
 
 
@@ -282,9 +278,7 @@ Sets the root class for RadialMenu theme. This cssClass API helps to use custom 
     </style>
 
     <script>
-        $(function () {
-            $("#defaultradialmenu").ejmRadialMenu({ cssClass: "customclass" }); 
-        });
+        $("#defaultradialmenu").ejmRadialMenu({ cssClass: "customclass" });
     </script>
 
 
@@ -363,9 +357,7 @@ To enable Animation for RadialMenu.
     </div>
 
     <script>
-        $(function () {
-            $("#defaultradialmenu").ejmRadialMenu({ enableAnimation: "false" }); 
-        });
+        $("#defaultradialmenu").ejmRadialMenu({ enableAnimation: "false" }); 
     </script>
 
 
@@ -444,9 +436,7 @@ Renders the image for center radial using Class.
     </div>
 
     <script>
-        $(function () {
-            $("#defaultradialmenu").ejmRadialMenu({ imageClass: "e-m-icon-menu" }); 
-        });
+        $("#defaultradialmenu").ejmRadialMenu({ imageClass: "e-m-icon-menu" }); 
     </script>
 
 
@@ -499,9 +489,7 @@ Renders the RadialMenu using datasource which contains array of items.
 
     <div id="defaultradialmenu"></div>
     <script>
-        $(function () {
-            $("#defaultradialmenu").ejmRadialMenu({ items: [{ imagename: 'social.png', windows: { text: 'social' } }, { imagename: 'music.png', windows: { text: 'music' } }, { imagename: 'direction.png', windows: { text: 'direction' } }, { imagename: 'message.png', windows: { text: 'message' } }, { imagename: 'browser.png', windows: { text: 'browser' } }] });
-        });
+        $("#defaultradialmenu").ejmRadialMenu({ items: [{ imagename: 'social.png', windows: { text: 'social' } }, { imagename: 'music.png', windows: { text: 'music' } }, { imagename: 'direction.png', windows: { text: 'direction' } }, { imagename: 'message.png', windows: { text: 'message' } }, { imagename: 'browser.png', windows: { text: 'browser' } }] });
     </script> 
 
 
@@ -513,7 +501,7 @@ Renders the RadialMenu using datasource which contains array of items.
 ### position `enum`
 {:#members:position} 
 
-Changes the Position of the control. See [RadialMenuPosition](http://help.syncfusion.com/mobilejs/api/global#RadialMenuPosition)
+Changes the Position of the control. See [RadialMenuPosition](http://help.syncfusion.com/mobilejs/api/global#radialmenuposition)
 
 #### Default Value
 
@@ -580,9 +568,7 @@ Changes the Position of the control. See [RadialMenuPosition](http://help.syncf
     </div>
 
     <script>
-        $(function () {
-            $("#defaultradialmenu").ejmRadialMenu({ position: "leftcenter" }); 
-        });
+        $("#defaultradialmenu").ejmRadialMenu({ position: "leftcenter" }); 
     </script>
 
 
@@ -660,9 +646,7 @@ Specifies the radius of the radialmenu control.
     </div>
 
     <script>
-        $(function () {
-            $("#defaultradialmenu").ejmRadialMenu({ radius: 100 }); 
-        });
+        $("#defaultradialmenu").ejmRadialMenu({ radius: 100 }); 
     </script>
 
 
@@ -674,7 +658,7 @@ Specifies the radius of the radialmenu control.
 ### renderMode `enum`
 {:#members:rendermode} 
 
-Changes the rendering mode. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
+Changes the rendering mode. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#rendermode)
 
 #### Default Value
 
@@ -740,9 +724,7 @@ Changes the rendering mode. See [RenderMode](http://help.syncfusion.com/mobilej
     </div>
 
     <script>
-        $(function () {
-            $("#defaultradialmenu").ejmRadialMenu({ renderMode: "windows" }); 
-        });
+        $("#defaultradialmenu").ejmRadialMenu({ renderMode: "windows" }); 
     </script>
 
 
@@ -1287,11 +1269,6 @@ Returns the Radialmenu model</td></tr>
 type</td><td>
 string</td><td>
 Returns the name of the event</td></tr>
-<tr>
-<td>
-currentObj</td><td>
-object</td><td>
-Returns the instance of current control</td></tr>
 </table>
 
 
@@ -1409,11 +1386,6 @@ Returns the Radialmenu model</td></tr>
 type</td><td>
 string</td><td>
 Returns the name of the event</td></tr>
-<tr>
-<td>
-currentObj</td><td>
-object</td><td>
-Returns the instance of current control</td></tr>
 </table>
 
 

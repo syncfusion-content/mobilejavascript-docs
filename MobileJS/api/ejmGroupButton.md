@@ -327,7 +327,7 @@ Renders the GroupButton using data source which contains array of items.
 ### renderMode `enum`
 {:#members:rendermode}
 
-Changes the rendering mode of the GroupButton. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
+Changes the rendering mode of the GroupButton. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#rendermode)
 
 #### Default Value
 

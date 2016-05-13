@@ -1339,7 +1339,7 @@ Specifies whether to prevent default events.
 Specifies the pull to refresh settings.
 
 ### pullToRefreshSettings.textOnPull `String`
-{:#members:pulltorefreshsettings.textonpull}
+{:#members:pulltorefreshsettings-textonpull}
 
 Specifies the pull to refresh text on Pull.
 
@@ -1391,7 +1391,7 @@ Specifies the pull to refresh text on Pull.
 
 
 ### pullToRefreshSettings.textOnRefresh `String`
-{:#members:pulltorefreshsettings.textonrefresh}
+{:#members:pulltorefreshsettings-textonrefresh}
 
 Specifies the pull to refresh text on refresh.
 
@@ -1443,7 +1443,7 @@ Specifies the pull to refresh text on refresh.
 
 
 ### pullToRefreshSettings.textOnRelease `String`
-{:#members:pulltorefreshsettings.textonrelease}
+{:#members:pulltorefreshsettings-textonrelease}
 
 Specifies the pull to refresh text on release.
 
@@ -1495,7 +1495,7 @@ Specifies the pull to refresh text on release.
 
 
 ### pullToRefreshSettings.thresholdDistance `Int`
-{:#members:pulltorefreshsettings.thresholddistance}
+{:#members:pulltorefreshsettings-thresholddistance}
 
 Specifies the pull to refresh threshold distance.
 

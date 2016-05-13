@@ -5,7 +5,7 @@ description:  Methods, members, events available in ejmProgress
 platform: Mobilejs
 control: ejmProgress
 documentation: API
-keywords: ejmProgress, API, Essential Studio JS Progressbar (Mobile) 
+keywords: ejmProgress, API, Essential Studio JS ProgressBar (Mobile) 
 ---
 
 

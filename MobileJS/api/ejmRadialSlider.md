@@ -377,7 +377,7 @@ Specifies the space between stroke and values in RadialSlider control.
 ### position `enum`
 {:#members:position} 
 
-Changes the Position of the control. See [RadialSliderPosition](http://help.syncfusion.com/mobilejs/api/global#RadialSliderPosition)
+Changes the Position of the control. See [RadialSliderPosition](http://help.syncfusion.com/mobilejs/api/global#radialsliderposition)
 
 #### Default Value
 
@@ -479,7 +479,7 @@ Specifies the radius of the RadialSlider control.
 ### renderMode `enum`
 {:#members:rendermode} 
 
-Changes the rendering mode. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
+Changes the rendering mode. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#rendermode)
 
 #### Default Value
 

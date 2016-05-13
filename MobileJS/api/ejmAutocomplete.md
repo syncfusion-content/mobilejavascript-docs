@@ -444,7 +444,7 @@ Specifies the datasource text field that to be queried by search key on initiali
 
 
 ### fields.image `String`
-{:#members:fields.image}
+{:#members:fields-image}
 
 Specifies the field’s image.
 
@@ -477,7 +477,7 @@ Specifies the field’s image.
 {% endhighlight %}
 
 ### fields.key `String`
-{:#members:fields.key}
+{:#members:fields-key}
 
 Specifies the field’s key.
 
@@ -511,7 +511,7 @@ Specifies the field’s key.
 
 
 ### fields.text `String`
-{:#members:fields.text}
+{:#members:fields-text}
 
 Specifies the field’s text.
 
@@ -685,7 +685,7 @@ Specifies the minimum search key length, which only AutoComplete queries from th
 ### mode `Enum`
 {:#members:mode}
 
-Specifies the AutoComplete mode. See[Mode](http://help.syncfusion.com/mobilejs/api/global#members:mode)
+Specifies the AutoComplete mode. See[Mode](http://help.syncfusion.com/mobilejs/api/global#members:mode)                                            
 
 #### Default Value: 
 
