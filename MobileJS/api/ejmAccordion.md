@@ -811,7 +811,7 @@ To expand all the panel item.
 Specifies the accordion header icon.
 
 ### headerIcon.active `String`
-{:#members:headericon.active}
+{:#members:headericon-active}
 
 Specifies the accordion active mode header icon.
 
@@ -891,7 +891,7 @@ Specifies the accordion active mode header icon.
 
 
 ### headerIcon.normal `String`
-{:#members:headericon.normal}
+{:#members:headericon-normal}
 
 Specifies the accordion normal mode header icon.
 

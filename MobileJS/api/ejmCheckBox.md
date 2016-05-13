@@ -10,7 +10,7 @@ keywords: ejmCheckBox, API, Essential Studio JS CheckBox (Mobile)
 
 # ejmCheckBox
 
-The Essential JavaScript Mobile widget for Checkbox element allows you to check an option or multiple options to perform an action, within your webpage and allows you to specify an option from the list.
+The Essential JavaScript Mobile widget for CheckBox element allows you to check an option or multiple options to perform an action, within your webpage and allows you to specify an option from the list.
 Custom Design for Html CheckBox control.
 
 Custom Design for HTML CheckBox control.
@@ -90,7 +90,7 @@ $("#chkbox").ejmCheckBox({ checked: true });
 ### cssClass `String`
 {:#members:cssclass}
 
-Sets the root class for checkbox theme. This cssClass API helps to use custom skinning option for checkbox control. By defining the root class using this API, we need to include this root class in CSS.
+Sets the root class for CheckBox theme. This cssClass API helps to use custom skinning option for CheckBox control. By defining the root class using this API, we need to include this root class in CSS.
 
 #### Default Value: 
 
@@ -184,7 +184,7 @@ $("#chkbox").ejmCheckBox({ enablePersistence: true });
 ### enableRippleEffect `Boolean`
 {:#members:enablerippleeffect}
 
-Specifies the ripple effect for the checkbox control. By default in android mode its value is true and other rendermode we need to set as true.
+Specifies the ripple effect for the CheckBox control. By default in android mode its value is true and other rendermode we need to set as true.
 
 #### Default Value: 
 
@@ -246,7 +246,7 @@ $("#chkbox").ejmCheckBox({ renderMode: ej.mobile.RenderMode.Auto });
 
 ### disable()
 {:#methods:disable}
-To disable the checkbox.
+To disable the CheckBox.
 
 #### Example
 
@@ -254,7 +254,7 @@ To disable the checkbox.
 
 <input type="checkbox" id="chkbox" />
 <script>
-// get the checkbox current state
+// get the CheckBox current state
 $("#chkbox").ejmCheckBox();
 $("#chkbox").ejmCheckBox("disable");
 </script>
@@ -264,7 +264,7 @@ $("#chkbox").ejmCheckBox("disable");
 
 ### enable()
 {:#methods:enable}
-To enable the checkbox.
+To enable the CheckBox.
 
 #### Example
 
@@ -280,7 +280,7 @@ $("#chkbox").ejmCheckBox("enable");
 
 ### isChecked()
 {:#methods:ischecked}
-To check whether the checkbox is checked or not.
+To check whether the CheckBox is checked or not.
 
 #### Example
 
@@ -288,7 +288,7 @@ To check whether the checkbox is checked or not.
 
 <input type="checkbox" id="chkbox" />
 <script>
-// get the checkbox current state
+// get the CheckBox current state
 $("#chkbox").ejmCheckBox();
 $("#chkbox").ejmCheckBox("isChecked");
 </script>
@@ -298,7 +298,7 @@ $("#chkbox").ejmCheckBox("isChecked");
 ### beforeChange
 {:#events:beforechange}
 
-Event triggers before the checkbox state is changed.
+Event triggers before the CheckBox state is changed.
 
 <table>
 <tr>
@@ -348,7 +348,7 @@ Returns the name of the control type</td></tr>
 <td>
 element</td><td>
 Object</td><td>
-Returns the current checkbox element</td></tr>
+Returns the current CheckBox element</td></tr>
 </table>
 
 
@@ -361,7 +361,7 @@ Returns the current checkbox element</td></tr>
 <!-- Unobtrusive way of rendering -->
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-beforechange="onBeforeChange" />
 <script>
-// before change event for checkbox
+// before change event for CheckBox
 function onBeforeChange(args) {
 //handle the event            
 }
@@ -373,7 +373,7 @@ function onBeforeChange(args) {
 
 <!-- Obtrusive way of rendering -->
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
-// before change event for checkbox
+// before change event for CheckBox
 <script>
 $("#chkbox").ejmCheckBox({
 beforeChange: function (args) {
@@ -388,7 +388,7 @@ beforeChange: function (args) {
 ### change
 {:#events:change}
 
-Event triggers when the checkbox state is changed.
+Event triggers when the CheckBox state is changed.
 
 <table>
 <tr>
@@ -438,7 +438,7 @@ Returns the name of the control type</td></tr>
 <td>
 element</td><td>
 Object</td><td>
-return the current checkbox element</td></tr>
+return the current CheckBox element</td></tr>
 </table>
 
 </td></tr>
@@ -450,7 +450,7 @@ return the current checkbox element</td></tr>
 <!-- Unobtrusive way of rendering -->
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-change="onChange" />
 <script>
-// change event for checkbox
+// change event for CheckBox
 function onChange(args) {
 //handle the event
 }
@@ -463,7 +463,7 @@ function onChange(args) {
 
 <!-- Obtrusive way of rendering -->
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
-// change event for checkbox
+// change event for CheckBox
 <script>
 $("#chkbox").ejmCheckBox({
 change: function (args) {
@@ -529,7 +529,7 @@ Returns the status of the control.</td></tr>
 <!-- Unobtrusive way of rendering -->
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-touchend="touchEnd" />
 <script>
-// touchEnd event for checkbox
+// touchEnd event for CheckBox
 function touchEnd(args) {
 //handle the event
 }
@@ -541,7 +541,7 @@ function touchEnd(args) {
 
 <!-- Obtrusive way of rendering -->
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
-// touchEnd event for checkbox
+// touchEnd event for CheckBox
 <script>
 $("#chkbox").ejmCheckBox({
 touchEnd: function (args) {
@@ -605,7 +605,7 @@ Returns the name of the control type</td></tr>
 <td>
 element</td><td>
 Object</td><td>
-Returns the current checkbox element</td></tr>
+Returns the current CheckBox element</td></tr>
 </table>
 
 </td></tr>
@@ -617,7 +617,7 @@ Returns the current checkbox element</td></tr>
 <!-- Unobtrusive way of rendering -->
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" data-ej-touchstart="touchStart" />
 <script>
-// touchStart event for checkbox
+// touchStart event for CheckBox
 function touchStart(args) {
 //handle the event
 }
@@ -629,7 +629,7 @@ function touchStart(args) {
 
 <!-- Obtrusive way of rendering -->
 <input type="checkbox" id="chkbox" data-role="ejmcheckbox" />
-// touchStart event for checkbox
+// touchStart event for CheckBox
 <script>
 $("#chkbox").ejmCheckBox({
 touchStart: function (args) {

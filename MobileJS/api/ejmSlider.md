@@ -289,7 +289,7 @@ Specifies the step value for increment.
 Section for ios7 mode specific functionalities.
 
 ### ios7.thumbStyle `Enum`
-{:#members:ios7.thumbstyle}
+{:#members:ios7-thumbstyle}
 
 Specifies the thumb style in ios7 mode. See[ThumbStyle](http://help.syncfusion.com/mobilejs/api/global#members:thumbstyle)
 

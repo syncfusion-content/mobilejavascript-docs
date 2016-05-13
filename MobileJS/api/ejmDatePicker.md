@@ -560,12 +560,12 @@ Set true when the event should be canceled, otherwise false.</td></tr>
 <td>
 model</td><td>
 object</td><td>
-returns the DatePicker model</td></tr>
+Returns the DatePicker model</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event</td></tr>
+Returns the name of the event</td></tr>
 <tr>
 <td>
 value</td><td>
@@ -637,17 +637,17 @@ Event parameters from DatePicker<table><br><tr><br><th>
 <td>
 cancel</td><td>
 boolean</td><td>
-returns true if the event should be cancelled; otherwise, false.</td></tr>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
 <td>
 model</td><td>
 object</td><td>
-returns the datepicker model</td></tr>
+Returns the datepicker model</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event</td></tr>
+Returns the name of the event</td></tr>
 <tr>
 <td>
 value</td><td>
@@ -714,17 +714,17 @@ Event parameters from datepicker<table><br><tr><br><th>
 <td>
 cancel</td><td>
 boolean</td><td>
-returns true if the event should be cancelled; otherwise, false.</td></tr>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
 <td>
 model</td><td>
 object</td><td>
-returns the datepicker model</td></tr>
+Returns the datepicker model</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event</td></tr>
+Returns the name of the event</td></tr>
 <tr>
 <td>
 value</td><td>
@@ -792,17 +792,17 @@ Event parameters from datepicker<table><br><tr><br><th>
 <td>
 cancel</td><td>
 boolean</td><td>
-returns true if the event should be cancelled; otherwise, false.</td></tr>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
 <td>
 model</td><td>
 object</td><td>
-returns the datepicker model</td></tr>
+Returns the datepicker model</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event</td></tr>
+Returns the name of the event</td></tr>
 <tr>
 <td>
 value</td><td>
@@ -870,17 +870,17 @@ Event parameters from datepicker<table><br><tr><br><th>
 <td>
 cancel</td><td>
 boolean</td><td>
-returns true if the event should be cancelled; otherwise, false.</td></tr>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
 <td>
 model</td><td>
 object</td><td>
-returns the datepicker model</td></tr>
+Returns the datepicker model</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event</td></tr>
+Returns the name of the event</td></tr>
 <tr>
 <td>
 value</td><td>
@@ -948,17 +948,17 @@ Event parameters from datepicker<table><br><tr><br><th>
 <td>
 cancel</td><td>
 boolean</td><td>
-returns true if the event should be cancelled; otherwise, false.</td></tr>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
 <td>
 model</td><td>
 object</td><td>
-returns the datepicker model</td></tr>
+Returns the datepicker model</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event</td></tr>
+Returns the name of the event</td></tr>
 <tr>
 <td>
 value</td><td>
@@ -1026,17 +1026,17 @@ Event parameters from datepicker<table><br><tr><br><th>
 <td>
 cancel</td><td>
 boolean</td><td>
-returns true if the event should be cancelled; otherwise, false.</td></tr>
+Returns true if the event should be cancelled; otherwise, false.</td></tr>
 <tr>
 <td>
 model</td><td>
 object</td><td>
-returns the datepicker model</td></tr>
+Returns the datepicker model</td></tr>
 <tr>
 <td>
 type</td><td>
 string</td><td>
-returns the name of the event</td></tr>
+Returns the name of the event</td></tr>
 <tr>
 <td>
 value</td><td>

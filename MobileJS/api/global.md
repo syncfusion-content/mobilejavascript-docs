@@ -10,7 +10,7 @@ metacontent:
 ## Members
 
 ### BorderStyle
-{:#members:BorderStyle}
+{:#members:borderstyle}
 
 Enum for BorderStyle of Editor
 
@@ -47,7 +47,7 @@ Without border type Editor</td></tr>
 
 
 ### ButtonContentType
-{:#members:ButtonContentType}
+{:#members:buttoncontenttype}
 
 Enum for contentType of ejmButton
 
@@ -82,7 +82,7 @@ Supports to display image with the text content</td></tr>
 
 
 ### ButtonImagePosition
-{:#members:ButtonImagePosition}
+{:#members:buttonimageposition}
 
 Enum for imagePosition of ejmButton
 
@@ -111,7 +111,7 @@ To display the image on right side of button text</td></tr>
 
 
 ### ButtonStyle
-{:#members:ButtonStyle}
+{:#members:buttonstyle}
 
 Enum for style of ejmButton
 
@@ -152,7 +152,7 @@ To render button control with parent width</td></tr>
 
 
 ### DialogMode
-{:#members:DialogMode}
+{:#members:dialogmode}
 
 Enum for mode of ejmDialog
 
@@ -187,7 +187,7 @@ To render dialog as custom type</td></tr>
 
 
 ### Display
-{:#members:Display}
+{:#members:display}
 
 Enum for MobileGrid Pager Display
 
@@ -216,7 +216,7 @@ Enum for Fixed pager display</td></tr>
 
 
 ### FilterBarMode
-{:#members:FilterBarMode}
+{:#members:filterbarmode}
 
 Enum for Mobile Grid Filter Bar mode
 
@@ -245,7 +245,7 @@ Used to display filter results after enter key is pressed</td></tr>
 
 
 ### FilterType
-{:#members:FilterType}
+{:#members:filtertype}
 
 Enum for Autocomplete FilterType
 
@@ -273,7 +273,7 @@ To specify the type of filter</td></tr>
 </table>
 
 ### NavBarMode
-{:#members:NavBarMode}
+{:#members:navbarmode}
 
 Enum for mode of ejmNavigationBar
 
@@ -302,7 +302,7 @@ To render navigation bar as toolbar</td></tr>
 
 
 ### Mode
-{:#members:Mode}
+{:#members:mode}
 
 Enum for AutoComplete Mode
 
@@ -331,7 +331,7 @@ Specifies the autocomplete mode</td></tr>
 
 
 ### NavBarMode
-{:#members:NavBarMode}
+{:#members:navbarmode}
 
 Enum for mode of ejmNavigationBar
 
@@ -360,7 +360,7 @@ To render navigation bar as toolbar</td></tr>
 
 
 ### NavBarPosition
-{:#members:NavBarPosition}
+{:#members:navbarposition}
 
 Enum for position of ejmNavigationBar
 
@@ -389,7 +389,7 @@ To render navigation bar at bottom position</td></tr>
 
 
 ### NavBarTitleAlignment
-{:#members:NavBarTitleAlignment}
+{:#members:navbartitlealignment}
 
 Enum for titleAlignment of ejmNavigationBar
 
@@ -424,7 +424,7 @@ To align navigation bar title from right</td></tr>
 
 
 ### Orientation
-{:#members:Orientation}
+{:#members:orientation}
 
 Enum for Orientation
 
@@ -453,7 +453,7 @@ Change the control Orientation to Vertical</td></tr>
 
 
 ### PagerType
-{:#members:PagerType}
+{:#members:pagerType}
 
 Enum for Mobile Grid Pager Type
 
@@ -482,7 +482,7 @@ used to enable scrollable pager</td></tr>
 
 
 ### RadialMenuPosition
-{:#members:RadialMenuPosition}
+{:#members:radialmenuposition}
 
 Enum for position of ejmRadialMenu
 
@@ -535,7 +535,7 @@ To fix radial menu in leftbottom position</td></tr>
 
 
 ### RadialSliderPosition
-{:#members:RadialSliderPosition}
+{:#members:radialsliderposition}
 
 Enum for position of ejmRadialSlider
 
@@ -624,7 +624,7 @@ To fix radial slider in bottomcenter position</td></tr>
 
 
 ### RenderMode
-{:#members:RenderMode}
+{:#members:rendermode}
 
 Enum for RenderMode
 
@@ -671,7 +671,7 @@ Flat RenderMode</td></tr>
 
 
 ### ShowOn
-{:#members:ShowOn}
+{:#members:showon}
 
 Enum for Menu ShowOn
 
@@ -700,7 +700,7 @@ TapHold to open the menu</td></tr>
 
 
 ### SortOrder
-{:#members:SortOrder}
+{:#members:sortorder}
 
 Enum for Autocomplete SortOrder
 
@@ -729,7 +729,7 @@ To display the suggestion result in Descending order</td></tr>
 
 
 ### TextBoxType
-{:#members:TextBoxType}
+{:#members:textboxtype}
 
 Enum for TextBoxType 
 
@@ -777,7 +777,7 @@ Textbox Email type</td></tr>
 
 
 ### Theme
-{:#members:Theme}
+{:#members:theme}
 
 Enum for Theme
 
@@ -812,7 +812,7 @@ Light RenderMode</td></tr>
 
 
 ### ThumbStyle
-{:#members:ThumbStyle}
+{:#members:thumbstyle}
 
 Enum for ThumbStyle in Slider
 

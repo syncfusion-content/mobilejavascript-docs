@@ -188,7 +188,7 @@ Specifies the color text to Button text
 ### contentType `enum`
 {:#members:contenttype} 
 
-Specifies the contentType of the Button. See [ButtonContentType](http://help.syncfusion.com/mobilejs/api/global#ButtonContentType)
+Specifies the contentType of the Button. See [ButtonContentType](http://help.syncfusion.com/mobilejs/api/global#buttoncontenttype)
 
 #### Default Value
 
@@ -462,7 +462,7 @@ N> This property is only applicable when Button control is render with HTML butt
 ### imagePosition `enum`
 {:#members:imageposition} 
 
-Specifies the position of image. See [ButtonImagePosition](http://help.syncfusion.com/mobilejs/api/global#ButtonImagePosition)
+Specifies the position of image. See [ButtonImagePosition](http://help.syncfusion.com/mobilejs/api/global#buttonimageposition)
 
 
 N> This property is only applicable when render the Button control with HTML button tag and contentType property set as “both”
@@ -546,7 +546,7 @@ Set the localization culture for Button Widget.
 ### renderMode `enum`
 {:#members:rendermode} 
 
-Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#RenderMode)
+Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#rendermode)
 
 #### Default value
 
@@ -614,7 +614,7 @@ Displays the Button with outer border.
 ### style `enum`
 {:#members:style} 
 
-Specifies the style of the control. See [ButtonStyle](http://help.syncfusion.com/mobilejs/api/global#ButtonStyle)
+Specifies the style of the control. See [ButtonStyle](http://help.syncfusion.com/mobilejs/api/global#buttonstyle)
 
 
 #### Default value
