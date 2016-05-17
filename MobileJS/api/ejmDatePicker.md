@@ -576,6 +576,7 @@ return the DatePicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -658,6 +659,7 @@ return the datepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -735,6 +737,7 @@ return the datepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -813,6 +816,7 @@ return the datepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -891,6 +895,7 @@ return the datepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -969,6 +974,7 @@ return the datepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1047,6 +1053,7 @@ return the datepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

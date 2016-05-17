@@ -1926,6 +1926,7 @@ Returns the value of the control</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 TextBox
@@ -2141,6 +2142,7 @@ Returns the value of the control</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 TextBox
@@ -2356,6 +2358,7 @@ Returns the value of the control</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 TextBox
@@ -2574,6 +2577,7 @@ Returns the value of the control</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 TextBox

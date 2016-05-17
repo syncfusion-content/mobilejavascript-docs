@@ -1168,6 +1168,7 @@ Returns whether the current item is checked or not</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1247,6 +1248,7 @@ if the autocomplete textbox is interacted return true; otherwise return false</t
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1326,6 +1328,7 @@ if the autocomplete textbox is interacted return true; otherwise return false</t
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1405,6 +1408,7 @@ if the autocomplete textbox is interacted return true; otherwise return false</t
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1499,6 +1503,7 @@ Returns any item is selected or not</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1601,6 +1606,7 @@ if the autocomplete textbox is interacted return true; otherwise return false</t
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

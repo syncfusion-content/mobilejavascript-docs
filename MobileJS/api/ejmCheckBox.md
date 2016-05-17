@@ -295,6 +295,9 @@ $("#chkbox").ejmCheckBox("isChecked");
 
 
 {% endhighlight %}
+
+## Events
+
 ### beforeChange
 {:#events:beforechange}
 
@@ -354,6 +357,7 @@ Returns the current CheckBox element</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -443,6 +447,7 @@ return the current CheckBox element</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -522,6 +527,7 @@ Returns the status of the control.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -610,6 +616,7 @@ Returns the current CheckBox element</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

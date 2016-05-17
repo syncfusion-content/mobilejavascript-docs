@@ -2522,6 +2522,7 @@ Returns the model value of the control.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2617,6 +2618,7 @@ Returns the y position.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2711,6 +2713,7 @@ Returns the y position.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2805,6 +2808,7 @@ Returns the y position.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2899,6 +2903,7 @@ Returns the y position.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2993,6 +2998,7 @@ Returns the y position.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -3087,6 +3093,7 @@ Returns the y position.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

@@ -509,6 +509,7 @@ return the timepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -588,6 +589,7 @@ Returns the timepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -668,6 +670,7 @@ Returns the timepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -748,6 +751,7 @@ Return the timepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -827,6 +831,7 @@ return the timepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -904,6 +909,7 @@ Returns the timepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -982,6 +988,7 @@ Returns the timepicker value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

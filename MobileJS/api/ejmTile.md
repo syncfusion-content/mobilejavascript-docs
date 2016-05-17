@@ -1503,6 +1503,7 @@ Returns the current tile text</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1585,6 +1586,7 @@ Returns the current tile text</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

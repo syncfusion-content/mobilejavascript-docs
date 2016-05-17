@@ -1941,6 +1941,7 @@ Returns the model value of the control.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2037,6 +2038,7 @@ Returns the model value of the control.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2133,6 +2135,7 @@ Returns the model value of the control.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2229,6 +2232,7 @@ Returns the model value of the control.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2335,6 +2339,7 @@ Returns the current menu list element associated text</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2443,6 +2448,7 @@ Returns the current menu list element associated text</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

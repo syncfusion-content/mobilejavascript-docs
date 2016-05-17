@@ -1844,6 +1844,7 @@ Returns the current active item</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1948,6 +1949,7 @@ Returns the current active item</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2062,6 +2064,7 @@ Return the type of error when loading the Ajax Data. </td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2166,6 +2169,7 @@ Returns the current active item</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2260,6 +2264,7 @@ Returns the current active item</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2389,6 +2394,7 @@ Returns the current active item</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2518,6 +2524,7 @@ Returns the current active item</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2647,6 +2654,7 @@ Returns the current active item</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2776,6 +2784,7 @@ Returns the current active item</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

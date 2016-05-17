@@ -1333,6 +1333,7 @@ Returns the title of the Dialog.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1434,6 +1435,7 @@ Returns the text of the button.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1530,6 +1532,7 @@ Returns the title of the Dialog.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1632,6 +1635,7 @@ Returns the title of the Dialog.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

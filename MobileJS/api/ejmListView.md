@@ -2570,6 +2570,7 @@ Returns the model value of the control.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2658,6 +2659,7 @@ Returns the current item index.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2722,6 +2724,7 @@ Returns the model value of the control.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2819,6 +2822,7 @@ Returns the current item is selected or not.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2948,6 +2952,7 @@ Returns the current item is selected or not.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -3076,6 +3081,7 @@ Returns the current item is selected or not.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -3205,6 +3211,7 @@ Returns the current item is selected or not.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -3334,6 +3341,7 @@ Returns the current item is selected or not.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

@@ -802,6 +802,7 @@ Returns the currently selected value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -901,6 +902,7 @@ Returns the current value where the cursor in.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -995,6 +997,7 @@ Returns the currently value before slide</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1089,6 +1092,7 @@ Returns the currently selected value after slide stop</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
