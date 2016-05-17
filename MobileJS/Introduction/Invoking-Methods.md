@@ -13,20 +13,23 @@ The functions can be invoked the same way the properties are accessed. The follo
 
 {% highlight javascript %}
 
-1. var obj = $(“jquery-selector”).data(“<ejm-plugin-name>”); [Recommended method]
+1. var obj = $("jquery-selector").data("<ejm-plugin-name>"); **[Recommended method]**
 
 obj.methodName(param1, param2, param3, ...)
 
-Example:  var gaugeObject = $("#gauge").data("ejCircularGauge");
+Example: 
+        var lwObject = $("#btn").data("ejmListView");
+        lwObject.selectItemByIndex(2);
 
-         gaugeObject.setPointerValue(0, 0, 50);
 
-2. $(“jquery-selector”).<ejm-plugin-name>(“functionName”);
+2. $("jquery-selector").<ejm-plugin-name>("methodName");
 
-Example:  $("#myDate").ejmDatePicker("getValue");
+Example:  
+        $("#button").ejmButton("disable");
 
-3. $(“jquery-selector”).<ejm-plugin-name>(“functionName”, “param1”, “param2”, …);
+3. $("jquery-selector").<ejm-plugin-name>("methodName", "param1", "param2", …);
 
-Example:  $("#gauge").ejCircularGauge("setPointerValue", "0", "0", "30");
+Example:  
+        $("#listview").ejmListView("selectItemByIndex", 2);
 
 {% endhighlight %}

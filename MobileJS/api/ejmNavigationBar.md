@@ -1394,6 +1394,7 @@ Returns the ellipsis element object on which the touch end event happens.</td></
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1498,6 +1499,7 @@ Returns the ellipsis element object on which the touch start event happens.</td>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1610,6 +1612,7 @@ Returns the index of the item on which the touch end event happens.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1720,6 +1723,7 @@ Returns the index of the item on which the touch start event happens.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

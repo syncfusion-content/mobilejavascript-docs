@@ -16,14 +16,14 @@ It is possible to get and set the various properties available within the contro
 The API values can be accessed/retrieved by using either of the following ways.
 
 
-{% highlight css %}
+{% highlight javascript %}
 
-1. $(“jquery-selector”).<ejm-plugin-name>(“model.propertyName”);
+1. $("jquery-selector").<ejm-plugin-name>("model.propertyName");
 
 Example:  $("#myDate").ejmDatePicker("model.dateFormat");
 
 
-2. $(“jquery-selector”).<ejm-plugin-name>(“option”, “propertyName”);
+2. $("jquery-selector").<ejm-plugin-name>("option", "propertyName");
 
 Example:  $("#myDate").ejmDatePicker("option", "dateFormat");
 
@@ -36,13 +36,13 @@ It is possible to set new values to the properties of the Syncfusion widgets dur
 
 ### During Initialization
 
-{% highlight css %}
+{% highlight javascript %}
 
-1. <<HtmlTag> data-role="<ejm-plug-in-name>" data-ej-"<PropertyName>"= "<value>"/> [Recommended method]
+1. <<HtmlTag> data-role="<ejm-plug-in-name>" data-ej-"<propertyName>"= "<value>"/> **[Recommended method]**
 
 Example:  <input id="myDate" data-role="ejmdatepicker" data-ej-value="01/01/2000" />
 
-2. $(“jquery-selector”).<ejm-plugin-name>({ propertyName1 : value1, propertyName2: value2, … });
+2. $("jquery-selector").<ejm-plugin-name>({ propertyName1 : value1, propertyName2: value2, … });
 
 Example:  $("#myDate").ejmDatePicker({ value: "01/01/2015", dateFormat: "MM/dd/yyyy" });
 
@@ -50,9 +50,9 @@ Example:  $("#myDate").ejmDatePicker({ value: "01/01/2015", dateFormat: "MM/dd/y
 
 ### After initialization
 
-{% highlight css %}
+{% highlight javascript %}
 
-1. var obj = $(“jquery-selector”).data(“<ejm-plugin-name>”);  [Recommended method]
+1. var obj = $("jquery-selector").data("<ejm-plugin-name>");  **[Recommended method]**
 
 obj.option({ propertyName: value });
 
@@ -60,16 +60,13 @@ Example:  var dateObject = $("#myDate").data("ejmDatePicker");
 
          dateObject.option({ dateFormat: "dd/MM/yyyy" });
 
-2. $(“jquery-selector”).<ejm-plugin-name>(“model.propertyName”, “value”);
+2. $("jquery-selector").<ejm-plugin-name>("model.propertyName", "value");
 
 Example:  $("#myDate").ejmDatePicker("model.dateFormat", "dd/MM/yyyy" );
 
-3. $(“jquery-selector”).<ejm-plugin-name>(“option”, “propertyName”, “value”);
+3. $("jquery-selector").<ejm-plugin-name>("option", "propertyName", "value");
 
 Example:  $("#myDate").ejmDatePicker("option", "dateFormat", "dd/MM/yyyy");
 
-4. $(“jquery-selector”).<ejm-plugin-name>({ propertyName : “value” });
-
-Example:  $("#myDate").ejmDatePicker({ dateFormat: "dd/MM/yyyy" });
 
 {% endhighlight %}

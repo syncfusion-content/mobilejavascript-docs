@@ -13,32 +13,37 @@ Whenever the control undergoes some changes or action, it should be notified to 
 
 ## During Initialization
 
+
+
 {% highlight javascript %}
 
 $(“jquery-selector”).<ejm-plugin-name>({ eventName : <eventhandler> });
 
-Example:  $("#myDate").ejmDatePicker({ select: function () { // event handler }  });
+Example:  
+
+        $("#myDate").ejmDatePicker({
+            select: function () {
+                // Event handler 
+            }
+        });
 
 {% endhighlight %}
 
 ## After initialization
 
+ 
+
 {% highlight javascript %}
 
-1. $(“jquery-selector”).<ejm-plugin-name>(“model.eventName”, <eventhandler>);
+$(“jquery-selector”).<ejm-plugin-name>("model.eventName", <eventhandler>);
 
-Example:  $("#myDate").ejmDatePicker("model.destroy" , function () {
+Example: 
+
+$("#myDate").ejmDatePicker("model.select" , function () {
 
 	// Event handler
 
  });
 		 
-2. $(“jquery-selector”).on(“ejm-plugin-nameeventName”, <eventhandler>);
-
- Example:  $("#myDate").on("ejmDatePickerdestroy", function () {
-
-	// Event handler
-
- }); 
 
 {% endhighlight %}

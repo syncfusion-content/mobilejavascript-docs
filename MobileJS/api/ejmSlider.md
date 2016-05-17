@@ -646,6 +646,7 @@ returns the current value of the control.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -731,6 +732,7 @@ returns the current range values of the control when range slider feature is ena
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -816,6 +818,7 @@ Returns the current range values of the control when range slider feature is ena
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -896,6 +899,7 @@ Returns the current value of the control.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -976,6 +980,7 @@ Returns the current value of the control.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

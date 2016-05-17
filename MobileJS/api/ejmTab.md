@@ -2189,6 +2189,7 @@ Returns the current active item</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2303,6 +2304,7 @@ Returns the current active item</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2427,6 +2429,7 @@ return the type of error when loading the AJAX</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2541,6 +2544,7 @@ Returns the current active item</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2624,6 +2628,7 @@ argument.type</td><td>
 string</td><td>
 Returns the name of the event</td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2706,6 +2711,7 @@ argument.type</td><td>
 string</td><td>
 Returns the name of the event</td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2808,6 +2814,7 @@ argument.id</td><td>
 string</td><td>
 Returns the name of the id</td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -2910,6 +2917,7 @@ argument.id</td><td>
 string</td><td>
 Returns the name of the id</td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -3012,6 +3020,7 @@ argument.id</td><td>
 string</td><td>
 Returns the name of the id</td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

@@ -1364,6 +1364,7 @@ Returns closing panel as HTML elements</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1477,6 +1478,7 @@ Returns opening panel as HTML elements</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1590,6 +1592,7 @@ Returns closed panel as HTML elements</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1703,6 +1706,7 @@ Returns opened panel as HTML elements</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1811,6 +1815,7 @@ Returns the direction from which swipe event happens</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

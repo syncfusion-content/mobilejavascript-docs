@@ -101,7 +101,7 @@ You can emulate Mobile application in Chrome browser to know how its look varies
    {:.caption}
 
 5. You can select different devices from the dropdown list to emulate mobile applications. Refer to the following screenshots where mobile applications are
-   emulated in different modes (Nexus 5, iPhone 5, and Lumia 520).
+   emulated in different modes (iPhone 5, Nexus 5, and Lumia 520).
 
    ![](Running-the-Application_images/Running-the-Application_img14.png)
 

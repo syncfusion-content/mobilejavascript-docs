@@ -660,6 +660,7 @@ Returns the progressbar current text</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -749,6 +750,7 @@ returns the progressbar current text</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -825,6 +827,7 @@ Returns the name of the event</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -908,6 +911,7 @@ Returns the current element associated value</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

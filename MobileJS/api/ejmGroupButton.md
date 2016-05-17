@@ -486,6 +486,7 @@ Returns the current button text</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -584,6 +585,7 @@ Returns the selected button text</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -683,6 +685,7 @@ Returns the current button text</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

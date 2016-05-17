@@ -338,6 +338,7 @@ Returns the current radiobutton element</td></tr>
 
 </td></tr>
 </table>
+
 #### Example  
 
 {% highlight html %}
@@ -425,6 +426,7 @@ return the current radiobutton element</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -504,6 +506,7 @@ Returns the status of the control.</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -592,6 +595,7 @@ Return the current radiobutton element</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}

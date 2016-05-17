@@ -1274,6 +1274,7 @@ Returns the name of the event</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1391,6 +1392,7 @@ Returns the name of the event</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
@@ -1520,6 +1522,7 @@ Returns the index of selected item</td></tr>
 
 </td></tr>
 </table>
+
 #### Example
 
 {% highlight html %}
