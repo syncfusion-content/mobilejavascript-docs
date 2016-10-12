@@ -79,7 +79,7 @@ Essential JavaScript Mobile Grid can be rendered only by specifying the data sou
 
 ## Create the Grid
 
-In your Sales data grid, you require three columns to display the Order Id, Customer Id, and Freight. Create a div element for grid with its unique id. Here you donâ€™t have to specify â€œdata-roleâ€ attribute since itâ€™s not an unobtrusive control. So the Grid control can be initialized in script by calling the widget â€œejmGridâ€ with the necessary options. The data source can be set using the â€œdatasourceâ€ attribute and its columns can be configured using the â€œcolumnsâ€ attribute. You can set specific properties for each field by using columns attribute. 
+In your Sales data grid, you require three columns to display the Order Id, Customer Id, and Freight. Create a div element for grid with its unique id. Here you don't have to specify "data-role" attribute since it's not an unobtrusive control. So the Grid control can be initialized in script by calling the widget "ejmGrid" with the necessary options. The data source can be set using the `datasource` attribute and its columns can be configured using the `columns` attribute. You can set specific properties for each field by using columns attribute. 
 
 Refer to the following code example.
 
@@ -96,6 +96,7 @@ Refer to the following script section.
 {% highlight html %}
 
 <script type="text/javascript">
+
         $(function () {
 
                 // The datasource "window.gridData" is referred from jsondata.min.js
@@ -135,6 +136,7 @@ Now, you have to enable scroll support in Grid. Scroll is used to view all the c
 {% highlight html %}
 
 <script type="text/javascript">
+
         $(function () {
 
             // The datasource "window.gridData" is referred from jsondata.min.js
@@ -180,6 +182,7 @@ Now, enable Paging feature in Grid. This offers complete navigation support to e
 {% highlight html %}
 
 <script type="text/javascript">
+
         $(function () {
 
             // The datasource "window.gridData" is referred from jsondata.min.js
@@ -229,6 +232,7 @@ Click the filter icon in column header to make the filtering text box visible. T
 {% highlight html %}
 
 <script type="text/javascript">
+
         $(function () {
 
             var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
@@ -261,7 +265,7 @@ Click the filter icon in column header to make the filtering text box visible. T
 </script>
 {% endhighlight %}
 
-N> The filter query is a combination of value and symbols (â€œ<, >, =, etc). For example, you can provide â€œ<10255â€ in Order ID column. The numeric columns can be filtered by using the symbols â€˜<â€™, â€˜>â€™, â€˜=â€™, â€˜<=â€™, â€˜>=â€™, â€˜!â€™ and the string columns can be filtered by using the symbols â€œ%â€ (for startswith and endswith) and â€œ*â€ (contains). Also , you can use â€œ&&â€ and OR operator to provide multiple conditions in single column.
+N> The filter query is a combination of value and symbols (<, >, =, etc). For example, you can provide "<10255" in Order ID column. The numeric columns can be filtered by using the symbols "<", ">", "=", "<=", ">=", "!" and the string columns can be filtered by using the symbols "%" (for startswith and endswith) and "*" (contains). Also , you can use "&&" and OR operator to provide multiple conditions in single column.
 
 Run this code and you can see the following output.
 
