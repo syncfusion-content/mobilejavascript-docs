@@ -93,33 +93,33 @@ Refer to the following code example.
 
 Refer to the following script section.
 
-{% highlight js %}
+{% highlight html %}
 
 $(function () {
 
 // The datasource "window.gridData" is referred from jsondata.min.js
 
-var data = ej.DataManager(window.gridData)
-
-		 .executeLocal(ej.Query().take(50));
+    var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 
 // Creates Mobile grid
 
-$("#mobgrid").ejmGrid({
+    $("#mobgrid").ejmGrid({
 
-dataSource: data,
+        dataSource: data,
 
-// Configures Columns for Mobile grid
+    // Configures Columns for Mobile grid
 
-columns: [
+        columns: [
 
-   { field: "OrderID", headerText: "Order ID" },
+           { field: "OrderID", headerText: "Order ID" },
 
-   { field: "CustomerID", headerText: "Customer ID", width: 130 },
+           { field: "CustomerID", headerText: "Customer ID", width: 130 },
 
-   { field: "Freight", headerText: "Freight" }
+           { field: "Freight", headerText: "Freight" }
 
-]});});
+        ]
+    });
+});
 
 {% endhighlight %}
 
@@ -131,37 +131,37 @@ Run this code and you can see the following output.
 
 Now, you have to enable scroll support in Grid. Scroll is used to view all the content present in the Grid when the screen size is smaller than the Grid content. For that, you have to set allowScrolling attribute as true. This enables the scrollpanel in the Grid.  Use scrollSettings attribute to set scroll panel properties. Here scrollpanel height has been set by using height attribute. 
 
-{% highlight js %}
+{% highlight html %}
 
 $(function () {
 
 // The datasource "window.gridData" is referred from jsondata.min.js
 
-var data = ej.DataManager(window.gridData)
-
-		 .executeLocal(ej.Query().take(50));
+    var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 
 // Creates Mobile grid
 
-$("#mobgrid").ejmGrid({
+    $("#mobgrid").ejmGrid({
 
-dataSource: data,
+        dataSource: data,
 
-allowScrolling: true,
+        allowScrolling: true,
 
-scrollSettings: { height: 260 },
+        scrollSettings: { height: 260 },
 
-// Configures Columns for Mobile grid
+        // Configures Columns for Mobile grid
 
-columns: [
+        columns: [
 
-   { field: "OrderID", headerText: "Order ID" },
+           { field: "OrderID", headerText: "Order ID" },
+        
+           { field: "CustomerID", headerText: "Customer ID", width: 130 },
 
-   { field: "CustomerID", headerText: "Customer ID", width: 130 },
+           { field: "Freight", headerText: "Freight" }
 
-   { field: "Freight", headerText: "Freight" }
-
-]});});
+        ]
+    });
+});
 
 {% endhighlight %}
 
@@ -175,43 +175,43 @@ From the above output, it is clear that we can scroll up and down to view the Gr
 
 Now, enable Paging feature in Grid. This offers complete navigation support to easily switch between the pages. This can be achieved by using the pager bar available at the bottom of the Mobile Grid control. To enable paging, use allowPaging attribute of Grid as shown below.  Pager can be scrolled horizontally if its width exceeds the target window. The pageSize attribute describes the number of records to be displayed in single Grid page.
 
-{% highlight js %}
+{% highlight html %}
 
 $(function () {
 
 // The datasource "window.gridData" is referred from jsondata.min.js
 
-var data = ej.DataManager(window.gridData)
-
-		 .executeLocal(ej.Query().take(50));
+    var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 
 
 
 // Creates Mobile grid
 
-$("#mobgrid").ejmGrid({
+    $("#mobgrid").ejmGrid({
 
-dataSource: data,
+        dataSource: data,
 
-allowScrolling: true,
+        allowScrolling: true,
 
-scrollSettings: { height: 260 },
+        scrollSettings: { height: 260 },
 
-allowPaging: true, //Enables Paging for mobile grid
+        allowPaging: true, //Enables Paging for mobile grid
 
-pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
+        pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
 
-// Configures Columns for Mobile grid
+        // Configures Columns for Mobile grid
 
-columns: [
+        columns: [
 
-   { field: "OrderID", headerText: "Order ID" },
+               { field: "OrderID", headerText: "Order ID" },
 
-   { field: "CustomerID", headerText: "Customer ID", width: 130 },
+               { field: "CustomerID", headerText: "Customer ID", width: 130 },
 
-   { field: "Freight", headerText: "Freight" }
+               { field: "Freight", headerText: "Freight" }
 
-]});});
+        ]
+    });
+});
 
 {% endhighlight %}
 
@@ -225,38 +225,37 @@ Now, enable Filtering feature in Mobile Grid. A filter facilitates the extractio
 
 Click the filter icon in column header to make the filtering text box visible. Then enter search content to filter your Mobile Grid data.
 
-{% highlight js %}
+{% highlight html %}
 
 $(function () {
 
-var data = ej.DataManager(window.gridData)
-			 .executeLocal(ej.Query().take(50));
+    var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 
-$("#mobgrid").ejmGrid({
+    $("#mobgrid").ejmGrid({
 
-	dataSource: data,
+	    dataSource: data,
 
-	allowFiltering: true, //Enables Filtering for Mobile grid
+    	allowFiltering: true, //Enables Filtering for Mobile grid
 
-	allowScrolling: true,
+    	allowScrolling: true,
 
-	scrollSettings: { height: 260 },
+    	scrollSettings: { height: 260 },
 
-	allowPaging: true, //Enables Paging for mobile grid
+    	allowPaging: true, //Enables Paging for mobile grid
 
-	pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
+    	pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
 
+	    columns: [
 
+	       { field: "OrderID", headerText: "Order ID" },
 
-	columns: [
+	       { field: "CustomerID", headerText: "Customer ID", width: 130 },
 
-	   { field: "OrderID", headerText: "Order ID" },
+	       { field: "Freight", headerText: "Freight" }
 
-	   { field: "CustomerID", headerText: "Customer ID", width: 130 },
-
-	   { field: "Freight", headerText: "Freight" }
-
-	]});});
+	    ]
+    });
+});
 
 {% endhighlight %}
 
@@ -274,38 +273,39 @@ In the above output, it is clear that order id filter is selected and the order 
 
 Now, enable Sorting feature in Mobile Grid. Mobile Grid columns are sortable. You can sort column data either in ascending or descending order. To enable sorting, use AllowSorting attribute of Grid as shown below. Click the column header to sort the Grid columns. The down arrow indicates that the column is sorted in ascending order and up arrow indicates that the column is sorted in descending order. If there is no arrow, it means the sorting is cleared.
 
-{% highlight js %}
+{% highlight html %}
 
 $(function () {
 
-var data = ej.DataManager(window.gridData)
-		 .executeLocal(ej.Query().take(50));
+    var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 
-$("#mobgrid").ejmGrid({
+    $("#mobgrid").ejmGrid({
 
-dataSource: data,
+        dataSource: data,
 
-allowFiltering: true, //Enables Filtering for Mobile grid
+        allowFiltering: true, //Enables Filtering for Mobile grid
 
-allowScrolling: true,
+        allowScrolling: true,
 
-scrollSettings: { height: 260 },
+        scrollSettings: { height: 260 },
 
-allowPaging: true, //Enables Paging for mobile grid
+        allowPaging: true, //Enables Paging for mobile grid
 
-pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
+        pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
 
-allowSorting: true, //Enables Sorting for Mobile grid                
+        allowSorting: true, //Enables Sorting for Mobile grid                
 
-columns: [
+        columns: [
 
-	 { field: "OrderID", headerText: "Order ID" },
+	         { field: "OrderID", headerText: "Order ID" },
 
-	 { field: "CustomerID", headerText: "Customer ID", width: 130 },
+	         { field: "CustomerID", headerText: "Customer ID", width: 130 },
+        
+	         { field: "Freight", headerText: "Freight" }
 
-	 { field: "Freight", headerText: "Freight" }
-
-]}); });
+        ]
+    });
+});
 
 {% endhighlight %}
 
