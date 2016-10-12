@@ -94,33 +94,33 @@ Refer to the following code example.
 Refer to the following script section.
 
 {% highlight html %}
+<script type="text/javascript">
+        $(function () {
 
-$(function () {
+                // The datasource "window.gridData" is referred from jsondata.min.js
+                
+                var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 
-// The datasource "window.gridData" is referred from jsondata.min.js
+                // Creates Mobile grid
 
-    var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
+                $("#mobgrid").ejmGrid({
 
-// Creates Mobile grid
+                dataSource: data,
 
-    $("#mobgrid").ejmGrid({
+                // Configures Columns for Mobile grid
 
-        dataSource: data,
+                columns: [
 
-    // Configures Columns for Mobile grid
+                   { field: "OrderID", headerText: "Order ID" },
 
-        columns: [
+                   { field: "CustomerID", headerText: "Customer ID", width: 130 },
 
-           { field: "OrderID", headerText: "Order ID" },
+                   { field: "Freight", headerText: "Freight" }
 
-           { field: "CustomerID", headerText: "Customer ID", width: 130 },
-
-           { field: "Freight", headerText: "Freight" }
-
-        ]
-    });
-});
-
+                ]
+            });
+        });
+</script>
 {% endhighlight %}
 
 Run this code and you can see the following output.
@@ -132,37 +132,37 @@ Run this code and you can see the following output.
 Now, you have to enable scroll support in Grid. Scroll is used to view all the content present in the Grid when the screen size is smaller than the Grid content. For that, you have to set allowScrolling attribute as true. This enables the scrollpanel in the Grid.  Use scrollSettings attribute to set scroll panel properties. Here scrollpanel height has been set by using height attribute. 
 
 {% highlight html %}
+<script type="text/javascript">
+        $(function () {
 
-$(function () {
+            // The datasource "window.gridData" is referred from jsondata.min.js
 
-// The datasource "window.gridData" is referred from jsondata.min.js
+            var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 
-    var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
+            // Creates Mobile grid
 
-// Creates Mobile grid
-
-    $("#mobgrid").ejmGrid({
-
-        dataSource: data,
-
-        allowScrolling: true,
-
-        scrollSettings: { height: 260 },
-
-        // Configures Columns for Mobile grid
-
-        columns: [
-
-           { field: "OrderID", headerText: "Order ID" },
+            $("#mobgrid").ejmGrid({
         
-           { field: "CustomerID", headerText: "Customer ID", width: 130 },
+                dataSource: data,
 
-           { field: "Freight", headerText: "Freight" }
+                allowScrolling: true,
 
-        ]
-    });
-});
+                scrollSettings: { height: 260 },
 
+                // Configures Columns for Mobile grid
+
+                columns: [
+
+                   { field: "OrderID", headerText: "Order ID" },
+        
+                   { field: "CustomerID", headerText: "Customer ID", width: 130 },
+
+                   { field: "Freight", headerText: "Freight" }
+
+                ]
+            });
+        });
+</script>
 {% endhighlight %}
 
 Run this code and you can see the following output.
@@ -176,43 +176,41 @@ From the above output, it is clear that we can scroll up and down to view the Gr
 Now, enable Paging feature in Grid. This offers complete navigation support to easily switch between the pages. This can be achieved by using the pager bar available at the bottom of the Mobile Grid control. To enable paging, use allowPaging attribute of Grid as shown below.  Pager can be scrolled horizontally if its width exceeds the target window. The pageSize attribute describes the number of records to be displayed in single Grid page.
 
 {% highlight html %}
+<script type="text/javascript">
+        $(function () {
 
-$(function () {
+            // The datasource "window.gridData" is referred from jsondata.min.js
 
-// The datasource "window.gridData" is referred from jsondata.min.js
+            var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 
-    var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
+            // Creates Mobile grid
 
+            $("#mobgrid").ejmGrid({
 
+                dataSource: data,
 
-// Creates Mobile grid
+                allowScrolling: true,
 
-    $("#mobgrid").ejmGrid({
+                scrollSettings: { height: 260 },
 
-        dataSource: data,
+                allowPaging: true, //Enables Paging for mobile grid
 
-        allowScrolling: true,
+                pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
 
-        scrollSettings: { height: 260 },
+                // Configures Columns for Mobile grid
 
-        allowPaging: true, //Enables Paging for mobile grid
+                columns: [
+        
+                       { field: "OrderID", headerText: "Order ID" },
 
-        pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
+                       { field: "CustomerID", headerText: "Customer ID", width: 130 },
 
-        // Configures Columns for Mobile grid
+                       { field: "Freight", headerText: "Freight" }
 
-        columns: [
-
-               { field: "OrderID", headerText: "Order ID" },
-
-               { field: "CustomerID", headerText: "Customer ID", width: 130 },
-
-               { field: "Freight", headerText: "Freight" }
-
-        ]
-    });
-});
-
+                ]
+            });
+        });
+</script>
 {% endhighlight %}
 
 Run this code and you can see the following output.
@@ -226,37 +224,37 @@ Now, enable Filtering feature in Mobile Grid. A filter facilitates the extractio
 Click the filter icon in column header to make the filtering text box visible. Then enter search content to filter your Mobile Grid data.
 
 {% highlight html %}
+<script type="text/javascript">
+        $(function () {
 
-$(function () {
+            var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 
-    var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
+            $("#mobgrid").ejmGrid({
 
-    $("#mobgrid").ejmGrid({
+	            dataSource: data,
 
-	    dataSource: data,
+    	        allowFiltering: true, //Enables Filtering for Mobile grid
 
-    	allowFiltering: true, //Enables Filtering for Mobile grid
+    	        allowScrolling: true,
 
-    	allowScrolling: true,
+    	        scrollSettings: { height: 260 },
 
-    	scrollSettings: { height: 260 },
+    	        allowPaging: true, //Enables Paging for mobile grid
 
-    	allowPaging: true, //Enables Paging for mobile grid
+    	        pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
 
-    	pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
+	            columns: [
 
-	    columns: [
+	               { field: "OrderID", headerText: "Order ID" },
 
-	       { field: "OrderID", headerText: "Order ID" },
+	               { field: "CustomerID", headerText: "Customer ID", width: 130 },
 
-	       { field: "CustomerID", headerText: "Customer ID", width: 130 },
+	               { field: "Freight", headerText: "Freight" }
 
-	       { field: "Freight", headerText: "Freight" }
-
-	    ]
-    });
-});
-
+	            ]
+            });
+        });
+</script>
 {% endhighlight %}
 
 N> The filter query is a combination of value and symbols (â€œ<, >, =, etc). For example, you can provide â€œ<10255â€ in Order ID column. The numeric columns can be filtered by using the symbols â€˜<â€™, â€˜>â€™, â€˜=â€™, â€˜<=â€™, â€˜>=â€™, â€˜!â€™ and the string columns can be filtered by using the symbols â€œ%â€ (for startswith and endswith) and â€œ*â€ (contains). Also , you can use â€œ&&â€ and OR operator to provide multiple conditions in single column.
@@ -274,39 +272,40 @@ In the above output, it is clear that order id filter is selected and the order 
 Now, enable Sorting feature in Mobile Grid. Mobile Grid columns are sortable. You can sort column data either in ascending or descending order. To enable sorting, use AllowSorting attribute of Grid as shown below. Click the column header to sort the Grid columns. The down arrow indicates that the column is sorted in ascending order and up arrow indicates that the column is sorted in descending order. If there is no arrow, it means the sorting is cleared.
 
 {% highlight html %}
+<script type="text/javascript">
 
-$(function () {
+        $(function () {
 
-    var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
+            var data = ej.DataManager(window.gridData).executeLocal(ej.Query().take(50));
 
-    $("#mobgrid").ejmGrid({
+            $("#mobgrid").ejmGrid({
 
-        dataSource: data,
+                dataSource: data,
 
-        allowFiltering: true, //Enables Filtering for Mobile grid
+                allowFiltering: true, //Enables Filtering for Mobile grid
 
-        allowScrolling: true,
+                allowScrolling: true,
 
-        scrollSettings: { height: 260 },
+                scrollSettings: { height: 260 },
 
-        allowPaging: true, //Enables Paging for mobile grid
+                allowPaging: true, //Enables Paging for mobile grid
 
-        pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
+                pageSettings: { pageSize: 10 }, //Specifies page size for mobile grid
 
-        allowSorting: true, //Enables Sorting for Mobile grid                
+                allowSorting: true, //Enables Sorting for Mobile grid                
 
-        columns: [
+                columns: [
 
-	         { field: "OrderID", headerText: "Order ID" },
+	                 { field: "OrderID", headerText: "Order ID" },
 
-	         { field: "CustomerID", headerText: "Customer ID", width: 130 },
+	                 { field: "CustomerID", headerText: "Customer ID", width: 130 },
         
-	         { field: "Freight", headerText: "Freight" }
+	                 { field: "Freight", headerText: "Freight" }
 
-        ]
-    });
-});
-
+                ]
+            });
+        });
+</script>
 {% endhighlight %}
 
 Run this code and you can see the following output.
