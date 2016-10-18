@@ -13,7 +13,7 @@ The Group Button helps to display multiple buttons that is stacked together in a
 
 ![](Getting-Started_images/Getting-Started_img1.png)
 
-### Create the necessary Layout 
+## Create the necessary Layout 
 
 The Group Button widget can be created using the HTML input elements with type `radio` or `checkbox`. In the Mail App, you can use the `radio` input element to view the Mail content with three options **All**, **Read** and **Unread**. The respective contents are displayed on clicking the specific buttons in the group. 
 
@@ -46,7 +46,7 @@ Create an HTML file and add the following template to the HTML file for Group Bu
 
 {% endhighlight %}
 
-### Creating Group Button
+## Creating Group Button
 
 To create Group Button control, set the `data-role` attribute to `ejmgroupbutton` to a div element and then include multiple buttons through input element. Also, specify the `type` and `name` attribute to the "input" element as mentioned in the following code.
 
@@ -135,7 +135,7 @@ Execute the above code to display the output with the created group button.
 
 ![](Getting-Started_images/Getting-Started_img2.png)
 
-### Handling Events
+## Handling Events
 
 In the Mail App, while navigating through different buttons - the content view is changed using the `touchEnd` event which is specified using `data-ej-touchend` attribute. Using this event, you can handle the functionalities that are necessary to switch the view.
 
