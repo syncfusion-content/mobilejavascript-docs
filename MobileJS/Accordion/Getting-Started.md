@@ -5,6 +5,7 @@ description: getting started
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug
+keywords: Accordion
 ---
 
 # Getting Started
@@ -36,9 +37,6 @@ Create an HTML file and add the following template to the HTML file to create Ac
     <title>Accordion</title>
     <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.css" rel="stylesheet" />
     <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery.validate.min.js"></script>
     <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.js"> </script>
  </head>
 
