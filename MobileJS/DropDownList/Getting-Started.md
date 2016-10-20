@@ -29,9 +29,9 @@ Create an HTML file and paste the following template for mobile layout.
 <head>
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
     <title>Navigation Drawer</title>
-    <link href="[http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js)"></script>                
-    <script src="[http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js)"></script> 
+    <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.css" rel="stylesheet" />
+    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>                
+    <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.js"></script> 
 </head>
 <body>
     <div data-role="appview">
