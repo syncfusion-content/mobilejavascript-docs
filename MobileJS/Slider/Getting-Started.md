@@ -5,6 +5,7 @@ description: getting started
 platform: js
 control: Slider
 documentation: ug
+keywords:slider
 ---
 
 # Getting Started 
@@ -30,8 +31,6 @@ Create an **HTML** file and add the following template to the HTML file.
     <title>Slider</title>
     <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.css" rel="stylesheet" />
     <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js"></script>
     <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.js"> </script>
 </head>
 <body>
