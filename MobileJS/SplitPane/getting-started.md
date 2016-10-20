@@ -38,10 +38,10 @@ Create an **HTML** file and paste the following template to it for Mail App crea
 <html>
 <head>
     <title>Splitpane</title>
-<linkhref="[http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.css)"rel="stylesheet"/>
-<scriptsrc="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
-<scriptsrc="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
-<scriptsrc="[http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js)"></script>
+<link href="http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.css"rel="stylesheet"/>
+<script src="http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js"></script>
+<script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+<script src="http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js"></script>
 </head>
 <body>
                 <!--Add Splitpane Element here-->
