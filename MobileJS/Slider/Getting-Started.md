@@ -171,11 +171,10 @@ From the Slider’s getValue API, you can get the present value of both the Slid
             setValue(value);
         }
         function setValue(value) {
-            var position = value.indexOf(",");
-            var min = value.substring(0, position); //to get left thumb value
-            var max = value.substring(position + 1); //to get right thumb value
-            $("#minvalue").html("$" + min); //to set left thumb value to the left span
-            $("#maxvalue").html("$" + max); // to set right thumb value to the right span
+            var position = value.split(",");
+            $("#minvalue").html("$" + value.split(",")[0]); //to set left thumb value to the left span
+            $("#maxvalue").html("$" + value.split(",")[1]); // to set right thumb value to the right span
+        }
         }
 
 
