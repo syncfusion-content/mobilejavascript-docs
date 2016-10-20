@@ -31,11 +31,11 @@ Create an HTML file and add the following template to the html file for Toolbar 
 
 		<title>Toolbar</title>
 
-		<link href="[http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
+		<link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.css" rel="stylesheet" />
 
-		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js)"></script>
+		<script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
 
-		<script src="[http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js)"></script>
+		<script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.js"></script>
 
 		<style>
 
