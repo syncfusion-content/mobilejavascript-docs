@@ -35,10 +35,6 @@ Create an HTML file and add the following template to the html file for Toolbar 
 
 		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js)"></script>
 
-		<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
-
-		<script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
-
 		<script src="[http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js)"></script>
 
 		<style>

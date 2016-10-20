@@ -9,6 +9,12 @@ documentation: ug
 
 # Getting starting
 
+This section explains briefly about how to create a dropdownlist in your application with JavaScript.
+Essential JavaScript dropdownlist provides support for multiple selections, within your web page and allows you to specify an option from the list. 
+The following screenshot demonstrates the functionality with dropdownlist action.
+
+![](getting-started-images/img1.png)
+
 For getting started you can use the ‘ej.mobile.all.min.js’ file, which encapsulates all the ‘ejm’ controls and frameworks in one single file.
 For themes, you can use the ‘ej.mobile.all.min.css’ CDN link from the snippet given. To add the themes in your application, please refer this link.
 
@@ -24,24 +30,42 @@ Create an HTML file and paste the following template for mobile layout.
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
     <title>Navigation Drawer</title>
     <link href="[http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js)"></script>                
-  <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
-<script src="[http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js](http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js)"></script>
-<script src="[http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js)"></script> 
+    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js)"></script>                
+    <script src="[http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/14.3.0.49/js/mobile/ej.mobile.all.min.js)"></script> 
 </head>
 <body>
     <div data-role="appview">
         <!-- Adding Header Control Here -->
         <!-- Adding DropDownlist Control here -->
+		<!--Adding list of Options -->
     </div>
 </body>
 </html>
 
 {% endhighlight %}
 
-## Add DropDownList control
+## Create DropDownList control
 
-To add DropDownList control, specify ejmdropdownlist as data-role attribute for a &#60;input&#62; element. You can set the text for list items by using data-ej-text attribute. Specifies the data-ej-targetid attribute for  target element which consists the list of options to render DropDownList. 
+To Create DropDownList control, specify ejmdropdownlist as data-role attribute for a &#60;input&#62; element. You can set the text for list items by using data-ej-text attribute.
+
+{% highlight html %}
+
+    <!-- Adding DropDownList Control here -->
+    <div class="sample-control default dropdownlist">
+        <input type="text" id="dd_default" data-role="ejmdropdownlist" data-ej-watermarktext="Select search engine" />
+    </div>
+   
+   <!--Adding list of Options -->
+   
+{% endhighlight %}
+
+Run the above code to render the following output.
+
+![](getting-started-images/img3.png)
+
+## Add List of Options
+
+Specifies the data-ej-targetid attribute for  target element which consists the list of options to render DropDownList. 
 
 {% highlight html %}
 
@@ -49,6 +73,7 @@ To add DropDownList control, specify ejmdropdownlist as data-role attribute for 
   <div class="sample-control default dropdownlist">
         <input type="text" id="dd_default" data-role="ejmdropdownlist" data-ej-targetid="targetEle" data-ej-watermarktext="Select search engine" />
     </div>
+	<!--Adding list of options -->
     <ul id="targetEle">
         <li data-ej-text="Google"></li>
         <li data-ej-text="Bing"></li>
@@ -68,7 +93,7 @@ To add DropDownList control, specify ejmdropdownlist as data-role attribute for 
 
 Run the above code to render the following output.
 
-![](getting-starting-images/img1.png)
+![](getting-started-images/img1.png)
 
 ## cssClass
 
@@ -98,27 +123,8 @@ Sets the root class for DropDownList. This cssClass API helps to use custom skin
 
 Run the above code to render the following output.
 
-![](getting-starting-images/img2.png)
+![](getting-started-images/img2.png)
 
-## Enabled
 
-Specifies whether to enable the DropDownList on initialization.
-
-{% highlight html %}
-
-    <!-- Adding DropDownList Control here -->
-  <div class="sample-control default dropdownlist">
-        <input type="text" id="dd_default" data-role="ejmdropdownlist" data-ej-targetid="targetEle" data-ej-watermarktext="Select search engine" data-ej-enabled="false"    />
-    </div>
-    <ul id="targetEle">
-        <li data-ej-text="Google"></li>
-        <li data-ej-text="Bing"></li>
-        <li data-ej-text="Yahoo! Search"></li>
-        <li data-ej-text="Ask"></li>
-        <li data-ej-text="Aol Search"></li>
-   
-    </ul>
-
-{% endhighlight %}
 
 
