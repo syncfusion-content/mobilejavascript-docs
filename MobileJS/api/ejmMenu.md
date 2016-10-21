@@ -807,7 +807,7 @@ Change the menu text format based on given culture.
     </div>
     <script>
         ej.mobile.Menu.Locale['zh-CN'] = {
-            title: "選擇搜索引擎"
+            title: "標題"
         };
     </script>
 
@@ -835,7 +835,7 @@ Change the menu text format based on given culture.
             $("#menu").ejmMenu({ target: "menuitem", locale: "zh-CN" });
         });
 		ej.mobile.Menu.Locale['zh-CN'] = {
-            title: "標題導航"
+            title: "標題"
         };
     </script>
 
