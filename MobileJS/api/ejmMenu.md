@@ -798,14 +798,18 @@ Change the menu text format based on given culture.
     <div>
         <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
     </div>
-    <div id="menu" data-role="ejmmenu" data-ej-target="menuitem" data-ej-locale="en-US">
+    <div id="menu" data-role="ejmmenu" data-ej-target="menuitem" data-ej-locale="zh-CN">
         <ul>
             <li data-ej-text="Get info"></li>
             <li data-ej-text="Show in folder"></li>
             <li data-ej-text="Delete"></li>
         </ul>
     </div>
-
+    <script>
+        ej.mobile.Menu.Locale['zh-CN'] = {
+            title: "選擇搜索引擎"
+        };
+    </script>
 
 {% endhighlight %}
 
@@ -828,8 +832,11 @@ Change the menu text format based on given culture.
         // Set type on initialization.
         // To set menu type API value
         $(function () {
-            $("#menu").ejmMenu({ target: "menuitem", locale: "en-US" });
+            $("#menu").ejmMenu({ target: "menuitem", locale: "zh-CN" });
         });
+		ej.mobile.Menu.Locale['zh-CN'] = {
+            title: "標題導航"
+        };
     </script>
 
 
