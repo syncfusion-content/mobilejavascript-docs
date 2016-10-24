@@ -204,6 +204,74 @@ Text3.html:
 
 {% endhighlight %}
 
+### ajaxSettings.async `boolean`
+{:#members:ajaxsettings-async}
+
+It specifies, whether to enable or disable asynchronous request.
+
+
+#### Default Value
+
+* true
+
+
+### ajaxSettings.cache `boolean`
+{:#members:ajaxsettings-cache}
+
+It specifies the page will be cached in the web browser.
+
+
+#### Default Value
+
+* false
+
+
+### ajaxSettings.contentType `string`
+{:#members:ajaxsettings-contenttype}
+
+It specifies the type of data is send in the query string.
+
+
+
+#### Default Value
+
+* "html"
+
+
+
+### ajaxSettings.data `object`
+{:#members:ajaxsettings-data}
+
+
+It specifies the data as an object, will be passed in the query string.
+
+
+#### Default Value
+
+* {}
+
+
+### ajaxSettings.dataType `string`
+{:#members:ajaxsettings-datatype}
+
+
+It specifies the type of data that you're expecting back from the response.
+
+#### Default Value
+
+* "html"
+
+
+### ajaxSettings.type `string`
+{:#members:ajaxsettings-type}
+
+It specifies the HTTP request type.
+
+
+#### Default Value
+
+
+* "get"
 
 
 ### allowSwiping `boolean`

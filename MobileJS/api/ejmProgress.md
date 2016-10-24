@@ -178,7 +178,7 @@ Saves current model value to browser cookies for state maintenance. While refres
 ### height `Int`
 {:#members:height}
 
-Specifies the Height.
+Specifies the height of the ProgrssBar control.
 
 #### Default Value:
 
@@ -500,7 +500,7 @@ Specifies the initial value.
 ### width `Int`
 {:#members:width}
 
-Specifies the width.
+Specifies the width of the ProgressBar control.
 
 #### Default Value:
 
