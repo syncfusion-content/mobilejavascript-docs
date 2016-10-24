@@ -744,7 +744,7 @@ Maps the value for each option from the data source. This is an optional propert
 ### itemsCount `number`
 {:#members:itemscount}
 
-Specifies how many items need to render initially from remote data source. You can set the items count property that represents the number of items to be fetched from the server on every AJAX request in virtual scrolling feature.
+Specifies how many items need to render initially from remote data source. You can set the items count using itemsCount property that represents the number of items to be fetched from the server on every AJAX request in virtual scrolling feature.
 
 N> This property works based on remote data source, hence the dataSource and fields.text properties should be set properly while rendering.
 
@@ -794,7 +794,7 @@ N> This property works based on remote data source, hence the dataSource and fie
 ### locale `string`
 {:#members:locale}
 
-Specifies the localization to adopt the required language. In DropDownList control, localization support given for watermark text property.
+Specifies the localization to adopt the required language. In DropDownList control, localization support given for watermarkText property.
 
 #### Default Value
 
