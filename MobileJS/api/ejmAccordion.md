@@ -109,7 +109,11 @@ $(element).ejmAccordion()
 ### ajaxSettings `Object`
 {:#members:ajaxsettings}
 
-Section for Ajax settings specific functionalities.
+Specifies the 'ajaxSettings' option to load the content to the accordion control.
+
+#### Default Value
+
+* null
 
 #### Example
 
@@ -156,7 +160,35 @@ Section for Ajax settings specific functionalities.
 
 {% endhighlight %}
 
+### ajaxSettings.async `Boolean`
+{:#members:ajaxsettings-async}
 
+It specifies, whether to enable or disable asynchronous request.
+
+### ajaxSettings.cache `Boolean`
+{:#members:ajaxsettings-cache}
+
+It specifies the page will be cached in the web browser.
+
+### ajaxSettings.contentType `String`
+{:#members:ajaxsettings-contenttype}
+
+It specifies the type of data is send in the query string.
+
+### ajaxSettings.data `Object`
+{:#members:ajaxsettings-data}
+
+It specifies the data as an object, will be passed in the query string.
+
+### ajaxSettings.dataType `String`
+{:#members:ajaxsettings-datatype}
+
+It specifies the type of data that you're expecting back from the response.
+
+### ajaxSettings.type `String`
+{:#members:ajaxsettings-type}
+
+It specifies the HTTP request type.
 
 ### collapseAll `Boolean`
 {:#members:collapseall}
@@ -1467,7 +1499,7 @@ Specifies to show or hide the accordion header icon.
 ### spinnerText `String`
 {:#members:spinnertext}
 
-Specifies the spinner text.
+Specifies the 'spinnerText' while ajax content loading.
 
 #### Default Value:
 
