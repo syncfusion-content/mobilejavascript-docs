@@ -555,7 +555,7 @@ Numeric
 ### enabled `Boolean`
 {:#members:enabled}
 
-Specifies whether to be enable on initialization.
+Specifies whether to be enable/disable on initialization the editor control.
 
 #### Default Value:
 
@@ -1106,7 +1106,7 @@ TextArea
 ### maxValue `Int`
 {:#members:maxvalue}
 
-Specifies the maximum value.
+Specifies the numeric textbox maximum value.
 
 #### Example
 
@@ -1138,7 +1138,7 @@ Numeric
 ### minValue `Int`
 {:#members:minvalue}
 
-Specifies the minimum value.
+Specifies the numeric textbox minimum value.
 
 #### Example
 
@@ -1437,7 +1437,7 @@ Numeric
 ### step `Int`
 {:#members:step}
 
-Specifies the step value for increment.
+Specifies the step value numeric textbox for increment.
 
 #### Default Value:
 
