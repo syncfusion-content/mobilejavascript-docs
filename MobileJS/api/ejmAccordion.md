@@ -1066,30 +1066,17 @@ Default Value
 {% highlight html %}
 
 <!-- Unobtrusive way of rendering -->
-    <div id="accordion" data-role="ejmaccordion" data-ej-locale="en-US">
-        <ul>
-            <li data-ej-text="Inbox">
-                <div>
-                    All WinRT controls are optimized for touch, supporting common gestures: zooming,
-                    panning, selecting, double-tapping, rotating, resizing.
-                </div>
-            </li>
-            <li data-ej-text="Sent">
-                <div>
-                    All the components in the ASP. NET MVC Essential Studio have been built from the
-                    ground up with performance in mind and are extremely lightweight.
-                </div>
-            </li>
-            <li data-ej-text="Trash">
-                <div>
-                    With our sophisticated Direct-Trac support system, built from the ground up to
-                    support enterprise customers, you will have a streamlined experience working with
-                    our support team.
-                </div>
-            </li>
-        </ul>
-    </div>
+    <ul id="accordion_loadondemand" data-role="ejmaccordion" data-ej-enableajax="true" data-ej-locale="zh-CN">
+        <li data-ej-text="Model-View-Controller" data-ej-href="text1.html"></li>
+        <li data-ej-text="WPF" data-ej-href="text2.html"></li>
+        <li data-ej-text="WCF" data-ej-href="text3.html"></li>
+    </ul>
 
+     <script>
+            ej.mobile.Accordion.Locale["zh-CN"] = {
+                spinnerText: "加载 "
+            };
+    </script>
 
 {% endhighlight %}
 
@@ -1098,38 +1085,21 @@ Default Value
 {% highlight html %}
 
 <!-- Obtrusive way of rendering -->
-    <div id="accordion">
-        <ul>
-            <li data-ej-text="Inbox">
-                <div>
-                    All WinRT controls are optimized for touch, supporting common gestures: zooming,
-                    panning, selecting, double-tapping, rotating, resizing.
-                </div>
-            </li>
-            <li data-ej-text="Sent">
-                <div>
-                    All the components in the ASP. NET MVC Essential Studio have been built from the
-                    ground up with performance in mind and are extremely lightweight.
-                </div>
-            </li>
-            <li data-ej-text="Trash">
-                <div>
-                    With our sophisticated Direct-Trac support system, built from the ground up to
-                    support enterprise customers, you will have a streamlined experience working with
-                    our support team.
-                </div>
-            </li>
-        </ul>
-    </div>
+    <ul id="accordion_loadondemand">
+        <li data-ej-text="Model-View-Controller" data-ej-href="text1.html"></li>
+        <li data-ej-text="WPF" data-ej-href="text2.html"></li>
+        <li data-ej-text="WCF" data-ej-href="text3.html"></li>
+    </ul>
+
     <script>
-        $(function () {
-            $("#accordion").ejmAccordion({ locale: "en-US" });
-        });
-    </script>
+           $("#accordion_loadondemand").ejmAccordion({enableAjax: true,locale:"zh-CN"})
+            ej.mobile.Accordion.Locale["zh-CN"] = {
+                spinnerText: "加载 "
+            };
+</script>
 
 
 {% endhighlight %}
-
 
 
 ### prefetchAjaxContent `Boolean`
