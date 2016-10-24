@@ -141,7 +141,7 @@ Specifies whether to allow scrolling behavior for the contents.
 ### cancelButton `Object`
 {:#members:cancelbutton}
 
-Specifies the cancelbutton.
+Specifies the cancel button of the menu control.
 
 
 N>Cancel button is shown only for Actionsheet type
@@ -205,7 +205,7 @@ Specifies the color of the cancel button text.
 ### cancelButton.show `Boolean`
 {:#members:cancelbutton-show}
 
-Specifies to show the cancelbutton.
+Gets or sets a value that specifies to show/hide the menu control.
 
 #### Default Value:
 
@@ -265,7 +265,7 @@ Specifies to customize the cancel button text.
 
 #### Default Value:
 
-* “Cancel”
+* null
 
 #### Example
 
@@ -402,7 +402,7 @@ Sets the root class for Menu theme. This cssClass API helps to use custom skinni
 ### dataSource `data`
 {:#members:datasource}
 
-Specifies the datasource is enabled.
+Specifies the data source for Menu rendering. In Menu, options can be given as data source of JSON array.
 
 #### Default Value:
 
@@ -556,12 +556,12 @@ Specifies the ripple effect for the menu control. By default in android mode its
 ### fields
 {:#members:fields}
 
-Specifies the fields.
+Specifies the fields of the menu control.
 
 ### fields.color `String`
 {:#members:fields-color}
 
-Specifies color of the field’s text.
+Specifies color of the field’s text the menu item.
 
 #### Default Value:
 
@@ -603,7 +603,7 @@ Specifies color of the field’s text.
 ### fields.href `String`
 {:#members:fields-href}
 
-Specifies href of the fields.
+Specifies href of the fields the menu item.
 
 #### Default Value:
 
@@ -652,7 +652,7 @@ Specifies href of the fields.
 ### fields.text `String`
 {:#members:fields-text}
 
-Specifies the field’s text.
+Specifies the field’s text the menu item.
 
 #### Default Value:
 
@@ -696,7 +696,7 @@ Specifies the field’s text.
 ### height `Int`
 {:#members:height}
 
-Specifies the height.
+Specifies the height of the menu control.
 
 #### Default Value:
 
@@ -1122,7 +1122,7 @@ Specifies to show the action sheet and popover menu title.
 ### target `String`
 {:#members:target}
 
-Specifies the target element.
+Specifies the target element of the menu control.
 
 #### Default Value:
 
@@ -1178,7 +1178,7 @@ Specifies the target element.
 ### templateId `String`
 {:#members:templateid}
 
-Specifies ID of the element contains template contents.
+Specifies ID of the element contains template contents the menu control.
 
 #### Default Value:
 
@@ -1288,7 +1288,7 @@ Specifies to customize the action sheet and popover title text.
 ### type `Enum`
 {:#members:type}
 
-Specifies menu type. See ej.mobile.Menu.Type
+Specifies menu type of the menu control. See ej.mobile.Menu.Type
 
 #### Default Value:
 
@@ -1344,7 +1344,7 @@ Specifies menu type. See ej.mobile.Menu.Type
 ### width `Int`
 {:#members:width}
 
-Specifies the width.
+Specifies the width of the menu control.
 
 #### Default Value:
 
