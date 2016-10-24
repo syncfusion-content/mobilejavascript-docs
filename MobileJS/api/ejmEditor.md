@@ -555,7 +555,7 @@ Numeric
 ### enabled `Boolean`
 {:#members:enabled}
 
-Specifies whether to be enable/disable on initialization the editor control.
+Specifies whether to be enable on initialization the editor control.
 
 #### Default Value:
 
@@ -1437,7 +1437,7 @@ Numeric
 ### step `Int`
 {:#members:step}
 
-Specifies the step value numeric textbox for increment.
+Specifies the step value of numeric textbox for increments / decrements.
 
 #### Default Value:
 
