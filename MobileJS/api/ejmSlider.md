@@ -102,7 +102,7 @@ Specifies the animation speed when animation is enabled.
 ### enableAnimation `Boolean`
 {:#members:enableanimation}
 
-Specifies whether to enable animation.
+Specifies whether to enable the animation.
 
 #### Default Value:
 
@@ -210,7 +210,7 @@ Specifies to maintain the current model value to browser cookies for state maint
 ### enableRange `Boolean`
 {:#members:enablerange}
 
-Specifies whether to enable range slider.
+Specifies whether to enable the range slider.
 
 #### Default Value:
 
