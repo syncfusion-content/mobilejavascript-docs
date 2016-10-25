@@ -1106,7 +1106,7 @@ TextArea
 ### maxValue `Int`
 {:#members:maxvalue}
 
-Specifies the numeric textbox maximum value.
+Specifies the maximum value of the numeric textbox.
 
 #### Example
 
@@ -1138,7 +1138,7 @@ Numeric
 ### minValue `Int`
 {:#members:minvalue}
 
-Specifies the numeric textbox minimum value.
+Specifies the minimum value of the numeric textbox.
 
 #### Example
 
