@@ -468,7 +468,7 @@ Specifies to maintain the current model value to browser cookies for state maint
 
 ### fields
 
-Section for fields specific properties of the DropDownList.
+Fields used to bind the data source and it includes following field members to make data bind easier.
 
 ### fields.checkBy `boolean`
 {:#members:fields-checkby}
