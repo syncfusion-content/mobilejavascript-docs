@@ -205,7 +205,7 @@ Specifies the color of the cancel button text.
 ### cancelButton.show `Boolean`
 {:#members:cancelbutton-show}
 
-Gets or sets a value that specifies to show/hide the menu control.
+specifies the show or hide of the menu control.
 
 #### Default Value:
 
@@ -315,7 +315,7 @@ Specifies to customize the cancel button text.
 ### color `String`
 {:#members:color}
 
-Specifies the text color of the menu items.
+Specifies the text color of the menu item.
 
 #### Default Value:
 
@@ -556,12 +556,12 @@ Specifies the ripple effect for the menu control. By default in android mode its
 ### fields
 {:#members:fields}
 
-Specifies the fields of the menu control.
+Fields used to bind the data source and it includes following field members to make data bind easier.
 
 ### fields.color `String`
 {:#members:fields-color}
 
-Specifies color of the field’s text the menu item.
+Specifies the text color of menu item.
 
 #### Default Value:
 
@@ -603,7 +603,7 @@ Specifies color of the field’s text the menu item.
 ### fields.href `String`
 {:#members:fields-href}
 
-Specifies href of the fields the menu item.
+Specifies the URL to navigate to when the item is clicked.
 
 #### Default Value:
 
@@ -652,7 +652,7 @@ Specifies href of the fields the menu item.
 ### fields.text `String`
 {:#members:fields-text}
 
-Specifies the field’s text the menu item.
+Specifies the text to display on the menu item. 
 
 #### Default Value:
 
@@ -895,7 +895,7 @@ Specifies the query to execute with the datasource.
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Specifies the rendering mode of the control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
+Specifies the rendering mode of the Menu control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 #### Default Value:
 
@@ -1178,7 +1178,7 @@ Specifies the target element of the menu control.
 ### templateId `String`
 {:#members:templateid}
 
-Specifies ID of the element contains template contents the menu control.
+Specifies ID of the element contains template contents.
 
 #### Default Value:
 
@@ -1288,7 +1288,7 @@ Specifies to customize the action sheet and popover title text.
 ### type `Enum`
 {:#members:type}
 
-Specifies menu type of the menu control. See ej.mobile.Menu.Type
+Specifies the type of the menu control. See ej.mobile.Menu.Type
 
 #### Default Value:
 

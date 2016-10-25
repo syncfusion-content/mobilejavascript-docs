@@ -310,7 +310,7 @@ N> This property works only for multi selection mode, hence the property enableM
 ### enabled `boolean`
 {:#members:enabled}
 
-Specifies whether to enable/disable the DropDownList on initialization.
+Specifies whether to enable or disable the DropDownList control.
 
 #### Default Value
 
@@ -1227,7 +1227,7 @@ Specifies the target element which consists the list of options to render DropDo
 ### templateId `string`
 {:#members:templateid}
 
-Specifies ID of the element contains template contents of options.
+Specifies ID of the element contains template contents.
 
 N> For DropDownList template rendering, jsrender.js file reference needed.
 
