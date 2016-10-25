@@ -548,7 +548,7 @@ Specifies the radius of the RadialSlider control.
             Syncfusion is the enterprise technology partner of choice for Windows development
         </p>
     </div>
-    <div id="defaultradialslider" data-role="ejmradialslider"></div>
+    <div id="defaultradialslider" data-role="ejmradialslider" data-ej-strokeWidth ="2"></div>
 
 
 
@@ -569,7 +569,7 @@ Specifies the radius of the RadialSlider control.
     <div id="defaultradialslider" data-role="ejmradialslider"></div>
 
     <script>
-        $("#defaultradialslider").ejmRadialSlider();
+        $("#defaultradialslider").ejmRadialSlider({strokeWidth :2});
     </script>
 
 
