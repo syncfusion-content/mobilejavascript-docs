@@ -557,7 +557,7 @@ Numeric
 ### enabled `Boolean`
 {:#members:enabled}
 
-Specifies whether to be enable on initialization the editor control.
+Specifies whether to enable or disable the control.
 
 #### Default Value:
 
