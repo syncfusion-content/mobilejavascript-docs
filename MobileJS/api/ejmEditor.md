@@ -327,11 +327,13 @@ TextBox
 
 Password
 
-&lt;!-- Unobtrusive way of rendering --&gt;
+{% highlight html %}
 
-    &lt;input id="password" data-role="ejmpassword" data-ej-borderstyle="line" /&gt;
+<!-- Unobtrusive way of rendering -->
+   <input id="password" data-role="ejmpassword" data-ej-borderstyle="line" />
 
 
+{% endhighlight %}
 
 {% highlight html %}
 
@@ -1796,27 +1798,25 @@ Password
 
 {% endhighlight %}
 
+{% highlight html %}
 
-
-&lt;!-- Obtrusive way of rendering --&gt; 
-
-    &lt;input id="password" /&gt;
-
-    &lt;script&gt;
-
+<!-- Obtrusive way of rendering --> 
+    <input id="password" />
+    <script>
         //Create the password
-
         $("#password").ejmPassword({ width: "200" });
-
-    &lt;/script&gt;
+    </script>
+	
+{% endhighlight %}	
 
 MaskEdit
 
-&lt;!-- Unobtrusive way of rendering --&gt;
+{% highlight html %}
 
-    &lt;input id="maskedit" data-role="ejmmaskedit" data-ej-format="00/00/0000" data-ej-width="200" /&gt;
+<!-- Unobtrusive way of rendering -->
+    <input id="maskedit" data-role="ejmmaskedit" data-ej-format="00/00/0000" data-ej-width="200" />
 
-
+{% endhighlight %}
 
 {% highlight html %}
 
@@ -2410,26 +2410,21 @@ Password
 
 {% endhighlight %}
 
+{% highlight html %}
 
-
- &lt;!-- Obtrusive way of rendering --&gt; 
-
-   &lt;input id="password" /&gt;
-
-
-
-    &lt;script&gt;
-
+ <!-- Obtrusive way of rendering -->; 
+   <input id="password" />
+    <script>
         $("#password").ejmPassword({
 
             touchEnd: function (args) { //handle the event
 
             }
-
         });
+    </script>
 
-    &lt;/script&gt;
-
+	{% endhighlight %}
+	
 MaskEdit
 
 {% highlight html %}
