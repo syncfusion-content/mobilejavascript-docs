@@ -623,30 +623,22 @@ Specifies the URL to navigate to when the item is clicked.
 
 {% endhighlight %}
 
+{% highlight html %}
 
-
-&lt;!-- Obtrusive way of rendering --&gt;
-
-    &lt;div&gt;
-
-        &lt;input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" /&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="menu"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
-
+<!-- Obtrusive way of rendering -->
+    <div>
+        <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
+    </div>
+    <div id="menu">
+    </div>
+    <script>
         $(function () {
 
             $("#menu").ejmMenu({ target: "menuitem", dataSource: window.listData, fields: { text: "name", href: "href" } });
-
         });
+    </script>
 
-    &lt;/script&gt;
-
+{% endhighlight %}
 
 
 ### fields.text `String`
@@ -758,28 +750,21 @@ Specifies the href of the menu items.
 
 #### Example
 
-&lt;!-- Unobtrusive way of rendering --&gt;
+{% highlight html %}
 
-    &lt;div&gt;
-
-        &lt;input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" /&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="menu" data-role="ejmmenu" data-ej-target="menuitem"&gt;
-
-        &lt;ul&gt;
-
-            &lt;li data-ej-text="Desktop" data-ej-href="http://js.syncfusion.com/demos/mobile/"&gt;&lt;/li&gt;
-
-            &lt;li data-ej-text="Phone" data-ej-href="http://js.syncfusion.com/demos/mobile/phone"&gt;&lt;/li&gt;
-
-            &lt;li data-ej-text="Home" data-ej-href="http://www.syncfusion.com"&gt;&lt;/li&gt;
-
-        &lt;/ul&gt;
-
-    &lt;/div&gt;
-
+<!-- Unobtrusive way of rendering -->
+    <div>
+        <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
+    </div>
+    <div id="menu" data-role="ejmmenu" data-ej-target="menuitem">
+        <ul>
+            <li data-ej-text="Desktop" data-ej-href="http://js.syncfusion.com/demos/mobile/"></li>
+            <li data-ej-text="Phone" data-ej-href="http://js.syncfusion.com/demos/mobile/phone"></li>
+            <li data-ej-text="Home" data-ej-href="http://www.syncfusion.com"></li>
+        </ul>
+    </div>
+    
+{% endhighlight %}
 
 ### locale `String`
 {:#members:locale}
