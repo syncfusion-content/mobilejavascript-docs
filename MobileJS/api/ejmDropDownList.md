@@ -1227,7 +1227,7 @@ Specifies the target element which consists the list of options to render DropDo
 ### templateId `string`
 {:#members:templateid}
 
-Specifies ID of the element contains template contents.
+Specifies ID of the element that contains template contents.
 
 N> For DropDownList template rendering, jsrender.js file reference needed.
 

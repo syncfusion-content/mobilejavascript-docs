@@ -205,7 +205,7 @@ Specifies the color of the cancel button text.
 ### cancelButton.show `Boolean`
 {:#members:cancelbutton-show}
 
-specifies the show or hide of the menu control.
+Specifies the show or hide of the menu control.
 
 #### Default Value:
 
