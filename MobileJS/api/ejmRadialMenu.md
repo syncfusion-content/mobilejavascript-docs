@@ -22,24 +22,13 @@ $(element).ejmRadialMenu()
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
@@ -53,24 +42,13 @@ $(element).ejmRadialMenu()
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
     <div id="defaultradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
@@ -118,34 +96,62 @@ Renders the back button Image for center radial using class.
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
-    <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-backimageclass="e-m-icon-backward">
+    
+    <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-position="leftcenter" data-ej-imageclass="imageclass" data-ej-backimageclass="backimage">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social">
-                <ul>      <!-- nested items -->
-                    <li data-ej-imagename="googleplus.png" data-ej-imagepath="themes/sampleimages/radialmenu"
-                        data-ej-windows-text="googleplus" data-ej-flat-text="googleplus"></li>
-                    <li data-ej-imagename="facebook.png" data-ej-imagepath="themes/sampleimages/radialmenu"
-                        data-ej-windows-text="facebook" data-ej-flat-text="facebook"></li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/music.png">
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/social.png">
+                <ul>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/googleplus.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/facebook.png">
+                    </li>
                 </ul>
             </li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/direction.png">
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/browser.png">
+                <ul>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/chrome.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/opera.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/bing.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png">
+                    </li>
+                </ul>
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/message.png">
+                <ul>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/google.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png">
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
+    <style type="text/css">
+        .imageclass {
+            background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/home.png");
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .backimage {
+            background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/windowsback.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+    </style>
 
 
 
@@ -157,40 +163,67 @@ Renders the back button Image for center radial using class.
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
 
-    <div id="defaultradialmenu">
+<div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social">
-                <ul>      <!-- nested items -->
-                    <li data-ej-imagename="googleplus.png" data-ej-imagepath="themes/sampleimages/radialmenu"
-                        data-ej-windows-text="googleplus" data-ej-flat-text="googleplus"></li>
-                    <li data-ej-imagename="facebook.png" data-ej-imagepath="themes/sampleimages/radialmenu"
-                        data-ej-windows-text="facebook" data-ej-flat-text="facebook"></li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/music.png">
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/social.png">
+                <ul>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/googleplus.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/facebook.png">
+                    </li>
                 </ul>
             </li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/direction.png">
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/browser.png">
+                <ul>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/chrome.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/opera.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/bing.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png">
+                    </li>
+                </ul>
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/message.png">
+                <ul>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/google.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png">
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
 
     <script>
-        $("#defaultradialmenu").ejmRadialMenu({ backImageClass: "e-m-icon-backward" }); 
+        $("#defaultradialmenu").ejmRadialMenu({ backImageClass: "backimage",imageClass="imageclass" }); 
     </script>
 
+    <style type="text/css">
+        .imageclass {
+            background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/home.png");
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
+        .backimage {
+            background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/windowsback.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+    </style>
 
 {% endhighlight %}
 
@@ -211,29 +244,17 @@ Sets the root class for RadialMenu theme. This cssClass API helps to use custom 
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
-    <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-cssclass="customclass">
+       <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-cssclass="customclass">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
-    <style>
+      <style>
         .customclass .e-m-radial {
             background-color: blue;
         }
@@ -249,28 +270,21 @@ Sets the root class for RadialMenu theme. This cssClass API helps to use custom 
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
     <div id="defaultradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
+      <style>
+        .customclass .e-m-radial {
+            background-color: blue;
+        }
+    </style>
     <style>
         .customclass .e-m-radial {
             background-color: blue;
@@ -302,25 +316,13 @@ To enable Animation for RadialMenu.
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
     <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-enableanimation="false">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
@@ -334,25 +336,13 @@ To enable Animation for RadialMenu.
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
     <div id="defaultradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
@@ -377,31 +367,67 @@ Renders the image for center radial using Class.
 
 #### Example
 
+
 {% highlight html %}
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
-    <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-imageclass="e-m-icon-menu">
+    
+    <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-position="leftcenter" data-ej-imageclass="imageclass" data-ej-backimageclass="backimage">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/music.png">
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/social.png">
+                <ul>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/googleplus.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/facebook.png">
+                    </li>
+                </ul>
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/direction.png">
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/browser.png">
+                <ul>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/chrome.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/opera.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/bing.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png">
+                    </li>
+                </ul>
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/message.png">
+                <ul>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/google.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png">
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
+    <style type="text/css">
+        .imageclass {
+            background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/home.png");
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .backimage {
+            background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/windowsback.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+    </style>
 
 
 
@@ -413,33 +439,67 @@ Renders the image for center radial using Class.
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
 
-    <div id="defaultradialmenu">
+<div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/music.png">
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/social.png">
+                <ul>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/googleplus.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/facebook.png">
+                    </li>
+                </ul>
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/direction.png">
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/browser.png">
+                <ul>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/chrome.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/opera.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/bing.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png">
+                    </li>
+                </ul>
+            </li>
+            <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/message.png">
+                <ul>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/google.png">
+                    </li>
+                    <li data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png">
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
 
     <script>
-        $("#defaultradialmenu").ejmRadialMenu({ imageClass: "e-m-icon-menu" }); 
+        $("#defaultradialmenu").ejmRadialMenu({ backImageClass: "backimage",imageClass="imageclass" }); 
     </script>
 
+    <style type="text/css">
+        .imageclass {
+            background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/home.png");
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
+        .backimage {
+            background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/windowsback.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+    </style>
 
 {% endhighlight %}
 
@@ -460,13 +520,6 @@ Renders the RadialMenu using datasource which contains array of items.
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
     <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-items="[{ imagename: 'social.png', windows: { text: 'social' } }, { imagename: 'music.png' , windows: { text :'music' } }, { imagename: 'direction.png', windows: { text: 'direction' } }, { imagename: 'message.png', windows: { text: 'message' } }, { imagename: 'browser.png' , windows: { text :'browser' } }]">
     </div>
 
@@ -480,12 +533,6 @@ Renders the RadialMenu using datasource which contains array of items.
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
 
     <div id="defaultradialmenu"></div>
     <script>
@@ -513,28 +560,16 @@ Changes the Position of the control. See [RadialMenuPosition](http://help.syncf
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
 
     <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-position="leftcenter">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
-
 
 
 {% endhighlight %}
@@ -545,28 +580,15 @@ Changes the Position of the control. See [RadialMenuPosition](http://help.syncf
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
     <div id="defaultradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
-
     <script>
         $("#defaultradialmenu").ejmRadialMenu({ position: "leftcenter" }); 
     </script>
@@ -592,28 +614,16 @@ Specifies the radius of the radialmenu control.
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
 
     <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-radius="100">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
-
 
 
 {% endhighlight %}
@@ -624,27 +634,15 @@ Specifies the radius of the radialmenu control.
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-    <div id="defaultradialmenu">
+       <div id="defaultradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
-
     <script>
         $("#defaultradialmenu").ejmRadialMenu({ radius: 100 }); 
     </script>
@@ -670,28 +668,15 @@ Changes the rendering mode. See [RenderMode](http://help.syncfusion.com/mobilej
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
     <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-rendermode="android">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
-
 
 
 {% endhighlight %}
@@ -702,29 +687,18 @@ Changes the rendering mode. See [RenderMode](http://help.syncfusion.com/mobilej
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
     <div id="defaultradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
     <script>
-        $("#defaultradialmenu").ejmRadialMenu({ renderMode: "windows" }); 
+        $("#defaultradialmenu").ejmRadialMenu({ renderMode: "android" }); 
     </script>
 
 
@@ -748,24 +722,16 @@ To disable an item of radialmenu by its index
 
     <div>
         <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-        <br />
-        Click the button to disable the item in index 2 <button data-role="ejmbutton" data-ej-touchend="disableItem">Disable Item</button>
+        Click the button to disable the item in index 2
+        <button data-role="ejmbutton" data-ej-touchend="disableItem">Disable Item</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
@@ -793,26 +759,17 @@ To disable a set of radialmenu items by array of indices
 
     <div>
         <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-        <br />
         Click the button to disable the items in indices 2, 3 <button data-role="ejmbutton" data-ej-touchend="disableItems">Disable Items</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
-    </div>
+    </div>>
 
     <script>
         function disableItems() {
@@ -838,26 +795,17 @@ To enable a radialmenu item by its index
 
     <div>
         <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-        <br />
         Click the button to enable the item in index 2 <button data-role="ejmbutton" data-ej-touchend="enableItem">Enable Item</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-enabled="false" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
-    </div>
+    </div>>
 
     <script>
         function enableItem() {
@@ -883,26 +831,17 @@ To enable a set of radialmenu items by array of indices
 
     <div>
         <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-        <br />
         Click the button to enable the items in indices 2, 3 <button data-role="ejmbutton" data-ej-touchend="enableItems">Enable Items</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-enabled="false" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-enabled="false" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
-    </div>
+    </div>>
 
     <script>
         function enableItems() {
@@ -927,24 +866,15 @@ Example
 
     <div>
         <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-        <br />
         <button data-role="ejmbutton" data-ej-touchend="hide">Hide RadialMenu</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
@@ -971,11 +901,8 @@ To hide the radialmenu item’s badge by its index
 
     <div>
         <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-        <br />
-        Click the button to hide badge value of item in index 2 <button data-role="ejmbutton" data-ej-touchend="hideBadge">Hide Badge</button>
+        Click the button to hide badge value of item in index 2
+        <button data-role="ejmbutton" data-ej-touchend="hideBadge">Hide Badge</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
@@ -1016,29 +943,20 @@ To hide the radialmenu when the target clicked
 
     <div>
         <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-        <br />
-        <button data-role="ejmbutton" data-ej-touchend="hideMenu">Hide Menu</button>
+        <button data-role="ejmbutton" data-ej-touchend="hide">Hide RadialMenu</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
     <script>
-        function hideMenu() {
+        function hide() {
             $("#defaultradialmenu").ejmRadialMenu("hideMenu");
         }
     </script>
@@ -1052,33 +970,25 @@ To hide the radialmenu when the target clicked
 ### show()
 {:#methods:show} 
 
-To Show the radialmenu
+To Show the radialmenu when it is hided
 
 #### Example
 
 {% highlight html %}
 
 
+
     <div>
         <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-        <br />
-        <button data-role="ejmbutton" data-ej-touchend="show">Show RadialMenu</button>
+        <button data-role="ejmbutton" data-ej-touchend="show">Hide RadialMenu</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
@@ -1106,14 +1016,10 @@ N> You can show only the already hidden badge by “hideBadge()” method.
 {% highlight html %}
 
 
-    <div>
+       <div>
         <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-        <br />
-        Click the button to hide badge value of item in index 2 <button data-role="ejmbutton" data-ej-touchend="hideBadge">Hide Badge</button><br />
-        Click the button to show badge value of item in index 2 <button data-role="ejmbutton" data-ej-touchend="showBadge">Show Badge</button>
+        Click the button to hide badge value of item in index 3 <button data-role="ejmbutton" data-ej-touchend="hideBadge">Hide Badge</button><br />
+        Click the button to show badge value of item in index 3 <button data-role="ejmbutton" data-ej-touchend="showBadge">Show Badge</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
@@ -1132,11 +1038,11 @@ N> You can show only the already hidden badge by “hideBadge()” method.
 
     <script>
         function hideBadge() {
-            $("#defaultradialmenu").ejmRadialMenu("hideBadge", 2)
+            $("#defaultradialmenu").ejmRadialMenu("hideBadge", 3)
         }
 
         function showBadge() {
-            $("#defaultradialmenu").ejmRadialMenu("showBadge", 2)
+            $("#defaultradialmenu").ejmRadialMenu("showBadge", 3)
         }
     </script>
 
@@ -1157,33 +1063,23 @@ To Show the radialmenu when the target clicked
 
     <div>
         <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-        <br />
-        <button data-role="ejmbutton" data-ej-touchend="showMenu">Show Menu</button>
+        <button data-role="ejmbutton" data-ej-touchend="show">Show RadialMenu</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
     <script>
-        function showMenu() {
+        function show() {
             $("#defaultradialmenu").ejmRadialMenu("showMenu");
         }
     </script>
-
 
 
 {% endhighlight %}
@@ -1202,24 +1098,16 @@ To update badge the radialmenu item. Parameters must be passed are: 1. index of 
 
     <div>
         <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-        <br />
-        Click the button to update badge value to 55 of item in index 2 <button data-role="ejmbutton" data-ej-touchend="updateBadge">Update Badge</button>
+        Click the button to update badge value to 55 of item in index 2
+        <button data-role="ejmbutton" data-ej-touchend="updateBadge">Update Badge</button>
     </div>
     <div id="defaultradialmenu" data-role="ejmradialmenu">
         <ul>
-            <li data-ej-imagename="social.png" data-ej-badge-value="10" data-ej-badge-enabled="true" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-badge-value="33" data-ej-badge-enabled="true" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-badge-value="5" data-ej-badge-enabled="true" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
+            <li data-ej-windows-text="google" data-ej-badge-enabled="true" data-ej-badge-value="2" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+            <li data-ej-windows-text="music" data-ej-badge-enabled="true" data-ej-badge-value="20" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+            <li data-ej-windows-text="direction" data-ej-badge-enabled="true" data-ej-badge-value="6" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+            <li data-ej-windows-text="message" data-ej-badge-enabled="true" data-ej-badge-value="10" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+            <li data-ej-windows-text="browser" data-ej-badge-enabled="true" data-ej-badge-value="15" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
     </div>
 
@@ -1228,6 +1116,7 @@ To update badge the radialmenu item. Parameters must be passed are: 1. index of 
             $("#defaultradialmenu").ejmRadialMenu("updateBadgeValue", 2, 55)
         }
     </script>
+
 
 
 
@@ -1281,27 +1170,15 @@ Returns the name of the event</td></tr>
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
-    <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-close="close">
-        <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
-        </ul>
-    </div>
+   <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-close="close">
+  <ul>
+      <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+      <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+      <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+      <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+      <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
+   </ul>      
+</div>
 
     <script>
         function close(args) {
@@ -1319,27 +1196,15 @@ Returns the name of the event</td></tr>
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-    <div id="defaultradialmenu">
-        <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
-        </ul>
-    </div>
-
+ <div id="defaultradialmenu">
+  <ul>
+      <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+      <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+      <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+      <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+      <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
+   </ul>      
+</div>
     <script>
         $("#defaultradialmenu").ejmRadialMenu({ close: "close" });
 
@@ -1399,27 +1264,15 @@ Returns the name of the event</td></tr>
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
-    <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-open="open">
-        <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
-        </ul>
-    </div>
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-open="open">
+  <ul>
+      <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+      <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+      <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+      <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+      <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
+   </ul>      
+</div>
 
     <script>
         function open(args) {
@@ -1437,27 +1290,15 @@ Returns the name of the event</td></tr>
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-    <div id="defaultradialmenu">
-        <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social"></li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
-        </ul>
-    </div>
-
+<div id="defaultradialmenu">
+  <ul>
+      <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+      <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+      <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+      <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+      <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
+   </ul>      
+</div>
     <script>
         $("#defaultradialmenu").ejmRadialMenu({ open: "open" });
 
@@ -1529,35 +1370,15 @@ Returns the index of selected item</td></tr>
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
-    <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-select="select">
-        <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social">
-                <ul>
-                    <li data-ej-imagename="googleplus.png" data-ej-imagepath="themes/sampleimages/radialmenu"
-                        data-ej-windows-text="googleplus" data-ej-flat-text="googleplus"></li>
-                    <li data-ej-imagename="facebook.png" data-ej-imagepath="themes/sampleimages/radialmenu"
-                        data-ej-windows-text="facebook" data-ej-flat-text="facebook"></li>
-                </ul>
-            </li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
-        </ul>
-    </div>
-
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-select="select">
+  <ul>
+      <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+      <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+      <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+      <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+      <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
+   </ul>      
+</div>
     <script>
         function select(args) {
             //handle the event
@@ -1574,33 +1395,15 @@ Returns the index of selected item</td></tr>
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-    <div id="defaultradialmenu">
-        <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social">
-                <ul>
-                    <li data-ej-imagename="googleplus.png" data-ej-imagepath="themes/sampleimages/radialmenu"
-                        data-ej-windows-text="googleplus" data-ej-flat-text="googleplus"></li>
-                    <li data-ej-imagename="facebook.png" data-ej-imagepath="themes/sampleimages/radialmenu"
-                        data-ej-windows-text="facebook" data-ej-flat-text="facebook"></li>
-                </ul>
-            </li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
-        </ul>
-    </div>
+<div id="defaultradialmenu">
+  <ul>
+      <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+      <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+      <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+      <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+      <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
+   </ul>      
+</div>
 
     <script>
         $("#defaultradialmenu").ejmRadialMenu({ select: "select" });
@@ -1673,34 +1476,15 @@ Returns the index of selected child item</td></tr>
 
 
     <!-- Unobtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-
-    <div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-touch="touch">
-        <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social">
-                <ul>
-                    <li data-ej-imagename="googleplus.png" data-ej-imagepath="themes/sampleimages/radialmenu"
-                        data-ej-windows-text="googleplus" data-ej-flat-text="googleplus"></li>
-                    <li data-ej-imagename="facebook.png" data-ej-imagepath="themes/sampleimages/radialmenu"
-                        data-ej-windows-text="facebook" data-ej-flat-text="facebook"></li>
-                </ul>
-            </li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
-        </ul>
-    </div>
+<div id="defaultradialmenu" data-role="ejmradialmenu" data-ej-touch="touch">
+  <ul>
+      <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+      <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+      <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+      <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+      <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
+   </ul>      
+</div>
 
     <script>
         function touch(args) {
@@ -1718,33 +1502,15 @@ Returns the index of selected child item</td></tr>
 
 
     <!-- Obtrusive way of rendering -->
-    <div>
-        <br />
-        <p>
-            Syncfusion is the enterprise technology partner of choice for Windows development
-        </p>
-    </div>
-    <div id="defaultradialmenu">
-        <ul>
-            <li data-ej-imagename="social.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="social">
-                <ul>
-                    <li data-ej-imagename="googleplus.png" data-ej-imagepath="themes/sampleimages/radialmenu"
-                        data-ej-windows-text="googleplus" data-ej-flat-text="googleplus"></li>
-                    <li data-ej-imagename="facebook.png" data-ej-imagepath="themes/sampleimages/radialmenu"
-                        data-ej-windows-text="facebook" data-ej-flat-text="facebook"></li>
-                </ul>
-            </li>
-            <li data-ej-imagename="music.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="music"></li>
-            <li data-ej-imagename="direction.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="direction"></li>
-            <li data-ej-imagename="message.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="message"></li>
-            <li data-ej-imagename="browser.png" data-ej-imagepath="themes/sample/radialmenu"
-                data-ej-windows-text="browser"></li>
-        </ul>
-    </div>
+<div id="defaultradialmenu">
+  <ul>
+      <li data-ej-windows-text="google" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/google.png"></li>
+      <li data-ej-windows-text="music" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/music.png"></li>
+      <li data-ej-windows-text="direction" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/direction.png"></li>
+      <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
+      <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
+   </ul>      
+</div>
 
     <script>
         $("#defaultradialmenu").ejmRadialMenu({ touch: "touch" });

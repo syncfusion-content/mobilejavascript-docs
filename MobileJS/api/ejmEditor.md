@@ -161,8 +161,7 @@ Numeric
 ### autoFocus `Boolean`
 {:#members:autofocus}
 
-Specifies whether to be autofocus on initialization.
-
+Specifies whether to focus the control in initialization
 #### Default Value:
 
 * false
