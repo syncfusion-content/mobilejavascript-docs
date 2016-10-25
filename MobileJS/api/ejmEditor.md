@@ -811,7 +811,7 @@ Numeric
 ### format `String`
 {:#members:format}
 
-Specifies the format for maskedit.
+Specifies the 'format' for maskedit.
 
 #### Default Value:
 
@@ -1019,7 +1019,7 @@ Numeric
 ### maxLength `String`
 {:#members:maxlength}
 
-Specifies the maxLength on initialization.
+Specifies the maximum length on initialization.
 
 #### Default Value:
 
@@ -1108,6 +1108,10 @@ TextArea
 
 Specifies the maximum value.
 
+#### Default Value:
+
+* -(Number.MAX_VALUE)
+
 #### Example
 
 Numeric
@@ -1139,6 +1143,10 @@ Numeric
 {:#members:minvalue}
 
 Specifies the minimum value.
+
+#### Default Value:
+
+*  Number.MAX_VALUE
 
 #### Example
 
@@ -1172,7 +1180,7 @@ Numeric
 ### readOnly `Boolean`
 {:#members:readonly}
 
-Specifies whether to be readonly on initialization.
+Specifies whether to be 'readonly' on initialization.
 
 #### Default Value:
 
@@ -1513,7 +1521,7 @@ TextBox
 ### value `String`
 {:#members:value}
 
-Specifies the value on initialization.
+Specifies the 'value' on initialization.
 
 #### Default Value:
 
@@ -1645,7 +1653,7 @@ Numeric
 ### watermarkText `String`
 {:#members:watermarktext}
 
-Specifies the watermarkText on initialization.
+The text to be displayed when the value of the  textbox is empty.
 
 #### Default Value:
 
