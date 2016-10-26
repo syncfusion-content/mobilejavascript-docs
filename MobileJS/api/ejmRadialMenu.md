@@ -769,7 +769,7 @@ To disable a set of radialmenu items by array of indices
             <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
             <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
-    </div>>
+    </div>
 
     <script>
         function disableItems() {
@@ -805,7 +805,7 @@ To enable a radialmenu item by its index
             <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
             <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
-    </div>>
+    </div>
 
     <script>
         function enableItem() {
@@ -841,7 +841,7 @@ To enable a set of radialmenu items by array of indices
             <li data-ej-windows-text="message" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/message.png"></li>
             <li data-ej-windows-text="browser" data-ej-imageurl="http://js.syncfusion.com/UG/Mobile/Content/radial/browser.png"></li>
         </ul>
-    </div>>
+    </div>
 
     <script>
         function enableItems() {
