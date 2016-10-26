@@ -273,6 +273,16 @@ It specifies the HTTP request type.
 
 * "get"
 
+### ajaxSettings.url `string`
+{:#members:ajaxsettings-url}
+
+Specifies the URL to which the request is sent.
+
+
+#### Default Value
+
+
+* ""
 
 ### allowSwiping `boolean`
 {:#members:allowSwiping} 
