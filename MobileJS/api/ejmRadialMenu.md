@@ -970,7 +970,7 @@ To hide the radialmenu when the target clicked
 ### show()
 {:#methods:show} 
 
-To Show the radialmenu when it is hided
+To show the hidden RadialMenu control.
 
 #### Example
 
