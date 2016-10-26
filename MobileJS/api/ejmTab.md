@@ -276,7 +276,7 @@ It specifies the HTTP request type.
 ### ajaxSettings.url `string`
 {:#members:ajaxsettings-url}
 
-It specifies the url reach with Ajax
+Specifies the URL to which the request is sent.
 
 
 #### Default Value
