@@ -310,7 +310,7 @@ N> This property works only for multi selection mode, hence the property enableM
 ### enabled `boolean`
 {:#members:enabled}
 
-Specifies whether to enable the DropDownList on initialization.
+Specifies whether to enable or disable the DropDownList control.
 
 #### Default Value
 
@@ -468,12 +468,12 @@ Specifies to maintain the current model value to browser cookies for state maint
 
 ### fields
 
-Section for fields specific properties
+Fields used to bind the data source and it includes following field members to make data bind easier.
 
 ### fields.checkBy `boolean`
 {:#members:fields-checkby}
 
-Maps the check status for each option in DropDownList initially. This is an optional property used only for multiselection DropDownList.
+Maps the check status for each option in DropDownList initially. This is an optional property used only for multi selection DropDownList.
 
 #### Default Value
 
@@ -579,7 +579,7 @@ Maps the group name in which each option belongs to in DropDownList. This is an 
 ### fields.image `string`
 {:#members:fields-image}
 
-Maps text field from the data source. This is a required property while rendering the DropDownList from data source. 
+Maps image field from the data source. This is a required property while rendering the DropDownList from data source. 
 
 N> Since field mapping depends on data source, the dataSource property must be set with a JSON data.
 
@@ -744,7 +744,7 @@ Maps the value for each option from the data source. This is an optional propert
 ### itemsCount `number`
 {:#members:itemscount}
 
-Specifies how many items need to render initially from remote data source. You can set the itemsCount property that represents the number of items to be fetched from the server on every AJAX request in virtual scrolling feature.
+Specifies how many items need to render initially from remote data source. You can set the items count using itemsCount property that represents the number of items to be fetched from the server on every AJAX request in virtual scrolling feature.
 
 N> This property works based on remote data source, hence the dataSource and fields.text properties should be set properly while rendering.
 
@@ -1227,7 +1227,7 @@ Specifies the target element which consists the list of options to render DropDo
 ### templateId `string`
 {:#members:templateid}
 
-Specifies ID of the element contains template contents of options.
+Specifies ID of the element that contains template contents.
 
 N> For DropDownList template rendering, jsrender.js file reference needed.
 

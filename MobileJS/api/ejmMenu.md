@@ -141,7 +141,7 @@ Specifies whether to allow scrolling behavior for the contents.
 ### cancelButton `Object`
 {:#members:cancelbutton}
 
-Specifies the cancelbutton.
+Specifies the cancel button of the menu control.
 
 
 N>Cancel button is shown only for Actionsheet type
@@ -205,7 +205,7 @@ Specifies the color of the cancel button text.
 ### cancelButton.show `Boolean`
 {:#members:cancelbutton-show}
 
-Specifies to show the cancelbutton.
+Specifies the show or hide of the menu control.
 
 #### Default Value:
 
@@ -265,7 +265,7 @@ Specifies to customize the cancel button text.
 
 #### Default Value:
 
-* “Cancel”
+* null
 
 #### Example
 
@@ -315,7 +315,7 @@ Specifies to customize the cancel button text.
 ### color `String`
 {:#members:color}
 
-Specifies the text color of the menu items.
+Specifies the text color of the menu item.
 
 #### Default Value:
 
@@ -402,7 +402,7 @@ Sets the root class for Menu theme. This cssClass API helps to use custom skinni
 ### dataSource `data`
 {:#members:datasource}
 
-Specifies the datasource is enabled.
+Specifies the data source for Menu rendering. In Menu, options can be given as data source of JSON array.
 
 #### Default Value:
 
@@ -556,12 +556,12 @@ Specifies the ripple effect for the menu control. By default in android mode its
 ### fields
 {:#members:fields}
 
-Specifies the fields.
+Fields used to bind the data source and it includes following field members to make data bind easier.
 
 ### fields.color `String`
 {:#members:fields-color}
 
-Specifies color of the field’s text.
+Specifies the text color of menu item.
 
 #### Default Value:
 
@@ -603,7 +603,7 @@ Specifies color of the field’s text.
 ### fields.href `String`
 {:#members:fields-href}
 
-Specifies href of the fields.
+Specifies the URL to navigate to when the item is clicked.
 
 #### Default Value:
 
@@ -623,36 +623,28 @@ Specifies href of the fields.
 
 {% endhighlight %}
 
+{% highlight html %}
 
-
-&lt;!-- Obtrusive way of rendering --&gt;
-
-    &lt;div&gt;
-
-        &lt;input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" /&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="menu"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
-
+<!-- Obtrusive way of rendering -->
+    <div>
+        <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
+    </div>
+    <div id="menu">
+    </div>
+    <script>
         $(function () {
 
             $("#menu").ejmMenu({ target: "menuitem", dataSource: window.listData, fields: { text: "name", href: "href" } });
-
         });
+    </script>
 
-    &lt;/script&gt;
-
+{% endhighlight %}
 
 
 ### fields.text `String`
 {:#members:fields-text}
 
-Specifies the field’s text.
+Specifies the text to display on the menu item. 
 
 #### Default Value:
 
@@ -696,7 +688,7 @@ Specifies the field’s text.
 ### height `Int`
 {:#members:height}
 
-Specifies the height.
+Specifies the height of the menu control.
 
 #### Default Value:
 
@@ -758,28 +750,21 @@ Specifies the href of the menu items.
 
 #### Example
 
-&lt;!-- Unobtrusive way of rendering --&gt;
+{% highlight html %}
 
-    &lt;div&gt;
-
-        &lt;input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" /&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="menu" data-role="ejmmenu" data-ej-target="menuitem"&gt;
-
-        &lt;ul&gt;
-
-            &lt;li data-ej-text="Desktop" data-ej-href="http://js.syncfusion.com/demos/mobile/"&gt;&lt;/li&gt;
-
-            &lt;li data-ej-text="Phone" data-ej-href="http://js.syncfusion.com/demos/mobile/phone"&gt;&lt;/li&gt;
-
-            &lt;li data-ej-text="Home" data-ej-href="http://www.syncfusion.com"&gt;&lt;/li&gt;
-
-        &lt;/ul&gt;
-
-    &lt;/div&gt;
-
+<!-- Unobtrusive way of rendering -->
+    <div>
+        <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
+    </div>
+    <div id="menu" data-role="ejmmenu" data-ej-target="menuitem">
+        <ul>
+            <li data-ej-text="Desktop" data-ej-href="http://js.syncfusion.com/demos/mobile/"></li>
+            <li data-ej-text="Phone" data-ej-href="http://js.syncfusion.com/demos/mobile/phone"></li>
+            <li data-ej-text="Home" data-ej-href="http://www.syncfusion.com"></li>
+        </ul>
+    </div>
+    
+{% endhighlight %}
 
 ### locale `String`
 {:#members:locale}
@@ -798,14 +783,18 @@ Change the menu text format based on given culture.
     <div>
         <input id="menuitem" type="button" data-role="ejmbutton" data-ej-text="Menu" />
     </div>
-    <div id="menu" data-role="ejmmenu" data-ej-target="menuitem" data-ej-locale="en-US">
+    <div id="menu" data-role="ejmmenu" data-ej-target="menuitem" data-ej-locale="zh-CN">
         <ul>
             <li data-ej-text="Get info"></li>
             <li data-ej-text="Show in folder"></li>
             <li data-ej-text="Delete"></li>
         </ul>
     </div>
-
+    <script>
+        ej.mobile.Menu.Locale['zh-CN'] = {
+            title: "標題"
+        };
+    </script>
 
 {% endhighlight %}
 
@@ -828,8 +817,11 @@ Change the menu text format based on given culture.
         // Set type on initialization.
         // To set menu type API value
         $(function () {
-            $("#menu").ejmMenu({ target: "menuitem", locale: "en-US" });
+            $("#menu").ejmMenu({ target: "menuitem", locale: "zh-CN" });
         });
+		ej.mobile.Menu.Locale['zh-CN'] = {
+            title: "標題"
+        };
     </script>
 
 
@@ -888,7 +880,7 @@ Specifies the query to execute with the datasource.
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Specifies the rendering mode of the control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
+Specifies the rendering mode of the Menu control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 #### Default Value:
 
@@ -1115,7 +1107,7 @@ Specifies to show the action sheet and popover menu title.
 ### target `String`
 {:#members:target}
 
-Specifies the target element.
+Specifies the target element of the menu control.
 
 #### Default Value:
 
@@ -1281,7 +1273,7 @@ Specifies to customize the action sheet and popover title text.
 ### type `Enum`
 {:#members:type}
 
-Specifies menu type. See ej.mobile.Menu.Type
+Specifies the type of the menu control. See ej.mobile.Menu.Type
 
 #### Default Value:
 
@@ -1337,7 +1329,7 @@ Specifies menu type. See ej.mobile.Menu.Type
 ### width `Int`
 {:#members:width}
 
-Specifies the width.
+Specifies the width of the menu control.
 
 #### Default Value:
 
