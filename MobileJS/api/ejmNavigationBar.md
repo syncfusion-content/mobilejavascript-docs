@@ -368,7 +368,7 @@ Specifies whether to enable ripple effect on toolbar item click or not.
 
 #### Default Value
 
-* for android render mode, true otherwise false
+* ej.isAndroid() ? true : false
 
 #### Example
 
