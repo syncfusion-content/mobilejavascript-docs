@@ -65,16 +65,34 @@ Refer to the following code example.
 
 {% endhighlight %}
 
- Add the following styles to the style section. 
+{% highlight css %}
 
-<table>
-<tr>
-<td>
-> <i><b>Note: You can use the following styles for all the other samples explained as follows.</b></i></td></tr>
-<tr>
-<td>
-        .photo {            background-position: center center;            background-repeat: no-repeat;            height: 100%;            width: 100%;            background-size:contain;        }        .photo1 {            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/tablet.jpg);        }        .photo2 {            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/rose.jpg);        }        .photo3 {            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/green.jpg);        }        .photo4 {            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/nature.jpg);        }        .photo5 {            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/snowfall.jpg);        }</td></tr>
-</table>
+
+        .photo { 
+            background-position: center center;  
+            background-repeat: no-repeat;
+            height: 100%; 
+            width: 100%;  
+            background-size:contain;
+        }   
+        .photo1 {     
+            background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/tablet.jpg);    
+        }      
+        .photo2 {    
+        background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/rose.jpg);  
+        }      
+        .photo3 {      
+        background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/green.jpg);        
+        }        
+        .photo4 { 
+        background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/nature.jpg); 
+        }
+        .photo5 {
+        background-image: url(http://js.syncfusion.com/UG/Mobile/Content/rotator/snowfall.jpg);        
+        }
+
+        {% endhighlight %}
+
 
 ![](orientation_images\orientation_img1.png)
 
