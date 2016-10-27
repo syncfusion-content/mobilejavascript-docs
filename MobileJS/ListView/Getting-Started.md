@@ -55,25 +55,56 @@ Add the following code to render ListView
 {% highlight html %}
 
     <!--Add Header Element Here-->
-    <div id="header" data-role="ejmnavigationbar" data-ej-title="Mailbox" data-ej-isrelative="true">
+     <div id="header" data-role="ejmnavigationbar" data-ej-title="Mailbox" data-ej-isrelative="true">
     </div>
-
-    <!--Add Listview Element Here-->
-    <ul data-role="ejmlistview" id="grouplistsamp">
-        <span>Mailboxes</span>
-        <!--Add Listview Images Here-->
-        <li data-ej-text="Inbox"></li>
-        <li data-ej-text="VIP"></li>
-        <span>Labels</span>
-        <li data-ej-text="Draft"></li>
-        <li data-ej-text="Sent"></li>
-        <li data-ej-text="Junk"></li>
-        <li data-ej-text="Trash"></li>
-        <li data-ej-text="All Mail"></li>
-        <li data-ej-text="Mail"></li>
-    </ul>
+    <!--Add ListView Element Here-->
+        <ul id="listview" data-role="ejmlistview" data-ej-datasource="window.listData" data-ej-fields-groupby="group" data-ej-fields-text="text" data-ej-fields-image="image"></ul>
+    <script>
+        window.listData = [{ text: "Inbox", image: "http://js.syncfusion.com/ug/mobile/content/listview/sprite.png", group: "MailBoxes" },
+                           { text: "VIP", image: "http://js.syncfusion.com/ug/mobile/content/listview/sprite.png", group: "MailBoxes" },
+                           { text: "Draft", image: "http://js.syncfusion.com/ug/mobile/content/listview/sprite.png", group: "MailBoxes" },
+                           { text: "Sent", image: "http://js.syncfusion.com/ug/mobile/content/listview/sprite.png", group: "MailBoxes" },
+                           { text: "Junk", image: "http://js.syncfusion.com/ug/mobile/content/listview/sprite.png", group: "MailBoxes" },
+                           { text: "Trash", image: "http://js.syncfusion.com/ug/mobile/content/listview/sprite.png", group: "MailBoxes" }];
+    </script>
 
 
 {% endhighlight %}
 
-![](grouped-list_images\grouped-list_img1.png)
+Add the below style for images
+
+{% highlight css %}
+
+        .e-m-lv-item .e-m-lv-image {
+            background-size: 26px 375px;
+        }
+
+    
+        .e-m-lv-item:nth-child(2) .e-m-lv-image {
+            background-position: 8px -87px;            
+        }
+
+        .e-m-lv-item:nth-child(3) .e-m-lv-image {
+            background-position: 7px -337px;
+        }
+
+        .e-m-lv-item:nth-child(4) .e-m-lv-image {
+            background-position: 11px -40px;
+        }
+
+        .e-m-lv-item:nth-child(5) .e-m-lv-image {
+            background-position: 8px -229px;
+        }
+
+        .e-m-lv-item:nth-child(6) .e-m-lv-image {
+            background-position: 8px 12px;
+        }
+
+        .e-m-lv-item:nth-child(7) .e-m-lv-image {
+            background-position: 12px -286px;
+        }
+
+{% endhighlight %}
+
+
+![](getting-started_images\listview.png)
