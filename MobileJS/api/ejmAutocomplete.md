@@ -167,7 +167,7 @@ Sets the root class for AutoComplete theme. This cssClass API helps to use custo
 ### dataSource `data`
 {:#members:datasource}
 
-Specifies the datasource for items.
+Specifies the data source for AutoComplete rendering. In AutoComplete , options can be given as data source of JSON array.
 
 #### Default Value: 
 
@@ -239,7 +239,7 @@ Specifies the text that to be displayed while there is no suggestion for AutoCom
 
 #### Default Value: 
 
-* “No suggestions”
+* null
 
 #### Example
 
@@ -440,13 +440,13 @@ Current model value to browser cookies for state maintains. While refresh the Au
 ### fields
 {:#members:fields}
 
-Specifies the datasource text field that to be queried by search key on initialization.
+Fields used to bind the data source and it includes following field members to make data bind easier.
 
 
 ### fields.image `String`
 {:#members:fields-image}
 
-Specifies the field’s image.
+Specifies the name of the field from the data source that contains image URL values.
 
 #### Default Value: 
 
@@ -479,7 +479,7 @@ Specifies the field’s image.
 ### fields.key `String`
 {:#members:fields-key}
 
-Specifies the field’s key.
+Specifies the field name which contains unique key values for the list items.
 
 #### Default Value: 
 
@@ -513,7 +513,7 @@ Specifies the field’s key.
 ### fields.text `String`
 {:#members:fields-text}
 
-Specifies the field’s text.
+Specifies the name of the field from the data source to bind to the Text property of an AutoComplete item.
 
 #### Default Value: 
 
@@ -892,7 +892,7 @@ Specifies the suggestion list sorting order. See[SortOrder](http://help.syncfusi
 ### templateId `String`
 {:#members:templateid}
 
-Specifies the template id for items.
+Specifies ID of the element that contains template contents.
 
 #### Default Value: 
 
