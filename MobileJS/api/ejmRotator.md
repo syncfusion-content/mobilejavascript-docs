@@ -17,7 +17,10 @@ Custom Design for Html Rotator control.
 $(element).ejmRotator();
 
 ####Example
-    <!-- Unbtrusive way of rendering -->
+
+{% highlight html %}
+
+    <!-- Unobtrusive way of rendering -->
  
  <div id="rotatorcontent">
         <div data-ej-imageurl="bird.jpg">
@@ -35,10 +38,12 @@ $(element).ejmRotator();
     </div>
     <div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent">
     </div>
-
+	{% endhighlight %}
+	
+	{% highlight html %}
+	
     <!-- Obtrusive way of rendering -->
- 
- <div id="rotatorcontent">
+     <div id="rotatorcontent">
         <div data-ej-imageurl="bird.jpg">
         </div>
         <div data-ej-imageurl="wheat.jpg">
@@ -59,8 +64,11 @@ $(element).ejmRotator();
             $("#rotator").ejmRotator({ targetId: "rotatorcontent" });
         })
     </script>
+	
+	{% endhighlight %}
 
-####Requires
+#### Requires
+
 * module:jQuery
 
 * module:ej.core
@@ -86,100 +94,99 @@ Specifies the currentItemIndex for select the particular item based on the speci
 
 #### Example  
 
-//Set the currentItemIndex property in unobtrusive way.
+{% highlight html %}
+
+<!-- Unobtrusive way of rendering -->
+
+ <div id="rotatorcontent">
+
+        <div data-ej-imageurl="bird.jpg">
+
+        </div>
+
+        <div data-ej-imageurl="wheat.jpg">
+
+        </div>
+
+        <div data-ej-imageurl="card.jpg">
+
+        </div>
+
+        <div data-ej-imageurl="rose.jpg">
+
+        </div>
+
+        <div data-ej-imageurl="snowfall.jpg">
+
+        </div>
+
+        <div data-ej-imageurl="bird.jpg">
+
+        </div>
+
+    </div>
+
+    <div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-currentitemindex="2">
+
+    </div>
+
+{% endhighlight %}
 
 
+{% highlight html %}
 
- &lt;div id="rotatorcontent"&gt;
+<!-- Obtrusive way of rendering -->
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+<div id="rotatorcontent">
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="wheat.jpg">
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="card.jpg">
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="rose.jpg">
 
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="snowfall.jpg">
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-    &lt;/div&gt;
+        </div>
 
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-currentitemindex="2"&gt;
+    </div>
 
-    &lt;/div&gt;
+    <div id="rotator">
 
+    </div>
 
-
-// Set currentItemIndex on initialization.
-
-
-
-&lt;div id="rotatorcontent"&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="card.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotator"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
+    <script>
 
         $(function () {
 
                        //To set currentItemIndex API value
 
-
-
             $("#rotator").ejmRotator({ targetId: "rotatorcontent", currentItemIndex: 2 });
 
         })
 
-    &lt;/script&gt;
+    </script>
 
-
+{% endhighlight %}
 
 ### dataSource
 {:#members:datasource}
 
-Specifies the dataSource for items.
+Specifies the data source for Rotator rendering. In Rotator , options can be given as data source of JSON array.
 
 #### Default Value:
 
@@ -187,153 +194,100 @@ Specifies the dataSource for items.
 
 #### Example  
 
-//Set the dataSource property in unobtrusive way.
-
-
-
-  &lt;style&gt;
-
-        .image-bird {
-
-            background-image: url("bird.jpg");
-
-        }
-
-
-
-        .image-wheat {
-
-            background-image: url("wheat.jpg");
-
-        }
-
-
-
-        .image-card {
-
-            background-image: url("card.jpg");
-
-        }
-
-
-
-        .image-rose {
-
-            background-image: url("rose.jpg");
-
-        }
-
-
-
-        .image-snowfall {
-
-            background-image: url("snowfall.jpg");
-
-        }
-
-    &lt;/style&gt;
-
-
-
-    &lt;script type="text/javascript"&gt;
-
-        window.dataSource = [{ imageUrl: 'image-bird' }, { imageUrl: 'image-wheat' }, { imageUrl: 'image-card' }, { imageUrl: 'image-rose' }, { imageUrl: 'image-snowfall' }];
-
-    &lt;/script&gt;
-
-    &lt;div id="rotatorcontent"&gt;
-
-        &lt;div class="e-m-rotator-image {{:imageUrl}}"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-datasource="window.dataSource"&gt;
-
-    &lt;/div&gt;
-
-
-
-// Set dataSource on initialization.
-
-
-
-&lt;style&gt;
-
-        .image-bird {
-
-            background-image: url("bird.jpg");
-
-        }
-
-
-
-        .image-wheat {
-
-            background-image: url("wheat.jpg");
-
-        }
-
-
-
-        .image-card {
-
-            background-image: url("card.jpg");
-
-        }
-
-
-
-        .image-rose {
-
-            background-image: url("rose.jpg");
-
-        }
-
-
-
-        .image-snowfall {
-
-            background-image: url("snowfall.jpg");
-
-        }
-
-    &lt;/style&gt;
-
-    &lt;div id="rotatorcontent"&gt;
-
-
-
-        &lt;div class="e-m-rotator-image {{:imageUrl}}"&gt;
-
-        &lt;/div&gt;
-
-
-
-    &lt;/div&gt;
-
-
-
-    &lt;div id="rotator"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
-
-        $(function () {
-
-                       //To set dataSource API value
-
-
-
-            $("#rotator").ejmRotator({ targetId: "rotatorcontent", dataSource: [{ imageUrl: 'image-bird' }, { imageUrl: 'image-wheat' }, { imageUrl: 'image-card' }, { imageUrl: 'image-rose' }, { imageUrl: 'image-snowfall' }] });
-
-        })
-
-    &lt;/script&gt;
-
-
+{% highlight html %}
+
+<!-- Unobtrusive way of rendering -->
+<style>
+    .image-bird
+    {
+        background-image: url("bird.jpg");
+    }
+        
+    .image-wheat
+    {
+        background-image: url("wheat.jpg");
+    }
+        
+    .image-card
+    {
+        background-image: url("card.jpg");
+    }
+        
+    .image-rose
+    {
+        background-image: url("rose.jpg");
+    }
+        
+    .image-snowfall
+    {
+        background-image: url("snowfall.jpg");
+    }
+</style>
+<script type="text/javascript">
+
+    window.dataSource = [{ imageUrl: 'image-bird' }, { imageUrl: 'image-wheat' }, { imageUrl: 'image-card' }, { imageUrl: 'image-rose' }, { imageUrl: 'image-snowfall'}];
+
+</script>
+<div id="rotatorcontent">
+    <div class="e-m-rotator-image {{:imageUrl}}">
+    </div>
+</div>
+<div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent"
+    data-ej-datasource="window.dataSource">
+</div>
+
+
+{% endhighlight %}
+
+
+{% highlight html %}
+
+<style>
+    .image-bird
+    {
+        background-image: url("bird.jpg");
+    }
+        
+    .image-wheat
+    {
+        background-image: url("wheat.jpg");
+    }
+        
+    .image-card
+    {
+        background-image: url("card.jpg");
+    }
+        
+    .image-rose
+    {
+        background-image: url("rose.jpg");
+    }
+        
+    .image-snowfall
+    {
+        background-image: url("snowfall.jpg");
+    }
+</style>
+<div id="rotatorcontent">
+    <div class="e-m-rotator-image {{:imageUrl}}">
+    </div>
+</div>
+<div id="rotator">
+</div>
+<script>
+
+    $(function () {
+
+        //To set dataSource API value
+
+        $("#rotator").ejmRotator({ targetId: "rotatorcontent", dataSource: [{ imageUrl: 'image-bird' }, { imageUrl: 'image-wheat' }, { imageUrl: 'image-card' }, { imageUrl: 'image-rose' }, { imageUrl: 'image-snowfall'}] });
+
+    })
+
+</script>
+	
+
+{% endhighlight %}
 
 ### cssClass `String`
 {:#members:cssclass}
@@ -346,115 +300,74 @@ Specify the CSS class to Rotator to achieve custom theme.
 
 #### Example  
 
+{% highlight html %}
+
+<!-- Unobtrusive way of rendering -->
+<style>
+    .customize-rotator .e-m-rotator-image
+    {
+        background-size: 200px 200px;
+    }
+</style>
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-cssclass="customize-rotator">
+</div>
 
 
-//Set the cssClass property in unobtrusive way.
+{% endhighlight %}
 
-&lt;style&gt;
+{% highlight html %}
 
-        .customize-rotator .e-m-rotator-image{
+<!-- Obtrusive way of rendering -->
+<style>
+    .customize-rotator .e-m-rotator-image
+    {
+        background-size: 200px 200px;
+    }
+</style>
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotator">
+</div>
+<script>
 
-            background-size:200px 200px;
+    $(function () {
 
-        }
+        //To set cssClass API value
 
-    &lt;/style&gt;
+        $("#rotator").ejmRotator({ targetId: "rotatorcontent", cssClass: "customize-rotator" });
 
-    &lt;div id="rotatorcontent"&gt;
+    })
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="card.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
+</script>
 
 
-    &lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-cssclass="customize-rotator"&gt;
-
-    &lt;/div&gt;
-
-
-
-// Set cssClass on initialization.
-
-&lt;style&gt;
-
-        .customize-rotator .e-m-rotator-image {
-
-            background-size: 200px 200px;
-
-        }
-
-    &lt;/style&gt;
-
-
-
-    &lt;div id="rotatorcontent"&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="card.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotator"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
-
-        $(function () {
-
-                       //To set cssClass API value
-
-            $("#rotator").ejmRotator({ targetId: "rotatorcontent", cssClass: "customize-rotator" });
-
-        })
-
-    &lt;/script&gt;
-
-
+{% endhighlight %}
 
 ### enablePersistence `Boolean`
 {:#members:enablepersistence}
@@ -467,100 +380,66 @@ Current model value to browser cookies for state maintains. While refresh the Ro
 
 #### Example  
 
-//Set the enabledPersistence property in unobtrusive way.
+{% highlight html %}
+
+<!-- Unobtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent"
+    data-ej-enablepersistence="true">
+</div>
 
 
+{% endhighlight %}
 
-&lt;div id="rotatorcontent"&gt;
+{% highlight html %}
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+<!-- Obtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotator">
+</div>
+<script>
 
-        &lt;/div&gt;
+    $(function () {
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        //To set enablePersistence API value
 
-        &lt;/div&gt;
+        $("#rotator").ejmRotator({ targetId: "rotatorcontent", enablePersistence: true });
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+    })
+</script>
 
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-enablepersistence=true&gt;
-
-    &lt;/div&gt;
-
-
-
-// Set enablePersistence on initialization.
-
-
-
-&lt;div id="rotatorcontent"&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="card.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotator"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
-
-        $(function () {
-
-                       //To set enablePersistence API value
-
-
-
-            $("#rotator").ejmRotator({ targetId: "rotatorcontent", enablePersistence: true });
-
-        })
-
-    &lt;/script&gt;
-
-
+{% endhighlight %}
 
 ### items `Array`
 {:#members:items}
 
-Specifies the rotator items.
+Specifies the Rotator items as an array of JSON objects.
 
 #### Default Value:
 
@@ -568,41 +447,40 @@ Specifies the rotator items.
 
 #### Example  
 
-    //Set the items property in unobtrusive way.
+{% highlight html %}
+
+    <!-- Unobtrusive way of rendering -->
+
+    <div id="rotatordefault" data-role="ejmrotator"  data-ej-items="[{imageUrl:'bird.jpg'},{imageUrl:'wheat.jpg'},{imageUrl:'card.jpg'},{imageUrl:'rose.jpg'},{imageUrl:'snowfall.jpg'}]">
+
+    </div>
 
 
-
-    &lt;div id="rotatordefault" data-role="ejmrotator"  data-ej-items="[{imageUrl:'bird.jpg'},{imageUrl:'wheat.jpg'},{imageUrl:'card.jpg'},{imageUrl:'rose.jpg'},{imageUrl:'snowfall.jpg'}]"&gt;
-
-    &lt;/div&gt;
+{% endhighlight %}
 
 
+{% highlight html %}
+
+<!-- Obtrusive way of rendering -->
 
 
+<div id="rotator">
 
-// Set items on initialization.
+    </div>
 
-
-
-&lt;div id="rotator"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
+    <script>
 
         $(function () {
 
                        //To set items API value
 
-
-
             $("#rotator").ejmRotator({ items: [{ imageUrl: 'bird.jpg' }, { imageUrl: 'wheat.jpg' }, { imageUrl: 'card.jpg' }, { imageUrl: 'rose.jpg' }, { imageUrl: 'snowfall.jpg' }] });
 
         })
 
-    &lt;/script&gt;
+    </script>
 
-
+{% endhighlight %}
 
 ### orientation `Enum`
 {:#members:orientation}
@@ -623,101 +501,69 @@ To swipe the rotator content images in horizontal</td></tr>
 Vertical</td><td>
 To swipe the rotator content images in vertical</td></tr>
 </table>
+
 #### Default Value:
 
 * “horizontal”
 
 #### Example  
 
-    //Set the orientation property in unobtrusive way.
+{% highlight html %}
 
-    &lt;div id="rotatorcontent"&gt;
+<!-- Unobtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent"
+    data-ej-orientation="vertical">
+</div>
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="card.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-orientation="vertical"&gt;
-
-    &lt;/div&gt;
+{% endhighlight %}
 
 
+{% highlight html %}
 
+<!-- Obtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotator">
+</div>
+<script>
 
+    $(function () {
 
-// Set orientation on initialization.
+        //To set orientation API value
 
+        $("#rotator").ejmRotator({ targetId: "rotatorcontent", orientation: "vertical" });
 
+    })
 
-&lt;div id="rotatorcontent"&gt;
+</script>
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="card.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotator"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
-
-        $(function () {
-
-                       //To set orientation API value
-
-
-
-            $("#rotator").ejmRotator({ targetId: "rotatorcontent", orientation: "vertical" });
-
-        })
-
-    &lt;/script&gt;
-
-
+{% endhighlight %}
 
 ### pagerPosition `Enum`
 {:#members:pagerposition}
@@ -756,93 +602,62 @@ To display the pager position on right side.</td></tr>
 
 #### Example  
 
-    //Set the pagerPosition property in unobtrusive way.
+{% highlight html %}
 
+<!-- Unobtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    s
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent"
+    data-ej-pagerposition="top">
+</div>
 
+{% endhighlight %}
 
-&lt;div id="rotatorcontent"&gt;
+{% highlight html %}
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+<!-- Obtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotator">
+</div>
+<script>
 
-        &lt;/div&gt;
+    $(function () {
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        //To set pagerPosition API value
 
-        &lt;/div&gt;
+        $("#rotator").ejmRotator({ targetId: "rotatorcontent", pagerPosition: "top" });
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+    })
 
-        &lt;/div&gt;
+</script>
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        </div>s
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-pagerposition="top"&gt;
-
-    &lt;/div&gt;
-
-
-
-// Set pagerPosition on initialization.
-
-
-
-&lt;div id="rotatorcontent"&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="card.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotator"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
-
-        $(function () {
-
-                       //To set pagerPosition API value
-
-            $("#rotator").ejmRotator({ targetId: "rotatorcontent", pagerPosition: "top" });
-
-        })
-
-    &lt;/script&gt;
-
-
+{% endhighlight %}
 
 ### showPager `Boolean`
 {:#members:showpager}
@@ -855,97 +670,68 @@ Specifies whether to show the Pager on initialization.
 
 #### Example  
 
-//Set the showPager property in unobtrusive way.
 
+{% highlight html %}
 
+<!-- Unobtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent"
+    data-ej-showpager="false">
+</div>
 
- &lt;div id="rotatorcontent"&gt;
+{% endhighlight %}
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+{% highlight html %}
 
-        &lt;/div&gt;
+<!-- Obtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotator">
+</div>
+<script>
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+    $(function () {
 
-        &lt;/div&gt;
+        //To set showPager API value
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+        $("#rotator").ejmRotator({ targetId: "rotatorcontent", showPager: false });
 
-        &lt;/div&gt;
+    })
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
+</script>
 
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-showpager="false"&gt;
-
-    &lt;/div&gt;
-
-
-
-// Set showPager on initialization.
-
-
-
-&lt;div id="rotatorcontent"&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="card.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotator"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
-
-        $(function () {
-
-                   //To set showPager API value
-
-            $("#rotator").ejmRotator({ targetId: "rotatorcontent", showPager: false });
-
-        })
-
-    &lt;/script&gt;
-
+	
+{% endhighlight %}
 
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Specifies the rendering mode of the control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
+Specifies the rendering mode of the Rotator control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 <table>
 <tr>
@@ -989,100 +775,66 @@ Windows RenderMode</td></tr>
 
 #### Example  
 
-//Set the renderMode property in unobtrusive way.
+{% highlight html %}
 
+<!-- Unobtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent"
+    data-ej-rendermode="android">
+</div>
 
+{% endhighlight %}
 
-  &lt;div id="rotatorcontent"&gt;
+{% highlight html %}
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+<!-- Obtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotator">
+</div>
+<script>
 
-        &lt;/div&gt;
+    $(function () {
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        //To set renderMode API value
 
-        &lt;/div&gt;
+        $("#rotator").ejmRotator({ targetId: "rotatorcontent", renderMode: "android" });
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+    })
 
-        &lt;/div&gt;
+</script>
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-rendermode="android"&gt;
-
-    &lt;/div&gt;
-
-
-
-// Set renderMode on initialization.
-
-
-
- &lt;div id="rotatorcontent"&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="card.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotator"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
-
-        $(function () {
-
-                   //To set renderMode API value
-
-
-
-            $("#rotator").ejmRotator({ targetId: "rotatorcontent", renderMode: "android" });
-
-        })
-
-    &lt;/script&gt;
-
-
+{% endhighlight %}
 
 ### targetHeight `String`
 {:#members:targetheight}
 
-Specifies the targetHeight on initialization.
+Specifies the targetHeight on initialization of the Rotator control.
 
 #### Default Value:
 
@@ -1090,98 +842,67 @@ Specifies the targetHeight on initialization.
 
 #### Example  
 
-//Set the targetHeight property in unobtrusive way.
+{% highlight html %}
 
+<!-- Unobtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent"
+    data-ej-targetheight="300px">
+</div>
 
+{% endhighlight %}
 
-  &lt;div id="rotatorcontent"&gt;
+{% highlight html %}
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+<!-- Obtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotator">
+</div>
+<script>
 
-        &lt;/div&gt;
+    $(function () {
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        //To set targetHeight API value
 
-        &lt;/div&gt;
+        $("#rotator").ejmRotator({ targetId: "rotatorcontent", targetHeight: "300px" });
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+    })
 
-        &lt;/div&gt;
+</script>
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-targetheight="300px"&gt;
-
-    &lt;/div&gt;
-
-
-
-// Set targetHeight on initialization.
-
-&lt;div id="rotatorcontent"&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="card.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotator"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
-
-        $(function () {
-
-                   //To set targetHeight API value
-
-
-
-            $("#rotator").ejmRotator({ targetId: "rotatorcontent", targetHeight: "300px" });
-
-        })
-
-    &lt;/script&gt;
-
+{% endhighlight %}
 
 
 ### targetId `String`
 {:#members:targetid}
 
-Specifies the targetId to the content.
+Specifies the targetId to the content of the Rotator control.
 
 #### Default Value:
 
@@ -1189,103 +910,68 @@ Specifies the targetId to the content.
 
 #### Example  
 
-//Set the targetId property in unobtrusive way.
+{% highlight html %}
+
+<!-- Unobtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent">
+</div>
+
+{% endhighlight %}
+
+{% highlight html %}
 
 
+<!-- Obtrusive way of rendering -->
+<div id="rotatorcontent">
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+    <div data-ej-imageurl="wheat.jpg">
+    </div>
+    <div data-ej-imageurl="card.jpg">
+    </div>
+    <div data-ej-imageurl="rose.jpg">
+    </div>
+    <div data-ej-imageurl="snowfall.jpg">
+    </div>
+    <div data-ej-imageurl="bird.jpg">
+    </div>
+</div>
+<div id="rotator">
+</div>
+<script>
 
-&lt;div id="rotatorcontent"&gt;
+    $(function () {
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+        //To set targetId API value
 
-        &lt;/div&gt;
+        $("#rotator").ejmRotator({ targetId: "rotatorcontent" });
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+    })
 
-        &lt;/div&gt;
+</script>
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent"&gt;
-
-    &lt;/div&gt;
-
-
-
-// Set targetId on initialization.
-
-
-
-&lt;div id="rotatorcontent"&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="card.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
-
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
-
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div id="rotator"&gt;
-
-    &lt;/div&gt;
-
-    &lt;script&gt;
-
-        $(function () {
-
-                   //To set targetId API value
-
-
-
-            $("#rotator").ejmRotator({ targetId: "rotatorcontent" });
-
-        })
-
-    &lt;/script&gt;
-
-
-
+{% endhighlight %}
 
 
 ### targetWidth `String`
 {:#members:targetwidth}
 
 
-Specifies the targetWidth on initialization.
+Specifies the targetWidth on initialization of the Rotator control.
 
 #### Default Value:
 
@@ -1293,91 +979,93 @@ Specifies the targetWidth on initialization.
 
 #### Example  
 
-//Set the targetWidth property in unobtrusive way.   
+{% highlight html %}
 
- &lt;div id="rotatorcontent"&gt;
+<!-- Unobtrusive way of rendering -->   
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+ <div id="rotatorcontent">
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="wheat.jpg">
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="card.jpg">
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="rose.jpg">
 
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
+        </div>
+
+        <div data-ej-imageurl="snowfall.jpg">
 
         </div>s
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-targetwidth="300px"&gt;
+    <div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-targetwidth="300px">
 
-    &lt;/div&gt;
+    </div>
 
+{% endhighlight %}
 
+{% highlight html %}
 
-// Set targetWidth on initialization.
+<!-- Obtrusive way of rendering -->
 
-&lt;div id="rotatorcontent"&gt;
+<div id="rotatorcontent">
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        <div data-ej-imageurl="wheat.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+        <div data-ej-imageurl="card.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
+        <div data-ej-imageurl="rose.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
+        <div data-ej-imageurl="snowfall.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div id="rotator"&gt;
+    <div id="rotator">
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;script&gt;
+    <script>
 
         $(function () {
 
                    //To set targetWidth API value
 
-
-
             $("#rotator").ejmRotator({ targetId: "rotatorcontent", targetWidth: "300px" });
 
         })
 
-    &lt;/script&gt;
+    </script>
 
-
+{% endhighlight %}
 
 ## Methods
 
@@ -1390,21 +1078,23 @@ To handle the rotator datasource.
 
 #### Example  
 
-&lt;div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent"&gt;
+{% highlight html %}
 
-    &lt;/div&gt;
+<div id="rotator" data-role="ejmrotator" data-ej-targetid="rotatorcontent">
 
-    &lt;div id="rotatorcontent"&gt;
+    </div>
 
-        &lt;div class="background-image:{{:imageUrl}};height:350px;width:630px"&gt;
+    <div id="rotatorcontent">
 
-        &lt;/div&gt;
+        <div class="background-image:{{:imageUrl}};height:350px;width:630px">
 
-    &lt;/div&gt;
+        </div>
+
+    </div>
 
     //To set the dataSource API value
 
-    &lt;script&gt;
+    <script>
 
         $(function () {
 
@@ -1420,9 +1110,9 @@ To handle the rotator datasource.
 
         });
 
-    &lt;/script&gt;
+    </script>
 
-
+{% endhighlight %}
 
 ## Events
 
@@ -1469,39 +1159,41 @@ returns the current slide index.</td></tr>
 
 #### Example  
 
-&lt;div id="rotatorcontent"&gt;
+{% highlight html %}
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+<div id="rotatorcontent">
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="wheat.jpg">
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="card.jpg">
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="rose.jpg">
 
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
+        </div>
+
+        <div data-ej-imageurl="snowfall.jpg">
 
         </div>s
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-change="change"&gt;
+    <div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-change="change">
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;script&gt;
+    <script>
 
         function change(args) {
 
@@ -1509,9 +1201,9 @@ returns the current slide index.</td></tr>
 
         }
 
-    &lt;/script&gt;
+    </script>
 
-
+{% endhighlight %}
 
 
 
@@ -1556,39 +1248,41 @@ returns the current slide index.</td></tr>
 
 #### Example  
 
-&lt;div id="rotatorcontent"&gt;
+{% highlight html %}
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+<div id="rotatorcontent">
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="wheat.jpg">
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="card.jpg">
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="rose.jpg">
 
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
+        </div>
+
+        <div data-ej-imageurl="snowfall.jpg">
 
         </div>s
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-pagerselect="pagerSelect"&gt;
+    <div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-pagerselect="pagerSelect">
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;script&gt;
+    <script>
 
         function pagerSelect(args) {
 
@@ -1596,9 +1290,9 @@ returns the current slide index.</td></tr>
 
         }
 
-    &lt;/script&gt;
+    </script>
 
-
+{% endhighlight %}
 
 
 
@@ -1643,41 +1337,41 @@ returns the current slide index.</td></tr>
 
 #### Example  
 
+{% highlight html %}
 
+<div id="rotatorcontent">
 
-&lt;div id="rotatorcontent"&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="wheat.jpg">
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="card.jpg">
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="rose.jpg">
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
-
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
+        <div data-ej-imageurl="snowfall.jpg">
 
         </div>s
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipedown="swipeDown"&gt;
+    <div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipedown="swipeDown">
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;script&gt;
+    <script>
 
         function swipeDown(args) {
 
@@ -1685,9 +1379,9 @@ returns the current slide index.</td></tr>
 
         }
 
-    &lt;/script&gt;
+    </script>
 
-
+{% endhighlight %}
 
 
 ### swipeLeft
@@ -1731,39 +1425,41 @@ Returns the current slide index.</td></tr>
 
 #### Example  
 
-  &lt;div id="rotatorcontent"&gt;
+{% highlight html %}
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+  <div id="rotatorcontent">
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="wheat.jpg">
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="card.jpg">
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="rose.jpg">
 
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
+        </div>
+
+        <div data-ej-imageurl="snowfall.jpg">
 
         </div>s
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipeleft="swipeLeft"&gt;
+    <div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipeleft="swipeLeft">
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;script&gt;
+    <script>
 
     function swipeLeft(args) {
 
@@ -1771,9 +1467,9 @@ Returns the current slide index.</td></tr>
 
     }
 
-    &lt;/script&gt;
+    </script>
 
-
+{% endhighlight %}
 
 ### swipeRight
 {:#events:swiperight}
@@ -1816,39 +1512,41 @@ returns the current slide index.</td></tr>
 
 #### Example  
 
-  &lt;div id="rotatorcontent"&gt;
+{% highlight html %}
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+  <div id="rotatorcontent">
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="wheat.jpg">
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="card.jpg">
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="rose.jpg">
 
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
+        </div>
+
+        <div data-ej-imageurl="snowfall.jpg">
 
         </div>s
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swiperight="swipeRight"&gt;
+    <div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swiperight="swipeRight">
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;script&gt;
+    <script>
 
         function swipeRight(args) {
 
@@ -1856,9 +1554,9 @@ returns the current slide index.</td></tr>
 
         }
 
-    &lt;/script&gt;
+    </script>
 
-
+{% endhighlight %}
 
 ### swipeUp
 {:#events:swipeup}
@@ -1901,39 +1599,41 @@ returns the current slide index.</td></tr>
 
 #### Example  
 
-&lt;div id="rotatorcontent"&gt;
+{% highlight html %}
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+<div id="rotatorcontent">
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;div data-ej-imageurl="wheat.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="wheat.jpg">
 
-        &lt;div data-ej-imageurl="card.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="card.jpg">
 
-        &lt;div data-ej-imageurl="rose.jpg"&gt;
+        </div>
 
-        &lt;/div&gt;
+        <div data-ej-imageurl="rose.jpg">
 
-        &lt;div data-ej-imageurl="snowfall.jpg"&gt;
+        </div>
+
+        <div data-ej-imageurl="snowfall.jpg">
 
         </div>s
 
-        &lt;div data-ej-imageurl="bird.jpg"&gt;
+        <div data-ej-imageurl="bird.jpg">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipeup="swipeUp"&gt;
+    <div id="rotatordefault" data-role="ejmrotator" data-ej-targetid="rotatorcontent" data-ej-swipeup="swipeUp">
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;script&gt;
+    <script>
 
         function swipeUp(args) {
 
@@ -1941,9 +1641,9 @@ returns the current slide index.</td></tr>
 
         }
 
-    &lt;/script&gt;
+    </script>
 
-
+{% endhighlight %}
 
 
 
