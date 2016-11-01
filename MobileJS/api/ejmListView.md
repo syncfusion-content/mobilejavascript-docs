@@ -606,7 +606,7 @@ Specifies whether to enable or disable ripple effect.
 
 #### Default Value
 
-* false
+* ej.isAndroid() ? true : false
 
 #### Example
 
@@ -672,7 +672,7 @@ Specifies the field settings to map the datasource.
 ### fields.allowSelection `boolean`
 {:#members:fields-allowselection} 
 
-Specifies whether the individual item is selectable or not.
+Specifies whether the ListView individual item is selectable or not.
 
 #### Default Value
 
@@ -1281,7 +1281,7 @@ Specifies the ListView items as an array of JSON objects.
 ### persistSelection `boolean`
 {:#members:persistselection} 
 
-Specifies whether to retain the selection of the item.
+Specifies whether to retain the selection of the ListView item.
 
 #### Default Value
 
@@ -1388,7 +1388,7 @@ This property used to filter data from remote data source.
 ### renderMode `enum`
 {:#members:rendermode} 
 
-Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global.html)
+Specifies the rendering mode of the ListView control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global.html)
 
 #### Default Value
 
