@@ -9,7 +9,7 @@ documentation: ug
 
 # Getting Started
 
-## Create your first Rotator in JavaScript
+## Create your first Toolbar in JavaScript
 
 The Essential JavaScript mobile toolbar provides a single interface to select a command from a collection of commands. It also provides template support. In this example, you can learn how to create a Mail App and through that you can learn the features of Mobile Toolbar Widget.
 
@@ -123,11 +123,11 @@ To render the Toolbar control, set data-role attribute to ejmtoolbar in a <div> 
 
 <div id="toolbar" data-role="ejmnavigationbar" data-ej-mode="toolbar" data-ej-position="bottom" data-ej-iconalignment="group">
             <ul>
-                <li data-ej-iconname="plus"></li>
-                <li data-ej-iconname="cut"></li>
-                <li data-ej-iconname="copy"></li>
-                <li data-ej-iconname="save"></li>
-                <li data-ej-iconname="search"></li>
+                <li data-ej-iconname="back"></li>
+                <li data-ej-iconname="next"></li>
+                <li data-ej-iconname="compose"></li>
+                <li data-ej-iconname="delete"></li>
+                <li data-ej-iconname="close"></li>
             </ul>
 </div>
 
@@ -147,7 +147,7 @@ Use the following styles for content style.
 
 Run this code to render the following output.
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 ## Add functionalities for toolbar items 
 
@@ -159,11 +159,11 @@ You can provide functionalities for each Toolbar items and this can be achieved 
 
 <div id="toolbar" data-role="ejmnavigationbar" data-ej-mode="toolbar" data-ej-position="bottom" data-ej-touchend="performAction" data-ej-android-position="fixed" data-ej-android-title="Inbox" data-ej-windows-position="fixed">
             <ul>
-                <li data-ej-iconname="plus"></li>
-                <li data-ej-iconname="cut"></li>
-                <li data-ej-iconname="copy"></li>
-                <li data-ej-iconname="save"></li>
-                <li data-ej-iconname="search"></li>
+                <li data-ej-iconname="back"></li>
+                <li data-ej-iconname="next"></li>
+                <li data-ej-iconname="compose"></li>
+                <li data-ej-iconname="delete"></li>
+                <li data-ej-iconname="close"></li>
             </ul>
 </div>
 
@@ -203,4 +203,6 @@ window.dialogObject.close(); //closes dialog
 
 Execute this code to render the following output. 
 
-![](Getting-Started_images/Getting-Started_img4.png)
+
+![](Getting-Started_images/Getting-Started_img3.png)
+
