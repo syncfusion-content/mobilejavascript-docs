@@ -857,7 +857,7 @@ N> rightButtonCaption property only works for confirm mode Dialog. For confirm m
 
 #### Default Value
 
-* continue
+* Continue
 
 #### Example
 
