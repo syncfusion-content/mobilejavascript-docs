@@ -3,8 +3,9 @@ layout: post
 title: height
 description: height
 platform: js
-control: Control Name undefined
+control: Dialog
 documentation: ug
+keywords:dialog,height
 ---
 
 ## Height

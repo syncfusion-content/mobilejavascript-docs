@@ -5,6 +5,7 @@ description: livetile configuration
 platform: js
 control: Tile (Mobile)
 documentation: ug
+keywords:tile,livetile
 ---
 
 # LiveTile Configuration

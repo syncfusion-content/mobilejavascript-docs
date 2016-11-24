@@ -3,8 +3,9 @@ layout: post
 title: overview
 description: overview
 platform: js
-control: Control Name undefined
+control: Dialog
 documentation: ug
+keywords:dialog,overview
 ---
 
 # Overview

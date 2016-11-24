@@ -5,6 +5,7 @@ description: overview
 platform: js
 control: Tile (Mobile)
 documentation: ug
+keywords:tile,overview,text,badge
 ---
 
 # Overview

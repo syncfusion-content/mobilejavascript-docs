@@ -5,6 +5,7 @@ description: badge configuration
 platform: js
 control: Tile (Mobile)
 documentation: ug
+keywords:tile,badge
 ---
 
 # Badge Configuration

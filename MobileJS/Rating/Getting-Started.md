@@ -5,7 +5,7 @@ description: getting started
 platform: Mobilejs
 control: Rating (Mobile)
 documentation: ug
-keywords:Rating
+keywords:rating,precision
 ---
 
 # Getting Started
@@ -33,9 +33,11 @@ The following steps guide you to add a Rating control for a mobile application R
 	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
 
 	<title>Rating</title>
-    <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.css" rel="stylesheet" />
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
-    <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.js"> </script>
+    <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.css" rel="stylesheet"/>
+    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js"></script>
+    <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+    <script src="http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js"></script>
+    <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.js"></script>
 
 	</head>
 
@@ -66,7 +68,7 @@ The following steps guide you to add a Rating control for a mobile application R
 						
 					</h2>
 					
-					<br />The fastest, easiest way to find what you need on the web and on your device. Quickly search the web and your phone or tablet.
+					<br />                     The fastest, easiest way to find what you need on the web and on your device. Quickly                     search the web and your phone or tablet.
 					
 					<br />
 					
@@ -142,16 +144,18 @@ Add the following styles to display the image.
 
 Run the above code example and rate the application by selecting stars. You will see the following output.
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 ## Set Precision
 
-You can customize the Rating Precision based on your requirement. You can customize Rating Precision by using the data-ej-precision attribute. Set this property to rate more precisely. The Rating control supports three precision modes - Full, Half, and Exact. In Full Precision, you can rate the item with complete precision, like 1 or 2. In Half Precision, you can rate the item with half precision, like 1.5 or 2.5, instead of complete precision. In Exact Precision, you can rate the item with exact precision, like 3.2 or 4.6. For the following example, you need Half Precision, so we set Half as the Precision mode.
+You can customize the Rating Precision based on your requirement. You can customize Rating Precision by using the data-ej-precision attribute. Set this property to rate more precisely. The Rating control supports three precision modes - Full, Half, and Exact. In Full Precision, you can rate the item with complete precision, like 1 or 2. In Half Precision, you can rate the item with half precision, like 1.5 or 2.5, instead of complete precision. In Exact Precision, you can rate the item with exact precision, like 3.2 or 4.6. For the following example, you need Exact Precision, so we set Exact as the Precision mode.
 
 
 {% highlight html %}
 
- <div data-role="ejmrating" data-ej-precision="half" data-ej-value="1.5">
+<div data-role="ejmrating" data-ej-precision="exact">
+
+</div>
 
 {% endhighlight %}
 

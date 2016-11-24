@@ -3,8 +3,9 @@ layout: post
 title: scrolling-settings
 description: scrolling settings
 platform: js
-control: Control Name undefined
+control: Dialog
 documentation: ug
+keywords:dialog,scrolling
 ---
 
 ## Scrolling Settings
