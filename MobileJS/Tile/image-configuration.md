@@ -5,6 +5,7 @@ description: image configuration
 platform: js
 control: Tile (Mobile)
 documentation: ug
+keywords:tile,image
 ---
 
 # Image Configuration

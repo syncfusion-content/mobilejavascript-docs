@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting-Started | Slider | Mobilejs | Syncfusion
 description: getting started 
 platform: js
 control: Slider
 documentation: ug
-keywords:slider
+keywords:slider,range,events
 ---
 
 # Getting Started 

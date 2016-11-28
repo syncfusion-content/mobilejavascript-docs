@@ -3,8 +3,9 @@ layout: post
 title: mode
 description: mode
 platform: js
-control: Control Name undefined
+control: Dialog
 documentation: ug
+keywords:dialog,mode
 ---
 
 ## Mode

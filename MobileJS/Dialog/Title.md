@@ -3,8 +3,9 @@ layout: post
 title: title
 description: title
 platform: js
-control: Control Name undefined
+control: Dialog
 documentation: ug
+keywords:dialog,title
 ---
 
 ## Title

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting-Started | TextArea | Mobilejs | Syncfusion
 description: getting started 
 platform: js
 control: TextArea

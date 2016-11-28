@@ -3,8 +3,8 @@ layout: post
 title: dimension
 description: dimension
 platform: js
-control: Control Name undefined
-documentation: ug
+control:RadialSlider
+documentation: radialslider,dimension
 ---
 
 ## Dimension
