@@ -5,6 +5,7 @@ description: overview
 platform: js
 control: Control Name undefined
 documentation: ug
+keywords:radialmenu,dimension,overview,customization
 ---
 
 # Overview

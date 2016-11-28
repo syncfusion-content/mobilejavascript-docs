@@ -5,7 +5,7 @@ description: getting started
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug
-keywords: Accordion
+keywords: accordion,collapse
 ---
 
 # Getting Started
@@ -286,50 +286,7 @@ The following code example is used to add Recent Matches and Upcoming Matches pa
 
 {% endhighlight %}
 
-Use the following styles for content style.
 
-{% highlight css %}
-
-.appview .sample {
-
-    padding: 20px;
-	
-}
-
-.appview .message-title {
-
-    font-weight: bold;
-	
-    padding-bottom: 5px;
-	
-    padding-top: 8px;
-	
-}
-.appview .text-panel {
-
-    padding-bottom: 5px;
-	
-}
-.appview .border-panel {
-
-    border-bottom-width: 1px;
-	
-    border-bottom-color: #C0C0C0;
-	
-    border-bottom-style: solid;
-	
-    padding-top: 5px;
-	
-}
-.appview .time-panel {
-
-    float: right;
-	
-    font-weight: bold;
-	
-}
-
-{% endhighlight %}
 
 ![](Getting-Started_images/Getting-Started_img5.png)
 

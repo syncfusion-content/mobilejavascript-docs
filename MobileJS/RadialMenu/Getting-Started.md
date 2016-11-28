@@ -3,8 +3,9 @@ layout: post
 title: getting-started
 description: getting started
 platform: js
-control: Control Name undefined
+control: RadialMenu
 documentation: ug
+keywords:radialmenu
 ---
 
 # Getting Started

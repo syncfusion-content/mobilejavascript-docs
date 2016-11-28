@@ -3,8 +3,9 @@ layout: post
 title: behavior-settings
 description: behavior settings
 platform: js
-control: Control Name undefined
+control: RadialSlider
 documentation: ug
+keywords:radialslider,position
 ---
 
 ## Behavior settings
@@ -13,7 +14,7 @@ The following are some properties that enables you to an option to enhance the b
 
 ## Show/hide RadialSlider on initial rendering
 
-The RadialSlider property autoOpen allow you to make the control visible on initial rendering. By default, the value of the property is set as true. Setting it as false will hide the control on initial rendering.
+The RadialSlider  "autoOpen" property allow you to make the control visible on initial rendering. By default, the value of the property is set as true. Setting it as false will hide the control on initial rendering.
 
 {% highlight html %}
 

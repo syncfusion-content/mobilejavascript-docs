@@ -3,8 +3,9 @@ layout: post
 title: customize-buttons
 description: customize buttons
 platform: js
-control: Control Name undefined
+control:RadialMenu
 documentation: ug
+keywords:radialmenu,button,back-button
 ---
 
 ## Customize buttons

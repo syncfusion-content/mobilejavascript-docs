@@ -3,8 +3,9 @@ layout: post
 title: dimensions
 description: dimensions
 platform: js
-control: Control Name undefined
+control:RadialMenu
 documentation: ug
+keywords:radialmenu,dimensions,position
 ---
 
 ## Dimensions
