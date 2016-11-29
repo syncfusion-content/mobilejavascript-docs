@@ -3,7 +3,8 @@ layout: post
 title: auto-open
 description: auto open
 platform: js
-control: Control Name undefined
+control: Dialog
+keywords: dialog, autopen
 documentation: ug
 ---
 

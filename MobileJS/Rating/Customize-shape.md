@@ -5,7 +5,7 @@ description: customize shape
 platform: Mobilejs
 control: Rating (Mobile)
 documentation: ug
-keywords:rating,shape
+keywords: rating, shape
 ---
 
 # Customize shape

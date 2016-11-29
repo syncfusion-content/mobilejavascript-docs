@@ -5,7 +5,7 @@ description: styles and appearance
 platform: Mobilejs
 control: Textbox (Mobile)
 documentation: ug
-keywords:textbox,styles,appearance
+keywords: textbox, styles, appearance
 ---
 
 # Styles and Appearance

@@ -5,7 +5,7 @@ description: overview
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug
-keywords:accordion
+keywords: accordion
 ---
 
 # Overview

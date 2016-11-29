@@ -5,7 +5,7 @@ description: dependencies
 platform: Mobilejs
 control: Rating (Mobile)
 documentation: ug
-keywords:rating,dependencies
+keywords: rating, dependencies
 ---
 
 # Dependencies

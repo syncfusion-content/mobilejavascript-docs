@@ -5,7 +5,7 @@ description:ReadOnly
 platform: Mobole JS
 control: TextArea
 documentation: ug
-keywords:textarea,readonly
+keywords: textarea, readonly
 ---
 
 # ReadOnly

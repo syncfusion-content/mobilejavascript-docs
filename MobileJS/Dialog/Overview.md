@@ -5,7 +5,7 @@ description: overview
 platform: js
 control: Dialog
 documentation: ug
-keywords:dialog,overview
+keywords: dialog, overview
 ---
 
 # Overview

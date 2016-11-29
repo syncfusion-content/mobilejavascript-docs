@@ -5,7 +5,7 @@ description: title
 platform: js
 control: Dialog
 documentation: ug
-keywords:dialog,title
+keywords: dialog, title
 ---
 
 ## Title

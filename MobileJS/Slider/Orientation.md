@@ -5,7 +5,7 @@ description: orientation
 platform:Mobile JS
 control: Slider
 documentation: ug
-keywords:slider,orientation
+keywords: slider, orientation
 ---
 
 # Orientation

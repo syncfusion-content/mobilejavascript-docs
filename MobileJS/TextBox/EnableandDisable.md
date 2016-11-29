@@ -5,7 +5,7 @@ description: Enable and Disable
 platform: Mobile JS
 control: TextBox
 documentation: ug
-keywords:textbox,enable,disable
+keywords: textbox, enable, disable
 ---
 
 # Enable and Disable

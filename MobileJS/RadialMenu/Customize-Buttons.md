@@ -5,7 +5,7 @@ description: customize buttons
 platform: js
 control:RadialMenu
 documentation: ug
-keywords:radialmenu,button,back-button
+keywords: radialmenu, button, back-button
 ---
 
 ## Customize buttons

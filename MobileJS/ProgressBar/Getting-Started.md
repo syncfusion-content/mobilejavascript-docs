@@ -5,7 +5,7 @@ description: getting started
 platform: Mobilejs
 control: Progress Bar (Mobile)
 documentation: ug
-keywords: progressbar,text,value
+keywords: progressbar, text, value
 ---
 
 # Getting Started

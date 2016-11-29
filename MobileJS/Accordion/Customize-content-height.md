@@ -5,7 +5,7 @@ description: customize content height
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug
-keywords:accordion,height
+keywords: accordion, height
 ---
 
 # Customize content height

@@ -5,7 +5,7 @@ description: Range Slider
 platform:Mobile JS
 control: Slider
 documentation: ug
-keywords:slider,range
+keywords: slider, range
 ---
 
 #  Range Slider

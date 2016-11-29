@@ -5,7 +5,7 @@ description:Customize-Watermarktext
 platform:Mobile JS
 control: Textbox
 documentation: ug
-keywords:textbox,watermarktext
+keywords: textbox, watermarktext
 ---
 
 # Customize Watermark text

@@ -5,7 +5,7 @@ description:Dependency files
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug
-keywords:accordion,dependency
+keywords: accordion, dependency
 ---
 
 # Dependency files

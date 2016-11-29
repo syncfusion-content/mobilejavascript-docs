@@ -5,7 +5,7 @@ description:ReadOnly
 platform: Mobile JS
 control: Slider
 documentation: ug
-keywords:slider,readonly
+keywords: slider, readonly
 ---
 
 # ReadOnly

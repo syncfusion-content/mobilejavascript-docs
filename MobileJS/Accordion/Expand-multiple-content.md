@@ -5,7 +5,7 @@ description: expand multiple content
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug
-keywords:accordion,multipleopen
+keywords: accordion, multipleopen
 ---
 
 # Expand multiple content

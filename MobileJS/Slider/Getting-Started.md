@@ -5,7 +5,7 @@ description: getting started
 platform: js
 control: Slider
 documentation: ug
-keywords:slider,range,events
+keywords: slider, range, events
 ---
 
 # Getting Started 

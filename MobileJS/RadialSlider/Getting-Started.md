@@ -5,7 +5,7 @@ description: getting started
 platform: js
 control: RadialSlider
 documentation: ug
-keywords:radialslider
+keywords: radialslider
 ---
 
 # Getting Started

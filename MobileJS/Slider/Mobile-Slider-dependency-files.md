@@ -5,7 +5,7 @@ description:Dependency files
 platform: Mobilejs
 control: Slider (Mobile)
 documentation: ug
-keywords:slider,dependency
+keywords: slider, dependency
 ---
 
 # Dependency files

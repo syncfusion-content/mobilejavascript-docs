@@ -5,7 +5,7 @@ description: IOS7 Specific Customization
 platform:Mobile JS
 control: Slider
 documentation: ug
-keywords:slider,ios7,thumbstyle
+keywords: slider, ios7, thumbstyle
 ---
 
 # IOS7 Specific Customization

@@ -5,7 +5,7 @@ description: getting started
 platform: js
 control: TextArea
 documentation: ug
-keywords:textarea
+keywords: textarea
 ---
 
 # Getting Started 

@@ -5,7 +5,7 @@ description: dimensions
 platform: js
 control:RadialMenu
 documentation: ug
-keywords:radialmenu,dimensions,position
+keywords: radialmenu, dimensions, position
 ---
 
 ## Dimensions

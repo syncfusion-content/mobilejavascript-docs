@@ -5,7 +5,7 @@ description: getting started
 platform: Mobilejs
 control: Rating (Mobile)
 documentation: ug
-keywords:rating,precision
+keywords: rating, precision
 ---
 
 # Getting Started
