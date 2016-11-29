@@ -5,7 +5,7 @@ description: overview
 platform: Mobilejs
 control: Progress Bar (Mobile)
 documentation: ug
-keywords:progressbar,overview,orientation
+keywords: progressbar, overview, orientation
 ---
 
 # Overview

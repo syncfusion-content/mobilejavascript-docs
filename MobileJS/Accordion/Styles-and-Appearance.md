@@ -5,7 +5,7 @@ description: styles and appearance
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug
-keywords:accordion,styles,appearance
+keywords: accordion, styles, appearance
 ---
 
 # Styles and Appearance

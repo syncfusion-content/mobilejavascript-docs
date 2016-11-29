@@ -5,7 +5,7 @@ description: overview
 platform: Mobilejs
 control: Rating (Mobile)
 documentation: ug
-keywords:rating,overview,orientation,precision,readonly
+keywords: rating, overview, orientation, precision, readonly
 ---
 
 # Overview

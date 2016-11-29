@@ -5,7 +5,7 @@ description: customize dimensions
 platform: Mobilejs
 control: Progress Bar (Mobile)
 documentation: ug
-keywords:progressbar,dimensions,height
+keywords: progressbar, dimensions, height
 ---
 
 # Customize dimensions

@@ -5,7 +5,7 @@ description: customize precision
 platform: Mobilejs
 control: Rating (Mobile)
 documentation: ug
-keywords:rating,precision
+keywords: rating, precision
 ---
 
 # Customize Precision

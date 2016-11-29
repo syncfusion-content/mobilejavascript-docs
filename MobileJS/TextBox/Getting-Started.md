@@ -5,7 +5,7 @@ description: getting started
 platform: js
 control: Text Box
 documentation: ug
-keywords:textbox
+keywords: textbox
 ---
 
 # Getting Started 

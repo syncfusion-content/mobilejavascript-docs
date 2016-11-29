@@ -5,7 +5,7 @@ description: getting started
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug
-keywords: accordion,collapse
+keywords: accordion, collapse
 ---
 
 # Getting Started

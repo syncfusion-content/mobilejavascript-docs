@@ -5,7 +5,7 @@ description: getting started
 platform: js
 control: Tile (Mobile)
 documentation: ug
-keywords:tile
+keywords: tile
 ---
 
 # Getting Started

@@ -5,7 +5,7 @@ description: border Style
 platform: Mobilejs
 control: TextArea (Mobile)
 documentation: ug
-keywords:textarea,
+keywords:textarea , border
 ---
 
 # Border Style

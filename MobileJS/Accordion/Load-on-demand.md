@@ -5,7 +5,7 @@ description: load on demand
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug
-keywords:accordion,load,enableajax
+keywords: accordion, load, enableajax
 ---
 
 # Load on demand

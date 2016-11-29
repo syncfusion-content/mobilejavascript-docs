@@ -5,7 +5,7 @@ description: mode
 platform: js
 control: Dialog
 documentation: ug
-keywords:dialog,mode
+keywords: dialog, mode
 ---
 
 ## Mode

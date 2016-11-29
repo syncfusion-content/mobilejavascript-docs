@@ -3,7 +3,8 @@ layout: post
 title: button-customization
 description: button customization
 platform: js
-control: Control Name undefined
+control: Dialog
+keywords: dialog, button
 documentation: ug
 ---
 

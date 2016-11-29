@@ -5,7 +5,7 @@ description: customize header icon
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug
-keywords:accordion,expand,collapse
+keywords: accordion, expand, collapse
 ---
 
 # Customize expand and collapse Icon

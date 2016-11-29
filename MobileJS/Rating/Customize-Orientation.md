@@ -5,7 +5,7 @@ description: customize orientation
 platform: Mobilejs
 control: Rating (Mobile)
 documentation: ug
-keywords:rating,orientation
+keywords: rating, orientation
 ---
 
 # Customize Orientation

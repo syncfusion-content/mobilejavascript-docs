@@ -5,7 +5,7 @@ description: styles and appearance
 platform: Mobilejs
 control: Slider (Mobile)
 documentation: ug
-keywords:slider,styles,appearance
+keywords: slider, styles, appearance
 ---
 
 # Styles and Appearance

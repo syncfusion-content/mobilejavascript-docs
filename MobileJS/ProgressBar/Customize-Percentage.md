@@ -5,7 +5,7 @@ description: customize percentage
 platform: Mobilejs
 control: Progress Bar (Mobile)
 documentation: ug
-keywords:progressbar,percentage
+keywords: progressbar, percentage
 ---
 
 # Customize Percentage
