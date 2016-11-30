@@ -5,7 +5,7 @@ description: customize text
 platform: Mobilejs
 control: Progress Bar (Mobile)
 documentation: ug
-keywords:progressbar,text,customtext
+keywords: progressbar, text, customtext
 ---
 
 # Customize text

@@ -5,7 +5,7 @@ description: collapse content
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug
-keywords:accordion.collapse,collapseall
+keywords: accordion, collapse, collapseall
 ---
 
 # Collapse content

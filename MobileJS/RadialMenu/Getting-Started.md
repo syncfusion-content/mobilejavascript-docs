@@ -5,7 +5,7 @@ description: getting started
 platform: js
 control: RadialMenu
 documentation: ug
-keywords:radialmenu
+keywords: radialmenu
 ---
 
 # Getting Started

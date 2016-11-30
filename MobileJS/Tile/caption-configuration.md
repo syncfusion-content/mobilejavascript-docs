@@ -5,6 +5,7 @@ description: caption configuration
 platform: js
 control: Tile (Mobile)
 documentation: ug
+keywords: tile, caption
 ---
 
 # Caption Configuration

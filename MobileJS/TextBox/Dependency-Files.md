@@ -5,7 +5,7 @@ description: Dependency files
 platform: Mobilejs
 control: Textbox (Mobile)
 documentation: ug
-keywords:textbox,dependencyfiles
+keywords: textbox, dependencyfiles
 ---
 
 # Dependency files

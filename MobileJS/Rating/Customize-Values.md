@@ -5,7 +5,7 @@ description: customize values
 platform: Mobilejs
 control: Rating (Mobile)
 documentation: ug
-keywords:rating,value,minvalue,maxvalue
+keywords: rating, value, minvalue, maxvalue
 ---
 
 # Customize Values

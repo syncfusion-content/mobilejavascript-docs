@@ -5,7 +5,7 @@ description: masking
 platform: Mobilejs
 control: Textbox (Mobile)
 documentation: ug
-keywords:textbox,maskedit
+keywords: textbox, maskedit
 ---
 
 # Masking

@@ -5,7 +5,7 @@ description: template support
 platform: js
 control: Tile (Mobile)
 documentation: ug
-keywords:tile,template
+keywords: tile, template
 ---
 
 # Template Support

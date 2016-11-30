@@ -5,7 +5,7 @@ description: disabling the items
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug
-keywords:accordion,disble,disableditems
+keywords: accordion, disble, disableditems
 ---
 
 # Disabling the items

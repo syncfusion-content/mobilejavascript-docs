@@ -5,7 +5,7 @@ description: customize size
 platform: js
 control: Tile (Mobile)
 documentation: ug
-keywords:tile,size
+keywords: tile, size
 ---
 
 # Customize size

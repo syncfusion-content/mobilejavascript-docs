@@ -5,7 +5,7 @@ description:ReadOnly
 platform: Mobole JS
 control: Textbox
 documentation: ug
-keywords:textbox,readonly
+keywords: textbox, readonly
 ---
 
 # ReadOnly

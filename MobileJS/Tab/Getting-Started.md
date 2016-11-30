@@ -5,7 +5,7 @@ description: getting started
 platform: Mobilejs
 control: Tab (Mobile)
 documentation: ug
-keywords :Tab
+keywords : Tab
 ---
 
 # Getting Started

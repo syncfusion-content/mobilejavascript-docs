@@ -5,7 +5,7 @@ description: overview
 platform: js
 control: RadialSlider
 documentation: ug
-keywords:radialslider,position,dimension
+keywords: radialslider, position, dimension
 ---
 
 # Overview

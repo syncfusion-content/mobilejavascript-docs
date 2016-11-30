@@ -5,7 +5,7 @@ description: animation
 platform: js
 control: Slider
 documentation: ug
-keywords:slider,animation
+keywords: slider, animation
 ---
 
 # Animation

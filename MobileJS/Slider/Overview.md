@@ -5,7 +5,7 @@ description: overview
 platform: Mobile JS
 control: Slider
 documentation: ug
-keywords:slider,overview
+keywords: slider, overview
 ---
 
 # Overview

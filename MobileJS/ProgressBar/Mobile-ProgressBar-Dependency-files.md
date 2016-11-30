@@ -5,7 +5,7 @@ description: dependency files
 platform: Mobilejs
 control: Progress Bar (Mobile)
 documentation: ug
-keywords:progressbar,dependency
+keywords: progressbar, dependency
 ---
 
 # Dependency files

@@ -5,7 +5,7 @@ description: height
 platform: js
 control: Dialog
 documentation: ug
-keywords:dialog,height
+keywords: dialog, height
 ---
 
 ## Height

@@ -5,7 +5,7 @@ description: disable rating
 platform: Mobilejs
 control: Rating (Mobile)
 documentation: ug
-keywords:rating.disable
+keywords: rating, disable
 ---
 
 # Disable Rating

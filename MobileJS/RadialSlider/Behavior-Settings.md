@@ -5,7 +5,7 @@ description: behavior settings
 platform: js
 control: RadialSlider
 documentation: ug
-keywords:radialslider,position
+keywords: radialslider, position
 ---
 
 ## Behavior settings

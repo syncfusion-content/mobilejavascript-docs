@@ -5,7 +5,7 @@ description: scrolling settings
 platform: js
 control: Dialog
 documentation: ug
-keywords:dialog,scrolling
+keywords: dialog, scrolling
 ---
 
 ## Scrolling Settings

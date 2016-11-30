@@ -5,7 +5,7 @@ description: overview
 platform: Mobilejs
 control: TextArea (Mobile)
 documentation: ug
-keywords:textarea,overview,theme
+keywords: textarea, overview, theme
 ---
 
 # Overview

@@ -5,7 +5,7 @@ description: Enable and Disable
 platform: Mobile JS
 control: TextArea
 documentation: ug
-keywords:textarea,enable,disable
+keywords: textarea, enable, disable
 ---
 
 # Enable and Disable

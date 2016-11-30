@@ -5,7 +5,7 @@ description: Customize value
 platform: Mobile JS
 control: Slider
 documentation: ug
-keywords:slider,value,maxvalue,minvalue
+keywords: slider, value, maxvalue, minvalue
 ---
 
 # Customize value	
