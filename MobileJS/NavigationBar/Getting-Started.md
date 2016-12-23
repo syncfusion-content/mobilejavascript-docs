@@ -3,7 +3,7 @@ layout: post
 title: Getting Started | Toolbar | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
-control: Toolbar (Mobile)
+control: Toolbar, NavigationBar, Header, Footer (Mobile)
 documentation: ug
 ---
 
@@ -11,7 +11,9 @@ documentation: ug
 
 ## Create your first Toolbar in JavaScript
 
-The Essential JavaScript mobile toolbar provides a single interface to select a command from a collection of commands. It also provides template support. In this example, you can learn how to create a Mail App and through that you can learn the features of Mobile Toolbar Widget.
+The Essential JavaScript mobile Toolbar provides a single interface to select a command from a collection of commands. It also provides template support. In this example, you can learn how to create a Mail App and through that you can learn the features of Mobile Toolbar Widget.
+
+The Toolbar can also be Mentioned as NavigationBar,Header and Footer.
 
 ![](Getting-Started_images/Getting-Started_img1.png)
 
@@ -103,8 +105,6 @@ Create an HTML file and add the following template to the html file for Toolbar 
 
 		</div>
 
-	</body>
-
 </html>
 
 {% endhighlight %}
@@ -113,96 +113,5 @@ Execute this code to render the following output.
 
 ![](Getting-Started_images/Getting-Started_img2.png)
 
-## Create Toolbar Control
 
-To render the Toolbar control, set data-role attribute to ejmtoolbar in a <div> element and include a list of Toolbar items to be added. There are 20 built-in icons for Toolbar items. This can be achieved by using the data-ej-iconname attribute.  
-
-{% highlight html %}
-
- <!--Adding toolbar control-->
-
-<div id="toolbar" data-role="ejmnavigationbar" data-ej-mode="toolbar" data-ej-position="bottom" data-ej-iconalignment="group">
-            <ul>
-                <li data-ej-iconname="back"></li>
-                <li data-ej-iconname="next"></li>
-                <li data-ej-iconname="compose"></li>
-                <li data-ej-iconname="delete"></li>
-                <li data-ej-iconname="close"></li>
-            </ul>
-</div>
-
-{% endhighlight %}
-
-Use the following styles for content style.
-
-{% highlight css %}
-
-.e-m-header.e-m-android {
-
-     display: none;
-
-}
-
-{% endhighlight %}
-
-Run this code to render the following output.
-
-![](Getting-Started_images/Getting-Started_img1.png)
-
-## Add functionalities for toolbar items 
-
-You can provide functionalities for each Toolbar items and this can be achieved by adding data-ej-touchend attribute. When you click the Toolbar item, its corresponding touchend event triggers, and is handled using the performAction function as shown in the following code example. 
-
-{% highlight html %}
-
-<!--Adds toolbar control-->
-
-<div id="toolbar" data-role="ejmnavigationbar" data-ej-mode="toolbar" data-ej-position="bottom" data-ej-touchend="performAction" data-ej-android-position="fixed" data-ej-android-title="Inbox" data-ej-windows-position="fixed">
-            <ul>
-                <li data-ej-iconname="back"></li>
-                <li data-ej-iconname="next"></li>
-                <li data-ej-iconname="compose"></li>
-                <li data-ej-iconname="delete"></li>
-                <li data-ej-iconname="close"></li>
-            </ul>
-</div>
-
-{% endhighlight %}
-
-{% highlight js %}
-
-$(document).ready(function (args) {
-
-window.dialogObject = $("#alertdlg").data("ejmDialog"); //creates object for dialog
-
-});
-
-// toolbar touch end event
-
-function performAction(args) {
-
-var itemName = args.iconname;// to get the toolbar item name
-
-$("#dialogContent").append(itemName + " toolbar item selected."); // appends the content to the dialog
-
-window.dialogObject.open();//Shows dialog
-
-}
-
-//closes dialog
-
-function alertClose(args) {
-
-$("#dialogContent").empty(); //empties dialog content
-
-window.dialogObject.close(); //closes dialog
-
-}
-
-{% endhighlight %}
-
-Execute this code to render the following output. 
-
-
-![](Getting-Started_images/Getting-Started_img3.png)
 
