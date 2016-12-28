@@ -3,14 +3,14 @@ layout: post
 title: Data Binding | DropDownList | Mobilejs | Syncfusion
 description: data binding
 platform: Mobilejs
-control: ListView (Mobile)
+control: DropDownList (Mobile)
 documentation: ug
 keywords : image
 ---
 
 ## Adding watermark text
 
-You can add images to your DropDownList items by specifying the image class name for individual items using â€˜data-ej-fields-imageâ€™ attribute.
+You can add images to your DropDownList items by specifying the image class name for individual items using ‘data-ej-fields-image’ attribute.
 
 {% highlight html %}
 
