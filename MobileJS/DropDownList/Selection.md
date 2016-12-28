@@ -3,7 +3,7 @@ layout: post
 title: Data Binding | DropDownList | Mobilejs | Syncfusion
 description: data binding
 platform: Mobilejs
-control: ListView (Mobile)
+control: DropDownList (Mobile)
 documentation: ug
 keywords : selection 
 ---
