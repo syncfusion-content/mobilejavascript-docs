@@ -10,7 +10,7 @@ keywords : image
 
 ## Adding watermark text
 
-You can add images to your DropDownList items by specifying the image class name for individual items using ‘data-ej-fields-image’ attribute.
+You can add images to your DropDownList items by specifying the image class name for individual items using ï¿½data-ej-fields-imageï¿½ attribute.
 
 {% highlight html %}
 

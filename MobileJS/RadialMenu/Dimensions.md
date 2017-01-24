@@ -3,7 +3,7 @@ layout: post
 title: dimensions
 description: dimensions
 platform: js
-control:RadialMenu
+control: RadialMenu
 documentation: ug
 keywords: radialmenu, dimensions, position
 ---

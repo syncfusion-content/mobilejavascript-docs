@@ -3,7 +3,7 @@ layout: post
 title: dimension
 description: dimension
 platform: js
-control:RadialSlider
+control: RadialSlider
 documentation: radialslider,dimension
 ---
 
