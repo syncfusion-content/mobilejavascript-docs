@@ -2,7 +2,7 @@
 layout: post
 title: Range Slider | Slider | Mobilejs | Syncfusion
 description: Range Slider
-platform:Mobile JS
+platform: Mobile JS
 control: Slider
 documentation: ug
 keywords: slider, range

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:MobileJS Rating Dependencies | Rating | Mobilejs | Syncfusion
+title: MobileJS Rating Dependencies | Rating | Mobilejs | Syncfusion
 description: dependencies
 platform: Mobilejs
 control: Rating (Mobile)

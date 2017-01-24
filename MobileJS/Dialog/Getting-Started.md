@@ -5,7 +5,7 @@ description: getting started
 platform: js
 control: Dialog
 documentation: ug
-keywords:dialog
+keywords: dialog
 ---
 
 # Getting Started

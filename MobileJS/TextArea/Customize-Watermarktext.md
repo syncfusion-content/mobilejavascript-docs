@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Customize-Watermarktext | TextArea | Mobilejs | Syncfusion
-description:Customize-Watermarktext
+description: Customize-Watermarktext
 platform:Mobile JS
 control: TextArea
 documentation: ug
