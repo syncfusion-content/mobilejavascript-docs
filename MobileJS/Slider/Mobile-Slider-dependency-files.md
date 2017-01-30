@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mobile Accordion dependency files | Slider | Mobilejs | Syncfusion
-description:Dependency files
+description: Dependency files
 platform: Mobilejs
 control: Slider (Mobile)
 documentation: ug

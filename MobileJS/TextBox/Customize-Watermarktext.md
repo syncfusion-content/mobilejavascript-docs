@@ -2,7 +2,7 @@
 layout: post
 title: Customize-Watermarktext | Textbox | Mobilejs | Syncfusion
 description:Customize-Watermarktext
-platform:Mobile JS
+platform: Mobile JS
 control: Textbox
 documentation: ug
 keywords: textbox, watermarktext

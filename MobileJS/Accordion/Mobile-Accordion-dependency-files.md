@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mobile Accordion dependency files | Accordion | Mobilejs | Syncfusion
-description:Dependency files
+description: Dependency files
 platform: Mobilejs
 control: Accordion (Mobile)
 documentation: ug

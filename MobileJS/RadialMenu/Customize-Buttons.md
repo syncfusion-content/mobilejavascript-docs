@@ -3,7 +3,7 @@ layout: post
 title: customize-buttons
 description: customize buttons
 platform: js
-control:RadialMenu
+control: RadialMenu
 documentation: ug
 keywords: radialmenu, button, back-button
 ---
