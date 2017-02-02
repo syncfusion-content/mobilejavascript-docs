@@ -111,7 +111,7 @@ Create an HTML file and add the following template to the html file for Toolbar 
 
 Execute this code to render the following output.
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 

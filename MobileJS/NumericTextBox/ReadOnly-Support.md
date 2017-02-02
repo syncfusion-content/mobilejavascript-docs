@@ -17,7 +17,3 @@ The ReadOnly property is used to enable or disable the value changes in the Te
   <input id="sample" name="sample" data-role="ejmnumeric" type="number" data-ej-readonly="true"/>
 
 {% endhighlight %}
-
-The following screenshot displays the output.
-
-![](ReadOnly-Support_images/ReadOnly-Support_img1.png)
