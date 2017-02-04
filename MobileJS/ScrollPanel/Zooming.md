@@ -99,6 +99,3 @@ The “data-ej-startzoom” attribute lets you specify the zooming value on init
 
 {% endhighlight %}
 
-The following screenshot displays the startZoom:
-
-![](Zooming_images/Zooming_img2.png)
