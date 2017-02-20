@@ -7,7 +7,7 @@ control: SplitPane (Mobile)
 documentation: ug
 ---
 
-# Getting Started
+# Getting started
 
 This section enables you to create **SplitPane** using JavaScript in your mobile app.
 
@@ -74,7 +74,7 @@ Refer the following code example.
 
 
 
-## Add Pane content
+## Add pane content
 
 To set left pane or right pane header title by **Navigationbar** control with the desired template content, set it as user profile. Use **ListView** control with template support to display the left pane or right pane content.
 

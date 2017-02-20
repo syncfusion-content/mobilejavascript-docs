@@ -77,7 +77,7 @@ To set Scroll Panel for a particular content, you need to specify the `data-role
 
 {% endhighlight %}
 
-## Set the Panel Height and Width	
+## Set the panel height and width	
 
 The `data-ej-targetheight` and `data-ej-targetwidth` is used to set the height and width of the target panel respectively. When height or width of the content exceeds the height or width of target panel, then the content is set to scroll. 
 
@@ -92,7 +92,7 @@ The following output displays on running the above code.
 ![](Getting-Started_images/Getting-Started_img2.png)
 
 
-## Enable Horizontal and Vertical ScrollPanel
+## Enable horizontal and vertical ScrollPanel
 
 The target content can be scrolled either vertically or horizontally or in both ways. The attribute `data-ej-enablevrscroll` enables vertical scrolling and the attribute `data-ej-enablehrscroll` enables horizontal scrolling.
 

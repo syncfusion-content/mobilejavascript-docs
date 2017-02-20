@@ -3,7 +3,7 @@ layout: post
 title: templating
 description: templating
 platform: js
-control: Control Name undefined
+control: ListView
 documentation: ug
 ---
 

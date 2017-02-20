@@ -8,7 +8,7 @@ documentation: ug
 keywords: alignment
 ---
 
-# Header Text Alignment
+# Header text alignment
 
 The data-ej-titlealignment  attribute is used to change the alignment of the text.The defaut value of titleAligment property is left
 

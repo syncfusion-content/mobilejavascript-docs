@@ -8,7 +8,7 @@ documentation: ug
 keywords: readonly
 ---
 
-# ReadOnly Support
+# Read only Support
 
 The ReadOnly property is used to enable or disable the value changes in the Textbox. 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting Started | Accordion | Mobilejs | Syncfusion
+title: Getting started | Accordion | Mobilejs | Syncfusion
 description: getting started
 platform: Mobilejs
 control: Accordion (Mobile)
@@ -8,7 +8,7 @@ documentation: ug
 keywords: accordion, collapse
 ---
 
-# Getting Started
+# Getting started
 
 ## Create your first Accordion in JavaScript
 
@@ -119,7 +119,7 @@ Run this code example and you can see the following output.
 ![](Getting-Started_images/Getting-Started_img2.png)
 
 
-## Select Accordion Item
+## Select Accordion item
 
 The data-ej-selecteditems attribute is used to expand the specific content section, initially by using its index value. Multiple content sections can be expanded at a time. It accepts numeric array type. The default value of selecteditems is [0]. So the first panel will be in an expanded state. But in this case example you need all the panels in collapsed state, initially. So you need to set data-ej-selecteditems attribute with the value [-1].
 
@@ -165,7 +165,7 @@ Run this code example and you can see the following output.
 
 ![](Getting-Started_images/Getting-Started_img3.png)
 
-## Enable Header Icons
+## Enable header icons
 
 By default, header icons are  visible. To make the icons invisible, set data-ej-showHeadericon attribute to false.
 
@@ -192,7 +192,7 @@ By default, header icons are  visible. To make the icons invisible, set data-ej-
 
 ![](Getting-Started_images/Getting-Started_img4.png)
 
-## Make Accordion Collapsible
+## Make Accordion collapsible
 
 By default, all the content sections are not collapsible. To make all its content section collapsible, set data-ej-collapseall attribute to true.
 
@@ -220,7 +220,7 @@ By default, all the content sections are not collapsible. To make all its conten
 
 ![](Getting-Started_images/Getting-Started_img8.png)
 
-## Add Content
+## Add content
 
 In the case example given, the contents of the Recent Matches and Upcoming Matches panels are given as static. In these content panels, the team results and match schedules are listed.
 

@@ -10,7 +10,7 @@ keywords: rating, precision
 
 # Getting Started
 
-## Create your first Rating Control in JavaScript 
+## Create your first Rating control in JavaScript 
 
 Essential JavaScript Rating control for Mobile provides an intuitive Rating experience that allows you to select a number of stars that represent a Rating.
 
@@ -146,7 +146,7 @@ Run the above code example and rate the application by selecting stars. You will
 
 ![](Getting-Started_images/Getting-Started_img2.png)
 
-## Set Precision
+## Set precision
 
 You can customize the Rating Precision based on your requirement. You can customize Rating Precision by using the data-ej-precision attribute. Set this property to rate more precisely. The Rating control supports three precision modes - Full, Half, and Exact. In Full Precision, you can rate the item with complete precision, like 1 or 2. In Half Precision, you can rate the item with half precision, like 1.5 or 2.5, instead of complete precision. In Exact Precision, you can rate the item with exact precision, like 3.2 or 4.6. For the following example, you need Exact Precision, so we set Exact as the Precision mode.
 

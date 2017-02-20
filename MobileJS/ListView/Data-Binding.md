@@ -3,13 +3,13 @@ layout: post
 title: data-binding
 description: data binding
 platform: js
-control: Control Name undefined
+control: ListView
 documentation: ug
 ---
 
-## Data Binding
+# Data binding
 
-### Local Data Binding
+## Local data binding
 
 The local data can be an array of JSON objects which is assigned for the ListView widget’s datasource property. Refer the below example.
 
@@ -35,7 +35,7 @@ window.dbitem = [{ "text": "Discover Music" },
 
 ![](data-binding_images\data-binding_img1.png)
 
-### Remote Data Binding
+## Remote data binding
 
 The ListView control also provides support for Remote data binding. Here the remote data is placed in Web service and you can render the list items from the web service using Service URL. The data is in JSONformat.
 

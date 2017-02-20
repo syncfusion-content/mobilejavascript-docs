@@ -7,7 +7,7 @@ control: Password (Mobile)
 documentation: ug
 ---
 
-# Getting Started
+# Getting started
 
 This section describes in brief how you can create an Essential JavaScript Mobile Password Textbox widget.
 
@@ -150,7 +150,7 @@ Run the above code example and you can see the following output.
 
 ![](Getting-Started_images/Getting-Started_img2.png)
 
-### Set Watermark text
+## Set watermark text
 
 The watermark text is usually a short hint that describes the expected value of the input field. This can be achieved by using the “data-ej-watermarktext” attribute.
 

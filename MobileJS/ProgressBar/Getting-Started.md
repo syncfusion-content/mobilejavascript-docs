@@ -95,7 +95,7 @@ Run the above code to render the following output.
 ![](Getting-Started_images/Getting-Started_img2.png)
 
 
-## Create Progress bar control
+## Create ProgressBar control
 
 To render the progress bar control, you need to set “data-role” attribute as “ejmprogress” to a div element.  Its initial value can be set using “data-ej-value” attribute. By default, it takes parent’s width. But you can customize by using “data-ej-width” attribute.
 
@@ -227,6 +227,6 @@ Run this code and you will see the following output after clicking the install b
 
 ![](Getting-Started_images/Getting-Started_img5.png)
 
-## Progress Bar event handling 
+## ProgressBar event handling 
 
 From the above steps, you have learnt how to create and customize Essential JavaScript Mobile Progress bar widget with use case samples. You can have more customization properties other than the one used here. To know more about the properties in Mobile Progress bar widget, refer the complete documentation page for Progress bar widget.

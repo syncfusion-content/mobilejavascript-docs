@@ -7,7 +7,7 @@ control: Rotator (Mobile)
 documentation: ug
 ---
 
-## Hide the Pager
+## Hide the pager
 
 You can see in the above image, the pager is to indicate the item that is currently displayed. You don’t need to show the pager in our use case. To achieve this, make “data-ej-showpager” attribute value as false.
 

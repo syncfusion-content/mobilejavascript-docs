@@ -33,7 +33,7 @@ The following screenshot displays zooming:
 
 ![](Zooming_images/Zooming_img1.png)
 
-## ZoomMax
+## Zooming max
 
 The “data-ej-zoommax” attribute lets you set the maximum limit to which the content can be zoomed. By default, this property is set to 6.
 
@@ -55,7 +55,7 @@ The “data-ej-zoommax” attribute lets you set the maximum limit to which the 
 
 {% endhighlight %}
 
-## ZoomMin
+## Zooming  min
 
 The “data-ej-zoommin” attribute lets you set the minimum limit to which the content can be zoomed. By default, this property is set to 1.
 
@@ -77,7 +77,7 @@ The “data-ej-zoommin” attribute lets you set the minimum limit to which the 
 
 {% endhighlight %}
 
-## StartZoom
+## Start zooming
 
 The “data-ej-startzoom” attribute lets you specify the zooming value on initial rendering of the scrollable content.  By default this property is set to 1.
 

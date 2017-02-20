@@ -16,7 +16,7 @@ The Essential JavaScript Mobile Tab provides a way to switch views within a web 
 
 The above screenshot illustrates a Mobile Tab in which you can switch through different views from a single webpage and also load tabs on-demand by specifing the URL.
 
-## Create Tabs for Music App
+## Create Tabs for music app
 
 The Essential JavaScript Mobile Tab widget can be rendered by specifying static content or by using on- demand contents by specifying the respective URL. In both the cases Tab control is rendered based on the default values of its properties. You can easily customize Tab control by changing their properties according to your requirement. In this Music App you require three tabs, one for displaying the available music, one for listing out the favorite tracks that you have marked and the other for displaying the updates on the music app. The following code example illustrates how to create a basic Tab for your application. 
 

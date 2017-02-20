@@ -13,7 +13,7 @@ keywords: dialog, overview
 The Essential JavaScript Mobile Dialog widget is an overlay positioned and it displays a message such as supplementary content like images or text, and interactive content like forms. It contains a title and a content area.
 
 
-## Key Features
+## Key features
 
 * Modal Dialog support: Displays the content in a modal Dialog, disabling interaction with other items on the page.
 
