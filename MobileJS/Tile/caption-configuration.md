@@ -42,5 +42,5 @@ N> Caption position is not supported in small Tiles except ios and android outer
 
 The following screenshot illustrates the output of the above code.
 
-![caption](caption-configuration_images\caption-configuration_img1.png)
+![](caption-configuration_images\caption-configuration_img1.png)
 

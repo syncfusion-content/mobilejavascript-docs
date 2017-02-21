@@ -106,7 +106,7 @@ Run the code example to render the output as follows.
 
 The above screenshot illustrates the Mobile Tab widget created for the Music App. 
 
-## Add Images to the Tabs
+## Add images to the Tabs
 
 You have created the Tab that is required for your application. Now you can add images to your Tab. Add images to the Tab by specifying the data-ej-icon for individual items in the Tab. 
 
@@ -129,7 +129,7 @@ Run the code to render the following output.
 
 The above screenshot illustrates the Tab control rendered with the tab images.
 
-## Add on Demand content for updates Tab
+## Add on demand content for updates Tab
 
 In some applications the content in Tab is loaded only when it is required, in this application the updates Tab are loaded only if you want to check for an update. For loading the content on-demand specify enableAjax property to true and specify the URL to load on demand for individual items in the tab.
 
@@ -169,7 +169,7 @@ Run the code example to render the following output.
 
 The above screenshot illustrates the Mobile Tab with the load on-demand property.
 
-## Set Badge value for updates Tab 
+## Set badge value for updates Tab 
 
 In the real time Music App, the number of available updates is viewed before you decide to view the Tab. For this set the “data-ej-badge-enabled” to true and set the desired badge value in the “data-ej-badge-value” attribute. 
 

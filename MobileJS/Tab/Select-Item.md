@@ -8,7 +8,7 @@ documentation: ug
 keywords: select
 ---
 
-# Select Item
+# Select item
 
 Tab control takes a numeric value given in “data-ej-selecteditemindex” attribute and selects the corresponding item that matches the given index. Default value for selectedItemIndex property is set to 0. You can refer the following code example.
 

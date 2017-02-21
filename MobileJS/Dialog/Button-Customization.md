@@ -74,7 +74,7 @@ The RightButtonCaption property specifies the text of the Right Button. The defa
 ![](Button-Customization_images\rightbuttoncaption_img1.png)
 
 
-## ShowButtons
+## Show buttons
 
 The ShowButtons property is used to show the buttons in the Dialog box. The default value is true.
 
