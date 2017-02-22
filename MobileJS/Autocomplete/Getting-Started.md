@@ -91,7 +91,7 @@ You can customize its watermark text using data-ej-watermarktext attribute.
 ![](Getting-Started_images\Getting-Started_2.png)
 
 
-### Data binding
+## Data binding
 
 To add data source to Autocomplete control, you can set data-ej-datasource attribute value with the particular data source name. You need to assign the necessary column (field) name of the data source to data-ej-fields-text attribute.
 
@@ -112,7 +112,7 @@ To add data source to Autocomplete control, you can set data-ej-datasource attri
 ![](data-binding_images\data-binding_img1.png)
 
 
-### Event handling
+## Event handling
 
 The data-ej-select attribute enables you to handle Autocomplete selection event, by assigning a function name to the attribute. In this case, you can set data-ej-select attribute with the function name OnSelect.  By executing the onSelect( ) function you can implement necessary action to show the full contact details of the selected contact name.
 

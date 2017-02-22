@@ -1,13 +1,13 @@
 ---
 layout: post 
-title: Getting starting | DropDownList | Mobilejs | Syncfusion 
+title: Getting started | DropDownList | Mobilejs | Syncfusion 
 description: Getting starting 
 platform: Mobilejs 
 control: DropDownList (Mobile) 
 documentation: ug
 ---
 
-# Getting starting
+# Getting started
 
 This section explains briefly about how to create a dropdownlist in your application with JavaScript.
 Essential JavaScript dropdownlist provides support for multiple selections, within your web page and allows you to specify an option from the list. 
@@ -63,7 +63,7 @@ Run the above code to render the following output.
 
 ![](getting-started-images/img3.png)
 
-## Add List of Options
+## Add list of options
 
 Specifies the data-ej-targetid attribute for  target element which consists the list of options to render DropDownList. 
 
@@ -95,7 +95,7 @@ Run the above code to render the following output.
 
 ![](getting-started-images/img1.png)
 
-## cssClass
+## Styles and appearance
 
 Sets the root class for DropDownList. This cssClass API helps to use custom skinning option for DropDownList control. By defining the root class using this API, we need to include this root class in CSS.
 

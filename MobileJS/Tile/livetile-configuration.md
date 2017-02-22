@@ -8,7 +8,7 @@ documentation: ug
 keywords: tile, livetile
 ---
 
-# LiveTile Configuration
+# LiveTile configuration
 
 **Live Tiles** are used to display the current or up to date information like scores, stocks, weather, etc. This functionality is supported only in windows rendermode. 
 

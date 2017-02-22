@@ -8,7 +8,7 @@ documentation: ug
 keywords: textarea, enable, disable
 ---
 
-# Enable and Disable
+# Enable and disable
 
 Enabled property enables or disables TextArea control. The default value is true.
 

@@ -73,7 +73,7 @@ Create the page content as follows.
 
 
 
-## Add Radial Menu control
+## Add RadialMenu control
 
 Create a div element and set its data-role attribute as ejmradialmenu as follows.
 

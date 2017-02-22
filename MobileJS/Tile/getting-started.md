@@ -8,7 +8,7 @@ documentation: ug
 keywords: tile
 ---
 
-# Getting Started
+# Getting started
 
 This section explains briefly about how to create a Mobile **Tile** in your application with **JavaScript**. The **Tile** can be easily configured to the div element in which the tiles are placed. Tapping or selecting a **Tile** launches the app or other experience that is represented by the **Tile**. The following screenshot illustrates the functionality of a **Tile** widget with a list of the apps provided in the mobile device.
 

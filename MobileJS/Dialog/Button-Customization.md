@@ -8,9 +8,9 @@ keywords: dialog, button
 documentation: ug
 ---
 
-# Button Customization
+# Button customization
 
-## LeftButtonCaption
+## Left button caption
 
 The LeftButtonCaption property is used to specify the text of the Left Button. The default value is cancel.
 
@@ -42,7 +42,7 @@ The LeftButtonCaption property is used to specify the text of the Left Button. T
 ![](Button-Customization_images\leftbuttoncaption_img1.png)
 
 
-## RightButtonCaption
+## Right button caption
 
 The RightButtonCaption property specifies the text of the Right Button. The default value is continue.
 
@@ -74,7 +74,7 @@ The RightButtonCaption property specifies the text of the Right Button. The defa
 ![](Button-Customization_images\rightbuttoncaption_img1.png)
 
 
-## ShowButtons
+## Show buttons
 
 The ShowButtons property is used to show the buttons in the Dialog box. The default value is true.
 

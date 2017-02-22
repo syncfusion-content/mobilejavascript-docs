@@ -8,7 +8,7 @@ documentation: ug
 keywords: tile, template
 ---
 
-# Template Support
+# Template support
 
 The `data-ej-imagetemplateid` attribute is used to customize the image of a Tile by providing the specific template id respectively. 
 
@@ -69,5 +69,5 @@ Refer the below code snippets for CSS classes
 
 The following screenshot illustrates the output of the above code.
 
-![template](template-support_images\template-support_img1.png)
+![](template-support_images\template-support_img1.png)
 

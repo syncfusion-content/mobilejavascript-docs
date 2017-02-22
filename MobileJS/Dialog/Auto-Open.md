@@ -8,7 +8,7 @@ keywords: dialog, autopen
 documentation: ug
 ---
 
-## Auto Open
+## Auto open
 
 The EnableAutoOpen property is used to open the Dialog box on initial loading. The default value is false.
 

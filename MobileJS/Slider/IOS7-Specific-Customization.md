@@ -8,7 +8,7 @@ documentation: ug
 keywords: slider, ios7, thumbstyle
 ---
 
-# IOS7 Specific Customization
+# IOS7 specific customization
 
 You can set the **IOS7** specific properties to the control by accessing IOS7 property.
 

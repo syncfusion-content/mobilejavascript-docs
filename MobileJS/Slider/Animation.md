@@ -12,7 +12,7 @@ keywords: slider, animation
 
 This feature includes the animation effect for the **Slider** when moving the **Slider** handle.
 
-## Enabling Animation
+## Enabling animation
 
 The **data-ej-enableanimation** attribute is used to enable or disable the Animation effect in the Slider. Default value for this attribute is set to “false”. The data-ej-animationspeed attribute specifies the animation speed when the Slider is dragged from long range. It works only when 
 
