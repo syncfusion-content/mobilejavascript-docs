@@ -8,7 +8,7 @@ documentation: ug
 ---
 
 
-### Multi value selection
+## Multi value selection
 
 Autocomplete textbox enables you to select multiple items from the suggestion list. To achieve this, set the data-ej-enablemultiselect attribute to true. The data-ej-delimiterchar attribute holds a string value that specifies the separator between two selected items. You can customize the delimiter string. In this example “;” is used as delimiter.
 
@@ -27,7 +27,7 @@ Autocomplete textbox enables you to select multiple items from the suggestion li
 ![](multi-selection_images\multi-value-selection_img1.png)
 
 
-### DelimiterChar
+## DelimiterChar
 
 The data-ej-delimiterchar is used to separate two or more items in the Autocomplete textbox. If you set data-ej-delimiterchar attribute, the selected value gets added in the textbox only after the delimiter character is placed. Default value is “,”.
 

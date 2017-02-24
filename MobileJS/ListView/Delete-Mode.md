@@ -3,11 +3,11 @@ layout: post
 title: delete-mode
 description: delete mode
 platform: js
-control: Control Name undefined
+control: ListView
 documentation: ug
 ---
 
-## Delete Mode
+## Delete mode
 
 Enables delete option for each ListView item when swipe left happens to the ListView item.
 

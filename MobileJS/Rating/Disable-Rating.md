@@ -8,7 +8,7 @@ documentation: ug
 keywords: rating, disable
 ---
 
-# Disable Rating
+# Disable rating
 
 The "data-ej-readonly" attribute is used to disable the interaction in the Rating control.The default value is false.
 

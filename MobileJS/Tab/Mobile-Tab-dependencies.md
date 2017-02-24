@@ -9,7 +9,7 @@ keywords: dependencies
 
 ---
 
-# Mobile Tab Dependencies
+# Dependencies
 
 This section deals with the dependency files for Tab control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not, then you can refer the following script files to render the Tab control.
 

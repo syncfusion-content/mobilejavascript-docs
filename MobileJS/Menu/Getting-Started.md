@@ -7,7 +7,7 @@ control: Menu (Mobile)
 documentation: ug
 ---
 
-# Getting Started
+# Getting started
 
 This section explains you on how to create a Menu using Essential JavaScript and how to use it in your application.
 
@@ -115,7 +115,7 @@ Run the code and following screenshot is displayed.
 
 ![](Getting-Started_images/Getting-Started_img2.png)
 
-### Create the Menu control
+## Create the Menu control
 
 To render the menu control, set data-role attribute as ejmmenu to a <div> element. Menu can be displayed with or without a title. In this example, a title is not required, so set data-ej-ios7-showtitle attribute to false. By using the data-ej-text attribute, you can set text for menu items. Refer to the following code example.
 
@@ -139,7 +139,7 @@ To render the menu control, set data-role attribute as ejmmenu to a <div> 
 
 {% endhighlight %}
 
-### Show the Menu
+## Show the Menu
 
 To show the menu control, click the target element. Add data-ej-target attribute as a target element’s ID. You can use header right button as a target.
 
@@ -169,7 +169,7 @@ Run this code and the following output is displayed.
 
 ![](Getting-Started_images/Getting-Started_img3.png)
 
-### Handle Menu events
+## Handle Menu events
 
 You can add functionalities for each Menu item by using its touchend handler by setting the data-ej-touchend attribute. When you click a particular menu item, its corresponding touchend event is triggered and it can be handled as shown in the following code example.
 

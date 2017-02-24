@@ -21,7 +21,7 @@ You can render the Numeric Textbox control based on the default values for all
 
 1. Create an HTML file and add the following template to the HTML file for Rooms availability check form creation.
 
-   ~~~ html
+  {% highlight html %}
    
 	   <!DOCTYPE html>
 	   <html>
@@ -47,11 +47,11 @@ You can render the Numeric Textbox control based on the default values for all
 		   </body>
 	   </html>
 	   
-   ~~~  
+{% endhighlight %}
 
 2. To render Numeric Textbox control, specify ejmnumeric as the date-role attribute for an &#60;input&#62; element and type the attribute as number. Add the following code example to render numeric textbox to input the number of persons per room.
    
-   ~~~ html
+{% highlight html %}
    
 	   <!--Numeric TextBox 1 code-->
 	   
@@ -63,11 +63,11 @@ You can render the Numeric Textbox control based on the default values for all
 	   
 	   </div>
    
-   ~~~
+{% endhighlight %}
    
 3. Add the following code example to render the Numeric Textbox to input number of rooms needed.
    
-   ~~~ html
+{% highlight html %}
    
 	   <!--Numeric TextBox 2 code-->
 	   
@@ -78,12 +78,11 @@ You can render the Numeric Textbox control based on the default values for all
 		   <input data-role="ejmnumeric" data-ej-watermarktext="1" data-ej-showspinbutton="true" data-ej-minvalue="1" data-ej-maxvalue="5" type="number" name="rooms" id="roomstxt" />
 	   
 	   </div>
-   
-   ~~~
+{% endhighlight %}
    
 4. To improve the look and feel of Rooms Availability Check you need to add the following code example in your application.
 
-   ~~~ css
+{% highlight css %}
    
 	   .content_area {
 	   margin-top: 45px;
@@ -105,6 +104,6 @@ You can render the Numeric Textbox control based on the default values for all
 	   margin-right: auto;
 	   }
 	   
-   ~~~   
+{% endhighlight %} 
 
    ![](Getting-Started_images/Getting-Started_img1.png)

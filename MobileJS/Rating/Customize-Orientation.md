@@ -8,7 +8,7 @@ documentation: ug
 keywords: rating, orientation
 ---
 
-# Customize Orientation
+# Customize orientation
 
 You can customize the orientation the rating using **data-ej-orientation** attribute . It can be,
 

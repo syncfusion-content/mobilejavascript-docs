@@ -8,7 +8,7 @@ documentation: ug
 keywords: tile, image
 ---
 
-# Image Configuration
+# Image configuration
 
 The `data-ej-imageposition` attribute is used to adjust the position of the Tile image. It accepts the following values.
 
@@ -99,5 +99,5 @@ Refer the below code snippets for CSS classes
 
 The following screenshot illustrates the output of the above code.
 
-![imageclass](image-configuration_images\image-configuration_img2.png)
+![](image-configuration_images\image-configuration_img2.png)
 

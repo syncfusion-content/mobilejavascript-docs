@@ -8,7 +8,7 @@ documentation: ug
 keywords: tile, badge
 ---
 
-# Badge Configuration
+# Badge configuration
 
 The `badge` property handles badge specific functionalities like **enable** or **disable** the badge and setting badge value for the Tile. The `data-ej-badge-text` property is used to set the text instead of number for Tile badge. The `data-ej-badge-maxvalue` and `data-ej-badge-minvalue` attribute are used to set the **maximum** and **minimum** badge value to a Tile respectively. The `data-ej-badge-position` attribute is used to set the badge in `topleft` and `bottomleft` of a Tile.
 
@@ -28,5 +28,5 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-![badge](badge-configuration_images\badge-configuration_img1.png)
+![](badge-configuration_images\badge-configuration_img1.png)
 

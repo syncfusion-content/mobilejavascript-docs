@@ -8,7 +8,7 @@ documentation: ug
 keywords: dialog
 ---
 
-# Getting Started
+# Getting started
 
 This section explains briefly on how to create a Dialog control in your application.
 

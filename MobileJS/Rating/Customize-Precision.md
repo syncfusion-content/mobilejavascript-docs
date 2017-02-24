@@ -8,7 +8,7 @@ documentation: ug
 keywords: rating, precision
 ---
 
-# Customize Precision
+# Customize precision
 
 The data-ej-precision attribute is used to specify how the Rating control can accept its value. The possible values are,
 

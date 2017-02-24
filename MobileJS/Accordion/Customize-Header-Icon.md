@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize expand and collapse Icon | Accordion | Mobilejs | Syncfusion
+title: Customize expand and collapse icon | Accordion | Mobilejs | Syncfusion
 description: customize header icon
 platform: Mobilejs
 control: Accordion (Mobile)
@@ -8,7 +8,7 @@ documentation: ug
 keywords: accordion, expand, collapse
 ---
 
-# Customize expand and collapse Icon
+# Customize expand and collapse icon
 
 The “data-ej-showheadericon” attribute is used to display the expand and collapse icon for the Accordion header. 
 

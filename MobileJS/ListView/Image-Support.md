@@ -3,11 +3,11 @@ layout: post
 title: image-support
 description: image support
 platform: js
-control: Control Name undefined
+control: ListView
 documentation: ug
 ---
 
-## Image Support
+## Image support
 
 You can add images to your ListView items by specifying the image class name for individual items using ‘data-ej-fields-image’ attribute.
 

@@ -8,7 +8,7 @@ documentation: ug
 keywords: position
 ---
 
-# Header Positioning
+# Header positioning
 
 data-ej-position is used to change the position.The default value of position is top.
 

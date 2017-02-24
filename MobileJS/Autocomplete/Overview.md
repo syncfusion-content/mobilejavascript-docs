@@ -12,7 +12,7 @@ documentation: ug
 The Essential JavaScript Mobile Autocomplete widget is a textbox control that provides a list of suggestions based on a user’s query.  When you enter a text in the textbox, the control performs a search operation and provides a list of results. There are several filter types available to perform the search.
 
 
-## Key Features
+## Key features
 
 * Data binding: Supports Data binding with JSON data and remote data.
 

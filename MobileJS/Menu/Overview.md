@@ -12,6 +12,6 @@ keywords: template
 
 The Essential JavaScript Mobile Menu widget provides an interface to easily navigate hierarchical data.
 
-## Key Features
+## Key features
 
 * Template support: Menu supports template content.

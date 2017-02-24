@@ -3,13 +3,13 @@ layout: post
 title: selection
 description: selection
 platform: js
-control: Control Name undefined
+control: ListView
 documentation: ug
 ---
 
-## Selection
+# Selection
 
-### MultiSelection
+## Multiple Selection
 
 ListView has a check list feature that is used to select multiple list items, by using set EnableCheckList property as true.
 
@@ -39,7 +39,7 @@ The following screenshot displays Multiselection:
 
 ![](selection_images\selection_img1.png)
 
-### AllowSelection
+## Allow selection
 
 When a specific list item is selected, it is highlighted with an active color. AllowSelection property prevents this behavior when set to true. 
 
@@ -64,7 +64,7 @@ When a specific list item is selected, it is highlighted with an active color. A
 
 
 
-### PersistSelection
+## Persist selection
 
 PersistSelection property is used to highlight the selected item in the ListView control even after touch end happens. By default, the active state is removed once touch end happens.
 

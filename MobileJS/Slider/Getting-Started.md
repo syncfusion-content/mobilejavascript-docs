@@ -8,14 +8,14 @@ documentation: ug
 keywords: slider, range, events
 ---
 
-# Getting Started 
+# Getting started 
 
 **Essential JavaScript Mobile Slider** provides the selection of a single value or a range of values, using an interface with sliding handles.  The following example shows you how to create a **Shopping Cart App** and through that learn the features in the Slider widget.
 
 
 ![](Getting-Started_images/Getting-Started_img1.png) 
 
-## Create the layout for Shopping Cart App
+## Create the layout for shopping cart app
 
 **Essential JS Mobile Slider** widget is rendered by a <div> element with its required properties. You can customize Slider control by changing its properties according to your requirements. In the **Shopping Cart App **, the **Range Slider** is used to set the **price range**.
 

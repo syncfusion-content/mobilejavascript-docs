@@ -3,11 +3,11 @@ layout: post
 title: Getting-Started
 description: Getting Started
 platform: js
-control: Control Name undefined
+control: ListView
 documentation: ug
 ---
 
-# Getting Started
+# Getting started
 
 This section explains briefly on how to create a ListView control in your application.
 
@@ -17,7 +17,7 @@ Essential JavaScript Mobile ListView widget builds an interactive listview inte
 
 The following steps help you to add a ListView control for a mobile application that views a list of items such as images, text and navigates to the child item when you click a list item.
 
-## Create a Basic Mobile Layout
+## Create a basic mobile layout
 
 Essential JavaScript Mobile ListView widget is rendered, either by specifying static content on a list. The following steps help you create a basic ListView for your application.
 
