@@ -144,7 +144,7 @@ Add the following styles to display the image.
 
 Run the above code example and rate the application by selecting stars. You will see the following output.
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 ## Set precision
 
