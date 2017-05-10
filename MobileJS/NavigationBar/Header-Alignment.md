@@ -22,7 +22,7 @@ Text Alignment types
 
 {% highlight html %}
 
-<div id="header_sample" data-role="ejmheader" data-ej-title="Rating" data-ej-titlealignment="right"> </div>
+<div id="header_sample" data-role="ejmnavigationbar" data-ej-title="Rating" data-ej-titlealignment="right"> </div>
 
    <div class="sample">
 
