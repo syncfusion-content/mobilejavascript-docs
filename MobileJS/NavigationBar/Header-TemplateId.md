@@ -14,7 +14,7 @@ data-ej-templateid is used to define the ID of the template element where you ca
 
 {% highlight html %}
 
-<div id="header_sample" data-role="ejmheader" data-ej-templateid="template"> </div>
+<div id="header_sample" data-role="ejmnavigationbar" data-ej-templateid="template"> </div>
 
 <div id="template" class="temp">
 

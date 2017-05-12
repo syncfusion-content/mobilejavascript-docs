@@ -55,7 +55,7 @@ Create an HTML file and add the following template to the html file for Toolbar 
 
 		<div id="page" data-role="appview">
 
-			<div id="header" data-ej-title="Inbox" data-role="ejmheader" data-ej-position="normal"></div>
+			<div id="header" data-ej-title="Inbox" data-role="ejmnavigationbar" data-ej-position="normal"></div>
 
 			<!--Add Toolbar Elements here. -->
 
