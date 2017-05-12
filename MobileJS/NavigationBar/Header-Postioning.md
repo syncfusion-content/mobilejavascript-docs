@@ -20,7 +20,7 @@ The position type is
 
 {% highlight html %}
 
-<div id="header_sample" data-role="ejmheader" data-ej-t="template"> </div>
+<div id="header_sample" data-role="ejmnavigationbar" data-ej-position="bottom" data-ej-templateid="template"> </div>
 
 <div id="template" class="temp">
 
