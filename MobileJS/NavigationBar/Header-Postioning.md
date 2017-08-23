@@ -99,6 +99,6 @@ The position type is
 
 {% endhighlight %}
 
-The following screenshot will display the toolbar position in bottom.
+Execute the above mentioned code to get following output.
 
 ![](Header-Positioning-images/header-positioning-img1.png)

@@ -10,7 +10,7 @@ keywords: template
 
 # Header templateid
 
-data-ej-templateid is used to define the ID of the template element where you can specify the content to render in the control. In the below example we have rendered listview as template to the navigationbar.
+data-ej-templateid is used to define the ID of the template element where you can specify the content to render in the control. The below code is used to rendered ejmlistview as template in the NavigationBar.
 
 {% highlight html %}
 
@@ -34,6 +34,6 @@ data-ej-templateid is used to define the ID of the template element where you ca
 
 {% endhighlight %}
 
-The following screenshot displays the Template ID
+Execute the above mentioned code to get following output.
 
 ![](Header-TemplateId_images/Header-TemplateId_img1.png)

@@ -101,6 +101,6 @@ Text Alignment types
 
 {% endhighlight %}
 
-The following screenshot displays the header in the right position
+Execute the above mentioned code to get following output.
 
 ![](Header-Alignment-images/Header-Alignment-img1.png)

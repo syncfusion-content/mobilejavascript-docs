@@ -59,7 +59,7 @@ Create an HTML file and add the following template to the html file for Toolbar 
 
 {% endhighlight %}
 
-Add the following code in your Style section to use font icons in your sample,
+Add the following code in your style section to use font icons in your sample,
 
 {% highlight css %}
 
@@ -81,7 +81,8 @@ Add the following code in your Style section to use font icons in your sample,
     content: "\e93e";
     }
 
-	</style>	
+	</style>
+
 {% endhighlight %}
 
 Execute this code to render the following output.
@@ -90,7 +91,7 @@ Execute this code to render the following output.
 
 ### Adding ListView in NavigationBar
 
-We can render required control in the Nanvingationbar. Here we have used listview in slider panel.
+You can render required control in the NavigationBar. The below example shows you how to use ejmListView in slider panel.
 
 Add following code in your html page,
 
@@ -149,11 +150,12 @@ Add following code in your html page,
         </span>
     </script>
     </div>
+
 {% endhighlight %}
 
 Add the following code in your script section,
 
-{% highlight JavaScript %}
+{% highlight javascript %}
 
 function _optionClick(e) {
             switch (e.data.text) {
