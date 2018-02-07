@@ -108,9 +108,9 @@ The steps to install the Syncfusion JavaScript NuGet Packages in Visual Studio a
 2. Select NuGet Package Manager | Package Sources and click Add button to add the Package Name and Package Source of Syncfusion NuGet Packages.
 
 Name: Name of the package that listed in Available package sources
-Source: Syncfusion JavaScript NuGet Package feed URL[http://nuget.syncfusion.com/javascript](http://nuget.syncfusion.com/javascript)
+Source: Syncfusion JavaScript NuGet Package feed URL[http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript)
 
-![](Installation--Deployment_images/NuGetConfig2.jpeg)
+![](Installation--Deployment_images/NuGetConfig2.png)
 
 
 
