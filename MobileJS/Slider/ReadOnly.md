@@ -2,7 +2,7 @@
 layout: post
 title: ReadOnly | Slider | Mobilejs | Syncfusion
 description: ReadOnly
-platform: Mobile JS
+platform: Mobilejs
 control: Slider
 documentation: ug
 keywords: slider, readonly

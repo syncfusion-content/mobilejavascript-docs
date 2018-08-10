@@ -2,7 +2,7 @@
 layout: post
 title: Orientation | Slider | Mobilejs | Syncfusion
 description: orientation
-platform: Mobile JS
+platform: Mobilejs
 control: Slider
 documentation: ug
 keywords: slider, orientation

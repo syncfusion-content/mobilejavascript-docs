@@ -2,7 +2,7 @@
 layout: post
 title: Customize value | Slider | Mobilejs | Syncfusion
 description: Customize value
-platform: Mobile JS
+platform: Mobilejs
 control: Slider
 documentation: ug
 keywords: slider, value, maxvalue, minvalue

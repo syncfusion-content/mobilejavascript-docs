@@ -2,7 +2,7 @@
 layout: post
 title: IOS7 Specific Customization | Slider | Mobilejs | Syncfusion
 description: IOS7 Specific Customization
-platform: Mobile JS
+platform: Mobilejs
 control: Slider
 documentation: ug
 keywords: slider, ios7, thumbstyle
