@@ -2,7 +2,7 @@
 layout: post
 title: Enable and Disable | TextArea | Mobilejs | Syncfusion
 description: Enable and Disable
-platform: Mobile JS
+platform: Mobilejs
 control: TextArea
 documentation: ug
 keywords: textarea, enable, disable

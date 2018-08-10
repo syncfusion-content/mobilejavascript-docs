@@ -2,7 +2,7 @@
 layout: post
 title: Enable and Disable | Textbox | Mobilejs | Syncfusion
 description: Enable and Disable 
-platform: Mobile JS
+platform: Mobilejs
 control: TextBox
 documentation: ug
 keywords: textbox, enable, disable
