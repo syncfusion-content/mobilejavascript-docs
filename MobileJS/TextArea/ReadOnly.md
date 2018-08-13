@@ -2,7 +2,7 @@
 layout: post
 title: ReadOnly | TextArea | Mobilejs | Syncfusion
 description: ReadOnly
-platform: Mobole JS
+platform: Mobilejs
 control: TextArea
 documentation: ug
 keywords: textarea, readonly
