@@ -2,7 +2,7 @@
 layout: post
 title: Overview | Slider | Mobilejs | Syncfusion
 description: overview
-platform: Mobile JS
+platform: Mobilejs
 control: Slider
 documentation: ug
 keywords: slider, overview
