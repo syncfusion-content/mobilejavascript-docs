@@ -3,7 +3,7 @@ layout: post
 title: ReadOnly | TextArea | Mobilejs | Syncfusion
 description: ReadOnly
 platform: Mobilejs
-control: TextArea
+control: TextArea (Mobile)
 documentation: ug
 keywords: textarea, readonly
 ---
