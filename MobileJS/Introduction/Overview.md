@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overview | Introduction | Mobilejs | Syncfusion
-description: overview
+description: Overview of Syncfusion Essential JavaScript Studio for Mobile is emerged as a powerful combination of both HTML and jQuery.
 platform: Mobilejs
 control: Introduction
 documentation: ug
