@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Customize-Watermarktext | Textbox | Mobilejs | Syncfusion
-description:Customize-Watermarktext
+description: Customize-Watermarktext
 platform: Mobilejs
-control: Textbox
+control: Textbox (Mobile)
 documentation: ug
 keywords: textbox, watermarktext
 ---
@@ -27,4 +27,4 @@ Refer to the following code example.
 The following screenshot displays the customization of the text with Watermarktext Property.
 
 
-![](Customize-Watermark-text-images/watermarktext-img1.png) 
+![Watermarktext](Customize-Watermark-text-images/watermarktext-img1.png) 
