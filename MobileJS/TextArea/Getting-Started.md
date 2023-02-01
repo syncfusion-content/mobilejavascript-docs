@@ -1,18 +1,18 @@
 ---
 layout: post
 title: Getting-Started | TextArea | Mobilejs | Syncfusion
-description: getting started 
+description: Leran here more about Getting started with Syncfusion Essential MobileJS TextArea Control, its element and more
 platform: js
 control: TextArea
 documentation: ug
 keywords: textarea
 ---
 
-# Getting Started 
+# Getting Started with MobileJS TextArea
 
    The **Essential JavaScript Mobile widget for TextArea ** allows the input of multiple lines of text within the web page. It also has expandable option that allows more text to the TextArea.From the following guidelines, you can create basic Mail sending form by using the TextArea control.  In the following output, message field is rendered by using the TextArea.
 
-![](Getting-Started_images/Getting-Started_img1.png) 
+![Getting Started with MobileJS TextArea](Getting-Started_images/Getting-Started_img1.png) 
 
 ## Create the layout
 
@@ -79,7 +79,7 @@ To render the TextArea control, you can set ejmtextarea to data-role attribute f
 
 Run the code and get the following output.
 
-![](Getting-Started_images/Getting-Started_img1.png) 
+![Create TextArea in MobileJS TextArea]](Getting-Started_images/Getting-Started_img1.png) 
 
 
 
