@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting-Started | TextArea | Mobilejs | Syncfusion
-description: Leran here more about Getting started with Syncfusion Essential MobileJS TextArea Control, its element and more
+title: Getting Started with Mobilejs TextArea control | Syncfusion
+description: Leran here more about Getting started with Syncfusion Essential MobileJS TextArea Control, its element and more.
 platform: js
 control: TextArea
 documentation: ug
