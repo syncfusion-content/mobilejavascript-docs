@@ -54,7 +54,7 @@ Create an **HTML** file and add the following template to the HTML file.
 
 ## Create TextArea
 
-To render the TextArea control, you can set ejmtextarea to data-role attribute for the specific input element as follows.                                   
+To render the TextArea control, you can set ejm textarea to data-role attribute for the specific input element as follows.                                   
 
 {% highlight html %}
 
