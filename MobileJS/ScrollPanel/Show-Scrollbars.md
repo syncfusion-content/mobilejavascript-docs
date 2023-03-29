@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Show Scrollbars | Scroll Panel | Mobilejs | Syncfusion
-description: show scrollbars
+description: Learn here about show scrollbars support in Syncfusion Essential MobileJs Scroll Panel Control, its elements, and more.
 platform: Mobilejs
 control: Scroll Panel (Mobile)
 documentation: ug
 ---
 
-# Show Scrollbars
+# Show Scrollbars in MobileJs Scroll Panel
 
 The “data-ej-showscrollbars” attribute is to control the visibility of the Scrollbars in your application. By default, this property is set to true.
 
@@ -35,4 +35,4 @@ The “data-ej-showscrollbars” attribute is to control the visibility of the S
 
 The following screenshot displays “show scrollbars”:
 
-![](Show-Scrollbars_images/Show-Scrollbars_img1.png)
+![MobileJs Scroll Panel show scrollbars](Show-Scrollbars_images/Show-Scrollbars_img1.png)
