@@ -121,7 +121,7 @@ Obtrusive</td><td>
 RequireJS</td></tr>
 <tr>
 <td>
-<a href=http://help.syncfusion.com/js/datamanager/data-binding>Data-binding</a></td><td>
+<a href=https://help.syncfusion.com/js/datamanager/data-binding>Data-binding</a></td><td>
 </td></tr>
 </table>
 
