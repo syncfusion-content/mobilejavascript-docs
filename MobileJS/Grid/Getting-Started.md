@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Getting Started | Grid | Mobilejs | Syncfusion
-description: getting started
+description: Learn here about getting started with Syncfusion Essential MobileJs Grid Control, its elements, and more.
 platform: Mobilejs
 control: Grid (Mobile)
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with MobileJs Grid
 
 In this section, you can learn how to create Grid using JavaScript in mobile app.
 
@@ -15,7 +15,7 @@ In this section, you can learn how to create Grid using JavaScript in mobile app
 
 Essential Grid for Mobile JavaScript is a feature-rich Grid component that can handle large amount of data. It is very easy to use and includes features like data binding, filtering, paging, and sorting. You can make use of the Mobile Grid control to generate complex grid-based reports. In the following guidelines, you will learn about the features in Mobile Grid widget by creating a Sales data grid.
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![MobileJs Grid necessary layout](Getting-Started_images/Getting-Started_img1.png)
 
 ## Create the necessary layout 
 
@@ -127,7 +127,7 @@ Refer to the following script section.
 
 Run this code and you can see the following output.
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![MobileJs Grid with scrolling](Getting-Started_images/Getting-Started_img2.png)
 
 ## Grid with Scrolling
 
@@ -171,7 +171,7 @@ Now, you have to enable scroll support in Grid. Scroll is used to view all the c
 
 Run this code and you can see the following output.
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![MobileJs Grid with paging](Getting-Started_images/Getting-Started_img3.png)
 
 From the above output, it is clear that we can scroll up and down to view the Grid contents. 
 
@@ -221,7 +221,7 @@ Now, enable Paging feature in Grid. This offers complete navigation support to e
 
 Run this code and you can see the following output.
 
-![](Getting-Started_images/Getting-Started_img4.png)
+![MobileJs Grid with filtering](Getting-Started_images/Getting-Started_img4.png)
 
 ## Grid with Filtering
 
@@ -269,11 +269,11 @@ N> The filter query is a combination of value and symbols (<, >, =, etc). For ex
 
 Run this code and you can see the following output.
 
-![](Getting-Started_images/Getting-Started_img5.png)
+![MobileJs Grid filtering](Getting-Started_images/Getting-Started_img5.png)
 
 In the above output, it is clear that Order ID filter is selected and the Order ID filter column is filled with the value 10260. 
 
-![](Getting-Started_images/Getting-Started_img6.png)
+![MobileJs Grid sortable column](Getting-Started_images/Getting-Started_img6.png)
 
 ## Sortable Grid columns
 
@@ -319,4 +319,4 @@ Now, enable Sorting feature in Mobile Grid. Mobile Grid columns are sortable. Yo
 
 Run this code and you can see the following output.
 
-![](Getting-Started_images/Getting-Started_img7.png)
+![MobileJs Grid columns](Getting-Started_images/Getting-Started_img7.png)

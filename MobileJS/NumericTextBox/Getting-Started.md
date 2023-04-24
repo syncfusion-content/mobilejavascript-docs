@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Getting Started | Numeric Textbox | Mobilejs | Syncfusion
-description: getting started
+description: Learn here about getting started with Syncfusion Essential MobileJs Numeric Textbox Control, its elements, and more.
 platform: Mobilejs
 control: Numeric Textbox (Mobile)
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with MobileJs Numeric Textbox
 
 In this section you can learn how to create your first Numeric Textbox Control Mobile application.
 
@@ -106,4 +106,4 @@ You can render the Numeric Textbox control based on the default values for all
 	   
 {% endhighlight %} 
 
-   ![](Getting-Started_images/Getting-Started_img1.png)
+   ![MobileJs Numeric Textbox create required layout](Getting-Started_images/Getting-Started_img1.png)
