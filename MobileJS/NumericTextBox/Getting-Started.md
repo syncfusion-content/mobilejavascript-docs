@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting Started | Numeric Textbox | Mobilejs | Syncfusion
+title: Getting Started with Mobilejs Numeric Textbox Control | Syncfusion
 description: Learn here about getting started with Syncfusion Essential MobileJs Numeric Textbox Control, its elements, and more.
 platform: Mobilejs
 control: Numeric Textbox (Mobile)
