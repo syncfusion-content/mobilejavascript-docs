@@ -27,8 +27,8 @@ Create an HTML file and add the following template to the HTML file for Group Bu
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
     <title>Group Button</title>
     <link href="[http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+    <script src="[https://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](https://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
+    <script src="[https://cdn.syncfusion.com/js/assets/external/jsrender.min.js](https://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
     <script src="[http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.js)"></script>
 </head>
 <body>

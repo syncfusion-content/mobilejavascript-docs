@@ -12,7 +12,7 @@ documentation: ug
 
 ## For Windows Users
 
-Download the setup file (.exe) of Essential Studio for JavaScript product from this [link](http://www.syncfusion.com/downloads/javascript) with your Syncfusion account and follow the steps mentioned in the [setup guide](http://help.syncfusion.com/common) to install the specific/entire platform on your machine.
+Download the setup file (.exe) of Essential Studio for JavaScript product from this [link](https://www.syncfusion.com/downloads/javascript) with your Syncfusion account and follow the steps mentioned in the [setup guide](https://help.syncfusion.com/common) to install the specific/entire platform on your machine.
 
 
 ### Install Location
@@ -95,7 +95,7 @@ It also includes other folders such as, Release Notes, License Agreement and Rea
 
 ## Configuring Syncfusion NuGet Packages in Visual Studio
 
-Syncfusion JavaScript NuGet packages are available [here](http://nuget.syncfusion.com/package/javascript).
+Syncfusion JavaScript NuGet packages are available [here](https://nuget.syncfusion.com/package/javascript).
 
 ### NuGet Configuration
 
@@ -108,7 +108,7 @@ The steps to install the Syncfusion JavaScript NuGet Packages in Visual Studio a
 2. Select `NuGet Package Manager | Package Sources` and click `Add` button to add the `Package Name` and `Package Source` of Syncfusion NuGet Packages.
 
 Name: Name of the package that listed in Available package sources
-Source: Syncfusion JavaScript NuGet Package feed URL[http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript)
+Source: Syncfusion JavaScript NuGet Package feed URL[https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript)
 
 ![](Installation--Deployment_images/NuGetConfig2.png)
 
@@ -118,7 +118,7 @@ N> The `Source` text box in the above image denotes the location of the NuGet 
 
 IMPORTANT:
 
-Syncfusion other platforms NuGet packages feed links are available [here](http://nuget.syncfusion.com/)
+Syncfusion other platforms NuGet packages feed links are available [here](https://nuget.syncfusion.com/)
 
 ### NuGet Installation
 
@@ -131,7 +131,7 @@ Syncfusion JavaScript NuGet can install once configured the package source. The 
 2. The NuGet Packages are listed which are available in package source location. Install the required packages to your application by clicking `Install` button.
 
 
-N> NuGet packages can be install directly through the command line (Package Manager Console). Further details click [here](http://help.syncfusion.com/extension/syncfusion-nuget-packages/nuget-install-and-configuration)
+N> NuGet packages can be install directly through the command line (Package Manager Console). Further details click [here](https://help.syncfusion.com/extension/syncfusion-nuget-packages/nuget-install-and-configuration)
 
 ### Updating a NuGet Package
 

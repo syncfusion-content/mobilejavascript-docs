@@ -24,8 +24,8 @@ Create an HTML file and paste the following template to it.
 <head>
     <title>Scroll Panel</title>
     <link href="[http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.css](http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.css)" rel="stylesheet" />
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
-    <script src="[http://cdn.syncfusion.com/js/assets/external/jsrender.min.js](http://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
+    <script src="[https://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](https://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)"></script>
+    <script src="[https://cdn.syncfusion.com/js/assets/external/jsrender.min.js](https://cdn.syncfusion.com/js/assets/external/jsrender.min.js)"></script>
     <script src="[http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.js](http://cdn.syncfusion.com/{{ site.releaseversion }}/js/mobile/ej.mobile.all.min.js)"></script>
 </head>
 <body>

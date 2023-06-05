@@ -100,4 +100,4 @@ Open the mobile application to debug in iOS device. In your mac, open safar
 
 ## Remote debugging using Chrome
 
-This method is used only to debug Android devices with the assist of Chrome browser. Go through this [Android USB debugging](https://developer.chrome.com/devtools/docs/remote-debugging). By following the simple steps provided in the link we can enable USB debugging for Android devices.
+This method is used only to debug Android devices with the assist of Chrome browser. Go through this [Android USB debugging](https://developer.chrome.com/docs/devtools/remote-debugging/). By following the simple steps provided in the link we can enable USB debugging for Android devices.
