@@ -1181,7 +1181,7 @@ Specifies whether to fetch the Ajax content initially.
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Changes the rendering mode of the accordion. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
+Changes the rendering mode of the accordion. See[RenderMode](https://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 #### Default Value:
 

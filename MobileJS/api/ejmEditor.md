@@ -293,7 +293,7 @@ Numeric
 ### borderStyle `Enum`
 {:#members:borderstyle}
 
-Specifies the style of the border. See [BorderStyle](http://help.syncfusion.com/mobilejs/api/global#members:borderstyle)
+Specifies the style of the border. See [BorderStyle](https://help.syncfusion.com/mobilejs/api/global#members:borderstyle)
 
 #### Default Value:
 
@@ -1312,7 +1312,7 @@ N> In Numeric textbox Specifies whether the control is read only to disable typi
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
+Specifies the rendering mode of the control. See [RenderMode](https://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 #### Default Value:
 
@@ -1485,7 +1485,7 @@ Numeric
 ### type `Enum`
 {:#members:type}
 
-Specifies the textbox type.see [Type](http://help.syncfusion.com/mobilejs/api/global#members:textboxtype)
+Specifies the textbox type.see [Type](https://help.syncfusion.com/mobilejs/api/global#members:textboxtype)
 
 #### Default Value:
 

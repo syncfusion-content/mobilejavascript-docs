@@ -170,7 +170,7 @@ N> Android specific properties works only in android mode. To achieve android sp
 ### android.position `enum`
 {:#members:android-position}
 
-Specifies the position of NavigationBar in android rendering mode. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#navbarposition)
+Specifies the position of NavigationBar in android rendering mode. i.e. top or bottom. See [NavBarPosition](https://help.syncfusion.com/mobilejs/api/global#navbarposition)
 
 #### Default Value
 
@@ -425,7 +425,7 @@ N> Flat specific properties works only in flat mode. To achieve flat specific pr
 ### flat.position `enum`
 {:#members:flat-position}
 
-Specifies the position of NavigationBar in flat rendering mode. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#navbarposition)
+Specifies the position of NavigationBar in flat rendering mode. i.e. top or bottom. See [NavBarPosition](https://help.syncfusion.com/mobilejs/api/global#navbarposition)
 
 #### Default Value
 
@@ -466,7 +466,7 @@ Specifies the position of NavigationBar in flat rendering mode. i.e. top or bott
 ### iconAlignment `enum`
 {:#members:iconalignment}
 
-It is used to align icons in a specific manner. In split alignment, icons will take 100% of page width and badge of icons will be appeared on right side of icons. In grouped alignment, icons will take some specific with and will render middle of the page, and the badge of icons will be appeared on top right of icons. See [NavBarIconAlignment](http://help.syncfusion.com/mobilejs/api/global#navbariconalignment)
+It is used to align icons in a specific manner. In split alignment, icons will take 100% of page width and badge of icons will be appeared on right side of icons. In grouped alignment, icons will take some specific with and will render middle of the page, and the badge of icons will be appeared on top right of icons. See [NavBarIconAlignment](https://help.syncfusion.com/mobilejs/api/global#navbariconalignment)
 
 N> This is a toolbar specific property. It works only when the mode property set as “toolbar” and icons of toolbar defined in sample.
 
@@ -531,7 +531,7 @@ N> Ios7 specific properties works only in ios7 mode. To achieve ios7 specific pr
 ### ios7.position `enum`
 {:#members:ios7-position}
 
-Specifies the position of NavigationBar in ios7 rendering mode. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#navbarposition)
+Specifies the position of NavigationBar in ios7 rendering mode. i.e. top or bottom. See [NavBarPosition](https://help.syncfusion.com/mobilejs/api/global#navbarposition)
 
 #### Default Value
 
@@ -716,7 +716,7 @@ Specifies the localization to adopt the required language.
 ### mode `enum`
 {:#members:mode}
 
-Specifies the mode of NavigationBar. If the value of this property is “toolbar”, then the NavigationBar will act as toolbar otherwise header. (Or footer if position is bottom). See [NavBarMode](http://help.syncfusion.com/mobilejs/api/global#navbarmode)
+Specifies the mode of NavigationBar. If the value of this property is “toolbar”, then the NavigationBar will act as toolbar otherwise header. (Or footer if position is bottom). See [NavBarMode](https://help.syncfusion.com/mobilejs/api/global#navbarmode)
 
 #### Default Value
 
@@ -771,7 +771,7 @@ Specifies the mode of NavigationBar. If the value of this property is “toolbar
 ### position `enum`
 {:#members:position}
 
-Specifies the position of NavigationBar. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#navbarposition)
+Specifies the position of NavigationBar. i.e. top or bottom. See [NavBarPosition](https://help.syncfusion.com/mobilejs/api/global#navbarposition)
 
 #### Default Value
 
@@ -812,7 +812,7 @@ Specifies the position of NavigationBar. i.e. top or bottom. See [NavBarPositio
 ### renderMode `enum`
 {:#members:rendermode}
 
-Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#rendermode)
+Specifies the rendering mode of the control. See [RenderMode](https://help.syncfusion.com/mobilejs/api/global#rendermode)
 
 #### Default Value
 
@@ -907,7 +907,7 @@ Specifies ID of the element contains template contents.
 ### titleAlignment `enum`
 {:#members:titlealignment}
 
-Specifies the title alignment of the NavigationBar. See [NavBarTitleAlignment](http://help.syncfusion.com/mobilejs/api/global#navbartitlealignment)
+Specifies the title alignment of the NavigationBar. See [NavBarTitleAlignment](https://help.syncfusion.com/mobilejs/api/global#navbartitlealignment)
 
 #### Default Value
 
@@ -998,7 +998,7 @@ N> Windows specific properties works only in windows mode. To achieve windows sp
 ### windows.position `enum`
 {:#members:windows-position}
 
-Specifies the position of NavigationBar in windows rendering mode. i.e. top or bottom. See [NavBarPosition](http://help.syncfusion.com/mobilejs/api/global#navbarposition)
+Specifies the position of NavigationBar in windows rendering mode. i.e. top or bottom. See [NavBarPosition](https://help.syncfusion.com/mobilejs/api/global#navbarposition)
 
 #### Default Value
 

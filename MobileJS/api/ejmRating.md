@@ -263,7 +263,7 @@ Specifies the minimum value.
 
 
 
-Specifies whether the orientation is horizontal or vertical. See [Orientation](http://help.syncfusion.com/mobilejs/api/global#ratingorientation)
+Specifies whether the orientation is horizontal or vertical. See [Orientation](https://help.syncfusion.com/mobilejs/api/global#ratingorientation)
 
 
 #### Default Value
@@ -304,7 +304,7 @@ Specifies whether the orientation is horizontal or vertical. See [Orientation](h
 
 
 
-Specifies the precision value. See [Precision](http://help.syncfusion.com/mobilejs/api/global#ratingprecision)
+Specifies the precision value. See [Precision](https://help.syncfusion.com/mobilejs/api/global#ratingprecision)
 
 
 #### Default Value
@@ -385,7 +385,7 @@ Specifies whether the control is read only.
 
 
 
-Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#rendermode)
+Specifies the rendering mode of the control. See [RenderMode](https://help.syncfusion.com/mobilejs/api/global#rendermode)
 
 
 #### Default Value
@@ -426,7 +426,7 @@ Specifies the rendering mode of the control. See [RenderMode](http://help.syncfu
 
 
 
-Specifies the shape. See [Shape](http://help.syncfusion.com/mobilejs/api/global#ratingshape)
+Specifies the shape. See [Shape](https://help.syncfusion.com/mobilejs/api/global#ratingshape)
 
 
 #### Default Value
