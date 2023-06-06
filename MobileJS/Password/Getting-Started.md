@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started | Password | Mobilejs | Syncfusion
-description: getting started
+title: Getting Started with MobileJS Password Control | Syncfusion
+description: Learn here all about getting started with Syncfusion Essential MobileJS Password(Mobile) control, its elements, and more.
 platform: Mobilejs
 control: Password (Mobile)
 documentation: ug
 ---
 
-# Getting started
+# Getting started with MobileJS Password(Mobile)
 
 This section describes in brief how you can create an Essential JavaScript Mobile Password Textbox widget.
 
