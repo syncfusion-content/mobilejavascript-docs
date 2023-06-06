@@ -1048,7 +1048,7 @@ Specifies the tab items as an array of JSONobjects.
 ### itemStyle `enum`
 {:#members:itemStyle} 
 
-Specifies how the tab items will be visible in the screen. See [TabItemStyle](http://help.syncfusion.com/mobilejs/api/global#tabitemstyle)
+Specifies how the tab items will be visible in the screen. See [TabItemStyle](https://help.syncfusion.com/mobilejs/api/global#tabitemstyle)
 
 #### Default value
 
@@ -1304,7 +1304,7 @@ Text3.html:
 ### renderMode `enum`
 {:#members:renderMode} 
 
-Changes the rendering mode. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#rendermode)
+Changes the rendering mode. See [RenderMode](https://help.syncfusion.com/mobilejs/api/global#rendermode)
 
 #### Default value
 

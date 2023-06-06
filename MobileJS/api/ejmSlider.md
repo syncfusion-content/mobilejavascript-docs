@@ -291,7 +291,7 @@ Section for ios7 mode specific functionalities.
 ### ios7.thumbStyle `Enum`
 {:#members:ios7-thumbstyle}
 
-Specifies the thumb style in ios7 mode. See[ThumbStyle](http://help.syncfusion.com/mobilejs/api/global#members:thumbstyle)
+Specifies the thumb style in ios7 mode. See[ThumbStyle](https://help.syncfusion.com/mobilejs/api/global#members:thumbstyle)
 
 #### Default Value:
 
@@ -398,7 +398,7 @@ Specifies the minimum value.
 ### orientation `Enum`
 {:#members:orientation}
 
-Specifies whether the orientation is horizontal or vertical. See[Orientation](http://help.syncfusion.com/mobilejs/api/global#members:orientation)
+Specifies whether the orientation is horizontal or vertical. See[Orientation](https://help.syncfusion.com/mobilejs/api/global#members:orientation)
 
 #### Default Value:
 
@@ -470,7 +470,7 @@ Specifies whether the control is read only.
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Specifies the rendering mode of the control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
+Specifies the rendering mode of the control. See[RenderMode](https://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 #### Default Value:
 

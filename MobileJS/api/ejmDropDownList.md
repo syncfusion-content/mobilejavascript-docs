@@ -1068,7 +1068,7 @@ Specifies whether the DropDownList to be rendered without interaction. If this s
 ### renderMode `enum`
 {:#members:rendermode}
 
-Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#rendermode)
+Specifies the rendering mode of the control. See [RenderMode](https://help.syncfusion.com/mobilejs/api/global#rendermode)
 
 #### Default Value
 

@@ -323,7 +323,7 @@ Specifies the minimum value.
 ### orientation `Enum`
 {:#members:orientation}
 
-Specifies the orientation whether it is horizontal or vertical. See[Orientation](http://help.syncfusion.com/mobilejs/api/global#members:orientation)
+Specifies the orientation whether it is horizontal or vertical. See[Orientation](https://help.syncfusion.com/mobilejs/api/global#members:orientation)
 
 #### Default Value:
 
@@ -393,7 +393,7 @@ Specifies the initial value in percentage.
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Changes the rendering mode. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
+Changes the rendering mode. See[RenderMode](https://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 #### Default Value:
 

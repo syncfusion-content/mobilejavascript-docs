@@ -1271,7 +1271,7 @@ Specifies time interval between two successive live tile animation.
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Changes the rendering mode of Tile. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
+Changes the rendering mode of Tile. See[RenderMode](https://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 #### Default Value:
 

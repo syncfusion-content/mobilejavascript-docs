@@ -353,7 +353,7 @@ N> To render ListView with JSON array, the property fields.text should be set to
 ### deleteMode `enum`
 {:#members:deletemode} 
 
-This property enables delete option for each ListView item when swipe left happens to the ListView item. See [DeleteMode](http://help.syncfusion.com/mobilejs/api/global.html).
+This property enables delete option for each ListView item when swipe left happens to the ListView item. See [DeleteMode](https://help.syncfusion.com/mobilejs/api/global.html).
 
 #### Default Value
 
@@ -1388,7 +1388,7 @@ This property used to filter data from remote data source.
 ### renderMode `enum`
 {:#members:rendermode} 
 
-Specifies the rendering mode of the ListView control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global.html)
+Specifies the rendering mode of the ListView control. See [RenderMode](https://help.syncfusion.com/mobilejs/api/global.html)
 
 #### Default Value
 

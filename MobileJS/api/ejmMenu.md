@@ -880,7 +880,7 @@ Specifies the query to execute with the datasource.
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Specifies the rendering mode of the Menu control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
+Specifies the rendering mode of the Menu control. See[RenderMode](https://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 #### Default Value:
 
@@ -992,7 +992,7 @@ Specifies to show the popover menu arrow.
 ### showOn `String`
 {:#members:showon}
 
-Specifies in which action need to show the menu. See[ShowOn](http://help.syncfusion.com/mobilejs/api/global#members:showon)
+Specifies in which action need to show the menu. See[ShowOn](https://help.syncfusion.com/mobilejs/api/global#members:showon)
 
 #### Default Value:
 

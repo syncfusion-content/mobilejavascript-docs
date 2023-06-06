@@ -744,7 +744,7 @@ Specifies the localization to adopt the required language. In Dialog control tit
 ### mode `enum`
 {:#members:mode} 
 
-Specifies the Dialog mode to render. i.e. alert mode or confirm mode. See [DialogMode](http://help.syncfusion.com/mobilejs/api/global#dialogmode)
+Specifies the Dialog mode to render. i.e. alert mode or confirm mode. See [DialogMode](https://help.syncfusion.com/mobilejs/api/global#dialogmode)
 
 #### Default Value
 
@@ -799,7 +799,7 @@ Specifies the Dialog mode to render. i.e. alert mode or confirm mode. See [Dial
 ### renderMode `enum`
 {:#members:rendermode} 
 
-Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#rendermode)
+Specifies the rendering mode of the control. See [RenderMode](https://help.syncfusion.com/mobilejs/api/global#rendermode)
 
 #### Default Value
 
