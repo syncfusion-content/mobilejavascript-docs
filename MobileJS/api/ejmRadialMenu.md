@@ -548,7 +548,7 @@ Renders the RadialMenu using datasource which contains array of items.
 ### position `enum`
 {:#members:position} 
 
-Changes the Position of the control. See [RadialMenuPosition](http://help.syncfusion.com/mobilejs/api/global#radialmenuposition)
+Changes the Position of the control. See [RadialMenuPosition](https://help.syncfusion.com/mobilejs/api/global#radialmenuposition)
 
 #### Default Value
 
@@ -656,7 +656,7 @@ Specifies the radius of the radialmenu control.
 ### renderMode `enum`
 {:#members:rendermode} 
 
-Changes the rendering mode. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#rendermode)
+Changes the rendering mode. See [RenderMode](https://help.syncfusion.com/mobilejs/api/global#rendermode)
 
 #### Default Value
 

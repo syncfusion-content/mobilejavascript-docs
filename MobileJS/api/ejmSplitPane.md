@@ -772,7 +772,7 @@ Specifies the width of leftpane.
 ### renderMode `enum`
 {:#members:rendermode}
 
-Changes the rendering mode of the SplitPane. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global.html#rendermode)
+Changes the rendering mode of the SplitPane. See [RenderMode](https://help.syncfusion.com/mobilejs/api/global.html#rendermode)
 
 #### Default Value
 
