@@ -188,7 +188,7 @@ Specifies to maintain the current model value to browser cookies for state maint
 ### renderMode `enum`
 {:#members:renderMode} 
 
-Specifies the rendering mode of the control. See [RenderMode](http://help.syncfusion.com/mobilejs/api/global#rendermode)
+Specifies the rendering mode of the control. See [RenderMode](https://help.syncfusion.com/mobilejs/api/global#rendermode)
 
 #### Default Value
 

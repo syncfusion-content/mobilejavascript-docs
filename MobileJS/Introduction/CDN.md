@@ -9,7 +9,7 @@ documentation: ug
 
 # CDN
 
-The [CDN](http://en.wikipedia.org/wiki/Content_delivery_network) links are provided individually for all the Scripts and Stylesheets that provide easier access to Syncfusion JavaScript components.
+The [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) links are provided individually for all the Scripts and Stylesheets that provide easier access to Syncfusion JavaScript components.
 
 N> All the provided CDN used either through http or https.
 
@@ -28,7 +28,7 @@ The first three common script libraries listed in the following table are more e
 {% highlight text %}
 
 http://cdn.syncfusion.com/js/assets/external/[file name]  
-    Example: [http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)
+    Example: [https://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js](https://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js)
 
 
 {% endhighlight %}

@@ -15,7 +15,7 @@ The users with Essential Studio Enterprise license or Essential Studio for JavaS
 
 # Getting Started with Custom Script Generator
 
-* Login into the online CSG [link](http://csg.syncfusion.com/) with your DirectTrac credentials. Switch to the Mobile tab and the Custom Script Generator Utility options will be displayed as follows,
+* Login into the online CSG [link](https://csg.syncfusion.com/) with your DirectTrac credentials. Switch to the Mobile tab and the Custom Script Generator Utility options will be displayed as follows,
 
 ![](Generating-a-Customized-Script-file_images/Generating-a-Customized-Script-file_img1.png)
 

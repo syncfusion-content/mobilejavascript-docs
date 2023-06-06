@@ -731,7 +731,7 @@ Specifies whether to show the Pager on initialization.
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Specifies the rendering mode of the Rotator control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
+Specifies the rendering mode of the Rotator control. See[RenderMode](https://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 <table>
 <tr>

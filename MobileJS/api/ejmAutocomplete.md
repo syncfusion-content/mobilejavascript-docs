@@ -547,7 +547,7 @@ Specifies the name of the field from the data source to bind to the Text propert
 ### filterType `Enum`
 {:#members:filtertype}
 
-Specifies the type of the filter by which the filtering occurs. See[FilterType](http://help.syncfusion.com/mobilejs/api/global#members:filtertype)
+Specifies the type of the filter by which the filtering occurs. See[FilterType](https://help.syncfusion.com/mobilejs/api/global#members:filtertype)
 
 #### Default Value: 
 
@@ -685,7 +685,7 @@ Specifies the minimum search key length, which only AutoComplete queries from th
 ### mode `Enum`
 {:#members:mode}
 
-Specifies the AutoComplete mode. See[Mode](http://help.syncfusion.com/mobilejs/api/global#members:mode)                                            
+Specifies the AutoComplete mode. See[Mode](https://help.syncfusion.com/mobilejs/api/global#members:mode)                                            
 
 #### Default Value: 
 
@@ -789,7 +789,7 @@ Specifies the AutoComplete popup width.
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Changes the rendering mode of the autocomplete. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
+Changes the rendering mode of the autocomplete. See[RenderMode](https://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 #### Default Value: 
 
@@ -858,7 +858,7 @@ Specifies the search result to be shown or not while there is no suggestion for 
 ### sortOrder `Enum`
 {:#members:sortorder}
 
-Specifies the suggestion list sorting order. See[SortOrder](http://help.syncfusion.com/mobilejs/api/global#members:sortorder)
+Specifies the suggestion list sorting order. See[SortOrder](https://help.syncfusion.com/mobilejs/api/global#members:sortorder)
 
 #### Default Value: 
 

@@ -198,7 +198,7 @@ $("#radbtn").ejmRadioButton({ enableRippleEffect: true });
 ### renderMode `Enum`
 {:#members:rendermode}
 
-Specifies the rendering mode of the control. See[RenderMode](http://help.syncfusion.com/mobilejs/api/global#members:rendermode)
+Specifies the rendering mode of the control. See[RenderMode](https://help.syncfusion.com/mobilejs/api/global#members:rendermode)
 
 #### Default Value:
 
