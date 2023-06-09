@@ -7,7 +7,7 @@ control: Password (Mobile)
 documentation: ug
 ---
 
-# Getting started with MobileJS Password(Mobile)
+# Getting started with MobileJS Password
 
 This section describes in brief how you can create an Essential JavaScript Mobile Password Textbox widget.
 
