@@ -1,14 +1,14 @@
 ---
 layout: post
-title: scrolling-settings
-description: scrolling settings
+title: Scrolling settings in JavaScript Dialog Control | Syncfusion
+description: Learn here all about scrolling settings support in Syncfusion Essential JavaScript Dialog control, its elements and more.
 platform: js
 control: Dialog
 documentation: ug
 keywords: dialog, scrolling
 ---
 
-## Scrolling Settings
+# Scrolling Settings in JavaScript Dialog Control
 
 ## AllowScrolling
 
